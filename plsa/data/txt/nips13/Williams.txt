@@ -1,0 +1,300 @@
+On a Connection between Kernel PCA 
+and Metric Multidimensional Scaling 
+Christopher K. I. Williams 
+Division of Informatics 
+The University of Edinburgh 
+5 Forrest Hill, Edinburgh EH1 2QL, UK 
+c. k. i. williamsed. ac. uk 
+http://anc. ed. ac. uk 
+Abstract 
+In this paper we show that the kernel PCA algorithm of SchSlkopf 
+et al (1998) can be interpreted as a form of metric multidimensional 
+scaling (MDS) when the kernel function k(x, y) is isotropic, i.e. it 
+depends only on I I x - yll. This leads to a metric MDS algorithm 
+where the desired configuration of points is found via the solution 
+of an eigenproblem rather than through the iterative optimization 
+of the stress objective function. The question of kernel choice is 
+also discussed. 
+1 Introduction 
+Suppose we are given n objects, and for each pair (i, j) we have a measurement 
+of the "dissimilarity" 5ij between the two objects. In multidimensional scaling 
+(MDS) the aim is to place n points in a low dimensional space (usually Euclidean) 
+so that the interpoint distances dij have a particular relationship to the original 
+dissimilarities. In classical scaling we would like the interpoint distances to be equal 
+to the dissimilarities. For example, classical scaling can be used to reconstruct a 
+map of the locations of some cities given the distances between them. 
+In metric MDS the relationship is of the form dij  f(eij) where f is a specific 
+function. In this paper we show that the kernel PCA algorithm of SchSlkopf et al 
+[7] can be interpreted as performing metric MDS if the kernel function is isotropic. 
+This is achieved by performing classical scaling in the feature space defined by the 
+kernel. 
+The structure of the remainder of this paper is as follows: In section 2 classical and 
+metric MDS are reviewed, and in section 3 the kernel PCA algorithm is described. 
+The link between the two methods is made in section 4. Section 5 describes ap- 
+proaches to choosing the kernel function, and we finish with a brief discussion in 
+section 6. 
+2 Classical and metric MDS 
+2.1 Classical scaling 
+Given n objects and the corresponding dissimilarity matrix, classical scaling is an 
+algebraic method for finding a set of points in space so that the dissimilarities are 
+well-approximated by the interpoint distances. The classical scaling algorithm is 
+introduced below by starting with the locations of n points, constructing a dis- 
+similarity matrix based on their Euclidean distances, and then showing how the 
+configuration of the points can be reconstructed (as far as possible) from the dis- 
+similarity matrix. 
+Let the coordinates ofn points in p dimensions be denoted by xi, i = 1,... , n. These 
+can be collected together in a n x p matrix X. The dissimilarities are calculated 
+by 5ij = (xi- xj) T(xi - xj). Given these dissimilarities, we construct the matrix 
+_  2 and then set B = HAH, where H is the centering 
+A such that aij - - 
+matrix H In  11 T With 
+= -  . 5ij = (xi- xj)T(xi- xj), the construction of B 
+n 
+leads to bij = (xi - )T(xj -- ), where  = ! Y]i= xi. In matrix form we have 
+n 
+B = (HX)(HX) T, and B is real, symmetric and positive semi-definite. Let the 
+eigendecomposition of B be B = VAV 
+matrix whose columns are the eigenvectors of B. If p < n, there will be n - p zero 
+eigenvalues . If the eigenvalues are ordered 
+VpApVp T, where Ap = diag(A,... , Ap) and Vp is the n x p matrix whose columns 
+correspond to the first p eigenvectors of B, with the usual normalization so that 
+the eigenvectors have unit length. The matrix ) of the reconstructed coordinates 
+of the points can be obtained as ) = VpA, with B = ))T. Clearly from the 
+information in the dissimilarities one can only recover the original coordinates up 
+^ 
+to a translation, a rotation and reflections of the axes; the solution obtained for X 
+is such that the origin is at the mean of the n points, and that the axes chosen by 
+the procedure are the principal axes of the ) configuration. 
+It may not be necessary to uses all p dimensions to obtain a reasonable approxi- 
+mation; a configuration ) in k-dimensions can be obtained by using the largest k 
+1 
+eigenvalues so that ) = VkA. These are known as the principal coordinates of X 
+in k dimensions. The fraction of the variance explained by the first k eigenvalues is 
+k n 
+Classical scaling as explained above works on Euclidean distances as the dissimilar- 
+ities. However, one can run the same algorithm with a non-Euclidean dissimilarity 
+matrix, although in this case there is no guarantee that the eigenvalues will be 
+non-negative. 
+Classical scaling derives from the work of Schoenberg and Young and Householder 
+in the 1930's. Expositions of the theory can be found in [5] and [2]. 
+2.1.1 Optimality properties of classical scaling 
+Mardia et al [5] (section 14.4) give the following optimality property of the classical 
+scaling solution. 
+1In fact if the points are not in "general position" the number of zero eigenvalues will 
+be greater than n- p. Below we assume that the points are in general position, although 
+the arguments can easily be carried through with minor modifications if this is not the 
+case. 
+Theorem I Let X denote a configuration of points in 11P, with interpoint distances 
+5i2j - (xi- xj)T(xi- xj). Let L be a p x p rotation matrix and set L - (L,L2), 
+where L is pxk for k < p. Let  = X L , the projection of X onto a k-dimensional 
+subspace ofllP, and let di2j - (i--$rj)T(ri--j). Amongst all projections  - XL, 
+the quantity cp - y.i,j(di2j- i2j) is minimized when X is projected onto its principal 
+coordinates in k dimensions. For all i, j we have dij _< 5ij. The value of cp for the 
+principal coordinate projection is qb = 2n(Ak+ +... + Ap). 
+2.2 Relationships between classical scaling and PCA 
+There is a well-known relationship between PCA and classical scaling; see e.g. Cox 
+and Cox (1994) section 2.2.7. 
+Principal components analysis (PCA) is concerned with the eigendecomposition of 
+the sample covariance matrix $ = XTHX. It is easy to show that the eigenvalues 
+of nS are the p non-zero eigenvalues of B. To see this note that H  = H and 
+thus that nS = (HX)T(HX). Let vi be a unit-length eigenvector of B so that 
+Bvi - Aivi. Premultiplying by (HX)  yields 
+(HX)'(HX)(HX)rvi = Ai(HX)rvi (1) 
+so we see that Ai is an eigenvalue of nS. yi = (HX)Tvi is the corresponding 
+eigenvector; note that T 
+Yi Yi = Ai. Centering X and projecting onto the unit vector 
+i = ,k-/2Yi we obtain 
+HXi A-/HX(HX)rvi '/ 
+= = ^i vi. (2) 
+Thus we see that the projection of X onto the eigenvectors of nS returns the classical 
+scaling solution. 
+2.3 Metric MDS 
+The aim of classical scaling is to find a configuration of points ) so that the in- 
+terpoint distances dij well approximate the dissimilarities 5ij. In metric MDS this 
+criterion is relaxed, so that instead we require 
+dij  f(ij), (3) 
+where f is a specified (analytic) function. For this definition see, e.g. Kruslml and 
+Wish [q] (page 22), where polynomial transformations are suggested. 
+A straightforward way to carry out metric MDS is to define a error function (or 
+stress) 
+$ = Ei, wi(di - 
+Ei, dis ' (4) 
+where the {wij} are appropriately chosen weights. One can then obtain deriva- 
+tives of S with respect to the coordinates of the points that define the dij's and 
+use gradient-based (or more sophisticated methods) to minimize the stress. This 
+method is known as least-squares scaling. An early reference to this kind of method 
+is Sammon (1969) [6], where wj = 1/5j and f is the identity function. 
+Note that if f(dij) has some adjustable parameters 0 and is linear with respect to 0 2, 
+then the function f can also be adapted and the optimal value for those parameters 
+given the current dij's can be obtained by (weighted) least-squares regression. 
+2f can still be a non-line function of its argument. 
+Critchley (1978) [3] (also mentioned in section 2.4.2 of Cox and Cox) carried out 
+metric MDS by running the classical scaling algorithm on the transformed dissim- 
+ilarities. Critchley suggests the power transformation f(dij) - 5j (for/t  0). If 
+the dissimilarities are derived from Euclidean distances, we note that the kernel 
+k(x, is conditionally positive definite (CPD)if/3 _ 2 [1]. When the 
+kernel is CPD, the centered matrix will be positive definite. Critchley's use of the 
+classical scaling algorithm is similar to the algorithm discussed below, but crucially 
+the kernel PCA method ensures that the matrix B derived form the transformed 
+dissimilarities is non-negative definite, while this is not guaranteed by Critchley's 
+transformation for arbitrary 
+A further member of the MDS family is nonmetric MDS (NMDS), also known as 
+ordinal scaling. Here it is only the relative rank ordering between the d's and the 
+that is taken to be important; this constraint can be imposed by demanding that 
+the function f in equation 3 is monotonic. This constraint makes sense for some 
+kinds of dissimilarity data (e.g. from psychology) where only the rank orderings 
+have real meaning. 
+3 Kernel PCA 
+In recent years there has been an explosion of work on kernel methods. For super- 
+vised learning these include support vector machines [8], Gaussian process predic- 
+tion (see, e.g. [10]) and spline methods [9]. The basic idea of these methods is to use 
+the "kernel trick". A point x in the original space is re-represented as a point b(x) 
+in a NF-dimensional feature space 3 F, where b(x) = (b (x), b2(x),... , bNF (x)). 
+We can think of each function bj (.) as a non-linear mapping. The key to the kernel 
+trick is to realize that for many algorithms, the only quantities required are of the 
+form 4 b(xi).b(xj) and thus if these can be easily computed by a non-linear function 
+k(xi,xj) - b(xi).b(xj) we can save much time and effort. 
+SchSlkopf, Smola and Miiller [7] used this trick to define kernel PCA. One could 
+compute the covariance matrix in the feature space and then calculate its eigen- 
+vectors/eigenvalues. However, using the relationship between B and the sample 
+covariance matrix $ described above, we can instead consider the n x n matrix K 
+with entries Kij = k(xi,xj) for i,j = 1,... ,n. If NF  n using K will be more 
+efficient than working with the covariance matrix in feature space and anyway the 
+latter would be singular. 
+n 
+The data should be centered in the feature space so that i= b(xi) = 0. This 
+is achieved by carrying out the eigendecomposition of  = HKH which gives the 
+coordinates of the approximating points as described in section 2.2. Thus we see 
+that the visualization of data by projecting it onto the first k eigenvectors is exactly 
+classical scaling in feature space. 
+4 A relationship between kernel PCA and metric MDS 
+We consider two cases. In section 4.1 we deal with the case that the kernel is 
+isotropic and obtain a close relationship between kernel PCA and metric MDS. If 
+the kernel is non-stationary a rather less close relationship is derived in section 4.2. 
+3For some kernels NF ---- c. 
+4We denote the inner product of two vectors as either a.b or aTb. 
+4.1 Isotropic kernels 
+A kernel function is stationary if k(xi, xj) depends only on the vector - = xi-xj. A 
+stationary covariance function is isotropic if k(xi, xj) depends only on the distance 
+5ij with 5ij - -.-, so that we write k(xi,xj) - r(5ij). Assume that the kernel is 
+scaled so that r(0) - 1. An example of an isotropic kernel is the squared exponential 
+or RBF (radial basis function) kernel k(xi, xj) - exp{-t)(xi- xj)T(xi- xj)}, for 
+some parameter t) ) 0. 
+Consider the Euclidean distance in feature space ij - (qb(xi)- qb(xj)) T (qb(xi)- 
+qb(xj)). With an isotropic kernel this can be re-expressed as ij - 2(1- r(5ij)). 
+Thus the matrix A has elements aij -- r(eij) -- 1, which can be written as A = 
+K -- li T. It can be easily verified that the centering matrix H annihilates li T, so 
+that HAH = HKH. 
+We see that the configuration of points derived from performing classical scaling 
+on K actually aims to approximate the feature-space distances computed as ij - 
+V/2(1-r(5ij)). As the ij's are a non-linear function of the 5ij's this procedure 
+(kernel MDS) is an example of metric MDS. 
+Remark 1 Kernel functions are usually chosen to be conditionally positive definite, 
+so that the eigenvalues of the matrix  will be non-negative. Choosing arbitrary 
+functions to transform the dissimilarities will not give this guarantee. 
+Remark 2 In nonmetric MDS we require that dij  f(eij) for some monotonic 
+function f. If the kernel function r is monotonically decreasing then clearly I - r 
+is monotonically increasing. However, there are valid isotropic kernel (covariance) 
+functions which are non-monotonic (e.g. the exponentially damped cosine r(5) - 
+e -ø5 cos(5); see [11] for details) and thus we see that f need not be monotonic in 
+kernel MDS. 
+Remark 3 One advantage of PCA is that it defines a mapping from the original 
+space to the principal coordinates, and hence that if a new point x arrives, its 
+projection onto the principal coordinates defined by the original n data points can be 
+computed 5. The same property holds in kernel PCA, so that the computation of the 
+projection of qb(x) onto the rth principal direction in feature space can be computed 
+using the kernel trick as -i ok(x, xi), where e r is the rth eigenvector of  (see 
+equation 4.1 in [7]). This projection property does not hold for algorithms that 
+simply minimize the stress objective function; for example the Sammon "mapping" 
+algorithm [6] does not in fact define a mapping. 
+4.2 Non-stationary kernels 
+Sometimes non-stationary kernels (e.g. k(xi,xj) - (1 + xi.xj) m for integer m) 
+are used. For non-stationary kernels we proceed as before and construct ij - 
+(qb(xi)-qb(xj)) T (qb(xi)-qb(xj)). We can again show that the kernel MDS procedure 
+operates on the matrix HKH. However, the distance ij in feature space is not a 
+function of 5ij and so the relationship of equation 3 does not hold. The situation can 
+be saved somewhat if we follow Mardia et al (section 14.2.3) and relate similarities 
+5Note that this will be, in general, different to the solution found by doing PCA on the 
+full data set of n + 1 points. 
+, -, beta = 4 
+I I - ' beta =  0 
+l I .... beta = 20 
+I./  ..' 
+o 
+o õoo looo 1õoo ooo õoo 
+Figure 1: The plot shows 7 as a function of k for various values of fi = 0/256 for 
+the USPS test set. 
+to dissimilarities through /2j = ii "}- jj - 25ij, where 5ij denotes the similarity 
+between items i and j in feature space. Then we see that the similarity in feature 
+space is given by 5ij = qb(xi).qb(xj) = k(xi,xj). For kernels (such as polynomial 
+kernels) that are functions of xi.xj (the similarity in input space), we see then that 
+the similarity in feature space is a non-linear function of the similarity measured in 
+input space. 
+5 Choice of kernel 
+Having performed kernel MDS one can plot the scatter diagram (or Shepard dia- 
+gram) of the dissimilarities against the fitted distances. We know that for each pair 
+the fitted distance dij _< ij because of the projection property in feature space. The 
+sum of the residuals is given by 2n Yik+/ki where the {/k } are the eigenvalues of 
+ = HKH. (See Theorem 1 above and recall that at most n of the eigenvalues of 
+the covariance matrix in feature space will be non-zero.) Hence the fraction of the 
+k n 
+sum-squared distance explained by the first k dimensions is 
+One idea for choosing the kernel would be to fix the dimensionality k and choose 
+r(.) so that -/is maximized. Consider the effect of varying 0 in the RBF kernel 
+k(xi, xj) = exp{-0(xi- xj)T(xi- xj)). (5) 
+As 0 --> oc we have i2j = 2(1 - 5(i,j)) (where 5(i,j) is the Kronecker delta), which 
+are the distances corresponding to a regular simplex. Thus K --> In, HKH = H 
+and "/= k/(n - 1). Letting 0 --> 0 and using e -øz _ 1 - Oz for small 0, we can show 
+that Kij = 1 -Odij as 0 - 0, and thus that the classical scaling solution is obtained 
+in this limit. 
+Experiments have been run on the US Postal Service database of handwritten digits, 
+as used in [7]. The test set of 2007 images was used. The size of each image is 16 x 16 
+pixels, with the intensity of the pixels scaled so that the average variance over all 256 
+dimensions is 0.5. In Figure I "/is plotted against k for various values of fi - 0/256. 
+By choosing an index k one can observe from Figure I what fraction of the variance 
+is explained by the first k eigenvalues. The trend is that as 0 decreases more and 
+more variance is explained by fewer components, which fits in with the idea above 
+that the 0 -  limit gives rise to the regular simplex case. Thus there does not 
+seem to be a non-trivial value of t) which minimizes the residuals. 
+6 Discussion 
+The results above show that kernel PCA using an isotropic kernel function can be 
+interpreted as performing a kind of metric MDS. The main difference between the 
+kernel MDS algorithm and other metric MDS algorithms is that kernel MDS uses 
+the classical scaling solution in feature space. The advantage of the classical scal- 
+ing solution is that it is computed from an eiõenproblem, and avoids the iterative 
+optimization of the stress objective function that is used for most other MDS so- 
+lutions. The classical scaling solution is unique up to the unavoidable translation, 
+rotation and reflection symmetries (assuming that there are no repeated eiõenval- 
+ues). Critchley's work (1978) is somewhat similar to kernel MDS, but it lacks the 
+notion of a projection into feature space and does not always ensure that the matrix 
+B is non-negative definite. 
+We have also looked at the question of adapting the kernel so as to minimize the sum 
+of the residuals. However, for the case investigated this leads to a trivial solution. 
+Acknowledgements 
+I thank David Willshaw, Matthias Seeger and Amos Storkey for helpful conversations, and 
+the anonymous referees whose comments have helped improve the paper. 
+References 
+[1] C. Berg, J.P. R. Christensen, and P. Ressel. Harmonic Analysis on Semigroups. 
+Springer-Verlag, New York, 1984. 
+[2] T. F. Cox and M. A. A. Cox. Multidimensional Scaling. Chapman and Hall, London, 
+1994. 
+[3] F. Critchley. Multidimensionsal scaling: a short critique and a new method. In L. C. A 
+Corsten and J. Hermarts, editors, COMPSTAT 1978. Physica-Verlag, Vienna, 1978. 
+[4] J. B. Kruskal and M. Wish. Multidimensional Scaling. Sage Publications, Beverly 
+Hills, 1978. 
+[5] Mardia, K. V. and Kent, J. T. and Bibby, J. M. Multivariate Analysis. Academic 
+Press, 1979. 
+[6] J. W. Sammort. A nonlinear mapping for data structure analysis. IEEE Trans. on 
+Computers, 18:401-409, 1969. 
+[7] B. SchSlkopf, A. Smola, and K.-R. Mfiller. Nonlinear component analysis as a kernel 
+eigenvalue problem. Neural Computation, 10:1299-1319, 1998. 
+[8] V. N. Vapnik. The nature of statistical learning theory. Springer Verlag, New York, 
+1995. 
+[9] G. Wahba. Spline models for observational data. Society for Industrial and Applied 
+Mathematics, Philadelphia, PA, 1990. CBMS-NSF Regional Conference series in 
+applied mathematics. 
+[10] C. K. I. Williams and D. Barber. Bayesian classification with Gaussian processes. 
+IEEE Transactions on Pattern Analysis and Machine Intelligence, 20(12):1342-1351, 
+1998. 
+[11] A.M. Yaglom. Correlation Theory of Stationary and Related Random Functions 
+Volume I:Basic Results. Springer Verlag, 1987. 

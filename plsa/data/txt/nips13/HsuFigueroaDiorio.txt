@@ -1,0 +1,346 @@
+A silicon primitive for competitive learning 
+David Hsu 
+Miguel Figueroa 
+Computer Science and Engineering 
+The University of Washington 
+114 Sieg Hall, Box 352350 
+Seattle, WA 98195-2350 USA 
+hsud, miguel, diorio @cs.washington.edu 
+Chris Diorio 
+Abstract 
+Competitive learning is a technique for training classification and 
+clustering networks. We have designed and fabricated an l 1- 
+transistor primitive, that we term an automaximizing bump circuit, 
+that implements competitive learning dynamics. The circuit per- 
+forms a similarity computation, affords nonvolatile storage, and 
+implements simultaneous local adaptation and computation. We 
+show that our primitive is suitable for implementing competitive 
+learning in VLSI, and demonstrate its effectiveness in a standard 
+clustering task. 
+1 Introduction 
+Competitive learning is a family of neural learning algorithms that has proved use- 
+ful for training many classification and clustering networks [1]. In these networks, a 
+neuron's synaptic weight vector typically represents a tight cluster of data points. 
+Upon presentation of a new input to the network, the neuron representing the closest 
+cluster adapts its weight vector, decreasing the difference between the weight vector 
+and present input. Details on this adaptation vary for different competitive learning 
+rules, but the general functionality of the synapse is preserved across various com- 
+petitive learning networks. These functions are weight storage, similarity computa- 
+tion, and competitive learning dynamics. 
+Many VLSI implementations of competitive learning have been reported in the lit- 
+erature [2]. These circuits typically use digital registers or capacitors for weight 
+storage. Digital storage is expensive in terms of die area and power consumption; 
+capacitive storage typically requires a refresh scheme to prevent weight decay. In 
+addition, these implementations require separate computation and weight-update 
+phases, increasing complexity. More importantly, neural networks built with these 
+circuits typically do not adapt during normal operation. 
+Synapse transistors [3][4] address the problems raised in the previous paragraph. 
+These devices use the floating-gate technology to provide nonvolatile analog storage 
+and local adaptation in silicon. The adaptation mechanisms do not perturb the opera- 
+tion of the device, thus enabling simultaneous adaptation and computation. Unfortu- 
+nately, the adaptation mechanisms provide dynamics that are difficult to translate 
+into existing neural-network learning rules. Allen et. al. [5] proposed a silicon com- 
+petitive learning synapse that used floating gate technology in the early 90's. How- 
+ever, that approach suffers from asymmetric adaptation due to separate mechanisms 
+for increasing and decreasing weight values. In addition, they neither characterized 
+the adaptation dynamics of their device, nor demonstrated competitive learning with 
+their device. 
+We present a new silicon primitive, the automaximizing bump circuit, that uses 
+synapse transistors to implement competitive learning in silicon. This ll-transistor 
+circuit computes a similarity measure, provides nonvolatile storage, implements 
+local adaptation, and performs simultaneous adaptation and computation. In addi- 
+tion, the circuit naturally exhibits competitive learning dynamics. In this paper, we 
+derive the properties of the automaximizing bump circuit directly from the physics 
+of synapse transistors, and corroborate our analysis with data measured from a chip 
+fabricated in a 0.35gm CMOS process. In addition, experiments on a competitive 
+learning circuit, and software simulations of the learning rule, show that this device 
+provides a suitable primitive for competitive learning. 
+2 Synapse transistors 
+The automaxmizing bump circuit's behavior depends on the storage and adaptation 
+properties of synapse transistors. Therefore this section briefly reviews these de- 
+vices. A synapse transistor comprises a floating-gate MOSFET, with a control gate 
+capacitively coupled to the floating gate, and an associated tunneling implant. The 
+transistor uses floating-gate charge to implement a nonvolatile analog memory, and 
+outputs a source current that varies with both the stored value and the control-gate 
+voltage. The synapse uses two adaptation mechanisms: Fowler-Nordheim tunneling 
+[6] increases the stored charge; impact-ionized hot-electron injection (IHEI) [7] 
+decreases the charge. Because tunneling and IHEI can both be active during normal 
+transistor operation, the synapse enables simultaneous adaptation and computation. 
+A voltage difference between the floating gate and the tunneling implant causes 
+electrons to tunnel from the floating gate, through gate oxide, to the tunneling im- 
+plant. We can approximate this current (with respect to fixed tunneling and floating- 
+gate voltages, Vtun0 and Vg0) as [4]: 
+(AVtu n - AVfg)/V Z 
+/tun = /tun0 e (1) 
+where Ituno and V x are constants that depend on Vtuno and Vgo, and AVtun and AVg are 
+deviations of the tunneling and floating gate voltages from these fixed levels. 
+IHEI adds electrons to the floating gate, decreasing its stored charge. The IHEI 
+current increases with the transistor's source current and drain-to-source voltage; 
+over a small drain-voltage range, we model this dependence as [3][4]: 
+1-U t/V 7 eVsd 
+Iinj = Iinjols (2) 
+where the constant V depends on the VLSI process, and Ut is the thermal voltage. 
+3 Automaximizing bump circuit 
+The automaximizing bump circuit (Fig. 1) is an adaptive version of the classic 
+bump-antibump circuit [8]. It uses synapse transistors to implement the three essen- 
+tial functions of a competitive learning synapse: storage of a weight value At, com- 
+putation of a similarity measure between the input and At, and the ability to move At 
+closer to the input. Both circuits take two inputs, V and V2, and generate three cur- 
+Vdd 
+Vun 
+Vb  t M5 
+T 
+t vfgd O 3 / vfg2 
+Mll  M10 
+V 2 
+]inj 
+(a) 
+x 10" 
+1 
+0 
+0 
+0 
+Ao 
+_ 0 
+0 
+0 
+0 
+0 
+-05 -04 -03 -02 -01 0 01 02 03 04 05 
+V,n (V) 
+(b) 
+Figure 1. (a) Automaximizing bump cir- 
+cuit. M1-M5 form the classic bump- 
+antibump circuit; we added M6-M1 1 and 
+the floating gates. (b) Data showing that 
+the circuit computes a similarity between 
+the input, Vin, and the stored value,/a, for 
+three different stored weights. Fin is rep- 
+resented as V] =+ Vin/2, V2=-Vin/2. 
+rents. The two outside currents, I] and 12, are a measure of the dissimilarity between 
+the two inputs; the center current,/mid, is a measure of their similarity: 
+/mid = lb (l + ) cosh 2 (it AV)) -t (3) 
+where ,;t and c are process and design-dependent parameters, AV is the voltage dif- 
+ference between V and V2, and Ib is a bias current. /mid is symmetric with respect to 
+the difference between V and V2, and approximates a Gaussian centered at AV = 0. 
+We augment the bump-antibump circuit by adding floating gates and tunneling junc- 
+tions to M1-M5, turning them into synapse transistors; M1 and M3 share the same 
+floating gate and tunneling junction, as do M2 and M4. We also add transistors M6- 
+M11 to control IHEI. For convenience, we will refer to our new circuit merely as a 
+bump circuit. The charge stored on the bump circuit's floating gates, Q and Q2, 
+shift Imid'S peak away from AV=0 by an amount determined by their difference. We 
+interpret this difference as the weight,/t, stored by the circuit, and interpret/mid as a 
+similarity measure between the circuit's input and stored weight. 
+Tunneling and IHEI adapt the bump circuit's weight. The circuit is automaximizing 
+because tunneling and IHEI naturally tune the peak of/mid to coincide with the pre- 
+sent input. This high-level behavior coincides with the dynamics of competitive 
+learning; both act to decrease the difference between a stored weight and the applied 
+input. Therefore, no explicit computation of the direction or magnitude of weight 
+updates is necessary--the circuit naturally performs these computations for us. 
+Consequently, we only need to indicate when the circuit should adapt, not how it 
+does adapt. Applying ~ 10V to Vtun and ~0V to Vinj activates adaptation. Applying 
+<8V to Vtu n and >2V to Vinj deactivates adaptation. 
+3.1 Weight storage 
+The bump circuit's weight value derives directly from the charge on its floating- 
+gates. A synapse transistor's floating-gate charge looks, for all practical purposes, 
+like a voltage source, Vs, applied to the control gate. This voltage source has a value 
+Vs = Q/Cin, where Cin is the control-gate to floating-gate coupling capacitance and Q 
+is the floating gate charge. We encode the input to the bump circuit, Vin, as a differ- 
+ential signal: V= Vin/2; and V2 =-Vin/2 (similar results will follow for any symmet- 
+ric encoding of Vin). As a result, /mid computes the similarity between the two float- 
+ing-gate voltages: Vfgl--Vslq-Vin/2, and Vfg2--Vs2- Vin/2 where Vs and Vs2 are the 
+voltages due to the charge stored on the floating gates. We define the bump circuit's 
+weight,/t, as: 
+/t =V2 -V (4) 
+This weight corresponds to the value of Fin that equalizes the two floating-gate volt- 
+ages (and maximizes/mid). Part (b) of Fig. 1 shows the bump circuit's /mid output for 
+three weight values, as a function of the differential input. We see that different 
+stored values change the location of the peak, but do not change the shape of the 
+bump. Because floating gate charge is nonvolatile, the weight is also nonvolatile. 
+The differential encoding of the input makes the bump circuit's adaptation symmet- 
+ric with respect to (Vin-/). Without loss of generality, we can represent Fin as: 
+Fin = Vs2 -Vsl +(Fin--/) 
+(5) 
+If we apply Fin/2 and -Fin/2 to the two input terminals, we arrive at the following 
+two floating-gate voltages: 
+Vfgl = (Vs2 +Vsl +Fin-]./)/2 (6) 
+Vfg 2 = (Vs2 +Vsl -Vin +]./)/2 (7) 
+By reversing the sign of (Vin-/-/), we obtain the same floating-gate voltages on the 
+opposite terminals. Because the floating gate voltages are independent of the sign of 
+(Vin-/t), the bump circuit's learning rule is symmetric with respect to (Vin-/0. 
+3.2 Adaptation 
+We now explore the bump circuit's adaptation dynamics. We define AVfg=Vfg-Vfg2. 
+From Eqs. 4-7, we can see that Vin-/t=AVfg. Consequently, the learning rate, dl#dt, 
+is equivalent to -dAVfg/dt. In our subsequent derivations, we consider only positive 
+AVfg, because adaptation is symmetric (albeit with a change of sign). We show com- 
+plete derivations of the equations in this section in [9]. 
+Tunneling causes adaptation by decreasing the difference between the floating-gate 
+voltages Vfg and Vfg2. Electron tunneling increases the voltage of both floating 
+gates, but, because tunneling increases exponentially with smaller floating-gate 
+voltages (see Eq. 1), tunneling decreases the difference. Assuming that Ml's floating 
+gate voltage is lower than M2's, the change in AVfg due to electron tunneling is: 
+dAVt / dt = -(Itunl - Itun2 ) / Cfg 
+We substitute Eq. 1 into Eq. 8 and solve for the tunneling learning rule: 
+dAVfg /dt: -Ito e(xv-xvø)/v sinh((AVfg -½) / 2Vx ) 
+(8) 
+(9) 
+where It0=Itun0/Cfg, V Z is a model constant, AV0 = (AVfg + AVfg2)/2, and ½ models the 
+tunneling mismatch between synapse transistors. This rule depends on three factors: 
+10  107 10  
+injection data 
+tunneling data 
+fit 
+108 
+o"  o  
+data 
+fit 
+10 10  10 e 
+0 0.1 0.2 0.3 0.4 0.5 0 0.1 0.2 0.3 0.4 0.5 
+,xv (v) ,v (v) 
+(a) (b) 
+Figure 2. (a) Measured adaptation rates, due to tunneling and IHEI, along with fits 
+from Eqs.9 and 11. (b) Composite adaptation rate, along with a fit from (12). We 
+slowed the IHEI adaptation rate (by using a higher Vinj), compared with the data 
+from part (a), to cause better matching between tunneling and IHEI. 
+a controllable learning rate, AVtun; the difference between Fin and/t, AVfg; and the 
+average floating gate voltage, AV0. 
+The circuit also uses IHEI to decrease AVfg. We bias the bump circuit so that only 
+transistors M1 and M2 exhibit IHEI. According to Eq.2, IHEI depends linearly on a 
+transistor's source current, but exponentially on its source-to-drain voltage. Conse- 
+quently, we decrease AVfg by controlling the drain voltages at M1 and M2. Coupled 
+current mirrors (M6-M7 and M8-M9) at the drains of M1 and M2, simultaneously 
+raise the drain voltage of the transistor that is sourcing a larger current, and lower 
+the drain voltage of the transistor that is sourcing a smaller current. The transistor 
+with the smaller source current will experience a larger Vsd, and thus exponentially 
+more IHEI, causing its source current to rapidly increase. Diodes (M10 and Mll) 
+further increase the drain voltage of the transistor with the larger current, further 
+reducing its IHEI. The net effect is that IHEI acts to equalize the currents, and, like- 
+wise, the floating gate voltages. Recently Hasler proposed a similar method for 
+controlling IHEI in a floating gate differential pair [4]. 
+Assuming I >12, the change in AVfg due to IHEI is: 
+dAVfg / dt = -(Iinj2 - Iinjl) / Cfg (10) 
+We expand the learning rule by substituting Eq. 2 into Eq. 10. To compute values for 
+the drain voltages of M and M2, we assume that all of I flows through M11 and all 
+of 12 flows through M7. The IHEI learning rule is given below: 
+dAYfg/dr = -/jo e [e 1[ Vfg) eqViJ(I:)2(AYfg)) (11) 
+where Ij0=/inj0/Cfg, Z'=-2/<V, r/=-l/V, and '=K/V. dp and alp2 are given by: 
+dPl(AVfg): ((Ib-Imid)/2cøsh(rAVfg/2Ut)) 1-2Ut/rVv e-Cø/XVfg (12) 
+di)2(AVfg ) = ((lb--lmid)/2cosh(KAVfg/2Ut))e-øZXVfg(1-e ) (13) 
+where rr =(1-Ut/V7)K/2Ut, and co =K/2Ut-K/2V7-1/V 7. Like tunneling, the IHEI 
+rule depends on three factors: a controllable learning rate, Vinj; the difference be- 
+tween Fin and/t, AVfg; and AV0. Part (a) of Fig. 2 shows measurements of dAVfg/dt 
+versus AVfg due to tunneling and IHEI, along with fits to Eqs. 9 and 11 respectively. 
+IHEI and tunneling facilitate adaptation by adding and removing charge from the 
+floating gates, respectively. Isolated, any of these mechanisms will eventually drive 
+the bump circuit out of its operating range. In order to obtain useful adaptation, we 
+need to activate both mechanisms at the same time. There is an added benefit to 
+combining tunneling and IHEI: Part (a) Fig 2 shows that tunneling acts more 
+strongly for smaller values of AVfg, while IHEI shows the opposite behavior. The 
+mechanisms complement each other, providing adaptation over more than a 1 V range 
+in AVfg. We combine Eq. 9 and Eq. 11 to derive the bump learning rule: 
+-dAVfg /dt itoeOXV -ZXVo)/Vx sinh((AVfg -½) / 2Vx) +Ijo eCvø xaj 
+= (e CI)l (AVfg) - e cI)2 (AVfg))(14) 
+Part (b) of Fig. 2 illustrates the composite weight-update dynamics. When AVfg is 
+small, adaptation is primarily driven by IHEI, while tunneling dominates for larger 
+values of AVfg. 
+The bump learning rule is unlike any learning rule that we have found in the litera- 
+ture. Nevertheless, it exhibits several desirable properties. First, it naturally moves 
+the bump circuit's weight towards the present input. Second, the weight update is 
+symmetric with respect to the difference between the stored value and the present 
+input. Third, we can vary the weight-update rate over many orders of magnitude by 
+adjusting Vtun and Vinj. Finally, because the bump circuit uses synapse transistors to 
+perform adaptation, the circuit can adapt during normal operation. 
+4 Competitive learning with bump circuits 
+We summarize the results of simulations of the bump learning rule and also results 
+from a competitive learning circuit fabricated in the TSMC 0.35 gm process below. 
+For further details consult [9]. We first compared the performance of a software 
+neural network on a standard clustering task, using the bump learning rule (fitted to 
+data from Fig. 2), and a basic competitive learning rule (learning rate p=0.01): 
+d/ / dt = p x (lin -p) (15) 
+We trained both networks on data drawn from a mixture of 32 Gaussians, in a 32- 
+dimensional space. The Gaussian means were drawn from the interval [0,1] and the 
+covariance matrix was the diagonal matrix 0.1*I. On an input presentation, the net- 
+work updated the weight vector of the closest neuron using either the bump learning 
+rule, or Eq. 15. We measured the performance of the two learning rules by evaluat- 
+ing the coding error of each trained network, on a test set drawn from the same dis- 
+tribution as the training data. The coding error is the sum of the squared distances 
+between each test point and its closest neuron. Part (a) of Fig. 3 shows that the 
+bump circuit's rule performs favorably with the hard competitive learning rule. 
+Our VLSI circuit (Part (b) of Fig. 3) comprised two neurons with a one-dimensional 
+input (a neuron was a single bump circuit), and a feedback network to control adap- 
+tation. The feedback network comprised a winner-take-all (WTA) [10] that detected 
+which bump was closest to the present input, and additional circuitry [9] that gener- 
+ated Vtun and Vinj from the WTA output. We tested this circuit on a clustering task, 
+to learn the centers of a mixture of two Gaussians. In part (c) of Fig. 3, we compare 
+the performance of our circuit with a simulated neural network using Eq. 15. The 
+VLSI circuit performed comparably with the neural network, demonstrating that our 
+bump circuit, in conjunction with simple feedback mechanisms, can implement 
+competitive learning in VLSI. We can generalize the circuitry to multiple dimen- 
+sions (multiple bump circuits per neuron) and multiple neurons; each neuron only 
+requires one Vtun and Vinj signal. 
+2.6 
+2.2 
+1.8 
+10 4 
++ Hard competitive learning rule 
+o bump learning rule 
+o+ 
+øto++oo+++ + 
+00000000000 
+1 0 1000 2000 3000 4000 5000 6000 
+number of training examples 
+(a) 1 
+O9 
+Figure 3. (a) Comparison of a neural 
+network using the bump learning rule o8 
+versus a standard competitive learning o7 
+rule. We drew the training data from a  o6 
+mixture of thirty-two Gaussians, and 0 o5 
+averaged the results over ten trials. (b) A ½ o4 
+competitive learning circuit. (c) Per- o3 
+formance of a competitive learning cir- o2 
+cuit versus a neural network for learning 
+a mixture of two Gaussians. 
+o 
+o 
+Acknowledgements 
+input X 
+circuits 
+I Winner-take-all I 
+feedback 
+circuitry 
+(Vtunl,Vmj 1) (Vtun2,Vinj2) 
+(b) 
+ß -'+*' +'' ','*' '*,"-+..+--,+-* ' ' +'-- 
+/ 
+target values -- 
+i + circuit output q- 
+I + o 
+, + neural network output -- -- 
+500 1000 1500 2000 2500 3000 3500 4000 4500 
+number of training examples 
+(c) 
+This work was supported by the NSF under grants BES 9720353 and ECS 9733425, 
+and by a Packard Foundation Fellowship. 
+References 
+[1] M.A. Arbib (ed.), The Handbook of Brain Theory and Neural Networks, Cambridge, MA: The 
+MIT Press, 1995. 
+[2] H.C. Card, D.K. McNeill, and C.R. Schneider, "Analog VLSI circuits for competitive learning 
+networks", in Analog Integrated Circuits and Signal Processing, 15, pp. 291-314, 1998. 
+[3] C. Diorio, "A p-channel MOS synapse transistor with self-convergent memory writes", IEEE 
+Transactions on Electron Devices, vol. 47, no. 2, pp 464-472, 2000. 
+[4] P. Hasler, "Continuous-Time Feedback in Floating-Gate MOS Circuits," to appear in IEEE 
+Transactions on Circuits and Systems H, Feb. 2001 
+[5] T. Allen et. al, "Electrically adaptable neural network with post-processing circuitry," U.S. 
+Patent No. 5,331,215, issued July 19, 1994. 
+[6] M. Lenzlinger and E.H. Snow, "Fowler-Nordheim tunneling into thermally grown Si02", 
+Journal of Applied Physics, vol. 40(1), pp. 278-283, 1969. 
+[7] E. Takeda, C. Yang, and A. Miura-Hamada, Hot Carrier Effects in MOS Devices, San Diego, 
+CA: Academic Press, 1995. 
+[8] T. Delbruck, "Bump circuits for computing similarity and dissimilarity of analog voltages", 
+CNS Memo 26, California Institute of Technology, 1993. 
+[9] D. Hsu, M. Figueroa, and C. Diorio, "A silicon primitive for competitive learning," UW CSE 
+Technical Report no. 2000-07-01, 2000. 
+[10] J. Lazzaro, S. Ryckebusch, M.A. Mahowald, and C.A. Mead, "Winner-take-all networks of 
+O(n) complexity", in Advances in Neural Information Processing Systems, San Mateo, CA: 
+Morgan Kaufman, vol. 1, pp 703-711, 1989. 

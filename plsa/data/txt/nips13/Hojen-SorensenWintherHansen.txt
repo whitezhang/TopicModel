@@ -1,0 +1,318 @@
+Ensemble Learning and Linear Response Theory 
+for ICA 
+Pedro A.d.F.R. H0jen-S0rensen x, Ole Winther 2 , Lars Kai Hansen x 
+Department of Mathematical Modelling, Technical University of Denmark B321 
+DK-2800 Lyngby, Denmark, pts, J_ktansen@ 5_rata. d:u. dk 
+2Theoretical Physics, Lund University, S61vegatan 14 A 
+S-223 62 Lund, Sweden, winther@nimi s. thep. lu. se 
+Abstract 
+We propose a general Bayesian framework for performing independent 
+component analysis (ICA) which relies on ensemble learning and lin- 
+ear response theory known from statistical physics. We apply it to both 
+discrete and continuous sources. For the continuous source the underde- 
+termined (overcomplete) case is studied. The naive mean-field approach 
+fails in this case whereas linear response theory-which gives an improved 
+estimate of covariances-is very efficient. The examples given are for 
+sources without temporal correlations. However, this derivation can eas- 
+ily be extended to treat temporal correlations. Finally, the framework 
+offers a simple way of generating new ICA algorithms without needing 
+to define the prior distribution of the sources explicitly. 
+1 Introduction 
+Reconstruction of statistically independent source signals from linear mixtures is an active 
+research field. For historical background and early references see e.g. [1]. The source 
+separation problem has a Bayesian formulation, see e.g., [2, 3] for which there has been 
+some recent progress based on ensemble learning [4]. 
+In the Bayesian framework, the covariances of the sources are needed in order to estimate 
+the mixing matrix and the noise level. Unfortunately, ensemble learning using factorized 
+trial distributions only treats self-interactions correctly and trivially predicts: (SiS'i) - 
+(Si)(Sj) = 0 for i  j. This naive mean-field (NMF) approximation first introduced in 
+the neural computing context by Ref. [5] for Boltzmann machine learning may completely 
+fail in some cases [6]. Recently, Kappen and Rodrfguez [6] introduced an efficient learning 
+algorithm for Boltzmann Machines based on linear response (LR) theory. LR theory gives 
+a recipe for computing an improved approximation to the covariances directly from the 
+solution to the NMF equations [7]. 
+Ensemble learning has been applied in many contexts within neural computation, e.g. for 
+sigmoid belief networks [8], where advanced mean field methods such as LR theory or 
+TAP [9] may also be applicable. In this paper, we show how LR theory can be applied 
+to independent component analysis (ICA). The performance of this approach is compared 
+to the NMF approach. We observe that NMF may fail for high noise levels and binary 
+sources and for the underdetermined continuous case. In these cases the NMF approach 
+ignores one of the sources and consequently overestimates the noise. The LR approach on 
+the other hand succeeds in all cases studied. 
+The derivation of the mean-field equations are kept completely general and are thus valid 
+for a general source prior (without temporal correlations). The final eqs. show that the 
+mean-field framework may be used to propose ICA algorithms for which the source prior 
+is only defined implicitly. 
+2 Probabilistic ICA 
+Following Ref. [10], we consider a collection of N temporal measurements, X = {Xat}, 
+where Xat denotes the measurement at the dth sensor at time t. Similarly, let $ = {S,v,t} 
+denote a collection of M mutually independent sources where $,v,. is the ruth source which 
+in general may have temporal correlations. The measured signals X are assumed to be an 
+instantaneous linear mixing of the sources corrupted with additive Gaussian noise r, that 
+is, 
+x = AS + r, (1) 
+where A is the mixing matrix. Furthermore, to simplify this exposition the noise is assumed 
+to be lid Gaussian with variance cr 2. The likelihood of the parameters is then given by, 
+P(XlA, c? ) - / dSP(XlA, a2, S) P(S), (2) 
+where P($) is the prior on the sources which might include temporal correlations. We 
+will, however, throughout this paper assume that the sources are temporally uncorrelated. 
+We choose to estimate the mixing matrix A and noise level cr 2 by Maximum Likelihood 
+(ML-II). The saddlepoint of P(XIA, cr 2) is attained at, 
+OløgP(XlA'cr2) =0 ß A = X(S)r(SSr) - (3) 
+0A 
+0 log P(XIA , cr 
+Ocr2 - DN(Tr(X- As)T(x- AS)), 
+where (.) denotes an average over the posterior and D is the number of sensors. 
+(4) 
+3 Mean field theory 
+First, we derive mean field equations using ensemble learning. Secondly, using linear 
+response theory, we obtain improved estimates of the off-diagonal terms of (SS T) which 
+are needed for estimating A and cr 2 . The following derivation is performed for an arbitrary 
+source prior. 
+3.1 Ensemble learning 
+We adopt a standard ensemble learning approach and approximate 
+P(SIX, A,a 2) = P(XIA'a2'S)P(S) (5) 
+P(XIA, a 2 ) 
+in a family of product distributions Q(S) = 1-lint Q($mt). It has been shown in Ref. [11] 
+that for a Gaussian P(XIA, or2, S), the optimal choice of Q(Smt) is given by a Gaussian 
+times the prior: 
+Q(Smt) = 'tømtT (6) 
+f dSP(S)e xr*s2+Tr*s 
+In the following, it is convenient to use standard physics notation to keep everything as 
+general as possible. We therefore parameterize the Gaussian as, 
+P(XIA, a2, S) = P(XIJ, h, S) = Ce- Wr(STJS)+Tr(hTs) , (7) 
+where J = -ATA/cr 2 is the M x M interaction matrix and h = ATX/cr 2 has the same 
+dimensions as the source matrix $. Note that h acts as an external field from which we can 
+obtain all moments of the sources. This is a property that we will make use of in the next 
+section when we derive the linear response corrections. The Kullback-Leibler divergence 
+between the optimal product distribution Q ($) and the true source posterior is given by 
+Q(S) = In P(XIA, a 2) - In P(XIA , cr 2) (8) 
+KL = dSQ(S)lnp(siX, A, a2 ) 
+1 
+lnP(XIA, a 2) = Elog dSP(S)e 21--'mtS2-l-?mtS q_  E (Jmm -- /mt)(S2mt) 
+mt mt 
+1 
++ Tr(ST)(J -- diag(J)(S) + Tr(h - )T(s) + In C, (9) 
+where P(XIA, is the naive mean field approximation to the Likelihood and diaõ(J) is 
+the diagonal matrix of J. The saddlepoints define the mean field equations; 
+OKL 
+--=0 ß =h+(J-diag(J)){S} (10) 
+OKL 
+=0 ß mt = Jmm . (11) 
+O(Smt) 
+The remaining two equations depend explicitly on the source prior, P($); 
+OKL 3 log 
+3mt = 0 ß (Smt} = 3mt 
+mt) 
+(12) 
+(13) 
+OKL /  
+Omt = 0 ß (Smt/= ____a log Smt?(Smt) m'Smt+m'sm' 
+Omt 
+In section 4, we calculate f(fmt, Amt) for some of the prior distributions found in the ICA 
+literature. 
+3.2 Linear response theory 
+As mentioned already, h acts as an external field. This makes it possible to calculate the 
+means and covariances as derivatives of log P(XIJ , h), i.e. 
+0 log P(XlJ, h) (14) 
+{Smt) = Ohmt 
+xtt' 
+ram'---- (SmtSm't') - (Smt)(Sm,t,) - 
+02 log P(XIJ, h) 
+Ohm,t, Ohmt Ohm,t, 
+= (15) 
+tt' 
+To derive an equation for Xram', we use eqs. (10), (1 l) and (12) to get 
+xtt' 
+ram' 
+O f ( ?mt, ,)mt ) 
+Offmt Ohm't' 
+Of("/mt,mt) ( 
+= O"/mt 
+m"m"m 
+) 
+Zmm" Xm"m' q- (mm' 
+8tt, ß (16) 
+2 
+1 
+0 2 -42 0 2 -2 0 
+X X X 
+Figure 1: Binary source recovery for low noise level (M = 2, D = 2). Shows from left 
+to right: +/- the column vectors of; the true A (with the observations superimposed); the 
+estimated A (NMF); estimated A (LR). 
+0.5 
+><m 0 
+-0.5 
+0.5 
+><m 0 
+-0.5 
+0.4 
+0.3 
+0.2 
+0.1 
+-0.5 0 0.5 -0.5 0 0.5 20 
+X 1 X 1 iteration 
+40 
+Figure 2: Binary source recovery for low noise level (M = 2, D = 2). Shows the dynamics 
+of the fix-point iterations. From left to right; +/- the column vectors of A (NMF); +/- the 
+column vectors of A (LR); variance 0-2 (solid:NMF, dashed:LR, thick dash-dotted: the true 
+empirical noise variance). 
+We now see that the x-matrix factorizes in time  tt' t 
+xrara, -- (tt'Xrara,. This is a direct conse- 
+quence of the fact that the model has no temporal correlations. The above equation is linear 
+and may straightforwardly be solved to yield 
+* a) , (17) 
+Xmm / -- _ mm / 
+where we have defined the diagonal matrix 
+( ' , ) 
+A t = diag Of(xt,Xxt) q- Jll,--- , Of(Mt,XMt) q- JMM 
+Oh'it Oh'M 
+At this point is appropriate to explain why linear response theory is more precise than us- 
+ing the factorized distribution which predicts t 
+Xram' -- 0 for non-diagonal termsß Here, 
+we give an argument that can be found in Parisi's book on statistical field theory [7]' 
+Let us assume that the approximate and exact distribution is close in some sense, i.e. 
+Q(S) - P(SIX, A,a" ) =, then (SmtSm,t)ex -- (SmtSm,t)ap q- O(e). Mean field the- 
+ory gives a lower bound on the log-Likelihood since KL, eq. (8) is non-negaitive. Conse- 
+quently, the linear term vanishes in the expansion of the log-Likelihood: log ?(XIA, 0 '2) -- 
+log P(XIA, 0-") + O½"). It is therefore more precise to obtain moments of the variables 
+through derivatives of the approximate log-Likelihood, i.e. by linear responseß 
+A final remark to complete the picture: if diag(J) in equation eq. (10) is exchanged with 
+A t = diag(At,... , Mt) and likewise in the definition of A t above we get TAP equations 
+[9] The TAP equation for Amt is t Of(%,,Xr,) = [(A t _ j)_] 
+2 
+1 
+0 2 -42 0 2 -2 0 
+X X X 
+Figure 3: Binary source recovery for high noise level (M = 2, D = 2). Shows from left 
+to right: +/- the column vectors of; the true A (with the observations superimposed); the 
+estimated A (NMF); estimated A (LR). 
+0.5 
+><m 0 
+-0.5 
+x 
+x 
+0.5 
+-0.5 
+-0.5 0 0.5 -0.5 0 0.5 
+X 1 X 1 
+0.7 
+0.6 
+0.5 
+o.4 
+0.3 
+0.2 
+200 400 600 
+iteration 
+Figure 4: Binary source recovery for high noise level (M = 2, D = 2). Same plot as in 
+figure 2. 
+4 Examples 
+In this section we compare the LR approach and the NMF approach on the noisy ICA 
+model. The two approaches are demonstrated using binary and continous sources. 
+4.1 Binary source 
+Independent component analysis of binary sources (e.g. studied in [12]) is considered for 
+data transmission using binary modulation schemes such as MSK or biphase (Manchester) 
+codes. Here, we consider a binary source $,t 6 {-1, 1 } with prior distribution P(S,t) = 
+[6(S, - 1) + 6(S, + 1)]. In this case we get the well known mean field equations 
+rnt) = tanh(?mt). Figures 1 and 2 show the results of the NMF approach as well as LR 
+approach in a low-noise variance setting using two sources (M = 2) and two sensors (D = 
+2). Figures 3 and 4 show the same but in a high-noise setting. The dynamical plots show 
+the trajectory of the fix-point iteration where 'x' marks the starting point and 'o' the final 
+point. Ideally, the noise-less measurements would consist of the four combinations (with 
+signs) of the columns in the mixing matrix. However, due to the noise, the measurement 
+will be scattered around these "prototype" observations. 
+In the low-noise level setting both approaches find good approximations to the true mixing 
+matrix and sources. However, the convergence rate of the LR approach is found to be fasten 
+For high-noise variance the NMF approach fails to recover the true statistics. It is seen that 
+one of the directions in the mixing matrix vanishes which in turn results in overestimating 
+the noise variance. 
+1ø 1 ß 
+-5 0 5 
+X 1 
+2 -2 0 
+X 1 
+0 
+X 1 
+Figure 5: Overcomplete continuous source recovery with M = 3 and D = 2. Shows 
+from left to right: the observations, +/- the column vectors of; the true A; the estimated A 
+(NMF); estimated A (LR). 
+2 
+1 
+x 2 
+x x >< o 
+x 
+x 
+2.5 
+2 
+1.5 
+0.5 
+0 2 -2 0 2 0 1000 2000 
+X 1 X 1 iteration 
+Figure 6: Overcomplete continuous source recovery with M = 3 and D = 2. Same plot as 
+in figure 2. Note that the initial iteration step for A is very large. 
+4.2 Continuous Source 
+To give a tractable example which illustrates the improvement by LR, we consider the 
+Gaussian prior P(Smt) cr exp(-aSt/2 ) (not suitable for source separation). This leads 
+to f(?mt, Amt) = %t/(a - Amt). Since we have a factorized distribution, ensemble 
+learning predicts (SmtSm't') - (Smt)(Sm,t,) = 6mm'6tt'(a- Amt) - = 6mm'6tt'(a- 
+Jmm) -, where the second equality follows from eq. (11). Linear response eq. (17) gives 
+($mtSm't') - ($mt)($m't') = 6tt' [(aI - J)-]mm' which is identical with the exact 
+result obtained by direct integration. 
+ [1], it is not possible to derive 
+For the popular choice of prior P(Smt) = cosh 
+f(fmt, Amt) analytically. However, f (fret, Amt) can be calculated analytically for the 
+very similar Laplace distribution. Both these examples have positive kurtosis. 
+Mean field equations for negative kurtosis can be obtained using the prior P(Smt) 
+exp(-($mt - It)22) + exp(-(Smt + It)22) [1] leading to 
+(qmt) -- 1 - Amt /mt +/tanh ,1 - Amt 
+Figure 5 and 6 show simulations using this source prior with It = 1 in an overcomplete 
+setting with D = 2 and M = 3. Note that It = 1 yields a unimodal source distribution 
+and hence qualitatively different from the bimodal prior considered in the binary case. In 
+the overcomplete setting the NMF approach fails to recover the true sources. See [13] for 
+further discussion of the overcomplete case. 
+5 Conclusion 
+We have presented a general ICA mean field framework based upon ensemble learning 
+and linear response theory. The naive mean-field approach (pure ensemble learning) fails 
+in some cases and we speculate that it is incapable of handling the overcomplete case 
+(more sources than sensors). Linear response theory, on the other hand, succeeds in all the 
+examples studied. 
+There are two directions in which we plan to extend this work: (1) to sources with temporal 
+correlations and (2) to source models defined not by a parametric source prior, but directly 
+in terms of the function f, which defines the mean field equations. Starting directly from 
+the f-function makes it possible to test a whole range of implicitly defined source priors. 
+A detailed analysis of a large selection of constrained and unconstrained source priors as 
+well as comparisons of LR and the TAP approach can be found in [14]. 
+Acknowledgments 
+PHS wishes to thank Mike Jordan for stimulating discussions on the mean field and vari- 
+ational methods. This research is supported by the Swedish Foundation for Strategic Re- 
+search as well as the Danish Research Councils through the Computational Neural Network 
+Center (CONNECT) and the THOR Center for Neuroinformatics. 
+References 
+[1] T.-W. Lee: Independent Component Analysis, Kluwer Academic Publishers, Boston (1998). 
+[2] A. Belouchrani and J.-F. Cardoso: Maximum Likelihood Source Separation by the Expectation- 
+Maximization Technique: Deterministic and Stochastic Implementation In Proc. NOLTA, 49-53 
+(1995). 
+[3] D. MacKay: Maximum Likelihood and Covariant Algorithms for Independent Components' 
+Analysis. "Draft 3.7" (1996). 
+[4] H. Lappalainen and J.W. Miskin: Ensemble Learning, Advances in Independent Component 
+Analysis, Ed. M. Girolami, In press (2000). 
+[5] C. Peterson and J. Anderson: A Mean Field Theory Learning Algorithm for Neural Networks', 
+Complex Systems 1,995-1019 (1987). 
+[6] H. J. Kappen and F. B. Rodrfguez: Efficient Learning in Boltzmann Machines Using Linear 
+Response Theory, Neural Computation 10, 1137-1156 (1998). 
+[7] G. Parisi: Statistical Field Theory, Addison Wesley, Reading Massachusetts (1988). 
+[8] L. K. Saul, T. Jaakkola and M. I. Jordan: Mean Field Theory of Sigmoid Belief Networks', 
+Journal of Artificial Intelligence Research 4, 61-76 (1996). 
+[9] M. Opper and O. Winther: Tractable Approximations for Probabilistic Models: The Adaptive 
+TAP Mean Field Approach, Submitted to Phys. Rev. Lett. (2000). 
+[10] L.K. Hansen: Blind Separation of Noisy Image Mixtures, Advances in Independent Component 
+Analysis, Ed. M. Girolami, In press (2000). 
+[11] L. Csat6, E. Fokou6, M. Opper, B. Schottky and O. Winther: Efficient Approaches to Gaussian 
+Process Classification, in Advances in Neural Information Processing Systems 12 (NIPS'99), 
+Eds. S. A. Solla, T. K. Leen, and K.-R. Miiller, MIT Press (2000). 
+[12] A.-J. van der Veen: Analytical Method for Blind Binary Signal Separation IEEE Trans. on 
+Signal Processing 45(4) 1078-1082 (1997). 
+[13] M. S. Lewicki and T. J. Sejnowski: Learning Overcomplete Representations, Neural Computa- 
+tion 12, 337-365 (2000). 
+[14] P.A.d.F.R. H0jen-S0rensen, O. Winther and L. K. Hansen: Mean Field Approaches to Inde- 
+pendent Component Analysis, In preparation. 

@@ -1,0 +1,316 @@
+Algorithmic Stability and Generalization 
+Performance 
+Olivier Bousquet 
+CMAP 
+Ecole Polytechnique 
+F-91128 Palaiseau cedex 
+FRANCE 
+bousquetcmapx.polytechnique.fr 
+Andr Elisseeff* 
+Barnhill Technologies 
+6709 Waters Avenue 
+Savannah, GA 31406 
+USA 
+andrebarnhilltechnologies. com 
+Abstract 
+We present a novel way of obtaining PAC-style bounds on the gen- 
+eralization error of learning algorithms, explicitly using their stabil- 
+ity properties. A stable learner is one for which the learned solution 
+does not change much with small changes in the training set. The 
+bounds we obtain do not depend on any measure of the complexity 
+of the hypothesis space (e.g. VC dimension) but rather depend on 
+how the learning algorithm searches this space, and can thus be 
+applied even when the VC dimension is infinite. We demonstrate 
+that regularization networks possess the required stability property 
+and apply our method to obtain new bounds on their generalization 
+performance. 
+I Introduction 
+A key issue in computational learning theory is to bound the generalization error of 
+learning algorithms. Until recently, most of the research in that area has focused on 
+uniform a-priori bounds giving a guarantee that the difference between the training 
+error and the test error is uniformly small for any hypothesis in a given class. 
+These bounds are usually expressed in terms of combinatorial quantities such as VC- 
+dimension. In the last few years, researchers have tried to use more refined quantities 
+to either estimate the complexity of the search space (e.g. covering numbers [1]) 
+or to use a posteriori information about the solution found by the algorithm (e.g. 
+margin [11]). There exist other approaches such as observed VC dimension [12], but 
+all are concerned with structural properties of the learning systems. In this paper 
+we present a novel way of obtaining PAC bounds for specific algorithms explicitly 
+using their stability properties. The notion of stability, introduced by Devroye 
+and Wagner [4] in the context of classification for the analysis of the Leave-one- 
+out error and further refined by Kearns and Ron [8] is used here in the context 
+of regression in order to get bounds on the empirical error rather than the leave- 
+one-out error. This method has the nice advantage of providing bounds that do 
+*This work was done while the author was at Laboratoire ERIC, Universit Lumire 
+Lyon 2, 5 avenue Pierre Mendes-France, F-69676 Bron cedex, FRANCE 
+not depend on any complexity measure of the search space (e.g. VC-dimension or 
+covering numbers) but rather on the way the algorithm searches this space. In that 
+respect, our approach can be related to Freund's [7] where the estimated size of the 
+subset of the hypothesis space actually searched by the algorithm is used to bound 
+its generalization error. However Freund's result depends on a complexity term 
+which we do not have here since we are not looking separately at the hypotheses 
+considered by the algorithm and their risk. 
+The paper is structured as follows: next section introduces the notations and the 
+definition of stability used throughout the paper. Section 3 presents our main result 
+as a PAC-like theorem. In Section 4 we will prove that regularization networks are 
+stable and apply the main result to obtain bounds on their generalization ability. 
+A discussion of the results will be presented in Section 5. 
+2 Notations and Definitions 
+ and  being respectively an input and an output space, we consider a learning 
+set q - {zl - (xl,y),..,Zm - (Xm,Ym)} of size m in ; --  x  drawn i.i.d. from 
+an unknown distribution D. A learning algorithm is a function L from m into 
+c mapping a learning set q onto a function f$ from  to . To avoid complex 
+notations, we consider only deterministic algorithms. It is also assumed that the 
+algorithm A is symmetric with respect to q, i.e. for any permutation over the 
+elements of q, f$ yields the same result. Furthermore, we assume that all functions 
+are measurable and all sets are countable which does not limit the interest of the 
+results presented here. 
+The empirical error of a function f measured on the training set q is: 
+Rm(f) = I  
+m C(f, Zi) 
+i=1 
+c: x x 2J x  - 11 + being a cost function. The risk or generalization error can be 
+written as: 
+The study we describe here intends to bound the difference between empirical and 
+generalization error for specific algorithms. More precisely, our goal is to bound for 
+any e > O, the term 
+PSooDm [IRm(fS)- R(fs)l > ] (1) 
+Usually, learning algorithms cannot output just any function in x but rather pick 
+a function fs in a set 9  C x representing the structure or the architecture or the 
+model. Classical VC theory deals with structural properties and aims at bounding 
+the following quantity: 
+PSiDIn [suP IRm(f) - R(f)l > e] 
+LSe 
+(2) 
+This applies to any algorithm using 9  as a hypothesis space and a bound on this 
+quantity directly implies a similar bound on (1). However, classical bounds require 
+the VC dimension of 9 c to be finite and do not use information about algorithmic 
+properties. For a set 9 c, there exists many ways to search it which may yield different 
+performance. For instance, multilayer perceptrons can be learned by a simple back- 
+propagation algorithm or combined with a weight decay procedure. The outcome 
+of the algorithm belongs in both cases to the same set of functions, although their 
+performance can be different. 
+VC theory was initially motivated by empirical risk minimization (ERM) in which 
+case the uniform bounds on the quantity (2) give tight error bounds. Intuitively, 
+the empirical risk minimization principle relies on a uniform law of large numbers. 
+Because it is not known in advance, what will be the minimum of the empirical 
+risk, it is necessary to study the difference between empirical and generalization 
+error for all possible functions in 9 . If, now, we do not consider this minimum, but 
+instead, we focus on the outcome of a learning algorithm .4, we may then know a 
+little bit more what kind of functions will be obtained. This limits the possibilities 
+and restricts the supremum over all the functions in 9  to the possible outcomes of 
+the algorithm. An algorithm which always outputs the null function does not need 
+to be studied by a uniform law of large numbers. 
+Let's introduce a notation for modified training sets: if $ denotes the initial 
+training set, q = {zl,... ,zi-l,zi, zi+,... ,Zm}, then qi denotes the training 
+ that is qi _ 
+set after zi has been replaced by a different training example zi, - 
+{z,... , zi-, z i, zi+,... , Zm}. Now, we define a notion of stability for regression. 
+Definition I (Uniform stability) Let $ = {zl,..., Zm} be a training set, $i = 
+$\zi be the training set where instance i has been removed and A a symmetric 
+algorithm. We say that A is/?-stable if the following holds: 
+(3) 
+This condition expresses that for any possible training set $ and any replacement 
+ the difference in cost (measured on any instance in ;) incurred by the 
+example 
+learning algorithm when training on q and on qi is smaller than some constant 
+3 Main result 
+A stable algorithm,i. e. /?-stable with a small/?, has the property that replacing one 
+element in its learning set does not change much its outcome. As a consequence, 
+the empirical error, if thought as a random variable, should have a small variance. 
+Stable algorithms can then be good candidates for their empirical error to be close 
+to their generalization error. This assertion is formulated in the following theorem: 
+Theorem 2 
+z   and all learning set $. For all e  O, for any m  SM2 
+Let A be a/?-stable algorithm, such that 0  c(fs, z) _ M, for all 
+PSD m [IRm(fS)- R(fs)l > ] _ 
+, we have: 
+64Mm/? + 8M 2 
+and for any m _ 1, 
+m 2 
+(4) 
+PSD m [IRm(fS) - R(fs)l >  -]-/?] _ 2exp ( 
+) 
+2(m/? + M) 2 (5) 
+Notice that this theorem gives tight bounds when the stability /? is of the order 
+of l/re. It will be proved in next section that regularization networks satisfy this 
+requirement. 
+In order to prove theorem 2, one has to study the random variable X - R(fs) - 
+Rm(fS), which can be done using two different approaches. The first one (corre- 
+sponding to the exponential inequality) uses a classical martingale inequality and is 
+detailed below. The second one is a bit more technical and requires to use standard 
+proof techniques such as symmetrization. Here we only briefly sketch this proof and 
+refer the reader to [5] for more details. 
+Proof of inequality (5) We use the following theorem: 
+Theorem 3 (McDiarmid [9]). Let Y,... ,Yn be n i.i.d. random variables taking 
+values in a set A, and assume that F: A n -->  satisfies for I < i  n: 
+sup [F(y,... ,y)- F(y,... ,Yi-,Y,Yi+,... ,Y)[ < ci 
+Yl ,'" ,Yn ,Yt i c A 
+then 
+2 2-n 2 
+P [IF(Y,..., Y) - E[F(Y,..., Y)]I > e] _< 2e-  / z,= c, 
+In order to apply theorem 3, we have to bound the expectation of X. 
+with a useful lemma: 
+We begin 
+Lemma I For any symmetric learning algorithm we have for all I _< i _< m: 
+ESraD m [R(fs) - Rm(fS)] = Es, ztieaDmq-1 [C(fS, Z) -- C(fsi,Z) ] 
+Proof.' Notice that 
+m 
+ESraD m [Rm(fS)] = I EseaDm [c(fs,j)] : ESraD m [c(fs,i)] Vi ß {1, ,m} 
+m 
+j=l 
+by symmetry and the i.i.d. assumption. Now, by simple renaming of zi as z i we get 
+Z t 
+ESraD m [Rm(fS)] = ESiraDm [C(ysi,) ] : Es,ztieaDmq-1 [C(ysi , i)] 
+which, with the observation that 
+Es. [R(fs)] = It(rS. 
+concludes the proof. 
+Using the above lemma and the fact that A is/%stable, we easily get: 
+ESraD m 
+We now have to compute the constants ci appearing in theorem 3. 
+We have 
+IR(fs) - R(fs)l _< E [Ic(fs, z) - c(fs,z)l ] _<  
+and 
+IRm(fS)- Rm(fsi)l 
+I 1 
+_< - Ic(s. zj) - + 
+m m 
+2M 
+_< --+ 
+m 
+Theorem 3 applied to R(fs)- Rm(fS) then gives inequality (5). 
+Sketch of the proof of inequality (4) Recall Chebyshev's inequality: 
+P(IXI > _< , (6) 
+for any random variable X. In order to apply this inequality, we have to bound 
+E[X2]. This can be done with a similar reasoning as for the expectation. Calcu- 
+lations are however more complex and we do not describe them here. For more 
+details, see [5]. The result is the following: 
+E[X 2] _< M /m + 8M/ 
+which with (6) gives inequality (4) and concludes the proof. 
+4 Stability of Regularization Networks 
+4.1 Definitions 
+Regularization networks have been introduced in machine learning by Poggio and 
+Girosi [10]. The relationship between these networks and the Support Vector Ma- 
+chines, as well as their Bayesian interpretation, make them very attractive. We 
+consider a training set $ = {(x,y),... ,(xm,Ym)} with xi ß 11  and Yi ß , that 
+is we are in the regression setting. The regularization network technique consists 
+in finding a function f : 11 a --> 11 in a space H which minimizes the following 
+functional: 
+m 
+C(f) = 1 -(f(xj)- yj)2 + Allfll/ 
+m 
+j=l 
+(7) 
+where Ilill denotes the norm in the space H. In this framework, H is chosen to 
+be a reproducing kernel Hilbert space (rkhs), which is basically a functional space 
+endowed with a dot product . A rkhs is defined by a kernel function, that is a 
+symmetric function k: 11 a x 11 a --> 11 which we will assume to be bounded by a 
+constant n in what follows 2. In particular the following property will hold: 
+If(x)l IIflInllklIn llflIn 
+(8) 
+4.2 Stability study 
+In this section, we show that regularization networks are, furthermore, stable as 
+soon as A is not too small. 
+Theorem 4 For regularization networks with IIkll _<  and (f (x) -y)2 _< M, 
+4Mn /[2n  4n ) ln(2/5) 
+R(fs) _< Rm(fs) + m + 4Mv-- + -- + 2 (9) 
+m 
+and 
+R(fs)_<Rm(fS)+2M(6n ) 1 (10) 
+--+2 m5 
+Proof: Let's denote by fs the minimizer of C. Let's define 
+m 1 
+ci(f ) = 1 -(f(xj)-yj)2 +--(f(xi)-y)2 + Allfll 
+m m 
+j7i 
+Let fs be the minimizer of C i and let g denote the difference fs - rs. By simple 
+algebra, we have for t ß [0, 1] 
+m 
+C(fs)-C(fs + tg) = _2t -(fs(xj)-yj)g(xj)- 2tA < fs,g > +t2A(g) 
+m 
+j=l 
+1We do not detail here the properties of such a space and refer the reader to [2, 3] for 
+additional details. 
+2Once again we do not give full detail of the definition of appropriate kernel functions 
+and refer the reader to [3]. 
+where A(g) which is not explicitly written here is the factor of t 2. Similarly we have 
+- - tg) = 
+By optimality, we have 
+C(f) - C(f q- tg) _< 0 and ci(f) - ci(fs - tg) _< 0 
+thus, summing those inequalities, dividing by tim and making t - 0, we get 
+2 Eg(xj) - 2(f(xi)-yi)g(xi)q- 2(f(x'i)-y)g(x'i)q- 2mAI]gl]t _< 0 
+j 
+which gives 
+m,Xllgll _< (f $(xi) - yi)g(xi) - (f $(xi) - y)g(xi) _ 2V-,llglIH 
+using (8). We thus obtain 
+Ilfs- fsll _< 
+and also 
+We thus proved that the minimization of C[f] is a 4m--stable procedure which 
+allows to apply theorem 2. o. 
+4.3 Discussion 
+These inequalities are both of interest since the range where they are tight is differ- 
+ent. Indeed, (10) has a poor dependence on 5 which makes it deteriorate when high 
+confidence is sought for. However, (9) can give high confidence bounds but will be 
+looser when A is small. 
+Moreover, results exposed by Evgeniou et al. [6] indicate that the optimal depen- 
+dence of A with m is obtained for Am - O(ln In m). If we plug this into the above 
+bounds, we can notice that (9) does not converge as m -- e½. It may be conjectured 
+that the poor estimation of the variance coming from the martingale method in Mc- 
+Diarmid's inequality is responsible for this effect, but a finer analysis is required to 
+fully understand this phenomenon. 
+One of the interests of these results is to provide a mean for choosing the A parameter 
+by minimizing the right hand side of the inequality. Usually, it is determined with 
+a validation set: some of the data is not used during learning and A is chosen such 
+that the error of f$ over the validation set is minimized. The drawback of this 
+approach is to reduce the amount of data available for learning. 
+5 Conclusion and future work 
+We have presented a new approach to get bounds on the generalization performance 
+of learning algorithms which makes use of specific properties of these algorithms. 
+The bounds we obtain do not depend on the complexity of the hypothesis class but 
+on a measure of how stable the algorithm's output is with respect to changes in the 
+training set. 
+Although this work has focused on regression, we believe that it can be extended 
+to classification, in particular by making the stability requirement less demanding 
+(e.g. stability in average instead of uniform stability). Future work will also aim 
+at finding other algorithms that are stable or can be appropriately modified to ex- 
+hibit the stability property. At last, a promising application of this work could be 
+the model selection problem where one has to tune parameters of the algorithms 
+(e.g. A and parameters of the kernel for regularization networks). Instead of using 
+cross-validation, one could measure how stability is influenced by the various pa- 
+rameters of interest and plug these measures into theorem 2 to derive bounds on 
+the generalization error. 
+Acknowledgments 
+We would like to thank G. Lugosi, S. Boucheron and O. Chapelle for interesting 
+discussions on stability and concentration inequalities. Many thanks to A. Smola 
+and to the anonymous reviewers who helped improve the readability. 
+References 
+[1] N. Alon, S. Ben-David, N. Cesa-Bianchi, and D. Haussler. Scale-sensitive dimensions, 
+uniform convergence and leaxnability. Journal of the ACM, 44(4):615-631, 1997. 
+[2] N. Aronszajn. Theory of reproducing kernels. Trans. Amer. Math. Soc., 68:337-404, 
+1950. 
+[3] M. Atteia. Hilbertian Kernels and splines functions. Studies in computational math- 
+ematics 4. North-Holland, 1992. 
+[4] L.P. Devroye and T.J. Wagner. Distribution-free performance bounds for potential 
+function rules. IEEE Trans. on Information Theory, 25(5):202-207, 1979. 
+[5] A. Elisseeff. A study about algorithmic stability and its relation to generalization 
+performances. Technical report, Laboratoire ERIC, Univ. Lyon 2, 2000. 
+[6] T. Evgeniou, M. Pontil, and T. Poggio. A unified framework for regulaxization net- 
+works and support vector machines. Technical Memo AIM-1654, Massachusetts In- 
+stitute of Technology, Artificial Intelligence Laboratory, December 1999. 
+[7] Y. Freund. Self bounding leaxning algorithms. In Proceedings of the 11th Annual Con- 
+ference on Computational Learning Theory (COLT-98), pages 247-258, New York, 
+July 24-26 1998. ACM Press. 
+[8] M. Keaxns and D. Ron. Algorithmic stability and sanity-check bounds for leave-one- 
+out cross-validation. Neural Computation, 11(6):1427-1453, 1999. 
+[9] C. McDiaxmid. On the method of bounded differences. In Surveys in Combinatorics, 
+pages 148-188. Cambridge University Press, Cambridge, 1989. 
+[10] T. Poggio and F. Girosi. Regulaxization algorithms for learning that axe equivalent 
+to multilayer networks. Science, 247:978-982, 1990. 
+[11] J. Shawe-Taylor, P. L. Baxtlett, R. C. Williamson, and M. Anthony. A framework for 
+structural risk minimization. In Proc. 9th Annu. Conf. on Cornput. Learning Theory, 
+pages 68-76. ACM Press, New York, NY, 1996. 
+[12] J. Shawe-Taylor and R. C. Williamson. Generalization performance of classifiers in 
+terms of observed covering numbers. In Paul Fischer and Hans Ulrich Simon, edi- 
+tors, Proceedings of the th European Conference on Computational Learning The- 
+ory (Eurocolt-99), volume 1572 of LNAI, pages 274-284, Berlin, March 29-31 1999. 
+Springer. 

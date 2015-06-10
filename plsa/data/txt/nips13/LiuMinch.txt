@@ -1,0 +1,277 @@
+Homeostasis in a Silicon Integrate and Fire 
+Neuron 
+Shih-Chii Liu 
+Institute for Neuroinformatics, ETH/UNIZ 
+Winterthurstrasse 190, CH-8057 Zurich 
+Switzerland 
+shih@ini.phys.ethz.ch 
+Bradley A. Minch 
+School of Electrical and Computer Engineering 
+Cornell University 
+Ithaca, NY 14853-5401, U.S.A. 
+minch@ ee.comell.edu 
+Abstract 
+In this work, we explore homeostasis in a silicon integrate-and-fire neu- 
+ron. The neuron adapts its firing rate over long time periods on the order 
+of seconds or minutes so that it returns to its spontaneous firing rate after 
+a lasting perturbation. Homeostasis is implemented via two schemes. 
+One scheme looks at the presynaptic activity and adapts the synaptic 
+weight depending on the presynaptic spiking rate. The second scheme 
+adapts the synaptic "threshold" depending on the neuron's activity. The 
+threshold is lowered if the neuron's activity decreases over a long time 
+and is increased for prolonged increase in postsynaptic activity. Both 
+these mechanisms for adaptation use floating-gate technology. The re- 
+sults shown here are measured from a chip fabricated in a 2-/zm CMOS 
+process. 
+1 Introduction 
+We explored long-time constant adaptation mechanisms in a simple integrate-and-fire sili- 
+con neuron. Many researchers have postulated constant adaptation mechanisms which, for 
+example, preserve the firing rate of the neuron over long time invervals (Liu et al. 1998) 
+or use the presynaptic spiking statistics to adapt the spiking rate of the neuron so that 
+the distribution of this spiking rate is uniformly distributed (Stemmler and Koch 1999). 
+Homeostasis is observed in in-vitro recordings (Desai et al. 1999) where if the K or Na 
+conductances are perturbed by adding antagonists, the cell returns to its original spiking 
+rate in a couple of days. 
+This work differs from previous work that explore the adaptation of the firing threshold 
+and the gain of the neuron through the regulation of Hodgkin-Huxley like conductances 
+(Shin and Koch 1999) and regulation of the neuron to perturbation in the conductances 
+(Simoni and DeWeerth 1999). Our neuron circuit is a simple integrate-and-fire neuron and 
+v 
+gain 
+Vtu n 
+Vfg 
+ Vpre E 
+Isyn 
+M 2 
+__Od 
+lepsc 
+V m 
+Vr -IF__] Irefr 
+Vo-I 
+C1 
+I Spike 
+output, V o 
+Figure 1' Schematic of neuron circuit with long time constant mechanisms for presynaptic 
+adaptation. 
+our adaptation mechanisms have time constants of seconds to minutes. We also describe 
+adaptation of the synaptic weight to presynaptic spiking rates. This presynaptic adaptation 
+models the contrast gain control curves of cortical simple cells (Ohzawa et al. 1985). 
+We fabricated two different circuits in a 2-/zm CMOS process. One circuit implements 
+presynaptic adaptation and the other circuit implements postsynaptic adaptation. The long 
+time constant adaptation mechanisms use tunnelling and injection mechanisms to remove 
+charge from and to add charge onto a floating gate (Diorio et al. 1999). We added these 
+mechanisms to a simple integrate-and-fire neuron circuit (Mead 1989). This circuit (shown 
+in Figure 1) takes an input current, Ievsc, which charges up the membrane, Vr. When 
+the membrane exceeds a threshold, the output of the neuron, Vo, spikes. The spiking rate 
+of the neuron, fo is determined by the input current, Iepsc, that is, fo = m Iepsc where 
+1 
+m = (C'z+C'2)Vdd is a constant. 
+2 Adaptation mechanisms in silicon neuron circuit 
+In order to permit continuous operation with only positive polarity bias voltages, we use 
+two distinct mechanisms to modify the floating-gate charges in our neuron circuits. We use 
+Fowler-Nordheim tunneling through high-quality gate oxide to remove electrons from the 
+floating gates (Lenzlinger and Snow 1969). Here, we apply a large voltage across the oxide, 
+which reduces the width of the Si-SiO2 energy barrier to such an extent that electrons are 
+likely to tunnel through the barrier. The tunneling current is given approximately by 
+It,r =Iote TM , 
+where Vox = Vt,,r, - Via is the voltage across the tunneling oxide and lot and Vo are 
+measurable device parameters. For the 400-)1 oxides that are typical of a 2-/zm CMOS 
+process, a typical value of Vo is 1000 V and an oxide voltage of about 30 V is required to 
+obtain an appreciable tunneling current. 
+We use subthreshold channel hot-electron injection in an nMOS transistor (Diorio, Minch, 
+and Hasler 1999) to add electrons to the floating gates. In this process, electrons in the 
+channel of the nMOS transistor accelerate in the high electric field that exists in the deple- 
+tion region near the drain, gaining enough energy to surmount the Si-SiO2 energy barrier 
+(about 3.2 eV). To facilitate the hot-electron injection process, we locally increase the sub- 
+strate doping density of the nMOS transistor using the p-base layer that is normally used 
+to form the base of a vertical npn bipolar transistor. The p-base substrate implant simulta- 
+neously increases the electric field at the drain end of the channel and increases the nMOS 
+transistor's threshold voltage from 0.8 V to about 6 V, permitting subthreshold operation at 
+gate voltages that permit the collection of the injected electrons by the floating gate. The 
+hot-electron injection current is given approximately by 
+Ii,,j = rllse *c/v" , 
+where 18 is the source current, bac is the drain-to-channel voltage, and t/ and V/,,j are 
+measurable device parameters. The value of V/,,j is a bias dependent injection parameter 
+and typically ranges from 60 mV to 0.1 V. 
+3 Presynaptic adaptation 
+The first mechanism adapts the synaptic efficacy to the presynaptic firing rate over long 
+time constants. The circuit for this adaptation mechanism is shown in Figure 1. The synap- 
+tic current is generated by a series of two transistors; one is driven by the presynaptic input 
+and the other by the floating-gate voltage. The floating-gate voltage stores the synaptic ef- 
+ficacy of the synapse. A discrete amount of charge is integrated on a diode capacitor every 
+time there is a presynaptic spike. The charge that is dumped onto the capacitor depends 
+on the input frequency and the synaptic weight. The excitatory postsynaptic current to the 
+membrane of the neuron depends also on the gain of the current-mirror. The tunneling 
+mechanism which is controlled by Vtun is continuously on so the synaptic efficacy slowly 
+decreases over time. The injection mechanism is turned on only when there is a presynaptic 
+spike. This presynaptic adaptation can model the contrast gain control curves of cortical 
+simple cells. 
+3.1 Steady-state analysis 
+In steady-state, the tunneling current, Itun, is equal to the average injection current, Iinj 
+and they are as follows: 
+(1) 
+= - 1)nQrfi (2) 
+where A is the gain of the current mirror integrator, QT = CaUT/k, Vlao is the steady-state 
+floating-gate voltage, fi is the presynaptic rate and T6 is the pulse width of the presynaptic 
+pulse. From Equations 1 and 2, we can solve for Vlao and thus determine the synaptic 
+current, Isyn : 
+k Vf g 0 1 
+Isy n __-- lopb e vT -- !m/(fiT6). 
+In this equation, Im is a preconstant and/ is approximately 1. The steady-state input 
+current is given by Iepsc  !synTsAfi . !mA, thus it is independent of the presynaptic 
+input frequency. 
+3.2 Transient analysis 
+With a transient change in the presynaptic frequency, fi, the initial postsynaptic frequency 
+is given by: 
+fo q- dfo - m ß ImA(fi q- dfi) _ fo q- m * ImA(dfi/fi). (3) 
+160 
+140 
+120 
+100 
+80 
+40 
+20 
+0 
+0 
+Transient gain 
+50 100 150 200 250 300 
+Presynaptic frequency (Hz) 
+350 
+Figure 2: Adaptation curves of synaptic efficacy to presynaptic frequencies using long time 
+constant adaptation mechanisms. 
+As derived from Equation 3, we see that the transient change in the neuron's spiking rate is 
+dependent on the contrast of the input spiking rate, dfi/fi. 
+dfo = m ß ß A ß dfilfi = fo(dfilf) 
+dfoldfi: folfi 
+(4) 
+Hence, the transient gain of the neuron is equal to the ratio of the postsynaptic spiking rate 
+to the presynaptic input rate and it decreases with the input rate. 
+3.3 Experimental results 
+We measured the transient and steady-state spiking rates of the neuron around four differ- 
+ent steady-state presynaptic rates of 100Hz, 150Hz, 200Hz, and 250Hz. In these measure- 
+ments, the drain of the pbase injection transistor was set at 4V and the tunnelling voltage 
+was set at 35.3V. For each steady-state presynaptic rate, we presented step increases and 
+decreases in the presynaptic rate of 15Hz, 30Hz, 45Hz, and 60Hz. The instantaneous post- 
+synaptic rate is plotted along one the four steep curves in Figure 2. After every change in 
+the presynaptic rate, we returned the presynaptic rate to its steady-state value before we 
+presented the next change in presynaptic rate. The transient gain of the curves decreases 
+for higher input spiking rates. This is predicted by Equation 4. 
+We also recorded the dynamics of the adaptation mechanisms by measuring the spiking 
+rate of the neuron when the presynaptic frequency was decreased at time (t=0) from 350 
+Hz to 300 Hz as shown in Figure 3. The system adapts over a time constant of minutes 
+back to the initial output frequency. These data show that the synaptic efficacy adapted to a 
+higher weight value over time. The time constant of adaptation can be increased by either 
+increasing the tunnelling voltage or the pbase injector's drain voltage, Va. 
+70 
+ 40 
+ 3o 
+2o 
+lO 
+100 200 300 400 500 600 700 800 900 
+Time (sec) 
+Figure 3: Temporal adaptation of spiking rate of neuron to a decrease in the presynaptic 
+frequency from 350Hz to 300Hz. The smooth line is an exponential fit to the data curve. 
+4 Postsynaptic adaptation 
+In the second mechanism, the neuron's spiking rate determines the synaptic "threshold". 
+The schematic of this adaptation circuitry is shown in Figure 4. The floating-gate pbase 
+transistor provides a quiescent input to the neuron so that the neuron fires at a quiescent rate. 
+The tunneling mechanism is always turned on so the neuron's spiking rate increases in time 
+if the neuron does not spike. However the injection mechanism turns on when the neuron 
+spikes. The time constant of these mechanisms is in terms of seconds to minutes. The 
+increase in the floating-gate voltage is equivalent to a decrease in the synaptic threshold. If 
+the neuron's activity is high, the injection mechanism tums on thus decreasing the floating- 
+gate voltage and the input current to the neuron. These two opposing mechanisms ensure 
+that the cell will remain at a constant activity under steady-state conditions. In other words, 
+the threshold of the neuron is modulated by its output spiking rate. The threshold of the 
+neuron continuously decreases and each output spike increases the threshold. 
+4.1 Steady-state analysis 
+Similar equations as in Section 3.1 can be used to solve for Vfgo, thus leading us to the 
+following expression for the steady-state input current, 
+k Vf gO 
+Iino = Iopt, e v, = Im/(foTs) 
+where I, is a preconstant and ? is close to 1. 
+4.2 Transient analysis 
+When a positive step voltage is applied to Vez, the step change, AV, is coupled into the 
+floating gate. The initial transient current is: 
+/AV 
+= o+) = 
+Vo_4 
+Vrefr-E 
+J refr 
+lin 
+Vex 
+Membrane 
+voltage, V m 
+Spike output, V o 
+Adaptation ! ,,/injector 
+circuitry  '-ILL)_, 
+Vfg . /// 
+Figure 4: Schematic of neuron circuit with long time constant mechanisms for postsynaptic 
+adaptation. 
+and the initial increase in the postsynaptic firing rate is 
+/eAv 
+fo--F dfo = fo "r 
+If we assume that the step input, V/ - log(f/) (where fi is the firing rate of the presynaptic 
+neuron), then the change in the floating-gate voltage is described by AV -- dfi/fi. We then 
+solve for dfo, 
+dfo ' k dfi 
+=eV" _1 (5) 
+fo UTfi 
+Equation 5 shows that the transient change in the neuron's spiking rate is proportional to 
+the input contrast in the firing rate. With time, the floating-gate voltage adapts back to the 
+steady-state condition, so the spiking rate returns to fo. 
+4.3 Experimental results 
+In these experiments, we set the tunneling voltage, Vtun to 28V, and the injection voltage 
+to 6.6V. We coupled a step decrease of 0.2V into the floating-gate voltage and then mea- 
+sured the output frequency of the neuron over a period of 10 minutes. The output of this 
+experiment is shown in Figure 5. The frequency dropped from about 19Hz to 13Hz but the 
+circuit adapted after this initial perturbation and the spiking rate of the neuron returned to 
+about 19Hz over 26min. A similar experiment is performed but this time a step increase 
+of 0.2V was coupled into the floating gate node (shown in Figure 5). Initially, the neuron's 
+rate increased from 20Hz to 28Hz but over a long period of minutes, the firing rate returned 
+to 20Hz. 
+5 Conclusion 
+In this work, we show how long-time constant adaptation mechanisms can be added to a 
+silicon integrate-and-fire neuron in a normal CMOS process. These homeostatic mecha- 
+nisms can be combined with short time constant synaptic depressing synapses on the same 
+neuron to provide a range of adapting mechanisms. The presynaptic adaptation mechanism 
+can also account for the contrast gain curves of cortical simple cells. 
+30 , 
+28 
+ 26 
+b 24 
+., 22 
+ 2O 
+200 400 600 800 
+14 
+12 ' ' ' 
+0 1000 1200 1400 1600 
+Time (see) 
+Figure 5: Response of silicon neuron to an increase and a decrease of a step input of 0.2V. 
+The curve shows that the adaptation time constant is in the order of about 10 min. 
+Acknowledgments 
+We thank Rodney Douglas for supporting this work, the MOSIS foundation for fabricating 
+this circuit, and Tobias Delbrtick for proofreading this document. This work was supported 
+in part by the Swiss National Foundation Research SPP grant and the U.S. Office of Naval 
+Research. 
+References 
+Desai, N., L. Rutherford, and G. Turrigiano (1999, Jun). Plasticity in the intrinsic ex- 
+citability of cortical pyramidal neurons. Nature Neuroscience 2(6), 515-520. 
+Diorio, C., B. A. Minch, and P. Hasler (1999). Floating-gate MOS learning systems. 
+Proceedings of the International Symposium on the Future of Intellectual Integrated 
+Electronics (ISFIIE), 515-524. 
+Lenzlinger, M. and E. H. Snow (1969). Fowler-Nordheim tunneling into thermally 
+grown SiO2. Journal of Applied Physics 40, 278-283. 
+Liu, Z., J. Golowasch, E. Marder, and L. Abbott (1998). A model neuron with activity- 
+dependent conductances regulated by multiple calcium sensors. Journal of Neuro- 
+science 8(7), 2309-2320. 
+Mead, C. (1989). Analog VLSI and neural systems. Reading, MA: Addison-Wesley. 
+Ohzawa, I., G. Sclar, and R. Freeman (1985). Contrast gain control in the cat's visual 
+system. Journal of Neurophys. 54, 651-667. 
+Shin, J. and C. Koch (1999). Dynamic range and sensitivity adaptation in a silicon spik- 
+ing neuron. IEEE Trans. on Neural Networks 0(5), 1232-1238. 
+Simoni, M. and S. DeWeerth (1999). Adaptation in an aVLSI model of a neuron. IEEE 
+CAS H-Analog and Digital Signal Processing 46(7), 967-970. 
+Stemmler, M. and C. Koch (1999). How voltage-dependent conductances can adapt 
+to maximize the information encoded by neuronal firing rate. Nature Neuro- 
+science 2(6), 521-527. 

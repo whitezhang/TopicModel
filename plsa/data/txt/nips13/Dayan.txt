@@ -1,0 +1,341 @@
+Competition and Arbors in Ocular Dominance 
+Peter Dayan 
+Gatsby Computational Neuroscience Unit, UCL 
+17 Queen Square, London, England, WC1N 3AR. 
+dayan@ gatsby.ucl. ac.uk 
+Abstract 
+Hebbian and competitive Hebbian algorithms are almost ubiquitous in 
+modeling pattern formation in cortical development. We analyse in the- 
+oretical detail a particular model (adapted from Piepenbrock & Ober- 
+mayer, 1999) for the development of 1 d stripe-like patterns, which places 
+competitive and interactive conical influences, and free and restricted ini- 
+tial arborisation onto a common footing. 
+1 Introduction 
+Cats, many species of monkeys, and humans exibit ocular dominance stripes, which are 
+alternating areas of primary visual cortex devoted to input from (the thalamic relay associ- 
+ated with) just one or the other eye (see Erwin et al, 1995; Miller, 1996; Swindale, 1996 
+for reviews of theory and data). These well-known fingerprint patterns have been a seduc- 
+tive target for models of cortical pattern formation because of the mix of competition and 
+cooperation they suggest. A wealth of synaptic adaptation algorithms has been suggested 
+to account for them (and also the concomitant refinement of the topography of the map 
+between the eyes and the cortex), many of which are based on forms of Hebbian learning. 
+Critical issues for the models are the degree of correlation between inputs from the eyes, 
+the nature of the initial arborisation of the axonal inputs, the degree and form of conical 
+competition, and the nature of synaptic saturation (preventing weights from changing sign 
+or getting too large) and normalisation (allowing cortical and/or thalamic cells to support 
+only a certain total synaptic weight). Different models show different effects of these pa- 
+rameters as to whether ocular dominance should form at all, and, if it does, then what 
+determines the widths of the stripes, which is the main experimental observable. 
+Although particular classes of models excite fervid criticism from the experimental com- 
+munity, it is to be hoped that the general principles of competitive and cooperative pattern 
+formation that underlie them will remain relevant. To this end we seek models in which we 
+can understand the interactions amongst the various issues above. Piepenbrock & Ober- 
+mayer (1999) suggested an interesting model in which varying a single parameter spans 
+a spectrum from conical competition to cooperation. However, the nature of competition 
+in their model makes it hard to predict the outcome of adaptation completely, except in 
+some special cases. In this paper, we suggest a slightly different model of competition 
+which makes the analysis tractable, and simultaneously generalise the model to consider 
+an additional spectrum between flat and peaked arborisation. 
+2 The Model 
+Figure 1 depicts our model. It is based on the competitive model of Piepenbrock & Ober- 
+mayer (1999), who developed it in order to explore a continuum between competitive and 
+linear cortical interactions. We use a slightly different competition mechanism and also 
+v(.) cortex  competitive 
+ interaction 
+0000000000 0000000000 
+left thalamus right 
+B C 
+L A- R L ¾¾ R 
+b b b b 
+D ocularity 
+b L R 
+Figure 1: Competitive ocular dominance model. A) Left (L) and right (R) input units (with activi- 
+ties u z' (b) and u R (b) at the same location b in input space) project through weights W z' (a, b) and 
+W R (a, b) and a restricted topography arbor function A(a, b) (B) to an output layer, which is subject 
+to lateral competitive interactions. C) Stable weight patterns W(a, b) showing ocular dominance. D) 
+(left) difference in the connections W- = W  - W z' from right and left eye; (right) sum difference 
+across b showing the net ocularity for each a. Here, o-.4 = 0.2, o- = 0.08, o'u = 0.075,/ = 10, 
+3' = 0.95,  = 3. There are N = 100 units in each input layer and the output layer. Circular 
+(toroidal) boundary conditions are used with b E [0, 1). 
+extend the model with an arbor function (as in Miller et al, 1989). The model has two 
+input layers (representing input from the thalamus from left 'L' and right 'R' eyes), each 
+containing N units, laid out in a single spatial dimension. These connect to an output layer 
+(layer IV of area V1) with N units too, which is also laid out in a single spatial dimension. 
+We use a continuum approximation, so labeling weights W z' (a, b) and WR(a, b). An ar- 
+bor function, A(a, b), represents the multiplicity of each such connection (an example is 
+given in figure lB). The total strengths of the connections from b to a are the products 
+WZ'(a,b)A(a,b) and W](a,b)A(a,b). 
+Four characteristics define the model: the arbor function, the statistics of the input; the map- 
+ping from input to output; and the rule by which the weights change. The arbor function 
+A(a, b) specifies the basic topography of the map at the time that the pattern of synaptic 
+growth is being established. We consider A(a, b) cre -(a-t)2/2 , where or,4 is a parameter 
+specifies its width (figure lB). The two ends of the spectrum for the arbor are flat, when 
+A(a, b) = o is constant (O'A = OO), and rigid or punctate, when A(a,b)orS(a - b) (aA =0) 
+and so input cells are mapped only to their topographically matched cells in the cortex. 
+The second component of the model is the input. Since the model is non-linear, pattern 
+formation is a function of aspects of the input in addition to the two-point correlations 
+between input units that drive development of standard, non-competitive, Hebbian models. 
+We follow Piepenbrock & Obermayer (1999) and consider highly spatially simplified input 
+activities at location b in the left (uZ'(b)) and right (u](b)) projections, reflecting just a 
+single Gaussian bump (of width cry) which is stronger to the tune of 7 in (a randomly 
+chosen) one of the input projections than the other 
+uZ'(b) = 0.5(1 + z"/)e -(b-()2/2 u](b) = 0.5(1 - z"/)e -(-)/2 (1) 
+where ( 6 [0, 1) is the randomly chosen input location, z is -1 or I (with probability 0.5 
+each), and determines whether the input is more from the right or left projection. 0 _< "/_< 1 
+governs the weakness of correlations between the projections. 
+The third component of the model is the way that input activities and the weights conspire 
+to form output activities. This happens in linear (1), competitive (c) and interactive (i) steps: 
+l' v(a) = fA(a,)(W(a,)() + W(a,)()) , (2) 
+c' vC(a)=(v(a))Z/fda'(v(a'))  i'vi(a)= fda'I(a,a')vC(a) (3) 
+Weights, arbor and input and output activities are all positive. In equation 3c,/ _> I is a 
+parameter governing the strength of competition between the cortical cells. As/ --> oo, the 
+activation process becomes more strongly competitive, ultimately having a winner-takes-all 
+effect as in the standard self-organising map. This form of competition makes it possible 
+to perform analyses of pattern formation that are hard for the model of Piepenbrock & 
+Obermayer (1999). A natural form for the cortical interactions of equation 3i is the purely 
+positive Gaussian I(a, a ) = e 
+The fourth component of the model is the weight adaptation rule which involves the 
+Hebbian correlation between input and output activities, averaged over input patterns z. 
+The weights are constrained W(a,b) E [0, 1], and also multiplicatively normalised so 
+fdb A(a,b)(WZ'(a,b) + WR(a, b)) = , for all a. 
+WZ'(a, b) --> WZ'(a, b) + e((vi(a)uZ'(b))z - ,(a)WZ'(a, b)). (4) 
+(similarly for W R) where ,(a) = ,()(W z', W ) is chosen to enforce normalisation. 
+The initial values for the weights are W z', = coe -(a-b)2/2rv q-ll(W L'R, where co is cho- 
+sen to satisfy the normalisation constraints, r/is small, and 6WZ'(a, b) and 6W(a, b) are 
+random perturbations constrained so that normalisation is still satisfied. Values of crv < 
+can emerge as equilibrium values of the weights if there is sufficient competition (suffi- 
+ciently large fi) or a restricted arbor (cr < 
+3 Pattern Formation 
+We analyse pattern formation in the standard manner, finding the equilibrium points (which 
+requires solving a non-linear equation), linearising about them and finding which linear 
+mode grows the fastest. By symmetry, the system separates into two modes, one involving 
+the sum of the weight perturbations 6W + = 6W R +6W z', which governs the precision of 
+the topography of the final mapping, and one involving the difference 6W + = 6Wu-dW z', 
+which governs ocular dominance. The development of ocular dominance requires that a 
+mode of 6W- (a, b)  0 grows, for which each output cell has weights of only one sign 
+(either positive or negative). The stripe width is determined by changes in this sign across 
+the output layer. Figure 1C;D show the sort of patterns for which we would like to account. 
+Equilibrium solution 
+The equilibrium values of the weights can be found by solving 
+(½(a),L(b)) = +WL½,b) (½(),(b)) = +W½,b) 
+(5) 
+for the ,+ determined such that the normalisation constraint fdb W z' (a, b) + WU(a, b) = 
+Q is satisfied for all a. v(a) is a non-linear function of the weights; however, the sim- 
+ple form of the inputs means that at least one set of equilibrium values of W z' (a, b) and 
+WR(a, b) are the same, Wœ(a, b) = coe -("-ø)/2v for a particular width crw that de- 
+pends on I = 1/cry, A = 1/cr], U = 1/cr and fi/according to a simple quadratic equation. 
+We assume that co < 1, so the weights do not reach their upper saturating limit, and this im- 
+plies that co = -9--yx/(A + W)/r. 
+The quadratic equation governing the equilibrium width can be derived b.y postulating 
+Gaussian weights, and finding the values successively of v(a), v(a) and v(a) of equa- 
+tions 2 and 3, calculating ((vi(a)u z' (b))z and finding a consistency condition that W must 
+satisfy in order for WZ'(a, b) --> WZ'(a, b) in equation 4. The result is 
+((fi/+ 1)I + filU)W 2 + (A((fil + 1)I + filU) - (ill- 1)UI)W - filAIU = 0 (6) 
+Figure 2 shows how the resulting physically realisable (W > 0) equilibrium value of crw 
+depends on fi/, an and cri, varying each in turn about a single set of values in figure 1. 
+Figure 2A shows that the width rapidly asymptotes as  grows, and it only gets large as the 
+arbor function gets large for fi/near 1. Figure 2B shows this in another way. For fi/= 1 (the 
+dotted line), which quite closely parallels the non-competitive case of Miller et al (1989), 
+A B 
+0.3 .0:4 = 2.0 ' = ' 
+"" ,,,,.-.,.,-"-"fl = 1.2 
+0.1 001  = 10 l 
+10 o ,8 101 10 2 10 -20'A 10 -1 10 o 
+c 
+10 -3 o'er 1 0 -2 
+, 0.5 
+0.3 
+0.1 
+10 -1 
+Figure 2: Log-log plots of the equilibrium values of o'w in the case of multiplicative normalisation. 
+Solid lines based on parameters as in figure 1 (o-4 = 0.2, o-t = 0.08, o'v = 0.075,/ = 10). A) o'w 
+as a function of/ for o-4 = 0.2 (solid), o-4 = 2.0 (dotted) and o-4 = 0.0001 (dashed). B) o'w as a 
+function of o-4 for/ = 10 (solid),/ = 1.25 (dashed) and/ = 1.0 (dotted). C) o'w as a function of 
+o-t. Other parameters as for the solid lines. 
+crw grows roughly like the square root of cry4 as the arborisation gets flatter. For any  > 1, 
+one equilibrium value of crw has a finite asymptote with cry4. For absolutely flat topography 
+(cry4 = ec) and  > 1, there are actually two equilibrium values for crw, one with crw = , 
+ie flat weights; the other with crw taking values such as the asymptotic values for the dotted 
+and solid lines in figure 2B. 
+The sum mode 
+The update equation for (normalised) perturbations to the sum mode is 6W + (a, b) 
+(1 - eA+)6w+(a, 6) + eq ff daldt, 10(a,t,,al,t, 1)6W+(al,t, 1) - eA't)w+(a, 6) (7) 
+where the operator 0 = 0  - 0 2 is defined by averaging over  with z = 1, 7 = 1 
+( 6() A(a,b)u(b)u(b)) (8) 
+0(a,b,a,b) = f da2l(a, a2)vC(a2) 
+O2(a,b,a,b) = (f da2I(a, a2)vC(a2)A(a,b)u(b)u(b)) , (9) 
+where, convenience, we have hidden the dependence v(a) and vC(a) on 
+Here, the values of + and 
+() =  fff dbdadb A(a,b)O(a,b,a,b)SW+(a,b)/2Q (10) 
+come from the noalisation condition. The value of + is deteined by W + (a, b) and 
+not by 5W+(a, b). Except in the special case that a = , the te e()W+(a, b) 
+generally keeps stable the equilibrium solution. 
+We consider the full eigenfunctions of 0 (a, b, a, b) below. However, the case that Piepen- 
+brock & Obermayer (1999) studied of a fiat tabor function (a = ) tums out to be spe- 
+cial, admitting two equilibrium solutions, one fiat, one with topography, whose stability 
+depends on . For a < , the only Gaussian equilibrium solution for the weights has 
+a refined topography (as one might expect), and this is stable. This width depends on the 
+parameters in a way shown in equation 6 and figure 2, in particular, reaching a non-zero 
+asymptote even as  gets vew large. 
+The difference mode 
+The sum mode controls the refinement of topography, whereas the difference mode controls 
+the development and nature of ocular dominance. The equilibrium value of W- (a, b) is 
+always 0, by symmetry, and the linearised difference equation for the mode is 
+/,.2 bl)W- (1, bl) 
+5W-(a,b) --> (1-eA+)SW-(a,b) + -- ff dldbl O(,b,l, 
+O 1 
+n---- 0 1 2 
+10.86 0.81 0.06 
+10.03 0.75 0.06 
+7.92 0.59 0.04 
+5.35 0.40 0.03 
+0 2 
+0 1 2 
+10.86 0.00 0.00 
+9.81 0.00 0.00 
+7.23 0.00 0.00 
+4.34 0.00 0.00 
+o 
+0.81 
+0.98 
+1.29 
+1.38 
+0.81 
+0.98 
+1.29 
+1.38 
+Figure 3: Eigenfunctions and eigenvalues of O  (left block), O 2 (centre block), and and the theoret- 
+ical and empirical approximations to O (right columns). Here, as in equation 12, k is the frequency 
+of alternation of ocularity across the output (which is integral for a finite system); r, is the order of 
+the Hermite polynomial. The numbers on top of each eigenfunction is the associated eigenvalue. 
+Parameters are as in figure 1 with 7 = 1. 
+which is almost the same as equation 7 (with the same operator 0), except that the mul- 
+tiplier for the integral is /"/2/2 rather than fi/2. Since 7 < 1, the eigenvalues for the 
+difference mode are therefore all less than those for the sum mode, and by the same frac- 
+tion. The multiplicative decay term e+6W- (a, b) uses the same + as equation 7, whose 
+value is determined exclusively by properties of W + (a, b); but the non-multiplicative term 
+(a)W + (a, b) is absent. Note that the equilibrium values of the weights (controlled by 
+o'w) affect the operator O, and hence its eigenfunctions and eigenvalues. 
+Provided that the arbor and the initial values of the weights are not both flat (or,4  ec or 
+o'w  ec), the principal eigenfunctions of 0  and 0 2have the general form 
+W-(a, b) = e2-t' e-C?(t)(b-')2 +2-t(t)(b-') pn(b -- a, k) (12) 
+where p (r, k) is a polynomial (related to a Hermite polynomial) of degree n in r whose 
+coefficients depend on k. Here k controls the periodicity in the projective field of each 
+input cell b to the output cells, and ultimately the periodicity of any ocular dominance 
+stripes that might form. The remaining terms control the receptive fields of the output cells. 
+Operator 0 2has zero eigenvalues for the polynomials of degree n > 0. The expressions 
+for the coefficients of the polynomials and the non-zero eigenvalues of 0  and 0 2are 
+rather complicated. Figure 3 shows an example of this analysis. The left 4 x 3 block 
+shows eigenfunctions and eigenvalues of 0  for k -- 0... 5 and n = 0, 1, 2; the middle 
+4 x 3 block, the equivalent eigenfunctions and eigenvalues of 0 2 The eigenvalues come 
+essentially from a Gaussian, whose standard deviation is smaller for 0 2 To a crude first 
+approximation, therefore, the eigenvalues of 0 resemble the difference of two Gaussians in 
+k, and so have a peak at a non-zero value of k, ie a finite ocular dominance periodicity. 
+However, this approximation is too crude. Although the eigenfunctions of 0  and 0 2 shown in figure 3 look almost identical, they are, in fact, subtly different, since 0  and 0 2 do not commute (except for flat or rigid topography). The similarity between the eigenfunc- 
+tions makes it possible to approximate the eigenfunctions of 0 very closely by expanding 
+those of 0 2in terms of 0  (or vice-versa). This only requires knowing the overlap between 
+the eigenfunctions, which can be calculated analytically from their form in equation 12. Ex- 
+panding for n _< 2 leads to the approximate eigenfunctions and eigenvalues for 0 shown in 
+the penultimate column on the right of figure 3. The difference, for instance, between the 
+A 
+10 -3 10 -2 10 - 
+B 
+1 
+1"0 -3 10 -2 10 - 
+o'i 
+Figure 4: A) The constraint term ,k+(I/N) (dotted line) and the ocular dominance eigenvalues 
+e(k)(i2/N) (solid line 7 = 1; dotted line 7 = 0.5) of 720/2 as a function of o-r, where k is the 
+stripe frequency associated with the maximum eigenvalue. For o-r too large, the ocular dominance 
+eigenfunction no longer dominates. The star and hexagon show the maximum values of o-r such that 
+ocular dominance can form in each case. The scale in (A) is essentially arbitrary. B) Stripe frequency 
+k associated with the largest eigenvalue as a function of o-r. The star and hexagon are the same as in 
+(A), showing that the critical preferred stripe frequency is greater for higher correlations between the 
+inputs (lower 7)- Only integer values are considered, hence the apparent aliasing. 
+eigenfunction of 0 for k = 3 and those for 0  and 02 is striking, considering the simi- 
+larity between the latter two. For comparison, the farthest right column shows empiric ally 
+calculated eigenfunctions and eigenvalues of 0 (using a 50 x 50 grid). 
+Putting 6W- back in terms of ocular dominance, we require that eigenmodes of 0 resem- 
+bling the modes with r = 0 should grow more strongly than the normalisation makes them 
+shrink; and then the value of k associated with the largest eigenvalue will be the stripe fre- 
+quency that should be expected to dominate. For the parameters of figure 3, the case with 
+k = 3 has the largest eigenvalue, and exactly this leads to the outcome of figure 1C;D. 
+4 Results 
+We can now predict the outcome of development for any set of parameters. First, the 
+analysis of the behavior of the sum mode (including, if necessary, the point about multiple 
+equilibria for flat initial topography) allows a prediction of the equilibrium value of crw, 
+which indicates the degree of topographic refinement. Second, this value of crw can be used 
+to calculate the value of the normalisation parameter ,+ that affects the growth of 6W + 
+and 6W-. There is then a barrier of 2,+/7 2 that the eigenvalues of 0 must surmount 
+for a solution that is not completely binocular to develop. Third, if the peak eigenvalue of 
+0 is indeed sufficiently large that ocular dominance develops, then the favored periodicity 
+is set by the value of k associated with this eigenvalue. Of course, if many eigenfunctions 
+have similarly large eigenvalues, then slightly different stripe periodicities may be observed 
+depending on the initial conditions. 
+The solid line in figure 4A shows the largest eigenvalue of 720/2 as a function of the 
+width of the cortical interactions cri, for 7 = 1, the value of crw specified through the 
+equilibrium analysis, and values of the other parameters as in figure 1. The dashed line 
+shows ,+, which comes from the normalisation. The largest value of cri for which ocular 
+dominance still forms is indicated by the star. For 7 = 0.5, the eigenvalues are reduced by 
+a factor of 3 ,2 = 0.25, and so the critical value of cri (shown by the hexagram) is reduced. 
+Figure 4B shows the frequency of the stripes associated with the largest eigenvalue. The 
+smaller cri, the greater the frequency of the stripes. This line is jagged because only integers 
+are acceptable as stripe frequencies. 
+Figure 5 shows the consequences of such relationships slightly differently. Some models 
+consider the possibility that cri might change during development from a large to a small 
+value. If the frequency of the stripes is most strongly determined by the frequency that 
+grows fastest when o'i is first sufficiently small that stripes grow, we can analyse plots such 
+as those in figure 4 to determine the outcome of development. The figures in the top row 
+1.5  = 10 
+015 
+Ol 0 
+? 0.5 
+/ 
+0.5 1 
+= lOO j = 1.5 
+k 
+]o 
+0.5 1 o '7 05 
+=10 
+1 0 '7 05 1 '7 05 1 
+Figure 5: First three figures: maximal values of trr for which ocular dominance will develop as a 
+function of 7- All other parameters as in figure 1, except that o-n = 0.2 (solid), o-n = 2.0 (dashed); 
+o-n = 0.0001 (dotted). Last three figures: value of stripe frequency k associated with the maximal 
+eigenvalue for parameters as in the left three plots at the critical value of o-r. 
+show the largest values of cri for which ocular dominance can develop; the bottom plots 
+show the stripe frequencies associated with these critical values of cri (like the stars and 
+hexagons in figure 4), in both cases as a function of 3'. The columns are for successively 
+larger values of/3; within each plot there are three lines, for an = 0.0001 (dotted); an = 0.2 
+(solid), and O' A ---- 2.0 (dashed). Where no value of O' I permits ocular dominance to form, 
+no line is shown. From the plots, we can see that the more similar the inputs, (the smaller 
+3') or the less the competition (the smaller/3), the harder it is for ocular dominance to form. 
+However, if ocular dominance does form, then the width of the stripes depends only weakly 
+on the degree of competition, and slightly more strongly on the width of the arbors. The 
+narrower the arbor, the larger the frequency of the stripes. For rigid topography, as an --> 0, 
+the critical value of cri depends roughly linearly on 3'. We analyse this case in more detail 
+below. Note that the stripe width predicted by the linear analysis does not depend on the 
+correlation between the input projections unless other parameters (such as cri) change, 
+although ocular dominance might not develop for some values of the parameters. 
+5 Discussion 
+The analytical tractability of the model makes it possible to understand in depth the inter- 
+action between cooperation, competition, correlation and arborisation. Further exploration 
+of this complex space of interactions is obviously required. Simulations across a range of 
+parameters have shown that the analysis makes correct predictions, although we have only 
+analysed linear pattern formation. Non-linear stability turns out to play a highly signifi- 
+cant role in higher dimensions (such as the 2d ocular dominance stripe pattern) where a 
+continuum of eigenmodes share the same eigenvalues (Bressloff & Cowan, personal com- 
+munication), and also in ld models involving very strong competition (/3 --> co) like the 
+self-organising map (Kohonen, 1995). 
+Acknowledgements 
+Funded by the Gatsby Charitable Foundation. I am very grateful to Larry Abbott, Ed Erwin, 
+Geoff Goodhill, John Hertz, Ken Miller, Klaus Obermayer, Read Montague, Nick Swin- 
+dale, Peter Wiesing and David Willshaw for discussions and to Zhaoping Li for making 
+this paper possible. 
+References 
+Erwin, E, Obermayer, K & Schulten, K (1995) Neural Computation 7:425-468. 
+Kohonen, T (1995) Self-Organizing Maps. Berlin, New York:Springer-Verlag. 
+Miller, KD (1996) In E Domany, JL van Hemmen & K Schulten, eds, Models of Neural Networks, III. New 
+York:Springer-Verlag, 55-78. 
+Miller, KD, Keller, JB & Stryker, MP (1989) Science 245:605-615. 
+Piepenbrock, C & Obermayer, K (1999). In MS Keams, SA Solla & DA Cohn, eds, Advances in Neural Informa- 
+tion Processing Systems, 11. Cambridge, MA: MIT Press. 
+Swindale, NV (1996) Network.' Computation in Neural Systems 7:161-247. 

@@ -1,0 +1,292 @@
+Efficient Learning of Linear Perceptrons 
+Shai Ben-David 
+Department of Computer Science 
+Technion 
+Haifa 32000, Israel 
+shaics. technion. ac. il 
+Hans Ulrich Simon 
+Fakult/kt ffir Mathematik 
+Ruhr Universit/it Bochum 
+D-44780 Bochum, Germany 
+s imonlmi. ruhr-uni-bochum. de 
+Abstract 
+We consider the existence of efficient algorithms for learning the 
+class of half-spaces in n in the agnostic learning model (i.e., mak- 
+ing no prior assumptions on the example-generating distribution). 
+The resulting combinatorial problem - finding the best agreement 
+half-space over an input sample - is NP hard to approximate to 
+within some constant factor. We suggest a way to circumvent this 
+theoretical bound by introducing a new measure of success for such 
+algorithms. An algorithm is p-margin successful if the agreement 
+ratio of the half-space it outputs is as good as that of any half-space 
+once training points that are inside the p-margins of its separating 
+hyper-plane are disregarded. We prove crisp computational com- 
+plexity results with respect to this success measure: On one hand, 
+for every positive p, there exist efficient (poly-time) p-margin suc- 
+cessful learning algorithms. On the other hand, we prove that 
+unless P-NP, there is no algorithm that runs in time polynomial 
+in the sample size and in 1/p that is p-margin successful for all 
+p)0. 
+I Introduction 
+We consider the computational complexity of learning linear perceptrons for arbi- 
+trary (i.e. non -separable) data sets. While there are quite a few perceptron learning 
+algorithms that are computationally efficient on separable input samples, it is clear 
+that 'real-life' data sets are usually not linearly separable. The task of finding a lin- 
+ear perceptron (i.e. a half-space) that maximizes the number of correctly classified 
+points for an arbitrary input labeled sample is known to be NP-hard. Furthermore, 
+even the task of finding a half-space whose success rate on the sample is within 
+some constant ratio of an optimal one is NP-hard [1]. 
+A possible way around this problem is offered by the support vector machines 
+paradigm (SVM) . In a nutshell, the SVM idea is to replace the search for a linear 
+separator in the feature space of the input sample, by first embedding the sample 
+into a Euclidean space of much higher dimension, so that the images of the sample 
+points do become separable, and then applying learning algorithms to the image 
+of the original sample. The SVM paradigm enjoys an impressive practical success, 
+however, it can be shown ([3]) that there are cases in which such embeddings are 
+bound to require high dimension and allow only small margins, which in turn entails 
+the collapse of the known generalization performance guarantees for such learning. 
+We take a different approach. While sticking with the basic empirical risk mini- 
+mization principle, we propose to replace the worst-case-performance analysis by an 
+alternative measure of success. The common definition of the approximation ratio 
+of an algorithm, requires the profit of an algorithm to remain within some fixed 
+ratio from that of an optimal solution for all inputs, we allow the relative quality 
+of our algorithm to vary between different inputs. For a given input sample, the 
+number of points that the algorithm's output half-space should classify correctly 
+relates not only to the success rate of the best possible half-space, but also to the 
+robustness of this rate to perturbations of the hyper-plane. This new success re- 
+quirement is intended to provide a formal measure that, while being achievable by 
+efficient algorithms, retains a guaranteed quality of the output 'whenever possible'. 
+The new success measure depends on a margin parameter /. An algorithm is 
+called I-margin successful if, for any input labeled sample, it outputs a hypothesis 
+half-space that classifies correctly as many sample points as any half-space can 
+classify correctly with margin/ (that is, discounting points that are too close to 
+the separating hyper-plane). 
+Consequently, a/-margin successful algorithm is required to output a hypothesis 
+with close-to-optimal performance on the input data (optimal in terms of the num- 
+ber of correctly classified sample points), whenever this input sample has an optimal 
+separating hyper-plane that achieves larger-than-/ margins for most of the points 
+it classifies correctly. On the other hand, if for every hyper-plane h that achieves 
+close-to-maximal number of correctly classified input points, a large percentage of 
+the correctly classified points are close to h's boundary, then an algorithm can settle 
+for a relatively poor success ratio without violating the/-margin success criterion. 
+We obtain a crisp analysis of the computational complexity of perceptron learning 
+under the/-margin success requirement: 
+On one hand, for every / ) 0 we present an ejficient/-margin 
+successful learning algorithm (that is, an algorithm that runs in 
+time polynomial in both the input dimension and the sample size). 
+On the other hand, unless P-NP, no algorithm whose running time 
+is polynomial in the sample size and dimension and in 1// can be 
+/-margin successful for all/  0. 
+Note, that by the hardness of approximating linear perceptrons result of [1] cited 
+above, for/ - 0,/-margin learning is NP hard (even NP-hard to approximate). 
+We conclude that the new success criterion for learning algorithms provides a rigor- 
+ous success guarantee that captures the constraints imposed on perceptron learning 
+by computational efficiency requirements. 
+It is well known by now that margins play an important role in the analysis of genera- 
+lization performance (or sample complexity). The results of this work demonstrate 
+that a similar notion of margins is a significant component in the determination of 
+the computational complexity of learning as well. 
+Due to lack of space, in this extended abstract we skip all the technical proofs. 
+2 Definition and Notation 
+We shall be interested in the problem of finding a half-space that maximizes the 
+agreement with a given labeled input data set. More formally, 
+Best Separating Hyper-plane (BSH) Inputs are of the form (n, $), where n > 
+1, and $ = {(x,),..., (Xm,]m)} is finite labeled sample, that is, each xi 
+is a point in n and each Vi is a member of {- 1, - 1}. A hyper-plane h(w, t), 
+where w  n and t  , correctly classifies (x, 
+where  wx  denotes the dot product of the vectors w and x. 
+We define the profit of h = h(w, t) on S as 
+profit(hiS)- h correctly classifies 
+I$1 
+The goal of a Best Separating Hyper-plane algorithm is to find a pair (w, t) 
+so that profit(h(w,t)]S) is as large as possible. 
+In the sequel, we refer to an input instance with parameter n as a n-dimensional 
+input. 
+On top of the Best Separating Hyper-plane problem we shall also refer to the fol- 
+lowing combinatorial optimization problems: 
+Best separating Homogeneous Hyper-plane (BSHH) - The same problem 
+as BSH, except that the separating hyper-plane must be homogeneous, 
+that is, t must be set to zero. The restriction of BSHH to input points from 
+$n-, the unit sphere in n, is called Best Separating Hemisphere Problem 
+(BSHem) in the sequel. 
+Densest Hemisphere (DHem) Inputs are of the form (n, P), where n > I and 
+P is a list of (not necessarily different) points from $n- _ the unit sphere 
+in n. The problem is to find the Densest Hemisphere for P, that is, a 
+weight vector w  n such that H+(w, 0) contains as many points from P 
+as possible (accounting for their multiplicity in P). 
+Densest Open Ball (DOS) Inputs are of the form (n,P), where n > 1, and P 
+is a list of points from n. The problem is to find the Densest Open Ball of 
+radius I for P, that is, a center z  n such that B(z, 1) contains as many 
+points from P as possible (accounting for their multiplicity in P). 
+For the sake of our proofs, we shall also have to address the following well studied 
+optimization problem: 
+MAX-E2-SAT Inputs are of the form (n, C), where n > I and C is a collection of 
+2-clauses over n Boolean variables. The problem is to find an assignment 
+a  {0, 1} n satisfying as many 2-clauses of C as possible. 
+More generally, a maximization problem defines for each input instance I a set 
+of legal solutions, and for each (instance, legal-solution) pair (I, a), it defines 
+profit(l, a)  + - the profit of a on I. 
+For each maximization problem II and each input instance I for II, opt n (I) denotes 
+the maximum profit that can be realized by a legal solution for I. Subscript II is 
+omitted when this does not cause confusion. The profit realized by an algorithm A 
+on input instance I is denoted by A(I). The quantity 
+opt(I)- A(I) 
+opt(I) 
+is called the relative error of algorithm A on input instance I. A is called 5- 
+approximation algorithm for II, where 5  +, if its relative error on I is at most 
+for all input instances I. 
+2.1 The new notion of approximate optimization: /-margin 
+approximation 
+As mentioned in the introduction, we shall discuss a variant of the above common 
+notion of approximation for the best separating hyper-plane problem (as well as for 
+the other geometric maximization problems listed above). The idea behind this new 
+notion, that we term '/-margin approximation', is that the required approximation 
+rate varies with the structure of the input sample. When there exist optimal solu- 
+tions that are 'stable', in the sense that minor variations to these solutions will not 
+effect their cost, then we require a high approximation ratio. On the other hand, 
+when all optimal solutions are 'unstable' then we settle for lower approximation 
+ratios. 
+The following definitions focus on separation problems, but extend to densest set 
+problems in the obvious way. 
+Definition 2.1 Given a hypothesis class 7i = Un7in, where each 7in is a collection 
+of subsets of n, and a parameter l _> O, 
+A margin function is a function M: Un(7tn x n)  +. That is, given 
+a hypothesis h C n and a point x  n, M(h, x) is a non-negative real 
+number - the margin of x w.r.t. h. In this work, in most cases M(h,x) 
+is the Euclidean distance between x and the boundary of h, normalized by 
+Ilxll. and, for linear separators, by the 2-norm of the hyper-plane h as well. 
+ß Given a finite labeled sample S and a hypothesis h  7in, the profit realized 
+by h on S with margin p is 
+profit(h[$,/) = [{(xi,i) : h correctly classifies (xi,vi) and M(h, xi) _ /}[ 
+ß For a labeled sample $, let optg($) de__ maxne(profit(hl$,/) ) 
+h  7in is a /-margin approximation for $ w.r.t. 7i if profit(hiS) _> 
+optu($). 
+ß an algorithm A is/-successful for 7i if for every finite n-dimensional input 
+S it outputs A(S)  7in which is a/-margin approximation for S w.r.t. 7i. 
+Given any of the geometric maximization problem listed above, II, its l- 
+relaxation is the problem of finding, for each input instance of II a l-margin 
+approximation. For a given parameter l > O, we denote the l-relaxation 
+of a problem II by II[/]. 
+3 Efficient - margin successful learning algorithms 
+Our Hyper-plane learning algorithm is based on the following result of Ben-David, 
+Eiron and Simon [2] 
+Theorem 3.1 For every (constant) l > O, there exists a l-margin successful poly- 
+nomial time algorithm Au for the Densest Open Ball Problem. 
+We shall now show that the existence of a/-successful algorithm for Densest Open 
+Balls implies the existence of/-successful algorithms for Densest Hemispheres and 
+Best Separating Homogeneous Hyper-planes. Towards this end we need notions of 
+reductions between combinatorial optimization problems. The first definition, of 
+a cost preserving polynomial reduction, is standard, whereas the second definition 
+is tailored for our notion of/-margin success. Once this, somewhat technical, 
+preliminary stage is over we shall describe our learning algorithms and prove their 
+performance guarantees. 
+Definition 3.2 Let II and II  be two maximization problems. A cost preserving 
+n cp n consists of the following 
+polynomial reduction from II to II , written as _pol 
+components: 
+ß a polynomial time computable mapping which maps input instances of II to 
+input instances of II , so that whenever I is mapped to F, opt(F) _ opt(l). 
+ß for each I, a polynomial time computable mapping which maps each legal 
+solutions  for I  to a legal solution  for I having the same profit that . 
+The following result is evident: 
+Lemma 3.3 If n cp n and there exists a polynomial time 5-approximation algo- 
+__pol  
+rithm for II , then there exists a polynomial time 5-approximation algorithm for 
+II. 
+Claim 3.4 BSHPolBSHHCp. BSHemCp. DHem. 
+-- --po --po 
+Proof Sketch: By adding a coordinate one can translate hyper-planes to homoge- 
+neous hyper-planes (i.e., hyper-planes that pass through the origin). To get from the 
+homogeneous hyper-planes separating problem to the best separating hemisphere 
+problem, one applies the standard scaling trick. To get from there to the densest 
+hemisphere problem, one applies the standard reflection trick. ß 
+We are interested in /-relaxations of the above problems. We shall therefore in- 
+troduce a slight modification of the definition of a cost-preserving reduction which 
+makes it applicable to/-relaxed problems. 
+Definition 3.5 Let II and II  be two geometric maximization problems, and 
+, '  0. A cost preserving polynomial reduction from II[] to II'['], written 
+as II[]_Po1II'['], consists of the following components: 
+a polynomial time computable mapping which maps input instances of II 
+to input instances of II , so that whenever I is mapped to F, opt,(F) _ 
+ß for each I, a polynomial time computable mapping which maps each legal 
+solutions  for I  to a legal solution  for I having the same profit that . 
+The following result is evident: 
+Lemma 3.6 If '] and there exists a polynomial time /-margin suc- 
+--p 
+cessful algorithm for II, then there exists a polynomial time/-margin successful 
+algorithm for II . 
+Claim 3.7 For every I > O, BSI-J[lg]<CPolBSHI-J[lg]<CPolBSHem[lg]<C_PolDHem[lg]. 
+--p --p --p 
+To conclude our reduction of the Best Separating Hyper-plane problem to the Dens- 
+est open Ball problem we need yet another step. 
+Lemma 3.8 For I > O, let I  = 1 - X/ - I 2 and I" = 12 /2. Then, 
+DHem[l] <CPo D OB[l'] <CPo D OB[l"] 
+The proof is a bit technical and is deferred to the full version of this paper. 
+Applying Theorem 3.1 and the above reductions, we therefore get: 
+Theorem 3.9 For each (constant)/ > O, there exists a/-successful polynomial 
+time algorithm A t, for the Best Separating Hyper-plane problem. 
+Clearly, the same result holds for the problems BSHH, DHem and BSHem as well. 
+Let us conclude by describing the learning algorithms for the BSH (or BSHH) 
+problem that results from this analysis. 
+We construct a family (Ak)keV of polynomial time algorithms. Given a labeled 
+input sample $, the algorithm Ak exhaustively searches through all subsets of $ of 
+size _< k. For each such subset, it computes a hyper-plane that separates the positive 
+from the negative points of the subset with maximum margin (if a separating hyper- 
+plane exists). The algorithm then computes the number of points in $ that each 
+of these hyper-planes classifies correctly, and outputs the one that maximizes this 
+number. 
+In [2] we prove that our Densest Open Ball algorithm is /-successful for / = 
+1/vr- 1 (when applied to all k-size subsamples). Applying Lemma 3.8, we may 
+conclude for problem BSH that, for every k, A is (4/(k- 1))/4-successful. In other 
+words: in order to be/-successful, we must apply algorithm A for k = 1 + [4//4]. 
+4 NP-Hardness Results 
+We conclude this extended abstract by proving some NP-hardness results that com- 
+plement rather tightly the positive results of the previous section. We shall base 
+our hardness reductions on two known results. 
+Theorem 4.1 [H&stad, [4]] Assuming PNP, for any 5 < 1/22, there is no 
+polynomial time &approximation algorithm for MAX-E2-SAT. 
+Theorem 4.2 [Ben-David, Eiron and Long, [1]] Assuming PNP, for any 
+5 < 3/418, there is no polynomial time &approximation algorithm for BSH. 
+Applying Claim 3.4 we readily get: 
+Corollary 4.3 Assuming PNP, for any 5 < 3/418, there is no polynomial time 
+&approximation algorithm for BSHH, BSHem, or DHem. 
+So far we discussed/-relaxations only for a value of/ that was fixed regardless 
+of the input dimension. All the above discussion extends naturally to the case of 
+dimension-dependent margin parameter. Let fi denote a sequence (/,...,/,... ). 
+For a problem II, its fi-relaxation refers to the problem obtained by considering the 
+margin value/ for inputs of dimension n. A main tool for proving hardness is 
+the notion of fi-legal input instances. An n-dimensional input sample $ is called 
+fi-legal if the maximal profit on $ can be achieved by a hypothesis h, that satisfies 
+profit(h, IS) = profit(h, IS,/). Note that the -relaxation of a problem is NP- 
+hard, if the problem restricted to -legal input instances is NP-hard. 
+Using a special type of reduction, that due to space constrains we cannot elaborate 
+here, we can show that Theorem 4.1 implies the following: 
+Theorem 4.4 1. Assuming PNP, there is no polynomial time 1/198- 
+approximation for BSH even when only 1/ 3v/6---legal input instances are 
+allowed. 
+2. Assuming PNP, there is no polynomial time 1/198-approximation for 
+BSHH even when only 1/y/45(n + 1)-legal input instances are allowed. 
+Using the standard cost preserving reduction chain from BSHH via BSHem to 
+DHem, and noting that these reductions are obviously margin-preserving, we get 
+the following: 
+Corollary 4.5 Let $ be one of the problems BSHH, BSHem, or DHem, and let  
+be given by Pn = 1/y/45(n + 1). Unless P=NP, there exists no polynomial time 
+1/198-approximation for $[]. In particular, the -relaxations of these problems are 
+NP-hard. 
+Since the 1/y/45(n + 1)-relaxation of the Densest Hemisphere Problem is NP-hard, 
+applying Lemma 3.8 we get immediately 
+Corollary 4.6 The  
+45(n+)-relaxation of the Densest Ball Problem is NP-hard. 
+Finally note that Corollaries 4.4, 4.5 and 4.6 rule out the existence of "strong 
+schemes" (Au) with running time of Au being also polynomial in 1//. 
+References 
+[1] Shai Ben-David, Nadav Eiron, and Philip Long. On the difficulty of approxi- 
+mately maximizing agreements. Proceedings of the Thirteenth Annual Confer- 
+ence on Computational Learning Theory (COLT 2000), 266-274. 
+[2] Shai Ben-David, Nadav Eiron, and Hans Ulrich Simon. The computational 
+complexity of densest region detection. Proceedings of the Thirteenth Annual 
+Conference on Computational Learning Theory (COLT 2000), 255-265. 
+[3] Shai Ben-David, Nadav Eiron, and Hans Ulrich Simon. Non-embedability in 
+Euclidean Half-Spaces. Technion TR, 2000. 
+[4] Johan H&stad. Some optimal inapproximability results. In Proceedings of the 
+29th Annual Symposium on Theory of Computing, pages 1-10, 1997. 

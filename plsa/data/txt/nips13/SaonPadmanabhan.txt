@@ -1,0 +1,269 @@
+Minimum Bayes Error Feature Selection for 
+Continuous Speech Recognition 
+George Saon and Mukund Padmanabhan 
+IBM T. J. Watson Research Center, Yorktown Heights, NY, 10598 
+E-mail: {saon,mukund} @watson.ibm.com, Phone: (914)-945-2985 
+Abstract 
+We consider the problem of designing a linear transformation 0 E I/? x , 
+of rank p _< r, which projects the features of a classifier x E [t n onto 
+y = 0x E [t v such as to achieve minimum Bayes error (or probabil- 
+ity of misclassification). Two avenues will be explored: the first is to 
+maximize the O-average divergence between the class densities and the 
+second is to minimize the union Bhattacharyya bound in the range of 0. 
+While both approaches yield similar performance in practice, they out- 
+perform standard LDA features and show a 10% relative improvement 
+in the word error rate over state-of-the-art cepstral features on a large 
+vocabulary telephony speech recognition task. 
+1 Introduction 
+Modern speech recognition systems use cepstral features characterizing the short-term 
+spectrum of the speech signal for classifying frames into phonetic classes. These features 
+are augmented with dynamic information from the adjacent frames to capture transient 
+spectral events in the signal. What is commonly referred to as MFCC+A + AA features 
+consist in "static" mel-frequency cepstral coefficients (usually 13) plus their first and sec- 
+ond order derivatives computed over a sliding window of typically 9 consecutive frames 
+yielding 39-dimensional feature vectors every 10ms. One major drawback of this front-end 
+scheme is that the same computation is performed regardless of the application, channel 
+conditions, speaker variability, etc. In recent years, an alternative feature extraction pro- 
+cedure based on discriminant techniques has emerged: the consecutive cepstral frames 
+are spliced together forming a supervector which is then projected down to a manageable 
+dimension. One of the most popular objective functions for designing the feature space 
+projection is linear discriminant analysis. 
+LDA [2, 3] is a standard technique in statistical pattern classification for dimensionality 
+reduction with a minimal loss in discrimination. Its application to speech recognition has 
+shown consistent gains for small vocabulary tasks and mixed results for large vocabulary 
+applications [4, 6]. Recently, there has been an interest in extending LDA to heteroscedastic 
+discriminant analysis (HDA) by incorporating the individual class covariances in the ob- 
+jective function [6, 8]. Indeed, the equal class covariance assumption made by LDA does 
+not always hold true in practice making the LDA solution highly suboptimal for specific 
+cases [8]. 
+However, since both LDA and HDA are heuristics, they do not guarantee an optimal pro- 
+jection in the sense of a minimum Bayes classification error. The aim of this paper is to 
+study feature space projections according to objective functions which are more intimately 
+linked to the probability of misclassification. More specifically, we will define the proba- 
+bility of misclassification in the original space, e, and in the projected space, e0, and give 
+conditions under which e0 = e. Since after a projection y = 0x discrimination infor- 
+mation is usually lost, the Bayes error in the projected space will always increase, that is 
+e0 _> e therefore minimizing e0 amounts to finding 0 for which the equality case holds. An 
+alternative approach is to define an upper bound on e0 and to directly minimize this bound. 
+The paper is organized as follows: in section 2 we recall the definition of the Bayes error 
+rate and its link to the divergence and the Bhattacharyya bound, section 3 deals with the 
+experiments and results and section 4 provides a final discussion. 
+2 Bayes error, divergence and Bhattacharyya bound 
+2.1 Bayes error 
+Consider the general problem of classifying an n-dimensional vector x into one of U dis- 
+tinct classes. Let each class i be characterized by its own prior ,i and probability density 
+function pi, i = 1,..., U. Suppose x is classified as belonging to class j through the Bayes 
+assignment j = argrnax<i< c ipi(x). The expected error rate for this classifier is called 
+Bayes error [3] or probability of misclassification and is defined as 
+e = I -/t max /iPi(x)dx 
+n i<i<C 
+(1) 
+Suppose next that we wish to perform the linear transformation f ß n ._> p, y = 
+f(x) = 0x, with 0 a p x n matrix of rank p _< n. Moreover, let us denote by p/0 the 
+transformed density for class i. The Bayes error in the range of 0 now becomes 
+eo=l-/rt max AiPi ø(y)dy 
+p i<i<C 
+(2) 
+Since the transformation y = 0x produces a vector whose coefficients are linear combi- 
+nations of the input vector x, it can be shown [1] that, in general, information is lost and 
+For a fixed p, the feature selection problem can be stated as finding t such that 
+ = argmin e0 (3) 
+Olpx', rank(O)=p 
+We will take however an indirect approach to (3): by maximizing the average pairwise 
+divergence and relating it to e0 (subsection 2.2) and by minimizing the union Bhattacharyya 
+bound on e0 (subsection 2.3). 
+2.2 Interclass divergence 
+Since Kullback [5], the symmetric divergence between class i and j is given by 
+D(i,j) pi(x) log pi(x) pj(x) 
+pj(x + pj(x)log dx (4) 
+p(x) 
+D(i,j) represents a measure of the degree of difficulty of discriminating between the 
+classes (the larger the divergence, the greater the separability between the classes). 
+Similarly, one can define Do(i,j), the pairwise divergence in the range of 0. Kull- 
+back [5] showed that Do(i,j) _< D(i,j). If the equality case holds, 0 is called a suf- 
+ficient statistic for discrimination. The average pairwise divergence is defined as D = 
+2 2 
+c(c-) Y,_<i<j_<c D(i,j) and respectively Do = c(c-) Y-_<i<j_<c Do(i,j). It fol- 
+lows that Do _< D. The next theorem due to Decell [1] provides a link between Bayes 
+error and divergence for classes with uniform priors A - = Ac (=  
+Theorem [Decell'72] If Do = D then eo = . 
+The main idea of the proof is to show that if the divergences are the same then the Bayes 
+assignment is preserved because the likelihood ratios are preserved almost everywhere: 
+pi(x) p/ø (0x) 
+pj (x) -- p (0x)' i  j. The result follows by noting that for any measurable set A C RP 
+APiO (y)dy -- Jo pi(x)dx (5) 
+--(A) 
+where O-(A) = {x E R10x E A}. The previous theorem provides a basis for selecting 
+0 such as to maximize Do. 
+Let us make next the assumption that each class i is normally distributed with mean/i and 
+covarianceEi, that is pi(x) JV'(x;pi, Ei) and = J(y;Opi,OEi OT) i -- 1,...,C. 
+= p/O (y) , 
+It is straightforward to show that in this case the divergence is given by 
+1 trace{E_t [Ej + (/i-/j) (/i-/j)T] + E-t [Ei + (/i-/j) (/i-/j)T] }-n 
+D(i,j)-  
+Thus, the objective function to be maximized becomes 
+c 
+I trace{y(OEiOT)_O$iOT } _ P 
+Do = C(C- 1) i= 
+(7) 
+where $i = Y Ej + (!i - !j)(!i -/j)T, i = 1,..., C. 
+j7i 
+Following matrix differentiation results from [9], the gradient of Do with respect to 0 has 
+the expression 
+c 
+OD__o = I y(OEiOT)-[OSiOr(OEiOr)-OEi - OSi] (8) 
+O0 C(C- 1) i= 
+Unfortunately, it turns out that ODo _ 0 has no analytical solutions for the stationary points. 
+O0 -- 
+Instead, one has to use numerical optimization routines for the maximization of Do. 
+2.3 Bhattacharyya bound 
+An alternative way of minimizing the Bayes error is to minimize an upper bound on this 
+quantity. We will first prove the following statement 
+ _< i < j _< c 
+Indeed, from (1), the Bayes error can be rewritten as 
+c 
+/1 Y'ipi(x)dx- /l m&x .ipi(x)dx 
+n n i<i<C 
+i=1 
+It min Ajpj(x)dx 
+ i<i<C J7 i 
+(10) 
+and for every x, there exists a permutation of the indices crx ß {1,... 
+{1,..., C} such that the terms Ap (x),..., Acpc(x) are sorted in increasing order, i.e. 
+A,()p,() (x) _< ... _< Ao-,,(c)po-,,(c)(x). Moreover, for 1 _< k _< C- 1 
+,,,(k)P,,(k) (x) _< V/,,,(k)p,,()(x),,,(+)p,,(+)(x) 
+from which follows that 
+(11) 
+C-1 C-1 
+min y Ajpj(x)= y Ax()px(k)(x)< y V/Ax()px()(x)Ax(+)px(+)(x) 
+i<i<C -- 
+j7i k=l k=l 
+l_<i<j_<C 
+/Aipi(x)Ajpj(x) 
+(12) 
+which, when integrated over , leads to (9). 
+As previously, if we assume that the pi's are normal distributions with means/i and co- 
+variances Ei, the bound given by the right-hand side of (9) has the closed form expression 
+where 
+ - e -p(i'j) (13) 
+l _< i < j _< C 
+I [ Ei + Ej 
+p(i,j) = õ(li - Ij) :r 2 
+- I ] 2 (14) 
+(/i-/j) +  log x/ISllSjl 
+is called the Bhattacharyya distance between the normal distributions Pi and pj [3]. Simi- 
+larly, one can define Po (i, j), the Bhattacharyya distance between the projected densities p/0 
+0 Combining (9) and (13), one obtains the following inequality involving the Bayes 
+and pj. 
+error rate in the projected space 
+_<i<j_<c 
+It is necessary at this point to introduce the following simplifying notations: 
+(15) 
+ß Bij = ¬(!i- !j)(!i- !j) T and 
+(E + Ej), 1 < i < j < U. 
+ß Wij---- _ _ 
+From (14), it follows that 
+1 
+I trace{(OWijOT)_OBijOT} +  log 
+po(i,j) =  
+IOWOrl 
+(16) 
+and the gradient of Bo with respect to 0 is 
+OBo _ 
+O0 E Ae_OO(i,j ) Opo(i,j) 
+oo 
+l_i<j_C 
+with, again by making use of differentiation results from [9] 
+(17) 
+Opo(i,j) 
+oo 
+3 Experiments and results 
+The speech recognition experiments were conducted on a voicemail transcription task [7]. 
+The baseline system has 2.3K context dependent HMM states and 134K diagonal gaus- 
+sian mixture components and was trained on approximately 70 hours of data. The test 
+set consists of 86 messages (approximately 7000 words). The baseline system uses 39- 
+dimensional frames (13 cepstral coefficients plus deltas and double deltas computed from 
+9 consecutive frames). For the divergence and Bhattacharyya projections, every 9 con- 
+secutive 24-dimensional cepstral vectors were spliced together forming 216-dimensional 
+feature vectors which were then clustered to estimate 1 full covariance gaussian density for 
+each state. Subsequently, a 39x216 transformation 0 was computed using the objective 
+functions for the divergence (7) and the Bhattacharyya bound (15), which projected the 
+models and feature space down to 39 dimensions. As mentioned in [4], it is not clear what 
+the most appropriate class definition for the projections should be. The best results were 
+obtained by considering each individual HMM state as a separate class, with the priors of 
+the gaussians summing up to one across states. Both optimizations were initialized with 
+the LDA matrix and carried out using a conjugate gradient descent routine with user sup- 
+plied analytic gradient from the NAG  Fortran library. The routine performs an iterative 
+update of the inverse of the hessian of the objective function by accumulating curvature 
+information during the optimization. 
+Figure 1 shows the evolution of the objective functions for the divergence and the Bhat- 
+tacharyya bound. 
+3OO 
+25O 
+200 
+.> 
+"u 150 
+IO0 
+50 
+5.9 
+5.8 
+ 5.6 
+nn 
+5.5 
+5.4 
+"dvg.dat" -- 
+I I 
+5 10 
+I I I I 
+15 20 25 30 
+Iteration 
+35 
+"bhatta.dat" -- 
+0 20 40 60 80 1 O0 
+Iterabon 
+Figure 1' Evolution of the objective functions. 
+The parameters of the baseline system (with 134K gaussians) were then re-estimated in the 
+transformed spaces using the EM algorithm. Table 1 summarizes the improvements in the 
+word error rates for the different systems. 
+1Numerical Algebra Group 
+System Word error rate 
+Baseline (MFCC+A + AA) 39.61% 
+LDA 37.39% 
+Interclass divergence 36.32% 
+Bhattacharyya bound 35.73% 
+Table 1: Word error rates for the different systems. 
+4 Summary 
+Two methods for performing discriminant feature space projections have been presented. 
+Unlike LDA, they both aim to minimize the probability of misclassification in the projected 
+space by either maximizing the interclass divergence and relating it to the Bayes error or 
+by directly minimizing an upper bound on the classification error. Both methods lead to 
+defining smooth objective functions which have as argument projection matrices and which 
+can be numerically optimized. Experimental results on large vocabulary continuous speech 
+recognition over the telephone show the superiority of the resulting features over their LDA 
+or cepstral counterparts. 
+References 
+[1] 
+H. P. Decell and J. A. Quirein. An iterative approach to the feature selection problem. 
+Proc. Purdue Univ. Conf. on Machine Processing of Remotely Sensed Data, 3B 1- 
+3B12, 1972. 
+[2] R. O. Duda and P. B. Hart. Pattern classification and scene analysis. Wiley, New York, 
+1973. 
+[3] K. Fukunaga. Introduction to statistical pattern recognition. Academic Press, New 
+York, 1990. 
+[4] 
+R. Haeb-Umbach and H. Ney. Linear Discriminant Analysis for improved large vo- 
+cabulary continuous speech recognition. Proceedings oflCASSP'92, volume 1, pages 
+13-16, 1992. 
+[5] S. Kullback. Information theory and statistics. Wiley, New York, 1968. 
+[6] 
+N. Kumar and A. G. Andreou. Heteroscedastic discriminant analysis and reduced 
+rank HMMs for improved speech recognition. Speech Communcation, 26:283-297, 
+1998. 
+[7] 
+M. Padmanabhan, G. Saon, S. Basu, J. Huang and G. Zweig. Recent improvements 
+in voicemail transcription. Proceedings of EUROSPEECH'99, Budapest, Hungary, 
+1999. 
+[8] G. Saon, M. Padmanabhan, R. Gopinath and S. Chen. Maximum likelihood discrim- 
+inant feature spaces. Proceedings oflCASSP'2000, Istanbul, Turkey, 2000. 
+[9] S. R. Searle. Matrix algebra useful for statistics. Wiley Series in Probability and 
+Mathematical Statistics, New York, 1982. 

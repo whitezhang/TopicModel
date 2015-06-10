@@ -1,0 +1,316 @@
+Generalizable Singular Value 
+Decomposition for Ill-posed Datasets 
+Ulrik Kjems Lars K. Hansen 
+Department of Mathematical Modelling 
+Technical University of Denmark 
+DK-2800 Kgs. Lyngby, Denmark 
+uk, lkhansen imm. dtu. dk 
+Stephen C. Strother 
+PET Imaging Service 
+VA medical center 
+Minneapolis 
+steve pet. med. va. gov 
+Abstract 
+We demonstrate that statistical analysis of ill-posed data sets is 
+subject to a bias, which can be observed when projecting indepen- 
+dent test set examples onto a basis defined by the training exam- 
+ples. Because the training examples in an ill-posed data set do not 
+fully span the signal space the observed training set variances in 
+each basis vector will be too high compared to the average vari- 
+ance of the test set projections onto the same basis vectors. On 
+basis of this understanding we introduce the Generalizable Singu- 
+lar Value Decomposition (GenSVD) as a means to reduce this bias 
+by re-estimation of the singular values obtained in a conventional 
+Singular Value Decomposition, allowing for a generalization perfor- 
+mance increase of a subsequent statistical model. We demonstrate 
+that the algorithm succesfully corrects bias in a data set from a 
+functional PET activation study of the human brain. 
+1 Ill-posed Data Sets 
+An ill-posed data set has more dimensions in each example than there are examples. 
+Such data sets occur in many fields of research typically in connection with image 
+measurements. The associated statistical problem is that of extracting structure 
+from the observed high-dimensional vectors in the presence of noise. The statistical 
+analysis can be done either supervised (i.e. modelling with target values: classifi- 
+cation, regresssion) or unsupervised (modelling with no target values: clustering, 
+PCA, ICA). In both types of analysis the ill-posedness may lead to immediate prob- 
+lems if one tries to apply conventional statistical methods of analysis, for example 
+the empirical covariance matrix is prohibitively large and will be rank-deficient. 
+A common approach is to use Singular Value Decomposition (SVD) or the analogue 
+Principal Component Analysis (PCA) to reduce the dimensionality of the data. Let 
+the N observed/-dimensional samples xj, j = 1...N, collected in the data matrix 
+X = [x ... XN] of size I x N, I ) N. The SVD-theorem states that such a matrix 
+can be decomposed as 
+X=UAV T, (1) 
+where U is a matrix of the same size as X with orthogonal basis vectors spanning 
+the space of X, so that UTU = INxN. The square matrix A contains the singular 
+values in the diagonal, A = diag(A, ...,AM), which are ordered and positive A _> 
+A2 _> ... _> AM _> 0, and V is N x N and orthogonal VTV = IN. If there is a mean 
+value significantly different from zero it may at times be advantageous to perform 
+the above analysis on mean-subtracted data, i.e. X - X = UAV -r where columns 
+of X all contain the mean vector  = S xS/N. 
+Each observation x s can be expressed in coordinates in the basis defined by the 
+vectors of U with no loss of information[Lautrup et al., 1995]. A change of basis is 
+obtained by qs = UTxS as the orthogonal basis rotation 
+II = [q '"qN] = UTX = UYUAV¾ : AV¾- (2) 
+Since Q is only N x N and N << I, Q is a compact representation of the data. Having 
+now N examples of N dimension we have reduced the problem to a marginally ill- 
+posed one. To further reduce the dimensionality, it is common to retain only a 
+subset of the coordinates, e.g. the top P coordinates (P < N) and the supervised 
+or unsupervised model can be formed in this smaller but now well-posed space. 
+So far we have considered the procedure for modelling from a training set. Our 
+hope is that the statistical description generalizes well to new examples proving 
+that is is a good description of the generating process. The model should, in other 
+words, be able to perform well on a new example, x*, and in the above framework 
+this would mean the predictions based on q* = UTx * should generalize well. We 
+will show in the following, that in general, the distribution of the test set projection 
+q* is quite different from the statistics of the projections of the training examples 
+qj. It has been noted in previous work [Hansen and Larsen, 1996, Rowels, 1998, 
+Hansen et al., 1999] that PCA[SVD of ill-posed data does not by itself represent a 
+probabilistic model where we can assign a likelihood to a new test data point, and 
+procedures have been proposed which make this possible. In [Bishop, 1999] PCA has 
+been considered in a Bayesian framework, but does not address the significant bias 
+of the variance in training set projections in ill-posed data sets. In [Jackson, 1991] 
+an asymptotic expression is given for the bias of eigen-values in a sample covariance 
+matrix, but this expression is valid only in the well-posed case and is not applicable 
+for ill-posed data. 
+1.1 Example 
+Let the signal source be/-dimensional multivariate Gaussian distribution yV(0, ) 
+with a covariance matrix where the first K eigen-values equal a 2 and the last I - K 
+are zero, so that the covariance matrix has the decomposition 
+=a2YDYT, D = diag(1, ..., 1, 0, ..., 0), yTy= I (3) 
+Our N samples of the distribution are collected in the matrix X = [x/s] with the 
+SVD 
+X = UAV T, A = diag(A,..., AM) (4) 
+and the representation of the N examples in the N basis vector coordinates defined 
+by U is Q = [q/s] = UTX = AVT- The total variance per training example is 
+I I Tr(X TX) = Tr(VAUTUAV T) = Tr(VA V T) 
+i,j 
+I 2 I 2 
+1Tr(VV* 5 2) = Tr(a ) = -- 
+N N 
+i 
+(5) 
+Note that this variance is the same in the U-basis coordinates: 
+1 2 1 T 1 2 1 
+e = Tr( )= Tr(Va V -)=,xt 
+i,j i 
+We can derive the expected value of this variance: 
+1 
+(Ex, i) -- (Ex,i)--(xx)--Tr--cr2K 
+i,j i 
+(6) 
+(7) 
+Now, consider a test example x* - A/'(0, ) with the projection q* 
+will have the average total variance 
+E q,2 = (Tr[(UTx,)T(uTx,)]I = Tr[(x,x,T)uuT] 
+i 
+= Tr[UU T] = %[DUU ] = 2min(N,K) 
+= uTx * which 
+(8) 
+In summary, this means that the orthogonal basis U computed from the training set 
+spans all the variance in the training set but fails to do so on the test examples when 
+N  K, i.e. for ill-posed data. The training set variance is K/Nor 2 on average per 
+coordinate, compared to cr 2 for the test examples. So which of the two variances is 
+"correct" ? From a modelling point of view, the variance from the test example tells 
+us the true story, so the training set variance should be regarded as biased. This 
+suggests that the training set singular values should be corrected for this bias, in the 
+above example by re-estimating the training set projections using  - y//KQ. 
+In the more general case we do not know K, and the true covariance may have an ar- 
+bitrary eigen-spectrum. The GenSVD algorithm below is a more general algorithm 
+for correcting for the training set bias. 
+2 The GenSVD Algorithm 
+The data matrix consists of N statistically independent samples X = [x ... XN] 
+so X is size I x N, and each column of X is assumed multivariate Gaussian, 
+xj - A/'(0, ) and is ill-posed with rank  > N. 
+With the SVD X - UoAoVo T, we now make the approximation that Uo contains 
+an actual subset of the true eigen-vectors of  
+where we have collected the remaining (unspanned by X) eigen-vectors and values in 
+Uñ and A, satisfying Uff Uñ = ! and U0 T Uñ = 0. The unknown 'true' eigen-values 
+corresponding to the observed eigen-vectors are collected in A - diag(, ...N), 
+which are the values we try to estimate in the following. 
+ XX T yields  
+It should be noted that a direct estimation of  using ] =  = 
+_k Vo ,X o Vo ,X o V j . 
+= 'o'o'o, i.e., the nonzero eigen-vectors and values of $1 
+is Uo and A o. 
+The distribution of test samples x* inside the space spanned by Uo is 
+UoTx  A[(O, UoTuo) = A/'(0, A ) (10) 
+The problem is that Uo and the examples xj are not independent, so UoTxj is 
+  A  
+biased, e.g. the SVD estimate A 0 of assigns all variance to lie within Uo. 
+The GenSVD algorithm bypasses this problem by, for each example, computing 
+a basis on all other examples, estimating the variances in A 2 in a leave-one-out 
+manner. Consider 
+zj = UoT B_jB_xj (11) 
+where we introduce the notation X_j for the matrix of all examples except the 
+j'th, and this matrix is decomposed as X_j - B_jA_jV_. The operation B_jB_xj 
+projects the example onto the basis defined by the remaining examples, and back 
+again, so it 'strips' off the part of signal space which is special for xj which could 
+be signal which does not generalize across examples. 
+Since B_j and xj are independent B_xj has the same distribution as the projec- 
+tion of a test example x*, B_x*. Thus, B_jB_xj and B_jB_x* have the same 
+distribution as well. Now, since span B_j-span X_j and span U0-span [ X_j xj ] we 
+have that span B_jC_span Uo so we see that zj and UoTB_jB_x * are identically dis- 
+T TB jB Uo and using 
+tributed. This means that zj has the covariance U B_jB_j _ _ 
+Eq. (9) and that U2_ TB_j = 0 (since Uz T Uo = 0) we get 
+zj  Af (O, UoT B_jB_f UoAUoT B_jB_f Uo ) (12) 
+We note that this distribution is degenerate because the covariance is of rank N - 1. 
+For a sample zj from the above distribution we have that 
+UoTB_jB_Uozj = UoTB_jB_UoUoTB_jB_xj = UoTB_jB_xj = zj (13) 
+As a second approximation, assume that the observed zj are independent so that 
+we can write the likelihood of A 
+-logL(A) ___ y,',log [(2-)v/ (Uo-rB_j)(B_fUo)A(Uo-rB_j)(B_fUo) /] 
+1 
++ Y z]-(UJB-j)(B-f Uo)A-2UJB-j)(B-f Uo)z 
+N 21 
+__ c + - ylogA/+  y zfA-zj (14) 
+J J 
+where we have used Eq. 
+This above expression is 
+(13) and that the determinant  is approximated by A 2 . 
+maximized when 
+(15) 
+The GenSVD of X is then X = UofkV T, fk = diag(X, ..., Xv). 
+In practice, using Eq. (ll) directly to compute an SVD of the matrix X_j for each 
+example is computationally demanding. It is possible to compute zj in a more 
+efficient two-level procedure with the following algorithm: 
+Compute UoAoVo T = svd(X) and Q0 = [qj] = AoV0 T 
+1Since zj is degenerate, we define the likelihood over the space where zj occur, i.e. the 
+determinant in Eq. 14 should be read as 'the product of non-zero eigenvalues'. 
+foreach j = 1...N 
+Compute B_jA_jV_f - svd(Q_j) 
+z = 
+ j Zij 
+If the data has a mean value that we wish to remove prior to the SVD it is important 
+that this is done within the GenSVD algorithm. Consider a centered matrix Xc - 
+X - f where f contains the mean 5 replicated in all N columns. The signal space 
+in Xc is now corrupted because each centered example will contain a component 
+of all examples, which means the 'stripping' of signal components not spanned by 
+other examples no longer works: B_xj is no longer distributed like B_x*. This 
+suggests the alternative algorithm for data with removal of mean component: 
+Compute UoAoVo  -svd(X) and Q0- [ qj] - AoVo  
+foreach j = 1...N 
+__ 1 
+Compute B_jA_jV_ - svd(Q_j - Q_j) 
+= - 
+N-1 j Zij 
+Finally, note that it is possible to leave out more than one example at a time if the 
+data is independent only in block, i.e. let Q_ would be Qo with the k'th block left 
+out. 
+Example With PET Scans 
+We compared the performance of GenSVD to conventional SVD on a functional 
+[50] water PET activation study of the human brain. The study consisted of 
+18 subjects, who were scanned four times while tracing a star-shaped maze with 
+a joy-stick with visual feedback, in total 72 scans of dimension - 25000 spatial 
+voxels. After the second scan, the visual feedback was mirrored, and the subject 
+accomodated to and learned the new control environment during the last two scans. 
+Scans were normalized by 1) dividing each scan by the average voxel value measured 
+inside a brain mask and 2) for each scan subtracting the average scan for that sub- 
+ject thereby removing subject effects and 3) intra and inter-subject normalization 
+and transformation using rigid body reorientation and affine linear transformations 
+respectively. Voxels inside aforementioned brain mask were arranged in the data 
+matrix with one scan per column. 
+Figure I shows the results of an SVD decomposition compared to GenSVD. Each 
+marker represents one scan and the glyphs indicate scan number out of the four 
+(circle-square-star-triangle). The ellipses indicate the mean and covariances of the 
+projections in each scan number. The 32 scans from eight subjects were used as a 
+training set and 40 scans from the remaining 10 subjects for testing. The training 
+set projections are filled markers, test-set projections onto the basis defined by the 
+training set are open markers (i.e. we plot the first two columns of UoA o for SVD 
+and of Uol for GenSVD). We see that there is a clear difference in variance in the 
+train- and test-examples, which is corrected quite well by GenSVD. The lower plot 
+in Figure I shows the singular values for the PET data set. We see that GenSVD 
+estimates are much closer to the actual test projection standard deviations than the 
+SVD singular values. 
+3 Conclusion 
+We have demonstrated that projection of ill-posed data sets onto a basis defined 
+by the same examples introduces a significant bias on the observed variance when 
+comparing to projections of test examples onto the same basis. The GenSVD algo- 
+rithm has been presented as a tool for correcting for this bias using a leave-one-out 
+re-estimation scheme, and a computationally efficient implementation has been pro- 
+posed. 
+We have demonstrated that the method works well on an ill-posed real-world data 
+set, were the distribution of the GenSVD-corrected training test set projections 
+matched the distribution of the observed test set projections far better than the 
+uncorrected training examples. This allows a generalization performance increase 
+of a subsequent statistical model, in the case of both supervised and unsupervised 
+models. 
+Acknowledgments 
+This work was supported partly by the Human Brain Project grant P20 MH57180, 
+the Danish Research councils for the Natural and Technical Sciences through the 
+Danish Computational Neural Network Center (CONNECT) and the Technology 
+Center Through Highly Oriented Research (THOR). 
+References 
+[Bishop, 1999] Bishop, C. (1999). Bayesian pca. In Kearns, M. S., Solla, S. A., and Cohn, 
+D. A., editors, Advances in Neural Information Processing Systems, volume 11. The 
+MIT Press. 
+[Hansen et al., 1999] Hansen, L., Larsen, J., Nielsen, F., Strother, S., Rostrup, E., Savoy, 
+R., Lange, N., Sidtis, J., Svarer, C., and Paulson, O. (1999). Generalizable patterns in 
+neuroimaging: How many principal components? Neurolmage, 9:534-544. 
+[Hansen and Larsen, 1996] Hansen, L. K. and Larsen, J. (1996). Unsupervised learning 
+and generalization. In Proceedings of IEEE International Conference on Neural Net- 
+works, pages 25-30. 
+[Jackson, 1991] Jackson, J. E. (1991). A User's Guide to Principal Components. Wiley 
+Series on Probability and Statistics, John Wiley and Sons. 
+[Lautrup et al., 1995] Lautrup, B., Hansen, L. K., Law, I., M0rch, N., Svarer, C., and 
+Strother, S. (1995). Massive weight sharing: A cure for extremely ill-posed problems. 
+In Hermann, H. J., Wolf, D. E., and PSppel, E. P., editors, Proceedings of Workshop 
+on Supercomputing in Brain Research: From Tomography to Neural Networks: From 
+tomography to neural networks, HLRZ, KFA Jiilich, Germany, pages 137-148. World 
+Scientific. 
+[Roweis, 1998] Roweis, S. (1998). Em algorithms for pca and spca. In Jordan, M. I., 
+Kearns, M. J., and Solla, S. A., editors, Advances in Neural Information Processing 
+Systems, volume 10. The MIT Press. 
+Conventional SVD 
+3.00 
+2.00 
+1.00 
+0.00 
+-1.00 
+-2.00 
+-3.00 
+-4.00 
+1.50 
+1.00 
+' 0.50 
+ 0.00 
+-0.50 
+-1.00 
+-1.50 
+-2.00 
+2.00 
+1.50 
+0.50 
+0.00 
+! 
+'ß 
+ß . ß 
+-3.00 
+-2.00 -1.00 0.00 1.00 2.00 
+First SVD component 
+Generalizable SVD 
+3.00 
+4.00 
+Solid: Train 
+Open:Test 
+O Trace scan 1 
+[] Traoe scan 2 
+- Mirror scan1 
+A Mirror scan 2 
+-1.50 -1.00 -0.50 0.00 0.50 1.00 1.50 
+First GenSVD component 
+2.00 
+- - - SVD training set projection stdev 
+-- GenSVD training set proj. stdev 
+ Test set projection stdev 
+\ 
+\ 
+1 5 10 15 
+Component 
+20 
+Figure 1: Projections of PET data in SVD and GenSVD. Each subject's four scans 
+are indicated by: circle, square, star, triangle. Training set scans are marked with 
+filled glyphs and test set with open glyphs. Solid and dotted Ellipses indicate 
+test/train covariance per scan number. The third plot shows the standard deviations 
+for the training and test set for SVD and GenSVD projections. 

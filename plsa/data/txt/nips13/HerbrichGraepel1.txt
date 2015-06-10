@@ -1,0 +1,321 @@
+Large Scale Bayes Point Machines 
+Ralf Herbrich 
+Statistics Research Group 
+Computer Science Department 
+Technical University of Berlin 
+ralfh cs. tu-berlin. de 
+Thore Graepel 
+Statistics Research Group 
+Computer Science Department 
+Technical University of Berlin 
+guru cs. tu- berlin. de 
+Abstract 
+The concept of averaging over classifiers is fundamental to the 
+Bayesian analysis of learning. Based on this viewpoint, it has re- 
+cently been demonstrated for linear classifiers that the centre of 
+mass of version space (the set of all classifiers consistent with the 
+training set) -- also known as the Bayes point -- exhibits excel- 
+lent generalisation abilities. However, the billiard algorithm as pre- 
+sented in [4] is restricted to small sample size because it requires 
+(.9 (m2) of memory and (.9 (N. m 2) computational steps where m 
+is the number of training patterns and N is the number of random 
+draws from the posterior distribution. In this paper we present a 
+method based on the simple perceptron learning algorithm which 
+allows to overcome this algorithmic drawback. The method is al- 
+gorithmically simple and is easily extended to the multi-class case. 
+We present experimental results on the MNIST data set of hand- 
+written digits which show that Bayes point machines (BPMs) are 
+competitive with the current world champion, the support vector 
+machine. In addition, the computational complexity of BPMs can 
+be tuned by varying the number of samples from the posterior. 
+Finally, rejecting test points on the basis of their (approximative) 
+posterior probability leads to a rapid decrease in generalisation er- 
+ror, e.g. 0.1% generalisation error for a given rejection rate of 10%. 
+1 Introduction 
+Kernel machines have recently gained a lot of attention due to the popularisation 
+of the support vector machine (SVM) [13] with a focus on classification and the 
+revival of Gaussian Processes (GP) for regression [15]. Subsequently, SVMs have 
+been modified to handle regression [12] and GPs have been adapted to the problem 
+of classification [8]. Both schemes essentially work in the same function space that is 
+characterised by kernels (SVM) and covariance functions (GP), respectively. While 
+the formal similarity of the two methods is striking the underlying paradigms of 
+inference are very different. The SVM was inspired by results from statistical/PAC 
+learning theory while GPs are usually considered in a Bayesian framework. This 
+ideological clash can be viewed as a continuation in machine learning of the by 
+now classical disagreement between Bayesian and frequentistic statistics. With 
+regard to algorithmics the two schools of thought appear to favour two different 
+methods of learning and predicting: the SVM community -- as a consequence of the 
+formulation of the SVM as a quadratic programming problem -- focuses on learning 
+as optimisation while the Bayesian community favours sampling schemes based on 
+the Bayesian posterior. Of course there exists a strong relationship between the two 
+ideas, in particular with the Bayesian maximum a posteriori (MAP) estimator being 
+the solution of an optimisation problem. Interestingly, the two viewpoints have 
+recently been reconciled theoretically in the so-called PAC-Bayesian framework [5] 
+that combines the idea of a Bayesian prior with PAC-style performance guarantees 
+and has been the basis of the so far tightest margin bound for SVMs [3]. In practice, 
+optimisation based algorithms have the advantage of a unique, deterministic solution 
+and the availability of the cost function as an indicator for the quality of the solution. 
+In contrast, Bayesian algorithms based on sampling and voting are more flexible and 
+have the so-called "anytime" property, providing a relatively good solution at any 
+point in time. Often, however, they suffer from the computational costs of sampling 
+the Bayesian posterior. 
+In this contribution we review the idea of the Bayes point machine (BPM) as an 
+approximation to Bayesian inference for linear classifiers in kernel space in Section 
+2. In contrast to the GP viewpoint we do not define a Gaussian prior on the length 
+]]w]]; of the weight vector. Instead, we only consider weight vectors of length 
+]]w]]; - I because it is only the spatial direction of the weight vector that matters 
+for classification. It is then natural to define a uniform prior on the resulting ball- 
+shaped hypothesis space. Hence, we determine the centre of mass ("Bayes point") of 
+the resulting posterior that is uniform in version space, i.e. in the zero training error 
+region. While the version space could be sampled using some form of Gibbs sampling 
+(see, e.g. [6] for an overview) or an ergodic dynamic system such as a billiard [4] 
+we suggest to use the perceptron algorithm trained on permutations of the training 
+set for sampling in Section 3. This extremely simple sampling scheme proves to be 
+efficient enough to make the BPM applicable to large data sets. We demonstrate 
+this fact in Section 4 on the well-known MNIST data set containing 60 000 samples 
+of handwritten digits and show how an approximation to the posterior probability of 
+classification provided by the BPM can even be used for test-point rejection leading 
+to a great reduction in generalisation error on the remaining samples. 
+We denote n-tuples by italic bold letters (e.g. x - (x,... ,Xn)), vectors by roman 
+bold letters (e.g. x), random variables by sans serif font (e.g. X) and vector spaces 
+by calligraphic capitalised letters (e.g. A'). The symbols I , œ and I denote a prob- 
+ability measure, the expectation of a random variable and the indicator function, 
+respectively. 
+2 Bayes Point Machines 
+Let us consider the task of classifying patterns x ß A' into one of the two classes 
+y ß 32 - {-1, q-l} using functions h ß X -- 32 from a given set 7-/ known as the 
+hypothesis space. In this paper we shall only be concerned with linear classifiers: 
+7/-- {x  sign((qb(x),w)c) ]w ß W}, )42- {w ß/ ] ]]w]]c - 1}, (1) 
+where qb ß A' --/ C_ œ is known  as the feature map and has to fixed beforehand. 
+If all that is needed for learning and classification are the inner products (., .); in 
+the feature space/, it is convenient to specify qb only by its inner product function 
+1 For riorational convenience we shall abbreviate b (x) by x. This should not be confused 
+with the set x of training points. 
+k ß A' x A' - 1 known as the kernel, i.e. 
+Vx, x' ß z. k(x,x ') = ( (x), (x')). 
+For simplicity, let us assume that there exists a classifier 2 w* ß 14/that labels all 
+our data, i.e. 
+Plx_-x,w_-w. (y) = k(=. () 
+This assumption can easily be relaxed by introducing slack variables as done in the 
+soft margin variant of the SVM. Then given a training set z = (x, y) of m points 
+xi together with their classes Yi assigned by h. drawn lid from an unknown data 
+distribution z = YIXX we can assume the existence of a version space V (z), i.e. 
+the set of all classifiers w  W consistent with z: 
+V (z) = {w e W I V(xi,yi) e z' hw (xi) = yi}. (3) 
+In a Bayesian spirit we incorporate all of our prior knowledge about w* into a 
+prior distribution Pw over W. In the absence of any a priori knowledge we suggest 
+a uniform prior over the spatial direction of weight vectors w. Now, given the 
+training set z we update our prior belief by Bwes' formula, i.e. 
+PZm=w () P (W) H, PX=,,=w (Y,) P (W) 
+PIZm=. (W) = = 
+s [Zm:w ()] S [H, X:.,,:w (Y,)] 
+(w) ifw e V(z) 
+= (v(=)) 
+0 otherwise ' 
+where the first line follows from the independence and the fact that x has no depen- 
+dence on w and the second line follows from (2) and (3). The Bayesian classification 
+of a novel test point x is then given by 
+Bayes= (x) = argmaxye WlZm== ({hw (x) = y}) 
+= sn (SZm:. [n (X)]) 
+= sign (EWlZm== [sign ((x,W))]) . 
+Unfortunately, the strategy Bayes= is in general not contained in the set  of 
+classifiers considered beforehand. Since WlZm= iS only non-zero inside version 
+space, it has been suggested to use the centre of mass Wcm aS an approximation for 
+Bayesz, i.e. 
+on the surface of W. 
+estimated by 
+hbp (x) 
+: sign (EW[Zm__--, [(X, W)/C] ) 
+: sign ((x, Wcm)/C) , 
+Wcm : E/[Zm__--, [W] . (4) 
+This classifier is called the Bayes point. In a previous work [4] we calculated Wcm 
+using a first order Markov chain based on a billiard-like algorithm (see also [10]). 
+We entered the version space V (z) using a perceptron algorithm and started play- 
+ing billiards in version space V (z) thus creating a sequence of pseudo-random 
+samples wi due to the chaotic nature of the billiard dynamics. Playing billiards 
+in V (z) is possible because each training point (x,y) ß z defines a hyperplane 
+- 0 } C_ 14/. Hence, the version space is a convex polyhedron 
+After N bounces of the billiard ball the Bayes point was 
+N 
+i----1 
+awe synonymously call h C 7-/ and w C W a classifier because there is a one-to-one 
+correspondence between the two by virtue of (1). 
+Although this algorithm shows excellent generalisation performance when compared 
+to state-of-the art learning algorithms like support vector machines (SVM) [13], its 
+effort scales like ( (m 2) and ( (N. m 2) in terms of memory and computational 
+requirements, respectively. 
+3 Sampling the Version Space 
+Clearly, all we need for estimating the Bayes point (4) is a set of classifiers w drawn 
+uniformly from V (z). In order to save computational resources it might be advan- 
+tageous to achieve a uniform sample only approximately. The classical perceptron 
+learning algorithm offers the possibility to obtain up to m! different classifiers in ver- 
+sion space simply by learning on different permutations of the training set. Given 
+a permutation II : {1,..., m} -> {1,..., m} the perceptron algorithm works as 
+follows: 
+1. Start with w0 - 0 and t - 0. 
+2. For all i ß {1,... ,m}, if Yn(i) (xn(i), wt) c _< 0 then wt+ = wt +yn(i)xn(i) 
+and t -- t+ 1. 
+3. Stop, if for all i ß {1,...,m}, Yn(i) (xn(i),wt); > 0. 
+A classical theorem due to Novikoff [7] guarantees the convergence of this procedure 
+and furthermore provides an upper bound on the number t of mistakes needed until 
+convergence. More precisely, if there exists a classifier wSVM with margin 
+3% (WSVM) ---- min Yi (xi, WSVM)/c 
+IlwgvMllr ' 
+then the number of mistakes until convergence- which is an upper bound on 
+the sparsity of the solution -- is not more than R 2 (x)7 2 (wsvM), where R (x) 
+is the smallest real number such that Vx ß x ß I1½ (x)llr _< R(x). The quantity 
+% (wsv) is maximised for the solution wsv found by the SVM, and whenever 
+the SVM is theoretically justified by results from learning theory (see [11, 13]) the 
+ratio d = R 2 (x)?2 (WSVM) is considerably less than m, say d << m. 
+Algorithmically, we can benefit from this sparsity by the following "trick": since 
+m 
+W ---- y OiX i 
+i=1 
+all we need to store is the m-dimensional vector c. Furthermore, we keep track of 
+the m-dimensional vector o of real valued outputs 
+m 
+oi = Yi {xi,wt}c = y ojk(xi,xj) 
+j----1 
+of the current solution at the i-th training point. By definition, in the beginning c = 
+o = 0. Now, ifoi _< 0 we update ci by oi+Yi and update o by oj -- oj+yik (xi,xj) 
+which requires only m kernel calculations. In summary, the memory requirement of 
+this algorithm is 2m and the number of kernel calculations is not more than d.m. As 
+a consequence, the computational requirement of this algorithm is no more than the 
+computational requirement for the evaluation of the margin % (WSVM)! We suggest 
+to use this efficient perceptron learning algorithm in order to obtain samples wi for 
+the computation of the Bayes point by (4). 
+generalsalon error generahsalon error kernel Olbbs sampler 
+(a) (b) (c) 
+Figure 1: (a) Histogram of generalisation errors (estimated on a test set) using 
+a kernel Gibbs sampler. (b) Histogram of generalisation errors (estimated on a 
+test set) using a kernel perceptron. (½) QQ plot of distributions (a) and (b). The 
+straight line indicates that both distribution are very similar. 
+In order to investigate the usefulness of this approach experimentally, we compared 
+the distribution of generalisation errors of samples obtained by perceptron learning 
+on permuted training sets (as suggested earlier by [14]) with samples obtained by 
+a full Gibbs sampling [2]. For computational reasons, we used only 188 training 
+patterns and 453 test patterns of the classes "1" and "2" from the MNIST data set 3. 
+In Figure I (a) and (b) we plotted the distribution over 1000 random samples using 
+the kernel 4 
+k (x,x') = ((x,x') v -1- 1) 5 (5) 
+Using a quantile-quantile (QQ) plot technique we can compare both distributions 
+in one graph (see Figure I (c)). These plots suggest that by simple permutation 
+of the training set we are able to obtain a sample of classifiers exhibiting the same 
+generalisation error distribution as with time-consuming Gibbs sampling. 
+4 Experimental Results 
+In our large scale experiment we used the full MNIST data set with 60 000 training 
+examples and 10 000 test examples of 28 x 28 grey value images of handwritten 
+digits. As input vector x we used the 784 dimensional vector of grey values. The 
+images were labelled by one of the ten classes "0" to "1". For each of the ten classes 
+y - {0,..., 9} we ran the perceptron algorithm N - 10 times each time labelling 
+all training points of class y by -t-1 and the remaining training points by -1. On 
+an Ultra Sparc 10 each learning trial took approximately 20 - 30 minutes. For 
+the classification of a test image x we calculated the real-valued output of all 100 
+different classifiers 5 by 
+fi (x) 
+X, 
+m 
+E k (xj,x) 
+j----1 
+k (x,x) 
+----1 I----1 
+where we used the kernel k given by (5). (a)j refers to the expansion coefficient 
+corresponding to the i-th classifier and the j-th data point. Now, for each of the 
+Savailable at http://www. research. att. com/~yann/ocr/mnist/. 
+4We decided to use this kernel because it showed excellent generalisation performance 
+when using the support vector machine. 
+5For riorational simplicity we assume that the first N classifiers are classifiers for the 
+class "0", the next N for class "1" and so on. 
+O0 0 02 0 04 0 06 0 08 0 10 
+rejection rate 
+rejection rate generalisation error 
+0% 1.46% 
+1% 1.10% 
+2% 0.87% 
+3% 0.67% 
+4% 0.49% 
+5% 0.37% 
+6% 0.32% 
+7% 0.26% 
+8% o.21% 
+9% 0.14% 
+10% 0.11% 
+Figure 2: Generalisation error as a function of the rejection rate for the MNIST data 
+set. The SVM achieved 1.4% without rejection as compared to 1.46% for the BPM. 
+Note that by rejection based on the real-valued output the generalisation error 
+could be reduced to 0.1% indicating that this measure is related to the probability 
+of misclassification of single test points. 
+ten classes we calculated the real-valued decision of the Bayes point Wy by 
+N 
+1 
+fbp,y (x) --   fi+yN (X) . 
+i----1 
+In a Bayesian spirit, the final decision was carried out by 
+hbp (x) = argmaxye{O,...,9) fbp,y (x) . 
+Note that fbp,y (x) [9] can be interpreted as an (unnormalised) approximation of 
+the posterior probability that x is of class y when restricted to the function class 
+(1). In order to test the dependence of the generalisation error on the magnitude 
+maxy fbp,y (x) we fixed a certain rejection rate r E [0, 1] and rejected the set of 
+r ß 10 000 test points with the smallest value of maxy fbp,y (X). The resulting plot 
+is depicted in Figure 2. 
+As can be seen from this plot, even without rejection the Bayes point has excellent 
+generalisation performance 6. Furthermore, rejection based on the real-valued out- 
+put fbp (X) turns out to be excellent thus reducing the generalisation error to 0.1%. 
+One should also bear in mind that the learning time for this simple algorithm was 
+comparable to that of SVMs. 
+A very advantageous feature of our approach as compared to SVMs are its adjustable 
+time and memory requirements and the "anytime" availability of a solution due to 
+sampling. If the training set grows further and we are not able to spend more time 
+with learning, we can adjust the number N of samples used at the price of slightly 
+worse generalisation error. 
+5 Conclusion 
+In this paper we have presented an algorithm for approximating the Bayes point by 
+rerunning the classical perceptron algorithm with a permuted training set. Here we 
+6Note that the best know result on this data set if 1.1 achieved with a polynomial 
+kernel of degree four. Nonetheless, for reason of fairness we compared the results of both 
+algorithms using the same kernel. 
+particularly exploited the sparseness of the solution which must exist whenever the 
+success of the SVM is theoretically justified. The restriction to the zero training 
+error case can be overcome by modifying the kernel as 
+(x, x') = k (x, x') + 
+This technique is well known and was already suggested by Vapnik in 1995 (see [1]). 
+Another interesting question raised by our experimental findings is the following: 
+By how much is the distribution of generalisation errors over random samples from 
+version space related to the distribution of generalisation errors of the up to m! 
+different classifiers found by the classical perceptron algorithm? 
+Acknowledgements We would like to thank Bob Williamson for helpful dis- 
+cussions and suggestions on earlier drafts. Parts of this work were done during a 
+research stay of both authors at the ANU Canberra. 
+References 
+[1] C. Cortes and V. Vapnik. Support Vector Networks. Machine Learning, 20:273-297, 
+1995. 
+[2] T. Graepel and R. Herbrich. The kernel Gibbs sampler. In Advances in Neural 
+Information System Processing 13, 2001. 
+[3] R. Herbrich and T. Graepel. A PAC-Bayesian margin bound for linear classifiers: 
+Why SVMs work. In Advances in Neural Information System Processing 13, 2001. 
+[4] R. Herbrich, T. Graepel, and C. Campbell. Robust Bayes Point Machines. In Pro- 
+ceedings of ESANN 2000, pages 49-54, 2000. 
+[5] D. A. McAllester. Some PAC Bayesian theorems. In Proceedings of the Eleventh An- 
+nual Conference on Computational Learning Theory, pages 230-234, Madison, Wis- 
+consin, 1998. 
+[6] R. M. Neal. Markov chain monte carlo method based on 'slicing' the density function. 
+Technical report, Department of Statistics, University of Toronto, 1997. TR-9722. 
+[7] A. Novikoff. On convergence proofs for percepttons. In Report at the Symposium 
+on Mathematical Theory of Automata, pages 24-26, Politechnical Institute Brooklyn, 
+1962. 
+[8] M. Opper and O. Winther. Gaussian processes for classification: Mean field algo- 
+rithms. Neural Computation, 12(11), 2000. 
+[9] J. Platt. Probabilities for SV machines. In Advances in Large Margin Classifiers, 
+pages 61-74. MIT Press, 2000. 
+[10] P. Rujn and M. Marchand. Computing the bayes kernel classifier. In Advances in 
+Large Margin Classifiers, pages 329-348. MIT Press, 2000. 
+[11] J. Shawe-Taylor, P. L. Bartlett, R. C. Williamson, and M. Anthony. Structural risk 
+minimization over data-dependent hierarchies. IEEE Transactions on Information 
+Theory, 44(5):1926-1940, 1998. 
+[12] A. J. Smola. Learning with Kernels. PhD thesis, Technische Universit/it Berlin, 1998. 
+[13] V. Vapnik. The Nature of Statistical Learning Theory. Springer, 1995. 
+[14] T. Warkin. Optimal learning with a neural network. Europhysics Letters, 21:871-877, 
+1993. 
+[15] C. Williams. Prediction with Gaussian Processes: From linear regression to linear 
+prediction and beyond. Technical report, Neural Computing Research Group, Aston 
+University, 1997. NCRG/97/012. 

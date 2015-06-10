@@ -1,0 +1,311 @@
+Incremental and Decremental Support Vector 
+Machine Learning 
+Gert Cauwenberghs* 
+CLSP, ECE Dept. 
+Johns Hopkins University 
+Baltimore, MD 21218 
+gert@jhu. edu 
+Tomaso Poggio 
+CBCL, BCS Dept. 
+Massachusetts Institute of Technology 
+Cambridge, MA 02142 
+tp @ ai. mir. edu 
+Abstract 
+An on-line recursive algorithm for training support vector machines, one 
+vector at a time, is presented. Adiabatic increments retain the Kuhn- 
+Tucker conditions on all previously seen training data, in a number 
+of steps each computed analytically. The incremental procedure is re- 
+versible, and decremental "unlearning" offers an efficient method to ex- 
+actly evaluate leave-one-out generalization performance. Interpretation 
+of decremental unlearning in feature space sheds light on the relationship 
+between generalization and geometry of the data. 
+1 Introduction 
+Training a support vector machine (SVM) requires solving a quadratic programming (QP) 
+problem in a number of coefficients equal to the number of training examples. For very 
+large datasets, standard numeric techniques for QP become infeasible. Practical techniques 
+decompose the problem into manageable subproblems over part of the data [7, 5] or, in the 
+limit, perform iterative pairwise [8] or component-wise [3] optimization. A disadvantage 
+of these techniques is that they may give an approximate solution, and may require many 
+passes through the dataset to reach a reasonable level of convergence. An on-line alterna- 
+tive, that formulates the (exact) solution for œ + 1 training data in terms of that for œ data and 
+one new data point, is presented here. The incremental procedure is reversible, and decre- 
+mental "unlearning" of each training sample produces an exact leave-one-out estimate of 
+generalization performance on the training set. 
+2 Incremental SVM Learning 
+Training an SVM "incrementally" on new data by discarding all previous data except their 
+support vectors, gives only approximate results [11]. In what follows we consider incre- 
+mental learning as an exact on-line method to construct the solution recursively, one point 
+at a time. The key is to retain the Kuhn-Tucker (KT) conditions on all previously seen data, 
+while "adiabatically" adding a new data point to the solution. 
+2.1 Kuhn-Tucker conditions 
+In SVM classification, the optimal separating function reduces to a linear combination 
+of kernels on the training data, f(x) = y].j ctjyjK(xj,x) + b, with training vectors xi 
+and corresponding labels Yi = 4-1. In the dual formulation of the training problem, the 
+* On sabbatical leave at CBCL in MIT while this work was performed. 
+w 
+w 
+a = 0 C a C a = C 
+ ...o   -.o.x 
+support vector error vector 
+Figure 1' Soft-margin classification SVM trainingß 
+coefficients oi are obtained by minimizing a convex quadratic objective function under 
+constraints [ 12] 
+1 
+min ß W = - E oiQijoq - E oi + b E yioi (1) 
+i,j i i 
+with Lagrange multiplier (and offset) b, and with symmetric positive definite kernel matrix 
+Qij = yiyjK(xi, xj). The first-order conditions on W reduce to the Kuhn-Tucker (KT) 
+conditions: 
+_>0; oi=0 
+= E 0; 0<ai<C (2) 
+Ow + - i = yf(x) - 1 o; = ½ 
+J 
+ow 
+Ob 
+= EYJaJ=O (3) 
+J 
+which partition the training data D and corresponding coefficients {oi, b}, i = 1,... œ, in 
+three categories as illustrated in Figure 1 [9]: the set $ of margin support vectors strictly 
+on the margin (yif(xi) = 1), the set E of error support vectors exceeding the margin (not 
+necessarily misclassified), and the remaining set R of (ignored) vectors within the marginß 
+2.2 Adiabatic increments 
+The margin vector coefficients change value during each incremental step to keep all el- 
+ements in D in equilibrium, i.e., keep their KT conditions satisfiedß In particular, the KT 
+conditions are expressed differentially as: 
+Agi = QicAOc + E QiJAøq + yiAb, Vi E D U {c} (4) 
+js 
+0 = ycAac + EYAaJ (5) 
+js 
+where Oc is the coefficient being incremented, initially zero, of a "candidate" vector outside 
+D. Since gi ---- 0 for the margin vector working set $ = {si,... s s}, the changes in 
+coefficients must satisfy 
+Ab 
+AOs i 
+Yc 
+Q$1c 
+with symmetric but not positive-definite Jacobian Q: 
+0 ysi "' 
+Ao c 
+Y8œ S 
+Q818œ$ 
+Q8œ S 8œ 5 
+(6) 
+(7) 
+Thus, in equilibrium 
+A b = ,S A ozc 
+(8) 
+vj E D (9) 
+with coefficient sensitivities given by 
+Yc 
+Qslc 
+Q$œ$ ½ 
+(10) 
+where T½ = Q-, and fij -- 0 for all j outside $. Substituted in (4), the margins change 
+according to: 
+Agi = 7iAoz½, Vi E D U {c} (11) 
+with margin sensitivities 
+= + Qj/j + 
+¾i ½ $ (12) 
+and 7i -- 0 for all i in $. 
+2.3 Bookkeeping: upper limit on increment AOZc 
+It has been tacitly assumed above that AOZc is small enough so that no element of D moves 
+across $, E and/or R in the process. Since the ozj and gi change with ozc through (9) 
+and (11), some bookkeeping is required to check each of the following conditions, and 
+determine the largest possible increment AOZc accordingly: 
+1. gc _< 0, with equality when c joins S; 
+2. ozc _< C, with equality when c joins E; 
+3. 0 _< ozj _< C, ¾j C S, with equality 0 when j transfers from S to R, and equality C when 
+j transfers from S to E; 
+4. gi _< 0, ¾i C E, with equality when i transfers from E to S; 
+5...qi __ 0, ¾i  R, with equality when i transfers from R to S. 
+2.4 Recursive magic: T½ updates 
+To add candidate c to the working margin vector set S,  is expanded as: 
+0 
+o 
+o...o o 
+1 
++-- 
+?c 
+ß [fi, fis '"fists,I] 
+(13) 
+The same formula applies to add any vector (not necessarily the candidate) c to $, with 
+parameters fi, fij and % calculated as (10) and (12). 
+The expansion of T½, as incremental learning itself, is reversible. To remove a margin vector 
+k from $, T½ is contracted as: 
+Tij - Tij - Tkk -tTikTgj Vi, j E $ U {0}; i, j  k 
+(14) 
+where index 0 refers to the b-termß 
+The T½ update rules (13) and (14) are similar to on-line recursive estimation of the covari- 
+ance of (sparsifted) Gaussian processes [2]. 
+gc 
+Ocl+ 1 
+support vector 
+gc 
+Ocl+ l= . 
+error vector 
+Figure 2: Incremental learning. A new vector, initially for ac = 0 classified with negative 
+margin gc < 0, becomes a new margin or error vector. 
+2.5 Incremental procedure 
+Let œ --> œ+ 1, by adding point c (candidate margin or error vector) to D: D e+ = D e U {c}. 
+Then the new solution {a+, be+}, i = 1,... œ + 1 is expressed in terms of the present 
+oz e 
+solution { i, be}, the present Jacobian inverse T4, and the candidate xc, /c, as: 
+Algorithm 1 (Incremental Learning, œ --> œ + 1) 
+1. Initialize cc to zero; 
+2. If gc > O, terminate (c is not a margin or error vector); 
+3. If g _< O, apply the largest possible increment c so that (the first) one of the following 
+conditions occurs: 
+(a) g = O: Add c to margin set S, update 7g accordingly, and terminate; 
+(b) o = C: Add c to error set E, and terminate; 
+(c) Elements of D t migrate across S, E, and fg ("bookkeeping," section 2.3): Update 
+membership of elements and, if S' changes, update 7g accordingly. 
+and repeat as necessary. 
+The incremental procedure is illustrated in Figure 2. Old vectors, from previously seen 
+training data, may change status along the way, but the process of adding the training data 
+c to the solution converges in a finite number of steps. 
+2.6 Practical considerations 
+The trajectory of an example incremental training session is shown in Figure 3. The algo- 
+rithm yields results identical to those at convergence using other QP approaches [7], with 
+comparable speeds on various datasets ranging up to several thousands training points . 
+A practical on-line variant for larger datasets is obtained by keeping track only of a limited 
+set of "reserve" vectors: / = {i E D I0 < < e}, and discarding all data for which 
+gi _> . For small e, this implies a small overhead in memory over $ and E. The larger 
+e, the smaller the probability of missing a future margin or error vector in previous data. 
+The resulting storage requirements are dominated by that for the inverse Jacobian T4, which 
+scale as (œs) 2 where œs is the number of margin support vectors, NS. 
+3 Decremental "Unlearning" 
+Leave-one-out (LOO) is a standard procedure in predicting the generalization power of a 
+trained classifier, both from a theoretical and empirical perspective [12]. It is naturally 
+implemented by decremental unlearning, adiabatic reversal of incremental learning, on 
+each of the training data from the full trained solution. Similar (but different) bookkeeping 
+of elements migrating across $, E and R applies as in the incremental case. 
+Matlab code and data are available at http://bach. ece.jhu. edu/pub/gert/svm/incremental. 
+21 
+lOO 
+9o 
+8o 
+70 
+ 60 
+ß U 50 
+ 40 
+30 
+20 
+2 1 0 1 2 20 40 60 80 100 
+Xl Iteration 
+Figure 3' Trajectory of coefficients ozi as a function of iteration step during training, for 
+œ = 100 non-separable points in two dimensions, with C = 10, and using a Gaussian 
+kernel with cr = 1. The data sequence is shown on the left. 
+gc 
+gc 
+o:=C c 
+Figure 4: Leave-one-out (LOO) decremental unlearning (ozc --> 0) for estimating general- 
+ization performance, directly on the training data. 7c \c < -1 reveals a LOO classification 
+error. 
+3.1 Leave-one-out procedure 
+Let œ --> œ - 1, by removing point c (margin or error vector) from D: D \c = D \ {c}. The 
+solution {ozi \, b \ } is expressed in terms of {ozi, b}, T½ and the removed point x, y. The 
+solution yields gc \c, which determines whether leaving c out of the training set generates a 
+classification error (gc \c < -1). Starting from the full œ-point solution: 
+Algorithm 2 (Decremental Unlearning, œ --> œ - 1, and LOO Classification) 
+1. If c is not a margin or error vector: Terminate, "correct" (c is already left out, and correctly 
+classified); 
+2. If c is a margin or error vector with 7c < -1: Terminate, "incorrect" (by default as a 
+training error); 
+3. If c is a margin or error vector with 7 _> -1, apply the largest possible decrement c so 
+that (the firsO one of the following conditions occurs': 
+(a) 7 < -1: Terminate, "incorrect"; 
+(b) oz = O: Terminate, "correct"; 
+(c) Elements' of D s migrate across S, E, and t : Update membership of elements' and, 
+ifs changes, update 7g accordingly. 
+and repeat as necessary. 
+The leave-one-out procedure is illustrated in Figure 4. 
+0.2 
+0.4 
+0.8 
+0 2 4 6 8 10 
+O 
+½ 
+Figure 5: Trajectory of LOO margin gc as a function of leave-one-out coefficient etc. The 
+data and parameters are as in Figure 3. 
+3.2 Leave-one-out considerations 
+If an exact LOO estimate is requested, two passes through the data are required. The 
+LOO pass has similar run-time complexity and memory requirements as the incremental 
+learning procedure. This is significantly better than the conventional approach to empirical 
+LOO evaluation which requires œ (partial but possibly still extensive) training sessions. 
+There is a clear correspondence between generalization performance and the LOO margin 
+sensitivity 7c. As shown in Figure 4, the value of the LOO margin gc \c is obtained from 
+the sequence of gc vs. etc segments for each of the decrement steps, and thus determined 
+by their slopes %. Incidentally, the LOO approximation using linear response theory in [6] 
+corresponds to the first segment of the LOO procedure, effectively extrapolating the value 
+of gc \c from the initial value of %. This simple LOO approximation gives satisfactory 
+results in most (though not all) cases as illustrated in the example LOO session of Figure 5. 
+Recent work in statistical learning theory has sought improved generalization performance 
+by considering non-uniformity of distributions in feature space [13] or non-uniformity in 
+the kernel matrix eigenspectrum [ 10]. A geometrical interpretation of decremental unlearn- 
+ing, presented next, sheds further light on the dependence of generalization performance, 
+through %, on the geometry of the data. 
+4 Geometric Interpretation in Feature Space 
+The differential Kuhn-Tucker conditions (4) and (5) translate directly in terms of the sensi- 
+tivities "/i and/j as 
+3'i = Qic + Y Qij/j + yi/ Vi E D U {c} (15) 
+js 
+0 = yc +Yyjj ß (16) 
+js 
+Through the nonlinear map Xi ---- yiqz(xi) into feature space, the kernel matrix elements 
+reduce to linear inner products: 
+Qij - yiyjK(xi, xj) - Xi. Xj, Vi, j (17) 
+and the KT sensitivity conditions (15) and (16) in feature space become 
+"/i = Xi'(Xc+ yXj/j)+Yi/ VieDU{c} (18) 
+js 
+0 = Yc +Y]Yj&. (19) 
+Since Yi -- 0, Vi E $, (18) and (19) are equivalent to minimizing a functional: 
+1 
+min' Wc = (Xc + y]Xj/3j) 2 (20) 
+subject to the equality constraint (19) with Lagrange parameter/3. Furthermore, the optimal 
+value of Wc immediately yields the sensitivity ?c, from (18): 
+7c = 2We = (Xc + Xj/3j) 2 > 0. 
+In other words, the distance in feature space between sample c and its projection on $ 
+along (16) determines, through (21), the extent to which leaving out c affects the classifi- 
+cation of c. Note that only margin support vectors are relevant in (21), and not the error 
+vectors which otherwise contribute to the decision boundary. 
+$ Concluding Remarks 
+Incremental learning and, in particular, decremental unlearning offer a simple and compu- 
+tationally efficient scheme for on-line SVM training and exact leave-one-out evaluation of 
+the generalization performance on the training data. The procedures can be directly ex- 
+tended to a broader class of kernel learning machines with convex quadratic cost functional 
+under linear constraints, including SV regression. The algorithm is intrinsically on-line 
+and extends to query-based learning methods [ 1]. Geometric interpretation of decremental 
+unlearning in feature space elucidates a connection, similar to [13], between generalization 
+performance and the distance of the data from the subspace spanned by the margin vectors. 
+References 
+[1] C. Campbell, N. Cristianini and A. Smola, "Query Learning with Large Margin Classifiers," in 
+Proc. 17th Int. Conf Machine Learning (ICML2000), Morgan Kaufman, 2000. 
+[2] L. Csato and M. Opper, "Sparse Representation for Gaussian Process Models," in Adv. Neural 
+Information Processing Systems (NIPS'2000), vol. 13, 2001. 
+[3] T.-T. Frieg, N. Cristianini and C. Campbell, "The Kernel Adatron Algorithm: A Fast and Sim- 
+ple Learning Procedure for Support Vector Machines," in 15th Int. Conf Machine Learning, 
+Morgan Kaufman, 1998. 
+[4] T.S. Jaakkola and D. Haussler, "Probabilistic Kernel Methods," Proc. 7th Int. Workshop on 
+Artificial Intelligence and Statistics, 1998. 
+[5] T. Joachims, "Making Large-Scale Support Vector Machine Learning Practical," in Sch51kopf, 
+Burges and Smola, Eds., Advances in Kernel Methods'- Support Vector Learning, Cambridge 
+MA: MIT Press, 1998, pp 169-184. 
+[6] M. Opper and O. Winther, "Gaussian Processes and SVM: Mean Field Results and Leave-One- 
+Out," Adv. Large Margin Classifiers', A. Smola, P. Bartlett, B. Sch51kopf and D. Schuurmans, 
+Eds., Cambridge MA: MIT Press, 2000, pp 43-56. 
+[7] E. Osuna, R. Freund and F. Girosi, "An Improved Training Algorithm for Support Vector Ma- 
+chines," Proc. 1997 IEEE Workshop on Neural Networks for Signal Processing, pp 276-285, 
+1997. 
+[8] J.C. Platt, "Fast Training of Support Vector Machines Using Sequential Minimum Optimiza- 
+tion," in Sch51kopf, Burges and Smola, Eds., Advances in Kernel Methods'- Support Vector 
+Learning, Cambridge MA: MIT Press, 1998, pp 185-208. 
+[9] M. Pontil and A. Verri, "Properties of Support Vector Machines," it Neural Computation, 
+vol. 10, pp 955-974, 1997. 
+[10] B. Sch51kopf, J. Shawe-Taylor, A.J. Smola and R.C. Williamson, "Generalization Bounds via 
+Eigenvalues of the Gram Matrix," NeuroCOLT, Technical Report 99-035, 1999. 
+[11] N.A. Syed, H. Liu and K.K. Sung, "Incremental Learning with Support Vector Machines," in 
+Proc. Int. Joint Conf on Artificial Intelligence (IJCAI-99), 1999. 
+[12] V. Vapnik, The Nature of Statistical Learning Theory,' New York: Springer-Verlag, 1995. 
+[13] V. Vapnik and O. Chapelle, "Bounds on Error Expectation for SVM," in Smola, Bartlett, 
+Sch51kopf and Schuurmans, Eds., Advances in Large Margin Classifiers', Cambridge MA: MIT 
+Press, 2000. 

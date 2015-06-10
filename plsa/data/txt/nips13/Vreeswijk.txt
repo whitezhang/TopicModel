@@ -1,0 +1,258 @@
+Whence Sparseness? 
+C. van Vreeswijk 
+Gatsby Computational Neuroscience Unit 
+University College London 
+17 Queen Square, London WC1N 3AR, United Kingdom 
+Abstract 
+It has been shown that the receptive fields of simple cells in V1 can be ex- 
+plained by assuming optimal encoding, provided that an extra constraint 
+of sparseness is added. This finding suggests that there is a reason, in- 
+dependent of optimal representation, for sparseness. However this work 
+used an ad hoc model for the noise. Here I show that, if a biologically 
+more plausible noise model, describing neurons as Poisson processes, is 
+used sparseness does not have to be added as a constraint. Thus I con- 
+clude that sparseness is not a feature that evolution has striven for, but is 
+simply the result of the evolutionary pressure towards an optimal repre- 
+sentation. 
+1 Introduction 
+Recently there has been an resurgence of interest in using optimal coding strategies to 
+'explain' the response properties of neuron in the primary sensory areas [1]. Notably this 
+approach was used Olshausen and Field [2] to infer the receptive field of simple cells in the 
+primary visual cortex. To arrive at the correct results however, they had to add sparseness 
+of activity as an extra constraint. Others have shown that similar results are obtained if one 
+assumes that the neurons represent independent components of natural stimuli [3]. The fact 
+that these studies need to impose an extra constraint suggests strongly that the subsequent 
+processing of the stimuli uses either sparseness or independence of the neuronal activity. 
+It is therefore highly important to determine whether these constraints are really necessary. 
+Here it will be argued that the necessity of the sparseness constraint in these models is due 
+to modeling the noise in the system incorrectly. Modeling the noise in a biologically more 
+plausibly way leads to a representation of the input in which the sparseness of the activity 
+naturally follows from the optimality of the representation. 
+2 Gaussian Noise 
+Several approaches have been used to find an output that represents the input optimally, 
+for example, minimizing the square difference between the input and its reconstruction. In 
+this paper I will concentrate on a different definition of optimality, I require that the mutual 
+information between the input and output is maximized. If the number of output units is 
+at least equal to the dimensionality of the input space a perfect reconstruction of the input 
+is possible, unless there is noise in the system. So for an (over)-complete representation 
+optimal encoding only makes sense in the presence of noise. It is important to note that 
+the optimal solution depends on the model of noise that is taken, even if one takes the limit 
+where the noise goes to zero. Thus it is important to have an adequate noise model. 
+Most optimal coding schemes describe the neuronal output by an input-dependent mean 
+to which Gaussian noise is added. This is, roughly speaking, also the implicit assumption 
+in an optimization procedure in which the mean square reconstruction error is minimized, 
+but it is also often used explicitly when the the mutual information is maximized. It is 
+instructive to see, in the latter case, why one needs to impose extra constraints to obtain un- 
+ambiguous results: Assume the input s has dimension Ni and is drawn from a distribution 
+p(s). There are No _> Ni output neurons whose rates r satisfy 
+r = W$ q- cry, (1) 
+where ( is a No dimensional univariate Gaussian with zero mean, p((() = 
+(27r) -No/2 exp(--(T(/2) (the superscript T denotes the transpose). The task is to find 
+the No x Ni matrix Wm that maximizes the mutual information IM between r and s, 
+defined by [4] 
+s) = far fdsp(r,s){log[p(rls)]-log[fds'p(r,s')]}. 
+(2) 
+Here p(r, s) is the joint probability distribution of r and s and p(rls) is the conditional 
+probability of r, given s. It is immediately clear that replacing W by cW with c > 1 
+increases the mutual information by effectively reducing the noise by a factor 1/c. Thus 
+maximal mutual information is obtained as the rates become infinite. Thus, to get sensible 
+results, a constraint has to be placed on the rates. A natural constraint in this framework is 
+a constraint on the average square rates r, < rYr >= NoR. Here I have used < .. ß > to 
+denote the average over the noise and inputs and R > cr 2 is the mean square rate. 
+Under this constraint, however, the optimal solution is still vastly degenerate. Namely if 
+WM is a matrix that gives the maximum mutual information, for any unitary matrix U 
+(uTu = 1), UWm will also maximize IM. This is straightforward to show. For r = 
+Wm s + cr the mutual information is given by 
+IM(r,$;Wm) 
+(3) 
+where I have used I4(r, s; W) to denote the mutual information when the matrix W is 
+used. In the case where r satisfies r = UWms + cr the mutual information is given by 
+equation 3, with Wm replaced by UWm. Changing variables from r to r  = UTr and 
+using I det(U)l - 1, this can be rewritten as 
+IM(r,$;UWm) 
+8)]_ 
+(4) 
+Because p () is a function o f  r  only, p (U) = p (), and therefore I, (r, 8; U W,) = 
+I,(r, 8, W,). In other words, because we have assumed a model in which the noise 
+is described by independent Gaussians, or generally the distribution of the noise  is a 
+function of :c only, the mutual information is invariant to unitary transformations of the 
+output. Clearly, this degeneracy is a result of the particular choice of the noise statistics and 
+unlikely to survive when we try to account for biologically observed noise more accurately. 
+In the latter case it may well happen that the degeneracy is broken in such a way that 
+maximizing the mutual information with a constraint on the average rates is itself sufficient 
+to obtain a sparse representation. 
+3 Poisson Noise 
+To obtain a robust insight in this issue, it is important that the system can be treated analyt- 
+ically. The desire for biologically plausibility of the system should therefore be balanced 
+by the desire to keep it simple. Ubiquitous features found in electrophysiological experi- 
+ments likely to be of importance are (see for example [5]): i) Neurons transmit information 
+through spikes. ii) Consecutive inter-spike intervals are at best weakly correlated. iii) With 
+repeated presentation of the stimulus the variance in the number of spikes a neuron emits 
+over a given period varies nearly linearly with the mean number of emitted spikes. 
+A simple model that captures all these features of the biological system is the Poisson 
+process [6]. I will thus consider a system in which the neurons are described by such a pro- 
+cess. The general model is as follows: The inputs are given by an Ni dimensional vector 8 
+drawn from a distribution p(8). These give rise to No inputs u into the cells, which satisfy 
+u = Ws, where W is the coupling matrix. The inputs u are transformed into rates through 
+a transfer function g, ri = g(ti). The output of the network is observed for a time T. Opti- 
+mal encoding of the input is defined by the maximal mutual information between the spikes 
+the neurons emit and the stimulus. Let ni be the total number of spikes for neuron i and 
+n the No dimensional array of spike counts, then p(nlr) = 1-[i(riT)m exp(-riT)/ni!. 
+Optimal coding is achieved by determining Wm such that 
+W, = argmaxw(I4(n, s; W)). (5) 
+As before there is need for a constraint on W so that solutions with infinite rates are ex- 
+cluded. Whereas with Gaussian channels fixing the mean square rates is the most natural 
+choice for the constraint, for Poissonian neurons it is more natural to fix the mean num- 
+ber of emitted spikes, 5-i < ri >- Nolrio. By rescaling time we can, without loss of 
+generality, assume that/o = 1. 
+4 A Simple Example 
+The simplest example in which we can consider whether such systems will lead a sparse 
+representation is a system with a single neuron and a 1 dimensional input, which is uni- 
+formly distributed between 0 and 1. Assume that the unit has output rate r = 0 when the 
+input satisfies s < 1 - p and rate lip if s > 1 - p. Because the neuron is either 'on' 
+or 'off', maximal information about its state can be obtained by checking whether it fired 
+either one or more spikes or did not fire at all in the time-window over which the neuron 
+was observed. If the neuron is 'on', the probability that it does not spike in a time T is 
+1 - exp(-T/p), otherwise it is 1. Thus the probability distribution is 
+v(O,s) = 1- e-T/vO(s- 1 + V), v(l+,s)= e-T/ViO(s- 1 + V), (6) 
+0.5 
+0.4 
+0.3 
+0.1 
+øo i T 5 
+Figure 1' Pro, the value of p that maximizes the mutual information as function of the 
+measuring time-window T. 
+where I have used p(l+, s) to denote the probability of 1 or more spikes and an input 
+The mutual information satisfies 
+IM(n,s;p) = p(1 - -T/p) log(1 - -T/p) _ pe-T/Plog(p) - 
+(1 --p(1 --e-T/P))log(1 --p(1 __--T/p)). 
+(7) 
+Figure 1 shows Pro, the value of p that maximizes the mutual information, as a function 
+of the time T over which the neuron is observed. For small T, Pm is small, this reflects 
+the fact that the reliability of the neuron is increased if the rate in the 'on' state (l/p) is 
+made maximal. For large T, Pm approaches 1/2, the value for which the entropy of the 
+output rate r is maximized. We thus see a trade-off between the reliability which wants to 
+make p as small as possible, and the capacity, which pushes p to 1/2. For time intervals that 
+are smaller than or on the order of the mean 1: inter-spike interval the former dominates 
+and leads to an optimal solution in which the neuron is, with a high probability, quiet, or, 
+with a low probability, fires vigorously. Thus in this system the neurons fire sparsely if the 
+measuring time is sufficiently short. 
+5 A More Interesting Example 
+Somewhat closer to the problem of optimal encoding in V1, but still tractable, is the fol- 
+lowing example. A two-dimensional input s is drawn from a distribution p(s) given by 
+1 
+= 6 + 
+(8) 
+This input is encoded by four neurons, the inputs into these neurons are given by 
+(u) = 1 (cos(g) sin(g))( s ) (9) 
+I cos(0)l + I sin(0)l - sin(g) cos(g) s2 ' 
+ua = -u, and u4 = -u2. The rates ri satisfy ri = (ui)+ = (ui + lul)/2, the threshold 
+linear function. Due to the symmetry of the problem, rotation by a multiple of r/2 leads to 
+the same rates, up to a permutation. Thus we can restrict ourselves to 0 < 0 < r/2. 
+It is straightforward to show that Y]4 < ni >= 4, and that sparseness of the activity, here 
+2 
+defined by y]4(< n i > - < ni >2)/ < ni >2, has its minimum for 0 = r/4, and 
+IM 
+0.7 
+0.3 
+0.2 
+0.1 
+O0 0:4 0:8  
+.6 
+Figure 2: Mutual information IM as function of 4, for T = 1 (solid line), for T = 2 
+(dashed line), and T = 3 (dotted line). 
+maximum for 0 = 0. Some straightforward algebra shows that the mutual information is 
+given by 
+7T+log(l+T)- I-T log I+T + 
+I I cos(0) l log 1 + + 
+1+ T I cos(0)l q- Isin(0)l cos(g) 
+( ( 
+I I sin(0)l log I q- 
+1+ T I cos(0)l q-lsin(0)l sin(g) 
+(10) 
+Figure 2 shows the IM as a function of 0 for different values of T. For all values of T the 
+mutual information is maximal when 0 = 0 and minimal for r/4. For large T the angular 
+dependent part of IM scales as 1IT. So this dependence becomes negligible if the output is 
+observed for a long time. Yet as in the previous example, for relatively short time-windows, 
+optimal coding automatically leads to sparse coding. 
+6 Optimal Coding in V1 
+Finally we turn to optimal encoding of images in the striate cortex. To study this I consider a 
+system in with a large number, K, of natural images. The intensity of pixel j (1 _< j _< Ni) 
+of image n is given by sj (n). These images induce an input ui into neuron i (1 < i < No) 
+given by 
+ui(n)- y Wijsj(n), (11) 
+J 
+which lead to firing rates ri(n) which satisfy ri(n) = /- log(1 + eU(n)). Here I have 
+used as smoothened version of of the threshold linear function (which is recovered in the 
+limit   ) to ensure that its derivative with respect to Wij is continuous. The neurons 
+fire in a Poissonian manner, so that for image n the probability P(n, n) of observing ni 
+spikes for neuron i is given by 
+o (r(n)T),e_,()r. (12) 
+p(n,n) = H nil 
+i=1 
+We want to choose the matrix such W the mutual information IM between the image n and 
+the spike count for the different neurons, given by 
+1 
+IM(r,,n; W) = y,  y,p(r,,n; W)[log(p(r,, n; W) - log(p(n; W))] (13) 
+is maximized. Obviously an analytic solution is out of the question, but one may want to 
+try to approach the optimal solution by gradient assent, using 
+aI(n,n; W) I ap(n,n; w) 
+OWij =    OWi,j [log(p(n, ; W) - log(p(n; W))] (14) 
+for the derivative of the mutual infoation. Here the derivative of p(n, ) is given by 
+= - - The constraint on the rates, 
+K -   r() = No is incoorated by adding this function with a Lagrange multi- 
+plier to the objective function. 
+Unfounately the gradient assent approach is impractical, since the summation over n 
+scales exponentially with No. In any case, one may want to use stochastic gradient assent 
+to avoid getting trapped in local minima. But to do stochastic gradient assent it is sufficient 
+to obtain a unbiased estimate of OIM/OWij. Denoting this derivative by OIM/OWij = 
+n Fij (n), where Fij has the obvious meaning, one can rewrite the derivative of the 
+mutual information as 
+n 
+provided that (n) is non-zero for every n for which p(n; W)  0. An unbiased estimate 
+of OIM/OWij (denoted by OM/OWij) is obtained by taking 
+=1 
+where the L vectors n(e) e drawn independently from the distribution (n). Conjectur- 
+ing that Fib(n) is roughly proportional to p(n; W), I set (n) = p(n; W) to obtain the 
+best estimate of OIM/OWi for fixed L. Drawing from p(n; W) can be done in a compu- 
+tationally cheap way by first randomly picking  and then draw from p(n, , W), which 
+hctofizes. 
+In the simulation of the system I have used the natural image collection from [7]. From each 
+of the approximately 4000 images a 10 x 10 patch. These were preprocessed by subtracting 
+the mean and whitening the image. To reduce the effects of the comers a circular region 
+was then extracted from the images. This resulted in an input which has 80 pixel intensities 
+per image. These pixel intensities were encoded by 160 neurons. The coupling matrix 
+was initialized by drawing tits components independently from a Gaussian distribution and 
+rescaling the matrix to noalize < ri >. The time-window T was chosen to be T = 0.8, 
+and  was gradually increased from its initial value of  = 1 to  = 10. The coupling 
+matrix was updated using e = 10 -4, and L = 10. 
+Figure 3 shows the some of the receptive fields that were obtained after the system had 
+approached the fixed point, e.i. the running average of the mutual information no longer 
+increased. These receptive fields look rather similar to those obtained from simple cells 
+in the striate cortex. However a more thorough analysis of these receptive field and the 
+sparseness of the rate distribution still has to be undertaken. 
+Figure 3: Forty examples of receptive fields that show clear Gabor like structure. 
+7 Discussion 
+I have shown why optimal encoding using Gaussian channels naturally leads to highly 
+degenerate solutions necessitating extra constraints. Using the biologically more plausible 
+noise model which describes the neurons by Poisson processes naturally leads to a sparse 
+representation, when optimal encoding is enforced, for two analytically tractable models. 
+For a model of the striate cortex Poisson statistics also leads to a network in which the 
+receptive fields of the neurons mimic those of V1 simple cells, without the need to impose 
+sparseness. This leads to the conclusion that sparseness is not an independent constraint 
+that is imposed by evolutionary pressure, but rather is a consequence of optimal encoding. 
+References 
+[1] Baddeley, R., Hancock, P., and F61difik, P. (eds.) (2000) Information Theory and the 
+Brain. (Cambridge University Press, Cambridge). 
+[2] Olshausen, B.A. and Field, D.J. (1996) Nature 381:607; (1998) Vision Research 
+37:3311. 
+[3] Bell, A.j. and Sejnowski, T.J. (1997) Vision Res. 37:3327; van Hateren, J.H. and van 
+der Schaaf, A. (1998) Proc. R. Soc. Lond. 265:359. 
+[4] Cover, T.M. and Thomas, J.A. (1991) Information Theory (Whiley and Sons, New 
+York). 
+[5] 
+Richmond, B.J., Optican, L.M., and Spitzer, H. (1990) J. Neurophysiol. 64:351; 
+Rolls, E.T., Critchley, H.D., and Treves, A. (1996) J. Neurophysiol. 75:1982; Dean, 
+A.F. (1981) Exp. Brain. Res. 44:437. 
+[6] Smith, W.L. (1951) Biometrica 46:1. 
+[7] van Hateren, J.H. and van der Schaaf, A. (1998) Proc.R.Soc.Lond. B 265:359-366. 

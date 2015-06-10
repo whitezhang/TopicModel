@@ -1,0 +1,89 @@
+Smart Vision Chip Fabricated Using Three 
+Dimensional Integration Technology 
+H.Kurino, M.Nakagawa, K.W.Lee, T.Nakamura, 
+Y.Yamada, K.T.Park and M.Koyanagi 
+Dept. of Machine Intelligence 
+and Systems Engineering, 
+Tohoku University 
+01, Aza-Aramaki, Aoba-ku, Sendai 
+980-8579, Japan 
+kurino @ sd.mech.tohoku.ac.jp 
+Abstract 
+The smart vision chip has a large potential for application in 
+general purpose high speed image processing systems. In order to 
+fabricate smart vision chips including photo detector compactly, 
+we have proposed the application of three dimensional LSI 
+technology for smart vision chips. Three dimensional technology 
+has great potential to realize new neuromorphic systems inspired 
+by not only the biological function but also the biological structure. 
+In this paper, we describe our three dimensional LSI technology for 
+neuromorphic circuits and the design of smart vision chips. 
+1 Introduction 
+Recently, the demand for very fast image processing systems with real time 
+operation capability has significantly increased. Conventional image processing 
+systems based on the system level integration of a camera and a digital processor, 
+do not have the potential for application in general purpose consumer electronic 
+products. This is simply due to the cost, size and complexity of these systems. 
+Therefore the smart vision chip will be an inevitable component of future intelligent 
+systems. In smart vision chips, 2D images are simultaneously processed in parallel. 
+Therefore very high speed image processing can be realized. Each pixel includes a 
+photo-detector. In order to receive a light signal as much as possible, the 
+photo-detector should occupy a large proportion of the pixel area. However the 
+successive processing circuits must become larger in each pixel to realize high level 
+image processing. It is very difficult to achieve smart vision chips by using 
+conventional two dimensional (2D) LSI technology because such smart vision chips 
+have low fill-factor and low resolution. This problem can be overcome if three 
+dimensional (3D) integration technology can be employed for the smart vision 
+chip. In this paper, we propose a smart vision chip fabricated by three dimensional 
+integration technology. We also discuss the key technologies for realizing three 
+dimensional integration and preliminary test results of three dimensional image 
+sensor chips. 
+2 Three Dimensional Integrated Vision Chips 
+Figure 1 shows the cross-sectional structure of the three dimensional integrated 
+vision chip. Several circuit layers with different functions are stacked into one chip 
+in 3D LSI. For example, the first layer consists of a photo detector array acting like 
+photo receptive cells in the retina, the second layer is horizontal / bipolar cell 
+circuits, the third layer is ganglion cell circuits and so on. Each circuit layer is 
+stacked and electrically connected vertically using buried interconnections and 
+micro bumps. By using three dimensional integration technology, a photo detector 
+can be formed with a high fill-factor and high resolution, because several successive 
+processing circuits with large areas are formed on the lower layers underneath the 
+photo detector layer. Every photo detector is directly connected with successive 
+processing circuits (ie. horizontal and bipolar cell circuits) in parallel via the 
+vertical interconnections. The signals in every pixel are simultaneously transferred 
+in the vertical direction and processed in parallel in each layer. Therefore high 
+performance real time vision chips can be realized. We considered the 3D LSI 
+suitable for realizing neuromorphic LSI, because the three dimensional structure is 
+quite similar to the structure of the retina or cortex. Three dimensional technology 
+will realize new neuromorphic systems inspired by not only the biological function 
+but also the biological structure. 
+Glass Wafer 
+Photoreceptors 
+Layer 
+Horizontal and 
+Bipolar Cells 
+Layer 
+Ganglion Cells 
+Layer 
+Fig. 1 Cross-sectional structure of three dimensional vision chip. 
+Figure 2 shows the neuromorphic analog circuits implemented into 3D LSI. The 
+circuits are divided into three circuit layers. Photodiodes and photocircuits are 
+designed on the first layer. Horizontal / bipolar cell circuits and ganglion cells are 
+on the 2nd and 3rd layer, respectively. Each circuit layer is fabricated 
+d I' '1. II 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+q 
+i I 
+Fig.2 Circuit diagram of three dimensional vision chip. 
+Fig.3 Layout of the three dimensional vision chip. 
+on different Si wafers and stacked into a 3D LSI. Light signals are converted into 
+electrical analog signals by photodiodes and photocircuits on the first layer. The 
+electric signals are transferred from the first layer to the second layer through the 
+vertical interconnections. The operational amplifiers and resistor network on the 
