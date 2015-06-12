@@ -221,19 +221,17 @@ def main(argv):
 
 	corpus = Corpus()
 	document_paths = ['./data/events_2010/Test/']
-	# document_paths = ['./data/events_2010/GulfOilSpill/', './data/events_2010/HaitiEarthquake/',
-			# './data/events_2010/MichaelJacksonDied/', './data/events_2010/PakistanFloods/',
-			# './data/events_2010/RussianForestFires/', './data/events_2010/SouthAfricaWorldCup/']
+	document_path = './data/txt/'
 
-	#document_paths = ['./texts/grimm_fairy_tales', './texts/tech_blog_posts', './texts/nyt']
-
-	for document_path in document_paths:
-		for document_file in glob.glob(os.path.join(document_path, '*.txt')):
+	for root, dirs, files in os.walk(document_path):
+		for name in files:
+			document_file = root + '/' + name
+			if not '.txt' in document_file:
+				continue
 			document = Document(document_file)
 			document.split(STOP_WORDS_DIC)
 			corpus.add_document(document)
 	corpus.build_vocabulary()
-
 
 	number_of_topics = 12 #int(argv[1])
 	max_iterations = 100 #int(argv[2])
