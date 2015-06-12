@@ -221,20 +221,21 @@ def main(argv):
 
 	corpus = Corpus()
 	document_paths = ['./data/events_2010/Test/']
-	document_path = './data/txt/'
+	document_path = './data/20_newsgroups/'
 
 	for root, dirs, files in os.walk(document_path):
 		for name in files:
 			document_file = root + '/' + name
-			if not '.txt' in document_file:
+			if not "_s" in document_file:
 				continue
+			print document_file
 			document = Document(document_file)
 			document.split(STOP_WORDS_DIC)
 			corpus.add_document(document)
 	corpus.build_vocabulary()
 
-	number_of_topics = 12 #int(argv[1])
-	max_iterations = 100 #int(argv[2])
+	number_of_topics = 40 #int(argv[1])
+	max_iterations = 1000 #int(argv[2])
 	plsa = Plsa(corpus, number_of_topics, max_iterations, "./model/")
 	plsa.train()   
 

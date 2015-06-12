@@ -1,0 +1,7 @@
+  <1993Apr21.111919.5281@alf.uib.no> <DRAND.93Apr21114830@spinner.osf.org>
+ Lines: 3
+ 
+ You can also set the Foreground to the XOR of the foreground and background
+ colors:  XSetForeground(..., fg ^ bg);    This works great for me (at least
+ with TrueColor visuals).
+ 
