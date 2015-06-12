@@ -220,25 +220,27 @@ def main(argv):
 	load_stop_words("./data/stopwords.txt")
 
 	corpus = Corpus()
-	document_paths = ['./data/events_2010/Test/']
-	document_path = './data/txt/'
+	document_paths = ['./data/20_newsgroups/']
+	document_path = './data/20_newsgroups/'
 
 	for root, dirs, files in os.walk(document_path):
 		for name in files:
 			document_file = root + '/' + name
-			if not '.txt' in document_file:
-				continue
 			document = Document(document_file)
 			document.split(STOP_WORDS_DIC)
 			corpus.add_document(document)
 	corpus.build_vocabulary()
 
-	number_of_topics = 12 #int(argv[1])
-	max_iterations = 100 #int(argv[2])
+	number_of_topics = 40 #int(argv[1])
+	max_iterations = 200 #int(argv[2])
 	plsa = Plsa(corpus, number_of_topics, max_iterations, "./model/")
 	plsa.train()   
 
 if __name__ == "__main__":
 	main(sys.argv)
+	#If done, following file should be created
+	flag_file = open("flag_file", "w+")
+	flag_file.write("Done")
+	flag_file.close()
 
 
