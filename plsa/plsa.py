@@ -95,6 +95,9 @@ class Plsa(object):
 		self.L = 0.0 # log-likelihood
 		self.error_L = 0.0001; # error for each iter
 		self.corpus = corpus
+
+		print corpus.vocabulary
+		print self.n_d, self.n_w
 		# bag of words
 		self.n_w_d = np.zeros([self.n_d, self.n_w], dtype = np.int)
 		for di, doc in enumerate(corpus.documents):
@@ -221,7 +224,7 @@ def main(argv):
 	load_stop_words("./data/stopwords.txt")
 
 	corpus = Corpus()
-	document_paths = ['./data/events_2010/Test/']
+	document_paths = ['./data/20_newsgroups/']
 	document_path = './data/20_newsgroups/'
 
 	for root, dirs, files in os.walk(document_path):
@@ -229,7 +232,7 @@ def main(argv):
 			document_file = root + '/' + name
 			if not "_s" in document_file:
 				continue
-			# print document_file
+#			print document_file
 			document = Document(document_file)
 			document.split(STOP_WORDS_DIC)
 			corpus.add_document(document)
@@ -242,5 +245,9 @@ def main(argv):
 
 if __name__ == "__main__":
 	main(sys.argv)
+	#If done, following file should be created
+	flag_file = open("flag_file", "w+")
+	flag_file.write("Done")
+	flag_file.close()
 
 
