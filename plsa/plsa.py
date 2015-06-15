@@ -88,6 +88,7 @@ class Plsa(object):
 	def __init__(self, corpus, number_of_topics, max_iter, model_path):
 		self.n_d = len(corpus.documents)
 		self.n_w = len(corpus.vocabulary)
+		print corpus.vocabulary
 		self.n_t = number_of_topics
 		self.max_iter = max_iter
 		self.model_path = model_path
@@ -228,7 +229,7 @@ def main(argv):
 			document_file = root + '/' + name
 			if not "_s" in document_file:
 				continue
-			print document_file
+			# print document_file
 			document = Document(document_file)
 			document.split(STOP_WORDS_DIC)
 			corpus.add_document(document)
