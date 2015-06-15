@@ -1,15 +1,15 @@
 
- fineman@stein2.u.washington.edu (Twixt your toes) writes:
+ fineman@stein2.u.washington.edu (twixt your toes) writes:
  
- | I'm using "rayshade" on the u.w. computers here, and i'd like input
- | from other users, and perhaps swap some ideas.  I could post
- | uuencoded .gifs here, or .ray code, if anyone's interested.  I'm having
+ | i'm using "rayshade" on the u.w. computers here, and i'd like input
+ | from other users, and perhaps swap some ideas.  i could post
+ | uuencoded .gifs here, or .ray code, if anyone's interested.  i'm having
  | trouble coming up with colors that are metallic (i.e. brass, steel)
- | from the RGB values.
+ | from the rgb values.
  
- Sorry, I'm not a rayshade user - but hey, it looks like this group could
- use some traffic.  My guess is that "metallic" isn't a color, in the RGB
- sense.  Rather, it's a matter of how the surface reflects light.  I'm not
+ sorry, i'm not a rayshade user - but hey, it looks like this group could
+ use some traffic.  my guess is that "metallic" isn't a color, in the rgb
+ sense.  rather, it's a matter of how the surface reflects light.  i'm not
  sure what property metallic materials have, that makes them recognizable
- as such, but I'm pretty sure any color material can look metallic.
+ as such, but i'm pretty sure any color material can look metallic.
  

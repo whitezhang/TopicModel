@@ -1,27 +1,27 @@
 
- Ben Liberman (ben@genesis.MCS.COM) wrote:
- : What if clipper is fairly secure but leaves a distinct clipper signature...
+ ben liberman (ben@genesis.mcs.com) wrote:
+ : what if clipper is fairly secure but leaves a distinct clipper signature...
  : that is, what if it's not too difficult to tell that a msg. was clipper
- : encrypted, even if you can't tell the contents?  In that case, anyone 
+ : encrypted, even if you can't tell the contents?  in that case, anyone 
  : who is trying to hide behind anther encryption scheme will stand out
- : from all of the other traffic and raise a red flag to the NSA, etc.
+ : from all of the other traffic and raise a red flag to the nsa, etc.
  
- I think the obvious answer (which may have been posted, but I haven't
+ i think the obvious answer (which may have been posted, but i haven't
  seen it) is to encrypt your data with some other scheme, then run it
- through clipper.  The only way the police will be able to detect the
+ through clipper.  the only way the police will be able to detect the
  other encryption is through a wiretap, so even if they do notice with
- an illegal wiretap, I have a hard time seeing a judge issuing a
+ an illegal wiretap, i have a hard time seeing a judge issuing a
  warrant for a search to "confiscate" the illegal scheme (assuming that
  at one day, it comes to this; a worse case) based on an illegal
- wiretap.  Then again, maybe I am an idealist.  :>
+ wiretap.  then again, maybe i am an idealist.  :>
  
  : 	------------    --------    ----------------------
- : 	Ben Liberman    INTERNET    ben@genesis.MCS.COM
+ : 	ben liberman    internet    ben@genesis.mcs.com
  : 	                            ben@tai.chi.il.us
  
  --
- Michael Sawyer - My opinions are mine, not necessarily UH's, NSF's, or NASA's
- University of Hawaii Physical Oceanography/Satellite Remote Sensing
- RIPEM public key available, MD5OfPublicKey: C53C8744A87664168D135C0763DCCC1D
+ michael sawyer - my opinions are mine, not necessarily uh's, nsf's, or nasa's
+ university of hawaii physical oceanography/satellite remote sensing
+ ripem public key available, md5ofpublickey: c53c8744a87664168d135c0763dccc1d
  
  

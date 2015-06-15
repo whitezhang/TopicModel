@@ -1,22 +1,22 @@
-	individual at The Great-West Life Assurance Company and do
+	individual at the great-west life assurance company and do
  	not necessarily reflect those of the company.
- Lines: 17
+ lines: 17
  
- Preface: I am a novice user at best to the Windows environment.
+ preface: i am a novice user at best to the windows environment.
  
- I am trying to execute a MS C++ 7.0 executable program which accesses a Btrieve
- database to build an ASCII file.  
+ i am trying to execute a ms c++ 7.0 executable program which accesses a btrieve
+ database to build an ascii file.  
  
- When I execute it under windows the screen goes blank and my PC locks up.  The only
+ when i execute it under windows the screen goes blank and my pc locks up.  the only
  way for me to return is to reset the machine.
  
- Does anyone have any insight on what I may have to do in order for the program to
- correctly under windows?  (By the way it runs fine in DOS 5.0)
+ does anyone have any insight on what i may have to do in order for the program to
+ correctly under windows?  (by the way it runs fine in dos 5.0)
  
- System:  Gateway 486/DX250 
- 	 ATI Graphics Ultra Card 640x480
+ system:  gateway 486/dx250 
+ 	 ati graphics ultra card 640x480
  
- Any help would be greatly appreciated.
+ any help would be greatly appreciated.
  
- Rodger  
+ rodger  
  

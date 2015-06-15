@@ -1,24 +1,24 @@
 
- 	From: Marc VanHeyningen <mvanheyn@cs.indiana.edu>
+ 	from: marc vanheyningen <mvanheyn@cs.indiana.edu>
  
- 	The majority of the discussion involving this "Clipper Chip" seems to
- 	pertain to the encryption of telephone conversations.  Does anyone
+ 	the majority of the discussion involving this "clipper chip" seems to
+ 	pertain to the encryption of telephone conversations.  does anyone
  	know if that means this chip is designed to work primarily with analog
- 	signals?  The language sort of suggests this, but it's hard to say.
+ 	signals?  the language sort of suggests this, but it's hard to say.
  
- I'd lay a few bucks that its just data-in-data-out in parallel.  I suspect
- to make it a phone you'd need a codec and speech compression.  There would
- be a loss of bandwidth on the speech signal, which I suspect would scupper
- any of the suggestions I've seen here about putting a different encryption
+ i'd lay a few bucks that its just data-in-data-out in parallel.  i suspect
+ to make it a phone you'd need a codec and speech compression.  there would
+ be a loss of bandwidth on the speech signal, which i suspect would scupper
+ any of the suggestions i've seen here about putting a different encryption
  front end on it.
  
- There's no hint of any modulation scheme in the docs.  I'm sure it's purely
- a digital chip.  The back end will come later, but I'm *positive* it won't
+ there's no hint of any modulation scheme in the docs.  i'm sure it's purely
+ a digital chip.  the back end will come later, but i'm *positive* it won't
  be left to the manufacturers - they all have to be the same modulation
- scheme to make it easy for the NSA to tap them.
+ scheme to make it easy for the nsa to tap them.
  
- The only other possibility is that this is intended only for ISDN phones.
- (Puts a whole new spin on EFFs obsession about ISDN if true, bwahahaha! ;-) )
+ the only other possibility is that this is intended only for isdn phones.
+ (puts a whole new spin on effs obsession about isdn if true, bwahahaha! ;-) )
  
- G
+ g
  

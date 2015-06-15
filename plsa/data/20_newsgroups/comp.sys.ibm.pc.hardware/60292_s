@@ -1,34 +1,34 @@
 
- kevin@kosman.uucp (Kevin O'Gorman) writes:
+ kevin@kosman.uucp (kevin o'gorman) writes:
  
- >Anybody seen the date get stuck?
+ >anybody seen the date get stuck?
  
- >I'm running MS-DOS 5.0 with a menu system alive all the time.  The machine
+ >i'm running ms-dos 5.0 with a menu system alive all the time.  the machine
  >is left running all the time.
  
- >Suddenly, the date no longer rolls over.  The time is (reasonably) accurate
- >allways, but we have to change the date by hand every morning.  This involves
- >exiting the menu system to get to DOS.
+ >suddenly, the date no longer rolls over.  the time is (reasonably) accurate
+ >allways, but we have to change the date by hand every morning.  this involves
+ >exiting the menu system to get to dos.
  
- >Anyone have the slightest idea why this should be?  Even a clue as to whether
- >the hardware (battery? CMOS?) or DOS is broken?
+ >anyone have the slightest idea why this should be?  even a clue as to whether
+ >the hardware (battery? cmos?) or dos is broken?
  >-- 
- >Kevin O'Gorman ( kevin@kosman.UUCP, kevin%kosman.uucp@nrc.com )
- >voice: 805-984-8042 Vital Computer Systems, 5115 Beachcomber, Oxnard, CA  93035
- >Non-Disclaimer: my boss is me, and he stands behind everything I say.
+ >kevin o'gorman ( kevin@kosman.uucp, kevin%kosman.uucp@nrc.com )
+ >voice: 805-984-8042 vital computer systems, 5115 beachcomber, oxnard, ca  93035
+ >non-disclaimer: my boss is me, and he stands behind everything i say.
  
  
- I've started to notice the same thing myself. I'm running DOS 5 and Win 3.1 so
- I can fix it from the Windows Control Panel. At times it is the date, at
+ i've started to notice the same thing myself. i'm running dos 5 and win 3.1 so
+ i can fix it from the windows control panel. at times it is the date, at
  others the clock seems to be running several minutes behind where it should
  be.
  
- If you find out I'd like to know also. Oh, and I also leave my system running
+ if you find out i'd like to know also. oh, and i also leave my system running
  all the time.
                                                                      
  -- 
- Barry Sardis		| Home:   (408) 448-1589
- 1241 Laurie Avenue	| Office: (408) 448-7404
- San Jose, CA 95125	| Fax:    (408) 448-7404
- Email: bsardis@netcom.COM or 70105.1210@compuserve.COM
+ barry sardis		| home:   (408) 448-1589
+ 1241 laurie avenue	| office: (408) 448-7404
+ san jose, ca 95125	| fax:    (408) 448-7404
+ email: bsardis@netcom.com or 70105.1210@compuserve.com
  

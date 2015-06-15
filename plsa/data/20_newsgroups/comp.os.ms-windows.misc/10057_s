@@ -1,71 +1,71 @@
 
- In article <735952415.AA01739@f-454.fidonet.org> C..Doelle@p26.f3333.n106.z1.fidonet.org (C. Doelle) writes:
- >Hello Brad!
+ in article <735952415.aa01739@f-454.fidonet.org> c..doelle@p26.f3333.n106.z1.fidonet.org (c. doelle) writes:
+ >hello brad!
  >
- >Monday April 26 1993 17:24, Brad Smalling wrote to (crosspost 1) All:
+ >monday april 26 1993 17:24, brad smalling wrote to (crosspost 1) all:
  >
- > BS> since I don't know your setup):
+ > bs> since i don't know your setup):
  >
- > BS> COPY /B WIN.CNF+VGALOGO.LGO+VGALOGO.RLE WIN.COM
+ > bs> copy /b win.cnf+vgalogo.lgo+vgalogo.rle win.com
  >
- > BS> (I grabbed this from _Supercharging Windows_ by Judd Robbins--great book)
- > BS> This is also how you can put your own logo into the Windows startup
+ > bs> (i grabbed this from _supercharging windows_ by judd robbins--great book)
+ > bs> this is also how you can put your own logo into the windows startup
  >
- >Brad,
- >    What is the procedure used to 'specially' compress the BMP file?  I would
+ >brad,
+ >    what is the procedure used to 'specially' compress the bmp file?  i would
                                           [ to a .rle file   ^^^^^^^]
- >love to use some of my BMP files I have created as a logo screen.  Thanks
+ >love to use some of my bmp files i have created as a logo screen.  thanks
  >
- >Chris
+ >chris
  >
  >
- > * Origin: chris.doelle.@f3333.n106.z1.fidonet.org (1:106/3333.26)
+ > * origin: chris.doelle.@f3333.n106.z1.fidonet.org (1:106/3333.26)
  
-  I thought I'd reply to this, though I ain't brad.  AT any case, a lot
+  i thought i'd reply to this, though i ain't brad.  at any case, a lot
  of picture-file viewers that will convert, say, between .gif,etc, to
- .bmp *will* convert to .rle.  I Know for a fact that PaintShop
- (shareware from cica; /desktop, I think, filename psVVV.zip (I think,
- where VVV is the ver. number.  If that's not true, let me know and I"ll
+ .bmp *will* convert to .rle.  i know for a fact that paintshop
+ (shareware from cica; /desktop, i think, filename psvvv.zip (i think,
+ where vvv is the ver. number.  if that's not true, let me know and i"ll
  post a corection).
  
  
- This, however, will write your .rle file with a .bmp extension, so you
+ this, however, will write your .rle file with a .bmp extension, so you
  have to rename it.
  
- NOW, another thing....
- this is from the windows' FAQ:
+ now, another thing....
+ this is from the windows' faq:
  
- your file has to be less than 64 K
- ( at least that's what the faq says, but Mine wont work for more than
- about 30...maybe they mend 32K, I don't know).
+ your file has to be less than 64 k
+ ( at least that's what the faq says, but mine wont work for more than
+ about 30...maybe they mend 32k, i don't know).
  
- Your file has to fit VGA size (480 * 860, or whatever standard vga size
- is.)  If you use a non-vga screen (e.g. Cga, ega, svga, there is also a
- way to do it, but I thing instead of vgalogo.lgo you use another file,
- such as cgalogo.lgo, egalogo.lgo, or something.  I'm not sure about
- this, as I have a vga, but i'm sure you could find it in the faq (a
+ your file has to fit vga size (480 * 860, or whatever standard vga size
+ is.)  if you use a non-vga screen (e.g. cga, ega, svga, there is also a
+ way to do it, but i thing instead of vgalogo.lgo you use another file,
+ such as cgalogo.lgo, egalogo.lgo, or something.  i'm not sure about
+ this, as i have a vga, but i'm sure you could find it in the faq (a
  windows help ver. of which *is* available at cica, but don't konw the
  filename). 
  
- ALSO....your .bmp has to be 16 COLOURS Or less.
+ also....your .bmp has to be 16 colours or less.
  
- These specs rule out some of the good .bmp's.  I found cartoon drawings
+ these specs rule out some of the good .bmp's.  i found cartoon drawings
  work quite well as they have the advantage of looking good with little
  memory.
  
- Finally, REMEMBER TO SAVE YOUR CURRENT WIN.COM before, and put your
- new win.com in the windows directory.  Also, don't start windows from a
+ finally, remember to save your current win.com before, and put your
+ new win.com in the windows directory.  also, don't start windows from a
  directory where another win.com is present, as *that* is used instead of
  the one in the windows dir, and win. won't start.
  
  
- Share this fairly, but don't take a slice of my pie (PF).
+ share this fairly, but don't take a slice of my pie (pf).
  
- Mickey
+ mickey
  
  -- 
- pe-|| ||  MICHAEL PANAYIOTAKIS: louray@seas.gwu.edu 
+ pe-|| ||  michael panayiotakis: louray@seas.gwu.edu 
  ace|| ||                                   ...!uunet!seas.gwu.edu!louray
- |||| \/|  *how do make a ms-windows .grp file reflect a HD directory??*
- \\\\   |  "well I ain't always right, but I've never been wrong.."(gd)
+ |||| \/|  *how do make a ms-windows .grp file reflect a hd directory??*
+ \\\\   |  "well i ain't always right, but i've never been wrong.."(gd)
  

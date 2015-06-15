@@ -1,35 +1,35 @@
 
- u7911093@cc.nctu.edu.tw ("By SWH ) writes:
+ u7911093@cc.nctu.edu.tw ("by swh ) writes:
  
- >Who can tell me which program (PD or ShareWare) can redirect windows 3.1's
+ >who can tell me which program (pd or shareware) can redirect windows 3.1's
  >output of printer manager to file? 
  
- >	I want to capture HP Laser Jet III's print output.
+ >	i want to capture hp laser jet iii's print output.
  
- > 	Though PostScript can setup print to file,but HP can't.
+ > 	though postscript can setup print to file,but hp can't.
  
- >	I use DOS's redirect program,but they can't work in windows.
+ >	i use dos's redirect program,but they can't work in windows.
  
- >		Thankx for any help...
+ >		thankx for any help...
  >--
- > Internet Address: u7911093@cc.nctu.edu.tw
+ > internet address: u7911093@cc.nctu.edu.tw
  
- >    English Name: Erik Wang
- >    Chinese Name: Wang Jyh-Shyang
+ >    english name: erik wang
+ >    chinese name: wang jyh-shyang
  
- > National Chiao-Tung University,Taiwan,R.O.C.
+ > national chiao-tung university,taiwan,r.o.c.
  
- Try setting up another HPIII printer but when choosing what port to connect it
- to choose FILE instead of like :LPT1.  This will prompt you for a file name
- everytime you print with that "HPIII on FILE" printer. Good Luck.
+ try setting up another hpiii printer but when choosing what port to connect it
+ to choose file instead of like :lpt1.  this will prompt you for a file name
+ everytime you print with that "hpiii on file" printer. good luck.
  
  
- Brian Servis
+ brian servis
  ===========================================================================
- ||  servis@author.ecn.purdue.edu   ||         "It Happened This Way"     ||
+ ||  servis@author.ecn.purdue.edu   ||         "it happened this way"     ||
  ===================================|| actual quotes from insurance claims||
- ||  What I say may not be what I   ||                                    ||
- ||  think. What I say may not be   ||  "The pedestrian had no idea which ||
- ||  what Purdue thinks.            ||   way to go, so I ran him over."   ||
+ ||  what i say may not be what i   ||                                    ||
+ ||  think. what i say may not be   ||  "the pedestrian had no idea which ||
+ ||  what purdue thinks.            ||   way to go, so i ran him over."   ||
  ===========================================================================
  

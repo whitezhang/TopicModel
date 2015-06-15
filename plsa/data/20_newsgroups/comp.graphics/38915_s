@@ -1,32 +1,32 @@
 
- In article <1rkntjINNd00@no-names.nerdc.ufl.edu>, lioness@maple.circa.ufl.edu writes:
- > Okay, I got enough replies about the Kubota Kenai/Denali systems that I
+ in article <1rkntjinnd00@no-names.nerdc.ufl.edu>, lioness@maple.circa.ufl.edu writes:
+ > okay, i got enough replies about the kubota kenai/denali systems that i
  > will post a summary of their capabilities.  [ ... ]
  > 
- > GRAPHICS
+ > graphics
  > 
- > Transform Modules	1-6			1-6
- > Frame Buffer Modules	5,10,20			5,10,20
- > Frame Buffer		1280x1024x24bit		1280x1024x24bit
+ > transform modules	1-6			1-6
+ > frame buffer modules	5,10,20			5,10,20
+ > frame buffer		1280x1024x24bit		1280x1024x24bit
  > 			double buffered		double buffered
- > Z-buffer		24-bit			24-bit
- > Alpha/stencil		8-bit			8-bit
+ > z-buffer		24-bit			24-bit
+ > alpha/stencil		8-bit			8-bit
    ^^^^^^^^^^^^^
  
- Does this mean they can either do alpha or stenciling, but not both
+ does this mean they can either do alpha or stenciling, but not both
  simultaneously?
  
- > Stereo support	yes			yes
- > Other:			both machines will double buffer or do
+ > stereo support	yes			yes
+ > other:			both machines will double buffer or do
                                                                   ^^
- > 				stereo output per window.  Both have an
- > 				auxiliary video output that is RS-170A,
- > 				NTSC, and PAL
+ > 				stereo output per window.  both have an
+ > 				auxiliary video output that is rs-170a,
+ > 				ntsc, and pal
  
- Same question again, does this mean they can either do double
+ same question again, does this mean they can either do double
  buffering or stereo, but not both simultaneously?
  -- 
  
     -paul	pmartz@dsd.es.com
- 		Evans & Sutherland
+ 		evans & sutherland
  

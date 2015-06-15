@@ -1,59 +1,59 @@
 
- Hello all,
+ hello all,
  
- You, the Net, are my last resort, or I'll just change my job :-)
- This might be a FAQ (e.g. mixing controllers) but haven't seen any.
+ you, the net, are my last resort, or i'll just change my job :-)
+ this might be a faq (e.g. mixing controllers) but haven't seen any.
  
- Sys: 486/33, AMI BIOS, and your run-of-the mill multi-I/O card with
+ sys: 486/33, ami bios, and your run-of-the mill multi-i/o card with
  serials/paral/floppies and 
- 	- IDE controller "clone" Gw2760-EX
- 		there are no jumpers affecting the HD or ctrller :-( 
- 	- Quantum ProDrive LPS (3" 105M type 47: 755cyl, 16hds, 17spt).
+ 	- ide controller "clone" gw2760-ex
+ 		there are no jumpers affecting the hd or ctrller :-( 
+ 	- quantum prodrive lps (3" 105m type 47: 755cyl, 16hds, 17spt).
  
- Pb: I want to bring in this (2nd hand, neat price):
- 	- Maxtor XT-B380E (~330M, <15ms, BIOS type 1, ctrller manages
+ pb: i want to bring in this (2nd hand, neat price):
+ 	- maxtor xt-b380e (~330m, <15ms, bios type 1, ctrller manages
  		the real geom: 1630cyl, 8hds, 52spt)
- 	- Western Digital WD1007V-SE1 ESDI ctrller: no floppies.
- 		(jumpers set IRQ 14/15, hw port addr 1F0/170,
- 		and BIOS addr CC00/C800, and other floppy/format stuff)
+ 	- western digital wd1007v-se1 esdi ctrller: no floppies.
+ 		(jumpers set irq 14/15, hw port addr 1f0/170,
+ 		and bios addr cc00/c800, and other floppy/format stuff)
  
- Goal: have the WD ESDI as a secondary/controller and have both disks 
- simultaneously working. Being able to boot from the ESDI too would be 
+ goal: have the wd esdi as a secondary/controller and have both disks 
+ simultaneously working. being able to boot from the esdi too would be 
  a nice bonus but is not expected.
  
- Ultimate goal: have room for Linux et al.
- Ex of scheme I have in mind: boot from IDE (HD or floppy) and mount
- the ESDI as root. Not booting from ESDI, or even from HD, is acceptable.
+ ultimate goal: have room for linux et al.
+ ex of scheme i have in mind: boot from ide (hd or floppy) and mount
+ the esdi as root. not booting from esdi, or even from hd, is acceptable.
  
- I have tried numerous (all!!) combinations to no avail. They work alone,
- or can coexist witout hang-ups but can't access the ESDI or the IDE, 
+ i have tried numerous (all!!) combinations to no avail. they work alone,
+ or can coexist witout hang-ups but can't access the esdi or the ide, 
  depending on setup/jumpers.
  
- Useful suggestions might be:
- - How do I tell the BIOS setup about two ctrllers (I guess the 2nd HD
+ useful suggestions might be:
+ - how do i tell the bios setup about two ctrllers (i guess the 2nd hd
  is expected to hang off the same ctrller as the 1st).
- - Do I need some driver to make it work?
- - --- " --- some new BIOS/chip for any of these cards?
- - do I have to buy another controller to make them HDs happy? IDE
- is cheaper; ESDI is hard to find and rather costly. I'm not 
- rich or I wouldnt' try to scavenge around, so soft slns are preferred.
- - adapters of some sort; I can hold a soldering iron, and can change
+ - do i need some driver to make it work?
+ - --- " --- some new bios/chip for any of these cards?
+ - do i have to buy another controller to make them hds happy? ide
+ is cheaper; esdi is hard to find and rather costly. i'm not 
+ rich or i wouldnt' try to scavenge around, so soft slns are preferred.
+ - adapters of some sort; i can hold a soldering iron, and can change
  a chip or put a jumper!
  
- Also useful:
- - BBS or Hot-line of Western Digital.
+ also useful:
+ - bbs or hot-line of western digital.
  - ftp archives with relevant info.
- - expert stores in Toronto, Ontario area (that would be a miracle! haven't
+ - expert stores in toronto, ontario area (that would be a miracle! haven't
  seen any really knowledgeable ppl in a while)
  - any hints into inner workings of the system ... 
  - anything else that helped you in similar situations (prayers :-) )
  
- Direct or posted replies are ok.
- 	Many thanks,
- 			Cat.
+ direct or posted replies are ok.
+ 	many thanks,
+ 			cat.
  --
  ////// /// // / /  /  /   /   /    /     /      /      /        / 
- Catalin Ivan - email: ivan@Iro.UMontreal.CA - tel:(416) 324.8704
-          Human-Computer   INTERACTION   Humain-Machine 
- Universite de Montreal - Informatique et Recherche Operationelle
+ catalin ivan - email: ivan@iro.umontreal.ca - tel:(416) 324.8704
+          human-computer   interaction   humain-machine 
+ universite de montreal - informatique et recherche operationelle
  

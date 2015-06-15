@@ -1,17 +1,17 @@
 
  
- Hi, there,
-     I'm trying to build X11R5 mit core distribution on a SparcStation running
- SunOS 4.1.1. The only thing I change is the ProjectRoot in site.def. When the
- "make World" process goes to "cc -o xdm ...", I get the following error:
+ hi, there,
+     i'm trying to build x11r5 mit core distribution on a sparcstation running
+ sunos 4.1.1. the only thing i change is the projectroot in site.def. when the
+ "make world" process goes to "cc -o xdm ...", i get the following error:
  
- ld: Undefined symbol
-    __C0095A2A
- *** Error code 2
+ ld: undefined symbol
+    __c0095a2a
+ *** error code 2
  
- And the process continues to finish. Does anybody know what's wrong? Thanx for
+ and the process continues to finish. does anybody know what's wrong? thanx for
  any info.
  
- Lei Shao
+ lei shao
  ls116@cunixa.cc.columbia.edu
  

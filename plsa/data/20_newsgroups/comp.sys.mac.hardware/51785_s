@@ -1,44 +1,44 @@
 
- In article <1993Apr16.191259.1@fnalf.fnal.gov>,
- higgins@fnalf.fnal.gov (Bill Higgins-- Beam Jockey) writes:
- >In article <C5KzLs.KKB@dartvax.dartmouth.edu>, hades@coos.dartmouth.edu (Brian V. Hughes) writes:
- >> mmiller@garnet.msen.com (Marvin Miller) writes:
- >>>My friend recently purchased a LC III and he wants to know if there is
- >>>such a demon called NuBus adapter for his PDS slot?
+ in article <1993apr16.191259.1@fnalf.fnal.gov>,
+ higgins@fnalf.fnal.gov (bill higgins-- beam jockey) writes:
+ >in article <c5kzls.kkb@dartvax.dartmouth.edu>, hades@coos.dartmouth.edu (brian v. hughes) writes:
+ >> mmiller@garnet.msen.com (marvin miller) writes:
+ >>>my friend recently purchased a lc iii and he wants to know if there is
+ >>>such a demon called nubus adapter for his pds slot?
  >
- >> The LC family of Macs can only
- >> use PDS cards. They are not able to use NuBus.
+ >> the lc family of macs can only
+ >> use pds cards. they are not able to use nubus.
  >
- >Ah, but why?  Can some technically-hip Macslinger tell us what the
- >difference is between PDS and Nubus?
+ >ah, but why?  can some technically-hip macslinger tell us what the
+ >difference is between pds and nubus?
  >
- >Is it impossible to make a gadget that plugs into PDS and ends in a
- >Nubus card cage?  At least, Marvin's friend has not been able to
- >locate one and neither have I.  What is the fundamental reason for
+ >is it impossible to make a gadget that plugs into pds and ends in a
+ >nubus card cage?  at least, marvin's friend has not been able to
+ >locate one and neither have i.  what is the fundamental reason for
  >this?
  >
  >--
- >     O~~*           /_) ' / /   /_/ '  ,   ,  ' ,_  _           \|/
+ >     o~~*           /_) ' / /   /_/ '  ,   ,  ' ,_  _           \|/
  >   - ~ -~~~~~~~~~~~/_) / / /   / / / (_) (_) / / / _\~~~~~~~~~~~zap!
  > /       \                          (_) (_)                    / | \
- > |       |     Bill Higgins   Fermi National Accelerator Laboratory
- > \       /     Bitnet:     HIGGINS@FNAL.BITNET
- >   -   -       Internet:  HIGGINS@FNAL.FNAL.GOV
- >     ~         SPAN/Hepnet:      43011::HIGGINS
- Second Wave makes NuBus card cages that work on the PDS slots of at
- least three Macs: the SE/30, IIsi and Centris 610. They have not, to
- my knowledge, announced such a device for the LCII, but they could
+ > |       |     bill higgins   fermi national accelerator laboratory
+ > \       /     bitnet:     higgins@fnal.bitnet
+ >   -   -       internet:  higgins@fnal.fnal.gov
+ >     ~         span/hepnet:      43011::higgins
+ second wave makes nubus card cages that work on the pds slots of at
+ least three macs: the se/30, iisi and centris 610. they have not, to
+ my knowledge, announced such a device for the lcii, but they could
  make one, technologically.
  
- The PDS card that goes to the cage simply needs the NuBus controller
- circuitry present on NuBus Macs.
+ the pds card that goes to the cage simply needs the nubus controller
+ circuitry present on nubus macs.
  
- Why, though, does anyone care about this? dgr has a three-PDS
- adapter for the LC/LCII. They will soon have one for the LCIII. PDS
- is better than NuBus for most people in most applications. Granted,
- there are more NuBus cards. But, most applications that require a
- NuBus card (like full-motion video capture) shouldn't be done on an
- LC/LCII/LCIII anyway.
+ why, though, does anyone care about this? dgr has a three-pds
+ adapter for the lc/lcii. they will soon have one for the lciii. pds
+ is better than nubus for most people in most applications. granted,
+ there are more nubus cards. but, most applications that require a
+ nubus card (like full-motion video capture) shouldn't be done on an
+ lc/lcii/lciii anyway.
  
- Mark
+ mark
  

@@ -1,34 +1,34 @@
 
- In article <1993Apr1.213842.6086@ctp.com>, hubec@ctp.com (Hubert Chou) writes:
- |> Does anyone have any good ideas on how to integrate C++ code elegantly
- |> with TeleUse, UIM/X / Interface Architect generated code?
+ in article <1993apr1.213842.6086@ctp.com>, hubec@ctp.com (hubert chou) writes:
+ |> does anyone have any good ideas on how to integrate c++ code elegantly
+ |> with teleuse, uim/x / interface architect generated code?
  |> 
- |> Source would be great, but any suggestions are welcome.
+ |> source would be great, but any suggestions are welcome.
  |> 
  |> 
- |> Hubie Chou
+ |> hubie chou
  |> (617) 374-8454
  |> hubec@ctp.com
  |> 
  
- I don't know a great deal about the support for C++ in UIM/X, but I can tell 
- you that there is good support for it in TeleUSE.  In TeleUSE you can call any
- C++ method from a "D" module.  What you can do then is to use the "D" language
- for most of your interface code and then use C++ for you application code.
+ i don't know a great deal about the support for c++ in uim/x, but i can tell 
+ you that there is good support for it in teleuse.  in teleuse you can call any
+ c++ method from a "d" module.  what you can do then is to use the "d" language
+ for most of your interface code and then use c++ for you application code.
  
- I should tell you that there is some real neat stuff coming out of TeleUSE soon
- in regard to C++, but I can't give you many details.  You should talk to your local sales rep and get the lowdown on what they will be doing in the near furture.
+ i should tell you that there is some real neat stuff coming out of teleuse soon
+ in regard to c++, but i can't give you many details.  you should talk to your local sales rep and get the lowdown on what they will be doing in the near furture.
  
- If you want example code of how C++ integrates with TeleUSE you should look at
- $TeleUSE/examples/Thermometer
+ if you want example code of how c++ integrates with teleuse you should look at
+ $teleuse/examples/thermometer
  
  -- 
  +------------------------------------------------------------------------------+
- |Steve Vranyes                                                                 |
- |Voice    : (708) 576 - 0338                                                   |
- |E-mail   : stevevr@ecs.comm.mot.com                                           |
- |U.S.Post : Motorola Inc.                                                      |
- |           1301 E. Algonquin Rd.                                              |
- |           Schaumburg, IL 60196                                               |
+ |steve vranyes                                                                 |
+ |voice    : (708) 576 - 0338                                                   |
+ |e-mail   : stevevr@ecs.comm.mot.com                                           |
+ |u.s.post : motorola inc.                                                      |
+ |           1301 e. algonquin rd.                                              |
+ |           schaumburg, il 60196                                               |
  +------------------------------------------------------------------------------+
  

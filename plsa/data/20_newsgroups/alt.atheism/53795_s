@@ -1,70 +1,70 @@
 
- In article <1993Apr24.165301.8321@dcs.warwick.ac.uk> simon@dcs.warwick.ac.uk (Simon Clippingdale) writes:
- #In article <1quei1$8mb@horus.ap.mchp.sni.de> frank@D012S658.uucp (Frank O'Dwyer) writes:
- #>In article <1993Apr15.181924.21026@dcs.warwick.ac.uk> simon@dcs.warwick.ac.uk (Simon Clippingdale) writes:
- [I write:]
- #>>> Imagine that 1000000 Alterian dollars turn up in your bank account every
- #>>> month. Suppose further that this money is being paid to you by (a) your 
- #>>> big-hearted Alterian benefactor, or (b) a bug in an Alterian ATM.  Let's
- #>>> suppose that this is a true dichotomy, so P(a)+P(b)=1. Trouble is, Alterius 
- #>>> is in a different universe, so that no observations of Alterius are possible
+ in article <1993apr24.165301.8321@dcs.warwick.ac.uk> simon@dcs.warwick.ac.uk (simon clippingdale) writes:
+ #in article <1quei1$8mb@horus.ap.mchp.sni.de> frank@d012s658.uucp (frank o'dwyer) writes:
+ #>in article <1993apr15.181924.21026@dcs.warwick.ac.uk> simon@dcs.warwick.ac.uk (simon clippingdale) writes:
+ [i write:]
+ #>>> imagine that 1000000 alterian dollars turn up in your bank account every
+ #>>> month. suppose further that this money is being paid to you by (a) your 
+ #>>> big-hearted alterian benefactor, or (b) a bug in an alterian atm.  let's
+ #>>> suppose that this is a true dichotomy, so p(a)+p(b)=1. trouble is, alterius 
+ #>>> is in a different universe, so that no observations of alterius are possible
  #>>> (except for the banks - you couldn't possibly afford it ;-)
  #>>> 
- #>>> Now let's examine the case for (a).  There is no evidence whatsoever that
- #>>> there is any such thing as a big-hearted Alterian benefactor. However,
- #>>> P(exists(b-h A b)) + P(not(exists(b-h A b)) = 1. On the grounds that 
+ #>>> now let's examine the case for (a).  there is no evidence whatsoever that
+ #>>> there is any such thing as a big-hearted alterian benefactor. however,
+ #>>> p(exists(b-h a b)) + p(not(exists(b-h a b)) = 1. on the grounds that 
  #>>> lack_of_evidence_for is evidence_against when we have a partition like
  #>>> that, we dismiss hypothesis (a).
  #>>>
- #>>> Turning, therefore, to (b), we also find no evidence to support that
- #>>> hypothesis.  On the same grounds as before, we dismiss hypothesis (b).
+ #>>> turning, therefore, to (b), we also find no evidence to support that
+ #>>> hypothesis.  on the same grounds as before, we dismiss hypothesis (b).
  #>>>
- #>>> The problem with this is that we have dismissed *all* of the possible
+ #>>> the problem with this is that we have dismissed *all* of the possible
  #>>> hypotheses, and even though we know by construction that the money 
  #>>> arrives every month, we have proven that it can't, because we
  #>>> have dismissed all of its potential causes.
  #
- #>> That's an *extremely* poor argument, and here's why.
+ #>> that's an *extremely* poor argument, and here's why.
  #>>
- #>> Premise 1: "...this money is being paid to you by [either] (a) your big-
- #>>             hearted Alterian benefactor, or (b) a bug in an Alterian ATM".
+ #>> premise 1: "...this money is being paid to you by [either] (a) your big-
+ #>>             hearted alterian benefactor, or (b) a bug in an alterian atm".
  #>> 
- #>> Thus each monthly appearance of the bucks, should it happen, is an
- #>> observation on Alterius, and by construction, is evidence for the
- #>> existence of [either the benefactor or the bug in the ATM].
+ #>> thus each monthly appearance of the bucks, should it happen, is an
+ #>> observation on alterius, and by construction, is evidence for the
+ #>> existence of [either the benefactor or the bug in the atm].
  #>> 
- #>> Premise 2: no observations on Alterius are possible.
+ #>> premise 2: no observations on alterius are possible.
  #
  #>     #> (except for the banks - you couldn't possibly afford it ;-)
  #>
- #> You forgot to include this.  My premise is actually:
+ #> you forgot to include this.  my premise is actually:
  #>
- #> Premise 2:  The cardinality of the set of possible observations on Alterius
+ #> premise 2:  the cardinality of the set of possible observations on alterius
  #>             is one.
  #
- #>> This is clearly contradictory to the first.
+ #>> this is clearly contradictory to the first.
  #
- #> Not if you state it properly.
+ #> not if you state it properly.
  #
- #>> Trouble is, on the basis of premise 2, you say that there can be no evidence
+ #>> trouble is, on the basis of premise 2, you say that there can be no evidence
  #>> of [either the benefactor or the bug], but the first premise leads to the
  #>> conclusion that the appearance of the bucks, should it happen, is evidence
  #>> for the existence of [either the benefactor or the bug].
  #>> 
- #>> Voila, a screaming contradiction.
+ #>> voila, a screaming contradiction.
  #
- #[with my highlights - SC]
- #> But in a strawman argument. There is only evidence for OneOf(Benefactor,Bug).
- #> No observation to distinguish Benefactor from Bug is possible. That is
+ #[with my highlights - sc]
+ #> but in a strawman argument. there is only evidence for oneof(benefactor,bug).
+ #> no observation to distinguish benefactor from bug is possible. that is
  #> ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- #> not evidence for Bug, and neither is it evidence for Benefactor. Nor
+ #> not evidence for bug, and neither is it evidence for benefactor. nor
  #> ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  #> is true to say that this hypothetical universe appears exactly as
- #> if there were no Benefactor/Bug (two statements, both would be false).
+ #> if there were no benefactor/bug (two statements, both would be false).
  #
- #This is still contradictory. It reduces to
+ #this is still contradictory. it reduces to
  #
- #  (1): Alterian dosh arriving in my account is due to [benefactor or bug].
+ #  (1): alterian dosh arriving in my account is due to [benefactor or bug].
  #
  #  (2): this is not evidence for [benefactor], neither is it evidence for
  #       [bug] (meaning that it doesn't lend more weight to one than to the
@@ -73,122 +73,122 @@
  #  (3): therefore no evidence can exist for [benefactor] and no evidence
  #       can exist for [bug].
  #
- #But (3) relies on a shift in meaning from (2). When you say (paraphrased)
+ #but (3) relies on a shift in meaning from (2). when you say (paraphrased)
  #in (2) that this is not "evidence for [benefactor]", for example, what you
  #mean is that it's no *more* evidence for [benefactor] than it is for [bug].
  
- Yes, that's what I mean.
+ yes, that's what i mean.
  
- #In (3), however, you've shifted the meaning of "evidence for [benefactor]"
+ #in (3), however, you've shifted the meaning of "evidence for [benefactor]"
  #so that it now means `absolute' "evidence for [benefactor]" rather than
  #`relative' "evidence for [benefactor]" w.r.t. [bug].
  
- Not really, I meant evidence that would tend to one over the other.  I
- think this is just a communications problem.   What I am trying to say,
- in my clumsy way, is that while I buy your theory as far as it relates
- to theism making predictions (prayer, your 'Rapture' example), I don't
- buy your use of Occam's razor in all cases where A=0.
+ not really, i meant evidence that would tend to one over the other.  i
+ think this is just a communications problem.   what i am trying to say,
+ in my clumsy way, is that while i buy your theory as far as it relates
+ to theism making predictions (prayer, your 'rapture' example), i don't
+ buy your use of occam's razor in all cases where a=0.
  
- In my example, one couldn't dismiss
+ in my example, one couldn't dismiss
  [benefactor] or [bug] on the grounds of simplicity - one of these is necessary
- to explain the dosh.  I brought up the 'one-by-one dismissal' process to
- show that it would be wrong to do so.  From what you're saying in this
+ to explain the dosh.  i brought up the 'one-by-one dismissal' process to
+ show that it would be wrong to do so.  from what you're saying in this
  post, it seems you agree, and we're talking at cross-purposes.
  
  #(3) is still in contradiction to (1).
  #
- #Some sums may help. With B = benefactor, b = bug, d = dosh arrives in account:
+ #some sums may help. with b = benefactor, b = bug, d = dosh arrives in account:
  #
- #  (1) implies  P(B+b | d) = 1
+ #  (1) implies  p(b+b | d) = 1
  #
- #Assuming that P(Bb | d) = 0, so it's either the benefactor *or* a bug
+ #assuming that p(bb | d) = 0, so it's either the benefactor *or* a bug
  #which is responsible if the bucks arrive, but not both, then
  #
- #   P(B+b | d)   =   P(B | d) + P(b | d)
+ #   p(b+b | d)   =   p(b | d) + p(b | d)
  #
  #so
  #
- #   P(B | d) + P(b | d)  =  1
+ #   p(b | d) + p(b | d)  =  1
  #
  #but (3) implies that
  #
- #   P(B | d)  =  0  and  P(b | d)  =  0.
+ #   p(b | d)  =  0  and  p(b | d)  =  0.
  
- No, this isn't what I meant.  P(B | d) = 0.5 and P(b | d) = 0.5, with
+ no, this isn't what i meant.  p(b | d) = 0.5 and p(b | d) = 0.5, with
  necessarily no new observation (we've already seen the dosh) to change
- those estimates.  I was trying to say (again, in my clumsy way) that
- it would be _wrong_ to assign 0 probability to either of these.  And that's
- precisely what use of the Razor does in the case of gods - gods are
+ those estimates.  i was trying to say (again, in my clumsy way) that
+ it would be _wrong_ to assign 0 probability to either of these.  and that's
+ precisely what use of the razor does in the case of gods - gods are
  one class of hypothesis (there are many others) belonging to a set of
  hypotheses _one_of_which_ is necessary to explain something which otherwise 
- would _not_ be satisfactorily explained.  It can be thrown out or
+ would _not_ be satisfactorily explained.  it can be thrown out or
  retained on grounds of non-rational preference, not of science or statistics.   
- Alternatively, one could chuck out or retain the lot, on the grounds
+ alternatively, one could chuck out or retain the lot, on the grounds
  that the answer can't be known, or that the notional probability estimates
  are effectively useless, being equal (agnosticism/weak atheism).
  
- #> As they do when the set M is filled by "the universe is caused by x",
+ #> as they do when the set m is filled by "the universe is caused by x",
  #> where x is gods, pink unicorns, nothing, etc.  - and no observation
  #> tends to one conclusion over the other.
  #
- #Exactly the point I was making, I think. So we don't "throw out" any of
+ #exactly the point i was making, i think. so we don't "throw out" any of
  #these, contrary to your assertion above that we do.
  
- Some people do, Simon, and they think they are doing excellent science.
- My sole point was that they aren't.
+ some people do, simon, and they think they are doing excellent science.
+ my sole point was that they aren't.
  
- #>> Only observations which directly contradict the hypothesis H[i] (i.e. x
- #>> where P(x | H[i]) = 0) can cause P(H[i]) to go to zero after a finite
- #>> number of observations. Only in this case do we get to throw any of the
+ #>> only observations which directly contradict the hypothesis h[i] (i.e. x
+ #>> where p(x | h[i]) = 0) can cause p(h[i]) to go to zero after a finite
+ #>> number of observations. only in this case do we get to throw any of the
  #>> hypotheses out.
  #
- #> Exactly my point, though I may have been unclear.
+ #> exactly my point, though i may have been unclear.
  #
- #You said the diametric opposite, which I guess is the source of my confusion.
+ #you said the diametric opposite, which i guess is the source of my confusion.
  
- I was merely trying to illustrate the incorrectness of doing so.
+ i was merely trying to illustrate the incorrectness of doing so.
  
- #> What I'm trying to say is that while you are correct to say that absence of
+ #> what i'm trying to say is that while you are correct to say that absence of
  #> evidence can sometimes be evidence of absence, this does not hold true for
  #> all, or perhaps any, versions of theism - and it isn't true that those for
  #> which it does not hold can be discarded using the razor.
  #
- #On the contrary, those for which it does not hold are *exactly* those which
- #can be discarded using the Razor. See my post on the other branch of this
+ #on the contrary, those for which it does not hold are *exactly* those which
+ #can be discarded using the razor. see my post on the other branch of this
  #thread.
  
- Then you seem to be guilty of the contradiction you accuse me of.  If
- the razor holds for gods, then it holds for all like hypotheses.  Which
- means that you're assigning P(x | H[i]) =0 for all i, though we've already
- established that it's not correct to do so when SUM(P(x|H[i]))=1 over
+ then you seem to be guilty of the contradiction you accuse me of.  if
+ the razor holds for gods, then it holds for all like hypotheses.  which
+ means that you're assigning p(x | h[i]) =0 for all i, though we've already
+ established that it's not correct to do so when sum(p(x|h[i]))=1 over
  all i.
  
- #> Simply put, anyone who claims to have a viable proof of the existence or
+ #> simply put, anyone who claims to have a viable proof of the existence or
  #> non-existence of gods, whether inductive or no, is at best mistaken, and
  #> at worst barking mad.
  #
- #Luckily I make no such claim, and have specifically said as much on numerous
- #occasions. You wouldn't be constructing a strawman here, would you Frank?
- #Although that doesn't, of course, rule out my being barking mad in any case
- #(I could be barking mad in my spare time, with apologies to Cleese et al).
+ #luckily i make no such claim, and have specifically said as much on numerous
+ #occasions. you wouldn't be constructing a strawman here, would you frank?
+ #although that doesn't, of course, rule out my being barking mad in any case
+ #(i could be barking mad in my spare time, with apologies to cleese et al).
  #
- #But I think you miss the point once again. When I say that something is
+ #but i think you miss the point once again. when i say that something is
  #"evidence against" an hypothesis, that doesn't imply that observation of
  #the said something necessarily *falsifies* the hypothesis, reducing the
- #estimate of P(H | data) to zero. If it *reduces* this quantity, it's still
- #evidence against H.
+ #estimate of p(h | data) to zero. if it *reduces* this quantity, it's still
+ #evidence against h.
  
- No, I got that.  I'm talking about the case when A=0.  You're clearly
- correct when A!=0.   And I'm not constructing a strawman (though it's
- certainly possible that I've misunderstood what you're saying).  However,
- by any standards, a system that says when A=0, gods are highly unlikely,
- and when A!=0 gods can be dismissed using the Razor, is a system purporting
+ no, i got that.  i'm talking about the case when a=0.  you're clearly
+ correct when a!=0.   and i'm not constructing a strawman (though it's
+ certainly possible that i've misunderstood what you're saying).  however,
+ by any standards, a system that says when a=0, gods are highly unlikely,
+ and when a!=0 gods can be dismissed using the razor, is a system purporting
  to be an inductive proof that gods either don't exist, or are unnecessary
- to explain any or all phenomena.  In my experience, systems such as this
+ to explain any or all phenomena.  in my experience, systems such as this
  (including those which purport to prove that gods exist) always contain
- a fallacy upon close examination.  If that's not what you're saying, then
+ a fallacy upon close examination.  if that's not what you're saying, then
  please put me straight.
  -- 
- Frank O'Dwyer                                  'I'm not hatching That'
- odwyer@sse.ie                                  from "Hens",  by Evelyn Conlon
+ frank o'dwyer                                  'i'm not hatching that'
+ odwyer@sse.ie                                  from "hens",  by evelyn conlon
  

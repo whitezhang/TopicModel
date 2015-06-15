@@ -1,12 +1,12 @@
 
  
  
- "Numerical Recipes in C"..Fortran..Pascal  has a nice section on
- encryption and decryption based on the DES algorithm.  There is
- also source code provided (I think some versions of this book are 
+ "numerical recipes in c"..fortran..pascal  has a nice section on
+ encryption and decryption based on the des algorithm.  there is
+ also source code provided (i think some versions of this book are 
  distributed with the source code on disk; the source code can
  also be ordered from the publisher).
  
- --Victor Iseli
+ --victor iseli
  victori@xetron.com
  

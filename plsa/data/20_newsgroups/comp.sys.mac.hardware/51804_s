@@ -1,47 +1,47 @@
 
- I have tried almost everything under the sun to get a null modem connection
- between a Mac Duo 210 and a PC. I have used MacKermit and VersaTerm on
- the Mac side. I have used Procomm, Kermit, and Softerm (on OS/2) on
- the PC (or PS) side. I have used non-Hardware handshaking and hardware
- ahdshaking cables. And know MY hands are shaking from the effort. Nothing
- has allowed file transfers from the Mac to the PS.
+ i have tried almost everything under the sun to get a null modem connection
+ between a mac duo 210 and a pc. i have used mackermit and versaterm on
+ the mac side. i have used procomm, kermit, and softerm (on os/2) on
+ the pc (or ps) side. i have used non-hardware handshaking and hardware
+ ahdshaking cables. and know my hands are shaking from the effort. nothing
+ has allowed file transfers from the mac to the ps.
  
- In general, I can type back and forth with no trouble, but only if both sides
- are set to speeds OVER 9600 baud. I cannot send files from the Mac to the
- PS at all, and file transfers from the Duo to the PS are not possible.
- When I do a straight ascii send, I can send from the PS to the Duo flawlessly.
- I can send Binhex files this way quite fast, and I know that the
+ in general, i can type back and forth with no trouble, but only if both sides
+ are set to speeds over 9600 baud. i cannot send files from the mac to the
+ ps at all, and file transfers from the duo to the ps are not possible.
+ when i do a straight ascii send, i can send from the ps to the duo flawlessly.
+ i can send binhex files this way quite fast, and i know that the
  transmission is error free.
- But straight ascii sent from the Mac to the PS is full of errors.
- Unless, of course, I do text pacing so slow that it is like human
+ but straight ascii sent from the mac to the ps is full of errors.
+ unless, of course, i do text pacing so slow that it is like human
  typing. (well, like 2-3 times faster than human typing).
  
- I would like to hear from ANYONE who has been able to transfer files
- from a Duo 210 to a PS via modem or null modem. If you can do it, please
- tell me your EXACT combination of hardware and software. Obviously, I am
- talking of a true serial port modem, not the express modem. Maybe some
- kind soul with access to a modem and a Duo 210 can check this out for me.
+ i would like to hear from anyone who has been able to transfer files
+ from a duo 210 to a ps via modem or null modem. if you can do it, please
+ tell me your exact combination of hardware and software. obviously, i am
+ talking of a true serial port modem, not the express modem. maybe some
+ kind soul with access to a modem and a duo 210 can check this out for me.
  
- Right now, I am of the opinion that it won't work at high speeds because
- of the power interrupts on the Duo, and it won't work at low speeds
- because of some crazy reason I don't understand.
+ right now, i am of the opinion that it won't work at high speeds because
+ of the power interrupts on the duo, and it won't work at low speeds
+ because of some crazy reason i don't understand.
  
- Could I hear from someone attesting that they can really pump information
- out the serial port of a Duo 210 fast? Like via a modem or via a
+ could i hear from someone attesting that they can really pump information
+ out the serial port of a duo 210 fast? like via a modem or via a
  sys-ex dump?
  
- Could anyone with a Duo help me out?? I am going absolutely INSANE.
- I wanna know if the problem is MY Duo, or all Duo 210s, or all Duos,
+ could anyone with a duo help me out?? i am going absolutely insane.
+ i wanna know if the problem is my duo, or all duo 210s, or all duos,
  or just me.
  
- Yes, I have checked the cable 1,000,000 times. And not only can I type
- back and forth, but Zterm alerts the users if s/he uses hardware handshaking
- and CTS is down. So I know that hardware handshaking is working. And also,
- According to Zterm port stats, the buffer never overflows.
+ yes, i have checked the cable 1,000,000 times. and not only can i type
+ back and forth, but zterm alerts the users if s/he uses hardware handshaking
+ and cts is down. so i know that hardware handshaking is working. and also,
+ according to zterm port stats, the buffer never overflows.
  
- Please help me figure out what's going on...
+ please help me figure out what's going on...
  
- Scott Petrack
- Petrack@haifasc3.vnet.ibm.com
+ scott petrack
+ petrack@haifasc3.vnet.ibm.com
  
  

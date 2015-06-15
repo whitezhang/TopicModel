@@ -1,26 +1,26 @@
 
-  Hello,
+  hello,
  
- Hello,
+ hello,
  
-      I was wondering if anyone knew of a PC or MAC
+      i was wondering if anyone knew of a pc or mac
  implementation of the marching cubes algorithm that will output
- the individual faces.  If there is no such application, might there
- be some C source code that I could modify to implement the
+ the individual faces.  if there is no such application, might there
+ be some c source code that i could modify to implement the
  algorithm and get to the individual faces.
  
- Thanks in advance
- Sincerly
+ thanks in advance
+ sincerly
  
- Tracy
+ tracy
  
  +------------------------------------+-------------------------------+
- | Tracy J. Abildskov                 | Phone:  (801) 378-3407        |
- |                                    | FAX:    (801) 378-7862        |
- | Address : Brigham Young University |                               |
- |           Department of Psychology | E-mail: abild@bert.cs.byu.edu |
- |           Provo, UT 84602          |                               |
- |           USA                      |                               |
+ | tracy j. abildskov                 | phone:  (801) 378-3407        |
+ |                                    | fax:    (801) 378-7862        |
+ | address : brigham young university |                               |
+ |           department of psychology | e-mail: abild@bert.cs.byu.edu |
+ |           provo, ut 84602          |                               |
+ |           usa                      |                               |
  +------------------------------------+-------------------------------+
  
  

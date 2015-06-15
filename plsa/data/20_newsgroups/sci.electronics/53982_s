@@ -1,17 +1,17 @@
 
- In article <1993Apr17.204351.2256@aber.ac.uk> cjp1@aber.ac.uk (Christopher John Powell) writes:
+ in article <1993apr17.204351.2256@aber.ac.uk> cjp1@aber.ac.uk (christopher john powell) writes:
  
  [deletions]
  
- >It appears to use two balanced-line connections, but what each connection
- >corresponds to I know not. One connection is a 30-way IDC, the other a
- >60-way IDC.
+ >it appears to use two balanced-line connections, but what each connection
+ >corresponds to i know not. one connection is a 30-way idc, the other a
+ >60-way idc.
  
- Sounds like it is an SMD interface to me, not being at work now
- to actually count pins.  there are two varients, SMD  and
- SMDC (I think), only minor differences between them.  Widely used
- prior to the advent of SCSI for large drives (or all drives) on minis
+ sounds like it is an smd interface to me, not being at work now
+ to actually count pins.  there are two varients, smd  and
+ smdc (i think), only minor differences between them.  widely used
+ prior to the advent of scsi for large drives (or all drives) on minis
  (and mainframes(?) no experience on those).
  
- Richard Dell
+ richard dell
  

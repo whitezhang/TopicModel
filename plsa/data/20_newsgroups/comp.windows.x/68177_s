@@ -1,32 +1,32 @@
 
- In article <1993May13.212121.29048@colorado.edu>, hoswell@alumni.cs.colorado.edu (Mike Hoswell) writes:
+ in article <1993may13.212121.29048@colorado.edu>, hoswell@alumni.cs.colorado.edu (mike hoswell) writes:
  |> 
- |> I'm quite familiar with a variety of window title *setting* methods.
+ |> i'm quite familiar with a variety of window title *setting* methods.
  |> 
- |> My question is...  Is there any way (via Resources, etc) to stop an
- |> application's ability to re-name it's own Name / IconName properties?
+ |> my question is...  is there any way (via resources, etc) to stop an
+ |> application's ability to re-name it's own name / iconname properties?
  |> 
  
- Sorry, that's a feature.  The ICCCM specifies how the app should set its title, so the wm is obliged to do it.  If this bothers you, complain to the app writer.
+ sorry, that's a feature.  the icccm specifies how the app should set its title, so the wm is obliged to do it.  if this bothers you, complain to the app writer.
  
  |> ...who cares if it's not 'nice' to the application -
  |> 
- |> 	I WANT CONTROL! ;-)
+ |> 	i want control! ;-)
  |> 
  
- Write your own wm that doesn't support the ICCCM.  Or write an program that you give a window ID and a title.  The your program can set the windows title for the app and then if the app changes it, your program switches it back again.
+ write your own wm that doesn't support the icccm.  or write an program that you give a window id and a title.  the your program can set the windows title for the app and then if the app changes it, your program switches it back again.
  
- |> -Mike
+ |> -mike
  |> 
  |> -- 
- |> Mike Hoswell - hoswell@ncar.ucar.edu |   Never Stop! / toasted - Bagels    |
- |> Climate and Global Dynamics          | Disclaimer: I represent myself only |
- |> NCAR, PO Box 3000, Boulder CO, 80307 +----------------+--------------------+
- |>   ...So I've got that going for me --- Which is nice. |   Think Clearly.   |
+ |> mike hoswell - hoswell@ncar.ucar.edu |   never stop! / toasted - bagels    |
+ |> climate and global dynamics          | disclaimer: i represent myself only |
+ |> ncar, po box 3000, boulder co, 80307 +----------------+--------------------+
+ |>   ...so i've got that going for me --- which is nice. |   think clearly.   |
  
  -- 
  _______________________________________________________________________________
- Carl Schmidtmann                                  Faultline Software Group, Inc
- (408) 736-9655                                    867 Karo Court  
- cws@Faultline.Com  ...!{apple|decwrl}!gigo!cws    Sunnyvale, CA 94086-8146
+ carl schmidtmann                                  faultline software group, inc
+ (408) 736-9655                                    867 karo court  
+ cws@faultline.com  ...!{apple|decwrl}!gigo!cws    sunnyvale, ca 94086-8146
  

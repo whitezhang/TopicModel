@@ -1,12 +1,12 @@
 
  
  
- I'm trying to make a 24 bit window using XCreateWindow on a 8 bit
- PseudoColor server. As far as I know this should be possible if you
- server supports a TrueColor or DirectColor visual. I'm using a
- Sun IPC with a RasterFLEX card.
+ i'm trying to make a 24 bit window using xcreatewindow on a 8 bit
+ pseudocolor server. as far as i know this should be possible if you
+ server supports a truecolor or directcolor visual. i'm using a
+ sun ipc with a rasterflex card.
  
- Running xdpyinfo gives:
+ running xdpyinfo gives:
  ...
  screen #0:
    dimensions:    1152x900 pixels (352x275 millimeters)
@@ -22,53 +22,53 @@
  ...
    visual:
      visual id:    0x80079
-     class:    PseudoColor
+     class:    pseudocolor
      depth:    8 planes
      size of colormap:    256 entries
      red, green, blue masks:    0x0, 0x0, 0x0
      significant bits in color specification:    8 bits
    visual:
      visual id:    0x8007a
-     class:    TrueColor
+     class:    truecolor
      depth:    24 planes
      size of colormap:    256 entries
      red, green, blue masks:    0xff, 0xff00, 0xff0000
      significant bits in color specification:    8 bits
    visual:
      visual id:    0x8007b
-     class:    DirectColor
+     class:    directcolor
      depth:    24 planes
      size of colormap:    256 entries
      red, green, blue masks:    0xff, 0xff00, 0xff0000
      significant bits in color specification:    8 bits
  
  
- My code looks like this:
+ my code looks like this:
  
- if ((Xio.DspPtr = XOpenDisplay(NULL)) == NULL)
-     logexit(1, "Cannot connect to X server %s", XDisplayName(NULL));
+ if ((xio.dspptr = xopendisplay(null)) == null)
+     logexit(1, "cannot connect to x server %s", xdisplayname(null));
  
- Xio.Scr = DefaultScreen(Xio.DspPtr);   /* use this screen                 */
+ xio.scr = defaultscreen(xio.dspptr);   /* use this screen                 */
  
- if (XMatchVisualInfo(Xio.DspPtr, Xio.Scr, 24,
- 		     DirectColor, &Xtern.ColorInfo))
+ if (xmatchvisualinfo(xio.dspptr, xio.scr, 24,
+ 		     directcolor, &xtern.colorinfo))
  {
-    memset(&SetWinAttrib, 0, sizeof(XSetWindowAttributes));
-    Xio.GSwin = XCreateWindow(Xio.DspPtr, RootWindow(Xio.DspPtr, Xio.Scr),
- 			     x, y, w, h, 0, 24, InputOutput,
- 			     Xtern.ColorInfo, 0, &SetWinAttrib);
+    memset(&setwinattrib, 0, sizeof(xsetwindowattributes));
+    xio.gswin = xcreatewindow(xio.dspptr, rootwindow(xio.dspptr, xio.scr),
+ 			     x, y, w, h, 0, 24, inputoutput,
+ 			     xtern.colorinfo, 0, &setwinattrib);
  }
  
  
- This results in a BadMatch error. Can anyone please tell me why ?
+ this results in a badmatch error. can anyone please tell me why ?
  
  
  ------------------------------------------------------------------------------
- | Henrik Winther Nielsen                                     CCCCCCC  II  
- | Basic Development                                         CC  CCCC      
- | CCI Europe                   Mail:  hwn@cci.dk            CC CC     II  
- | Oester Parkvej 9             Phone: 86295588 (361)        CC  CCCC  II  
- | DK-8270 Hoejbjerg                                          CCCCCCC  II  
- | Denmark                                                    e u r o p e       
+ | henrik winther nielsen                                     ccccccc  ii  
+ | basic development                                         cc  cccc      
+ | cci europe                   mail:  hwn@cci.dk            cc cc     ii  
+ | oester parkvej 9             phone: 86295588 (361)        cc  cccc  ii  
+ | dk-8270 hoejbjerg                                          ccccccc  ii  
+ | denmark                                                    e u r o p e       
   ------------------------------------------------------------------------------
  

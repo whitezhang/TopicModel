@@ -1,17 +1,17 @@
 
- Hello,
+ hello,
  a friend a mine has a commodore 386sx and we've put in that machine
- a second harddisk, he now has 100+200 MB. But the problem is that
- the 200MB harddisk isn't supported in the bios. Alas there's no user type
- 47 in the setup. At the moment we use it as a 193MB type but there are
- getting bad blocks on the harddisk :-<. Question: who knows a solution to this?
- I've seen a small program for this once in the BYTE, but I haven't been able
- to find this. Would speedstor or diskmanager work for this, I used these
- programs quite a lot in the XT-days, but I don't have these anymore, Seagate
+ a second harddisk, he now has 100+200 mb. but the problem is that
+ the 200mb harddisk isn't supported in the bios. alas there's no user type
+ 47 in the setup. at the moment we use it as a 193mb type but there are
+ getting bad blocks on the harddisk :-<. question: who knows a solution to this?
+ i've seen a small program for this once in the byte, but i haven't been able
+ to find this. would speedstor or diskmanager work for this, i used these
+ programs quite a lot in the xt-days, but i don't have these anymore, seagate
  used to ship diskmanager with each drive they sold.
   
- Help will be greatly appreciated.
+ help will be greatly appreciated.
   
- Ronald Schalk
+ ronald schalk
  r.schalk@uci.kun.nl
  

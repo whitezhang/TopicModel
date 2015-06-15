@@ -1,53 +1,53 @@
 
- In article <1993Apr22.092830.2190@infodev.cam.ac.uk>, dcr@mail.ast.cam.ac.uk (Derek C. Richardson) writes:
- > I just implemented this and it seems I can just about achieve the display
- > rates (20 400x400x8 frames / sec on IPX) that I get with Sunview, though
- > it's a bit "choppy" at times. Also, loading the data, making an XImage,
- > then XPut'ing it into a pixmap is a bit cumbersome, so the animation is
- > slower to load than with Sunview. Is there a better way to load in the
+ in article <1993apr22.092830.2190@infodev.cam.ac.uk>, dcr@mail.ast.cam.ac.uk (derek c. richardson) writes:
+ > i just implemented this and it seems i can just about achieve the display
+ > rates (20 400x400x8 frames / sec on ipx) that i get with sunview, though
+ > it's a bit "choppy" at times. also, loading the data, making an ximage,
+ > then xput'ing it into a pixmap is a bit cumbersome, so the animation is
+ > slower to load than with sunview. is there a better way to load in the
  > data?
  > 
- > rgooch@rp.CSIRO.AU (Richard Gooch) writes:
- > >  If you need speed, and your client can run on the same host as the X server,
- > >  you should use the shared memory extension to the sample X server (MIT-SHM).
- > >  xdpyinfo  will tell you if your server has this extension. This is certainly
- > >  available with the sample MIT X server running under SunOS.
- > >  A word of warning: make sure your kernel is configured to support shared
- > >  memory. And another word of warning: OpenWindows is slower than the MIT
+ > rgooch@rp.csiro.au (richard gooch) writes:
+ > >  if you need speed, and your client can run on the same host as the x server,
+ > >  you should use the shared memory extension to the sample x server (mit-shm).
+ > >  xdpyinfo  will tell you if your server has this extension. this is certainly
+ > >  available with the sample mit x server running under sunos.
+ > >  a word of warning: make sure your kernel is configured to support shared
+ > >  memory. and another word of warning: openwindows is slower than the mit
  > >  server.
- > >  I have written an imaging tool (using XView for the GUI, by the way) which
- > >  yields over 10 frames per second for 512*512*8 bit images, running on a Sparc
- > >  IPC (half the cpu grunt of an IPX). This has proved quite sufficient for
+ > >  i have written an imaging tool (using xview for the gui, by the way) which
+ > >  yields over 10 frames per second for 512*512*8 bit images, running on a sparc
+ > >  ipc (half the cpu grunt of an ipx). this has proved quite sufficient for
  > >  animations.
  > >
- > >				Regards,
+ > >				regards,
  > >
- > >					Richard Gooch....
+ > >					richard gooch....
  > 
- > Shared memory PutImage (also mentioned by nkissebe@delphi.beckman.uiuc.edu,
- > Nick Kisseberth) looks interesting, but I need someone to point me to some
- > documentation. Is this method likely to give better results than server-
- > resident pixmaps? I'd also be interested in looking at the XView code
+ > shared memory putimage (also mentioned by nkissebe@delphi.beckman.uiuc.edu,
+ > nick kisseberth) looks interesting, but i need someone to point me to some
+ > documentation. is this method likely to give better results than server-
+ > resident pixmaps? i'd also be interested in looking at the xview code
  > mentioned above...
  > 
- > Thanks for the help so far. If I get something decent put together, I'll
- > definitely post it to the Net.
+ > thanks for the help so far. if i get something decent put together, i'll
+ > definitely post it to the net.
  > 
  
-   The MIT tapes come with documentation written by Keith Packard on the Shared
-   Memory Extension to X. Look in:  mit/doc/extensions/mit-shm.ms
-   I found this invaluble. Unfortunately, there is a bit of work to set up the
-   shared memory segments, making an XImage from it, etc. Also, there is an
+   the mit tapes come with documentation written by keith packard on the shared
+   memory extension to x. look in:  mit/doc/extensions/mit-shm.ms
+   i found this invaluble. unfortunately, there is a bit of work to set up the
+   shared memory segments, making an ximage from it, etc. also, there is an
    extension query to determine if the server supports it, but you still need to
    test if the server is running on the same host and if shared memory is enabled
-   in the kernel. I have written layers of convience routines which make all this
+   in the kernel. i have written layers of convience routines which make all this
    transparent.
-   As for the XView code, well, I doubt that would be considered interesting.
-   The interesting stuff is done in a C object library. People interested in this
-   code can Email me.
+   as for the xview code, well, i doubt that would be considered interesting.
+   the interesting stuff is done in a c object library. people interested in this
+   code can email me.
  
- 				Regards,
+ 				regards,
  
- 					Richard Gooch,
+ 					richard gooch,
  					rgooch@atnf.csiro.au
  

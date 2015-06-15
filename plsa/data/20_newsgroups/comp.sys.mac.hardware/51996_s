@@ -1,31 +1,31 @@
 
- >Its not a difficult operation-- the cables and such are standard,
- >except for SCSI ID.  SCSI ID is usually three jumper pads-- labelled
- >A0-A2 on Quantums.
+ >its not a difficult operation-- the cables and such are standard,
+ >except for scsi id.  scsi id is usually three jumper pads-- labelled
+ >a0-a2 on quantums.
  
- I am trying to put a 40MB drive from my LC into a case.  It is a Conner
- CP3040A.  I can't figure out which jumpers are the SCSI ID jumpers.
- Is anyone familiar with this drive?
+ i am trying to put a 40mb drive from my lc into a case.  it is a conner
+ cp3040a.  i can't figure out which jumpers are the scsi id jumpers.
+ is anyone familiar with this drive?
  
- At the end of the drive (oposite the 50 pin pibbon connector), there
+ at the end of the drive (oposite the 50 pin pibbon connector), there
  are eleven pins which look like this:
  
  
          o o o o o   o   1
            o o o o   o   2
  
-          L5  CR12   C37
+          l5  cr12   c37
  
- where the "o" are pins, and the "L5 CR12 C37" represent some of the
+ where the "o" are pins, and the "l5 cr12 c37" represent some of the
  silk screen notation near these pins.
  
- Elsewhere on the board there are four jumper pads marked E1,E2,E3,E4
+ elsewhere on the board there are four jumper pads marked e1,e2,e3,e4
  on the silk screen.
  
- Does anyone know where the SCSI ID A0,A1,A2 pins are, and where the
- drive activity light LED should be plugged into?
+ does anyone know where the scsi id a0,a1,a2 pins are, and where the
+ drive activity light led should be plugged into?
  
  		-allan
  -- 
- Allan M. Schwartz              +1 408 492-0900                 ams@auspex.com
+ allan m. schwartz              +1 408 492-0900                 ams@auspex.com
  

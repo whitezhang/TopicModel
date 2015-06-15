@@ -1,28 +1,28 @@
 
- In article <C5nz60.99z@scraps.uucp>, Frank Holden KA3UWW writes:
+ in article <c5nz60.99z@scraps.uucp>, frank holden ka3uww writes:
  
- > >I'm looking for an IC that will convert RS232 voltage levels to TTL voltage 
- > >levels.  Something relatively inexpensive would be nice, too.  Anyone have
- > >a suggestion??  Thanks.
+ > >i'm looking for an ic that will convert rs232 voltage levels to ttl voltage 
+ > >levels.  something relatively inexpensive would be nice, too.  anyone have
+ > >a suggestion??  thanks.
  > 
- > Well it looks as if Digi-Key sells a chip with the number ICL232 that does what
- > you want.  They are selling it for about $3.50...
+ > well it looks as if digi-key sells a chip with the number icl232 that does what
+ > you want.  they are selling it for about $3.50...
  
- Are you sure that he needs a two way converter? If he wants only
- RS232->TTL I would suggest the MC1489, its very cheap (0.80 DM in
- Germany). This chip needs only +5V. The MC1488 TTL->RS232-Converter
- uses +12V and -12V.
+ are you sure that he needs a two way converter? if he wants only
+ rs232->ttl i would suggest the mc1489, its very cheap (0.80 dm in
+ germany). this chip needs only +5v. the mc1488 ttl->rs232-converter
+ uses +12v and -12v.
  
- BTW... The MAX232 and compatibles seem to be expensive in the USA...
- I paid 2.95 DM for a ITS80272 (made by Harris), its absolutely
- compatible with the MAX232 or the ICL232.
+ btw... the max232 and compatibles seem to be expensive in the usa...
+ i paid 2.95 dm for a its80272 (made by harris), its absolutely
+ compatible with the max232 or the icl232.
  
- Gerrit
+ gerrit
  
  -- 
-          Gerrit Heitsch  Moenchweg 16  7038 Holzgerlingen  Germany
-   Logical adresses: UUCP: gerrit@laosinh.stgt.sub.org FIDO: (2:2407/106.9)
- If we will ever be visited by Aliens, it will be very hard to explain, why a
+          gerrit heitsch  moenchweg 16  7038 holzgerlingen  germany
+   logical adresses: uucp: gerrit@laosinh.stgt.sub.org fido: (2:2407/106.9)
+ if we will ever be visited by aliens, it will be very hard to explain, why a
   lifeform, that is intelligent enough to build atomic weapons can be stupid
-    enough to do it. (taken from GEO special about space, page 88-91)
+    enough to do it. (taken from geo special about space, page 88-91)
  

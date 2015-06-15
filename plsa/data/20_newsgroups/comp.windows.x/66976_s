@@ -1,52 +1,52 @@
 
- The subject does not describe the problem I am having very well.  Please read
+ the subject does not describe the problem i am having very well.  please read
  on...
  
- I am trying to write a function which creates an XtAppContext and a Widget,
- displays the widget for a while, then destroys everything and returns.  The
+ i am trying to write a function which creates an xtappcontext and a widget,
+ displays the widget for a while, then destroys everything and returns.  the
  problem is that multiple calls to this function cause a variety of problems
- including (depending on which calls I make to get rid of things):
+ including (depending on which calls i make to get rid of things):
  
- - Core Dump
- - BadPixmap X Error
- - Widget not unmapped
+ - core dump
+ - badpixmap x error
+ - widget not unmapped
  
  
- Here is a simple (C++) program I wrote to show the problem:
+ here is a simple (c++) program i wrote to show the problem:
  
- #include <X11/Xlib.h>
- #include <Xm/Xm.h>
- #include <Xm/PushB.h>
+ #include <x11/xlib.h>
+ #include <xm/xm.h>
+ #include <xm/pushb.h>
  
  void bla()
  {
-         XtAppContext app;
-         Display *dis = XOpenDisplay("");
+         xtappcontext app;
+         display *dis = xopendisplay("");
          int junk = 0;
  
-         Widget top=XtAppInitialize (&app, "test", NULL, 0, &junk, NULL,
-                 NULL, NULL, 0);
+         widget top=xtappinitialize (&app, "test", null, 0, &junk, null,
+                 null, null, 0);
  
-         Widget box = XtVaCreateManagedWidget("blaaa", xmPushButtonWidgetClass,
+         widget box = xtvacreatemanagedwidget("blaaa", xmpushbuttonwidgetclass,
                          top,
-                         XmNheight, 50,
-                         XmNwidth, 50,
-                         NULL);
+                         xmnheight, 50,
+                         xmnwidth, 50,
+                         null);
  
-         XtRealizeWidget(top);
-         //Same as XtAppMainLoop but with only 10 XEvents
+         xtrealizewidget(top);
+         //same as xtappmainloop but with only 10 xevents
          for (int i=0;i<=10;i++)
          {
-                 XEvent event;
-                 XtAppNextEvent(app, &event);
-                 XtDispatchEvent(&event);
+                 xevent event;
+                 xtappnextevent(app, &event);
+                 xtdispatchevent(&event);
          }
  
- // WHAT SHOULD I PUT HERE???
-         XtUnrealizeWidget(top);
-         XtDestroyWidget(top);
-         XtDestroyApplicationContext(app);
-         XCloseDisplay(dis);
+ // what should i put here???
+         xtunrealizewidget(top);
+         xtdestroywidget(top);
+         xtdestroyapplicationcontext(app);
+         xclosedisplay(dis);
  // ???
  }
  
@@ -56,41 +56,41 @@
                  bla();
  }
  
- Note that I rewrote XtAppMainLoop so that at a given time (in this example,
- after 10 XEvents) the function will exit and return to the main program.
- With this example, I get the following error on about (this is NOT consistent)
+ note that i rewrote xtappmainloop so that at a given time (in this example,
+ after 10 xevents) the function will exit and return to the main program.
+ with this example, i get the following error on about (this is not consistent)
  the 5th call to bla():
  
- X Error of failed request:  BadPixmap (invalid Pixmap parameter)
-   Major opcode of failed request:  55 (X_CreateGC)
-   Resource id in failed request:  0xe0000d
-   Serial number of failed request:  71
-   Current serial number in output stream:  86
+ x error of failed request:  badpixmap (invalid pixmap parameter)
+   major opcode of failed request:  55 (x_creategc)
+   resource id in failed request:  0xe0000d
+   serial number of failed request:  71
+   current serial number in output stream:  86
  
- If I take out the XtUnrealizeWidget(top); line, it just dumps core on the
+ if i take out the xtunrealizewidget(top); line, it just dumps core on the
  seconds call.
  
- Furthermore, every time I call XtAppInitialize() (other than the 1st time), I
+ furthermore, every time i call xtappinitialize() (other than the 1st time), i
  get:
  
- Warning: Initializing Resource Lists twice
- Warning: Initializing Translation manager twice.
+ warning: initializing resource lists twice
+ warning: initializing translation manager twice.
  
  
- So finally, my question is this:
+ so finally, my question is this:
  
- What needs to be done in order to be able to call a function which creates
- an XtAppContext and widgets multiple times?
+ what needs to be done in order to be able to call a function which creates
+ an xtappcontext and widgets multiple times?
  
- Any help would be greatly appreciated.
+ any help would be greatly appreciated.
  
- PLEASE respond via email as I dont usually have time to read this group.
+ please respond via email as i dont usually have time to read this group.
  
- Thanks very much.
+ thanks very much.
  
  -davewood
  -- 
  -------------------------------------------------------------------------------
- David Rex Wood -- davewood@cs.colorado.edu -- University of Colorado at Boulder
+ david rex wood -- davewood@cs.colorado.edu -- university of colorado at boulder
  -------------------------------------------------------------------------------
  

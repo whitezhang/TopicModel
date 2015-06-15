@@ -1,31 +1,31 @@
 
- drg@biomath.mda.uth.tmc.edu (David Gutierrez) writes:
+ drg@biomath.mda.uth.tmc.edu (david gutierrez) writes:
  
- > In article <L3sB3B4w165w@tfsquad.mn.org> douce@tfsquad.mn.org (Andrew
- > Geweke) writes:
- > >        I am currently managing, among many other labs, a lab with three 
- > >LC IIs, a Mac Plus with 45 MB external HD, and a LaserWriter II NTX. My 
- > >problem? The LC IIs seem to intermittently slow to a snail's pace.
+ > in article <l3sb3b4w165w@tfsquad.mn.org> douce@tfsquad.mn.org (andrew
+ > geweke) writes:
+ > >        i am currently managing, among many other labs, a lab with three 
+ > >lc iis, a mac plus with 45 mb external hd, and a laserwriter ii ntx. my 
+ > >problem? the lc iis seem to intermittently slow to a snail's pace.
  > 
  > 
- > This happens intermittently to Macs in our department, ranging from IIsi's
- > to a Quadra 950.
+ > this happens intermittently to macs in our department, ranging from iisi's
+ > to a quadra 950.
  > 
- > I can end the slowdown immediately by unplugging the Ethernet cable from
- > the Mac. It seems that something on the network puts out these packet
- > storms every few days. These storms have the effect of making our Macs
+ > i can end the slowdown immediately by unplugging the ethernet cable from
+ > the mac. it seems that something on the network puts out these packet
+ > storms every few days. these storms have the effect of making our macs
  > slow down to a crawl.
  
-         Thank you very much. These computers behave exactly like what 
- you're describing. Now, my question. I am running on the lowest of all 
- budgets, public education. How can I analyze this? All I need is some 
- sort of packet counter. Do any exist, and where are they?
-         Thanks again,
+         thank you very much. these computers behave exactly like what 
+ you're describing. now, my question. i am running on the lowest of all 
+ budgets, public education. how can i analyze this? all i need is some 
+ sort of packet counter. do any exist, and where are they?
+         thanks again,
  
-                                 -- Andrew Geweke
+                                 -- andrew geweke
  
  ---
- douce@tfsquad.mn.org (Andrew Geweke)
- The Firing Squad BBS, public access Usenet mail and news.  +1 612 291 2632
- Saint Paul, Minnesota
+ douce@tfsquad.mn.org (andrew geweke)
+ the firing squad bbs, public access usenet mail and news.  +1 612 291 2632
+ saint paul, minnesota
  

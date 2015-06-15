@@ -1,18 +1,18 @@
 
- In article <1993Apr26.063532.10120@eff.org> mnemonic@eff.org (Mike Godwin)  
+ in article <1993apr26.063532.10120@eff.org> mnemonic@eff.org (mike godwin)  
  writes:
- > In article <C614BJ.BK6@agora.rain.com> jhart@agora.rain.com (Jim Hart)  
+ > in article <c614bj.bk6@agora.rain.com> jhart@agora.rain.com (jim hart)  
  writes:
- > >"The security of the system should depend only on the secrecy of
- > >the keys and not on the secrecy of the algorithms" -- Dorothy Denning
+ > >"the security of the system should depend only on the secrecy of
+ > >the keys and not on the secrecy of the algorithms" -- dorothy denning
  > 
- > Cite source, please.
+ > cite source, please.
  
- Dorothy Denning, _Cryptography and Data Security_, 1982, Addison Wesley.
- Page 8, under the heading "Cryptosystems must satisfy three general
- requirements.  The other two are efficiency and ease of use.
+ dorothy denning, _cryptography and data security_, 1982, addison wesley.
+ page 8, under the heading "cryptosystems must satisfy three general
+ requirements.  the other two are efficiency and ease of use.
  
- --Michael L. Mauldin
-   Carnegie Mellon University
+ --michael l. mauldin
+   carnegie mellon university
  
  

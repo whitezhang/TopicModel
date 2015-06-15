@@ -1,27 +1,27 @@
 
- db@sunbim.be (Danny Backx) writes:
+ db@sunbim.be (danny backx) writes:
  
- >Yes, that is a bug in the X11r5 port of xterm. You sometimes get this when
- >you start from XDM. I have reported this to Casper but don't know whether
+ >yes, that is a bug in the x11r5 port of xterm. you sometimes get this when
+ >you start from xdm. i have reported this to casper but don't know whether
  >it made it into his set of patches yet.
  
- >Basically in mit/clients/xterm/main.c, there is a test at line 1598 which
- >checks errno after attempting to open /dev/tty. Add the "errno == EINVAL"
+ >basically in mit/clients/xterm/main.c, there is a test at line 1598 which
+ >checks errno after attempting to open /dev/tty. add the "errno == einval"
  >case to it and you should be fine.
  
- It's actually a bug in the Solaris 2.1 kernel. We could add a workaround to
- xterm. open should never return EINVAL, but it does :-(
+ it's actually a bug in the solaris 2.1 kernel. we could add a workaround to
+ xterm. open should never return einval, but it does :-(
  
- I didn't have time to update the R5.SunOS5 patch lately, but non
+ i didn't have time to update the r5.sunos5 patch lately, but non
  of the existing problems seem to warrant a new set of patches.
  
- >Since .xsession is a Bourne shell script anyway, you might as well add a line
- >	. /etc/TIMEZONE
+ >since .xsession is a bourne shell script anyway, you might as well add a line
+ >	. /etc/timezone
  >as it is done in /etc/profile.
  
- XDM coulda also keep the XDM environment variable. It should have inherited
+ xdm coulda also keep the xdm environment variable. it should have inherited
  it from the environment.
  
  
- Casper
+ casper
  

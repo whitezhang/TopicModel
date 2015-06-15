@@ -1,34 +1,34 @@
 
- Not being an Xt programmer by any stretch of the imagination, this is
+ not being an xt programmer by any stretch of the imagination, this is
  driving me crazy and it's probably really simple to do.
  
- I need to make a composite widget that does nothing at all but is
+ i need to make a composite widget that does nothing at all but is
  merely a placeholder in a widget instance heirarchy -- allowing me an
  additional resource name level.
  
- To illustrate I have an application with the following widget
+ to illustrate i have an application with the following widget
  heirarchy:
  
- 	    Shell Widget
+ 	    shell widget
  	         |
- 	Application Widghet
+ 	application widghet
  
- I want the following:
+ i want the following:
  
- 	    Shell Widget
+ 	    shell widget
  	         |
- 	Intermediate Widget
+ 	intermediate widget
  	         |
- 	 Application Widget
+ 	 application widget
  
  where the intermediate widget has a name but gets all its other
  properties (and propagates down new values) from the shell widget.
  
- I assume there's a simple way to do this but I can't find an example
- and the documentation I have is rather vague about implementing
+ i assume there's a simple way to do this but i can't find an example
+ and the documentation i have is rather vague about implementing
  composite widgets.
  
- Please respond via email.  Any help will be very much appreciated.
+ please respond via email.  any help will be very much appreciated.
  
  jim frost
  jimf@centerline.com

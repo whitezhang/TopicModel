@@ -1,22 +1,22 @@
 
- gary@concave.cs.wits.ac.za (Gary Taylor) writes:
+ gary@concave.cs.wits.ac.za (gary taylor) writes:
  
- >Hi, We are trying to develop a image reconstruction simulation for the skull.  The problem we are having is that we cannot obtain 3D data for the skull.  We can just video a rotating skull, but that will only give us 2 dimensions.
+ >hi, we are trying to develop a image reconstruction simulation for the skull.  the problem we are having is that we cannot obtain 3d data for the skull.  we can just video a rotating skull, but that will only give us 2 dimensions.
  
- >Anyone out there got any suggestions?
+ >anyone out there got any suggestions?
  
- >Please help
+ >please help
  
- >Thanx
+ >thanx
  
- >Gary
- >University of the Witwatersrand
- >Johannesburg
+ >gary
+ >university of the witwatersrand
+ >johannesburg
  
- You could paint the skull mat white, then do some complicated
+ you could paint the skull mat white, then do some complicated
  shading analysis on it. 
  
- Shopwood
+ shopwood
  -------------
- University of Technology, Sydney
+ university of technology, sydney
  

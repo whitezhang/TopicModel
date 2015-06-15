@@ -1,33 +1,33 @@
 
- First of all, thanks to those of you who responded, both here and via e-mail.
- The tips didn't pan out, but it was good hearing from you.
+ first of all, thanks to those of you who responded, both here and via e-mail.
+ the tips didn't pan out, but it was good hearing from you.
  
- Now, following up to my earlier post:
+ now, following up to my earlier post:
  [...]
- : Disk controller:  Acculogic sIDE-3 2 hard/2 floppy IDE controller
- :   Jumpers:  All defaulted (shown as *):  
- :     Normal IRQ*/delayed IRQ     Primary*/secondary floppy address
- :     Single*/dual speed floppy   Primary*/secondary IDE address
- :     Precomp = 125ns*/187 ns     IOCHRDY not driven*/IDE drive controls IOCHRDY
+ : disk controller:  acculogic side-3 2 hard/2 floppy ide controller
+ :   jumpers:  all defaulted (shown as *):  
+ :     normal irq*/delayed irq     primary*/secondary floppy address
+ :     single*/dual speed floppy   primary*/secondary ide address
+ :     precomp = 125ns*/187 ns     iochrdy not driven*/ide drive controls iochrdy
  [...]
- : Other cards:  (didn't check brand) 2 Serial/1 Parallel adapter
- : 	      Logitech Bus Mouse adapter
- : 	      Roland MPU-401-compatible MIDI interface 
- : 		Configured with default IRQ 2, mem address 0330
+ : other cards:  (didn't check brand) 2 serial/1 parallel adapter
+ : 	      logitech bus mouse adapter
+ : 	      roland mpu-401-compatible midi interface 
+ : 		configured with default irq 2, mem address 0330
  
- I opened up the box and removed all the "other cards" above.  No help there.
- Then, not having anything better to try, I changed Normal IRQ to Delayed
- IRQ on the disk controller (didn't make any difference) and IOCHRDY_not_
- driven to IDE_drive_controls_IOCHRDY (also had no effect).  So I put 
+ i opened up the box and removed all the "other cards" above.  no help there.
+ then, not having anything better to try, i changed normal irq to delayed
+ irq on the disk controller (didn't make any difference) and iochrdy_not_
+ driven to ide_drive_controls_iochrdy (also had no effect).  so i put 
  everything back to the way it was and re-installed the cards.
  
- I then unplugged the floppy drive cable from the disk controller.  Voila!,
- the PC booted from power up, although it seemed to take several seconds 
- before the first access to the hard disk.  Plug the floppy cable back
+ i then unplugged the floppy drive cable from the disk controller.  voila!,
+ the pc booted from power up, although it seemed to take several seconds 
+ before the first access to the hard disk.  plug the floppy cable back
  to the controller and the original (non-boot) behavior returns.
  
- O.K., with this additional information, does anyone in netland have any 
- words of wisdom for what's going on and how I should deal with it?
+ o.k., with this additional information, does anyone in netland have any 
+ words of wisdom for what's going on and how i should deal with it?
  
- -Larry "still (un)plugging away" Byler-
+ -larry "still (un)plugging away" byler-
  

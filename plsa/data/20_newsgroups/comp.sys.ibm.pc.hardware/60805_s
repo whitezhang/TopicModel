@@ -1,35 +1,35 @@
 
- In article <87402@ut-emx.uucp> reza@magellan.ae.utexas.edu (Alireza Vali) writes:
- >Hi there.  We just bought a 486 DX2/66 Gateway system with a 2 meg ATI
- >Ultra Pro video card.  Everything seems to work fine except for the
- >Windows Drivers for 800x600 24 bit, and 800x600 and 1024x768 16 bit
- >modes.  The fonts and icons start deteriorating after windows startup,
+ in article <87402@ut-emx.uucp> reza@magellan.ae.utexas.edu (alireza vali) writes:
+ >hi there.  we just bought a 486 dx2/66 gateway system with a 2 meg ati
+ >ultra pro video card.  everything seems to work fine except for the
+ >windows drivers for 800x600 24 bit, and 800x600 and 1024x768 16 bit
+ >modes.  the fonts and icons start deteriorating after windows startup,
  >and within minutes of use, everything on the screen is totally
- >unintelligible.  Naturally, I called Gateway tech support to inquire
- >about this.  The technician asked me about the drivers, and I told him it
- >was version 1.5, build 59.  He told me that the 16 and 24 bit drivers for
- 	This is pure bull.  I've had the 24 bit mode (640x480 and 800x600)
- 	working since the version before 59 (??55??).  Bld 59 added 
- 	the 24 bit option to Flexpanel.  Try getting the drivers from 
+ >unintelligible.  naturally, i called gateway tech support to inquire
+ >about this.  the technician asked me about the drivers, and i told him it
+ >was version 1.5, build 59.  he told me that the 16 and 24 bit drivers for
+ 	this is pure bull.  i've had the 24 bit mode (640x480 and 800x600)
+ 	working since the version before 59 (??55??).  bld 59 added 
+ 	the 24 bit option to flexpanel.  try getting the drivers from 
  	ftp.cica.indiana.edu or wuarchive.
- >the ATI Ultra Pro simply do not work!!!  Is this true?  If so, I'm simply
- >amazed.  How could this be?  The strange thing is I would have expected
- >to see some discussion on here (unless the subject has made the FAQ!!!).
+ >the ati ultra pro simply do not work!!!  is this true?  if so, i'm simply
+ >amazed.  how could this be?  the strange thing is i would have expected
+ >to see some discussion on here (unless the subject has made the faq!!!).
  >
- >Gateway 486 DX2/66 Local Bus
- >16 Megs Ram
- >SCSI HD & CD-ROM
- >Ultrastor 34F Local Bus SCSI controller
- >ATI Ultra Pro Local Bus with 2MB VRAM
- >DOS 6.0
- >Windows 3.1
- >Mach 32 drivers version 1.5 (build 59)
- Mine is:
- Gateway 486 DX2/50 LB
- 8 Megs ram
- IDE HD
- ATI GUP w/ 2MB (installed upgrade myself)
- BLD 59 drivers.
+ >gateway 486 dx2/66 local bus
+ >16 megs ram
+ >scsi hd & cd-rom
+ >ultrastor 34f local bus scsi controller
+ >ati ultra pro local bus with 2mb vram
+ >dos 6.0
+ >windows 3.1
+ >mach 32 drivers version 1.5 (build 59)
+ mine is:
+ gateway 486 dx2/50 lb
+ 8 megs ram
+ ide hd
+ ati gup w/ 2mb (installed upgrade myself)
+ bld 59 drivers.
  
  
  -- 

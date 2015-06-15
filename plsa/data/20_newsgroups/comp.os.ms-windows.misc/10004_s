@@ -1,19 +1,19 @@
 
- In article <1993Apr27.200651.11520@CSD-NewsHost.Stanford.EDU> herrod@CS.Stanford.EDU (Stephen Herrod) writes:
- >Does anyone know a program that will record keyboard sequences that I 
- >do in a windowed dos box? I would like to have something that starts a
- >telnet program and then logs me into my accounts. Windows Recorder doesn't
+ in article <1993apr27.200651.11520@csd-newshost.stanford.edu> herrod@cs.stanford.edu (stephen herrod) writes:
+ >does anyone know a program that will record keyboard sequences that i 
+ >do in a windowed dos box? i would like to have something that starts a
+ >telnet program and then logs me into my accounts. windows recorder doesn't
  >seem to be able to record the key sequences.
  >
- >Thanks, STeve
+ >thanks, steve
  
- I think you would need a DOS macro program.  Superkey (by Borland?)
- comes to mind.  I don't think Windows is capable of sending
- keystrokes to a DOS window.
+ i think you would need a dos macro program.  superkey (by borland?)
+ comes to mind.  i don't think windows is capable of sending
+ keystrokes to a dos window.
  
- What you want to do sounds like a security problem to me, though.
+ what you want to do sounds like a security problem to me, though.
  
- Tom
+ tom
  paladin@world.std.com
  
  

@@ -1,73 +1,73 @@
 
  
- Hello all!
+ hello all!
  
- For few past days I've been fighting to get My NEC Multisync 3D
- (predecessor of 3FG) to work properly with the internal video of Mac
- IIvi.
+ for few past days i've been fighting to get my nec multisync 3d
+ (predecessor of 3fg) to work properly with the internal video of mac
+ iivi.
  
- With a VGA-adapter (as described in Dale Adams' posting about Quadra
+ with a vga-adapter (as described in dale adams' posting about quadra
  video) it works, only some minor interferences occur, small enough not
  to prevent any action on screen to be visible & clear.
  
- But because the scanrates & stuff of 3D are well enough for emulating
- Apple 13" RGB, I first made an adapter, then got one fron the local
- distributor of NEC.
- With both adapters I can get a picure, which looks excellent most of
+ but because the scanrates & stuff of 3d are well enough for emulating
+ apple 13" rgb, i first made an adapter, then got one fron the local
+ distributor of nec.
+ with both adapters i can get a picure, which looks excellent most of
  the time or every now and then.
- But with radical changes on screen (opening palettes, large windows
- etc.) there are major interferences in sync. The picture either tilts
- sideways or scrables up totally. Even when it is clear, there are some
+ but with radical changes on screen (opening palettes, large windows
+ etc.) there are major interferences in sync. the picture either tilts
+ sideways or scrables up totally. even when it is clear, there are some
  "spiky" interferences on horizontal line alignment when accessing
  pull-downs etc.
- With the self-made adapter, almost identical to the VGA one, only
+ with the self-made adapter, almost identical to the vga one, only
  sense pins differ, it is sometimes impossible to even boot up with a
  picture clear enough to shut down from menu...
- With the adapter from NEC, everything is well most of the time, but
+ with the adapter from nec, everything is well most of the time, but
  sometimes the picture tilts badly sideways or the sync is completely
- lost. But not nearly as often as with the self-made one.
+ lost. but not nearly as often as with the self-made one.
  
- I know, with self made adapters there can always be interference, but
- with the one provided by NEC... where's the source of this interference?
+ i know, with self made adapters there can always be interference, but
+ with the one provided by nec... where's the source of this interference?
  
- I'll give you the pinouts of the whole mess, and I hope that you can,
+ i'll give you the pinouts of the whole mess, and i hope that you can,
  at least someone (please try =) figure out what could be the best pin
- assignment for NEC 3D.
- I am going to make a completely new cable with maximum shieldings and
+ assignment for nec 3d.
+ i am going to make a completely new cable with maximum shieldings and
  isolations, as soon as someone figures out how the pins should be
  arranged, especially syncs and groundings.
  
- Yes, I have checked that the monitor is not defective, it works
- perfectly well with all PC graphic adapters up to 1024x768 pixels and
- also Atari 71Hz monochrome, which I am using now with it.
+ yes, i have checked that the monitor is not defective, it works
+ perfectly well with all pc graphic adapters up to 1024x768 pixels and
+ also atari 71hz monochrome, which i am using now with it.
  
- Here are the pinouts & stuff:
+ here are the pinouts & stuff:
  
- 15 pin mini D-sub (NEC 3D)		15 pin D-sub (Mac, at least Quadra)
+ 15 pin mini d-sub (nec 3d)		15 pin d-sub (mac, at least quadra)
  
- 1  Red Video				1  Red GND
- 2  Green Video				2  Red Video
- 3  Blue Video				3  Composite Sync
- 4  GND					4  Sense 0
- 5  GND					5  Green Video
- 6  Red GND				6  Green GND
- 7  Green GND				7  Sense 1
- 8  Blue GND				8  NC
- 9  NC					9  Blue Video
- 10 GND					10 Sense 2
- 11 GND					11 C.Sync & V.Sync GND
- 12 NC					12 V.Sync
- 13 H.Sync				13 Blue GND
- 14 V.Sync				14 H.Sync GND
- 15 NC					15 H.Sync
- SHELL GND				SHELL GND
+ 1  red video				1  red gnd
+ 2  green video				2  red video
+ 3  blue video				3  composite sync
+ 4  gnd					4  sense 0
+ 5  gnd					5  green video
+ 6  red gnd				6  green gnd
+ 7  green gnd				7  sense 1
+ 8  blue gnd				8  nc
+ 9  nc					9  blue video
+ 10 gnd					10 sense 2
+ 11 gnd					11 c.sync & v.sync gnd
+ 12 nc					12 v.sync
+ 13 h.sync				13 blue gnd
+ 14 v.sync				14 h.sync gnd
+ 15 nc					15 h.sync
+ shell gnd				shell gnd
  
  
  
- Connection suggested by Apple for VGA/SVGA, sense pins changed to
- emulate Apple 13" with Multisync (my self-made adapter)
+ connection suggested by apple for vga/svga, sense pins changed to
+ emulate apple 13" with multisync (my self-made adapter)
  
- Multisync (15pin mini D-sub)	Mac (15pin D-sub)
+ multisync (15pin mini d-sub)	mac (15pin d-sub)
  	  
  	  1  ---------------------- 2
  	  2  ---------------------- 5
@@ -78,18 +78,18 @@
  	  10 ---------------------- 14
  	  13 ---------------------- 15
  	  14 ---------------------- 12
- 				    4 (sense0) grounded to 11 (sync GND)
+ 				    4 (sense0) grounded to 11 (sync gnd)
  
  
- Connection measured from an adapter to make NEC 3FG/4FG 
- emulate Apple 13" (adapter provided by NEC representative)
+ connection measured from an adapter to make nec 3fg/4fg 
+ emulate apple 13" (adapter provided by nec representative)
  
- 	NEC (15 mini)   	Mac (15)
+ 	nec (15 mini)   	mac (15)
  
  	1   ----------------------- 2
  	2   ----------------------- 5
  	3   ----------------------- 9
- 	4   ----------------------- SHELL GND, 1, 4, 6, 13
+ 	4   ----------------------- shell gnd, 1, 4, 6, 13
  	5   ----------------------- same as above
  	6   ----------------------- same...
  	7   ----------------------- same...
@@ -97,13 +97,13 @@
  	10  ----------------------- same...
  	11  ----------------------- same...
  	13  ----------------------- 3
- 	14    * Not Connected! *
+ 	14    * not connected! *
  	
  
- Well, I am waiting for your solutions...
+ well, i am waiting for your solutions...
  
- And thanks!
+ and thanks!
  
  --
- Jartsu
+ jartsu
  

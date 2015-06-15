@@ -1,41 +1,41 @@
 
- I have a small Windows program which I can not get to work; 
- The program looks vaguely like this:
+ i have a small windows program which i can not get to work; 
+ the program looks vaguely like this:
  
  =============================================
  char f1[80];
  
- int WinMain(...
+ int winmain(...
  {
-   lstrcpy ((LPSTR)f1, "Hello");
+   lstrcpy ((lpstr)f1, "hello");
    ...
  }
  
- long far pascal WndProc(...
+ long far pascal wndproc(...
  {
-   lstrcpy ((LPSTR)f1, "Hello");
+   lstrcpy ((lpstr)f1, "hello");
    ...
  }
  
  ============================================= 
- I am using large model under Windows 3.1; after linking without
- errors, the RC program said
+ i am using large model under windows 3.1; after linking without
+ errors, the rc program said
  
- Sorting preload segments and resources into fast-load section
- Copying segment 1 (53679 bytes)
- RC : fatal error RW1031: Segment 1 and its
+ sorting preload segments and resources into fast-load section
+ copying segment 1 (53679 bytes)
+ rc : fatal error rw1031: segment 1 and its
       relocation information is too large for load
-      optimization. Make the segment LOADONCALL or
-      rerun RC using the -K switch if the segment must
+      optimization. make the segment loadoncall or
+      rerun rc using the -k switch if the segment must
       be preloaded.
  
- Using the -K switch seems to interfere with the proper function of
+ using the -k switch seems to interfere with the proper function of
  the second lstrcpy call... can anybody explain what is going on and/or
  how to fix it?
  
  
- Thanks...
- Pugsley  (dpugsle@nswc-wo.nswc.navy.mil)
+ thanks...
+ pugsley  (dpugsle@nswc-wo.nswc.navy.mil)
  
  
  

@@ -1,22 +1,22 @@
 
- In <1993Apr8.122037.19260@sun1x.res.utc.com> mark@sun1x.res.utc.com (MARK STUCKY) writes:
+ in <1993apr8.122037.19260@sun1x.res.utc.com> mark@sun1x.res.utc.com (mark stucky) writes:
  
- >In <1pr9qnINNiag@tahko.lpr.carel.fi>, 
- >   Ari Suutari (ari@tahko.lpr.carel.fi) wrote:
+ >in <1pr9qninniag@tahko.lpr.carel.fi>, 
+ >   ari suutari (ari@tahko.lpr.carel.fi) wrote:
  
- >   > Does anybody know if there are any good 2d-graphics packages
- >   > available for IBM RS/6000 & AIX ? I'm looking for something
- >   > like DEC's GKS or Hewlett-Packards Starbase, both of which
+ >   > does anybody know if there are any good 2d-graphics packages
+ >   > available for ibm rs/6000 & aix ? i'm looking for something
+ >   > like dec's gks or hewlett-packards starbase, both of which
  >   > have reasonably good support for different output devices
- >   > like plotters, terminals, X etc.
+ >   > like plotters, terminals, x etc.
  
-    Try graPHIGS from IBM... It is an excellent package! :^)
+    try graphigs from ibm... it is an excellent package! :^)
  
- Doug
+ doug
   
  --
-  Doug Egan                                  "It's not what you got -
-  Lockheed Engineering and Sciences Co.       It's what you give."          
-  Houston, TX                                                  -Tesla      
+  doug egan                                  "it's not what you got -
+  lockheed engineering and sciences co.       it's what you give."          
+  houston, tx                                                  -tesla      
   ***** email:  egan@blkbox.com  *****                                    
  

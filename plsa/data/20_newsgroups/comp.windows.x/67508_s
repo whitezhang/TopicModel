@@ -1,17 +1,17 @@
 
  
- Greetings,
-   I need some help with the detail of geometry specification.  I have a
- program that uses Xlib to create a simple window.  I tried to hard code
- the x,y location in XCreateWindow but it didn't work.  I also tried
- XSetStandardProperties, XSetWMHints with no luck.  Could somebody
+ greetings,
+   i need some help with the detail of geometry specification.  i have a
+ program that uses xlib to create a simple window.  i tried to hard code
+ the x,y location in xcreatewindow but it didn't work.  i also tried
+ xsetstandardproperties, xsetwmhints with no luck.  could somebody
  enlighten me on this subject.
  
- Hans.
+ hans.
  --
-  Hans Dulimarta [dulimart@cps.msu.edu]
-  Pattern Recognition & Image Processing Laboratory
-  Department of Computer Science
-  Michigan State University
+  hans dulimarta [dulimart@cps.msu.edu]
+  pattern recognition & image processing laboratory
+  department of computer science
+  michigan state university
  
  

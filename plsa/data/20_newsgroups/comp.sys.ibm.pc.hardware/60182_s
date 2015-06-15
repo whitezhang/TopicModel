@@ -1,26 +1,26 @@
 
- In article <12934.73.uupcb@hal9k.ann-arbor.mi.us> robert.desonia@hal9k.ann-arbor.mi.us (Robert Desonia)  writes:
+ in article <12934.73.uupcb@hal9k.ann-arbor.mi.us> robert.desonia@hal9k.ann-arbor.mi.us (robert desonia)  writes:
  >
- >S >There is one param in the bios setup that says AT BUS CLK.  I have
- >clock, which is beyond ISA specs, but may be ok if all of the cards can 
- >run that fast.  I would set it to 3 ( in fact I did ) and set it back if 
+ >s >there is one param in the bios setup that says at bus clk.  i have
+ >clock, which is beyond isa specs, but may be ok if all of the cards can 
+ >run that fast.  i would set it to 3 ( in fact i did ) and set it back if 
  >anything acts weird ( e.g. you get unexplainable floppy drive errors, your 
- >modem locks up, you have video problems, etc. ).  If you overdrive the AT 
+ >modem locks up, you have video problems, etc. ).  if you overdrive the at 
  >bus, then that should be the first thing to check if you get an error on 
  >your system.  
  >
- >It is pretty safe to overdrive your AT bus, as long as your ISA cards 
- >still work flawlessly.  I suggest backing up your HD before playing with 
+ >it is pretty safe to overdrive your at bus, as long as your isa cards 
+ >still work flawlessly.  i suggest backing up your hd before playing with 
  >it though.
  
- On my 486DX-50 (really 50, not DX2), my AT bus is set to CLK/3.
+ on my 486dx-50 (really 50, not dx2), my at bus is set to clk/3.
  
- At 16.67 MHz, I have no problems.  Soundblaster Pro, Zoom 14.4 FXM, RLL
- controller, etc.  All work fine.
+ at 16.67 mhz, i have no problems.  soundblaster pro, zoom 14.4 fxm, rll
+ controller, etc.  all work fine.
  
- If I set it to 2 (25 MHz), I simply don't get past the POST routines.
+ if i set it to 2 (25 mhz), i simply don't get past the post routines.
  
- I doubt you could actually damage much by playing with it.
+ i doubt you could actually damage much by playing with it.
  
- Allen
+ allen
  

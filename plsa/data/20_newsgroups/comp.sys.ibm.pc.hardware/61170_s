@@ -1,33 +1,33 @@
 
- In article <C5x2FE.CIE@genesis.nred.ma.us> avinash@genesis.nred.ma.us writes:
- >I have an internal modem that I configure as COM4 with IRQ 3, but
- >when I insert that card into my DOS 5.02 PC, it shows up
- >as COM3, with IRQ3 and COM4's address (2E8)!
+ in article <c5x2fe.cie@genesis.nred.ma.us> avinash@genesis.nred.ma.us writes:
+ >i have an internal modem that i configure as com4 with irq 3, but
+ >when i insert that card into my dos 5.02 pc, it shows up
+ >as com3, with irq3 and com4's address (2e8)!
  >
- >When I get into debug, and dump the data at 40:0, it shows
- >the address 2E8 as belonging to COM3 - even though the modem
- >should be at COM4.
+ >when i get into debug, and dump the data at 40:0, it shows
+ >the address 2e8 as belonging to com3 - even though the modem
+ >should be at com4.
  ...
  
- This is a common misconception, shared my many manufacturers, programmers,
- and users alike.  COM3, for example, is simply the third equipped COMM
- port, not necessarily the one with I/O address 3E8.  The BIOS just
- searches sequentially through a set of potential COMM port addresses.  The
- first equipped port it finds will become COM1, etc.  If you're playing by
- the rules, you can't have a COM4 unless you have a COM3 equipped.  The set
+ this is a common misconception, shared my many manufacturers, programmers,
+ and users alike.  com3, for example, is simply the third equipped comm
+ port, not necessarily the one with i/o address 3e8.  the bios just
+ searches sequentially through a set of potential comm port addresses.  the
+ first equipped port it finds will become com1, etc.  if you're playing by
+ the rules, you can't have a com4 unless you have a com3 equipped.  the set
  of "standard" (whatever that means) port addresses merely reflects the
- order in which the BIOS searches the I/O address space in its search for
+ order in which the bios searches the i/o address space in its search for
  serial ports.
  
- So, what you have is indeed COM3 at the non-standard address 2E8.  Were
- this address in the 4th table slot instead, programs which query the BIOS
- to determine the number of installed COMM ports would not find it, as the
- field in the BIOS data area which contains this number would indicate that
- there are but 3 COMM ports installed.  (Frankly, I don't know of a simgle
+ so, what you have is indeed com3 at the non-standard address 2e8.  were
+ this address in the 4th table slot instead, programs which query the bios
+ to determine the number of installed comm ports would not find it, as the
+ field in the bios data area which contains this number would indicate that
+ there are but 3 comm ports installed.  (frankly, i don't know of a simgle
  program that would actually have a problem with this.)
  
  --
- Bob Nichols
- AT&T Bell Laboratories
+ bob nichols
+ at&t bell laboratories
  rnichols@ihlpm.ih.att.com
  

@@ -1,25 +1,25 @@
 
- Hi,
+ hi,
  
- My name is rahul and I am doing MS at USU, Logan
- My query is:
- 	I have a HP workstation: HP Series 400 with X running on it.
- I have a true color - 24bit color monitor connected to this machine.
- Normally I have the capability to display 256 colors from a max of
- 16.7 million. Since the monitor is True Color I can see 16.7
+ my name is rahul and i am doing ms at usu, logan
+ my query is:
+ 	i have a hp workstation: hp series 400 with x running on it.
+ i have a true color - 24bit color monitor connected to this machine.
+ normally i have the capability to display 256 colors from a max of
+ 16.7 million. since the monitor is true color i can see 16.7
  million at a time. 
- Que: do we have a facility in X(c-function call) that will enable me
- to specify any RGB combination and see it on screen? I am using
- XStoreColor to set the pallette of a max of 256 colors.
- Que: If not. Is there any way I can display a true color image
- on a true color monitor using XLib function calls?
+ que: do we have a facility in x(c-function call) that will enable me
+ to specify any rgb combination and see it on screen? i am using
+ xstorecolor to set the pallette of a max of 256 colors.
+ que: if not. is there any way i can display a true color image
+ on a true color monitor using xlib function calls?
  
- We are generating ray traced images and 256 colors are indeed a
- painful limit. besides I need the facility to display the true color images 
- i will be generating on a true color system WITHOUT color 
+ we are generating ray traced images and 256 colors are indeed a
+ painful limit. besides i need the facility to display the true color images 
+ i will be generating on a true color system without color 
  quantification.
- Please, if anyone can help i'd be obliged
+ please, if anyone can help i'd be obliged
  
- Rahul
+ rahul
  sl0pr@cc.usu.edu
  

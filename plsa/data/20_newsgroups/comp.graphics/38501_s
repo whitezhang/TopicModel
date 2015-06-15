@@ -1,14 +1,14 @@
 
  
-    I have a Diamond Speedstar 24X board that I want to program
+    i have a diamond speedstar 24x board that i want to program
  for 24 bit 640x480 graphics, or possibly 800x600 16 bit color.
- Does anybody have any libraries supporting these modes on this
- board? Even somes simple routines to set the graphics mode and
- plot individual pixels would be a great help. I plan to use the
+ does anybody have any libraries supporting these modes on this
+ board? even somes simple routines to set the graphics mode and
+ plot individual pixels would be a great help. i plan to use the
  routines with djgp.
  
-    Thanks in advance. Please respond also via e-mail.
+    thanks in advance. please respond also via e-mail.
  
-    David Max
+    david max
     max@slinky.cs.nyu.edu
  

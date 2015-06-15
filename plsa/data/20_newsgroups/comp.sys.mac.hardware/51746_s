@@ -1,36 +1,36 @@
 
- Michael.Ameres@f204.n2603.z1.fidonet.org (Michael Ameres) writes:
+ michael.ameres@f204.n2603.z1.fidonet.org (michael ameres) writes:
  
- >I believe it goes or will go:
+ >i believe it goes or will go:
  >680060
- >powerPC
- >Pentium
+ >powerpc
+ >pentium
  
- Not quite. 66MHz Pentium - 65 SPECint92, 57 SPECfp92 .
- 	   66MHz MC98601 - 50 SPECint92, 80 SPECfp92 .
+ not quite. 66mhz pentium - 65 specint92, 57 specfp92 .
+ 	   66mhz mc98601 - 50 specint92, 80 specfp92 .
  
- Note that SPECint is more important for most real world applications.
+ note that specint is more important for most real world applications.
  
  >680040
  >486
  
- As far as the 486DX2-66 goes - 32 SPECint92, 16 SPECfp92 .
+ as far as the 486dx2-66 goes - 32 specint92, 16 specfp92 .
  
  >680030
  >386
  >680020
  >286=680000
  
- >In a resent article in one of the macMags I think a 50mHz 030 accelerator was
- > slightly slower than a 25mHz 040 accel. But, this is using a system designed
- > for the 030. So, It stands to reason that a system designed for an 040 ie
- > quadra) would do better. So overall I'd figure 040 = 030 * 2.5 or so.
- >    Along the same lines the new POwerPC stuff is supposed to run the system
+ >in a resent article in one of the macmags i think a 50mhz 030 accelerator was
+ > slightly slower than a 25mhz 040 accel. but, this is using a system designed
+ > for the 030. so, it stands to reason that a system designed for an 040 ie
+ > quadra) would do better. so overall i'd figure 040 = 030 * 2.5 or so.
+ >    along the same lines the new powerpc stuff is supposed to run the system
  > at the level of a fast quadra, but system 8 or whatever will allow 3 times the
- > speed of a 040 in the powerPC based systems. and wait for the 680060. I think
+ > speed of a 040 in the powerpc based systems. and wait for the 680060. i think
  > it laps the pentium.
  
- Intel chips have traditionally been faster than their Motorola "equivalents"
+ intel chips have traditionally been faster than their motorola "equivalents"
  although the significance of chip speed in real world application performance
  is something that is highly debatable.
  
@@ -39,10 +39,10 @@
  
  >--  
  >=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
- > Michael Ameres - Internet: Michael.Ameres@f204.n2603.z1.fidonet.org
+ > michael ameres - internet: michael.ameres@f204.n2603.z1.fidonet.org
  -- 
- Ravikumar Venkateswar
+ ravikumar venkateswar
  rvenkate@uiuc.edu
  
- A pun is a no' blessed form of whit.
+ a pun is a no' blessed form of whit.
  

@@ -1,33 +1,33 @@
 
- rhudson@gomez.intel.com (Ron A. Hudson) writes:
+ rhudson@gomez.intel.com (ron a. hudson) writes:
  
- >Peter Goudswaard (goudswaa@fraser.sfu.ca) wrote:
- >>-- Setup deleted...
- >> Finally, in order to run _your_ specific version of Windows, you
- >> must simply change the path to include C:\WINMASTR *and* your
- >> specific configuration path, e.g. C:\WINWIFE.  You could get
+ >peter goudswaard (goudswaa@fraser.sfu.ca) wrote:
+ >>-- setup deleted...
+ >> finally, in order to run _your_ specific version of windows, you
+ >> must simply change the path to include c:\winmastr *and* your
+ >> specific configuration path, e.g. c:\winwife.  you could get
  >> fancy and use batch files, environment variables, or a menuing
  >> system to do this.
  >--- other stuff delete...
- >If you happen to be running the new msdos 6, you could use multi-
+ >if you happen to be running the new msdos 6, you could use multi-
  >setup to provide a menu with a menu choice for each person using
  >the machine ... power up, select your name,  the menu will use your
  >personal sections of config.sys and autoexec.bat thus setting up the
  >path, then running your windows copy!  
- >Ron
+ >ron
  
- Excellent suggestion, Ron.  And as a further comment on DOS 6, if
- you decide to install Windows standalone configuration completely,
- in more than 1 directory on your hard drive, and use DOS 6 to
+ excellent suggestion, ron.  and as a further comment on dos 6, if
+ you decide to install windows standalone configuration completely,
+ in more than 1 directory on your hard drive, and use dos 6 to
  jump to a specific copy for each user, you could be saving yourself
- many megs of disk space if you use the SETUP /N and /A technique!!
+ many megs of disk space if you use the setup /n and /a technique!!
  
  -- 
-  Peter Goudswaard                  _________                     _________
+  peter goudswaard                  _________                     _________
   goudswaa@sfu.ca (preferred)      |         |      __/^\__      |         |
   pgoudswa@cln.etc.bc.ca           |         |      \     /      |         |
   pgoudswa@cue.bc.ca               |         |   _/\_\   /_/\_   |         |
                                    |         |   >           <   |         |
-  "There's no gift like the present"         |    >_________<    |         |
-     - Goudswaard's observation    |_________|         |         |_________|
+  "there's no gift like the present"         |    >_________<    |         |
+     - goudswaard's observation    |_________|         |         |_________|
  

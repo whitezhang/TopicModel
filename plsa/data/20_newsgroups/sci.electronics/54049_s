@@ -1,49 +1,49 @@
 
- In article <1993Apr21.081317.599@das.harvard.edu> squish@endor.uucp (Shishin Yamada) writes:
- >The Atari 2600 used a 6502 CPU, just like their entire 8-bit line
+ in article <1993apr21.081317.599@das.harvard.edu> squish@endor.uucp (shishin yamada) writes:
+ >the atari 2600 used a 6502 cpu, just like their entire 8-bit line
  >(400, 800,1200,1400, 1440, 130xe, 65xe computers, as well as the 5200
  >game machine). 
  
- Wrong, it has a 6507.
+ wrong, it has a 6507.
  
- >The 2600 had some extra ASIC chips that were basically
- >modified graphics chips and PIA's for the joysticks. 
+ >the 2600 had some extra asic chips that were basically
+ >modified graphics chips and pia's for the joysticks. 
  
- It had one custome chip (not an ASIC in the sense that word is now understood):
- the TIA (sometimes known as the 6526, although most other manufacturers list
- that as the CIA complex interface adapter.)  TIA stands for Television
- Interface Adapter, and it handles sound, paddles and the minimal video hardware
+ it had one custome chip (not an asic in the sense that word is now understood):
+ the tia (sometimes known as the 6526, although most other manufacturers list
+ that as the cia complex interface adapter.)  tia stands for television
+ interface adapter, and it handles sound, paddles and the minimal video hardware
  the 2600 possessed.
  
- There was also a standard 6532 RAM, I/O, Timer (RIOT), plus a voltage
- regulator and (if memory serves) a 555 timer.  That's all.
+ there was also a standard 6532 ram, i/o, timer (riot), plus a voltage
+ regulator and (if memory serves) a 555 timer.  that's all.
  
- >Later model 2600
- >might have incorporated many of the chips into one ASCI, as the weight
+ >later model 2600
+ >might have incorporated many of the chips into one asci, as the weight
  >of the machines and part count decreased a lot over the years.
  
- Not according to the servicing documentation I have here.  The 2600 did not
+ not according to the servicing documentation i have here.  the 2600 did not
  change intenally very much at all.
  
- >Additionally, I think the 2600 used 2K, 4K, and up to 8K of ROM for
+ >additionally, i think the 2600 used 2k, 4k, and up to 8k of rom for
  >their games. 
  
- ROMS were mapped into the upper 4K of the 6507's address space.  2K and 4K
- games were fine, but later 8K and 16K games needed bank switching.  Atari
+ roms were mapped into the upper 4k of the 6507's address space.  2k and 4k
+ games were fine, but later 8k and 16k games needed bank switching.  atari
  (and others) made much of these "huge" cartridges.
  
- >I have no idea how much RAM it had to work with, but I
- >would hazard a guess of 2 or 4K RAM. 
+ >i have no idea how much ram it had to work with, but i
+ >would hazard a guess of 2 or 4k ram. 
  
- Wrong, it had 128 bytes of RAM from the RIOT.  This was multiply mapped into
+ wrong, it had 128 bytes of ram from the riot.  this was multiply mapped into
  both page 0 (pseudo-registers) and page 1 (stack), and also throughout the
- bottom 4K of memory.  TIA registers also sat in this address space.
+ bottom 4k of memory.  tia registers also sat in this address space.
  
- As 128 bytes of RAM was somewhat limiting, some later cartridges also carried
- RAM themselves, which was interesting as Atari had provided no write line
- to the cart.  This was managed by mapping the reads from RAM into one address
+ as 128 bytes of ram was somewhat limiting, some later cartridges also carried
+ ram themselves, which was interesting as atari had provided no write line
+ to the cart.  this was managed by mapping the reads from ram into one address
  range, and the writes into another, but all the time this scheme ate into
- the *very* scarce ROM address space.
+ the *very* scarce rom address space.
  
- 							Ian.
+ 							ian.
  

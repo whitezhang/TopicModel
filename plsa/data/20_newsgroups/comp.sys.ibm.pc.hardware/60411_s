@@ -1,27 +1,27 @@
 
- Can anybody please help me with information on the use of the bi-directional
+ can anybody please help me with information on the use of the bi-directional
  printer port.
  
- I have successfully used one on a Toshiba laptop by enabling bit 0 of port
+ i have successfully used one on a toshiba laptop by enabling bit 0 of port
  0x37f and controlling bit 7 of port 0x37a for the direction of data flow (ie
  "0" for output, "1" for input).
  
- The same code does not work on my desktop machine. I have heard that i might
+ the same code does not work on my desktop machine. i have heard that i might
  have to use bit 5 of port 0x37a, however this also does not work.
  
- For a parallel port i am using one of those IDE SUPER I/O cards and have been
+ for a parallel port i am using one of those ide super i/o cards and have been
  running a tape backup unit off it via a parallel to scsi converter so i am
  pretty sure that the printer port is bi-directional.
  
  
- Any information would be greatly appreasiated.
+ any information would be greatly appreasiated.
  
- Please post a reply here or Email me on
+ please post a reply here or email me on
  
- INTERNET rick@cabsav.vut.edu.au
+ internet rick@cabsav.vut.edu.au
  
- Thanks
- Richard Muratti.
+ thanks
+ richard muratti.
  
-  * Origin: Custom Programming BBS (3:632/341)
+  * origin: custom programming bbs (3:632/341)
  

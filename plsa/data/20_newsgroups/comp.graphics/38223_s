@@ -1,42 +1,42 @@
 
- Note the Followup-To: header ...
+ note the followup-to: header ...
  
- steelem@rintintin.Colorado.EDU (STEELE MARK A) writes:
- >Is there a collection of forms routines that can be used with curses?
- >If so where is it located?
+ steelem@rintintin.colorado.edu (steele mark a) writes:
+ >is there a collection of forms routines that can be used with curses?
+ >if so where is it located?
  
- On my SVR4 Amiga Unix box, I've got -lform, -lmenu, and -lpanel for
- use with the curses library.  Guess what they provide? :-)
+ on my svr4 amiga unix box, i've got -lform, -lmenu, and -lpanel for
+ use with the curses library.  guess what they provide? :-)
  
- Unix Press, ie. Prentice-Hall, has a programmer's guide for these
- tools, referred to as the FMLI (Forms Mgmt Language Interface) and
- ETI (Extended Terminal Interface), now in it's 2nd edition.  It is
- ISBN 0-13-020637-7.
+ unix press, ie. prentice-hall, has a programmer's guide for these
+ tools, referred to as the fmli (forms mgmt language interface) and
+ eti (extended terminal interface), now in it's 2nd edition.  it is
+ isbn 0-13-020637-7.
  
- Paraphrased from the outside back cover:
+ paraphrased from the outside back cover:
  
-     FMLI is a high-level programming tool for creating menus, forms,
-     and text frames.  ETI is a set of screen management library
+     fmli is a high-level programming tool for creating menus, forms,
+     and text frames.  eti is a set of screen management library
      subroutines that promote fast development of application programs
      for window, panel, menu, and form manipulation.
  
- The FMLI is a shell package which reads ascii text files and produces
- screen displays for data entry and presentation.  It consists of a
+ the fmli is a shell package which reads ascii text files and produces
+ screen displays for data entry and presentation.  it consists of a
  "shell-like" environment of the "fmli" program and it's database
- files.  It is section 1F in the Unix Press manual.
+ files.  it is section 1f in the unix press manual.
  
- The ETI are subroutines, part of the 3X manual section, provide
+ the eti are subroutines, part of the 3x manual section, provide
  support for a multi-window capability on an ordinary ascii terminal
  with controls built on top of the curses library.
  
- >Thanks
- >-Mark Steele
+ >thanks
+ >-mark steele
  >steelem@rintintin.colorado.edu
  
  -- 
- Frank "Crash" Edwards          Edwards & Edwards Consulting
- Voice: 813/786-3675            crash%ckctpa@myrddin.sybus.com, but please
- Data:  813/787-3675            don't ask UUNET to route it -- it's sloooow.
-     There will be times in life when everyone you meet smiles and pats you on
+ frank "crash" edwards          edwards & edwards consulting
+ voice: 813/786-3675            crash%ckctpa@myrddin.sybus.com, but please
+ data:  813/787-3675            don't ask uunet to route it -- it's sloooow.
+     there will be times in life when everyone you meet smiles and pats you on
      the back and tells you how great you are ... so hold on to your wallet.
  

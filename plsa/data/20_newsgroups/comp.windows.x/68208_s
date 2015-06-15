@@ -1,35 +1,35 @@
 
- benj@ossa.hq.nasa.gov (Benjamin Jones) writes:
+ benj@ossa.hq.nasa.gov (benjamin jones) writes:
  
- >I've run into a bit of a snag while trying to get Mac X up and running and would appreciate
+ >i've run into a bit of a snag while trying to get mac x up and running and would appreciate
  >any responses from anyone who may have seen this problem.
  
- >On my local network, I have a number of Macs, Suns and SGI machines.
+ >on my local network, i have a number of macs, suns and sgi machines.
  
- >I have installed MacX/MacTCP on all of the Macintoshes and can run Xclients on the SGI machines
- >all the live-long day.  The problem is when I try to run an Xclient on any Sun, I setup
- >the command in MacX, then execute it.  Nothing happens, I don't even get any command output.
+ >i have installed macx/mactcp on all of the macintoshes and can run xclients on the sgi machines
+ >all the live-long day.  the problem is when i try to run an xclient on any sun, i setup
+ >the command in macx, then execute it.  nothing happens, i don't even get any command output.
  
- >Now, I thought it might be a routing issue, but I can run remote Xclients on the suns from my SGI
- >machines, as well as vice-versa.  I can also run remote Xclients on SGI machines that
- >are NOT on my local net here, but the above problem holds true for non-local Suns as well.
+ >now, i thought it might be a routing issue, but i can run remote xclients on the suns from my sgi
+ >machines, as well as vice-versa.  i can also run remote xclients on sgi machines that
+ >are not on my local net here, but the above problem holds true for non-local suns as well.
  
- I tried to send this as private mail, but mail to benj@ossa.hq.nasa.gov was
+ i tried to send this as private mail, but mail to benj@ossa.hq.nasa.gov was
  rejected, so here it is:
  
- Here is an extract from the README file that comes with MacX:
+ here is an extract from the readme file that comes with macx:
  
- Users of remote commands with Sun machines may find that their remote commands 
- appear to do nothing and there is no output from the Sun machine.  This is due 
- to a feature of the Sun rexecd network daemon which quietly disconnects from 
- requesting machines that are not known to the Sun|s network address (/etc/hosts
- or NIS hosts) database.  To successfully use remote commands with a SunOS-based
+ users of remote commands with sun machines may find that their remote commands 
+ appear to do nothing and there is no output from the sun machine.  this is due 
+ to a feature of the sun rexecd network daemon which quietly disconnects from 
+ requesting machines that are not known to the sun|s network address (/etc/hosts
+ or nis hosts) database.  to successfully use remote commands with a sunos-based
  machine, there must be an entry in the network address database for the 
- Macintosh which is running MacX.
+ macintosh which is running macx.
  
  -- 
  
- Stan Kerr    
- Computing & Communications Services Office, U of Illinois/Urbana
- Phone: 217-333-5217  Email: stankerr@uiuc.edu   
+ stan kerr    
+ computing & communications services office, u of illinois/urbana
+ phone: 217-333-5217  email: stankerr@uiuc.edu   
  

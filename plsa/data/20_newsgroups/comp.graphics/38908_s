@@ -1,44 +1,44 @@
 
- niko@iastate.edu (Nikolaus E Schuessler) writes:
+ niko@iastate.edu (nikolaus e schuessler) writes:
  
- >In article <matess.735934793@gsusgi1.gsu.edu> matess@gsusgi1.gsu.edu (Eliza Strickler) writes:
- >>I just donwloaded a *.bin file from a unix machine which is
- >>supposed to be converted to a MAC format. Does anyone know 
- >>what I need to do to this file to get it into any Dos, Mac
- >>or Unix readable format. Someone mentioned fetch on the unix
- >>machine - is this correct? Could someone explain the .bin
+ >in article <matess.735934793@gsusgi1.gsu.edu> matess@gsusgi1.gsu.edu (eliza strickler) writes:
+ >>i just donwloaded a *.bin file from a unix machine which is
+ >>supposed to be converted to a mac format. does anyone know 
+ >>what i need to do to this file to get it into any dos, mac
+ >>or unix readable format. someone mentioned fetch on the unix
+ >>machine - is this correct? could someone explain the .bin
  >>format a little?
  >>
  
- >This is almost certainly a MacBinary file which is an encoded version
- >of a mac file so the Resource fork and Data fork get preserved.
- >You need a program that converts this to a regular file. If this is a
- >macbinary file, you may have downloaded it in Text mode and is probably
- >corrupt (if you did). If you're using FTP to transfer it at any point make sure
+ >this is almost certainly a macbinary file which is an encoded version
+ >of a mac file so the resource fork and data fork get preserved.
+ >you need a program that converts this to a regular file. if this is a
+ >macbinary file, you may have downloaded it in text mode and is probably
+ >corrupt (if you did). if you're using ftp to transfer it at any point make sure
  >you type "binary" first.
  
- >If you can open the file with a text editor and find
- >(This file must be converted with Bin....
- >at the top, it is a BinHex file and can be decoded with
- >BinHex 4.0 (among other programs).
+ >if you can open the file with a text editor and find
+ >(this file must be converted with bin....
+ >at the top, it is a binhex file and can be decoded with
+ >binhex 4.0 (among other programs).
  
- I opened the file with a text editor and it looks like:
+ i opened the file with a text editor and it looks like:
  
- ^Vnetwork storyboardpictPICT8BIM^E^......
+ ^vnetwork storyboardpictpict8bim^e^......
  
- I have already tried BinHex which does not seem to work. 
- Any other ideas?
+ i have already tried binhex which does not seem to work. 
+ any other ideas?
  
  >-- 
- >Niko Schuessler               
- >Project Vincent Systems Manager              email: niko@iastate.edu
- >Iowa State University Computation Center     voice: (515) 294-1672
- >Ames IA 50011                                snail: 291 Durham 
+ >niko schuessler               
+ >project vincent systems manager              email: niko@iastate.edu
+ >iowa state university computation center     voice: (515) 294-1672
+ >ames ia 50011                                snail: 291 durham 
  -- 
  
  
  \|/--_   -_-      ----           ###         _- ----------------------
- -0    -_-   --       -__ %~- ____#0        _-   Elizabeth Strickler
+ -0    -_-   --       -__ %~- ____#0        _-   elizabeth strickler
  |\     ^                 0\~     /\   /\  -     
  |_(___/ \_    ||_________/     _/  |_/  \_      matess@gsusgi1.gsu.edu 
  

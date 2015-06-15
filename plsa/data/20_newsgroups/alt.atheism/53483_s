@@ -1,19 +1,19 @@
 
- In article <930419.122738.5s2.rusnews.w165w@mantis.co.uk>, mathew
+ in article <930419.122738.5s2.rusnews.w165w@mantis.co.uk>, mathew
  <mathew@mantis.co.uk> wrote:
  > 
- > lpzsml@unicorn.nott.ac.uk (Steve Lang) writes:
- > > Values can also refer to meaning.  For example in computer science the
- > > value of 1 is TRUE, and 0 is FALSE.
+ > lpzsml@unicorn.nott.ac.uk (steve lang) writes:
+ > > values can also refer to meaning.  for example in computer science the
+ > > value of 1 is true, and 0 is false.
  > 
- > Not in Lisp.
+ > not in lisp.
  
- True, all you need to define is one statement that defined one
+ true, all you need to define is one statement that defined one
  polarity, and all the other states are considered the other
- polarity. Then again what is the meaning of nil, false or true :-) ?
+ polarity. then again what is the meaning of nil, false or true :-) ?
  
- Cheers,
- Kent
+ cheers,
+ kent
  ---
- sandvik@newton.apple.com. ALink: KSAND -- Private activities on the net.
+ sandvik@newton.apple.com. alink: ksand -- private activities on the net.
  

@@ -1,10 +1,10 @@
 
- Do all SCSI cards for DOS systems require a separate device driver to be loaded
- into memory for each SCSI device hooked up?  Will this also be true of the 32-bit
- OS's?
+ do all scsi cards for dos systems require a separate device driver to be loaded
+ into memory for each scsi device hooked up?  will this also be true of the 32-bit
+ os's?
  
- Thanks.
+ thanks.
  
- Randy
+ randy
  
  

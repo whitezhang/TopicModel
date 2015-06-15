@@ -1,27 +1,27 @@
 
- >In article <930424031634.176183@DOCKMASTER.NCSC.MIL> Grant@DOCKMASTER.NCSC.MIL (Lynn R Grant) writes:
+ >in article <930424031634.176183@dockmaster.ncsc.mil> grant@dockmaster.ncsc.mil (lynn r grant) writes:
  >
- >About 50 people so far have asked, "Once the FBI gets your Clipper keys,
+ >about 50 people so far have asked, "once the fbi gets your clipper keys,
  >won't they be able to read all your future and past traffic?"
  >
- >There has been no response from NIST, NSA, Ms. Denning, Mr. Hellman, or
+ >there has been no response from nist, nsa, ms. denning, mr. hellman, or
  >anyone else who might be able to give us an authoritative answer.
- >This is troubling.
+ >this is troubling.
   
-    It was implied in the first technical posting by Dorothy Denning that the
- FBI would do the decryption *for* the law enforcement agencies.  It wasn't
+    it was implied in the first technical posting by dorothy denning that the
+ fbi would do the decryption *for* the law enforcement agencies.  it wasn't
  clear to me from the post whether this would be done in realtime or not, or
- whether the FBI would just decrypt the session keys for the locals, or would
+ whether the fbi would just decrypt the session keys for the locals, or would
  do the whole message.
   
-    One thing I'm a bit puzzled by:  Why aren't they doing this with a public
- key scheme of some sort?  You could generate two uniqe public/private pairsor
- for each chip.  Then, escrow the private keys with the escrow agencies.  Set
- the protocol up to encrypt the session key with both public keys.  To decrypt
- a message, both escrow agencies (in the right order, for most PK schemes)
- have to decrypt with the escrowed private key.  This way, there wouldn't be
+    one thing i'm a bit puzzled by:  why aren't they doing this with a public
+ key scheme of some sort?  you could generate two uniqe public/private pairsor
+ for each chip.  then, escrow the private keys with the escrow agencies.  set
+ the protocol up to encrypt the session key with both public keys.  to decrypt
+ a message, both escrow agencies (in the right order, for most pk schemes)
+ have to decrypt with the escrowed private key.  this way, there wouldn't be
  thecconcern that, once the police had asked fo  a warrant/wiretap, they
  would have your key forver.
   
-    --John Kelsey
+    --john kelsey
  

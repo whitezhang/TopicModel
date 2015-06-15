@@ -1,26 +1,26 @@
 
- In article farley@access.digex.com (Charles U. Farley) writes:
- >I installed the s/w for my ATI graphics card, and it bashed my Windows
- >logo files.  When I start Windows now, it has the 3.0 logo instead of
+ in article farley@access.digex.com (charles u. farley) writes:
+ >i installed the s/w for my ati graphics card, and it bashed my windows
+ >logo files.  when i start windows now, it has the 3.0 logo instead of
  >the 3.1 logo.
- >I thought the files that controlled this were
- >\WINDOWS\SYSTEM\VGALOGO.RLE
- >\WINDOWS\SYSTEM\VGALOGO.LGO	
- >I restored these files, but it didn't change the logo.  Anyone know what
+ >i thought the files that controlled this were
+ >\windows\system\vgalogo.rle
+ >\windows\system\vgalogo.lgo	
+ >i restored these files, but it didn't change the logo.  anyone know what
  >the correct files are?
  
- For a VGA card these are the correct files but you can't just copy them
- back and expect it to work.  You have to create a new WIN.COM file.  Try
+ for a vga card these are the correct files but you can't just copy them
+ back and expect it to work.  you have to create a new win.com file.  try
  the command (you will have to worry about what directories each file is in
- since I don't know your setup):
+ since i don't know your setup):
  
- COPY /B WIN.CNF+VGALOGO.LGO+VGALOGO.RLE WIN.COM
+ copy /b win.cnf+vgalogo.lgo+vgalogo.rle win.com
  
- (I grabbed this from _Supercharging Windows_ by Judd Robbins--great book)
- This is also how you can put your own logo into the Windows startup screen.
- An RLE file is just a specially compressed BMP file.
+ (i grabbed this from _supercharging windows_ by judd robbins--great book)
+ this is also how you can put your own logo into the windows startup screen.
+ an rle file is just a specially compressed bmp file.
  
- Hope this helps
+ hope this helps
  -- 
- Brad Smalling :: Jr.EE :: GA Tech :: Atlanta, GA :: gt2617c@prism.gatech.edu
+ brad smalling :: jr.ee :: ga tech :: atlanta, ga :: gt2617c@prism.gatech.edu
  

@@ -1,30 +1,30 @@
 
- In article <7480224@hpfcso.FC.HP.COM> myers@hpfcso.FC.HP.COM (Bob Myers) writes:
- >situation sometimes called "block" sync).  You can generate such a combined
- >(or "composite") sync in two simple ways - OR the H. and V. syncs together,
- >which gives you the non-serrated "block" sync, or EXOR them, which makes
- >serrations.  (Try it!)  Actually, the EXOR doesn't really do kosher serrated
- >sync, since it puts the rising (and falling, for that matter) edge of the H. 
- >sync pulse off by a pulse width.  But that usually makes no difference.
+ in article <7480224@hpfcso.fc.hp.com> myers@hpfcso.fc.hp.com (bob myers) writes:
+ >situation sometimes called "block" sync).  you can generate such a combined
+ >(or "composite") sync in two simple ways - or the h. and v. syncs together,
+ >which gives you the non-serrated "block" sync, or exor them, which makes
+ >serrations.  (try it!)  actually, the exor doesn't really do kosher serrated
+ >sync, since it puts the rising (and falling, for that matter) edge of the h. 
+ >sync pulse off by a pulse width.  but that usually makes no difference.
  
- Sometimes.  It depends on your monitor and your timing.  If you don't
- have enough vertical front porch and you use XOR composite sync you can
+ sometimes.  it depends on your monitor and your timing.  if you don't
+ have enough vertical front porch and you use xor composite sync you can
  get even/odd tearing at the top of the screen, which is very sensitive
- to the HHOLD control.  It looks like what you would expect if you
+ to the hhold control.  it looks like what you would expect if you
  scanned the even fields (say) onto a sheet of mylar and had pinched the
  upper left corner with your fingers and started to tear it off the tube. 
- With proper composite sync (equalizing pulses) the interlace is rock
+ with proper composite sync (equalizing pulses) the interlace is rock
  solid. 
  
  -- 
  +----------------+
- ! II      CCCCCC !  Jim Cathey
- ! II  SSSSCC     !  ISC-Bunker Ramo
- ! II      CC     !  TAF-C8;  Spokane, WA  99220
- ! IISSSS  CC     !  UUCP: uunet!isc-br!jimc (jimc@isc-br.isc-br.com)
- ! II      CCCCCC !  (509) 927-5757
+ ! ii      cccccc !  jim cathey
+ ! ii  sssscc     !  isc-bunker ramo
+ ! ii      cc     !  taf-c8;  spokane, wa  99220
+ ! iissss  cc     !  uucp: uunet!isc-br!jimc (jimc@isc-br.isc-br.com)
+ ! ii      cccccc !  (509) 927-5757
  +----------------+
- 			One Design to rule them all; one Design to find them.
- 			One Design to bring them all and in the darkness bind
- 			them.  In the land of Mediocrity where the PC's lie.
+ 			one design to rule them all; one design to find them.
+ 			one design to bring them all and in the darkness bind
+ 			them.  in the land of mediocrity where the pc's lie.
  

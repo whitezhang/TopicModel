@@ -1,21 +1,21 @@
 
- ** I am posting this for a friend **
+ ** i am posting this for a friend **
  ** please respond to vaughn%sonatech@hub.ucsb.edu **
  
- I'm working on an application where we are creating a dither pattern 
+ i'm working on an application where we are creating a dither pattern 
  and rendering it in a window by applying it to the stipple pattern 
- of the GC.  The following code segment almost works if the window width 
- is an even multiple of 8.  If it is not an even multiple it skews the 
- pattern towards the right.  Another problem, whether it is an even 
+ of the gc.  the following code segment almost works if the window width 
+ is an even multiple of 8.  if it is not an even multiple it skews the 
+ pattern towards the right.  another problem, whether it is an even 
  multiple of 8 or not, is a series of vertical lines spaced 8 pixels 
  apart.
  
  
- extern	Display	       *dpy;
- extern	Window		xid;
- extern	GC		gc;
+ extern	display	       *dpy;
+ extern	window		xid;
+ extern	gc		gc;
  
- extern	int	Max_X, Max_Y;		/* set in resize handler	*/
+ extern	int	max_x, max_y;		/* set in resize handler	*/
  
  dither(pixels)
  
@@ -24,17 +24,17 @@
  	{
  	char	*bm;			/* bitmap data			*/
  	char    *bmp;
- 	long	 I, arraymax;
+ 	long	 i, arraymax;
  
  
- 	arraymax = Max_X*Max_Y;
+ 	arraymax = max_x*max_y;
  
  	bm  = (char *)malloc(arraymax);
  	bmp = bm;
  
- 	for (I=j=0; I<arraymax; I++)
+ 	for (i=j=0; i<arraymax; i++)
  		{
- 		if (pixels[I] & DITHER_BIT)
+ 		if (pixels[i] & dither_bit)
  			*bmp |=   2<<j;		/* pixel on		*/
  		else
  			*bmp &= ~(2<<j);	/* pixel off		*/
@@ -46,20 +46,20 @@
  			}
  		}
  
- 	stipple = XCreateBitmapFromData(dpy, xid, bm, Max_X, Max_Y);
+ 	stipple = xcreatebitmapfromdata(dpy, xid, bm, max_x, max_y);
  	free(bm);
  
- 	XClearWindow(dpy, xid);
+ 	xclearwindow(dpy, xid);
  
- 	XSetStipple(dpy, gc, stipple);
- 	XSetFillStyle(dpy, gc, FillStippled);
- 	XFillRectangle(dpy, xid, gc, 0, 0, Max_X, Max_Y);
- 	XSetFillStyle(dpy, gc, FillSolid);
+ 	xsetstipple(dpy, gc, stipple);
+ 	xsetfillstyle(dpy, gc, fillstippled);
+ 	xfillrectangle(dpy, xid, gc, 0, 0, max_x, max_y);
+ 	xsetfillstyle(dpy, gc, fillsolid);
  	}
  
- I suspect the answer is to pad the data.
+ i suspect the answer is to pad the data.
  
  --
- Mike Vaughn
- Sonatech
+ mike vaughn
+ sonatech
  

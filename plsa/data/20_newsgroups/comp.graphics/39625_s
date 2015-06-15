@@ -1,16 +1,16 @@
 
  
-       I was skimming through a few gophers and bumped into one at NIH
-    with a database that included images in .GIF format.  While I have
+       i was skimming through a few gophers and bumped into one at nih
+    with a database that included images in .gif format.  while i have
     not yet worked out the kinks of getting the gopher client to call
-    an X viewer, I figure that the majority of the users here are not
-    in an X11 environment - instead using DOS and MS-Kermit.
+    an x viewer, i figure that the majority of the users here are not
+    in an x11 environment - instead using dos and ms-kermit.
  
-       With Kermit supporting Tek4010 emulation for graphics display,
-    does anyone know of a package that would allow a Tek to display a
-    .GIF image?  It would be of more use to the local population to
+       with kermit supporting tek4010 emulation for graphics display,
+    does anyone know of a package that would allow a tek to display a
+    .gif image?  it would be of more use to the local population to
     plug something of this sort in as the 'picture' command instead of
-    XView or XLoadImage ...
+    xview or xloadimage ...
  
        andrew.  (brennan@hal.hahnemann.edu)
  

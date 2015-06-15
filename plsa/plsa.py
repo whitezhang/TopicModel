@@ -93,7 +93,7 @@ class Plsa(object):
 		self.model_path = model_path
 		self.L = 0.0 # log-likelihood
 		self.error_L = 0.0001; # error for each iter
-		self.corpus = corpus		
+		self.corpus = corpus
 
 		print self.n_d, self.n_w
 		# bag of words

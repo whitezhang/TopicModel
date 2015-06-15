@@ -1,29 +1,29 @@
 
   
- In article <16APR93.02280936@vax.clarku.edu> rmohns@vax.clarku.edu writes:
- >This is in relation to a question concerning changing the registered to: 
- >information of MS-Windows...
+ in article <16apr93.02280936@vax.clarku.edu> rmohns@vax.clarku.edu writes:
+ >this is in relation to a question concerning changing the registered to: 
+ >information of ms-windows...
  >
- >In a previous article, 2a42dubinski@vms.csd.mu.edu wrote:
+ >in a previous article, 2a42dubinski@vms.csd.mu.edu wrote:
  >> 
- >>	ahh, yes, this is a fun topic.  No, once the name is incribed on the
- >>disk, that is it, it is encoded.  Not even a HEX editor will find it.  You can
- >>write over the "Licensed to:", but you can't change the name underneth it.  I
+ >>	ahh, yes, this is a fun topic.  no, once the name is incribed on the
+ >>disk, that is it, it is encoded.  not even a hex editor will find it.  you can
+ >>write over the "licensed to:", but you can't change the name underneth it.  i
  >
- >I can find it with a HEX editor, although I have not tried to overwrite it.
- >Are you sure it can't be?  You may be mistaken about this. (???)
+ >i can find it with a hex editor, although i have not tried to overwrite it.
+ >are you sure it can't be?  you may be mistaken about this. (???)
  
- You can change it. As part of a continuously downsizing Government
- organization, my code (branch) changes about once a year. I just
- finished changing the registration information using Norton Utilities.
- I sent the original requester the hex offset into USER.EXE containing
+ you can change it. as part of a continuously downsizing government
+ organization, my code (branch) changes about once a year. i just
+ finished changing the registration information using norton utilities.
+ i sent the original requester the hex offset into user.exe containing
  the information, and his reply indicated he got several similar answers.
  
- And it's not encoded in any way. As for the legality, there's nothing
+ and it's not encoded in any way. as for the legality, there's nothing
  that keeps me from changing the information; it certainly doesn't reach
  out and alter the serial number printed on the inside of my manual.
  
  --
- Jim Moore 
- Panama City, FL
+ jim moore 
+ panama city, fl
  

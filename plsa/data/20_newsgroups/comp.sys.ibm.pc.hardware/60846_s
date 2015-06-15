@@ -1,30 +1,30 @@
 
- *** On 04-20-93  21:56, Tim King had the unmitigated gall to say this:
+ *** on 04-20-93  21:56, tim king had the unmitigated gall to say this:
  
-  TK> accidentally discovered that if a have a floppy from ONE particular
-  TK> box of diskettets in the A drive when I boot up, rather than getting
-  TK> the "Non-system diskette" message, the machine hangs and the CMOS
-  TK> gets overwritten (luckily, Gateway sends a print of the standard
+  tk> accidentally discovered that if a have a floppy from one particular
+  tk> box of diskettets in the a drive when i boot up, rather than getting
+  tk> the "non-system diskette" message, the machine hangs and the cmos
+  tk> gets overwritten (luckily, gateway sends a print of the standard
  
- Just a wild thought here, but how about this: there is a small boot program
- on every formatted diskette, whether or not it contains system files.  It is
- this small program that prints the "Non-System Disk" error, not DOS.  If
- this program tries to transfer control to a BIOS location that is
- nonstandard on the Gateway, then it could clear the BIOS.
+ just a wild thought here, but how about this: there is a small boot program
+ on every formatted diskette, whether or not it contains system files.  it is
+ this small program that prints the "non-system disk" error, not dos.  if
+ this program tries to transfer control to a bios location that is
+ nonstandard on the gateway, then it could clear the bios.
  
- I don't think that the BIOS is overwritten, there is usually a small routine
- to clear the CMOS area, in case an invalid configuration prevents the
- machine from booting.  I think that the boot code on the Fuji disks may
+ i don't think that the bios is overwritten, there is usually a small routine
+ to clear the cmos area, in case an invalid configuration prevents the
+ machine from booting.  i think that the boot code on the fuji disks may
  inadvertantly call this routine.
  
- Just a thought.
+ just a thought.
  
- ... Don't hit me, Mr. Moderator... I'll go back on topic... I swear!
- --- Blue Wave/QWK v2.10
+ ... don't hit me, mr. moderator... i'll go back on topic... i swear!
+ --- blue wave/qwk v2.10
                                                                               
  ----
- The Ozone Hole BBS * A Private Bulletin Board Service * (504)891-3142
- 3 Full Service Nodes * USRobotics 16.8K bps * 10 Gigs * 100,000 Files
- SKYDIVE New Orleans! * RIME Network Mail HUB * 500+ Usenet Newsgroups
- Please route all questions or inquiries to:  postmaster@ozonehole.com
+ the ozone hole bbs * a private bulletin board service * (504)891-3142
+ 3 full service nodes * usrobotics 16.8k bps * 10 gigs * 100,000 files
+ skydive new orleans! * rime network mail hub * 500+ usenet newsgroups
+ please route all questions or inquiries to:  postmaster@ozonehole.com
  

@@ -1,77 +1,77 @@
 
- Greetings,
+ greetings,
  
  
- I am using an X server that provides 3 visuals:
- PseudoColor 8 bit, Truecolor 24 bit and DirectColor 24 bit.
+ i am using an x server that provides 3 visuals:
+ pseudocolor 8 bit, truecolor 24 bit and directcolor 24 bit.
  
- A problem occurs when I try to create a window with a visual that is different
- from the visual of the parent (which uses the default visual which is TC24).
+ a problem occurs when i try to create a window with a visual that is different
+ from the visual of the parent (which uses the default visual which is tc24).
  
- In the Xlib reference guide from 'O reilly one can read in the
- section about XCteateWindow, something like:
- "In the current implementation of X11: When using a visual other than the
+ in the xlib reference guide from 'o reilly one can read in the
+ section about xcteatewindow, something like:
+ "in the current implementation of x11: when using a visual other than the
  parent's, be sure to create or find a suitable colourmap which is to be used 
- in the window attributes when creating, or else a BadMatch occurs."
+ in the window attributes when creating, or else a badmatch occurs."
  
- This warning, strangely enough, is only mentioned in the newer editions
- of the X11R5 guides.
+ this warning, strangely enough, is only mentioned in the newer editions
+ of the x11r5 guides.
  
- However, even if I pass along a suitable colourmap, I still get a BadMatch
- when I create a window with a non-default visual.
- The code looks like this:
+ however, even if i pass along a suitable colourmap, i still get a badmatch
+ when i create a window with a non-default visual.
+ the code looks like this:
  
- ------------------ cut here and you'll destroy your CRT ----------------
+ ------------------ cut here and you'll destroy your crt ----------------
  
- Window create_8bit_window_on_truecolour_display(dpy,width,height)
- Display *dpy;
+ window create_8bit_window_on_truecolour_display(dpy,width,height)
+ display *dpy;
  int width, height;
  {
-   Window win;
-   XVisualInfo vinfo;
-   XSetWindowAttributes attr;
+   window win;
+   xvisualinfo vinfo;
+   xsetwindowattributes attr;
  
-   fprintf(stderr,"Opening 8 bit window...\n");
-   if (!XMatchVisualInfo(dpy,DefaultScreen(dpy),8,PseudoColor,&vinfo)) {
-     fprintf(stderr,"Your display can't handle 8 bit PseudoColor.\n");
+   fprintf(stderr,"opening 8 bit window...\n");
+   if (!xmatchvisualinfo(dpy,defaultscreen(dpy),8,pseudocolor,&vinfo)) {
+     fprintf(stderr,"your display can't handle 8 bit pseudocolor.\n");
      exit(1);
    }
-   fprintf(stderr,"Using visual: %x\n",vinfo.visual->visualid);
-   cmap = XCreateColormap(
+   fprintf(stderr,"using visual: %x\n",vinfo.visual->visualid);
+   cmap = xcreatecolormap(
             dpy,
-            DefaultRootWindow(dpy),
+            defaultrootwindow(dpy),
             vinfo.visual,
-            AllocNone
+            allocnone
           );
-   XSync(dpy,False);
-   XInstallColormap(dpy,cmap);	/* ommision of this line gives same result */
+   xsync(dpy,false);
+   xinstallcolormap(dpy,cmap);	/* ommision of this line gives same result */
    attr.colormap = cmap;
-   win = XCreateWindow(
+   win = xcreatewindow(
            dpy,
-           DefaultRootWindow(dpy),
+           defaultrootwindow(dpy),
            10,10,
            width,height,
-           CopyFromParent,       /* border width */
+           copyfromparent,       /* border width */
            8,                    /* depth */
-           InputOutput,          /* class */
+           inputoutput,          /* class */
            vinfo.visual,         /* visual */
-           CWColormap,
+           cwcolormap,
            &attr
          );
    return win;
  }
  
- --- cut here and you'll destroy your CRT -----
+ --- cut here and you'll destroy your crt -----
  
- Executing this piece of code results in a BadMatch error.
- Anybody who knows why?
- If so, please drop me a line.
- 
- 
- 
- 	Take care,
+ executing this piece of code results in a badmatch error.
+ anybody who knows why?
+ if so, please drop me a line.
  
  
- 		Bram Stolk
+ 
+ 	take care,
+ 
+ 
+ 		bram stolk
  		stolk@fwi.uva.nl
  

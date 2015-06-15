@@ -1,27 +1,27 @@
 
- Hello,
+ hello,
  
- in the EDN magazine I found a note about the new C&T 82C735
- I/O Controller. It support several parallel port protocols,
+ in the edn magazine i found a note about the new c&t 82c735
+ i/o controller. it support several parallel port protocols,
  including
- 	Fast Centronics
- 	Microsoft Enhanced Capabilities Protocol (ECP)
- 	Enhanced Parallel Port (EPP)
- The last two handle data rates up to 2Mbytes/sec.
+ 	fast centronics
+ 	microsoft enhanced capabilities protocol (ecp)
+ 	enhanced parallel port (epp)
+ the last two handle data rates up to 2mbytes/sec.
  
- Is there any specification about these protocols available?
+ is there any specification about these protocols available?
  
- Regards,
+ regards,
  
- 	Christian Franke
+ 	christian franke
  
- 	Aachen University of Technology
- 	Informatik I
- 	Ahornstrasse 55
- 	W-5100 Aachen
- 	Germany
- 	Tel.: +49.241.80-21111
- 	E-Mail: franke@informatik.rwth-aachen.de
+ 	aachen university of technology
+ 	informatik i
+ 	ahornstrasse 55
+ 	w-5100 aachen
+ 	germany
+ 	tel.: +49.241.80-21111
+ 	e-mail: franke@informatik.rwth-aachen.de
  
  
  

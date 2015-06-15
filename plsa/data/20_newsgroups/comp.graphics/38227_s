@@ -1,25 +1,25 @@
 
- In article <734553308snx@rjck.UUCP> rob@rjck.UUCP (Robert J.C. Kyanko) writes:
- >gchen@essex.ecn.uoknor.edu writes in article <C55DoH.2AI@constellation.ecn.uoknor.edu>:
+ in article <734553308snx@rjck.uucp> rob@rjck.uucp (robert j.c. kyanko) writes:
+ >gchen@essex.ecn.uoknor.edu writes in article <c55doh.2ai@constellation.ecn.uoknor.edu>:
  >> 
- >> Greetings!
+ >> greetings!
  >> 
- >> Does anybody know if it is possible to set VGA graphics mode to 640x400
- >> instead of 640x480?  Any info is appreciated!
+ >> does anybody know if it is possible to set vga graphics mode to 640x400
+ >> instead of 640x480?  any info is appreciated!
  >
- >Some VESA bios's support this mode (0x100).  And *any* VGA should be able to
+ >some vesa bios's support this mode (0x100).  and *any* vga should be able to
  >support this (640x480 by 256 colors) since it only requires 256,000 bytes.
- >My 8514/a VESA TSR supports this; it's the only VESA mode by card can support
- >due to 8514/a restrictions. (A WD/Paradise)
+ >my 8514/a vesa tsr supports this; it's the only vesa mode by card can support
+ >due to 8514/a restrictions. (a wd/paradise)
  >
  >--
- >I am not responsible for anything I do or say -- I'm just an opinion.
- >             Robert J.C. Kyanko (rob@rjck.UUCP)
+ >i am not responsible for anything i do or say -- i'm just an opinion.
+ >             robert j.c. kyanko (rob@rjck.uucp)
  
- 	Ahh no.  Possibly you punched in the wrong numbers on your
+ 	ahh no.  possibly you punched in the wrong numbers on your
  calculator.  256 color modes take a byte per pixel so 640 time 480 is
- 307,200 which is 300k to be exact.  640x400x256 only takes 250k but I
- don't think it is a BIOS mode.  I wouldn't bet that all VGA cards can do
- that either.  If a VGA card has 512k I bet it can do both 640x400 and
- 640x480.  That by definition is SVGA, though not very high SVGA.
+ 307,200 which is 300k to be exact.  640x400x256 only takes 250k but i
+ don't think it is a bios mode.  i wouldn't bet that all vga cards can do
+ that either.  if a vga card has 512k i bet it can do both 640x400 and
+ 640x480.  that by definition is svga, though not very high svga.
  

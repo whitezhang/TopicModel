@@ -1,28 +1,28 @@
 
- hades@coos.dartmouth.edu (Brian V. Hughes) writes:
+ hades@coos.dartmouth.edu (brian v. hughes) writes:
  
  >jbailey@world.std.com (jim bailey) writes:
  
- >>b-clark@nwu.edu (Brian Clark) writes:
+ >>b-clark@nwu.edu (brian clark) writes:
  
- >>>Quarda 900 is a popular misspelling of Quadra 900, which has a 25 MHz 040
- >>>processor. The 950 has a 33 MHz 040, and some local buses on the
+ >>>quarda 900 is a popular misspelling of quadra 900, which has a 25 mhz 040
+ >>>processor. the 950 has a 33 mhz 040, and some local buses on the
  >>>motherboard run faster.
  
- >>The video is different also.  The 950 can run a 13" and I believe a 16"
- >>monitor in 16 bit color without a VRAM upgrade.
+ >>the video is different also.  the 950 can run a 13" and i believe a 16"
+ >>monitor in 16 bit color without a vram upgrade.
  
- >    Actually, you could put as much VRAM into a Q900 as you want and you
- >still won't be able to get 16-bit color, on any monitor. It's not part
- >of the on-board video. The Q950, however, can use 16-bit video on
- >monitors up to 19" with 2MB of VRAM.
+ >    actually, you could put as much vram into a q900 as you want and you
+ >still won't be able to get 16-bit color, on any monitor. it's not part
+ >of the on-board video. the q950, however, can use 16-bit video on
+ >monitors up to 19" with 2mb of vram.
  
- >-Hades
+ >-hades
  
  
- Yes, but if you upgrade the VRAM in a 900 you get 24 bit color.  So
- you really don't care.  My point is that out the box the 950 has
- more video capability for the same size monitors.  The 900 can
+ yes, but if you upgrade the vram in a 900 you get 24 bit color.  so
+ you really don't care.  my point is that out the box the 950 has
+ more video capability for the same size monitors.  the 900 can
  do 24 bit with both 13" and 16", doesn't support 19", and
  does 8 bit on 21" monitors.
  

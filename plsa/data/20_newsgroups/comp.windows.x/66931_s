@@ -1,19 +1,19 @@
 
- In article <C55zLo.7wA@world.std.com> oj@world.std.com (Oliver Jones) writes:
- <In article <118590@netnews.upenn.edu> mcclenne@dingdong.cis.upenn.edu (nennelccM nodroG) writes:
+ in article <c55zlo.7wa@world.std.com> oj@world.std.com (oliver jones) writes:
+ <in article <118590@netnews.upenn.edu> mcclenne@dingdong.cis.upenn.edu (nennelccm nodrog) writes:
  <>
- <>Does anyone out there know how to change the maximum request size for
+ <>does anyone out there know how to change the maximum request size for
  <>a server 
  <
- <It is ordinarily set to the highest value the underlying OS can
+ <it is ordinarily set to the highest value the underlying os can
  
- Yes, and you don't want to change this value if you're running Image type
+ yes, and you don't want to change this value if you're running image type
  applications.  
  
  
  -- 
-     _---_     Steve  
+     _---_     steve  
     / o o \    hsteve@hydra.unm.edu, hsteve@carina.unm.edu
    | \___/ |   
-               Just say NO to VMS!!
+               just say no to vms!!
  

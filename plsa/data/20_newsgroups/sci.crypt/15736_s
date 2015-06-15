@@ -1,13 +1,13 @@
 
- In the article "At last! Now you can talk to your computer." in the May
- issue of FORTUNE magazine, it was mentioned that phoneme prediction
- used Hidden Markov Modeling.  This was the statistical method that Markov
- developed to predict letter sequences in Pushkin's novel, _Eugene Onegin_.
- It was then said that this technique worked so well that the NSA used
+ in the article "at last! now you can talk to your computer." in the may
+ issue of fortune magazine, it was mentioned that phoneme prediction
+ used hidden markov modeling.  this was the statistical method that markov
+ developed to predict letter sequences in pushkin's novel, _eugene onegin_.
+ it was then said that this technique worked so well that the nsa used
  it to crack codes.
- Does anyone have any references for HMM and how the NSA used it?
- Or is this just an extension of the letter frequency tables that we
+ does anyone have any references for hmm and how the nsa used it?
+ or is this just an extension of the letter frequency tables that we
  are all using anyway?
  
- Joe	pjhong@clio.rad.sunysb.edu
+ joe	pjhong@clio.rad.sunysb.edu
  

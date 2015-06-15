@@ -1,70 +1,70 @@
 
- pmetzger@snark.shearson.com (Perry E. Metzger) writes:
- > If the Clipper chip can do cheap crypto for the masses, obviously one 
- > could do the same thing WITHOUT building in back doors. 
+ pmetzger@snark.shearson.com (perry e. metzger) writes:
+ > if the clipper chip can do cheap crypto for the masses, obviously one 
+ > could do the same thing without building in back doors. 
  
- I agree.  So why is Cylink the only (and expensive) game in town?
+ i agree.  so why is cylink the only (and expensive) game in town?
  
- Note: I think Cylink is great, and if my boss would double my salary, I'd buy 
+ note: i think cylink is great, and if my boss would double my salary, i'd buy 
  a bunch of their stuff :).
  
- One thing that Clipper offers is interoperability, at a higher degree of 
+ one thing that clipper offers is interoperability, at a higher degree of 
  security than we currently have in non-proprietary voice encryption systems.
- This means it will be cheaper than anyone's proprietary scheme, and easier to 
- deploy.  This is, of course, either a bug or a feature depending on how you 
+ this means it will be cheaper than anyone's proprietary scheme, and easier to 
+ deploy.  this is, of course, either a bug or a feature depending on how you 
  look at it :).
  
- > Indeed, even without special engineering, you can construct a good 
- > system right now. A standard codec chip, a chip to do vocoding, a DES 
- > chip, a V32bis integrated modem module, and a small processor to do 
+ > indeed, even without special engineering, you can construct a good 
+ > system right now. a standard codec chip, a chip to do vocoding, a des 
+ > chip, a v32bis integrated modem module, and a small processor to do 
  > glue work, are all you need to have a secure phone.
  
- Great!  Where can I buy it?
+ great!  where can i buy it?
  
- Another note: If "Clipper" increases the incentive to bring stronger 
- encryption to the mass market, all the better.  It's far overpriced at 
+ another note: if "clipper" increases the incentive to bring stronger 
+ encryption to the mass market, all the better.  it's far overpriced at 
  the moment.
  
- > Yes, cheap crypto is good -- but we don't need it from the government.
+ > yes, cheap crypto is good -- but we don't need it from the government.
  
- I don't care where we *need* to get it from, I care where we *can* get it 
+ i don't care where we *need* to get it from, i care where we *can* get it 
  from, and whether it will interoperate with everyone else.
   
- > Indeed, were it not for the government doing everything possible to 
- > stop them, Qualcomm would have designed strong encryption right in to 
- > the CDMA cellular phone system they are pioneering. Were it not for the 
- > NSA and company, cheap encryption systems would be everywhere. As it 
- > is, they try every trick in the book to stop it. Had it not been for 
- > them, I'm sure cheap secure phones would be out right now. 
+ > indeed, were it not for the government doing everything possible to 
+ > stop them, qualcomm would have designed strong encryption right in to 
+ > the cdma cellular phone system they are pioneering. were it not for the 
+ > nsa and company, cheap encryption systems would be everywhere. as it 
+ > is, they try every trick in the book to stop it. had it not been for 
+ > them, i'm sure cheap secure phones would be out right now. 
  
- You can build them right now as long as you don't want to export (a 
- restriction I firmly oppose).  The only thing stopping people from making 
+ you can build them right now as long as you don't want to export (a 
+ restriction i firmly oppose).  the only thing stopping people from making 
  cheap encryption is greed: they want a lock on the market.
  
- > They aren't the ones making cheap crypto available. They are the ones 
- > keeping cheap crypto out of people's hands. When they hand you a 
+ > they aren't the ones making cheap crypto available. they are the ones 
+ > keeping cheap crypto out of people's hands. when they hand you a 
  > clipper chip, what you are getting is a mess of pottage -- your prize 
  > for having traded in your birthright. 
  
- Oh, come on.  Only if you trust it farther than it deserves.  A Clipper phone 
- *IS NOT* a substitute for a Cylink phone, or a STU-III.  It's a substitute 
- for the "voice scramblers" advertised in the back of Radio Electronics.
+ oh, come on.  only if you trust it farther than it deserves.  a clipper phone 
+ *is not* a substitute for a cylink phone, or a stu-iii.  it's a substitute 
+ for the "voice scramblers" advertised in the back of radio electronics.
  
- > Are we getting cheaper crypto 
- > for ourselves? No, because the market would have provided that on its 
+ > are we getting cheaper crypto 
+ > for ourselves? no, because the market would have provided that on its 
  > own had they not deliberately sabotaged it.
  
- I disagree.  Modulo ITAR, it's not the government that has sabotaged the 
+ i disagree.  modulo itar, it's not the government that has sabotaged the 
  market.
  
- > Someone please tell me what exactly we get in our social contract in 
+ > someone please tell me what exactly we get in our social contract in 
  > exchange for giving up our right to strong cryptography? 
  
- Can you tell me where exactly we have given up that right?
+ can you tell me where exactly we have given up that right?
  
  
- Amanda Walker
- InterCon Systems Corporation
+ amanda walker
+ intercon systems corporation
  
  
  

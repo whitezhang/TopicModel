@@ -1,33 +1,33 @@
 
  
  
- 	I'm looking for a program that will let me use a windows
- common dialog box to select a file to use when running a DOS app.
+ 	i'm looking for a program that will let me use a windows
+ common dialog box to select a file to use when running a dos app.
  
- 	Basically, I have several DOS apps that I use now and then
- with different files.  They all accept a file as a command line 
- parameter, but the only way (at least that I know of) to do this
- easily when running them from windows is to set up the PIF file so
- that it prompts me for additional parameters (at which point I type 
+ 	basically, i have several dos apps that i use now and then
+ with different files.  they all accept a file as a command line 
+ parameter, but the only way (at least that i know of) to do this
+ easily when running them from windows is to set up the pif file so
+ that it prompts me for additional parameters (at which point i type 
  in the file name).  
  
- Problems are:
+ problems are:
  
- 	1) Sometimes I can't remember where the file is exactly located and it
+ 	1) sometimes i can't remember where the file is exactly located and it
  would be nice to browse my directories for it without having to use the
  file manager.
  	
-     and 2) I'm lazy and hate to type long pathnames for files burried 
+     and 2) i'm lazy and hate to type long pathnames for files burried 
  several directory levels deep.
  
- 	If anyone can point me to such a program or let me know of some
- other way to handle this, I'd appreciate it.
+ 	if anyone can point me to such a program or let me know of some
+ other way to handle this, i'd appreciate it.
  
- Thanks,
+ thanks,
  
- Tim
+ tim
  -- 
- 	The Net isn't organized enough to be considered an anarchy
+ 	the net isn't organized enough to be considered an anarchy
  
    reczek@autarch.acsu.buffalo.edu
  

@@ -1,18 +1,18 @@
 
- In <1993May9.225637.42641@datamark.co.nz> thomas@datamark.co.nz (Thomas Beagle) writes:
+ in <1993may9.225637.42641@datamark.co.nz> thomas@datamark.co.nz (thomas beagle) writes:
  
- >There is no need to load EMM386. QEMM, or anything else on many
- >Windows PCs. It's only useful if you are still stuck with running
- >MSDos based applications that need lots of low memory free.
+ >there is no need to load emm386. qemm, or anything else on many
+ >windows pcs. it's only useful if you are still stuck with running
+ >msdos based applications that need lots of low memory free.
  
- >Otherwise you just need to load HIMEM.SYS and let Windows go straight
- >to the Extended memory.
+ >otherwise you just need to load himem.sys and let windows go straight
+ >to the extended memory.
  
- ..that's what I thought, that's why I never used emm386.exe before.
+ ..that's what i thought, that's why i never used emm386.exe before.
  
  -- 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
- Kirk Membry                                    "Our Age is the Age of Industry"
- rutgers!viamar!kmembry                         - Alexander Rodchenko
+ kirk membry                                    "our age is the age of industry"
+ rutgers!viamar!kmembry                         - alexander rodchenko
  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
  

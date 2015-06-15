@@ -1,16 +1,16 @@
 
- On 19 Apr 1993 23:00:15 GMT, masc0442@ucsnews.sdsu.edu (Todd Greene) said:
+ on 19 apr 1993 23:00:15 gmt, masc0442@ucsnews.sdsu.edu (todd greene) said:
  
- > Is there an Xt call to give me my application context?
- > I am fixing up an X/Motif program, and am trying to use XtAppAddTimeOut,
- > whose first argument is the app_context.  What call can I use
+ > is there an xt call to give me my application context?
+ > i am fixing up an x/motif program, and am trying to use xtappaddtimeout,
+ > whose first argument is the app_context.  what call can i use
  > to give me this value?
  
- I believe it's XtVaAppInitialize or something like that.
+ i believe it's xtvaappinitialize or something like that.
  
  --
  
- Robert L. McMillin | Surf City Software | rlm@helen.surfcty.com | Dude!
+ robert l. mcmillin | surf city software | rlm@helen.surfcty.com | dude!
  #include <std.disclaimer.h>
  
  

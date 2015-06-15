@@ -1,19 +1,19 @@
 
- Hello,
+ hello,
  
- recently I noticed there is a directory named "DiskImage" in my disk.  I didn't
- notice it before and I wonder if while installing an application an image of 
- the disk was created, or if Win3.1 automatically created a backup of its files.
- I couldn't find any documentation on the diskimage utility; having an image of
- the disk is taking *a lot* of disk space.  Does anybody know if this is just 
- something the people who installed Win3.1 did or it is a backup mechanism?
+ recently i noticed there is a directory named "diskimage" in my disk.  i didn't
+ notice it before and i wonder if while installing an application an image of 
+ the disk was created, or if win3.1 automatically created a backup of its files.
+ i couldn't find any documentation on the diskimage utility; having an image of
+ the disk is taking *a lot* of disk space.  does anybody know if this is just 
+ something the people who installed win3.1 did or it is a backup mechanism?
  
- Thanks,
+ thanks,
  
- Anibal
+ anibal
  -- 
  ---------------------------------------------------------------------------
- Anibal Mayorga              |  21 Wenark Dr #7        | W: (302) 831-8704 
- mayorga@cis.udel.edu        |  Newark, DE 19713       | H: (302) 453-0309
+ anibal mayorga              |  21 wenark dr #7        | w: (302) 831-8704 
+ mayorga@cis.udel.edu        |  newark, de 19713       | h: (302) 453-0309
  ---------------------------------------------------------------------------
  

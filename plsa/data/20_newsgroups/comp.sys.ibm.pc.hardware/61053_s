@@ -1,28 +1,28 @@
 
- >>>>> On 20 Apr 93 19:01:58 GMT, perry@wswiop15.win.tue.nl (Perry Egelmeers) said:
- Perry> NNTP-Posting-Host: wswiop15.win.tue.nl
+ >>>>> on 20 apr 93 19:01:58 gmt, perry@wswiop15.win.tue.nl (perry egelmeers) said:
+ perry> nntp-posting-host: wswiop15.win.tue.nl
  
- Perry> artieb@vnet.IBM.COM writes:
+ perry> artieb@vnet.ibm.com writes:
  
- >    I saw a posting earlier that refered to FUNET.FI directory /pub/msdos
- >however, when I log on to FUNET.FI I cant even find the "pub" directory let
- >alone the "msdos" directory !!!!  Can someone tell me what I'm doing wrong??
+ >    i saw a posting earlier that refered to funet.fi directory /pub/msdos
+ >however, when i log on to funet.fi i cant even find the "pub" directory let
+ >alone the "msdos" directory !!!!  can someone tell me what i'm doing wrong??
  
- Perry> Perhaps you should try nic.funet.fi instead of funet.fi ??!?!?
+ perry> perhaps you should try nic.funet.fi instead of funet.fi ??!?!?
  
- Another possibility is, that you did not give your email address as password
- for the anonymous account. If you that, you see following message:
+ another possibility is, that you did not give your email address as password
+ for the anonymous account. if you that, you see following message:
  
  230-
- 230-You entered an invalid/inpropable password, and are now accessing
- 230-restricted subset of files.    Please read README for more information.
- 230-We have special access features, see file README
- 230 It was last updated Tue Apr 13 23:45:09 1993 - 9.4 days ago
+ 230-you entered an invalid/inpropable password, and are now accessing
+ 230-restricted subset of files.    please read readme for more information.
+ 230-we have special access features, see file readme
+ 230 it was last updated tue apr 13 23:45:09 1993 - 9.4 days ago
  
- This can happen, if your terminal emulator does not generate the '@'
+ this can happen, if your terminal emulator does not generate the '@'
  character as you think (it is hard to see, since passwords are not echoed..).
  --
- Arto V. Viitanen				         Internet: av@cs.uta.fi
- University Of Tampere,		        X.400: S=av;OU=cs;O=ut;ADMD=fumail;C=fi
- Finland
+ arto v. viitanen				         internet: av@cs.uta.fi
+ university of tampere,		        x.400: s=av;ou=cs;o=ut;admd=fumail;c=fi
+ finland
  

@@ -1,30 +1,30 @@
 
- In article <734953838.AA00509@insane.apana.org.au> peter.m@insane.apana.org.au (Peter Tryndoch) writes:
+ in article <734953838.aa00509@insane.apana.org.au> peter.m@insane.apana.org.au (peter tryndoch) writes:
  >
- >So when you turn on the power, this causes the bulb to work like a neon, 
+ >so when you turn on the power, this causes the bulb to work like a neon, 
  >heating up and shorting out, thus providing a loop to power the heaters in 
- >the main tube. When the tube fires, insufficient current runs through the 
+ >the main tube. when the tube fires, insufficient current runs through the 
  >starter to keep the heat up and the bi-metalic strip straightens out 
- >(O/C).
+ >(o/c).
  
- Imprecise. This description
+ imprecise. this description
  
   1. ignores the role of the ballast,
   2. misrepresents the heating effects in the starter.
  
- The bimetalic strip cools down immediately after the contacts
+ the bimetalic strip cools down immediately after the contacts
  short circuit, because the neon discharge stops, and much less
- heat is generated from the I^2R loss in the metal as compared to
+ heat is generated from the i^2r loss in the metal as compared to
  the neon discharge.
  
- The starter contacts open before the tube fires.  Actually,
+ the starter contacts open before the tube fires.  actually,
  the tube fires as a result of the back-emf generated in the ballast
  because of this immediate opening of the starter's contacts.
  
- A capacitor is connected in parallel with the contacts to prevent
- excessive arcing during the firing.  The neon reionizes but does not draw
+ a capacitor is connected in parallel with the contacts to prevent
+ excessive arcing during the firing.  the neon reionizes but does not draw
  sufficient current to prevent firing of the tube itself.
  -- 
- Mustafa Kocaturk   mustafa@seas.smu.edu  EE Dept., Room 305A, Caruth Bldg.
- Home: 214-706-5954  Office: 214-768-1475  SMU Box 753190, Dallas, TX 75275
+ mustafa kocaturk   mustafa@seas.smu.edu  ee dept., room 305a, caruth bldg.
+ home: 214-706-5954  office: 214-768-1475  smu box 753190, dallas, tx 75275
  

@@ -1,96 +1,96 @@
 
  
-                              CALL FOR PAPERS
-                     The Internet Society Symposium on
-                  Network and Distributed System Security
+                              call for papers
+                     the internet society symposium on
+                  network and distributed system security
  
-         3-4 February 1994, Catamaran Hotel, San Diego, California
+         3-4 february 1994, catamaran hotel, san diego, california
  
- The symposium will bring together people who are building software and
+ the symposium will bring together people who are building software and
  hardware to provide network or distributed system security services.
- The symposium is intended for those interested in practical aspects of
- network and distributed system security, rather than in theory.  Symposium
- proceedings will be published by the Internet Society.  Topics for the
+ the symposium is intended for those interested in practical aspects of
+ network and distributed system security, rather than in theory.  symposium
+ proceedings will be published by the internet society.  topics for the
  symposium include, but are not limited to, the following:
  
- *  Design and implementation of services--access control, authentication,
+ *  design and implementation of services--access control, authentication,
     availability, confidentiality, integrity, and non-repudiation
     --including criteria for placing services at particular protocol
  layers.
  
- *  Design and implementation of security mechanisms and support
+ *  design and implementation of security mechanisms and support
     services--encipherment and key management systems, authorization
     and audit systems, and intrusion detection systems.
  
- *  Requirements and architectures for distributed applications and
+ *  requirements and architectures for distributed applications and
     network functions--message handling, file transport, remote
     file access, directories, time synchronization, interactive
     sessions, remote data base management and access, routing, voice and
     video multicast and conferencing, news groups, network management,
-    boot services, mobile computing, and remote I/O.
+    boot services, mobile computing, and remote i/o.
  
- *  Special issues and problems in security architecture, such as
-    -- very large systems like the international Internet, and
+ *  special issues and problems in security architecture, such as
+    -- very large systems like the international internet, and
     -- high-speed systems like the gigabit testbeds now being built.
  
- *  Interplay between security goals and other goals--efficiency,
+ *  interplay between security goals and other goals--efficiency,
     reliability, interoperability, resource sharing, and low cost.
  
- GENERAL CHAIR:
-    Dan Nessett, Lawrence Livermore National Laboratory
+ general chair:
+    dan nessett, lawrence livermore national laboratory
  
- PROGRAM CHAIRS:
-    Russ Housley, Xerox Special Information Systems
-    Rob Shirey, The MITRE Corporation
+ program chairs:
+    russ housley, xerox special information systems
+    rob shirey, the mitre corporation
  
- PROGRAM COMMITTEE:
-    Dave Balenson, Trusted Information Systems
-    Tom Berson, Anagram Laboratories
-    Matt Bishop, Dartmouth College
-    Ed Cain, U.S. Defense Information Systems Agency
-    Jim Ellis, CERT Coordination Center
-    Steve Kent, Bolt, Beranek and Newman
-    John Linn, Independent Consultant
-    Clifford Neuman, Information Sciences Institute
-    Michael Roe, Cambridge University
-    Rob Rosenthal, U.S. National Institute of Standards and Technology
-    Jeff Schiller, Massachusetts Institute of Technology
-    Ravi Sandhu, George Mason University
-    Peter Yee, U.S. National Aeronautics and Space Administration
+ program committee:
+    dave balenson, trusted information systems
+    tom berson, anagram laboratories
+    matt bishop, dartmouth college
+    ed cain, u.s. defense information systems agency
+    jim ellis, cert coordination center
+    steve kent, bolt, beranek and newman
+    john linn, independent consultant
+    clifford neuman, information sciences institute
+    michael roe, cambridge university
+    rob rosenthal, u.s. national institute of standards and technology
+    jeff schiller, massachusetts institute of technology
+    ravi sandhu, george mason university
+    peter yee, u.s. national aeronautics and space administration
  
- SUBMISSIONS:  The  committee seeks both original technical papers and
+ submissions:  the  committee seeks both original technical papers and
  proposals for panel discussions on technical and other topics of general
- interest.  Technical papers should be 10-20 pages in length.  Panels
- should include three or four speakers.  A panel proposal must name the
+ interest.  technical papers should be 10-20 pages in length.  panels
+ should include three or four speakers.  a panel proposal must name the
  panel chair, include a one-page topic introduction authored by the chair,
  and also include one-page position summaries authored by each speaker
- Both the technical papers and the panel papers will appear in the
+ both the technical papers and the panel papers will appear in the
  proceedings.
  
- Submissions must be made by 16 August 1993.  Submissions should be made
+ submissions must be made by 16 august 1993.  submissions should be made
  via electronic mail to
  
                     1994symposium@smiley.mitre.org.
  
- Submissions may be in either of two formats:  ASCII or PostScript.  If
- the committee is unable to read a PostScript submission, it will be
- returned and ASCII requested.  Therefore, PostScript submissions should
- arrive well before 16 August.  If electronic submission is absolutely
+ submissions may be in either of two formats:  ascii or postscript.  if
+ the committee is unable to read a postscript submission, it will be
+ returned and ascii requested.  therefore, postscript submissions should
+ arrive well before 16 august.  if electronic submission is absolutely
  impossible, submissions should be sent via postal mail to
  
-                    Robert W. Shirey, Mail Stop Z202
-                    The MITRE Corporation
-                    McLean, Virginia  22102-3481  USA
+                    robert w. shirey, mail stop z202
+                    the mitre corporation
+                    mclean, virginia  22102-3481  usa
  
- All submissions must include both an Internet electronic mail address and
- a postal address.  Each submission will be acknowledged through the
- medium by which it is received.  If acknowledgment is not received within
- seven days, please contact either Rob Shirey <Shirey@MITRE.org> or
- Russ Housley <Housley.McLean_CSD@xerox.com>, or telephone Mana Weigand at
- MITRE in Mclean, 703-883-5397. 
+ all submissions must include both an internet electronic mail address and
+ a postal address.  each submission will be acknowledged through the
+ medium by which it is received.  if acknowledgment is not received within
+ seven days, please contact either rob shirey <shirey@mitre.org> or
+ russ housley <housley.mclean_csd@xerox.com>, or telephone mana weigand at
+ mitre in mclean, 703-883-5397. 
  
- Authors and panelists will be notified of acceptance by 15 October 1993.
- Instructions for preparing camera-ready copy for the proceedings will be
- postal mailed at that time.  The camera-ready copy must be received by
- 15 November 1993.
+ authors and panelists will be notified of acceptance by 15 october 1993.
+ instructions for preparing camera-ready copy for the proceedings will be
+ postal mailed at that time.  the camera-ready copy must be received by
+ 15 november 1993.
  

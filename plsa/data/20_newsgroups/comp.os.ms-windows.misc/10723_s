@@ -1,27 +1,27 @@
-	I would like to know a cause of my window 3.1 problem. Every time
- Date: Fri, 14 May 1993 11:21:24 GMT
- Lines: 22
+	i would like to know a cause of my window 3.1 problem. every time
+ date: fri, 14 may 1993 11:21:24 gmt
+ lines: 22
  
- FILES=30
- BUFFERS=30
- DEVICE=C:\WINDOWS\HIMEM.SYS
- DEVICE=C:\WINDOWS\SMARTDRV.EXE /DOUBLE_BUFFER
- STACKS=9,256
+ files=30
+ buffers=30
+ device=c:\windows\himem.sys
+ device=c:\windows\smartdrv.exe /double_buffer
+ stacks=9,256
  
  and also my autoexec.bat
  
- C:\vshield
- C:\WINDOWS\SMARTDRV.EXE /L
- rem ***************** MouseWare 5.0 Setup ******************
- PATH=C:\;c:\dos;C:\WINDOWS;C:\FAX;C:\MOUSE;C:\WP51\;
- SET TEMP=C:\WINDOWS\TEMP
- MOUSE SER 2
+ c:\vshield
+ c:\windows\smartdrv.exe /l
+ rem ***************** mouseware 5.0 setup ******************
+ path=c:\;c:\dos;c:\windows;c:\fax;c:\mouse;c:\wp51\;
+ set temp=c:\windows\temp
+ mouse ser 2
  rem ********************************************************
  c:\dos\share
  
- Have you seen this problem before? Please help me out...
+ have you seen this problem before? please help me out...
  
  thanks
  
- Hadi
+ hadi
  

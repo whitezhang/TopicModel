@@ -1,26 +1,26 @@
 
- In <1993Apr19.164611.1018@fys.ruu.nl> walsteyn@fys.ruu.nl (Fred Walsteijn) writes:
+ in <1993apr19.164611.1018@fys.ruu.nl> walsteyn@fys.ruu.nl (fred walsteijn) writes:
  
- >I've seen the following problem om three Mac IIsi machines
- >all with 17 Mb RAM installed (70 or 80 ns SIMMs).
+ >i've seen the following problem om three mac iisi machines
+ >all with 17 mb ram installed (70 or 80 ns simms).
  
- >If the contents of a window are being calculated and updated
+ >if the contents of a window are being calculated and updated
  >a lot of strange horizontal lines are temporarily generated
- >on the screen.  The lines translate to the top of the screen and
+ >on the screen.  the lines translate to the top of the screen and
  >have a slightly lower brightness than their surroundings (they
  >are a few millimeters apart).
- >I admit that they are vague, but they can still be distinguished clearly,
+ >i admit that they are vague, but they can still be distinguished clearly,
  >especially if the environment (i.e. the rest of the room) is a bit dark.
- >Applications which produce this effect are:
- >- the previewer of DirectTeX 1.2 (i.e. DVIReader 1.2)
- >- Kaleidagraph 2.1.1/FPU
+ >applications which produce this effect are:
+ >- the previewer of directtex 1.2 (i.e. dvireader 1.2)
+ >- kaleidagraph 2.1.1/fpu
  
- Another program which produces this effect is:
- - SpyGlass Transform 2.1 (while contouring a big 257*257 array).
+ another program which produces this effect is:
+ - spyglass transform 2.1 (while contouring a big 257*257 array).
  
- Thanks for any information about this problem,
+ thanks for any information about this problem,
  -----------------------------------------------------------------------------
- Fred Walsteijn                                | Internet: walsteyn@fys.ruu.nl
- Institute for Marine and Atmospheric Research | FAX:      31-30-543163
- Utrecht University, The Netherlands           | Phone:    31-30-533169
+ fred walsteijn                                | internet: walsteyn@fys.ruu.nl
+ institute for marine and atmospheric research | fax:      31-30-543163
+ utrecht university, the netherlands           | phone:    31-30-533169
  

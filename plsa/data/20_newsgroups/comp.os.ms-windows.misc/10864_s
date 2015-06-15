@@ -1,238 +1,238 @@
 
- (I have been having trouble posting this article from within tin for over
- a week. If you do get multiple copies, my apologies.)
+ (i have been having trouble posting this article from within tin for over
+ a week. if you do get multiple copies, my apologies.)
  
- Here is a challenge to Microsoft or Microsort Supporters to defend the
- pathetic state of DOS 6 as an upgrade distribution -- it is a long story
+ here is a challenge to microsoft or microsort supporters to defend the
+ pathetic state of dos 6 as an upgrade distribution -- it is a long story
  but would make good reading for those who are interested in knowing the
- potential pitfalls of "upgrading" to DOS 6 that I have been able to
+ potential pitfalls of "upgrading" to dos 6 that i have been able to
  notice after only about a week of playing around with it.
  
- My envorinment
+ my envorinment
  ==============
  
- TI TravelMate 4000 WinSX (486SX/25) 4M Ram 120M Disk
- System BIOS version 1.03 05/21/92 by Texas Instruments
- CL-GD6420 VGA BIOS v 1.03 a1 by Cirrus Logic & Quadtel
- Advance Power Manager BATTERY.PRO v b6.00 by Texas Instruments
- Smart Drive Cache (WIN3.1/DOS6) Parameters: 2048 1024 a- b-
- Windows Benchmark WinBench(tm) v 3.11 02/11/93 by ZD Labs
+ ti travelmate 4000 winsx (486sx/25) 4m ram 120m disk
+ system bios version 1.03 05/21/92 by texas instruments
+ cl-gd6420 vga bios v 1.03 a1 by cirrus logic & quadtel
+ advance power manager battery.pro v b6.00 by texas instruments
+ smart drive cache (win3.1/dos6) parameters: 2048 1024 a- b-
+ windows benchmark winbench(tm) v 3.11 02/11/93 by zd labs
  
- After "updgrading" to DOS 6, I could not understand why certain things
- became so slow, especially after I decided to try 'dblspace'.  In the
- process of finding out why, I discovered some interesting things.
+ after "updgrading" to dos 6, i could not understand why certain things
+ became so slow, especially after i decided to try 'dblspace'.  in the
+ process of finding out why, i discovered some interesting things.
  
  
- Disk Performance with Double Space and Smart Drive
+ disk performance with double space and smart drive
  ==================================================
  
- While most things did not appear to slow down most of the time, certain
- applications appeared to run very much slower.  What was interesting is
+ while most things did not appear to slow down most of the time, certain
+ applications appeared to run very much slower.  what was interesting is
  that commands like 'chkdsk' and 'defrag' were running far too slowly to
- consider them useful by any standards.  I suspected Double Space (DS)
- and decided to measure its impact on my system using WinBench(tm).
+ consider them useful by any standards.  i suspected double space (ds)
+ and decided to measure its impact on my system using winbench(tm).
  
- The Real Disk WINMARK of 20350 for the original system (as shipped from
- factory with DOS 5 and Windowws 3.1) became 10718 when "upgraded" to
- DOS 6 with DS.  Thus there is an effective performance degradation of
- more than 50 percent which did not really surprise me because I knew
- that DS compression must cost something.
+ the real disk winmark of 20350 for the original system (as shipped from
+ factory with dos 5 and windowws 3.1) became 10718 when "upgraded" to
+ dos 6 with ds.  thus there is an effective performance degradation of
+ more than 50 percent which did not really surprise me because i knew
+ that ds compression must cost something.
  
- Specifically, for short sequential reads up to 512 bytes, DS actually
- *improves* transfer rates by about 10% (because CPU being faster than
- I/O, more CPU cycles needed for DS is more than compensated by savings
- in I/O cycles).  However, for all other cases, particularly large
+ specifically, for short sequential reads up to 512 bytes, ds actually
+ *improves* transfer rates by about 10% (because cpu being faster than
+ i/o, more cpu cycles needed for ds is more than compensated by savings
+ in i/o cycles).  however, for all other cases, particularly large
  random writes, the transfers take up to three times as long.
  
- While the performance depends on the type of access (i.e random or
+ while the performance depends on the type of access (i.e random or
  sequential, small or large transfer units), on the average (based on
- WinBench's assumptions), the disk slows down to half its speed.
+ winbench's assumptions), the disk slows down to half its speed.
  
- The tests alone, done in 'real mode' (see WinBench) and with smartdrv
+ the tests alone, done in 'real mode' (see winbench) and with smartdrv
  on, do not say much except that it helps to put into those subjective
  statements like 'there is no noticable difference in performance' or
- even that 'it will speed up disk access when you have a fast CPU and
- slow disk I/O'.
+ even that 'it will speed up disk access when you have a fast cpu and
+ slow disk i/o'.
  
- This explained why some applications ran markedly slower, but not why
+ this explained why some applications ran markedly slower, but not why
  'chkdsk' and 'defrag' (the latter especially) too so long.
  
  
- Double Space and Windows
+ double space and windows
  ========================
  
- DBLSPACE will not run at all from within windows, not even if you
+ dblspace will not run at all from within windows, not even if you
  wanted to only to get information, not modify anything, or for that
  matter even check on its usage -- try "fasthelp dblspace" in a dos box
- within windows and you will see what I mean from the error message you
- get.  How narrow minded can a programer get, I wonder.
+ within windows and you will see what i mean from the error message you
+ get.  how narrow minded can a programer get, i wonder.
  
- Yes, this information can be obtained through the mstools.dd add-on to
+ yes, this information can be obtained through the mstools.dd add-on to
  file manager, but this 'mstools' dll does not understand a compressed
- floppy!  (Use the DOS 6 supplement utility to create a compressed
+ floppy!  (use the dos 6 supplement utility to create a compressed
  floppy if you dont know how to.)
  
  
- DOS 6 Defragmenter is incompatible with TI APM
+ dos 6 defragmenter is incompatible with ti apm
  ==============================================
  
- Defragmentation seemed to take too much time.  Even so, I waited
+ defragmentation seemed to take too much time.  even so, i waited
  patiently till it finished and then ran it again to just to confirm.
- This confirmation 'dblspace /def' command for the 120M drive should take
- no more than 30 seconds (much faster on other defragmenters I have used)
+ this confirmation 'dblspace /def' command for the 120m drive should take
+ no more than 30 seconds (much faster on other defragmenters i have used)
  but it took 12 minutes.
  
- I discovered that if I moved the mouse, defragmentation checking ran
- faster (the % figure ticked more rapidly).  It dawned on me that this
- had to do with TI's battery saver Advanced Power Management (APM)
- module which slows the clock down when it thinks that the CPU is idle,
- and it obviously thought DS defragmentation was an idle process!  After
- disabling the TI's power saver, this operation took only 20 seconds.
+ i discovered that if i moved the mouse, defragmentation checking ran
+ faster (the % figure ticked more rapidly).  it dawned on me that this
+ had to do with ti's battery saver advanced power management (apm)
+ module which slows the clock down when it thinks that the cpu is idle,
+ and it obviously thought ds defragmentation was an idle process!  after
+ disabling the ti's power saver, this operation took only 20 seconds.
  
  
- Microsft programmers think TI4000 and Gateway NOMAD users are idiots
+ microsft programmers think ti4000 and gateway nomad users are idiots
  ====================================================================
  
- In the readme.txt file, you can find the the following
+ in the readme.txt file, you can find the the following
  
- 	Running Microsoft Backup with TI4000 and Gateway NOMAD computers
+ 	running microsoft backup with ti4000 and gateway nomad computers
  	----------------------------------------------------------------
- 	To avoid a conflict between the Turbo feature and Microsoft Backup
- 	for Windows or MS-DOS, add a /L0 switch to the DEVICE command in
- 	your CONFIG.SYS that loads the BATTERY.PRO file. Or, before you
- 	run Microsoft Backup, type SETPOWER /L0 at the command prompt.
+ 	to avoid a conflict between the turbo feature and microsoft backup
+ 	for windows or ms-dos, add a /l0 switch to the device command in
+ 	your config.sys that loads the battery.pro file. or, before you
+ 	run microsoft backup, type setpower /l0 at the command prompt.
  
- If you checked TI's manual on the /L0 option, you will realise that it
- means "disable all power saving features of your notebook".  Why would
- anyone want to run a driver disabled!  As I have found out, not only
- does TI's power management interfere with Microsoft Backup as the
+ if you checked ti's manual on the /l0 option, you will realise that it
+ means "disable all power saving features of your notebook".  why would
+ anyone want to run a driver disabled!  as i have found out, not only
+ does ti's power management interfere with microsoft backup as the
  readme.txt claims, but 'chkdsk' and 'dblspace' (and who knows what
- else) are crippled by the TI's power saver.
+ else) are crippled by the ti's power saver.
  
- It is obvious that there is not such thing as APM specifications.  If
- there indeed is such a thing, then either Microsoft programmers or TI
- programmers dont know how to read these specifications.  You dont have
+ it is obvious that there is not such thing as apm specifications.  if
+ there indeed is such a thing, then either microsoft programmers or ti
+ programmers dont know how to read these specifications.  you dont have
  to guess as to who are the idiots.
  
- By the way, if you run the advance power management utility, POWER.EXE
- in DOS6, when you check the status, it says:
+ by the way, if you run the advance power management utility, power.exe
+ in dos6, when you check the status, it says:
  
- 	Power Management Status
+ 	power management status
  	-----------------------
- 	Setting =  ADV: MAX
- 	CPU: idle 60% of time.
+ 	setting =  adv: max
+ 	cpu: idle 60% of time.
  
- This figure of 60% seems to be the steady state value on my notebook
- when I am running nothing (windows with only program manager in
- iconised form).  Does that mean that Windows takes up 40% of my CPU all
- for itself, and that I have at best only 60% left for useful work?  Is
- such an overhead justified  (whether or not Windows is an operating
- system or just another user interface)?  (In DOS alone, it reports 99%
- idle time.)  Looks like Windows is a good example of busy waiting type
- of package that I like my students to study as the classical 'negative'
+ this figure of 60% seems to be the steady state value on my notebook
+ when i am running nothing (windows with only program manager in
+ iconised form).  does that mean that windows takes up 40% of my cpu all
+ for itself, and that i have at best only 60% left for useful work?  is
+ such an overhead justified  (whether or not windows is an operating
+ system or just another user interface)?  (in dos alone, it reports 99%
+ idle time.)  looks like windows is a good example of busy waiting type
+ of package that i like my students to study as the classical 'negative'
  example of our times!
  
  
- Microsoft programmers do not know batch programming
+ microsoft programmers do not know batch programming
  ===================================================
  
- I like to structure my startup script and thus have the equivalent of
+ i like to structure my startup script and thus have the equivalent of
  addpath statements like this:
  
- 	set PATH=C:\DOS
+ 	set path=c:\dos
  	...
- 	set PATH=C:\ETC\BIN;%PATH%;C:\BIN
+ 	set path=c:\etc\bin;%path%;c:\bin
  	...
- 	set PATH=C:\ETC\WINDOWS;%PATH%;C:\WINDOWS
+ 	set path=c:\etc\windows;%path%;c:\windows
  	...
- 	set PATH=%PATH%;C:\BCC\BIN
+ 	set path=%path%;c:\bcc\bin
  	...
- 	set PATH=%PATH%;%MOUSE%
+ 	set path=%path%;%mouse%
  
- Even though the new dos was installed in the same directory as the old
- one (i.e. c:\dos), DOS 6 installation program modifes each and every
- path statement, and prepends C:\DOS to its value.  As a result, my
- resultant path has so many DOS's.
+ even though the new dos was installed in the same directory as the old
+ one (i.e. c:\dos), dos 6 installation program modifes each and every
+ path statement, and prepends c:\dos to its value.  as a result, my
+ resultant path has so many dos's.
  
- If the installation program wanted to remove the old DOS path, and add
- the new DOS path, clearly it has to only scan for the path statement
- containg the old DOS directory and replace it by the new DOS path.
- (Even this should only be done if the new DOS is installed in a
+ if the installation program wanted to remove the old dos path, and add
+ the new dos path, clearly it has to only scan for the path statement
+ containg the old dos directory and replace it by the new dos path.
+ (even this should only be done if the new dos is installed in a
  directory different from the old one being 'upgraded'.)
  
- Instead, the Microsoft programmer (if you can call this person one)
- decided to meddle every path statement I had in the autoexec and
- prepend DOS to the value.  I wonder if Microsoft is so desparate that it
+ instead, the microsoft programmer (if you can call this person one)
+ decided to meddle every path statement i had in the autoexec and
+ prepend dos to the value.  i wonder if microsoft is so desparate that it
  would not fire programmers who are incapable of the thought process.
  
- I started a thread on this when DOS 4 came up, and the Microsoft
- representative in Singapore called me about this poster.  In fact he
- specifically said his US counterparts saw the poster and relayed the
+ i started a thread on this when dos 4 came up, and the microsoft
+ representative in singapore called me about this poster.  in fact he
+ specifically said his us counterparts saw the poster and relayed the
  information to him as he did not have access to internet.
  
- Now that has not changed one bit.  In fact, if you have a PATH statement
- with %PATH% already in it, is it not obvious that the this statement
+ now that has not changed one bit.  in fact, if you have a path statement
+ with %path% already in it, is it not obvious that the this statement
  should not be touched for any reason?
  
- As another example of the inability of Microsoft programmers to
- understand batch programming -- I had the mouse driver invoked as:
+ as another example of the inability of microsoft programmers to
+ understand batch programming -- i had the mouse driver invoked as:
  
- 	set MOUSE=C:\ETC\MOUSE
- 	set PATH=%PATH%;%MOUSE%
- 	loadhigh %MOUSE%\MOUSE.COM
+ 	set mouse=c:\etc\mouse
+ 	set path=%path%;%mouse%
+ 	loadhigh %mouse%\mouse.com
  
- Guess what MEMMAKER did?  It replaced the last statement with
+ guess what memmaker did?  it replaced the last statement with
  
- 	LH ... C:\ETC\MOUSE\MOUSE.COM
+ 	lh ... c:\etc\mouse\mouse.com
  
- Why is it so difficult just to replace loadhigh with LH and its
- parameters, without touching the rest of the line, I do not understand.
+ why is it so difficult just to replace loadhigh with lh and its
+ parameters, without touching the rest of the line, i do not understand.
  
  
- DOS 6 Software Quality
+ dos 6 software quality
  ======================
  
- DOS 6 is the only operating system I know, in which, under normal usage,
+ dos 6 is the only operating system i know, in which, under normal usage,
  you end up creating a file that you cannot get rid of using of the
  commands that come with it.
  
- I am deliberately being cryptic about this:  I challenge Microsoft to
- use all its programmers to catch this bug and publish it.  If they dont
- within a week, I will post how you can create this "ghost" file.
+ i am deliberately being cryptic about this:  i challenge microsoft to
+ use all its programmers to catch this bug and publish it.  if they dont
+ within a week, i will post how you can create this "ghost" file.
  
- Surely if I can pick this bug without even looking for it after using a
- particular command only twice, I am sure two dozen Microsoft (idiot)
+ surely if i can pick this bug without even looking for it after using a
+ particular command only twice, i am sure two dozen microsoft (idiot)
  programmers randomly banging on their keyboards over a week could find
- it -- that is what I was told how Microsoft "tests the quality" of
+ it -- that is what i was told how microsoft "tests the quality" of
  their products.
  
- I think it is funny that Microsoft has found ways to "test quality"
+ i think it is funny that microsoft has found ways to "test quality"
  when it is accepted in the industry that quality cannot be tested, but
- can only be built into the product.  No wonder they cannot provide any
+ can only be built into the product.  no wonder they cannot provide any
  form of guarantees on their products, not even a decent list of bugs
  that will prevent scores of user from destroying their disks beyond
  repair!
  
- Also, if you run 'dblspace /def' often enough, repeatedly when the disk
+ also, if you run 'dblspace /def' often enough, repeatedly when the disk
  is fully defragmented, you may get errors, that was created by the
- defragmenters.  I got my IO.SYS file size error and it got truncated
- when I did the chkdsk.  This happend only after five successive
+ defragmenters.  i got my io.sys file size error and it got truncated
+ when i did the chkdsk.  this happend only after five successive
  defragmentation efforst after the first one supposedly did its job and
  with no new file creation since.
  
- Microsft, dont you dare reply to this poster on the network until you
- admit that your DS has bugs, and are willing to let us know what we
- should watch out for if we have already used DS.
+ microsft, dont you dare reply to this poster on the network until you
+ admit that your ds has bugs, and are willing to let us know what we
+ should watch out for if we have already used ds.
  
- Jaya
+ jaya
  
  --
- Dr. Jayasooriah  CSE, CS&E, UNSW | Sign in a Paris hotel:                    
- P.O. Box 1, Kensington, NSW 2033 |                                           
- Tel/Fax: +61 2 697-5683/313-7987 |    "A sports jacket may be worn to dinner,
- Internet: jayas@vast.unsw.edu.au |                         but not trousers."
- Dr. Jayasooriah  CSE, CS&E, UNSW | Sign in a Norwegian cocktail lounge:      
- P.O. Box 1, Kensington, NSW 2033 |                      "Ladies are requested
- Tel/Fax: +61 2 697-5683/313-7987 |                       not to have children
- Internet: jayas@vast.unsw.edu.au |                               in the bar."
+ dr. jayasooriah  cse, cs&e, unsw | sign in a paris hotel:                    
+ p.o. box 1, kensington, nsw 2033 |                                           
+ tel/fax: +61 2 697-5683/313-7987 |    "a sports jacket may be worn to dinner,
+ internet: jayas@vast.unsw.edu.au |                         but not trousers."
+ dr. jayasooriah  cse, cs&e, unsw | sign in a norwegian cocktail lounge:      
+ p.o. box 1, kensington, nsw 2033 |                      "ladies are requested
+ tel/fax: +61 2 697-5683/313-7987 |                       not to have children
+ internet: jayas@vast.unsw.edu.au |                               in the bar."
  

@@ -1,29 +1,29 @@
 
  
- In article <badry.735366806@cab009>, badry@cs.UAlberta.CA (Badry Jason Theodore) writes:
- > Hi.  I am trying to set up a Conner 3184 and a Quantum 80AT drive.  I have
+ in article <badry.735366806@cab009>, badry@cs.ualberta.ca (badry jason theodore) writes:
+ > hi.  i am trying to set up a conner 3184 and a quantum 80at drive.  i have
  > the conner set to the master, and the quantum set to the slave (doesn't work
- > the other way around).  I am able to access both drives if I boot from a 
- > floppy, but the drives will not boot themselves.  I am running MSDOS 6, and
- > have the Conner partitioned as Primary Dos, and is formatted with system
- > files.  I have tried all different types of setups, and even changed IDE
- > controller cards.  If I boot from a floppy, everything works great (except
- > the booting part :)).  The system doesn't report an error message or anything,
- > just hangs there.  Does anyone have any suggestions, or has somebody else
- > run into a similar problem?  I was thinking that I might have to update the bios
- > on one of the drives (is this possible?).  Any suggestions/answers would be
- > greatly appreciated.  Please reply to:
+ > the other way around).  i am able to access both drives if i boot from a 
+ > floppy, but the drives will not boot themselves.  i am running msdos 6, and
+ > have the conner partitioned as primary dos, and is formatted with system
+ > files.  i have tried all different types of setups, and even changed ide
+ > controller cards.  if i boot from a floppy, everything works great (except
+ > the booting part :)).  the system doesn't report an error message or anything,
+ > just hangs there.  does anyone have any suggestions, or has somebody else
+ > run into a similar problem?  i was thinking that i might have to update the bios
+ > on one of the drives (is this possible?).  any suggestions/answers would be
+ > greatly appreciated.  please reply to:
  > 
- > 	Jason Badry
+ > 	jason badry
  > 	badry@cs.ualberta.ca
  > 
  
  
- Make sure that the hard disk you want to boot from is set as active (using the
- FDISK program that comes with DOS).
+ make sure that the hard disk you want to boot from is set as active (using the
+ fdisk program that comes with dos).
  
  -- 
- Mark 
+ mark 
  ______________________________________________________________________________
  mark@uk.ac.ox.physchem
  

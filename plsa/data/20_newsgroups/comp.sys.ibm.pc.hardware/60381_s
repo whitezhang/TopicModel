@@ -1,61 +1,61 @@
 
- wlsmith@valve.heart.rri.uwo.ca (Wayne Smith) writes:
- >>I just bought at Quantum 240 for my mac at home.  I paid $369 for it.  I
- >>haven't seen IDE drives cheaper.
+ wlsmith@valve.heart.rri.uwo.ca (wayne smith) writes:
+ >>i just bought at quantum 240 for my mac at home.  i paid $369 for it.  i
+ >>haven't seen ide drives cheaper.
  
- >A friend of mine just got a Maxtor 245 meg IDE drive for $320.  (that's 245
- >million bytes, or 234 mega-bytes).  With the basic $20 interface, he gets
- >close to 1 meg/sec transfer on his 286-20.  Does your figure include a few
- >hundred $$$ for SCSI drivers?
- Since the Mac uses ONLY SCSI-1 for hard drives YES the "figure includes a
- hundred $$$ for SCSI drivers"  This is sloppy people and DUMB.
+ >a friend of mine just got a maxtor 245 meg ide drive for $320.  (that's 245
+ >million bytes, or 234 mega-bytes).  with the basic $20 interface, he gets
+ >close to 1 meg/sec transfer on his 286-20.  does your figure include a few
+ >hundred $$$ for scsi drivers?
+ since the mac uses only scsi-1 for hard drives yes the "figure includes a
+ hundred $$$ for scsi drivers"  this is sloppy people and dumb.
  
- >But on that point, is it faster?  This is what all this is about.  Do you
+ >but on that point, is it faster?  this is what all this is about.  do you
  >get more performance for the money.
- Ok once again with the SCSI spec list:
- SCSI-1 {with a SCSI-1 controler chip} synchronous range is indeed 0-5MB/s
-  asynchronous range is slower at 0-3MB/s.
- SCSI-1 {With a SCSI-2 controller chip}: 4-6MB/s with 10MB/s burst {8-bit}
-  Note the INCREASE in SPEED, the Mac Quadra uses this version of SCSI-1
-  so it DOES exist. Some PCs use this set up too.
+ ok once again with the scsi spec list:
+ scsi-1 {with a scsi-1 controler chip} synchronous range is indeed 0-5mb/s
+  asynchronous range is slower at 0-3mb/s.
+ scsi-1 {with a scsi-2 controller chip}: 4-6mb/s with 10mb/s burst {8-bit}
+  note the increase in speed, the mac quadra uses this version of scsi-1
+  so it does exist. some pcs use this set up too.
  
- SCSI-2 {8-bit/SCSI-1 mode}:          4-6MB/s with 10MB/s burst
- {for those who want SCSI-2 but don't want to pay for the 16-bit or 32-bit
-  hardware or mess with the SCSI-2 software controllers.  Usable by SCSI-1
-  devices with close to 8-bit SCSI-2 speeds}
- SCSI-2 {16-bit/wide or fast mode}:  8-12MB/s with 20MB/s burst
- SCSI-2 {32-bit/wide AND fast}:     15-20MB/s with 40MB/s burst
+ scsi-2 {8-bit/scsi-1 mode}:          4-6mb/s with 10mb/s burst
+ {for those who want scsi-2 but don't want to pay for the 16-bit or 32-bit
+  hardware or mess with the scsi-2 software controllers.  usable by scsi-1
+  devices with close to 8-bit scsi-2 speeds}
+ scsi-2 {16-bit/wide or fast mode}:  8-12mb/s with 20mb/s burst
+ scsi-2 {32-bit/wide and fast}:     15-20mb/s with 40mb/s burst
  
- On the other interfaces let DXB132@psuvm.psu.edu speak:
- >IDE ranges from 0-8.3MB/s.                          
- Again synchronous and asynchronous modes with asynchronous much slower
-  {Range 0-5MB/s}
- >ESDI is always 1.25MB/s (although there are some non-standard versions)
+ on the other interfaces let dxb132@psuvm.psu.edu speak:
+ >ide ranges from 0-8.3mb/s.                          
+ again synchronous and asynchronous modes with asynchronous much slower
+  {range 0-5mb/s}
+ >esdi is always 1.25mb/s (although there are some non-standard versions)
  
- One problem is the inconsitant use of the term 'SCSI' in articles and by
- people.  Its PROPER meaning is "The set of SCSI interfaces composed of
- SCSI-1 AND SCSI-2"
- Look at the inconsitant use of SCSI in the below quote:
- (My comments in {})
+ one problem is the inconsitant use of the term 'scsi' in articles and by
+ people.  its proper meaning is "the set of scsi interfaces composed of
+ scsi-1 and scsi-2"
+ look at the inconsitant use of scsi in the below quote:
+ (my comments in {})
  
- PC Magazine April 27, 1993:29 "Although SCSI is twice as fast as ESDI,
- {This is asynchronous SCSI-1 with a SCSI-1 chip} 20% faster than IDE..."
- {this is BOTH asynchronous SCSI-1 with a SCSI-2 chip AND 8-bit SCSI-2}
- To read CONSITANTLY the quote SHOULD read:
- {asynchronous SCSI-1 with a SCSI-1 chip}
- "Although asynchronous SCSI-1 is twice as fast as ESDI, one third the 
- speed of IDE..."
- or {asynchronous SCSI-1 with a SCSI-2 chip or 8-bit SCSI-2}
- "Although SCSI-1 with a SCSI-2 chip and 8-bit SCSI-2 are eight times as fast as
- ESDI, 20% faster than IDE..."
+ pc magazine april 27, 1993:29 "although scsi is twice as fast as esdi,
+ {this is asynchronous scsi-1 with a scsi-1 chip} 20% faster than ide..."
+ {this is both asynchronous scsi-1 with a scsi-2 chip and 8-bit scsi-2}
+ to read consitantly the quote should read:
+ {asynchronous scsi-1 with a scsi-1 chip}
+ "although asynchronous scsi-1 is twice as fast as esdi, one third the 
+ speed of ide..."
+ or {asynchronous scsi-1 with a scsi-2 chip or 8-bit scsi-2}
+ "although scsi-1 with a scsi-2 chip and 8-bit scsi-2 are eight times as fast as
+ esdi, 20% faster than ide..."
  
- NOTE the NONUSE of 'SCSI' by itself.  This eliminates ambaguity.
+ note the nonuse of 'scsi' by itself.  this eliminates ambaguity.
  
- SCSI-1 drivers are somewhat reasonable while 16-bit and 32-bit SCSI-2 drivers 
- are VERY expansive {8-bit SCSI-2 can use SCSI-1 drivers with little speed
- degridation(the Mac Quadra does EXACTLY this.)}
+ scsi-1 drivers are somewhat reasonable while 16-bit and 32-bit scsi-2 drivers 
+ are very expansive {8-bit scsi-2 can use scsi-1 drivers with little speed
+ degridation(the mac quadra does exactly this.)}
  
- If we are to continue this thread STATE CLEARLY WHICH SCSI you are talking 
- about SCSI-1 or SCSI-2 or SCSI over all {SCSI-1 AND SCSI-2}
- IT DOES MAKE A DIFFERENCE.
+ if we are to continue this thread state clearly which scsi you are talking 
+ about scsi-1 or scsi-2 or scsi over all {scsi-1 and scsi-2}
+ it does make a difference.
  

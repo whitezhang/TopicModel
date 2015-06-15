@@ -1,25 +1,25 @@
 
- In article <1993Apr19.162936.7517@bernina.ethz.ch> caronni@nessie.cs.id.ethz.ch (Germano Caronni) (actually Dorothy Denning) writes:
- >The seeds S1 and S2 do not change.  
+ in article <1993apr19.162936.7517@bernina.ethz.ch> caronni@nessie.cs.id.ethz.ch (germano caronni) (actually dorothy denning) writes:
+ >the seeds s1 and s2 do not change.  
  
- Let me see if I have this straight --- if a person knows S1 and S2,
- and the serial number of the unit, it's easy to reconstruct UK.
- Of course, if they know SK, the "family key", they can easily get the
- serial number of any unit that has made a transmission.  So with S1 and
- S2 being used for a while "batch" of the unit keys, the number of
- used S1/S2 pairs will probably be fairly low.  Of course, you have to
- believe that the NSA/FBI/name-your-favorite-government agency will
- know SK so all it needs is the S1/S2 pairs, and presto, nasty details 
+ let me see if i have this straight --- if a person knows s1 and s2,
+ and the serial number of the unit, it's easy to reconstruct uk.
+ of course, if they know sk, the "family key", they can easily get the
+ serial number of any unit that has made a transmission.  so with s1 and
+ s2 being used for a while "batch" of the unit keys, the number of
+ used s1/s2 pairs will probably be fairly low.  of course, you have to
+ believe that the nsa/fbi/name-your-favorite-government agency will
+ know sk so all it needs is the s1/s2 pairs, and presto, nasty details 
  like court orders for wire taps are no longer necessary.
  
- Now, I'm not one of the people who distrusts the government at every
- turn, but taking someone's word for it that the S1/S2 pairs are not kept
- around is pushing what I'm willing to believe just a little bit too far.
+ now, i'm not one of the people who distrusts the government at every
+ turn, but taking someone's word for it that the s1/s2 pairs are not kept
+ around is pushing what i'm willing to believe just a little bit too far.
  
  
  -- 
- Steve Tate srt@cs.duke.edu | The reason why mathematics enjoys special esteem,
- Dept. of Computer Science  | above all other sciences, is that its laws are
- Duke University     | absolutely certain and indisputable, while those of all
- Durham, NC  27706   | other sciences are to some extent debatable. (Einstein)
+ steve tate srt@cs.duke.edu | the reason why mathematics enjoys special esteem,
+ dept. of computer science  | above all other sciences, is that its laws are
+ duke university     | absolutely certain and indisputable, while those of all
+ durham, nc  27706   | other sciences are to some extent debatable. (einstein)
  

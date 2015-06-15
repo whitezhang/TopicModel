@@ -1,56 +1,56 @@
 
- -----BEGIN PGP SIGNED MESSAGE-----
+ -----begin pgp signed message-----
  
- In article <cliftonrC69tvt.4AL@netcom.com> cliftonr@netcom.com (Pope Clifton) writes:
+ in article <cliftonrc69tvt.4al@netcom.com> cliftonr@netcom.com (pope clifton) writes:
  
  [...]
- > If I want to talk to someone, I don't need to have previously exchanged
- > keys with him, I just call him up, and the phones establish a session key
- > for us using a zero-knowledge algorithm or something of the kind.  (If I've
+ > if i want to talk to someone, i don't need to have previously exchanged
+ > keys with him, i just call him up, and the phones establish a session key
+ > for us using a zero-knowledge algorithm or something of the kind.  (if i've
  > misunderstood this part, it probably invalidates the rest of this notion.)
  > 
- > This lends itself to spoofing.
+ > this lends itself to spoofing.
  [...]
- > I go buy a pair of Clipper phones to go on a pair of phone lines in a back
+ > i go buy a pair of clipper phones to go on a pair of phone lines in a back
  > room somewhere, and have the digital switch programmed to redirect his
  > calls to one of my two lines instead of to his, whenever he receives a
- > call.  The two phones are wired back-to-back in the clear.
+ > call.  the two phones are wired back-to-back in the clear.
  
  
- > Anyone see any problem with this scheme, other than to assume that all
+ > anyone see any problem with this scheme, other than to assume that all
  > public officials and phone company employees are totally incorruptible?
  
- As far as I can see, no matter how the session keys are generated (be it
- Diffie-Hellman or whatever), any Cripple conversation which travels in
- whole or in part over a land-line is vulnerable to this scheme.  Law-
+ as far as i can see, no matter how the session keys are generated (be it
+ diffie-hellman or whatever), any cripple conversation which travels in
+ whole or in part over a land-line is vulnerable to this scheme.  law-
  enforcement agencies can do it legally at the telco, or illegally by finding
- some part of the phone line that they can cut into.  The degree of risk
+ some part of the phone line that they can cut into.  the degree of risk
  depends very much on location - not good in the middle of a busy street,
- but not bad on a line in open country (leading to a drug lord's ranch).  The
+ but not bad on a line in open country (leading to a drug lord's ranch).  the
  only way to defeat it would be if your phone had the equivalent of a public
  key indexed against phone number for every phone you might want to call (all
- of them) - totally impractical, even if some part of the Cripple algorithm
- could be used as a kind of public key (I don't understand enough about these
+ of them) - totally impractical, even if some part of the cripple algorithm
+ could be used as a kind of public key (i don't understand enough about these
  things to know).
  
- This sort of encryption scheme is only really workable over a radio link,
+ this sort of encryption scheme is only really workable over a radio link,
  and even then you could probably interevene without causing problems for
  other phones nearby if you were physically close to the target phone.
  
- Gosh, yet another way to get round Cripple encryption.  How many is that
- we've found so far?  And that's without even knowing the details of the
+ gosh, yet another way to get round cripple encryption.  how many is that
+ we've found so far?  and that's without even knowing the details of the
  algorithm.
  
- - --Paul
+ - --paul
  
- -----BEGIN PGP SIGNATURE-----
- Version: 2.2
+ -----begin pgp signature-----
+ version: 2.2
  
- iQCVAgUBK+F5hGv14aSAK9PNAQHEFAP6Ap4AhhqHc9ewDJI14/1DP8woO6wpibkO
- B/lrJBT9GRKdgFDSzrc5aYe2aRctnYjFKQO3RHot0uN68Ewv1e7+1CcQDTCTVgaq
- ZaKHkGVkk99BaHEYGYy1Jn/MgKrJWrehIUfvHDp7x84tVPdCeMIMkAU0sZWwN2Kv
- YbqiEgkRBcg=
- =2pPL
- -----END PGP SIGNATURE-----
+ iqcvagubk+f5hgv14asak9pnaqhefap6ap4ahhqhc9ewdji14/1dp8woo6wpibko
+ b/lrjbt9grkdgfdszrc5aye2arctnyjfkqo3rhot0un68ewv1e7+1ccqdtctvgaq
+ zakhkgvkk99baheygyy1jn/mgkrjwrehiufvhdp7x84tvpdcemimkau0szwwn2kv
+ ybqiegkrbcg=
+ =2ppl
+ -----end pgp signature-----
  
  

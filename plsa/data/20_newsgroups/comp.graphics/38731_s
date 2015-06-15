@@ -1,17 +1,17 @@
 
  
- 	I was recently talking to a possible employer ( mine! :-) ) and he made a reference to a
- 48-bit graphics computer/image processing system.  I seem to remember it being called IMAGE or
- something akin to that.  Anyway, he claimed it had 48-bit color + a 12-bit alpha channel.  That's
- 60 bits of info--what could that possibly be for?  Specifically the 48-bit color?  That's 280
- trillion colors, many more than the human eye can resolve.  Is this an anti-aliasing thing?  Or
+ 	i was recently talking to a possible employer ( mine! :-) ) and he made a reference to a
+ 48-bit graphics computer/image processing system.  i seem to remember it being called image or
+ something akin to that.  anyway, he claimed it had 48-bit color + a 12-bit alpha channel.  that's
+ 60 bits of info--what could that possibly be for?  specifically the 48-bit color?  that's 280
+ trillion colors, many more than the human eye can resolve.  is this an anti-aliasing thing?  or
  is this just some magic number to make it work better with a certain processor.
  
- 	Also, to settle a bet with my roommate, what are SGI's flagship products?  I know of
- Iris, Indigo, and Crimson, but what are the other ones, and which is their top-of-the-line?
- (sadly, I have access to none of them.  Just a DEC 5000/25.  Sigh.)
+ 	also, to settle a bet with my roommate, what are sgi's flagship products?  i know of
+ iris, indigo, and crimson, but what are the other ones, and which is their top-of-the-line?
+ (sadly, i have access to none of them.  just a dec 5000/25.  sigh.)
  
- Eric Oehler
+ eric oehler
  oehler@picard.cs.wisc.edu
   
  

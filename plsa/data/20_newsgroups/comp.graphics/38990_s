@@ -1,35 +1,35 @@
 
  
- In article <1rb22k$l7v@neuro.usc.edu>, merlin@neuro.usc.edu (merlin) writes:
- |> Could someone explain the difference between Tom Gaskins' two books:
+ in article <1rb22k$l7v@neuro.usc.edu>, merlin@neuro.usc.edu (merlin) writes:
+ |> could someone explain the difference between tom gaskins' two books:
  |> 
- |>   o  PEXLIB Programming Manual
- |>   o  PHIGS Programming Manual
+ |>   o  pexlib programming manual
+ |>   o  phigs programming manual
  |> 
- |> Why would I want to buy one book vs the other book?  I have an 80386
+ |> why would i want to buy one book vs the other book?  i have an 80386
  
- PEXLIB and PHIGS (as it comes from MIT with PEX and as is explained in the
- PHIGS Programming Manual) are just different API's for the PEX protocol,
- which is an extension to the X protocol.
+ pexlib and phigs (as it comes from mit with pex and as is explained in the
+ phigs programming manual) are just different api's for the pex protocol,
+ which is an extension to the x protocol.
  
- So it depends on You, what you go to use.
+ so it depends on you, what you go to use.
  
- Advantage of Phigs is the protability to other platforms (IBM GraPhigs, 
- SunPhigs) and the standardized structuring of the 3D objects.
+ advantage of phigs is the protability to other platforms (ibm graphigs, 
+ sunphigs) and the standardized structuring of the 3d objects.
  
- Advantage of PEXlib is the sometimes faster and easier programming for
- immediate mode graphics, because PEX is not an exactly mapping of Phigs
- to a Prortocol.
+ advantage of pexlib is the sometimes faster and easier programming for
+ immediate mode graphics, because pex is not an exactly mapping of phigs
+ to a prortocol.
  
  -- 
         \|/
        (o o)
-  -oOO--(_)--OOo--------------------------------------------------------
-   \\    Roland Holzapfel       Computer     email:                   //
-    \\   Wilhelminenstrasse 7   Graphics       holzapfe@igd.fhg.de   //
-    //   6100 Darmstadt          Center      phone:                  \\
-   //    Germany                 (ZGDV)        ++49 6151 155150       \\
+  -ooo--(_)--ooo--------------------------------------------------------
+   \\    roland holzapfel       computer     email:                   //
+    \\   wilhelminenstrasse 7   graphics       holzapfe@igd.fhg.de   //
+    //   6100 darmstadt          center      phone:                  \\
+   //    germany                 (zgdv)        ++49 6151 155150       \\
   -----------------------------------------------------------------------
-   >>             This space intentionally left blank                 <<
+   >>             this space intentionally left blank                 <<
   -----------------------------------------------------------------------
  

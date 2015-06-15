@@ -1,123 +1,123 @@
 
- [ Article crossposted from hp.windows ]
- [ Author was Andy DeFaria ]
- [ Posted on Mon, 19 Apr 1993 18:08:38 GMT ]
+ [ article crossposted from hp.windows ]
+ [ author was andy defaria ]
+ [ posted on mon, 19 apr 1993 18:08:38 gmt ]
  
- For some reason the following code causes my X application to beep whenever I
- intercept a keystroke and change it's meaning.  The intent of this code it to
+ for some reason the following code causes my x application to beep whenever i
+ intercept a keystroke and change it's meaning.  the intent of this code it to
  allow "date" fields the following special keys:
  
- 	[Tt]:	Insert today's date
- 	[+=]:	Bump day up by one
- 	[-_]:	Bump day down by one
+ 	[tt]:	insert today's date
+ 	[+=]:	bump day up by one
+ 	[-_]:	bump day down by one
  
- I hardcoded some dates for this example.  Perhaps I shouldn't be using an
- XmText field for this.
+ i hardcoded some dates for this example.  perhaps i shouldn't be using an
+ xmtext field for this.
  
  ////////////////////////////////////////////////////////////////////////////// 
  // 
- // For some reason the following code beeps whenever any of the special keys
- // of [Tt+=-_] are hit.  Why?  The idea of this code is to interpret these
- // keys having the special meaning implied by the code.  I would like to get
- // rid of the beeping but, as far as I can tell, I'm not doing the beep and 
+ // for some reason the following code beeps whenever any of the special keys
+ // of [tt+=-_] are hit.  why?  the idea of this code is to interpret these
+ // keys having the special meaning implied by the code.  i would like to get
+ // rid of the beeping but, as far as i can tell, i'm not doing the beep and 
  // am at a lose as to understanding who and why the beeping is occuring.
  // 
  ////////////////////////////////////////////////////////////////////////////// 
- #include <X11/Intrinsic.h>
- #include <Xm/Xm.h>
- #include <Xm/RowColumn.h>
- #include <Xm/MainW.h>
- #include <Xm/Text.h>
+ #include <x11/intrinsic.h>
+ #include <xm/xm.h>
+ #include <xm/rowcolumn.h>
+ #include <xm/mainw.h>
+ #include <xm/text.h>
  
- Widget		toplevel;
- Widget		mainWindow;
- Widget		mainPane;
- Widget		dateField;
- XtAppContext	application; 
+ widget		toplevel;
+ widget		mainwindow;
+ widget		mainpane;
+ widget		datefield;
+ xtappcontext	application; 
  
- void markToday (Widget date) {
-    char *todaysDate = "04/19/93";
-    XtVaSetValues (date, XmNvalue, todaysDate, NULL);
- } // markToday
+ void marktoday (widget date) {
+    char *todaysdate = "04/19/93";
+    xtvasetvalues (date, xmnvalue, todaysdate, null);
+ } // marktoday
  
- void markTomorrow (Widget date) {
-    char *tomorrowsDate = "04/20/93";
-    XtVaSetValues (date, XmNvalue, tomorrowsDate, NULL);
- } // markTomorrow
+ void marktomorrow (widget date) {
+    char *tomorrowsdate = "04/20/93";
+    xtvasetvalues (date, xmnvalue, tomorrowsdate, null);
+ } // marktomorrow
  
- void markYesterday (Widget date) {
-    char *yesterdaysDate = "04/18/93";
-    XtVaSetValues (date, XmNvalue, yesterdaysDate, NULL);
- } // markYesterday
+ void markyesterday (widget date) {
+    char *yesterdaysdate = "04/18/93";
+    xtvasetvalues (date, xmnvalue, yesterdaysdate, null);
+ } // markyesterday
  
- void datekeys (Widget          /* callingWidget */,
- 	       Widget          date,
- 	       XmTextVerifyPtr callbackData) {
-    // Capture the keys [Tt-_+=] can change their behaviour.  If found
-    // set "doit" to false so X won't interpret the keystroke. 
-    switch (callbackData->text->ptr [0]) {
-       case 't': case 'T': 
- 	 markToday (date);
- 	 callbackData->doit = FALSE;
+ void datekeys (widget          /* callingwidget */,
+ 	       widget          date,
+ 	       xmtextverifyptr callbackdata) {
+    // capture the keys [tt-_+=] can change their behaviour.  if found
+    // set "doit" to false so x won't interpret the keystroke. 
+    switch (callbackdata->text->ptr [0]) {
+       case 't': case 't': 
+ 	 marktoday (date);
+ 	 callbackdata->doit = false;
  	 return;
        case '-': case '_':
- 	 markYesterday (date);
- 	 callbackData->doit = FALSE;
+ 	 markyesterday (date);
+ 	 callbackdata->doit = false;
  	 return;
        case '+': case '=':
- 	 markTomorrow (date);
- 	 callbackData->doit = FALSE;
+ 	 marktomorrow (date);
+ 	 callbackdata->doit = false;
  	 return;
        default:
  	 return;
     } // switch
  } // datekeys
  
- void main (Cardinal argc, char *argv []) { 
-    // Initialize Xt 
-    toplevel = XtVaAppInitialize (&application, "Application", NULL, 0, 
- 				 &argc, argv, NULL, NULL); 
+ void main (cardinal argc, char *argv []) { 
+    // initialize xt 
+    toplevel = xtvaappinitialize (&application, "application", null, 0, 
+ 				 &argc, argv, null, null); 
  
-    // Create the toolface
-    mainWindow = XtVaCreateManagedWidget 
-       ("mainWindow", xmMainWindowWidgetClass, toplevel, NULL);
+    // create the toolface
+    mainwindow = xtvacreatemanagedwidget 
+       ("mainwindow", xmmainwindowwidgetclass, toplevel, null);
  
-    // Create a mainWindow
-    mainPane = XtVaCreateManagedWidget
-       ("mainPane", xmRowColumnWidgetClass, mainWindow, NULL);
+    // create a mainwindow
+    mainpane = xtvacreatemanagedwidget
+       ("mainpane", xmrowcolumnwidgetclass, mainwindow, null);
  
-    // Create a small text area
-    dateField = XtVaCreateManagedWidget
-       ("dateField", xmTextWidgetClass, mainPane,
-        XmNtopAttachment,	XmATTACH_FORM,
-        XmNrightAttachment,	XmATTACH_FORM,
-        XmNcolumns,		8,
-        NULL);
+    // create a small text area
+    datefield = xtvacreatemanagedwidget
+       ("datefield", xmtextwidgetclass, mainpane,
+        xmntopattachment,	xmattach_form,
+        xmnrightattachment,	xmattach_form,
+        xmncolumns,		8,
+        null);
  
-    // Set modifyVerifyCallback to the datekeys callback   
-    XtAddCallback (dateField, XmNmodifyVerifyCallback,
- 		  (XtCallbackProc) datekeys, (XtPointer) dateField);
+    // set modifyverifycallback to the datekeys callback   
+    xtaddcallback (datefield, xmnmodifyverifycallback,
+ 		  (xtcallbackproc) datekeys, (xtpointer) datefield);
  
-    // Realize the toplevel 
-    XtRealizeWidget (toplevel);
+    // realize the toplevel 
+    xtrealizewidget (toplevel);
  
-    // Go into the XtMainLoop
-    XtAppMainLoop (application); 
+    // go into the xtmainloop
+    xtappmainloop (application); 
  } // main 
  
  _______________________________________________________________________________
- I swear by my life and the love of it that I will    | Andrew DeFaria
- never live for the sake of another man nor ask       | Hewlett Packard
- another man to live for mine.                        | California Language Labs
-                     John Galt                        | defaria@cup.hp.com
+ i swear by my life and the love of it that i will    | andrew defaria
+ never live for the sake of another man nor ask       | hewlett packard
+ another man to live for mine.                        | california language labs
+                     john galt                        | defaria@cup.hp.com
  _______________________________________________________________________________
  
  
  --
  _______________________________________________________________________________
- I swear by my life and the love of it that I will    | Andrew DeFaria
- never live for the sake of another man nor ask       | Hewlett Packard
- another man to live for mine.                        | California Language Labs
-                     John Galt                        | defaria@cup.hp.com
+ i swear by my life and the love of it that i will    | andrew defaria
+ never live for the sake of another man nor ask       | hewlett packard
+ another man to live for mine.                        | california language labs
+                     john galt                        | defaria@cup.hp.com
  _______________________________________________________________________________
  

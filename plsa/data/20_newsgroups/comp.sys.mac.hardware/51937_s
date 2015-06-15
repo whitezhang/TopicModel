@@ -1,17 +1,17 @@
 
- wstuartj@lucky.ecn.purdue.edu (W Stuart Jones) writes:
+ wstuartj@lucky.ecn.purdue.edu (w stuart jones) writes:
  
- >I want to go from 512K to 1M VRAM on my Quadra 800.  How many 512K SIMMS do I
+ >i want to go from 512k to 1m vram on my quadra 800.  how many 512k simms do i
  >need to buy?
  
-     None. You need to buy 2 80ns 256k VRAM SIMMs. They cost about $30
+     none. you need to buy 2 80ns 256k vram simms. they cost about $30
  each from your favorite memory distributor.
  
- >Is the current 512K soldered on the board or do I need to take out the
- >current VRAM before I add more?
+ >is the current 512k soldered on the board or do i need to take out the
+ >current vram before i add more?
  
-     The 512k is soldered to the logic board. There are 2 SIMM slots for
+     the 512k is soldered to the logic board. there are 2 simm slots for
  expansion.
  
- -Hades
+ -hades
  

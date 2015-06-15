@@ -1,31 +1,31 @@
 
- In article <1rgtba$gtn@access.digex.net> farley@access.digex.com (Charles U. Farley) writes:
+ in article <1rgtba$gtn@access.digex.net> farley@access.digex.com (charles u. farley) writes:
  >
- >I know this is probably a FAQ, but...
+ >i know this is probably a faq, but...
  >
- >I installed the s/w for my ATI graphics card, and it bashed my Windows
- >logo files.  When I start Windows now, it has the 3.0 logo instead of
+ >i installed the s/w for my ati graphics card, and it bashed my windows
+ >logo files.  when i start windows now, it has the 3.0 logo instead of
  >the 3.1 logo.
  >
- >I thought the files that controlled this were
+ >i thought the files that controlled this were
  >
- >\WINDOWS\SYSTEM\VGALOGO.RLE
- >\WINDOWS\SYSTEM\VGALOGO.LGO	
+ >\windows\system\vgalogo.rle
+ >\windows\system\vgalogo.lgo	
  >
- >I restored these files, but it didn't change the logo.  Anyone know what
+ >i restored these files, but it didn't change the logo.  anyone know what
  >the correct files are?
  
- I believe you have the correct files. I think what you'll have to
- do is go back into Setup and choose change video adapter or
- whatever it is called. Then the trick is choose the same adaptor
- you currently have. What Setup does is it actually changes the
- file WIN.COM whenever you go into it and change the video
- hardware selection. It incorporates the contents of VGALOGO.RLE
- into WIN.COM when you do this. This trick can also be used to
+ i believe you have the correct files. i think what you'll have to
+ do is go back into setup and choose change video adapter or
+ whatever it is called. then the trick is choose the same adaptor
+ you currently have. what setup does is it actually changes the
+ file win.com whenever you go into it and change the video
+ hardware selection. it incorporates the contents of vgalogo.rle
+ into win.com when you do this. this trick can also be used to
  change the startup logo into whatever you want it to be.
  -- 
- [.SIG ALERT]
+ [.sig alert]
  
  dbstrutt@acs.ucalgary.ca
- [END .SIG ALERT]
+ [end .sig alert]
  

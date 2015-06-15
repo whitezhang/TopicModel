@@ -1,25 +1,25 @@
 
- I would like advice on how to configure my 486 to accept:
- - Com1 + Com2  (currently on IRQ 4 and 3)
- - LPT1 (IRQ7)
- - Bus Mouse (IRQ5)
- - Sound Card (no idea what to do - can be set to any)
+ i would like advice on how to configure my 486 to accept:
+ - com1 + com2  (currently on irq 4 and 3)
+ - lpt1 (irq7)
+ - bus mouse (irq5)
+ - sound card (no idea what to do - can be set to any)
  - 
- using IRQ2 for Bus MOuse gobbled up too many cycles, and caused
+ using irq2 for bus mouse gobbled up too many cycles, and caused
  loss of communications with floppy disks, and a few other 
  problems.
  
- I could, I suppose, switch the 2 com devices externally, and disable
- the second port on the Super IO card, but I really want to 
+ i could, i suppose, switch the 2 com devices externally, and disable
+ the second port on the super io card, but i really want to 
  have them both available.
  
- COuld the sound card use IRQ2 without horsing up the works?
+ could the sound card use irq2 without horsing up the works?
  
- All replies apppreciated - and I only just subscribed to this
- newsgroup - I assume there is an FAQ somewhere (rather, I'm
+ all replies apppreciated - and i only just subscribed to this
+ newsgroup - i assume there is an faq somewhere (rather, i'm
  sure someone will tell me about it....)
  
  thanks
- Mark Fraser
+ mark fraser
  
  

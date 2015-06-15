@@ -1,29 +1,29 @@
 
- In article <1993Apr23.035543.25060@ucsu.Colorado.EDU> koberg@spot.Colorado.EDU (Allen Koberg) writes:
+ in article <1993apr23.035543.25060@ucsu.colorado.edu> koberg@spot.colorado.edu (allen koberg) writes:
  
- >  With Stacker, any changes to your config.sys
+ >  with stacker, any changes to your config.sys
  >or autoexec.bat meant rebooting twice so it could update those.
  
- 	This is not necessary. All you have to do is modify the config.sys
- on d:\  { or the real boot up partition/disk }. Then, you can manually
+ 	this is not necessary. all you have to do is modify the config.sys
+ on d:\  { or the real boot up partition/disk }. then, you can manually
  copy it to c:\ or allow stacker to do it on boot up. 
  
- 	Likewise with the autoexec.bat.
+ 	likewise with the autoexec.bat.
  
  
  ---
  
- Private note to Jennifer Fakult.
+ private note to jennifer fakult.
  
-         "This post may contain one or more of the following:
-          sarcasm, cycnicism, irony, or humor. Please be aware 
+         "this post may contain one or more of the following:
+          sarcasm, cycnicism, irony, or humor. please be aware 
           of this possibility and do not allow yourself to be 
-          confused and/or thrown for a loop. If in doubt, assume
+          confused and/or thrown for a loop. if in doubt, assume
           all of the above.
           
-          The owners of this account do not take any responsiblity
+          the owners of this account do not take any responsiblity
           for your own confusion which may result from your inability
-          to recognize any of the above. Read at your own risk, Jennifer."
+          to recognize any of the above. read at your own risk, jennifer."
  
  
  

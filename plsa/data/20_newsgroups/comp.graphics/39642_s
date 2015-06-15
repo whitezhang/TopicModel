@@ -1,301 +1,301 @@
 
  
- I have posted DISP140.ZIP to alt.binaries.pictures.utilities.
- I will upload this package to SIMTEL20 later.
+ i have posted disp140.zip to alt.binaries.pictures.utilities.
+ i will upload this package to simtel20 later.
  
- ******   You may distribute this program freely for non-commercial use
+ ******   you may distribute this program freely for non-commercial use
           if no fee is gained.
- ******   There is no warranty. The author is not responsible for any
+ ******   there is no warranty. the author is not responsible for any
           damage caused by this program.
  
- Important changes since Version 1.35:
-   Added support for IRIS.
-   Support Mix/Concat. two images.
-   Added support for 'batch conversion'.
-   Added support for 'load/save palette table'.
-   Added support for 'edge enhance'.
-   Added support for 'crop one line'.
-   Added support for 'negate image'.
-   New color quantization option.
-   Fix some minor bugs.
+ important changes since version 1.35:
+   added support for iris.
+   support mix/concat. two images.
+   added support for 'batch conversion'.
+   added support for 'load/save palette table'.
+   added support for 'edge enhance'.
+   added support for 'crop one line'.
+   added support for 'negate image'.
+   new color quantization option.
+   fix some minor bugs.
  
- (1) Introduction:
-   This program can let you READ, WRITE and DISPLAY images with different
-   formats. It also let you do some special effects(ROTATION, DITHERING ....)
-   on image. Its main purpose is to let you convert image among different
+ (1) introduction:
+   this program can let you read, write and display images with different
+   formats. it also let you do some special effects(rotation, dithering ....)
+   on image. its main purpose is to let you convert image among different
    formts.
-   Include simple file management system.
-   Support 'slide show'.
- + Support 'batch conversion'.
-   There is NO LIMIT on image size.
-   Currently this program supports 8, 15, 16, 24 bits display.
-   If you want to use HiColor or TrueColor, you must have VESA driver.
-   If you want to modify video driver, please read section (8).
+   include simple file management system.
+   support 'slide show'.
+ + support 'batch conversion'.
+   there is no limit on image size.
+   currently this program supports 8, 15, 16, 24 bits display.
+   if you want to use hicolor or truecolor, you must have vesa driver.
+   if you want to modify video driver, please read section (8).
  
  
- (2) Hardware Requirement:
-   PC 386 or better. MSDOS 3.3 or higher.
-   min amount of ram is 4M bytes(Maybe less memory will also work).
-   (I recommend min 8M bytes for better performance).
-   Hard disk for swapping(virtual memory).
+ (2) hardware requirement:
+   pc 386 or better. msdos 3.3 or higher.
+   min amount of ram is 4m bytes(maybe less memory will also work).
+   (i recommend min 8m bytes for better performance).
+   hard disk for swapping(virtual memory).
  
-   The following description is borrowed from DJGPP.
+   the following description is borrowed from djgpp.
  
-   Supported Wares:
+   supported wares:
  
-   * Up to 128M of extended memory (expanded under VCPI)
-   * Up to 128M of disk space used for swapping
-   * SuperVGA 256-color mode up to 1024x768
+   * up to 128m of extended memory (expanded under vcpi)
+   * up to 128m of disk space used for swapping
+   * supervga 256-color mode up to 1024x768
    * 80387
-   * XMS & VDISK memory allocation strategies
-   * VCPI programs, such as QEMM, DESQview, and 386MAX
+   * xms & vdisk memory allocation strategies
+   * vcpi programs, such as qemm, desqview, and 386max
  
-   Unsupported:
+   unsupported:
  
-   * DPMI
-   * Microsoft Windows
+   * dpmi
+   * microsoft windows
  
-   Features: 80387 emulator, 32-bit unix-ish environment, flat memory
-   model, SVGA graphics.
+   features: 80387 emulator, 32-bit unix-ish environment, flat memory
+   model, svga graphics.
  
  
- (3) Installation:
-   Video drivers, emu387 and go32.exe are borrowed from DJGPP.
-   (If you use Western Digital VGA chips, read readme.wd)
-   (This GO32.EXE is a modified version for vesa and is COMPLETELY compatible
+ (3) installation:
+   video drivers, emu387 and go32.exe are borrowed from djgpp.
+   (if you use western digital vga chips, read readme.wd)
+   (this go32.exe is a modified version for vesa and is completely compatible
     with original version)
-   *** But some people report that this go32.exe is not compatible with
-       other DJGPP programs in their system. If you encounter this problem,
-       DON'T put go32.exe within search path.
+   *** but some people report that this go32.exe is not compatible with
+       other djgpp programs in their system. if you encounter this problem,
+       don't put go32.exe within search path.
  
-   *** Please read runme.bat for how to run this program.
+   *** please read runme.bat for how to run this program.
  
-   If you choose xxxxx.grn as video driver, add 'nc 256' to environment
-     GO32.
+   if you choose xxxxx.grn as video driver, add 'nc 256' to environment
+     go32.
  
-   For example, go32=driver x:/xxxxx/xxxxx.grn nc 256
+   for example, go32=driver x:/xxxxx/xxxxx.grn nc 256
  
-   If you don't have 80x87, add 'emu x:/xxxxx/emu387' to environment GO32.
+   if you don't have 80x87, add 'emu x:/xxxxx/emu387' to environment go32.
  
-   For example, go32=driver x:/xxxxx/xxxxx.grd emu x:/xxxxx/emu387
+   for example, go32=driver x:/xxxxx/xxxxx.grd emu x:/xxxxx/emu387
  
-   **** Notes: 1. I only test tr8900.grn, et4000.grn and vesa.grn.
-                  Other drivers are not tested.
-               2. I have modified et4000.grn to support 8, 15, 16, 24 bits
-                  display. You don't need to use vesa driver.
-                  If et4000.grn doesn't work, please try vesa.grn.
-               3. For those who want to use HiColor or TrueColor display,
+   **** notes: 1. i only test tr8900.grn, et4000.grn and vesa.grn.
+                  other drivers are not tested.
+               2. i have modified et4000.grn to support 8, 15, 16, 24 bits
+                  display. you don't need to use vesa driver.
+                  if et4000.grn doesn't work, please try vesa.grn.
+               3. for those who want to use hicolor or truecolor display,
                   please use vesa.grn(except et4000 users).
-                  You can find vesa BIOS driver from :
+                  you can find vesa bios driver from :
                     wuarchive.wustl.edu: /mirrors/msdos/graphics
-                    godzilla.cgl.rmit.oz.au: /kjb/MGL
+                    godzilla.cgl.rmit.oz.au: /kjb/mgl
  
  
- (4) Command Line Switch:
+ (4) command line switch:
  
-     Usage : display [-d|--display initial_display_type]
+     usage : display [-d|--display initial_display_type]
                      [-s|--sort sort_method]
                      [-h|-?]
  
-     Display type: 8(SVGA,default), 15, 16(HiColor), 24(TrueColor)
-     Sort method: 'name', 'ext'
+     display type: 8(svga,default), 15, 16(hicolor), 24(truecolor)
+     sort method: 'name', 'ext'
  
  
- (5) Function Key:
+ (5) function key:
  
-     F2 : Change disk drive.
+     f2 : change disk drive.
  
-     CTRL-A -- CTRL-Z : change disk drive.
+     ctrl-a -- ctrl-z : change disk drive.
  
-     F3 : Change filename mask. (See match.doc)
+     f3 : change filename mask. (see match.doc)
  
-     F4 : Change parameters.
+     f4 : change parameters.
  
-     F5 : Some effects on picture, eg. flip, rotate ....
+     f5 : some effects on picture, eg. flip, rotate ....
  
-     F7 : Make Directory.
+     f7 : make directory.
  
-     t : Tag file.
+     t : tag file.
  
-     + : Tag group files. (See match.doc)
+     + : tag group files. (see match.doc)
  
-     T : Tag all files.
+     t : tag all files.
  
-     u : Untag file.
+     u : untag file.
  
-     - : Untag group files. (See match.doc)
+     - : untag group files. (see match.doc)
  
-     U : Untag all files.
+     u : untag all files.
  
-     Ins : Change display type (8,15,16,24) in 'read' & 'screen' menu.
+     ins : change display type (8,15,16,24) in 'read' & 'screen' menu.
  
-     F6,m,M : Move file(s).
+     f6,m,m : move file(s).
  
- +   ALT-M : Move single file(ignore tag).
+ +   alt-m : move single file(ignore tag).
  
-     F8,d,D : Delete file(s).
+     f8,d,d : delete file(s).
  
- +   ALT-D : Delete single file(ignore tag).
+ +   alt-d : delete single file(ignore tag).
  
-     r,R : Rename file.
+     r,r : rename file.
  
-     c,C : Copy File(s).
+     c,c : copy file(s).
  
- +   ALT-C : Copy single file(ignore tag).
+ +   alt-c : copy single file(ignore tag).
  
-     z,Z : Display first 10 bytes in Ascii, Hex and Dec modes.
+     z,z : display first 10 bytes in ascii, hex and dec modes.
  
-     f,F : Display disk free space.
+     f,f : display disk free space.
  
-     Page Up/Down : Move one page.
+     page up/down : move one page.
  
-     TAB : Change processing target.
+     tab : change processing target.
  
-     Arrow keys, Home, End, Page Up, Page Down: Scroll image.
-       Home: Left Most.
-       End: Right Most.
-       Page Up: Top Most.
-       Page Down: Bottom Most.
+     arrow keys, home, end, page up, page down: scroll image.
+       home: left most.
+       end: right most.
+       page up: top most.
+       page down: bottom most.
        in 'screen' & 'effect' menu :
-         Left,Right arrow: Change display type(8, 15, 16, 24 bits).
+         left,right arrow: change display type(8, 15, 16, 24 bits).
  
- +   CTRL-Arrow keys : Crop image by one line(in graphics mode).
+ +   ctrl-arrow keys : crop image by one line(in graphics mode).
  
-     s,S : Slide Show(show tagged files). ESCAPE to terminate.
+     s,s : slide show(show tagged files). escape to terminate.
  
- +   b,B : Batch conversion(convert tagged files to single format).
+ +   b,b : batch conversion(convert tagged files to single format).
  
- +   w,W : Wait/Pause in slide show.
+ +   w,w : wait/pause in slide show.
  
-     ALT-X : Quit program without prompting.
+     alt-x : quit program without prompting.
  
-     ALT-A : Reread directory.
+     alt-a : reread directory.
  
-     Escape : Abort function and return.
+     escape : abort function and return.
  
  
- (6) Support Format:
+ (6) support format:
  
-   Read: GIF(.gif), Japan MAG(.mag), Japan PIC(.pic), Sun Raster(.ras),
-         Jpeg(.jpg), XBM(.xbm), Utah RLE(.rle), PBM(.pbm), PGM(.pgm),
-         PPM(.ppm), PM(.pm), PCX(.pcx), Japan MKI(.mki), Tiff(.tif),
-         Targa(.tga), XPM(.xpm), Mac Paint(.mac), GEM/IMG(.img),
-         IFF/ILBM(.lbm), Window BMP(.bmp), QRT ray tracing(.qrt),
-         Mac PICT(.pct), VIS(.vis), PDS(.pds), VIKING(.vik), VICAR(.vic),
- +       FITS(.fit), Usenix FACE(.fac), IRIS(.sgi).
+   read: gif(.gif), japan mag(.mag), japan pic(.pic), sun raster(.ras),
+         jpeg(.jpg), xbm(.xbm), utah rle(.rle), pbm(.pbm), pgm(.pgm),
+         ppm(.ppm), pm(.pm), pcx(.pcx), japan mki(.mki), tiff(.tif),
+         targa(.tga), xpm(.xpm), mac paint(.mac), gem/img(.img),
+         iff/ilbm(.lbm), window bmp(.bmp), qrt ray tracing(.qrt),
+         mac pict(.pct), vis(.vis), pds(.pds), viking(.vik), vicar(.vic),
+ +       fits(.fit), usenix face(.fac), iris(.sgi).
  
          the extensions in () are standard extensions.
  
-   Write: GIF, Sun Raster, Jpeg, XBM, PBM, PGM, PPM, PM, Tiff, Targa,
-          XPM, Mac Paint, Ascii, Laser Jet, IFF/ILBM, Window BMP,
- +        Mac PICT, VIS, FITS, FACE, PCX, GEM/IMG, IRIS.
+   write: gif, sun raster, jpeg, xbm, pbm, pgm, ppm, pm, tiff, targa,
+          xpm, mac paint, ascii, laser jet, iff/ilbm, window bmp,
+ +        mac pict, vis, fits, face, pcx, gem/img, iris.
  
-   All Read/Write support full color(8 bits), grey scale, b/w dither,
+   all read/write support full color(8 bits), grey scale, b/w dither,
        and 24 bits image, if allowed for that format.
  
  
- (7) Detail:
+ (7) detail:
  
-    Initialization:
-       Set default display type to highest display type.
-       Find allowable screen resolution(for .grn video driver only).
+    initialization:
+       set default display type to highest display type.
+       find allowable screen resolution(for .grn video driver only).
  
-    1. When you run this program, you will enter 'read' menu. Whthin this
-       menu you can press any function key. If you move or copy
+    1. when you run this program, you will enter 'read' menu. whthin this
+       menu you can press any function key. if you move or copy
        files, you will enter 'write' menu. the 'write' menu is much like
        'read' menu, but only allow you to change directory.
-       The header line in 'read' menu includes "(d:xx,f:xx,t:xx)".
+       the header line in 'read' menu includes "(d:xx,f:xx,t:xx)".
          d : display type. f: number of files. t: number of tagged files.
-       pressing SPACE in 'read' menu will let you select which format to use
+       pressing space in 'read' menu will let you select which format to use
          for reading current file.
-       pressing RETURN in 'read' menu will let you reading current file. This
+       pressing return in 'read' menu will let you reading current file. this
          program will automatically determine which format this file is.
-         The procedure is: First, check magic number. If fail, check
-         standard extension. Still fail, report error.
-       pressing s or S in 'read' menu will do 'Slide Show'.
-         If delay time is 0, program will wait until you hit a key
-           (except ESCAPE).
-         If any error occurs, program will make a beep.
- +       'w' or 'W' to pause, any key to continue.
-         ESCAPE to terminate.
-       pressing Ins in 'read' menu will change display type.
-       pressing ALT-X in 'read' menu will quit program without prompting.
- +     pressing F5 will turn on 'effect' menu.
+         the procedure is: first, check magic number. if fail, check
+         standard extension. still fail, report error.
+       pressing s or s in 'read' menu will do 'slide show'.
+         if delay time is 0, program will wait until you hit a key
+           (except escape).
+         if any error occurs, program will make a beep.
+ +       'w' or 'w' to pause, any key to continue.
+         escape to terminate.
+       pressing ins in 'read' menu will change display type.
+       pressing alt-x in 'read' menu will quit program without prompting.
+ +     pressing f5 will turn on 'effect' menu.
  
-    2. Once image file is successfully read, you will enter 'screen' menu.
-       You can do special effect on image.
-       pressing RETURN: show image.
-         in graphic mode, press RETURN, SPACE or ESCAPE to return to text
+    2. once image file is successfully read, you will enter 'screen' menu.
+       you can do special effect on image.
+       pressing return: show image.
+         in graphic mode, press return, space or escape to return to text
          mode.
-       pressing TAB: change processing target. This program allows you to do
+       pressing tab: change processing target. this program allows you to do
          special effects on 8-bit or 24-bit image.
-       pressing Left,Right arrow: change display type. 8, 15, 16, 24 bits.
-       pressing SPACE: save current image to file.
-         B/W Dither: save as black/white image(1 bit).
-         Grey Scale: save as grey image(8 bits).
-         Full Color: save as color image(8 bits).
-         True Color: save as 24-bit image.
+       pressing left,right arrow: change display type. 8, 15, 16, 24 bits.
+       pressing space: save current image to file.
+         b/w dither: save as black/white image(1 bit).
+         grey scale: save as grey image(8 bits).
+         full color: save as color image(8 bits).
+         true color: save as 24-bit image.
  
-         This program will ask you some questions if you want to write image
-         to file. Some questions are format-dependent. Finally This program
-         will prompt you a filename. If you want to save file under another
-         directory other than current directory, please press SPACE. after
-         pressing SPACE, you will enter 'write2' menu. You can change
-         directory to what you want. Then,
+         this program will ask you some questions if you want to write image
+         to file. some questions are format-dependent. finally this program
+         will prompt you a filename. if you want to save file under another
+         directory other than current directory, please press space. after
+         pressing space, you will enter 'write2' menu. you can change
+         directory to what you want. then,
  
-         pressing SPACE: this program will prompt you 'original' filename.
-         pressing RETURN: this program will prompt you 'selected' filename
+         pressing space: this program will prompt you 'original' filename.
+         pressing return: this program will prompt you 'selected' filename
                        (filename under bar).
  
  
-   3. This program supports 8, 15, 16, 24 bits display.
+   3. this program supports 8, 15, 16, 24 bits display.
  
-   4. This Program is MEMORY GREEDY. If you don't have enough memory,
+   4. this program is memory greedy. if you don't have enough memory,
       the performance is poor.
  
-   5. If you want to save 8 bits image :
-        try GIF then TIFF(LZW) then TARGA then Sun Raster then BMP then ...
+   5. if you want to save 8 bits image :
+        try gif then tiff(lzw) then targa then sun raster then bmp then ...
  
-      If you want to save 24 bits image (lossless):
-        try TIFF(LZW) or TARGA or ILBM or Sun Raster
-        (No one is better for true 24bits image)
+      if you want to save 24 bits image (lossless):
+        try tiff(lzw) or targa or ilbm or sun raster
+        (no one is better for true 24bits image)
  
-   6. I recommend Jpeg for storing 24 bits images, even 8 bits images.
+   6. i recommend jpeg for storing 24 bits images, even 8 bits images.
  
-   7. Not all subroutines are fully tested
+   7. not all subroutines are fully tested
  
-   8. This document is not well written. If you have any PROBLEM, SUGGESTION,
-      COMMENT about this program,
-      Please send to u7711501@bicmos.ee.nctu.edu.tw (140.113.11.13).
-      I need your suggestion to improve this program.
-      (There is NO anonymous ftp on this site)
+   8. this document is not well written. if you have any problem, suggestion,
+      comment about this program,
+      please send to u7711501@bicmos.ee.nctu.edu.tw (140.113.11.13).
+      i need your suggestion to improve this program.
+      (there is no anonymous ftp on this site)
  
  
- (8) Tech. information:
-   Program (user interface and some subroutines) written by Jih-Shin Ho.
-   Some subroutines are borrowed from XV(2.21) and PBMPLUS(dec 91).
-   Tiff(V3.2) and Jpeg(V4) reading/writing are through public domain
+ (8) tech. information:
+   program (user interface and some subroutines) written by jih-shin ho.
+   some subroutines are borrowed from xv(2.21) and pbmplus(dec 91).
+   tiff(v3.2) and jpeg(v4) reading/writing are through public domain
      libraries.
-   Compiled with DJGPP.
-   You can get whole DJGPP package from SIMTEL20 or mirror sites.
-     For example, wuarchive.wustl.edu: /mirrors/msdos/djgpp
+   compiled with djgpp.
+   you can get whole djgpp package from simtel20 or mirror sites.
+     for example, wuarchive.wustl.edu: /mirrors/msdos/djgpp
  
  
- (9) For Thoese who want to modify video driver:
-    1. get GRX source code from SIMTEL20 or mirror sites.
-    2. For HiColor and TrueColor:
+ (9) for thoese who want to modify video driver:
+    1. get grx source code from simtel20 or mirror sites.
+    2. for hicolor and truecolor:
          15 bits : # of colors is set to 32768.
          16 bits : # of colors is set to 0xc010.
          24 bits : # of colors is set to 0xc018.
  
  
- Acknowledgment:
-   I would like to thank the authors of XV and PBMPLUS for their permission
+ acknowledgment:
+   i would like to thank the authors of xv and pbmplus for their permission
      to let me use their subroutines.
-   Also I will thank the authors who write Tiff and Jpeg libraries.
-   Thank DJ. Without DJGPP I can't do any thing on PC.
+   also i will thank the authors who write tiff and jpeg libraries.
+   thank dj. without djgpp i can't do any thing on pc.
  
  
-                                             Jih-Shin Ho
+                                             jih-shin ho
                                     u7711501@bicmos.ee.nctu.edu.tw
  

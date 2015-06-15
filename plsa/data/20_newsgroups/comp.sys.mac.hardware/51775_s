@@ -1,54 +1,54 @@
 
- Here is the MacWeek article describing the DUO ram situation.
- (w/o permission.  I hope that is ok)
+ here is the macweek article describing the duo ram situation.
+ (w/o permission.  i hope that is ok)
  
- Jose
+ jose
  
- Bad RAM brings some Duos down. (random access memory boards for Apple
- Macintosh PowerBook Duos) 
- MacWEEK v7, n7 (Feb 15, 1993):132.
+ bad ram brings some duos down. (random access memory boards for apple
+ macintosh powerbook duos) 
+ macweek v7, n7 (feb 15, 1993):132.
  
- COPYRIGHT Coastal Associates Publishing L.P. 1993
+ copyright coastal associates publishing l.p. 1993
  
- By Raines Cohen
+ by raines cohen
  
-      Austin, Texas - Some third-party memory-expansion cards for PowerBook
- Duos depart from Apple specs in ways that could cause crashes, data loss
+      austin, texas - some third-party memory-expansion cards for powerbook
+ duos depart from apple specs in ways that could cause crashes, data loss
  and other problems.
  
-      Technology Works Inc., a RAM and network vendor based here, last week
- issued a warning about three problems it said it had found in Duo RAM
+      technology works inc., a ram and network vendor based here, last week
+ issued a warning about three problems it said it had found in duo ram
  products from some competing vendors, which it declined to identify.
- Other vendors and an Apple spokeswoman confirmed that the problems exist.
+ other vendors and an apple spokeswoman confirmed that the problems exist.
  
-      > Self-refresh.  The Duos require a kind of dynamic RAM called
- selfrefreshing, which can recharge itself while the system sleeps.  But
- Technology Works said some vendors have sold Duo cards with
- nonselfrefreshing DRAM, which can cause the system to lose data or fail to
+      > self-refresh.  the duos require a kind of dynamic ram called
+ selfrefreshing, which can recharge itself while the system sleeps.  but
+ technology works said some vendors have sold duo cards with
+ nonselfrefreshing dram, which can cause the system to lose data or fail to
  wake from sleep.
  
-      Most leading memory manufacturers include the letter V in the part
+      most leading memory manufacturers include the letter v in the part
  number stamped on their self-refreshing chips; nonself-refreshing chips
- instead have an L, according to TechWorks.  The chip label, however, may
- not tell the whole story.  Newer Technology of Wichita, Kan., said it uses
+ instead have an l, according to techworks.  the chip label, however, may
+ not tell the whole story.  newer technology of wichita, kan., said it uses
  nonself-refreshing chips but adds its own circuitry to keep them refreshed
- while the Duo sleeps.
+ while the duo sleeps.
  
-      > Speed.  Some RAM-card vendors have put 80-nanosecond DRAM on Duo
- cards rather than the 70-nanosecond type the 230 requires, Technology
- Works said.  However, some chips labeled as 80- or 85-nanosecond are
+      > speed.  some ram-card vendors have put 80-nanosecond dram on duo
+ cards rather than the 70-nanosecond type the 230 requires, technology
+ works said.  however, some chips labeled as 80- or 85-nanosecond are
  certified by the manufacturer to run at a higher speed.
  
-      Kingston Technology Corp. of Fountain Valley, Calif., said it offers
- Duo RAM cards with 80-nanosecond chips, but only for the Duo 210, which is
+      kingston technology corp. of fountain valley, calif., said it offers
+ duo ram cards with 80-nanosecond chips, but only for the duo 210, which is
  compatible with the slower chips.
  
-      > Space.  Technology Works charged and Apple officials confirmed that
+      > space.  technology works charged and apple officials confirmed that
  some third-party cards are too large to fit properly, forcing the corner
- of the Duo keyboard up and preventing the system from starting up normally
- when in a Duo Dock.
+ of the duo keyboard up and preventing the system from starting up normally
+ when in a duo dock.
  
-      Lifetime Memory Products Inc. of Huntington Beach, Calif., said it
+      lifetime memory products inc. of huntington beach, calif., said it
  originally shipped cards with this problem but has since offered all
  customers free upgrades to cards that fit.
  

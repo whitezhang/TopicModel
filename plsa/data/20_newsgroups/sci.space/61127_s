@@ -1,19 +1,19 @@
 
- In article <1993Apr23.103038.27467@bnr.ca> agc@bmdhh286.bnr.ca (Alan Carter) writes:
- >|> ... a NO-OP command was sent to reset the command loss timer ...
+ in article <1993apr23.103038.27467@bnr.ca> agc@bmdhh286.bnr.ca (alan carter) writes:
+ >|> ... a no-op command was sent to reset the command loss timer ...
  >
- >This activity is regularly reported in Ron's interesting posts. Could
- >someone explain what the Command Loss Timer is?
+ >this activity is regularly reported in ron's interesting posts. could
+ >someone explain what the command loss timer is?
  
- If I'm not mistaken, this is the usual sort of precaution against loss of
- communications.  That timer is counting down continuously; if it ever hits
- zero, that means Galileo hasn't heard from Earth in a suspiciously long
- time and it may be Galileo's fault... so it's time to go into a fallback
+ if i'm not mistaken, this is the usual sort of precaution against loss of
+ communications.  that timer is counting down continuously; if it ever hits
+ zero, that means galileo hasn't heard from earth in a suspiciously long
+ time and it may be galileo's fault... so it's time to go into a fallback
  mode that minimizes chances of spacecraft damage and maximizes chances
- of restoring contact.  I don't know exactly what-all Galileo does in such
+ of restoring contact.  i don't know exactly what-all galileo does in such
  a situation, but a common example is to switch receivers, on the theory
  that maybe the one you're listening with has died.
  -- 
- All work is one man's work.             | Henry Spencer @ U of Toronto Zoology
-                     - Kipling           |  henry@zoo.toronto.edu  utzoo!henry
+ all work is one man's work.             | henry spencer @ u of toronto zoology
+                     - kipling           |  henry@zoo.toronto.edu  utzoo!henry
  

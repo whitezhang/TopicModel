@@ -1,18 +1,18 @@
 
- Johan Conroy (572391) (jconroy@babel.ee.up.ac.za) wrote:
- : I have a question about SVGA cards.  I have a Tseng 4000 SVGA with 1MB
- : memory and 3x 6-bit DACs as far as I know.  To display a 640x480x32768, 
- : Now:  Can I display 640x480, 15bit/pixel bit-maps on this card?
+ johan conroy (572391) (jconroy@babel.ee.up.ac.za) wrote:
+ : i have a question about svga cards.  i have a tseng 4000 svga with 1mb
+ : memory and 3x 6-bit dacs as far as i know.  to display a 640x480x32768, 
+ : now:  can i display 640x480, 15bit/pixel bit-maps on this card?
  
- You can. At the least, your _hardware_ is capable of supporting this mode.
- I do know nothing about your video BIOS, though...
+ you can. at the least, your _hardware_ is capable of supporting this mode.
+ i do know nothing about your video bios, though...
  
- : If so, how?
+ : if so, how?
  
- Silly (but fool-proof ;) way: Install Windows with 640x480x32K colors
+ silly (but fool-proof ;) way: install windows with 640x480x32k colors
  wideo driver and display your pictures under windows...
  
- Cheese,
+ cheese,
  
- /Serge.P
+ /serge.p
  

@@ -1,32 +1,32 @@
 
- jhesse@netcom.com (John Hesse) writes:
- > Oh great. Wonderful news. Nobody can listen in--except the feds. 
+ jhesse@netcom.com (john hesse) writes:
+ > oh great. wonderful news. nobody can listen in--except the feds. 
  
- Hey, it's better than the status quo.
+ hey, it's better than the status quo.
  
- I am far less worried about "the feds" tapping my phone than high school 
+ i am far less worried about "the feds" tapping my phone than high school 
  scanner surfers who get their kicks out of eavesdropping on cellular and 
  cordless phone calls.
  
- It would be stupid to rely on even a "Clipperized" channel for truly 
+ it would be stupid to rely on even a "clipperized" channel for truly 
  sensitive material, but it *does* seem to finally offer a reasonable way to 
- guard against casual eavesdropping.  For example, even with my strong "right 
+ guard against casual eavesdropping.  for example, even with my strong "right 
  to bear arms" view of the private right to possess and use strong 
- cryptosystems, the system as described provides enough security that I would 
+ cryptosystems, the system as described provides enough security that i would 
  actually buy a cordless phone, and would be much less wary of using cellular 
- phones, walkie-talkies, and so on.  As long as it's only used for mass-market 
- voice scrambling, I actually don't see a problem with it.
+ phones, walkie-talkies, and so on.  as long as it's only used for mass-market 
+ voice scrambling, i actually don't see a problem with it.
  
- If you want more security than it offers, use something different.  Use PKCS 
- for electronic mail, CELP over DES or triple DES with Diffie-Hellman key 
+ if you want more security than it offers, use something different.  use pkcs 
+ for electronic mail, celp over des or triple des with diffie-hellman key 
  exchange for your voice traffic, or whatever.
  
- And yes, I'd rather just see all crypto restrictions lifted, but this is at 
+ and yes, i'd rather just see all crypto restrictions lifted, but this is at 
  least an incrememental improvement for certain applications...
  
  
- Amanda Walker
- InterCon Systems Corporation
+ amanda walker
+ intercon systems corporation
  
  
  

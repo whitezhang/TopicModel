@@ -1,46 +1,46 @@
 
- tsa@cellar.org (The Silent Assassin) writes:
- >rgc3679@bcstec.ca.boeing.com (Robert G. Carpenter) writes:
+ tsa@cellar.org (the silent assassin) writes:
+ >rgc3679@bcstec.ca.boeing.com (robert g. carpenter) writes:
  >
- >> Can you please offer some recommendations?
+ >> can you please offer some recommendations?
  >
- >It's really not that hard to do.  There are books out there which explain
- >everything, and the basic 3D functions, translation, rotation, shading, and
- >hidden line removal are pretty easy.  I wrote a program in a few weeks witht
+ >it's really not that hard to do.  there are books out there which explain
+ >everything, and the basic 3d functions, translation, rotation, shading, and
+ >hidden line removal are pretty easy.  i wrote a program in a few weeks witht
  >he help of a book, and would be happy to give you my source.
  
- I think he wanted to avoid reinventing the wheel.
- I would suggest that you take your code, and submit it to
+ i think he wanted to avoid reinventing the wheel.
+ i would suggest that you take your code, and submit it to
  comp.sys.mac.binaries to be distributed (including to the ftp sites). 
- Many folks, myself included, would enjoy the extra code.
+ many folks, myself included, would enjoy the extra code.
  
- >	Also, Quickdraw has a lot of 3D functions built in, and Think pascal
- >can access them, and I would expect that THINK C could as well.  If you can
- >find out how to use the Quickdraw graphics library, it would be an excellent
- >choice, since it has a lot of stuff, and is built into the Mac, so should be
+ >	also, quickdraw has a lot of 3d functions built in, and think pascal
+ >can access them, and i would expect that think c could as well.  if you can
+ >find out how to use the quickdraw graphics library, it would be an excellent
+ >choice, since it has a lot of stuff, and is built into the mac, so should be
  >fast.
  
- Just to clarify, the 3D routines that are mentioned in various places
- on the mac are in a libray, not the ROM of the mac.  A few years ago before
- I knew anything about implementing graphics, I came across a demo of the
- Apple GrafSys3D library and it actually did a lot.  However, it is quite
- limited in the sense that it's a low-level 3D library; your code still has
- to plot individual points, draw each line, etc ad nauseum.  It has nothing
- on GL, for example, where you can handle objects.
+ just to clarify, the 3d routines that are mentioned in various places
+ on the mac are in a libray, not the rom of the mac.  a few years ago before
+ i knew anything about implementing graphics, i came across a demo of the
+ apple grafsys3d library and it actually did a lot.  however, it is quite
+ limited in the sense that it's a low-level 3d library; your code still has
+ to plot individual points, draw each line, etc ad nauseum.  it has nothing
+ on gl, for example, where you can handle objects.
  
- Other things to consider when talking about Apple's old 3D GrafSys library:
+ other things to consider when talking about apple's old 3d grafsys library:
  
- * Unsupported;  never was and no plans exist to do so in the future
+ * unsupported;  never was and no plans exist to do so in the future
  
- * Undocumented; unless you call header files documentation...
+ * undocumented; unless you call header files documentation...
  
- If one knows something about graphics, you could probably figure it out,
- but I'd assume there's better software available that gives better
+ if one knows something about graphics, you could probably figure it out,
+ but i'd assume there's better software available that gives better
  output and is, at the same time, programmatically nicer (i.e. easier to
  program).
  
- Just my 2% tax
+ just my 2% tax
  
- -Brent
+ -brent
  
  

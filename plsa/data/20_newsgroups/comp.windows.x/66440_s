@@ -1,33 +1,33 @@
-	<WHALEY.93Apr3113732@behemoth.kpc.com>
- 	<1993Apr5.113128.2936@ug.eds.com>
- Date: Tue, 6 Apr 1993 21:22:50 GMT
- X-Copyright: The author asserts the right of paternity in this message.
+	<whaley.93apr3113732@behemoth.kpc.com>
+ 	<1993apr5.113128.2936@ug.eds.com>
+ date: tue, 6 apr 1993 21:22:50 gmt
+ x-copyright: the author asserts the right of paternity in this message.
  
- >>>>> On 5 Apr 93 11:31:27 PDT, jan@camhpp12.mdcbbs.com (Jan Vandenbrande) said:
- Jan> Nntp-Posting-Host: 134.244.49.156
+ >>>>> on 5 apr 93 11:31:27 pdt, jan@camhpp12.mdcbbs.com (jan vandenbrande) said:
+ jan> nntp-posting-host: 134.244.49.156
  
- Jan> On a related note, how can I use xv to display colored GIFs on my
- Jan> root display with HP Vue?
+ jan> on a related note, how can i use xv to display colored gifs on my
+ jan> root display with hp vue?
  
- Jan> All I can do with Vue is display xbm's through their
- Jan> Backdrop Style Manager.
+ jan> all i can do with vue is display xbm's through their
+ jan> backdrop style manager.
  
- Jan> xv does not seem to be able to override whatever Vue
- Jan> puts there.
+ jan> xv does not seem to be able to override whatever vue
+ jan> puts there.
  
- I suspect this is because VUE creates a window (probably OverrideRedirect)
- that is the size of (or larger than) the Root Window. Because the window
+ i suspect this is because vue creates a window (probably overrideredirect)
+ that is the size of (or larger than) the root window. because the window
  manager does not know about this, you cannot move, resize etc. it. xv in the
  mean time is busy changing your root window to whatever you have requested
- but you never get to see it because VUE's window is overlaid on top of the root
+ but you never get to see it because vue's window is overlaid on top of the root
  window. 
  
- Contact HP support and see whether VUE can support coloured bitmap format
+ contact hp support and see whether vue can support coloured bitmap format
  such as xpm, if they cant then they probably create all their coloured
  backdrops inside the code.
  --
- -Guy Singh,                 IXI            Internet: guy@x.co.uk
-                             Vision Park    UUCP:     guy@ixi.uucp
-                             Cambridge      Bang:     ...!uunet!ixi!guy
-                             CB4 4ZR, UK    Tel:      +44 223 236 555
+ -guy singh,                 ixi            internet: guy@x.co.uk
+                             vision park    uucp:     guy@ixi.uucp
+                             cambridge      bang:     ...!uunet!ixi!guy
+                             cb4 4zr, uk    tel:      +44 223 236 555
  

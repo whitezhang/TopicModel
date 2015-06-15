@@ -1,27 +1,27 @@
 
- Does anyone know the details of the interface (5 wire din) for the
- IR remote sensor & (2 wire IR repeater) for the ADCOM GTP-500II
- preamp?  The ADCOM part numbers are the XR-500II, SPM-500II, and 
- IRA-500II.
+ does anyone know the details of the interface (5 wire din) for the
+ ir remote sensor & (2 wire ir repeater) for the adcom gtp-500ii
+ preamp?  the adcom part numbers are the xr-500ii, spm-500ii, and 
+ ira-500ii.
  
- A cursory physical examination of the pre-amp connector indicates
- that the connector (5 pin din) may provide: (Viewed from connector front)
+ a cursory physical examination of the pre-amp connector indicates
+ that the connector (5 pin din) may provide: (viewed from connector front)
  
        |
-    5     1     (pin ?) +?v @ ???mA
-     4   2      (pin ?) +/-?v @ ???mA
-       3        (pin 3) Signal Ground
-                (pin ?) Demodulated signal ?V-pp, ? polarity, ? mA drive
-                (pin ?) Signal to drive repeater LED (drives through 150ohm
-                        resistor) ?V-pp
+    5     1     (pin ?) +?v @ ???ma
+     4   2      (pin ?) +/-?v @ ???ma
+       3        (pin 3) signal ground
+                (pin ?) demodulated signal ?v-pp, ? polarity, ? ma drive
+                (pin ?) signal to drive repeater led (drives through 150ohm
+                        resistor) ?v-pp
  
- I assume that the repeater connectors (mini-plugs) drive the IR repeater
- LED's directly.  True?
+ i assume that the repeater connectors (mini-plugs) drive the ir repeater
+ led's directly.  true?
  
- Can anyone fill in the ?'s.  Thanks.
+ can anyone fill in the ?'s.  thanks.
  
  --
- John Rasper                         Hewlett-Packard COL
- johnr@col.hp.com                    P.O. Box 2197
- (719) 590-5895                      Colorado Springs, CO 80901-2197
+ john rasper                         hewlett-packard col
+ johnr@col.hp.com                    p.o. box 2197
+ (719) 590-5895                      colorado springs, co 80901-2197
  

@@ -1,23 +1,23 @@
 
- Hi,
+ hi,
  
- I just got a problem, I have a cheapo 2400bps modem which I use to connect
- to my university, but I get too much garbage on the screen. I do know it's
- because the noise in the line (I can actually hear it).  So my question is
+ i just got a problem, i have a cheapo 2400bps modem which i use to connect
+ to my university, but i get too much garbage on the screen. i do know it's
+ because the noise in the line (i can actually hear it).  so my question is
  will an error correction protocol help to eliminate this garbage?, my modem
  doesn't have any of these on hardware, can a software implemented protocol
  do the trick?
  
- Thanks.
+ thanks.
  
- Juan Carlos Leon
+ juan carlos leon
  
  
  
  
  -- 
  jleon@scf.usc.edu             |  jcleon@ucs.usc.edu
- Electrical & Computer Major   |  University Computing Services
- 		University of Southern California
- 			Los Angeles, CA.
+ electrical & computer major   |  university computing services
+ 		university of southern california
+ 			los angeles, ca.
  

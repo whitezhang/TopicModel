@@ -1,27 +1,27 @@
 
- In article <1993Apr5.122613.12289@alijku05.edvz.uni-linz.ac.at>, Norbert Mueller <K360171@alijku11.edvz.uni-linz.ac.at> writes:
- >> Newsgroups: comp.sys.mac.hardware
- > In article <prudhom.733762331@iros1> Serge Prud'homme,
- > prudhom@IRO.UMontreal.CA writes:
- >> Any info on the video processor Am29000 that sit on it, any way to
+ in article <1993apr5.122613.12289@alijku05.edvz.uni-linz.ac.at>, norbert mueller <k360171@alijku11.edvz.uni-linz.ac.at> writes:
+ >> newsgroups: comp.sys.mac.hardware
+ > in article <prudhom.733762331@iros1> serge prud'homme,
+ > prudhom@iro.umontreal.ca writes:
+ >> any info on the video processor am29000 that sit on it, any way to
  > program that
- >> chip?  What companie makes that chip?
+ >> chip?  what companie makes that chip?
  > > 
- > Apple was never able to provide any docs or tools to program that chip. I
+ > apple was never able to provide any docs or tools to program that chip. i
  > value it as
- > the least value per $ piece of computer hardware I ever bought due to the
- > COMPLETE
- > LACK support tools. There was a refund for US-buyers of this card but we
- > Europeans
+ > the least value per $ piece of computer hardware i ever bought due to the
+ > complete
+ > lack support tools. there was a refund for us-buyers of this card but we
+ > europeans
  > were left out in the rain once again...
  
- I agree completely, but there was only a refund for people who bought the GC
- with a Quadra. I have seen an alpha version of an extension from Apple called
- 8.24 GC QuickTime Video which offloads QuickTime compression/decompression
- from the cpu to the AM29000 on the card. So it seems it can be done even though
- in a developer article it states that the GC can't be programmed - but they
+ i agree completely, but there was only a refund for people who bought the gc
+ with a quadra. i have seen an alpha version of an extension from apple called
+ 8.24 gc quicktime video which offloads quicktime compression/decompression
+ from the cpu to the am29000 on the card. so it seems it can be done even though
+ in a developer article it states that the gc can't be programmed - but they
  asked that any suggestions be sent in anyway...
  
- Steve Margelis
- Melbourne University
+ steve margelis
+ melbourne university
  

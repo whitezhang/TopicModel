@@ -1,13 +1,13 @@
 
  
- I'd like to get a system running OS/2 2.0 GA talking to a network of PCs
- running Windows for Workgroups.  Acting as a server would be wonderful,
+ i'd like to get a system running os/2 2.0 ga talking to a network of pcs
+ running windows for workgroups.  acting as a server would be wonderful,
  but client access would be enough.
  
- Can I run WFW 's NET utilities in a DOS box?  Or is there a way to actually
- get OS/2 to talk to WFW?  Will OS/2 LanMan clients talk to WFW?
+ can i run wfw 's net utilities in a dos box?  or is there a way to actually
+ get os/2 to talk to wfw?  will os/2 lanman clients talk to wfw?
  
- Dazed and confused,
+ dazed and confused,
  
  -- 
  [ /tom haapanen -- tomh@metrics.com -- software metrics inc -- waterloo, ont ]

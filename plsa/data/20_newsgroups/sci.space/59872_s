@@ -1,243 +1,243 @@
 
- Archive-name: space/net
- Last-modified: $Date: 93/04/01 14:39:15 $
+ archive-name: space/net
+ last-modified: $date: 93/04/01 14:39:15 $
  
- NETWORK RESOURCES
+ network resources
  
- OVERVIEW
+ overview
  
-     You may be reading this document on any one of an amazing variety of
-     computers, so much of the material below may not apply to you. In
+     you may be reading this document on any one of an amazing variety of
+     computers, so much of the material below may not apply to you. in
      general, however, systems connected to 'the net' fall in one of three
-     categories: Internet, Usenet, or BITNET. Electronic mail may be sent
+     categories: internet, usenet, or bitnet. electronic mail may be sent
      between these networks, and other resources available on one of these
      networks are sometimes accessible from other networks by email sent to
      special 'servers'.
  
-     The space and astronomy discussion groups actually are composed of
+     the space and astronomy discussion groups actually are composed of
      several mechanisms with (mostly) transparent connections between them.
  
-     One mechanism is the mailing list, in which mail is sent to a central
-     distribution point which relays it to all recipients of the list. In
-     addition to the general lists for space (called SPACE Digest for
-     Internet users, and SPACE on BITNET), there are a number of more
+     one mechanism is the mailing list, in which mail is sent to a central
+     distribution point which relays it to all recipients of the list. in
+     addition to the general lists for space (called space digest for
+     internet users, and space on bitnet), there are a number of more
      specialized mailing lists described below.
  
-     A second mechanism is Usenet 'netnews'. This is somewhat like a bulletin
-     board operating on each system which is a part of the net. Netnews
+     a second mechanism is usenet 'netnews'. this is somewhat like a bulletin
+     board operating on each system which is a part of the net. netnews
      separates contributions into hundreds of different categories based on a
-     'group name'. The groups dealing most closely with space topics are
+     'group name'. the groups dealing most closely with space topics are
      called 'sci.space.news', 'sci.space', 'sci.space.shuttle', 'sci.astro',
-     and 'talk.politics.space'. Contributors 'post' submissions (called
+     and 'talk.politics.space'. contributors 'post' submissions (called
      'articles' in netnews terminology) on their local machine, which sends
-     it to other nearby machines. Similarly, articles sent from nearby
+     it to other nearby machines. similarly, articles sent from nearby
      machines are stored locally and may be forwarded to other systems, so
-     that an article is posted locally and eventually reaches all the Usenet
+     that an article is posted locally and eventually reaches all the usenet
      sites interested in receiving the news group to which the article was
      posted.
  
-     Gateway machines redirect the Usenet sci.space group into Internet and
-     BITNET mailing lists and vice versa; the other Usenet groups are not
-     accessible as mailing lists. If you can receive netnews, its more
+     gateway machines redirect the usenet sci.space group into internet and
+     bitnet mailing lists and vice versa; the other usenet groups are not
+     accessible as mailing lists. if you can receive netnews, its more
      flexible interface and access to a wider range of material usually make
      it the preferred option.
  
- MAILING LISTS
+ mailing lists
  
-     SPACE Digest is the main Internet list, and is now being run by the
-     International Space University (in only its second change of management
-     in over a decade). Email space-request@isu.isunet.edu (message body
-     should be in the format 'subscribe space John Public') to join. Note
-     that the moderated SPACE Magazine list is defunct at present for lack of
-     a moderator. Old copies of SPACE Digest since its inception in 1981 are
-     available by anonymous FTP. Retrieve
- 	julius.cs.qub.ac.uk:pub/SpaceDigestArchive/README
+     space digest is the main internet list, and is now being run by the
+     international space university (in only its second change of management
+     in over a decade). email space-request@isu.isunet.edu (message body
+     should be in the format 'subscribe space john public') to join. note
+     that the moderated space magazine list is defunct at present for lack of
+     a moderator. old copies of space digest since its inception in 1981 are
+     available by anonymous ftp. retrieve
+ 	julius.cs.qub.ac.uk:pub/spacedigestarchive/readme
      for further details.
  
-     Elements is a moderated list for fast distribution of Space Shuttle
-     Keplerian Elements before and during Shuttle flights. NASA two line
-     elements are sent out on the list from Dr. Kelso, JSC, and other sources
-     as they are released. Email to elements-request@telesoft.com to join.
+     elements is a moderated list for fast distribution of space shuttle
+     keplerian elements before and during shuttle flights. nasa two line
+     elements are sent out on the list from dr. kelso, jsc, and other sources
+     as they are released. email to elements-request@telesoft.com to join.
  
-     GPS Digest is a moderated list for discussion of the Global Positioning
-     System and other satellite navigation positioning systems. Email to
+     gps digest is a moderated list for discussion of the global positioning
+     system and other satellite navigation positioning systems. email to
      gps-request@esseye.si.com to join.
  
-     Space-investors is a list for information relevant to investing in
-     space-related companies. Email Vincent Cate (vac@cs.cmu.edu) to join.
+     space-investors is a list for information relevant to investing in
+     space-related companies. email vincent cate (vac@cs.cmu.edu) to join.
  
-     Space-tech is a list for more technical discussion of space topics;
+     space-tech is a list for more technical discussion of space topics;
      discussion has included esoteric propulsion technologies, asteroid
-     capture, starflight, orbital debris removal, etc. Email to
-     space-tech-request@cs.cmu.edu to join. Archives of old digests and
-     selected excerpts are available by anonymous FTP from
+     capture, starflight, orbital debris removal, etc. email to
+     space-tech-request@cs.cmu.edu to join. archives of old digests and
+     selected excerpts are available by anonymous ftp from
      gs80.sp.cs.cmu.edu (128.2.205.90) in /usr/anon/public/space-tech,
-     or by email to space-tech-request if you don't have FTP access.
+     or by email to space-tech-request if you don't have ftp access.
  
-     SEDS-L is a BITNET list for members of Students for the Exploration and
-     Development of Space and other interested parties. Email
-     LISTSERV@TAMVM1.BITNET with a message saying "SUBSCRIBE SEDS-L your
-     name". Email saying "INDEX SEDS-L" to list the archive contents.
+     seds-l is a bitnet list for members of students for the exploration and
+     development of space and other interested parties. email
+     listserv@tamvm1.bitnet with a message saying "subscribe seds-l your
+     name". email saying "index seds-l" to list the archive contents.
  
-     SEDSNEWS is a BITNET list for news items, press releases, shuttle status
-     reports, and the like. This duplicates material which is also found in
-     Space Digest, sci.space, sci.space.shuttle, and sci.astro. Email
-     LISTSERV@TAMVM1.BITNET saying "SUBSCRIBE SEDSNEWS your name" to join.
-     Email saying "INDEX SEDSNEWS" to list the archive contents.
+     sedsnews is a bitnet list for news items, press releases, shuttle status
+     reports, and the like. this duplicates material which is also found in
+     space digest, sci.space, sci.space.shuttle, and sci.astro. email
+     listserv@tamvm1.bitnet saying "subscribe sedsnews your name" to join.
+     email saying "index sedsnews" to list the archive contents.
  
-     Ron Baalke (baalke@kelvin.jpl.nasa.gov) runs a mailing list which
-     carries the contents of the sci.space.news Usenet group. Email him
+     ron baalke (baalke@kelvin.jpl.nasa.gov) runs a mailing list which
+     carries the contents of the sci.space.news usenet group. email him
      to join the list.
  
-     As a general note, please mail to the *request* address to get off a
-     mailing list. SPACE Digest, for example, relays many inappropriate
+     as a general note, please mail to the *request* address to get off a
+     mailing list. space digest, for example, relays many inappropriate
      'please remove me from this list' messages which are sent to the list
      address rather than the request address.
  
- PERIODICALLY UPDATED INFORMATION
+ periodically updated information
  
-     In addition to this FAQ list, a broad variety of topical information is
+     in addition to this faq list, a broad variety of topical information is
      posted to the net (unless otherwise noted, in the new group
-     sci.space.news created for this purpose). Please remember that the
+     sci.space.news created for this purpose). please remember that the
      individuals posting this information are performing a service for all
      net readers, and don't take up their time with frivolous requests.
  
-     ACRONYMS
- 	Garrett Wollman (wollman@UVM.EDU) posts an acronym list around the
+     acronyms
+ 	garrett wollman (wollman@uvm.edu) posts an acronym list around the
  	first of each month.
  
-     ASTRO-FTP LIST
- 	Veikko Makela (veikko.makela@helsinki.fi) posts a monthly list of
- 	anonymous FTP servers containing astronomy and space related
+     astro-ftp list
+ 	veikko makela (veikko.makela@helsinki.fi) posts a monthly list of
+ 	anonymous ftp servers containing astronomy and space related
  	material to sci.space and sci.astro.
  
-     AVIATION WEEK
- 	Henry Spencer (henry@zoo.toronto.edu) posts summaries of
- 	space-related stories in the weekly _Aviation Week and Space
- 	Technology_.
+     aviation week
+ 	henry spencer (henry@zoo.toronto.edu) posts summaries of
+ 	space-related stories in the weekly _aviation week and space
+ 	technology_.
  
-     BUYING TELESCOPES
- 	Ronnie Kon (ronnie@cisco.com) posts a guide to buying telescopes to
+     buying telescopes
+ 	ronnie kon (ronnie@cisco.com) posts a guide to buying telescopes to
  	sci.astro.
  
-     ELECTRONIC JOURNAL OF THE ASA
- 	Don Barry (don@chara.gsu.edu) posts the monthly Electronic Journal
- 	of the Astronomical Society of the Atlantic to sci.astro.
+     electronic journal of the asa
+ 	don barry (don@chara.gsu.edu) posts the monthly electronic journal
+ 	of the astronomical society of the atlantic to sci.astro.
  
-     FLIGHT INTERNATIONAL
- 	Swaraj Jeyasingh (sjeyasin@axion.bt.co.uk) posts summaries of
- 	space-related news from _Flight International_. This focuses more on
- 	non-US space activities than Aviation Week.
+     flight international
+ 	swaraj jeyasingh (sjeyasin@axion.bt.co.uk) posts summaries of
+ 	space-related news from _flight international_. this focuses more on
+ 	non-us space activities than aviation week.
  
-     LARGE ASTRONOMICAL PROJECTS
- 	Robert Bunge (rbunge@access.digex.com) posts a list describing many
- 	"Large Telescope Projects Either Being Considered or in the Works"
+     large astronomical projects
+ 	robert bunge (rbunge@access.digex.com) posts a list describing many
+ 	"large telescope projects either being considered or in the works"
  	to sci.astro.
  
-     NASA HEADLINE NEWS & SHUTTLE REPORTS
- 	Peter Yee (yee@ames.arc.nasa.gov) posts a variety of NASA material,
- 	including NASA Headline News (with the schedule for NASA SELECT),
- 	shuttle payload briefings and flight manifests, and KSC shuttle
- 	status reports. For Usenet users, much of this material appears in
+     nasa headline news & shuttle reports
+ 	peter yee (yee@ames.arc.nasa.gov) posts a variety of nasa material,
+ 	including nasa headline news (with the schedule for nasa select),
+ 	shuttle payload briefings and flight manifests, and ksc shuttle
+ 	status reports. for usenet users, much of this material appears in
  	the group sci.space.shuttle.
  
-     NASA UPDATES
- 	Ron Baalke (baalke@kelvin.jpl.nasa.gov) posts frequent updates from
- 	JPL, Ames, and other centers on the Ulysses, Gailileo, Pioneer,
- 	Magellan, Landsat, and other missions.
+     nasa updates
+ 	ron baalke (baalke@kelvin.jpl.nasa.gov) posts frequent updates from
+ 	jpl, ames, and other centers on the ulysses, gailileo, pioneer,
+ 	magellan, landsat, and other missions.
  
-     ORBITAL ELEMENT SETS
- 	TS Kelso (tkelso@blackbird.afit.af.mil) posts orbital elements from
- 	NASA Prediction Bulletins.
+     orbital element sets
+ 	ts kelso (tkelso@blackbird.afit.af.mil) posts orbital elements from
+ 	nasa prediction bulletins.
  
- 	Mike Rose (mrose@stsci.edu) posts orbital elements for the Hubble
- 	Space Telescope to sci.astro.
+ 	mike rose (mrose@stsci.edu) posts orbital elements for the hubble
+ 	space telescope to sci.astro.
  
- 	Jost Jahn (j.jahn@abbs.hanse.de) posts ephemerides for asteroids,
+ 	jost jahn (j.jahn@abbs.hanse.de) posts ephemerides for asteroids,
  	comets, conjunctions, and encounters to sci.astro.
  
-     SATELLITE LAUNCHES
- 	Richard Langley (lang@unb.ca) posts SPACEWARN Bulletin, which
+     satellite launches
+ 	richard langley (lang@unb.ca) posts spacewarn bulletin, which
  	describes recent launch/orbital decay information and satellites
- 	which are useful for scientific activities. Recent bulletins are
- 	available by anonymous FTP from nssdca.gsfc.nasa.gov in
- 	ANON_DIR:[000000.ACTIVE.SPX].
+ 	which are useful for scientific activities. recent bulletins are
+ 	available by anonymous ftp from nssdca.gsfc.nasa.gov in
+ 	anon_dir:[000000.active.spx].
  
-     SHUTTLE MANIFEST
- 	Ken Hollis (gandalf@pro-electric.cts.com) posts a compressed version
- 	of the Space Shuttle launch manifest to sci.space.shuttle. This
+     shuttle manifest
+ 	ken hollis (gandalf@pro-electric.cts.com) posts a compressed version
+ 	of the space shuttle launch manifest to sci.space.shuttle. this
  	includes dates, times, payloads, and information on how to see
  	launches and landings.
  
-     SOLAR ACTIVITY
- 	Cary Oler (oler@hg.uleth.ca) posts Solar Terrestrial reports
- 	(describing solar activity and its effect on the Earth) to
- 	sci.space. The report is issued in part from data released by the
- 	Space Enviroment Services Center, Boulder Colorado. The intro
+     solar activity
+ 	cary oler (oler@hg.uleth.ca) posts solar terrestrial reports
+ 	(describing solar activity and its effect on the earth) to
+ 	sci.space. the report is issued in part from data released by the
+ 	space enviroment services center, boulder colorado. the intro
  	document needed to understand these reports is available by
- 	anonymous FTP from solar.stanford.edu (36.10.0.4) in
+ 	anonymous ftp from solar.stanford.edu (36.10.0.4) in
  	pub/understanding_solar_terrestrial_reports. nic.funet.fi
  	(128.214.6.100) also has this document in
  	/pub/misc/rec.radio.shortwave/solarreports and is an archive site
- 	for the reports (please note this site is in Europe, and the
- 	connection to the US is only 56KB). A new primary archive site,
+ 	for the reports (please note this site is in europe, and the
+ 	connection to the us is only 56kb). a new primary archive site,
  	xi.uleth.ca (142.66.3.29), has recently been established and will be
  	actively supported.
  
-     SOVIET SPACE ACTIVITIES
- 	Glenn Chapman (glennc@cs.sfu.ca) posts summaries of Soviet space
+     soviet space activities
+ 	glenn chapman (glennc@cs.sfu.ca) posts summaries of soviet space
  	activities.
  
-     SPACE ACTIVIST NEWSLETTER
- 	Allen Sherzer (aws@iti.org) posts a newsletter, "One Small Step for
- 	a Space Activist," to talk.politics.space. It describes current
- 	legislative activity affecting NASA and commercial space activities.
+     space activist newsletter
+ 	allen sherzer (aws@iti.org) posts a newsletter, "one small step for
+ 	a space activist," to talk.politics.space. it describes current
+ 	legislative activity affecting nasa and commercial space activities.
  
-     SPACE EVENTS CALENDAR
- 	Ron Baalke (baalke@kelvin.jpl.nasa.gov) posts a calendar including
+     space events calendar
+ 	ron baalke (baalke@kelvin.jpl.nasa.gov) posts a calendar including
  	anniversaries, conferences, launch dates, meteor showers and
  	eclipses, and other space-related events.
  
-     SPACE NEWS
- 	John Magliacane (kd2bd@ka2qhd.UUCP) posts "SpaceNews" (covering
- 	AMSATs, NOAA and other weather satellites, and other ham
+     space news
+ 	john magliacane (kd2bd@ka2qhd.uucp) posts "spacenews" (covering
+ 	amsats, noaa and other weather satellites, and other ham
  	information) to rec.radio.amateur.misc and sci.space.
  
-     SPACE REPORT
- 	Jonathan McDowell (mcdowell@cfa.harvard.edu) posts "Jonathan's Space
- 	Report" covering launches, landings, reentries, status reports,
+     space report
+ 	jonathan mcdowell (mcdowell@cfa.harvard.edu) posts "jonathan's space
+ 	report" covering launches, landings, reentries, status reports,
  	satellite activities, etc.
  
-     TOWARD 2001
- 	Bev Freed (freed@nss.fidonet.org) posts "Toward 2001", a weekly
- 	global news summary reprinted from _Space Calendar_ magazine.
+     toward 2001
+ 	bev freed (freed@nss.fidonet.org) posts "toward 2001", a weekly
+ 	global news summary reprinted from _space calendar_ magazine.
  
  
- WARNING ABOUT NON-PUBLIC NETWORKS
+ warning about non-public networks
  
-     (Included at the suggestion of Eugene Miya, who wrote the item)
+     (included at the suggestion of eugene miya, who wrote the item)
  
-     NASA has an internal system of unclassified electronic mail and bulletin
-     boards. This system is not open for public use. Specifically, NASA
+     nasa has an internal system of unclassified electronic mail and bulletin
+     boards. this system is not open for public use. specifically, nasa
      personnel and procurement operations are regarded with some sensitivity.
-     Contractors must renegotiate their contracts. The Fair and Open
-     Procurement Act does not look kindly to those having inside information.
-     Contractors and outsiders caught using this type of information can
-     expect severe penalities. Unauthorized access attempts may subject you
-     to a fine and/or imprisonment in accordance with Title 18, USC, Section
-     1030. If in fact you should should learn of unauthorized access, contact
-     NASA personnel.
+     contractors must renegotiate their contracts. the fair and open
+     procurement act does not look kindly to those having inside information.
+     contractors and outsiders caught using this type of information can
+     expect severe penalities. unauthorized access attempts may subject you
+     to a fine and/or imprisonment in accordance with title 18, usc, section
+     1030. if in fact you should should learn of unauthorized access, contact
+     nasa personnel.
  
-     Claims have been made on this news group about fraud and waste. None
-     have ever been substantiated to any significant degree. Readers
-     detecting Fraud, Waste, Abuse, or Mismanagement should contact the NASA
-     Inspector General (24-hours) at 800-424-9183 (can be anonymous) or write
+     claims have been made on this news group about fraud and waste. none
+     have ever been substantiated to any significant degree. readers
+     detecting fraud, waste, abuse, or mismanagement should contact the nasa
+     inspector general (24-hours) at 800-424-9183 (can be anonymous) or write
  
- 	NASA
- 	Inspector General
- 	P.O. Box 23089
- 	L'enfant Plaza Station
- 	Washington DC 20024
+ 	nasa
+ 	inspector general
+ 	p.o. box 23089
+ 	l'enfant plaza station
+ 	washington dc 20024
  
- NEXT: FAQ #3/15 - Online (and some offline) sources of images, data, etc.
+ next: faq #3/15 - online (and some offline) sources of images, data, etc.
  

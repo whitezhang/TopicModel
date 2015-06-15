@@ -1,95 +1,95 @@
 
- In article <1s1dbmINNehb@elang05.acslab.umbc.edu> olson@umbc.edu (Bryan Olson; CMSC (G)) writes:
- >The one-time-pad yeilds ideal security, but has a well-known flaw in
- >authentication.  Suppose you use a random bit stream as the pad, and
- >exclusive-or as the encryption operation.  If an adversary knows the 
+ in article <1s1dbminnehb@elang05.acslab.umbc.edu> olson@umbc.edu (bryan olson; cmsc (g)) writes:
+ >the one-time-pad yeilds ideal security, but has a well-known flaw in
+ >authentication.  suppose you use a random bit stream as the pad, and
+ >exclusive-or as the encryption operation.  if an adversary knows the 
  >plaintext of a message, he can change it into any other message.  
- >Here's how it works.
+ >here's how it works.
  >
- >Alice is sending Bob a plaintext P, under a key stream S
- >Alice computes the ciphertext C = S xor P,  and sends it to Bob.
+ >alice is sending bob a plaintext p, under a key stream s
+ >alice computes the ciphertext c = s xor p,  and sends it to bob.
  >
- >Eve knows the plainext P, but wants the message to appear as P'.
- >Eve intercepts C, and computes  C' = C xor P xor P' = S xor P'.
- >Eve sends C' to Bob.
+ >eve knows the plainext p, but wants the message to appear as p'.
+ >eve intercepts c, and computes  c' = c xor p xor p' = s xor p'.
+ >eve sends c' to bob.
  >
- >Bob decrypts C' by computing  C'xor S = P',  thus receiving the 
- >false message which was substituted by Eve.
+ >bob decrypts c' by computing  c'xor s = p',  thus receiving the 
+ >false message which was substituted by eve.
  
- Firstly, an aside:
+ firstly, an aside:
  
- I agree that the weakness exists, but I have a lot of trouble
- believing that it represents a difficulty in real life. Given:
+ i agree that the weakness exists, but i have a lot of trouble
+ believing that it represents a difficulty in real life. given:
  
  1. the purpose of the one-time pad is to give unbreakable security,
  and the expense of key distribution etc., imply that the clients
  really do want that level of security
  
- 2. These same people want to keep P a secret
+ 2. these same people want to keep p a secret
  
- I find it hard to believe that Eve might happen to have a copy of P
+ i find it hard to believe that eve might happen to have a copy of p
  lying around.
  
- (I am aware that the same argument applies to Eve knowing even a small
- part of the message, but Eve must know EXACTLY where (which bytes) in
- C her known susequence starts, or the result will be garbled. I find
+ (i am aware that the same argument applies to eve knowing even a small
+ part of the message, but eve must know exactly where (which bytes) in
+ c her known susequence starts, or the result will be garbled. i find
  this at least as surprising.)
  
- Back to the question:
+ back to the question:
  
- If I had the resources to use a one-time-pad for such transmissions, I
- would also append a Message Authentication Code to the message, using up
- the next bits of the one-time-pad as the key perhaps. Your original
+ if i had the resources to use a one-time-pad for such transmissions, i
+ would also append a message authentication code to the message, using up
+ the next bits of the one-time-pad as the key perhaps. your original
  question basically asked whether there was any way to authenticate the
- message with the same degree of security as the Pad itself provided,
- and I don't know the answer. However, I would propose the following
+ message with the same degree of security as the pad itself provided,
+ and i don't know the answer. however, i would propose the following
  for discussion.
  
- Alice and Bob have an arbitrary number of secret, random bits to
- share, which Eve doesn't know. She finds them out (effectively) by
- knowing some P and the corresponding C. It is the fact that they
- CORRESPOND that causes the problem. If a message authentication code was to
- be created using some one-time-pad operation such that Eve could not
- know which parts of the MAC were affected by which parts of the input,
- she would be unable to forge a MAC to correspond.
+ alice and bob have an arbitrary number of secret, random bits to
+ share, which eve doesn't know. she finds them out (effectively) by
+ knowing some p and the corresponding c. it is the fact that they
+ correspond that causes the problem. if a message authentication code was to
+ be created using some one-time-pad operation such that eve could not
+ know which parts of the mac were affected by which parts of the input,
+ she would be unable to forge a mac to correspond.
  
- What is required is a non-linear combiner of parts of the message.
- (Non-linear so that simply xoring or subtracting or whatever doesn't
+ what is required is a non-linear combiner of parts of the message.
+ (non-linear so that simply xoring or subtracting or whatever doesn't
  have exactly the same effect).
  
- Now, at the end of the encrypted message C, Alice appends a n-bit MAC
- computed as follows (S2 means the next full chunk of the one time pad):
-   1. compute C2 = P xor S2, and pad to an n-bit boundary with more of S
-   2. break C2 into n-bit chunks
-   3. set MAC to 0 (initialisation vector)
+ now, at the end of the encrypted message c, alice appends a n-bit mac
+ computed as follows (s2 means the next full chunk of the one time pad):
+   1. compute c2 = p xor s2, and pad to an n-bit boundary with more of s
+   2. break c2 into n-bit chunks
+   3. set mac to 0 (initialisation vector)
    4. for i in each chunk sequentially
-        set MAC = MAC NLOP C2[i]
+        set mac = mac nlop c2[i]
  
- At the end of this process MAC is the Message Authentication Code.
+ at the end of this process mac is the message authentication code.
  
- (Bob verifies the MAC in the obvious manner; he recovers the
- plaintext P, then uses some more of his pad to reproduce the MAC in
+ (bob verifies the mac in the obvious manner; he recovers the
+ plaintext p, then uses some more of his pad to reproduce the mac in
  the same manner.)
  
- NLOP is the non-linear operator, and there is the rub. The simplest
- non-linear operator I can think of is an S-box; that is, have a fixed
+ nlop is the non-linear operator, and there is the rub. the simplest
+ non-linear operator i can think of is an s-box; that is, have a fixed
  (even published) permutation of the n-bit integers, an indexable table
- called Sbox, and use:
-   x NLOP y = x xor Sbox[y].
+ called sbox, and use:
+   x nlop y = x xor sbox[y].
  
- Practically speaking, I think this solves your problem, as Eve never
- sees the intermediate output C2, and hence can't deduce S2 or perform any valid
+ practically speaking, i think this solves your problem, as eve never
+ sees the intermediate output c2, and hence can't deduce s2 or perform any valid
  substitution on it.
  
- Also practically speaking, you want the MAC to be fairly large, say 32
- bits, but you might not want a 4 gigabyte (say) S-box, so you might
- work on 4 byte-sized S-boxes, but I think that is an irrelevant detail
+ also practically speaking, you want the mac to be fairly large, say 32
+ bits, but you might not want a 4 gigabyte (say) s-box, so you might
+ work on 4 byte-sized s-boxes, but i think that is an irrelevant detail
  for the discussion at hand.
  
- Who will be first to point out my errors, or give me a pointer to some
+ who will be first to point out my errors, or give me a pointer to some
  literature?
  --
- Greg Rose                 Australian Computing and Communications Institute
+ greg rose                 australian computing and communications institute
  ggr@acci.com.au                                              +61 18 174 842
- `Use of the standard phrase "HIJACKED" may be inadvisable' -- CAA
+ `use of the standard phrase "hijacked" may be inadvisable' -- caa
  

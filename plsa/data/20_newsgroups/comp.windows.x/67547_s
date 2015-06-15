@@ -1,29 +1,29 @@
 
- In article <1993Apr30.120234.15637@cci.dk> hwn@cci.dk (Henrik W. Nielsen) writes:
+ in article <1993apr30.120234.15637@cci.dk> hwn@cci.dk (henrik w. nielsen) writes:
  >
  >
- >I'm trying to make a 24 bit window using XCreateWindow on a 8 bit
- >PseudoColor server. As far as I know this should be possible if you
+ >i'm trying to make a 24 bit window using xcreatewindow on a 8 bit
+ >pseudocolor server. as far as i know this should be possible if you
  [stuff deleted]
- >   Xio.GSwin = XCreateWindow(Xio.DspPtr, RootWindow(Xio.DspPtr, Xio.Scr),
- >			     x, y, w, h, 0, 24, InputOutput,
- >			     Xtern.ColorInfo, 0, &SetWinAttrib);
+ >   xio.gswin = xcreatewindow(xio.dspptr, rootwindow(xio.dspptr, xio.scr),
+ >			     x, y, w, h, 0, 24, inputoutput,
+ >			     xtern.colorinfo, 0, &setwinattrib);
  >}
  >
  >
- >This results in a BadMatch error. Can anyone please tell me why ?
+ >this results in a badmatch error. can anyone please tell me why ?
  >
  >
  
- The colormap element of SetWinAttrib must be a legitimate TrueColor
- colormap. So, use XCreateColormap() with the proper visual and use it
- in SetWinAttrib (and don't forget the mask!).
+ the colormap element of setwinattrib must be a legitimate truecolor
+ colormap. so, use xcreatecolormap() with the proper visual and use it
+ in setwinattrib (and don't forget the mask!).
  
- And the inevitable caveat: I usually use widgets, setting the visual
- and colormap resources rather than direct X routines, so I could be
- wrong. But, I think this is the general difficulty.
+ and the inevitable caveat: i usually use widgets, setting the visual
+ and colormap resources rather than direct x routines, so i could be
+ wrong. but, i think this is the general difficulty.
  
- Allen Barnett
+ allen barnett
  (whose wife graciously allowed to use her account)
  
  

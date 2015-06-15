@@ -1,19 +1,19 @@
 
- There has been a long running discussion over changing the Startup
- logo for Windows for a few weeks here. While all the COPY methods are
+ there has been a long running discussion over changing the startup
+ logo for windows for a few weeks here. while all the copy methods are
  great & haven't seen any mention of a program that will do it for
  you..... 
  
- Well... I found one on CICA called winlogo (Can't remember where
+ well... i found one on cica called winlogo (can't remember where
  unfortuantely), and it seems to work real well... even comes with a
- couple example .RLE files. 
+ couple example .rle files. 
  
- What I'd really like though is a way to create .RLE files myself,
- specifically the RLE4 format mentioned in the winlogo readme file. Can
- anyone point me in the direction of such a beast with a REAL directory
- path ?? All the ones I've seen mentioned didn't pan out.....
+ what i'd really like though is a way to create .rle files myself,
+ specifically the rle4 format mentioned in the winlogo readme file. can
+ anyone point me in the direction of such a beast with a real directory
+ path ?? all the ones i've seen mentioned didn't pan out.....
  -- 
- |E-mail  --> un*x: oddjob@oz.plymouth.edu |vms: andys@psc.plymouth.edu |
- |Disclaimer > Any "end-user" software that provides NO avenue for user |
- |of the week> modification or programmability is NOT user friendly.    |
+ |e-mail  --> un*x: oddjob@oz.plymouth.edu |vms: andys@psc.plymouth.edu |
+ |disclaimer > any "end-user" software that provides no avenue for user |
+ |of the week> modification or programmability is not user friendly.    |
  

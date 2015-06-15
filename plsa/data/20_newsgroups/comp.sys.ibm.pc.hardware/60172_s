@@ -1,16 +1,16 @@
 
- * Attention voters:
+ * attention voters:
  *
- * I had a problem with my mailbox on the first day of voting.
- * Please check the Vote Acknowlegement (ACK) at the end of this CFV.
- * If your name/address is not there, please send your vote again.
- * (Actually, check even if you voted after the first day)
+ * i had a problem with my mailbox on the first day of voting.
+ * please check the vote acknowlegement (ack) at the end of this cfv.
+ * if your name/address is not there, please send your vote again.
+ * (actually, check even if you voted after the first day)
  
  
- Introduction:
+ introduction:
  
- 	This is the third (and final) Call For Votes (CFV) for the creation
- 	of four OS/2 newsgroups and the renaming of one:
+ 	this is the third (and final) call for votes (cfv) for the creation
+ 	of four os/2 newsgroups and the renaming of one:
  	(a)  create comp.os.os2.programmer.porting     (unmoderated)
  	(b)  renaming of comp.os.os2.programmer to
  	     comp.os.os2.programmer.misc               (unmoderated)
@@ -18,16 +18,16 @@
  	(d)  comp.os.os2.multimedia                    (unmoderated)
  	(e)  comp.os.os2.bugs                          (unmoderated)
  
- 	This is the second attempt at creating comp.os.os2.programmer.porting
+ 	this is the second attempt at creating comp.os.os2.programmer.porting
  	and comp.os.os2.setup, and renaming comp.os.os2.programmer to
- 	comp.os.os2.programmer.misc.  The first attempt failed in the summer
- 	of 1992 (the voting deadline was August 31, 1992).  The voting rules
+ 	comp.os.os2.programmer.misc.  the first attempt failed in the summer
+ 	of 1992 (the voting deadline was august 31, 1992).  the voting rules
  	state that another attempt for creating newsgroups can be started
- 	after a six month waiting period (in this case, it is March 1, 1993).
- 	This is the first attempt at creating comp.os.os2.multimedia and
+ 	after a six month waiting period (in this case, it is march 1, 1993).
+ 	this is the first attempt at creating comp.os.os2.multimedia and
  	comp.os.os2.bugs.
  
- 	This document contains:
+ 	this document contains:
  	*  the background showing the need for these proposals
  	*  the proposed charters for these proposals
  	*  voting instructions
@@ -35,106 +35,106 @@
  	*  some example ballots
  	*  the voting rules
  	*  the voting schedule
- 	*  the Mass Acknowledgement
+ 	*  the mass acknowledgement
  
  
- Background:
+ background:
  
- 	The creation of two, free, 32-bit compilers for OS/2 2.x (gcc/2
+ 	the creation of two, free, 32-bit compilers for os/2 2.x (gcc/2
  	and emx/gcc; read comp.os.os2.programmer for details) has spurred
- 	a continuing deluge of software ported from UNIX platforms, such
+ 	a continuing deluge of software ported from unix platforms, such
  	as emacs, less, awk, grep, sed, xscheme, ispell, flex, yacc, and
- 	much more.  Borland has released its C/C++ compiler for OS/2 2.x,
- 	allowing for easier porting of DOS and Windows software.
+ 	much more.  borland has released its c/c++ compiler for os/2 2.x,
+ 	allowing for easier porting of dos and windows software.
  
- 	Much of the PC hardware and drivers were written for DOS, and
- 	later, Windows.  As more people are discovering OS/2 2.x, the
- 	number of people asking questions about OS/2's compatibility
+ 	much of the pc hardware and drivers were written for dos, and
+ 	later, windows.  as more people are discovering os/2 2.x, the
+ 	number of people asking questions about os/2's compatibility
  	with their hardware increases, as does the questions on the
  	availability of drivers for their hardware, installation
  	procedures, etc.
  
- 	Multimedia is becoming popular.  OS/2 2.0 supports Windows
- 	Multimedia Extensions using Win-OS/2 3.0.  Furthermore, IBM is
- 	including direct multimedia support in OS/2 starting with version
- 	2.1 (in addition to using Win-OS/2 3.1).
+ 	multimedia is becoming popular.  os/2 2.0 supports windows
+ 	multimedia extensions using win-os/2 3.0.  furthermore, ibm is
+ 	including direct multimedia support in os/2 starting with version
+ 	2.1 (in addition to using win-os/2 3.1).
  
- 	Any non-trivial software will have bugs -- OS/2 is not exempt,
- 	especially since IBM is constantly adding new features to OS/2.
- 	So far, IBM has issued system patches and corrective service disks
- 	(e.g.  the Service Pak) for free (free from BBSs and ftp sites, or
+ 	any non-trivial software will have bugs -- os/2 is not exempt,
+ 	especially since ibm is constantly adding new features to os/2.
+ 	so far, ibm has issued system patches and corrective service disks
+ 	(e.g.  the service pak) for free (free from bbss and ftp sites, or
  	for free plus a small media charge for diskettes -- read
  	comp.os.os2.misc for details).
  
  
- Proposed Charters:
+ proposed charters:
  
  	(a)  create comp.os.os2.programmer.porting (unmoderated)
  
- 		It will provide a forum for developers of ported software so
+ 		it will provide a forum for developers of ported software so
  		as to coordinate efforts, avoid duplication of effort, and
- 		spur additional development.  The group will also cover
- 		topics such as porting from other platforms (such as DOS,
- 		Windows, UNIX, etc), toolkits which aid in program
- 		portability (including porting tools such as Mirrors), and
+ 		spur additional development.  the group will also cover
+ 		topics such as porting from other platforms (such as dos,
+ 		windows, unix, etc), toolkits which aid in program
+ 		portability (including porting tools such as mirrors), and
  		so forth.
  
  	(b)  rename: comp.os.os2.programmer.misc (unmoderated)
  
- 		To keep the structure of the OS/2 newsgroup heirarchy
+ 		to keep the structure of the os/2 newsgroup heirarchy
  		orthogonal, comp.os.os2.programmer should be renamed to
  		comp.os.os2.programmer.misc.
  
  		comp.os.os2.programmer.misc will still be the newsgroup
- 		for OS/2 programmers to discuss programming issues and
- 		technical aspects of OS/2 in an unmoderated setting.
+ 		for os/2 programmers to discuss programming issues and
+ 		technical aspects of os/2 in an unmoderated setting.
  
  	(c)  create comp.os.os2.setup (unmoderated)
  
- 		It will be devoted to OS/2 system setup topics, including the
+ 		it will be devoted to os/2 system setup topics, including the
  		availability of device drivers, compatibility information,
  		installation procedures, system requirements, and overall
  		performance optimization.
  
  	(d)  create comp.os.os2.multimedia (unmoderated)
  
- 		It will provide a forum for discussion of multi-media issues.
+ 		it will provide a forum for discussion of multi-media issues.
  
  	(e)  create comp.os.os2.bugs (unmoderated)
  
- 		It will provide a forum for OS/2 system bug reports, bug
+ 		it will provide a forum for os/2 system bug reports, bug
  		diagnosis and work arounds, the availability of system
  		patches and corrective service disks, and so forth.
  
- 		[Note that discussion of bugs in applications belong in other
- 		newsgroups, and discussion of bugs in OS/2 betas belong in
+ 		[note that discussion of bugs in applications belong in other
+ 		newsgroups, and discussion of bugs in os/2 betas belong in
  		comp.os.os2.beta]
  
  
- How to Vote:
+ how to vote:
  
- 	To cast your vote, fill out the ballot below and e-mail it to me.
- 	Many newsreaders will allow e-mail to be sent by replying to this
- 	post.  Be sure to send only the ballot, and edit out the rest of
+ 	to cast your vote, fill out the ballot below and e-mail it to me.
+ 	many newsreaders will allow e-mail to be sent by replying to this
+ 	post.  be sure to send only the ballot, and edit out the rest of
  	this post.
  
- 	1)  Type in your vote for each proposal:
+ 	1)  type in your vote for each proposal:
  
- 	    If you favor the charter as proposed, put a "yes" after its name.
- 	    If you oppose the charter as proposed, put a "no" after its name.
- 	    To abstain, leave a blank after its name.
+ 	    if you favor the charter as proposed, put a "yes" after its name.
+ 	    if you oppose the charter as proposed, put a "no" after its name.
+ 	    to abstain, leave a blank after its name.
  
- 	2)  Type in your last name (i.e. your family name), a comma, and
+ 	2)  type in your last name (i.e. your family name), a comma, and
  	    your first name (i.e. your personal name).
  
- 	3)  Cut out the ballot,  Please do not delete any lines of the
+ 	3)  cut out the ballot,  please do not delete any lines of the
  	    ballot.
  
- 	4)  E-mail your ballot to mlevis@lonestar.utsa.edu before 11:59:59 pm
- 	    (Central Time), April 24, 1993.
+ 	4)  e-mail your ballot to mlevis@lonestar.utsa.edu before 11:59:59 pm
+ 	    (central time), april 24, 1993.
  
  
- Ballot:
+ ballot:
  
  ----------------cut here----------------cut here----------------cut here----
  
@@ -146,12 +146,12 @@
  
          (f)       voter's last, first name:
  
-         e-mail ballot to mlevis@lonestar.utsa.edu by April 24
+         e-mail ballot to mlevis@lonestar.utsa.edu by april 24
  
  ----cut here----------------cut here----------------cut here----------------
  
  
- Example Ballot #1:
+ example ballot #1:
  
  	(a) comp.os.os2.programmer.porting: yes
  	(b)    comp.os.os2.programmer.misc: yes
@@ -159,16 +159,16 @@
  	(d)         comp.os.os2.multimedia:
  	(e)               comp.os.os2.bugs: no
  
- 	(f)       voter's last, first name: Smith, John
+ 	(f)       voter's last, first name: smith, john
  
- 	In this example, John Smith favors comp.os.os2.programmer.porting
+ 	in this example, john smith favors comp.os.os2.programmer.porting
  	to be created, and comp.os.os2.programmer to be renamed to
- 	comp.os.os2.programmer.misc.  He also opposes the creation of
- 	comp.os.os2.setup and comp.os.os2.bugs.  He does not have a view
+ 	comp.os.os2.programmer.misc.  he also opposes the creation of
+ 	comp.os.os2.setup and comp.os.os2.bugs.  he does not have a view
  	on the creation of comp.os.os2.multimedia. 
  
  
- Example Ballot #2:
+ example ballot #2:
  
  	(a) comp.os.os2.programmer.porting: yes
  	(b)    comp.os.os2.programmer.misc: yes
@@ -176,303 +176,303 @@
  	(d)         comp.os.os2.multimedia: yes
  	(e)               comp.os.os2.bugs: yes
  
- 	(f)       voter's last, first name: Doe, Jane
+ 	(f)       voter's last, first name: doe, jane
  
- 	In this example, Jane Doe favors the creation or rename of all
+ 	in this example, jane doe favors the creation or rename of all
  	the proposals.
  
  
- Voting Rules:
+ voting rules:
  
- 	* One vote per person.  If you vote more than once, only the most
+ 	* one vote per person.  if you vote more than once, only the most
  	  recent vote will be counted.
  
- 	* Votes must be mailed to me by the person voting.  Proxy voting,
+ 	* votes must be mailed to me by the person voting.  proxy voting,
  	  forwarding, posting votes to a newsgroup, etc. will not be counted.
  
- 	* Do not ask how the votes are going.  The status of the votings
+ 	* do not ask how the votes are going.  the status of the votings
  	  will be revealed only after the poll closes.
  
- 	* I will acknowledge votes by Mass Acknowledgement (ACK).  I will
- 	  post the ACK twice (see Schedule below).
+ 	* i will acknowledge votes by mass acknowledgement (ack).  i will
+ 	  post the ack twice (see schedule below).
  
- 	* If you need help for using your editor, using e-mail, how
+ 	* if you need help for using your editor, using e-mail, how
  	  voting works in general, etc. then ask an expert at your site.
- 	  Also see the ``How To Create a New Newsgroup'' article which is
+ 	  also see the ``how to create a new newsgroup'' article which is
  	  posted to news.answers on a regular basis.
  
- 	* If you need any clarifications on voting procedures for this
- 	  CFV, send me e-mail at mlevis@ringer.cs.utsa.edu.
+ 	* if you need any clarifications on voting procedures for this
+ 	  cfv, send me e-mail at mlevis@ringer.cs.utsa.edu.
  
- 	* When the voting period is over (see Schedule below), a proposal
+ 	* when the voting period is over (see schedule below), a proposal
  	  passes if both of the following formulas are true:
- 	  1)  the number of YES votes exceeds the number of NO votes
- 	      by at least 100 (i.e. YES >= NO + 100, or YES - NO >= 100).
- 	  2)  the number of YES votes exceeds at least twice the
- 	      number of NO votes (i.e. YES >= 2 * NO, or YES - NO >= NO).
- 	  In other words, a proposal passes if:
- 	      YES - NO >= max (100, NO)
+ 	  1)  the number of yes votes exceeds the number of no votes
+ 	      by at least 100 (i.e. yes >= no + 100, or yes - no >= 100).
+ 	  2)  the number of yes votes exceeds at least twice the
+ 	      number of no votes (i.e. yes >= 2 * no, or yes - no >= no).
+ 	  in other words, a proposal passes if:
+ 	      yes - no >= max (100, no)
  	  where max() returns the highest number given to it.
  
  
- Schedule:
+ schedule:
  
- 	The voting period started on March 29 when the first CFV was posted
- 	by David Lawrence (the news.announce.newgroups moderator).
+ 	the voting period started on march 29 when the first cfv was posted
+ 	by david lawrence (the news.announce.newgroups moderator).
  
- 	This third CFV is a repeat of the first CFV, but it also has the
- 	Mass Acknowledgement (ACK) of names and e-mail addresses of those who
- 	have already voted -- re-send your vote if it is not there.  If you
+ 	this third cfv is a repeat of the first cfv, but it also has the
+ 	mass acknowledgement (ack) of names and e-mail addresses of those who
+ 	have already voted -- re-send your vote if it is not there.  if you
  	have not voted yet, vote now!
  
- 	The voting period will end at 11:59:59 pm (Central Time), on
- 	April 24, 1993.  Votes received after that time will not count.
- 	The voting results and tally will be posted shortly after that
+ 	the voting period will end at 11:59:59 pm (central time), on
+ 	april 24, 1993.  votes received after that time will not count.
+ 	the voting results and tally will be posted shortly after that
  	date.
  
  
- Mass Acknowledgement:
+ mass acknowledgement:
  
- 	Here is the list of people who have already sent in their ballots
- 	as of 12:01 am (Central Time) on April 15, 1993:
+ 	here is the list of people who have already sent in their ballots
+ 	as of 12:01 am (central time) on april 15, 1993:
  
                            bdubbs@cs.tamu.edu
- Aiyagari, Sanjay          ska1@crux3.cit.cornell.edu
- Alcorn, Justin            alcorn@alpha.ces.cwru.edu
- Arien, Peter              LAAAA43%BLEKUL11.BITNET@FRMOP11.CNUSC.FR
- Asselin, Andre            assela@rpi.edu
- Aurand, Tom               tom@longs.lance.colostate.edu
- Baechler, Cedric          cbaechle@iiic.ethz.ch
- Bartlett, Warren          bart@pdn.paradyne.com
- Bates, John               johnb@up.edu
- Beadles, J.               jeff@neon.rain.com
- Beal, Kenneth             kbeal@amber.ssd.csd.harris.com
- Bedersdorfer, Jochen      beders@dfki.uni-sb.de
- Bell, Douglas             dab6@SCL.CWRU.Edu
- Benningfield, Robert      concert.net!aurs01!aurw7a!benningf
- Biegel, Bryan             biegel@tigris.stanford.edu
- Blackman, Ed              EBB7683@VENUS.TAMU.EDU
- Bodnar, John              jbodnar@ccwf.cc.utexas.edu
- Boisvert, Wesley          wesb@dermit.isis.org
+ aiyagari, sanjay          ska1@crux3.cit.cornell.edu
+ alcorn, justin            alcorn@alpha.ces.cwru.edu
+ arien, peter              laaaa43%blekul11.bitnet@frmop11.cnusc.fr
+ asselin, andre            assela@rpi.edu
+ aurand, tom               tom@longs.lance.colostate.edu
+ baechler, cedric          cbaechle@iiic.ethz.ch
+ bartlett, warren          bart@pdn.paradyne.com
+ bates, john               johnb@up.edu
+ beadles, j.               jeff@neon.rain.com
+ beal, kenneth             kbeal@amber.ssd.csd.harris.com
+ bedersdorfer, jochen      beders@dfki.uni-sb.de
+ bell, douglas             dab6@scl.cwru.edu
+ benningfield, robert      concert.net!aurs01!aurw7a!benningf
+ biegel, bryan             biegel@tigris.stanford.edu
+ blackman, ed              ebb7683@venus.tamu.edu
+ bodnar, john              jbodnar@ccwf.cc.utexas.edu
+ boisvert, wesley          wesb@dermit.isis.org
  boneham, kevin            boneham@suntan.eng.usf.edu
- Boresch, Stefan           boresch@tammy.harvard.edu
- Boschma, Wilfried         v911071@si.hhs.nl
- Botha, David              BOTH-DD@mella.ee.up.ac.za
- Bowe, Nathaniel           woody@vnet.IBM.COM
- Bowers, Neil              neilb@borris.eece.unm.edu
- Braun,David               roland@roll.choate.edu
- Bronner, Geoffrey         geoffb@coos.dartmouth.edu
- Brors, Dieter             db@ix.de
- Brown, Bill               brown@chinchilla.ir.ucf.edu
- Cambria, Michael          cambria@smaug.enet.dec.com
- Carlson, Bill             woc8r@poplar.cs.virginia.edu
- Champion, Evan            evanc@carbon.isis.org
- Chandonia, John           chandoni@husc.harvard.edu
- Chen, Ted                 tedc@cs.ubc.ca
- Chua, Hak                 c164-ez@po.berkeley.edu
- Ciesielski, Boleslaw      bolek@viewlogic.com
- Clement, Bruce            frey@alfheim.actrix.gen.nz
- Clemente, Marc F.         mfclemente@ucdavis.edu
- Cline, Ernest             cline@usceast.cs.scarolina.edu
- Cocking , Simon           simonc@monu6.cc.monash.edu.au
- Compton, Curtis           compton@plains.NoDak.edu
- Costello, Robert          rcc9885@ultb.isc.rit.edu
- Coulman, Randy            coulman@skdad.usask.ca
- Cox, Anthony              AECOX@waikato.ac.nz
- Cox, Robert               rcox@qvack.EE.McGill.CA
- Culliton, Tom             culliton@srg.af.mil
- daigle, Joe               daigle@apollo.hp.com
- DeCarlo, John             jdecarlo@mitre.org
- Dippold, Ron              rdippold@qualcomm.com
- Donaldson, Ian            icd@ecr.mu.oz.au
- Drye, Stephen             scdrye@undergrad.math.uwaterloo.ca
- Duffy, Patrick            duffy@theory.chem.ubc.ca
- Dusitsin, Krid            dusitsin@ee.umr.edu
- Erzberger, Martin         erzberg@ifi.unizh.ch
- Feldtmann, Marten         marten@feki.toppoint.de
- Feustel, Edward           efeustel@ida.org
+ boresch, stefan           boresch@tammy.harvard.edu
+ boschma, wilfried         v911071@si.hhs.nl
+ botha, david              both-dd@mella.ee.up.ac.za
+ bowe, nathaniel           woody@vnet.ibm.com
+ bowers, neil              neilb@borris.eece.unm.edu
+ braun,david               roland@roll.choate.edu
+ bronner, geoffrey         geoffb@coos.dartmouth.edu
+ brors, dieter             db@ix.de
+ brown, bill               brown@chinchilla.ir.ucf.edu
+ cambria, michael          cambria@smaug.enet.dec.com
+ carlson, bill             woc8r@poplar.cs.virginia.edu
+ champion, evan            evanc@carbon.isis.org
+ chandonia, john           chandoni@husc.harvard.edu
+ chen, ted                 tedc@cs.ubc.ca
+ chua, hak                 c164-ez@po.berkeley.edu
+ ciesielski, boleslaw      bolek@viewlogic.com
+ clement, bruce            frey@alfheim.actrix.gen.nz
+ clemente, marc f.         mfclemente@ucdavis.edu
+ cline, ernest             cline@usceast.cs.scarolina.edu
+ cocking , simon           simonc@monu6.cc.monash.edu.au
+ compton, curtis           compton@plains.nodak.edu
+ costello, robert          rcc9885@ultb.isc.rit.edu
+ coulman, randy            coulman@skdad.usask.ca
+ cox, anthony              aecox@waikato.ac.nz
+ cox, robert               rcox@qvack.ee.mcgill.ca
+ culliton, tom             culliton@srg.af.mil
+ daigle, joe               daigle@apollo.hp.com
+ decarlo, john             jdecarlo@mitre.org
+ dippold, ron              rdippold@qualcomm.com
+ donaldson, ian            icd@ecr.mu.oz.au
+ drye, stephen             scdrye@undergrad.math.uwaterloo.ca
+ duffy, patrick            duffy@theory.chem.ubc.ca
+ dusitsin, krid            dusitsin@ee.umr.edu
+ erzberger, martin         erzberg@ifi.unizh.ch
+ feldtmann, marten         marten@feki.toppoint.de
+ feustel, edward           efeustel@ida.org
  filippini,luigi           luigi@berlioz.crs4.it
- Fischer, Stefan           fischer@tammy.harvard.edu
- Fleuren, Rik              rik@sci.kun.nl
- Francis, Tim              francis@vnet.IBM.COM
- Francois Menard           menaf00@dmi.usherb.ca
- Franks, Derek             franks@hercules.cs.uregina.ca
- Franzki, Wolfgang         wfranzki@hlrserv.hlrz.kfa-juelich.de
- Friedrich, Jochen         jofried@fzi.de
- Friis, Torben             tfriis@imada.ou.dk
- G"unther, Stefan          stefan@med-informatik.uni-hildesheim.de
- Galarza, Edward           LENBC@CUNYVM.CUNY.EDU
- Gammon, Robert            rgammon@rgam.sc.ti.com
- Gartler, Hermann          herm@owlnet.rice.edu
- Garzik, Jeff              gtd543a@prism.gatech.edu
- Gershman, Mark            gershman@bach.udel.edu
- Giller, David R.          rafetmad@cheshire.oxy.edu
- Gnassi, John              jgnassi@hstbme.mit.edu
- Goyal, Mohit              goyal@utdallas.edu
- Green, Anthony            green@roboco.uucp
- Grupenhoff, Mike          kashmir@wam.umd.edu
- Guo, Youren               yguo@sparc0a.cs.uiuc.edu
- Hacker;Jonathan           hacker@cco.caltech.edu
- Haggerty, Michael         mrhagger@Athena.MIT.EDU
- Hargrave, BJ              fattire@vnet.IBM.COM
- Hartman, Shane            shane@spr.com
- Hartzman, Les             hartzman@kilroy.Jpl.Nasa.Gov
- Hassa, George             hassag@rpi.edu
- Hed, Nevo                 nyh@wpi.WPI.EDU
- Heederik, Robbert         heederik@fwi.uva.nl
- Hellerhoff, Torsten       Torsten_Hellerhoff@ac2.maus.de
- Hendel, Bernd             BHENDEL@estec.estec.esa.nl
- Henriksen, Gerald         rn.1035@rose.com
- Henry, Andrew             A.H.Henry@gdr.bath.ac.uk
- Herbison, B.J.            herbison@lassie.ucx.lkg.dec.com
- Herron, Kenneth           kherron@ms.uky.edu
- Hilmer, Andrew            hilmera@mist.CS.ORST.EDU
- Hoang, Long               lhoang@orion.oac.uci.edu
- Hodge, Bob                HODGE@iccgcc.cs.hh.ab.com
- Hodges, Matthew           modester@iastate.edu
- Hollebone, Bruce          lermer@theory.chem.ubc.ca
- holsman, Ian              IHolsman@cmutual.com.au
- Hopkins, John             john@uhs1.uhs.uga.edu
- Hoppenbrouwers, Jeroen    hoppie@kub.nl
- Howard, Robert            robert.howard@matd.gatech.edu
- Huang, Ping               pshuang@Athena.MIT.EDU
- Jackson, Dave             D.Jackson@axion.bt.co.uk
- Jensen, Colin             ljensen@netcom.com
- Kassarjian, Steven        kassarji@spot.Colorado.EDU
- Kiehl, Horst              kiehl@ibt013.ibt.kfa-juelich.de
- Kitchin, Bruce            kitchin@lf.hp.com
- Kone, Bob                 bkone@rflab.ee.ubc.ca
- Kovarski, Mark            kovarski@zooid.guild.org
- Kretzer, Myke             tanith@csd4.csd.uwm.edu
- Lacy, Stephen             sl31+@andrew.cmu.edu
+ fischer, stefan           fischer@tammy.harvard.edu
+ fleuren, rik              rik@sci.kun.nl
+ francis, tim              francis@vnet.ibm.com
+ francois menard           menaf00@dmi.usherb.ca
+ franks, derek             franks@hercules.cs.uregina.ca
+ franzki, wolfgang         wfranzki@hlrserv.hlrz.kfa-juelich.de
+ friedrich, jochen         jofried@fzi.de
+ friis, torben             tfriis@imada.ou.dk
+ g"unther, stefan          stefan@med-informatik.uni-hildesheim.de
+ galarza, edward           lenbc@cunyvm.cuny.edu
+ gammon, robert            rgammon@rgam.sc.ti.com
+ gartler, hermann          herm@owlnet.rice.edu
+ garzik, jeff              gtd543a@prism.gatech.edu
+ gershman, mark            gershman@bach.udel.edu
+ giller, david r.          rafetmad@cheshire.oxy.edu
+ gnassi, john              jgnassi@hstbme.mit.edu
+ goyal, mohit              goyal@utdallas.edu
+ green, anthony            green@roboco.uucp
+ grupenhoff, mike          kashmir@wam.umd.edu
+ guo, youren               yguo@sparc0a.cs.uiuc.edu
+ hacker;jonathan           hacker@cco.caltech.edu
+ haggerty, michael         mrhagger@athena.mit.edu
+ hargrave, bj              fattire@vnet.ibm.com
+ hartman, shane            shane@spr.com
+ hartzman, les             hartzman@kilroy.jpl.nasa.gov
+ hassa, george             hassag@rpi.edu
+ hed, nevo                 nyh@wpi.wpi.edu
+ heederik, robbert         heederik@fwi.uva.nl
+ hellerhoff, torsten       torsten_hellerhoff@ac2.maus.de
+ hendel, bernd             bhendel@estec.estec.esa.nl
+ henriksen, gerald         rn.1035@rose.com
+ henry, andrew             a.h.henry@gdr.bath.ac.uk
+ herbison, b.j.            herbison@lassie.ucx.lkg.dec.com
+ herron, kenneth           kherron@ms.uky.edu
+ hilmer, andrew            hilmera@mist.cs.orst.edu
+ hoang, long               lhoang@orion.oac.uci.edu
+ hodge, bob                hodge@iccgcc.cs.hh.ab.com
+ hodges, matthew           modester@iastate.edu
+ hollebone, bruce          lermer@theory.chem.ubc.ca
+ holsman, ian              iholsman@cmutual.com.au
+ hopkins, john             john@uhs1.uhs.uga.edu
+ hoppenbrouwers, jeroen    hoppie@kub.nl
+ howard, robert            robert.howard@matd.gatech.edu
+ huang, ping               pshuang@athena.mit.edu
+ jackson, dave             d.jackson@axion.bt.co.uk
+ jensen, colin             ljensen@netcom.com
+ kassarjian, steven        kassarji@spot.colorado.edu
+ kiehl, horst              kiehl@ibt013.ibt.kfa-juelich.de
+ kitchin, bruce            kitchin@lf.hp.com
+ kone, bob                 bkone@rflab.ee.ubc.ca
+ kovarski, mark            kovarski@zooid.guild.org
+ kretzer, myke             tanith@csd4.csd.uwm.edu
+ lacy, stephen             sl31+@andrew.cmu.edu
  lai, william              lai@seas.gwu.edu
- Landy, Brian              landy@cco.caltech.edu
+ landy, brian              landy@cco.caltech.edu
  lau, frankie              lau@tammy.harvard.edu
- Lau, Stephen              lau@ai.sri.com
- Lawton, Gef               glawton@cs.uah.edu
- Le Glasse, Franck         Franck.Leglasse@irisa.fr
- Lebius, Henning           lebius@utkux1.utk.edu
+ lau, stephen              lau@ai.sri.com
+ lawton, gef               glawton@cs.uah.edu
+ le glasse, franck         franck.leglasse@irisa.fr
+ lebius, henning           lebius@utkux1.utk.edu
  lee, james                jelee@ucdavis.edu
- Lehtonen, Jari            jarlehto@utu.fi
- Leitner, Thomas           tom@finwds01.tu-graz.ac.at
- Lempriere, Mike           mikel@networx.com
- Lentin, Kevin             kevinl@bruce.cs.monash.edu.au
- Leung, Johnnie            k7z092@rick.cs.ubc.ca
- Lim, Pean                 plim@claircom.com
- Lin, Steven               slin@cisco.com
- Lindholm, George          lindholm@ucs.ubc.ca
- Liukkonen, Juha           jliukkon@cc.helsinki.fi
- Logan, Stan               logan@lexmark.com
- Lu, Kevin                 kevinlu@yoyo.cc.monash.edu.au
- Martin, Johannes          jmartin@mogli.zdv.uni-mainz.de
- Mashao, Daniel            djm@lems.Brown.EDU
- Maturo, Larry             larry@titan.tsd.arlut.utexas.edu
- Maxwell, Scott            scott.maxwell@channel1.com
- Mayer, Gunther H.         gmayer@physik.uni-kl.de
- Maynard, Jay              jmaynard@nyx.cs.du.edu
- McCarthy, Christopher     mccarthy@gollum.ttd.teradyne.com
- Mcgehrin, Matthew         matthew@dabeef@des.edu
- McGing, John              jmcging@access.digex.com
- McGuire, Ed               emcguire@intellection.com
- McMillan, Andrew          Andrew.McMillan@folly.welly.gen.nz
- meyer, jeff               moriarty@tc.fluke.COM
- Miller, Richard           rick@crick.ssctr.bcm.tmc.edu
- Mittelstaedt, Olaf H.-P.  mittelst@felix.rz.fh-ulm.de
+ lehtonen, jari            jarlehto@utu.fi
+ leitner, thomas           tom@finwds01.tu-graz.ac.at
+ lempriere, mike           mikel@networx.com
+ lentin, kevin             kevinl@bruce.cs.monash.edu.au
+ leung, johnnie            k7z092@rick.cs.ubc.ca
+ lim, pean                 plim@claircom.com
+ lin, steven               slin@cisco.com
+ lindholm, george          lindholm@ucs.ubc.ca
+ liukkonen, juha           jliukkon@cc.helsinki.fi
+ logan, stan               logan@lexmark.com
+ lu, kevin                 kevinlu@yoyo.cc.monash.edu.au
+ martin, johannes          jmartin@mogli.zdv.uni-mainz.de
+ mashao, daniel            djm@lems.brown.edu
+ maturo, larry             larry@titan.tsd.arlut.utexas.edu
+ maxwell, scott            scott.maxwell@channel1.com
+ mayer, gunther h.         gmayer@physik.uni-kl.de
+ maynard, jay              jmaynard@nyx.cs.du.edu
+ mccarthy, christopher     mccarthy@gollum.ttd.teradyne.com
+ mcgehrin, matthew         matthew@dabeef@des.edu
+ mcging, john              jmcging@access.digex.com
+ mcguire, ed               emcguire@intellection.com
+ mcmillan, andrew          andrew.mcmillan@folly.welly.gen.nz
+ meyer, jeff               moriarty@tc.fluke.com
+ miller, richard           rick@crick.ssctr.bcm.tmc.edu
+ mittelstaedt, olaf h.-p.  mittelst@felix.rz.fh-ulm.de
  moorcroft, marc           smarry@zooid.guild.org
- Morrison, John Paul       jmorriso@ee.ubc.ca
- Mosher, David             dmosher@nyx.cs.du.edu
- Mouawad, Naji.            nmouawad@math.uwaterloo.ca
- Mullins, Don              mullins@magnum.convex.com
- Nadler, Cliff             cnadler@vnet.IBM.COM
- Nareid, Helge             Helge.Nareid@due.unit.no
- Narinian, Vartan          v.narinian@ic.ac.uk
- Norton, Charles M.        cmn@ftp.com
+ morrison, john paul       jmorriso@ee.ubc.ca
+ mosher, david             dmosher@nyx.cs.du.edu
+ mouawad, naji.            nmouawad@math.uwaterloo.ca
+ mullins, don              mullins@magnum.convex.com
+ nadler, cliff             cnadler@vnet.ibm.com
+ nareid, helge             helge.nareid@due.unit.no
+ narinian, vartan          v.narinian@ic.ac.uk
+ norton, charles m.        cmn@ftp.com
  o'neel, bruce             oneel@aplcenmp.apl.jhu.edu
- O'Rourke, Sean            sorourke@lonestar.utsa.edu
- Oldham, C. R.             cro@socrates.ed.asu.edu
- Olson, Eric               ejo@kaja.gi.alaska.edu
- Oussoren, Ronald          roussor@cs.vu.nl
+ o'rourke, sean            sorourke@lonestar.utsa.edu
+ oldham, c. r.             cro@socrates.ed.asu.edu
+ olson, eric               ejo@kaja.gi.alaska.edu
+ oussoren, ronald          roussor@cs.vu.nl
  owens, bill               owens@cookiemonster.cc.buffalo.edu
- Parks, Dwayne             dcp@engr.uark.edu
- Parry, Tom                parry@yoyo.cc.monash.edu.au
- Pebly, Bob                pebly@vnet.IBM.COM
- Perdue, Alicia            arperd00@mik.uky.edu
- Petro, Herbert            hmpetro@mosaic.uncc.edu
- Pietilainen, Pekka        ppi@eero.oulu.fi
- Poole, David              dpoole@hydrogen.oscs.montana.edu
- Powell, Stephen           stevep@kralizec.zeta.org.au
- Prescod, Paul             papresco@undergrad.math.uwaterloo.ca
- Provensal, jerome         uunet.UU.NET!iac!jerome
- Quinn, Michael            quinn@phoenix.Princeton.EDU
- Rao, Venkat               rao@cactus.org
- Reisert, Jim              reisert@mast.enet.dec.com
- Reynolds, Robert          easyrob@cs.utexas.edu
- Robertson, James          ROBERTSON@PHYSC3.BYU.EDU
- Roelofs, Greg             roe2@midway.uchicago.edu
- Rosenvold, Johan Kristian jkr@ifi.uio.no
- Ruppel, Markus            m.ruppel@imperial.ac.uk
- Ryan, Sean                FSSPR@acad3.alaska.edu
- Salomon, Larry            os2man@Panix.Com
- Schimke, Nathan           schimken@cs.rpi.edu
- Schipper, Haijo           haijo@cs.rug.nl
- Seymour, Jim              qintar@agora.rain.com
- Shankar, Gess             gess@knex.via.mind.ORG
- Shaw, Jeremy              jeremy@plxsun.plx.com
- Sierwald, Joern           Sierwald@tu-harburg.dbp.de
- SIPPLES, TIMOTHY          sip1@midway.uchicago.edu
- Skogstad, Oddbjorn        odskog@siri.unit.no
- Smith, Donald             djs6015@ultb.isc.rit.edu
- Smith, Eliot              esmith@psych.purdue.edu
- Sneath, Tim               psyhtjs@mips.ccc.nottingham.ac.uk
- Sorensen, Tom             gt0040a@prism.gatech.edu
- Sriram, N                 swknasri@nuscc.nus.sg
- Steele, Alan              steele@nrcphy1.phy.nrc.ca
- Steinkopf, Dirk           dirk@km21.zfe.siemens.de
- Stirling, Ian T.          ian@vnet.IBM.COM
- Strazdus, Stephen         sstrazdu@sedona.intel.com
+ parks, dwayne             dcp@engr.uark.edu
+ parry, tom                parry@yoyo.cc.monash.edu.au
+ pebly, bob                pebly@vnet.ibm.com
+ perdue, alicia            arperd00@mik.uky.edu
+ petro, herbert            hmpetro@mosaic.uncc.edu
+ pietilainen, pekka        ppi@eero.oulu.fi
+ poole, david              dpoole@hydrogen.oscs.montana.edu
+ powell, stephen           stevep@kralizec.zeta.org.au
+ prescod, paul             papresco@undergrad.math.uwaterloo.ca
+ provensal, jerome         uunet.uu.net!iac!jerome
+ quinn, michael            quinn@phoenix.princeton.edu
+ rao, venkat               rao@cactus.org
+ reisert, jim              reisert@mast.enet.dec.com
+ reynolds, robert          easyrob@cs.utexas.edu
+ robertson, james          robertson@physc3.byu.edu
+ roelofs, greg             roe2@midway.uchicago.edu
+ rosenvold, johan kristian jkr@ifi.uio.no
+ ruppel, markus            m.ruppel@imperial.ac.uk
+ ryan, sean                fsspr@acad3.alaska.edu
+ salomon, larry            os2man@panix.com
+ schimke, nathan           schimken@cs.rpi.edu
+ schipper, haijo           haijo@cs.rug.nl
+ seymour, jim              qintar@agora.rain.com
+ shankar, gess             gess@knex.via.mind.org
+ shaw, jeremy              jeremy@plxsun.plx.com
+ sierwald, joern           sierwald@tu-harburg.dbp.de
+ sipples, timothy          sip1@midway.uchicago.edu
+ skogstad, oddbjorn        odskog@siri.unit.no
+ smith, donald             djs6015@ultb.isc.rit.edu
+ smith, eliot              esmith@psych.purdue.edu
+ sneath, tim               psyhtjs@mips.ccc.nottingham.ac.uk
+ sorensen, tom             gt0040a@prism.gatech.edu
+ sriram, n                 swknasri@nuscc.nus.sg
+ steele, alan              steele@nrcphy1.phy.nrc.ca
+ steinkopf, dirk           dirk@km21.zfe.siemens.de
+ stirling, ian t.          ian@vnet.ibm.com
+ strazdus, stephen         sstrazdu@sedona.intel.com
  streeter, carl            cstreete@nyx.cs.du.edu
- Sum, Eva                  eesum00@mik.uky.edu
- Sum, Joey                 jpsum00@mik.uky.edu
- Suttor, Jeff              jsuttor@netcom.com
- Swallow, Doug             doug@montage.oau.org
- Sward, David              sward+@cmu.edu
- Thomas, Stephen           swt@therson.affinity.mn.org
- Thompson, Michael         tommy@msc.cornell.edu
- Tiffany, Bernard          lbt@umich.edu
+ sum, eva                  eesum00@mik.uky.edu
+ sum, joey                 jpsum00@mik.uky.edu
+ suttor, jeff              jsuttor@netcom.com
+ swallow, doug             doug@montage.oau.org
+ sward, david              sward+@cmu.edu
+ thomas, stephen           swt@therson.affinity.mn.org
+ thompson, michael         tommy@msc.cornell.edu
+ tiffany, bernard          lbt@umich.edu
  torremans, engelbert      etorrem%hvlpa@att.att.com
- Tremain, Jim              JIM@BIOLOGY.watstar.uwaterloo.ca
- Tsen, Maoee               tsen0001@student.tc.umn.edu
- van der Lek, Petja        P.vanderLek@research.ptt.nl
- Van Iwaarden, Ronald      rvaniwaa@copper.Denver.Colorado.EDU
- van Woerkom, Marc E.E.    Marc_Van-Woerkom@ac3.maus.de
- Veeraraghavan, Venkatesh  venky@owlnet.rice.edu
- Veldhuyzen, Eric          v912182@si.hhs.nl
- Vigor, Kevin              kevin@wicat.COM
- Villumsen, Ole            ovillumsen@daimi.aau.dk
- Wald, David               wald@theory.lcs.mit.edu
- Wallace, Jack             grey@vnet.IBM.COM
- Wantosch, Rainer          RAINER@sasowa.han.de
- Watson, Brett             watson@s1.elec.uq.oz.au
- Weber-Fahr, Christoph     weber@rhrk.uni-kl.de
- Weeks, Larry              dev@ecn.purdue.edu
- Werner, John              werner@SOE.Berkeley.Edu
- West, Mike                west@esd.dl.nec.com
+ tremain, jim              jim@biology.watstar.uwaterloo.ca
+ tsen, maoee               tsen0001@student.tc.umn.edu
+ van der lek, petja        p.vanderlek@research.ptt.nl
+ van iwaarden, ronald      rvaniwaa@copper.denver.colorado.edu
+ van woerkom, marc e.e.    marc_van-woerkom@ac3.maus.de
+ veeraraghavan, venkatesh  venky@owlnet.rice.edu
+ veldhuyzen, eric          v912182@si.hhs.nl
+ vigor, kevin              kevin@wicat.com
+ villumsen, ole            ovillumsen@daimi.aau.dk
+ wald, david               wald@theory.lcs.mit.edu
+ wallace, jack             grey@vnet.ibm.com
+ wantosch, rainer          rainer@sasowa.han.de
+ watson, brett             watson@s1.elec.uq.oz.au
+ weber-fahr, christoph     weber@rhrk.uni-kl.de
+ weeks, larry              dev@ecn.purdue.edu
+ werner, john              werner@soe.berkeley.edu
+ west, mike                west@esd.dl.nec.com
  weyrich, orville          uunet.uu.net!weyrich!orville
- White, Andrew             apwhite@csugrad.cs.vt.edu
- Wiersema, Brian           brianw@umd5.umd.edu
- Wimmer, Carsten           Carsten_Wimmer@train.fido.de
- Wittenauer, Allen         Allen_Wittenauer@crispy.carb.il.us
- Woodbury, Gregory         ggw@wolves.Durham.NC.US
- Worthington, Stephen      stephen@actrix.gen.nz
- Wright, Gregory           gregory@bcstec.ca.boeing.com
- Wyble, Richard            transfer.stratus.com!schunix!rwyble
- YOUNG, DAVID M.           dyoung@netcom.com
- Zabbal, Christian         kris@binkley.cs.mcgill.ca
+ white, andrew             apwhite@csugrad.cs.vt.edu
+ wiersema, brian           brianw@umd5.umd.edu
+ wimmer, carsten           carsten_wimmer@train.fido.de
+ wittenauer, allen         allen_wittenauer@crispy.carb.il.us
+ woodbury, gregory         ggw@wolves.durham.nc.us
+ worthington, stephen      stephen@actrix.gen.nz
+ wright, gregory           gregory@bcstec.ca.boeing.com
+ wyble, richard            transfer.stratus.com!schunix!rwyble
+ young, david m.           dyoung@netcom.com
+ zabbal, christian         kris@binkley.cs.mcgill.ca
  zawodny, jeremy           jzawodn@andy.bgsu.edu
- Zou, Nan                  nan@matt.ksu.ksu.edu
+ zou, nan                  nan@matt.ksu.ksu.edu
  -- 
- --:--~  (OS|  Mike Levis       Unofficial OS/2 Spokesmodel
- S/2)  .--:-|
- --:--(OS/2)|  mlevis@lonestar.utsa.edu   ->          votes
-  (OS/2)--~ |  mlevis@ringer.cs.utsa.edu  -> clarifications
+ --:--~  (os|  mike levis       unofficial os/2 spokesmodel
+ s/2)  .--:-|
+ --:--(os/2)|  mlevis@lonestar.utsa.edu   ->          votes
+  (os/2)--~ |  mlevis@ringer.cs.utsa.edu  -> clarifications
  

@@ -1,45 +1,45 @@
-	of Denver for the Denver community.  The University has neither
+	of denver for the denver community.  the university has neither
  	control over nor responsibility for the opinions of users.
- Sender: usenet@mnemosyne.cs.du.edu (netnews admin account)
- Organization: Nyx, Public Access Unix at U. of Denver Math/CS dept.
- References: <1993Apr16.133536.27973@wixer.bga.com> <5103@moscom.com>
- Date: Wed, 21 Apr 93 20:01:26 GMT
- Lines: 36
+ sender: usenet@mnemosyne.cs.du.edu (netnews admin account)
+ organization: nyx, public access unix at u. of denver math/cs dept.
+ references: <1993apr16.133536.27973@wixer.bga.com> <5103@moscom.com>
+ date: wed, 21 apr 93 20:01:26 gmt
+ lines: 36
  
- In article <5103@moscom.com> mz@moscom.com (Matthew Zenkar) writes:
- >Cyberspace Buddha (cb@wixer.bga.com) wrote:
- >: renew@blade.stack.urc.tue.nl (Rene Walter) writes:
+ in article <5103@moscom.com> mz@moscom.com (matthew zenkar) writes:
+ >cyberspace buddha (cb@wixer.bga.com) wrote:
+ >: renew@blade.stack.urc.tue.nl (rene walter) writes:
  >: >over where it places its temp files: it just places them in its
  >: >"current directory".
  >
- >: I have to beg to differ on this point, as the batch file I use
+ >: i have to beg to differ on this point, as the batch file i use
  >: to launch cview cd's to the dir where cview resides and then
- >: invokes it.  every time I crash cview, the 0-byte temp file
+ >: invokes it.  every time i crash cview, the 0-byte temp file
  >: is found in the root dir of the drive cview is on.
  >
- >I posted this as well before the cview "expert".  Apparently, he thought
+ >i posted this as well before the cview "expert".  apparently, he thought
  he
  >knew better.
  >
- >Matthew Zenkar
+ >matthew zenkar
  >mz@moscom.com
  
  
-      Are we talking about ColorView for DOS here?  
-      I have version 2.0 and it writes the temp files to its own
+      are we talking about colorview for dos here?  
+      i have version 2.0 and it writes the temp files to its own
       current directory.
-      What later versions do, I admit that I don't know.
-      Assuming your "expert" referenced above is talking about
-      the version that I have, then I'd say he is correct.
-      Is the ColorView for unix what is being discussed?
-      Just mixed up, confused, befuddled, but genuinely and
+      what later versions do, i admit that i don't know.
+      assuming your "expert" referenced above is talking about
+      the version that i have, then i'd say he is correct.
+      is the colorview for unix what is being discussed?
+      just mixed up, confused, befuddled, but genuinely and
       entirely curious....
  
-      Uncle Fester
+      uncle fester
  
  --
-            :     What God Wants      :  God wants gigolos          :
-            :        God gets         :  God wants giraffes         :
-            :     God help us all     :  God wants politics         :
-            : *thester@nyx.cs.du.edu* :  God wants a good laugh     :
+            :     what god wants      :  god wants gigolos          :
+            :        god gets         :  god wants giraffes         :
+            :     god help us all     :  god wants politics         :
+            : *thester@nyx.cs.du.edu* :  god wants a good laugh     :
  

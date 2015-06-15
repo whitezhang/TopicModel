@@ -1,15 +1,15 @@
 
  
- >Now does anyone know if it is possible to use W4WG and Lan Workplace
- >for DOS at the same time. 
+ >now does anyone know if it is possible to use w4wg and lan workplace
+ >for dos at the same time. 
  
- >ie Can I access a file on another PC while being logged on to the
+ >ie can i access a file on another pc while being logged on to the
  >mainframe at the same time, simultaneously.
  
- Yup.  We're using both and they work just fine.  Hopefully, someday WFWG
- will communicate over LWP TCPIP.  Right now we have to load NetBeui.
+ yup.  we're using both and they work just fine.  hopefully, someday wfwg
+ will communicate over lwp tcpip.  right now we have to load netbeui.
  
- I use ODI with ODINSUP and all works well.
+ i use odi with odinsup and all works well.
  
  
  

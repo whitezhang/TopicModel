@@ -1,51 +1,51 @@
 
- Off and on over the last several months, threads about RBIs and
+ off and on over the last several months, threads about rbis and
  related topics have gotten me to thinking about how well we can 
- predict a player's RBIs using information about his overall
- performance and the number of runners in scoring position (RISP)
- that he bats with.  In the Brock2 model, Bill James calculated
- predicted RBIs as RBI=.235*(Total Bases) + Home Runs.  This 
- completely ignores the context, which was all that Brock2 
- could do, since context was unknown to it.  So I thought I'd
+ predict a player's rbis using information about his overall
+ performance and the number of runners in scoring position (risp)
+ that he bats with.  in the brock2 model, bill james calculated
+ predicted rbis as rbi=.235*(total bases) + home runs.  this 
+ completely ignores the context, which was all that brock2 
+ could do, since context was unknown to it.  so i thought i'd
  take that idea as a starting point and look how good a fit to
- the data you get by comparing (RBI-Home Runs) to SLG*RISP.
+ the data you get by comparing (rbi-home runs) to slg*risp.
  
- I've started with team data, using data from the Elias's that
- I've picked up over the years when a) I could afford them and
- b) I could stomach the thought of increasing Elias's profits.
- That gave me the years 1984-1986, 1988, and 1990.  (I don't 
- have team RBIs for '87 or I could add that year.)  If you
+ i've started with team data, using data from the elias's that
+ i've picked up over the years when a) i could afford them and
+ b) i could stomach the thought of increasing elias's profits.
+ that gave me the years 1984-1986, 1988, and 1990.  (i don't 
+ have team rbis for '87 or i could add that year.)  if you
  run a simple least squares fit to the data you get 
  
- (RBI-Home Runs) = 0.81*SLG*RISP.
+ (rbi-home runs) = 0.81*slg*risp.
  
- The correlation between the LHS and the RHS is 0.86, which is
- significant at a ridiculously high level.  So, I feel like the
- fit is good at the team level.  I've no started to move on to 
- the player level and have looked at 4 players (Will Clark,
- Ozzie Smith, Joe Carter, and Don Mattingly).  I hope to 
+ the correlation between the lhs and the rhs is 0.86, which is
+ significant at a ridiculously high level.  so, i feel like the
+ fit is good at the team level.  i've no started to move on to 
+ the player level and have looked at 4 players (will clark,
+ ozzie smith, joe carter, and don mattingly).  i hope to 
  add quite a few more during my copious free time this year.
  
- It doesn't do too badly, except the equation underpredicts the
- low HR hitter (Smith), which may be a fault of the model or it
- could just be Ozzie.  The results:
+ it doesn't do too badly, except the equation underpredicts the
+ low hr hitter (smith), which may be a fault of the model or it
+ could just be ozzie.  the results:
  
-                            RBI-HR
-          Years        Actual   Predicted
- Carter  (84-88,90)     400       402.6
- Clark   (87,88,90,92)  269       269.6
- Matt'ly (84-88,90)     471       460.8
- Smith   (84-88,90)     317       280.6
+                            rbi-hr
+          years        actual   predicted
+ carter  (84-88,90)     400       402.6
+ clark   (87,88,90,92)  269       269.6
+ matt'ly (84-88,90)     471       460.8
+ smith   (84-88,90)     317       280.6
  
- I think we can make a case (and I hope to make it stronger) that
- RBIs can be predicted simply from knowing how a player slugs overall
+ i think we can make a case (and i hope to make it stronger) that
+ rbis can be predicted simply from knowing how a player slugs overall
  and how many men are in scoring position when he comes up.
  
- More later,
- Harold
+ more later,
+ harold
  -- 
- Harold Brooks                    hbrooks@uiatma.atmos.uiuc.edu
- National Severe Storms Laboratory (Norman, OK)
- "I used to work for a brewery, too, but I didn't drink on the job."
- -P. Bavasi on Dal Maxvill's view that Florida can win the NL East in '93
+ harold brooks                    hbrooks@uiatma.atmos.uiuc.edu
+ national severe storms laboratory (norman, ok)
+ "i used to work for a brewery, too, but i didn't drink on the job."
+ -p. bavasi on dal maxvill's view that florida can win the nl east in '93
  

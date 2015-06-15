@@ -1,23 +1,23 @@
 
- In <1rmhiuINNh2a@skeena.ucs.ubc.ca> lindholm@ucs.ubc.ca (George Lindholm) writes:
- >In article <1rlhhkINNg62@skeena.ucs.ubc.ca>, lindholm@ucs.ubc.ca (George Lindholm) writes:
- >> In article <123645@netnews.upenn.edu> bradley@grip.cis.upenn.edu (John Bradley) writes:
- >> And here is the first patch :-) The following fixes some problems with the
- >> Imakefile files and makes it possible to compile xv-3.00 under Solaris without 
+ in <1rmhiuinnh2a@skeena.ucs.ubc.ca> lindholm@ucs.ubc.ca (george lindholm) writes:
+ >in article <1rlhhkinng62@skeena.ucs.ubc.ca>, lindholm@ucs.ubc.ca (george lindholm) writes:
+ >> in article <123645@netnews.upenn.edu> bradley@grip.cis.upenn.edu (john bradley) writes:
+ >> and here is the first patch :-) the following fixes some problems with the
+ >> imakefile files and makes it possible to compile xv-3.00 under solaris without 
  >> having to use the ucb stuff:
  
- >Oops, I didn't get the signal processing right (thats what I get from doing
- >the work on an ascii terminal). Here is the fixed patch:
+ >oops, i didn't get the signal processing right (thats what i get from doing
+ >the work on an ascii terminal). here is the fixed patch:
  
- The patches for xv.h need to use ``#ifdef SVR4'' rather than the
- overly complex ``#if defined(sun) && defined(SYSV)'' in order to
- generically compile XV on i386SVR4Architecture.  Also, rand and srand
+ the patches for xv.h need to use ``#ifdef svr4'' rather than the
+ overly complex ``#if defined(sun) && defined(sysv)'' in order to
+ generically compile xv on i386svr4architecture.  also, rand and srand
  don't work very well--use lrand48 and seed48 to get better results.
- Otherwise, xv-3.00 compiles just fine on my Esix System V 4.0.4 box
- with XFree86 and gcc-2.3.3.  I just uncommented the gcc definition in
- the Makefile, added -L/usr/X386/lib -I/usr/X386/include to the COPTS
- line and modified LIBS to include -lsocket -lnsl.  Really John, if you
- just use the Imakefile things like this don't even have to get
+ otherwise, xv-3.00 compiles just fine on my esix system v 4.0.4 box
+ with xfree86 and gcc-2.3.3.  i just uncommented the gcc definition in
+ the makefile, added -l/usr/x386/lib -i/usr/x386/include to the copts
+ line and modified libs to include -lsocket -lnsl.  really john, if you
+ just use the imakefile things like this don't even have to get
  mentioned...
  
  *** 1.1	1993/04/28 08:33:13
@@ -28,14 +28,14 @@
    
    
    /* signal macros */
- + #ifdef SVR4
- + #define HOLD_SIG         sighold(SIGALRM)
- + #define RELEASE_SIG      sigrelse(SIGALRM)
- + #define PAUSE_SIG        sigpause(SIGALRM)
+ + #ifdef svr4
+ + #define hold_sig         sighold(sigalrm)
+ + #define release_sig      sigrelse(sigalrm)
+ + #define pause_sig        sigpause(sigalrm)
  + #else
-   #define HOLD_SIG         sigblock(sigmask(SIGALRM))
-   #define RELEASE_SIG      sigblock(0)
-   #define PAUSE_SIG        sigpause(0)
+   #define hold_sig         sigblock(sigmask(sigalrm))
+   #define release_sig      sigblock(0)
+   #define pause_sig        sigpause(0)
  + #endif
    
    
@@ -46,7 +46,7 @@
    #define random  rand
    #define srandom srand
    #endif
- + #ifdef SVR4
+ + #ifdef svr4
  + #define random lrand48
  + #define srandom seed48
  + #endif

@@ -1,19 +1,19 @@
 
  
- In article <C5JJIG.Doy@acsu.buffalo.edu>, lusardi@cs.buffalo.edu (Christopher Lusardi) writes:
+ in article <c5jjig.doy@acsu.buffalo.edu>, lusardi@cs.buffalo.edu (christopher lusardi) writes:
  |> 
- |> What is the directory .X11-unix for in /tmp? When I start
- |> x, it is created by the system. This directory wasn't created 
- |> by root, and it contains an empty file (X0) that is owned by me. 
+ |> what is the directory .x11-unix for in /tmp? when i start
+ |> x, it is created by the system. this directory wasn't created 
+ |> by root, and it contains an empty file (x0) that is owned by me. 
  |> 
  
- It's the Unix Domain Socket (local connection) to your XServer.
- Try to rm it :)
+ it's the unix domain socket (local connection) to your xserver.
+ try to rm it :)
  
  --
  +-o-+--------------------------------------------------------------+-o-+
- | o |                \\\-  Brain Inside -///                       | o |
+ | o |                \\\-  brain inside -///                       | o |
  | o |                    ^^^^^^^^^^^^^^^                           | o |
- | o | Andre' Beck (ABPSoft) mehl: Andre_Beck@IRS.Inf.TU-Dresden.de | o |
+ | o | andre' beck (abpsoft) mehl: andre_beck@irs.inf.tu-dresden.de | o |
  +-o-+--------------------------------------------------------------+-o-+
  

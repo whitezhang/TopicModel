@@ -1,24 +1,24 @@
 
- pwb@aerg.canberra.edu.au (Paul Blackman) writes:
+ pwb@aerg.canberra.edu.au (paul blackman) writes:
  
- >In article <1rl9b6$h3c@sol.deakin.OZ.AU> russ@deakin.OZ.AU (Russ Sharp) writes:
- >>We are using pkzip V2.04 and I am interested to hear from
- >>people who have used one of the many Windows programs that
+ >in article <1rl9b6$h3c@sol.deakin.oz.au> russ@deakin.oz.au (russ sharp) writes:
+ >>we are using pkzip v2.04 and i am interested to hear from
+ >>people who have used one of the many windows programs that
  >>call these.
  >>
- >>Which ones are available and does any one stand out amongst
+ >>which ones are available and does any one stand out amongst
  >>the rest?
  >>
- >>Is there a full windows version that does not call the DOS 
- >>PKZIP/PKUNZIP commands?
+ >>is there a full windows version that does not call the dos 
+ >>pkzip/pkunzip commands?
  
- >Yes Russ, there is. 
- >QuinZip is a Windows version but I don't think it handles
- >all the functions available in the DOS version.
+ >yes russ, there is. 
+ >quinzip is a windows version but i don't think it handles
+ >all the functions available in the dos version.
  
- The problem is that QuinZip is very very slow.  So I think that WinZip 4.0
- is still the best choice to use pkzip in Windows!
+ the problem is that quinzip is very very slow.  so i think that winzip 4.0
+ is still the best choice to use pkzip in windows!
  
- 						Denis Simard, Montreal
+ 						denis simard, montreal
  						(simardde@ere.umontreal.ca)
  

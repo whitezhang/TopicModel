@@ -1,13 +1,13 @@
 
- cfl@buc.edu.au (Colin Linahan) writes:
+ cfl@buc.edu.au (colin linahan) writes:
  
- >Hi,
- >	Sorry if this is a FAQ but : could someone please tell me where I 
- >can get the patch(es) for X11R5 so that I can compile it under Solaris2.1
+ >hi,
+ >	sorry if this is a faq but : could someone please tell me where i 
+ >can get the patch(es) for x11r5 so that i can compile it under solaris2.1
  
- export.lcs.mit.edu:/contrib/R5.SunOS5.patch.tar.Z
+ export.lcs.mit.edu:/contrib/r5.sunos5.patch.tar.z
  
- Get Xsun.multi-screen.tar.Z while you're at it.
+ get xsun.multi-screen.tar.z while you're at it.
  
- Casper
+ casper
  

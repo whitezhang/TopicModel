@@ -1,17 +1,17 @@
 
- The recent discussion in this news group suggests that a key search attack  
- against DES is quite feasible now. But normally DES is applied in CBC or CFB  
- mode where one chooses a random init vector of 8 bytes. Questions:
+ the recent discussion in this news group suggests that a key search attack  
+ against des is quite feasible now. but normally des is applied in cbc or cfb  
+ mode where one chooses a random init vector of 8 bytes. questions:
  
-  - Makes it sense to handle the init vector as an additional key? Then we have  
+  - makes it sense to handle the init vector as an additional key? then we have  
  a 56 + 64 = 120 bit key.
   
-  - If yes: Is anything known about the security of this key scheme? Can we  
+  - if yes: is anything known about the security of this key scheme? can we  
  break it faster than by exhaustive search through the 120 bit key space?
  
  --
- Klaus Pommerening
- Institut fuer Medizinische Statistik und Dokumentation
- der Johannes-Gutenberg-Universitaet
- Obere Zahlbacher Strasse 69, W-6500 Mainz, Germany
+ klaus pommerening
+ institut fuer medizinische statistik und dokumentation
+ der johannes-gutenberg-universitaet
+ obere zahlbacher strasse 69, w-6500 mainz, germany
  

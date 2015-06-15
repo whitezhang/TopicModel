@@ -1,17 +1,17 @@
 
- In article <1993Apr18.035941.14697@grebyn.com> richk@grebyn.com (Richard Krehbiel) writes:
+ in article <1993apr18.035941.14697@grebyn.com> richk@grebyn.com (richard krehbiel) writes:
  >
- >Heck, if IDE used DMA, then you'd hear all kinds of complaints about
- >ISA bus systems with more than 16M RAM not working with their IDE
- >drives.  16M is the DMA addressing limit of the ISA bus, and if IDE
- >did DMA there would be trouble.
+ >heck, if ide used dma, then you'd hear all kinds of complaints about
+ >isa bus systems with more than 16m ram not working with their ide
+ >drives.  16m is the dma addressing limit of the isa bus, and if ide
+ >did dma there would be trouble.
  
- There would be no problems as long as the OS didn't set up a DMA transfer
- to an area above the 16 mb area (the DMA controller probably can't be
+ there would be no problems as long as the os didn't set up a dma transfer
+ to an area above the 16 mb area (the dma controller probably can't be
  programmed that way anyways, so there probably isin't a problem with this)
  
- Besides, like I said before, the FDD controller uses DMA channel #2.
- And I don't yet believe that the HDD controllers (any of them, MFM, RLL,
- etc) don't also use DMA.
+ besides, like i said before, the fdd controller uses dma channel #2.
+ and i don't yet believe that the hdd controllers (any of them, mfm, rll,
+ etc) don't also use dma.
  
  

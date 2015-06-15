@@ -1,56 +1,56 @@
 
- In article <123645@netnews.upenn.edu> bradley@grip.cis.upenn.edu (John Bradley) writes:
- >No, not another false alarm, not a "It'll certainly be done by *next* week"
- >message...  No, this is the real thing.  I repeat, this is *not* a drill!
+ in article <123645@netnews.upenn.edu> bradley@grip.cis.upenn.edu (john bradley) writes:
+ >no, not another false alarm, not a "it'll certainly be done by *next* week"
+ >message...  no, this is the real thing.  i repeat, this is *not* a drill!
  >
- >Batten down the hatches, hide the women, and lock up the cows, XV 3.00 has
- >finally escaped.  I was cleaning its cage this morning when it overpowered
- >me, broke down the office door, and fled the lab.  It was last seen heading
+ >batten down the hatches, hide the women, and lock up the cows, xv 3.00 has
+ >finally escaped.  i was cleaning its cage this morning when it overpowered
+ >me, broke down the office door, and fled the lab.  it was last seen heading
  >in the general direction of export.lcs.mit.edu at nearly 30k per second...
  >
- >If found, it answers to the name of 'contrib/xv-3.00.tar.Z'.
+ >if found, it answers to the name of 'contrib/xv-3.00.tar.z'.
  >
- >Have a blast.  I'm off to the vacation capital of the U.S.:  Waco, Texas.
+ >have a blast.  i'm off to the vacation capital of the u.s.:  waco, texas.
  
- And here is the first patch :-) The following fixes some problems with the
- Imakefile files and makes it possible to compile xv-3.00 under Solaris without 
+ and here is the first patch :-) the following fixes some problems with the
+ imakefile files and makes it possible to compile xv-3.00 under solaris without 
  having to use the ucb stuff:
  
  *** 1.1	1993/04/28 06:05:03
- --- Imakefile	1993/04/28 08:20:35
+ --- imakefile	1993/04/28 08:20:35
  ***************
  *** 209,215 ****
-   OBJS4=	xcmap.o
+   objs4=	xcmap.o
    
-   PROGRAMS= xv bggen vdcomp xcmap
+   programs= xv bggen vdcomp xcmap
  ! 
    
-   #if defined(HaveJpeg) || defined(HaveTiff)
-   #  ifdef HaveJpeg
+   #if defined(havejpeg) || defined(havetiff)
+   #  ifdef havejpeg
  --- 209,218 ----
-   OBJS4=	xcmap.o
+   objs4=	xcmap.o
    
-   PROGRAMS= xv bggen vdcomp xcmap
+   programs= xv bggen vdcomp xcmap
  ! all::
  ! 	@echo ""
- ! 	@echo "  Did you remember to 'make depend' first?"
+ ! 	@echo "  did you remember to 'make depend' first?"
  ! 	@echo ""
    
-   #if defined(HaveJpeg) || defined(HaveTiff)
-   #  ifdef HaveJpeg
+   #if defined(havejpeg) || defined(havetiff)
+   #  ifdef havejpeg
  ***************
  *** 222,238 ****
-        SUBDIRS = tiff
+        subdirs = tiff
    #  endif
-   #  define PassCDebugFlags
-      MakeSubdirs($(SUBDIRS))
- -    DependSubdirs($(DUBDIRS))
+   #  define passcdebugflags
+      makesubdirs($(subdirs))
+ -    dependsubdirs($(dubdirs))
    #endif
    
    
    all::
  - 	@echo ""
- - 	@echo "  Did you remember to 'make depend' first?"
+ - 	@echo "  did you remember to 'make depend' first?"
  - 	@echo ""
  - 
  - all::
@@ -58,11 +58,11 @@
    	@echo ""
    
  --- 225,236 ----
-        SUBDIRS = tiff
+        subdirs = tiff
    #  endif
-   #  define PassCDebugFlags
- + #  define IHaveSubdirs
-      MakeSubdirs($(SUBDIRS))
+   #  define passcdebugflags
+ + #  define ihavesubdirs
+      makesubdirs($(subdirs))
    #endif
    
    
@@ -74,27 +74,27 @@
  *** 259,267 ****
    
    
-   SRCS = $(SRCS1) $(SRCS2) $(SRCS3) $(SRCS4)
- - DependTarget()
+   srcs = $(srcs1) $(srcs2) $(srcs3) $(srcs4)
+ - dependtarget()
      
-   AllTarget($(PROGRAMS))
+   alltarget($(programs))
    
-   NormalProgramTarget(xv,$(OBJS1),$(DEPLIBS),$(LOCAL_LIBRARIES),)
-   NormalProgramTarget(bggen,$(OBJS2),$(DEPLIBS),$(LOCAL_LIBRARIES),)
+   normalprogramtarget(xv,$(objs1),$(deplibs),$(local_libraries),)
+   normalprogramtarget(bggen,$(objs2),$(deplibs),$(local_libraries),)
  --- 257,269 ----
    
    
-   SRCS = $(SRCS1) $(SRCS2) $(SRCS3) $(SRCS4)
+   srcs = $(srcs1) $(srcs2) $(srcs3) $(srcs4)
      
  + 
-   AllTarget($(PROGRAMS))
- + DependTarget()
- + #ifdef IHaveSubdirs
- +    DependSubdirs($(SUBDIRS))
+   alltarget($(programs))
+ + dependtarget()
+ + #ifdef ihavesubdirs
+ +    dependsubdirs($(subdirs))
  + #endif
    
-   NormalProgramTarget(xv,$(OBJS1),$(DEPLIBS),$(LOCAL_LIBRARIES),)
-   NormalProgramTarget(bggen,$(OBJS2),$(DEPLIBS),$(LOCAL_LIBRARIES),)
+   normalprogramtarget(xv,$(objs1),$(deplibs),$(local_libraries),)
+   normalprogramtarget(bggen,$(objs2),$(deplibs),$(local_libraries),)
  *** 1.1	1993/04/28 08:33:13
  --- xv.h	1993/04/28 08:19:31
  ***************
@@ -103,14 +103,14 @@
    
    
    /* signal macros */
- + #if defined(sun) && defined(SYSV)
- + #define HOLD_SIG         sighold(SIGALRM)
- + #define RELEASE_SIG      sigrelse(0)
- + #define PAUSE_SIG        sigpause(0)
+ + #if defined(sun) && defined(sysv)
+ + #define hold_sig         sighold(sigalrm)
+ + #define release_sig      sigrelse(0)
+ + #define pause_sig        sigpause(0)
  + #else
-   #define HOLD_SIG         sigblock(sigmask(SIGALRM))
-   #define RELEASE_SIG      sigblock(0)
-   #define PAUSE_SIG        sigpause(0)
+   #define hold_sig         sigblock(sigmask(sigalrm))
+   #define release_sig      sigblock(0)
+   #define pause_sig        sigpause(0)
  + #endif
    
    
@@ -121,7 +121,7 @@
    #define random  rand
    #define srandom srand
    #endif
- + #if defined(sun) && defined(SYSV)
+ + #if defined(sun) && defined(sysv)
  + #define random() rand()
  + #define srandom(x) srand(x)
  + #endif
@@ -136,43 +136,43 @@
    
    /* include files */
    #include <stdio.h>
- + #if defined(sun) && defined(SYSV)
+ + #if defined(sun) && defined(sysv)
  + #include <string.h>
  + #else
    #include <strings.h>
  + #endif
    #include <ctype.h>
    
-   #include <X11/Xos.h>
+   #include <x11/xos.h>
  *** 1.1	1993/04/28 06:17:41
- --- tiff/Imakefile	1993/04/28 08:53:34
+ --- tiff/imakefile	1993/04/28 08:53:34
  ***************
  *** 49,59 ****
  --- 49,69 ----
    
-   tif_compress.o: Imakefile
+   tif_compress.o: imakefile
    
- + #if HasGcc
+ + #if hasgcc
    g3states.h: mkg3states.c t4.h
-           -${RM} g3states.h
- + 	${CC} -traditional -o mkg3states ${CFLAGS} mkg3states.c
+           -${rm} g3states.h
+ + 	${cc} -traditional -o mkg3states ${cflags} mkg3states.c
  +         ./mkg3states > g3states.h || rm g3states.h
  + #else
  + g3states.h: mkg3states.c t4.h
- +         -${RM} g3states.h
-           ${CC} -o mkg3states ${CFLAGS} mkg3states.c
+ +         -${rm} g3states.h
+           ${cc} -o mkg3states ${cflags} mkg3states.c
            ./mkg3states > g3states.h || rm g3states.h
  + #endif
    
    depend:: g3states.h
    
  + clean::
- + 	-${RM} mkg3states g3states.h
+ + 	-${rm} mkg3states g3states.h
  + 
-   DependTarget()
+   dependtarget()
  -- 
- George Lindholm                                  phone:    (604) 822-4375
- University Computing Services, UBC               fax:      (604) 822-5116
- 6356 Agricultural Road, Vancouver, B.C., Canada  internet: lindholm@ucs.ubc.ca
- V6T 1Z2                                          bitnet:   USERGNL@UBCMTSG
+ george lindholm                                  phone:    (604) 822-4375
+ university computing services, ubc               fax:      (604) 822-5116
+ 6356 agricultural road, vancouver, b.c., canada  internet: lindholm@ucs.ubc.ca
+ v6t 1z2                                          bitnet:   usergnl@ubcmtsg
  

@@ -1,52 +1,52 @@
 
- >>>>> On 22 Apr 1993 01:02:41 GMT, dla@se05.wg2.waii.com (Doug Acker) said:
- 	Doug> NNTP-Posting-Host: se05.wg2.waii.com
+ >>>>> on 22 apr 1993 01:02:41 gmt, dla@se05.wg2.waii.com (doug acker) said:
+ 	doug> nntp-posting-host: se05.wg2.waii.com
  
- >>>>> On 21 Apr 1993 03:49:16 GMT, dla@se05.wg2.waii.com (Doug Acker) said:
- 	Doug> NNTP-Posting-Host: se05.wg2.waii.com
- 	Doug> I  am  having  a  big problem trying to build MIT X11R5 with xlc 1.2.1
- 	Doug> (the  one  bundled  with  AIX  3.2.3e).   Its almost the linker is not
- 	Doug> working properly with shared libraries.
+ >>>>> on 21 apr 1993 03:49:16 gmt, dla@se05.wg2.waii.com (doug acker) said:
+ 	doug> nntp-posting-host: se05.wg2.waii.com
+ 	doug> i  am  having  a  big problem trying to build mit x11r5 with xlc 1.2.1
+ 	doug> (the  one  bundled  with  aix  3.2.3e).   its almost the linker is not
+ 	doug> working properly with shared libraries.
  
- 	Doug> I've built X11R5 with no problem before .. but now its all  headaches.
- 	Doug> For example, the xset client complains that libXmu doesnt have a bunch
- 	Doug> of Xt routines and shr.o is missing (or  something  like  that).   The
- 	Doug> build of libXmu DOES link in libXt  so I am really perplexed  what  is
- 	Doug> going on.
- 
- 
- 	Doug> ....following up on this, the specific error I get is:
- 	Doug> Could not load program ./xset 
- 	Doug> Symbol XtVaSetValues in ../.././lib/Xmu/libXmu.a is undefined
- 	Doug> Symbol XtName in ../.././lib/Xmu/libXmu.a is undefined
- 	Doug> Symbol XtWindowOfObject in ../.././lib/Xmu/libXmu.a is undefined
- 	Doug> Symbol XtGetConstraintResourceList in ../.././lib/Xmu/libXmu.a is undefined
- 	Doug> Symbol XtDisplayToApplicationContext in ../.././lib/Xmu/libXmu.a is undefined
- 	Doug> Symbol XtAppSetTypeConverter in ../.././lib/Xmu/libXmu.a is undefined
+ 	doug> i've built x11r5 with no problem before .. but now its all  headaches.
+ 	doug> for example, the xset client complains that libxmu doesnt have a bunch
+ 	doug> of xt routines and shr.o is missing (or  something  like  that).   the
+ 	doug> build of libxmu does link in libxt  so i am really perplexed  what  is
+ 	doug> going on.
  
  
+ 	doug> ....following up on this, the specific error i get is:
+ 	doug> could not load program ./xset 
+ 	doug> symbol xtvasetvalues in ../.././lib/xmu/libxmu.a is undefined
+ 	doug> symbol xtname in ../.././lib/xmu/libxmu.a is undefined
+ 	doug> symbol xtwindowofobject in ../.././lib/xmu/libxmu.a is undefined
+ 	doug> symbol xtgetconstraintresourcelist in ../.././lib/xmu/libxmu.a is undefined
+ 	doug> symbol xtdisplaytoapplicationcontext in ../.././lib/xmu/libxmu.a is undefined
+ 	doug> symbol xtappsettypeconverter in ../.././lib/xmu/libxmu.a is undefined
  
  
  
  
  
  
- 	Doug> Symbol XtScreenDatabase in ../.././lib/Xmu/libXmu.a is undefined
- 	Doug> Symbol XtResolvePathname in ../.././lib/Xmu/libXmu.a is undefined
- 	Doug> Symbol XtCvtStringToFont in ../.././lib/Xmu/libXmu.a is undefined
- 	Doug> Symbol XtCallConverter in ../.././lib/Xmu/libXmu.a is undefined
- 	Doug> Symbol XtDisplayStringConversionWarning in ../.././lib/Xmu/libXmu.a is undefined
- 	Doug> Could not load library libXmu.a[shr.o]
- 	Doug> Error was: Exec format error
  
  
- ....  a  search  on  IBMLINK  revealed that this is similar to IX33890
- (howervre this was closed USE).
+ 	doug> symbol xtscreendatabase in ../.././lib/xmu/libxmu.a is undefined
+ 	doug> symbol xtresolvepathname in ../.././lib/xmu/libxmu.a is undefined
+ 	doug> symbol xtcvtstringtofont in ../.././lib/xmu/libxmu.a is undefined
+ 	doug> symbol xtcallconverter in ../.././lib/xmu/libxmu.a is undefined
+ 	doug> symbol xtdisplaystringconversionwarning in ../.././lib/xmu/libxmu.a is undefined
+ 	doug> could not load library libxmu.a[shr.o]
+ 	doug> error was: exec format error
+ 
+ 
+ ....  a  search  on  ibmlink  revealed that this is similar to ix33890
+ (howervre this was closed use).
  --
- Douglas L.Acker                Western Geophysical Exploration Products
- ____    ____     ____          a division of Western Atlas International Inc.
- \   \  /   /\   /   /\         A Litton / Dresser Company
+ douglas l.acker                western geophysical exploration products
+ ____    ____     ____          a division of western atlas international inc.
+ \   \  /   /\   /   /\         a litton / dresser company
   \   \/   /  \ /   /  \        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   \  /   / \  /   /\   \       Internet  :  acker@wg2.waii.com
-    \/___/   \/___/  \___\      Voice     :  (713) 964-6128
+   \  /   / \  /   /\   \       internet  :  acker@wg2.waii.com
+    \/___/   \/___/  \___\      voice     :  (713) 964-6128
  

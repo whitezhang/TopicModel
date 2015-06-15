@@ -1,38 +1,38 @@
 
  
- I have seen a fair bit of traffic recently concerning Epilepsy and
- seizures.  I am also interested in this subject -- I have a son with
- Epilepsy and I am very active with the local association.  I posted a
+ i have seen a fair bit of traffic recently concerning epilepsy and
+ seizures.  i am also interested in this subject -- i have a son with
+ epilepsy and i am very active with the local association.  i posted a
  message like this a few months ago and received no replies, but here it
  is again.
  
- Is anyone interested in participating in a mailing list on Epilepsy and
- seizures?  This would allow us to hold discussions and share
- information via electronic mail.  I already run a Listserver for two
+ is anyone interested in participating in a mailing list on epilepsy and
+ seizures?  this would allow us to hold discussions and share
+ information via electronic mail.  i already run a listserver for two
  other groups, so the mechanics would be easy.
  
- If you are interested, mail me a note.  If I get enough replies, I will
+ if you are interested, mail me a note.  if i get enough replies, i will
  make it happen and provide you with the details.
  
- BTW, I have also started a database on Epilepsy.  This is part of my
- research on natural language question answering systems.  Users of this
- service are able to ask questions about Epilepsy and the program
- searches the database and retrieves its best response.  The technology
+ btw, i have also started a database on epilepsy.  this is part of my
+ research on natural language question answering systems.  users of this
+ service are able to ask questions about epilepsy and the program
+ searches the database and retrieves its best response.  the technology
  works by comparing your question against a set of questions that have
- been seen before.  All new questions that are not answered are recorded
+ been seen before.  all new questions that are not answered are recorded
  and used to improve the system.
  
- This database is still small and sparse, but we are adding new
- information.  To try it out, do the following
+ this database is still small and sparse, but we are adding new
+ information.  to try it out, do the following
  
  	telnet debra.dgbt.doc.ca
  	login: chat
  
- 	Then select the Epilepsy item from the menu of databases.
+ 	then select the epilepsy item from the menu of databases.
  
  -- 
- Andrew Patrick, Ph.D.       Communications Research Centre, Ottawa, CANADA
-                        andrew@calvin.dgbt.doc.CA
+ andrew patrick, ph.d.       communications research centre, ottawa, canada
+                        andrew@calvin.dgbt.doc.ca
                         
-   For a good time, run "telnet debra.dgbt.doc.ca" and login as "chat".
+   for a good time, run "telnet debra.dgbt.doc.ca" and login as "chat".
  

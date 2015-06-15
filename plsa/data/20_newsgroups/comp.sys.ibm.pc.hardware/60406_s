@@ -1,29 +1,29 @@
 
- In article <1993Apr16.033802.6605@monu6.cc.monash.edu.au>, els390r@fawlty1.eng.monash.edu.au (G Chow) writes:
- > In article <1qegfd$dqi@wsinis03.info.win.tue.nl> monty@wsinis03.info.win.tue.nl (Guido Leenders) writes:
- >>Hi,
+ in article <1993apr16.033802.6605@monu6.cc.monash.edu.au>, els390r@fawlty1.eng.monash.edu.au (g chow) writes:
+ > in article <1qegfd$dqi@wsinis03.info.win.tue.nl> monty@wsinis03.info.win.tue.nl (guido leenders) writes:
+ >>hi,
  >>
- >>Is it possible to use an ESDI-controller with HDD together with an
- >>IDE-harddisk + controller in one ISA-system?
+ >>is it possible to use an esdi-controller with hdd together with an
+ >>ide-harddisk + controller in one isa-system?
  >>
- >>I've read stuff about secondary controllers. Does this trick work?
+ >>i've read stuff about secondary controllers. does this trick work?
  >>
- >>Thanx in advance,
+ >>thanx in advance,
  >>
- >>Guido
+ >>guido
  >>monty@win.tue.nl
  > 
- > I have the same question as Guido. It is possible to use the ESDI drive 
- > as a master and the IDE drive as the slave ? 
+ > i have the same question as guido. it is possible to use the esdi drive 
+ > as a master and the ide drive as the slave ? 
  
- I can definitily say that you can use an RLL as Master and IDE as slave, as
- I have just upgraded my machine with a 200Mb IDE ( And custom Controller
- Mdl CI-1010 Extended IDE Controller ) While maintaining my RLL'd Wren as
- master Drive.  The trick is the controller which supports up to 4 IDE Drives
- while coexisting with existing Controllers ( MFM,RLL,ESDI,SCSI ).
+ i can definitily say that you can use an rll as master and ide as slave, as
+ i have just upgraded my machine with a 200mb ide ( and custom controller
+ mdl ci-1010 extended ide controller ) while maintaining my rll'd wren as
+ master drive.  the trick is the controller which supports up to 4 ide drives
+ while coexisting with existing controllers ( mfm,rll,esdi,scsi ).
  
- So according to the Documentation it should work with ESDI, and I can assure
- you it works with RLL.
+ so according to the documentation it should work with esdi, and i can assure
+ you it works with rll.
  
- Bruce Powell				email: bss_brucep@vd.seqeb.gov.au
+ bruce powell				email: bss_brucep@vd.seqeb.gov.au
  

@@ -1,14 +1,14 @@
 
  
- EPS _IS_ plain postscript. It is only wrapped by some comments and stripped
- of any dubious commands for compatibility. You can simply do
+ eps _is_ plain postscript. it is only wrapped by some comments and stripped
+ of any dubious commands for compatibility. you can simply do
  
  %!
  
  save gsave
  /showpage {} def
  
- % Include eps file here
+ % include eps file here
  
  grestore restore
  
@@ -18,14 +18,14 @@
  
  and this way show it on it's natural page position and size.
  
- Programs may use the %%BoundingBox: comment in the EPS file to do
+ programs may use the %%boundingbox: comment in the eps file to do
  arbitrary scale, rotate and translate to include it in more complicated
  ways than above.
  
  --
  +-o-+--------------------------------------------------------------+-o-+
- | o |                \\\-  Brain Inside -///                       | o |
+ | o |                \\\-  brain inside -///                       | o |
  | o |                    ^^^^^^^^^^^^^^^                           | o |
- | o | Andre' Beck (ABPSoft) mehl: Andre_Beck@IRS.Inf.TU-Dresden.de | o |
+ | o | andre' beck (abpsoft) mehl: andre_beck@irs.inf.tu-dresden.de | o |
  +-o-+--------------------------------------------------------------+-o-+
  

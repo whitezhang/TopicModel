@@ -1,15 +1,15 @@
 
- SCO ODT allows to adapt the X-Server to any non-standard (AT) keyboard 
- using the Xkeyboard configuration compiler xsconfig. SCO provides some
- configuration files in /usr/lib/X11/xsconfig/*.kbd, e.g. for 
- Siemens WX200.
+ sco odt allows to adapt the x-server to any non-standard (at) keyboard 
+ using the xkeyboard configuration compiler xsconfig. sco provides some
+ configuration files in /usr/lib/x11/xsconfig/*.kbd, e.g. for 
+ siemens wx200.
  
- Question:
- Is there anywhere a configuration file for the HP46021A keyboard
+ question:
+ is there anywhere a configuration file for the hp46021a keyboard
  available ? 
- I am especially interested in using the HP specific keys such as 
- "InsertLine", "Menu".
+ i am especially interested in using the hp specific keys such as 
+ "insertline", "menu".
  
- Thanks  -Ron.
+ thanks  -ron.
  
  

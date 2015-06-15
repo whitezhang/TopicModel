@@ -1,32 +1,32 @@
 
- In article <MORI.93Apr16133900@ceres.mfd.cs.fujitsu.co.jp> mori@volga.mfd.cs.fujitsu.co.jp (Tsuyoshi Mori) writes:
- >I used HP DeskJet with Orange Micros Grappler LS on System6.0.5.
+ in article <mori.93apr16133900@ceres.mfd.cs.fujitsu.co.jp> mori@volga.mfd.cs.fujitsu.co.jp (tsuyoshi mori) writes:
+ >i used hp deskjet with orange micros grappler ls on system6.0.5.
  >
- >But now I update system 6.0.5 to System7 with Kanji-Talk 7.1,
- >then I can not print by my DeskJet.
- >Is the Grappler LS old ?
- >Can I use DeskJet on System7 ?
- >Please tell me how to use DeskJet on System7.
- >Thank you
+ >but now i update system 6.0.5 to system7 with kanji-talk 7.1,
+ >then i can not print by my deskjet.
+ >is the grappler ls old ?
+ >can i use deskjet on system7 ?
+ >please tell me how to use deskjet on system7.
+ >thank you
  >--
- >FROM JAPAN mori@volga.mfd.cs.fujitsu.co.jp
+ >from japan mori@volga.mfd.cs.fujitsu.co.jp
  
- I currently use an HP DeskJet with Grappler LS ver 1.0, 
- and it works on System7.  Course, I only use the SWA Dutch
- and SWA Swiss fonts that came with it, due to the 4x size
- requirement to print to the HP. (ie: must have 40pnt definition
- to print a 10pnt font)  When I upgraded,  I talked to Orange
- Micro, and they state that ver 1.2 of Grappler LS definitely
- works with System7.  However, the upgrade was US$40, so I
+ i currently use an hp deskjet with grappler ls ver 1.0, 
+ and it works on system7.  course, i only use the swa dutch
+ and swa swiss fonts that came with it, due to the 4x size
+ requirement to print to the hp. (ie: must have 40pnt definition
+ to print a 10pnt font)  when i upgraded,  i talked to orange
+ micro, and they state that ver 1.2 of grappler ls definitely
+ works with system7.  however, the upgrade was us$40, so i
  passed.
  
- Hope this helps?
+ hope this helps?
  
  <marc>
  
  -- 
  -----------------------------------------------------------------------------
- Marc Donovan      donovan@bnr.ca  [Voice: (613) 765-2868 Fax: (613) 763-9250]
- ---- Disclaimer: I am the only one responsible for my opinions.
+ marc donovan      donovan@bnr.ca  [voice: (613) 765-2868 fax: (613) 763-9250]
+ ---- disclaimer: i am the only one responsible for my opinions.
  
  

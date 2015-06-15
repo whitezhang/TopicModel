@@ -1,24 +1,24 @@
 
- After setting up Windows for using my Cirrus Logic 5426 VLB GraphicsCard
- It moved a normal Window from one place to another. 
- My Parameters where just the following : 486 DX 33 VLB 
- The Card is equipped with 1 MB Dram (not Vram, there are 8 sockets for Vram) 
- And the moving of the window just looked like it looked at a friends
- 386DX 25 (387DX) and an normal ISA ET4000
+ after setting up windows for using my cirrus logic 5426 vlb graphicscard
+ it moved a normal window from one place to another. 
+ my parameters where just the following : 486 dx 33 vlb 
+ the card is equipped with 1 mb dram (not vram, there are 8 sockets for vram) 
+ and the moving of the window just looked like it looked at a friends
+ 386dx 25 (387dx) and an normal isa et4000
  
- What I was wondering why is it not using the BITBLT  Engine which
- is suuposed to be on the Chip.
+ what i was wondering why is it not using the bitblt  engine which
+ is suuposed to be on the chip.
  
- How are the experiences here..
- Have I done something wrong ?
- (I installed the MSWIN 3.1 MultiResolution drivers which where supplied 
- with the Card ?!)
- Would be nice if somebody could tell about his experience with this card
- Also if there are new(hopefully faster) drrivers around I would love to 
+ how are the experiences here..
+ have i done something wrong ?
+ (i installed the mswin 3.1 multiresolution drivers which where supplied 
+ with the card ?!)
+ would be nice if somebody could tell about his experience with this card
+ also if there are new(hopefully faster) drrivers around i would love to 
  how to get hold of them :-) (ftp or whatsoever :-) )
  
- Gruss
- 	Wolfgang
+ gruss
+ 	wolfgang
  
  
  

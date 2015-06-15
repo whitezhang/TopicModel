@@ -1,30 +1,30 @@
 
- In article <davea-120493231310@129.228.20.182> davea@xetron.com (David P. Alverson) writes:
- >I believe Apple has a patent on the region features of QuickDraw.  A mac
- >clone would have to implement regions.  This is why Apple's comment was
+ in article <davea-120493231310@129.228.20.182> davea@xetron.com (david p. alverson) writes:
+ >i believe apple has a patent on the region features of quickdraw.  a mac
+ >clone would have to implement regions.  this is why apple's comment was
  >that
- >they believe it is not possible to make a Mac clone without infringing
- >on their patents.  They may have other patents like this.
+ >they believe it is not possible to make a mac clone without infringing
+ >on their patents.  they may have other patents like this.
  
- Apple has patented their implementation of regions, which presumably
+ apple has patented their implementation of regions, which presumably
  includes the internal data structure (which has never been officially
- documented by Apple).  Apple cannot patent the concept of a region.
+ documented by apple).  apple cannot patent the concept of a region.
  
- I'm guessing that either NuTek reverse-engineered Apple's internal data
- structure for regions (I dunno if this would hold up in court), or they
- came up with their own data structure.  If it's the latter, then they
- won't be able to draw PICT files containing regions.  Besides PICT files,
- there aren't many places where regions are stored on disk.  (QuickTime
- movies, perhaps?)  As long as the region isn't being stored on disk and
- transferred from a Mac to a NuTek clone (or vice versa), it doesn't
- matter if NuTek uses a completely different internal data structure.
+ i'm guessing that either nutek reverse-engineered apple's internal data
+ structure for regions (i dunno if this would hold up in court), or they
+ came up with their own data structure.  if it's the latter, then they
+ won't be able to draw pict files containing regions.  besides pict files,
+ there aren't many places where regions are stored on disk.  (quicktime
+ movies, perhaps?)  as long as the region isn't being stored on disk and
+ transferred from a mac to a nutek clone (or vice versa), it doesn't
+ matter if nutek uses a completely different internal data structure.
  
- I remember reading that Apple also has a patent on their ADB hardware,
- and that the NuTek clones would therefore be lacking an ADB port.  What
- other patents does Apple have on the Mac?
+ i remember reading that apple also has a patent on their adb hardware,
+ and that the nutek clones would therefore be lacking an adb port.  what
+ other patents does apple have on the mac?
  -- 
- Joe Schwartz       E-mail: xor@acm.rpi.edu  or  xor@clotho.acm.rpi.edu
- MapInfo Corp.
- 200 Broadway       These are my own opinions.  Any similarity to the
- Troy, NY 12180     opinions of MapInfo Corporation is purely coincidental.
+ joe schwartz       e-mail: xor@acm.rpi.edu  or  xor@clotho.acm.rpi.edu
+ mapinfo corp.
+ 200 broadway       these are my own opinions.  any similarity to the
+ troy, ny 12180     opinions of mapinfo corporation is purely coincidental.
  

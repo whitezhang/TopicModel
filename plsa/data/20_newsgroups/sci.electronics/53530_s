@@ -1,17 +1,17 @@
 
- olsen@vetmed.cvm.uiuc.edu (Aart_Olsen) writes:
+ olsen@vetmed.cvm.uiuc.edu (aart_olsen) writes:
  
- >>|> I noticed at the fusebox that some circuits have the
+ >>|> i noticed at the fusebox that some circuits have the
  >>|> 12/2 with ground, and that on these circuits, the ground
  >>|> wire was tied to the same bus as the neutral (white) wire.
  >>
- >>This is contrary to the electrical code and should be fixed.
+ >>this is contrary to the electrical code and should be fixed.
  >>
- >Sorry, but this is exactly according to the NEC.
+ >sorry, but this is exactly according to the nec.
  
- No need to be sorry, I blew it on this one.  At the main breaker box
+ no need to be sorry, i blew it on this one.  at the main breaker box
  where there is a thick wire ground leading to the earth, both neutral
- and ground are hooked to this bus.  In any other breaker box (or an
+ and ground are hooked to this bus.  in any other breaker box (or an
  outlet box, etc.) the ground and neutral must not be connected together.
  
  

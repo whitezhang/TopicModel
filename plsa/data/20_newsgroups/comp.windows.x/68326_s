@@ -1,27 +1,27 @@
 
- Any Tcpview-for-Sun users out there?  I pulled down the pre-compiled
- executables made for Sun for Tcpview, but I'm getting a whole slew of the
- following types of error messages when I try to start it up:
-   Warning: translation table syntax error: Unknown keysym name: osfActivate
-   Warning: ... found while parsing '<Key>osfActivate:ManagerParentActivate()'
-   Warning: translation table syntax error: Unknown keysym name: osfCancel
-   Warning: ... found while parsing '<Key>osfCancel:ManagerParentCancel()'
-   Warning: translation table syntax error: Unknown keysym name: osfSelect
-   Warning: ... found while parsing '<Key>osfSelect:ManagerGadgetSelect()'
+ any tcpview-for-sun users out there?  i pulled down the pre-compiled
+ executables made for sun for tcpview, but i'm getting a whole slew of the
+ following types of error messages when i try to start it up:
+   warning: translation table syntax error: unknown keysym name: osfactivate
+   warning: ... found while parsing '<key>osfactivate:managerparentactivate()'
+   warning: translation table syntax error: unknown keysym name: osfcancel
+   warning: ... found while parsing '<key>osfcancel:managerparentcancel()'
+   warning: translation table syntax error: unknown keysym name: osfselect
+   warning: ... found while parsing '<key>osfselect:managergadgetselect()'
    ...
- But I *know* I have those in my keysym:
-   egrep "osfActivate|osfCancel|osfSelect" $OPENWINHOME/lib/XKeysymDB
+ but i *know* i have those in my keysym:
+   egrep "osfactivate|osfcancel|osfselect" $openwinhome/lib/xkeysymdb
  yields:
-   osfActivate             :1004FF44
-   osfSelect               :1004FF60
-   osfCancel               :1004FF69
-   osfSelectAll            :1004FF71
- and, if I take *out* the osf lines from said XKeysymDB, my copy of wscrawl
- (another Motif-compiled-for-Sun program) gives the same type of complaints
+   osfactivate             :1004ff44
+   osfselect               :1004ff60
+   osfcancel               :1004ff69
+   osfselectall            :1004ff71
+ and, if i take *out* the osf lines from said xkeysymdb, my copy of wscrawl
+ (another motif-compiled-for-sun program) gives the same type of complaints
  as listed above.
  
- Any tips?  I'm mystified.
+ any tips?  i'm mystified.
  -- 
- Kevin Weinrich     Computer Sciences Corp.
+ kevin weinrich     computer sciences corp.
  kbw@helios.ath.epa.gov
  

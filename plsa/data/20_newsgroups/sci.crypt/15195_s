@@ -3,122 +3,122 @@
  
  
  
- April 16, 1993
+ april 16, 1993
  
- INITIAL EFF ANALYSIS OF CLINTON PRIVACY AND SECURITY PROPOSAL
+ initial eff analysis of clinton privacy and security proposal
  
- The Clinton Administration today made a major announcement on
+ the clinton administration today made a major announcement on
  cryptography policy which will effect the privacy and security of
- millions of Americans.  The first part of the plan is to begin a
+ millions of americans.  the first part of the plan is to begin a
  comprehensive inquiry into major communications privacy issues such as
  export controls which have effectively denied most people easy access to
  robust encryption, and law enforcement issues posed by new technology.
  
- However, EFF is very concerned that the Administration has already
+ however, eff is very concerned that the administration has already
  reached a conclusion on one critical part of the inquiry, before any
- public comment or discussion has been allowed.  Apparently, the
- Administration is going to use its leverage to get all telephone
+ public comment or discussion has been allowed.  apparently, the
+ administration is going to use its leverage to get all telephone
  equipment vendors to adopt a voice encryption standard developed by the
- National Security Agency.  The so-called "Clipper Chip" is an 80-bit,
+ national security agency.  the so-called "clipper chip" is an 80-bit,
  split key escrowed encryption scheme which will be built into chips
- manufactured by a military contractor.  Two separate escrow agents would
+ manufactured by a military contractor.  two separate escrow agents would
  store users' keys, and be required to turn them over law enforcement upon
- presentation of a valid warrant.  The encryption scheme used is to be
+ presentation of a valid warrant.  the encryption scheme used is to be
  classified, but the chips will be available to any manufacturer for
  incorporation into its communications products.
  
-      This proposal raises a number of serious concerns .
+      this proposal raises a number of serious concerns .
  
- First, the Administration has adopted a solution before conducting an
- inquiry.  The NSA-developed Clipper Chip may not be the most secure
- product. Other vendors or developers may have better schemes.
- Furthermore, we should not rely on the government as the sole source for
- the Clipper or any other chips.  Rather, independent chip manufacturers
+ first, the administration has adopted a solution before conducting an
+ inquiry.  the nsa-developed clipper chip may not be the most secure
+ product. other vendors or developers may have better schemes.
+ furthermore, we should not rely on the government as the sole source for
+ the clipper or any other chips.  rather, independent chip manufacturers
  should be able to produce chipsets based on open standards.
  
- Second, an algorithm cannot be trusted unless it can be tested. Yet, the
- Administration proposes to keep the chip algorithm classified.  EFF
- believes that any standard adopted ought to be public and open.  The
+ second, an algorithm cannot be trusted unless it can be tested. yet, the
+ administration proposes to keep the chip algorithm classified.  eff
+ believes that any standard adopted ought to be public and open.  the
  public will only have confidence in the security of a standard that is
  open to independent, expert scrutiny.  
  
- Third, while the use of the use of a split-key, dual escrowed system may
+ third, while the use of the use of a split-key, dual escrowed system may
  prove to be a reasonable balance between privacy and law enforcement
  needs, the details of this scheme must be explored publicly before it is
- adopted.  What will give people confidence in the safety of their keys? 
- Does disclosure of keys to a third party waive an individual's Fifth
- Amendment rights in subsequent criminal inquiries?  These are but a few
- of the many questions the Administrations proposal raised but fails to
+ adopted.  what will give people confidence in the safety of their keys? 
+ does disclosure of keys to a third party waive an individual's fifth
+ amendment rights in subsequent criminal inquiries?  these are but a few
+ of the many questions the administrations proposal raised but fails to
  answer.
  
- In sum, the Administration has shown great sensitivity to the importance
+ in sum, the administration has shown great sensitivity to the importance
  of these issues by planning a comprehensive inquiry into digital privacy
- and security.  However, the "Clipper Chip" solution ought to be
+ and security.  however, the "clipper chip" solution ought to be
  considered as part of the inquiry, and not be adopted before the
  discussion even begins.
  
- DETAILS OF THE PROPOSAL:
+ details of the proposal:
  
- ESCROW
+ escrow
  
- The 80-bit key will be divided between two escrow agents, each of whom
- hold 40-bits of each key.  The manufacturer of the communications device
+ the 80-bit key will be divided between two escrow agents, each of whom
+ hold 40-bits of each key.  the manufacturer of the communications device
  would be required to register all keys with the two independent escrow
- agents.  A key is tied to the device, however, not the person using it.
+ agents.  a key is tied to the device, however, not the person using it.
  
- Upon presentation of a valid court order, the two escrow agents would
- have to turn the key parts over to law enforcement agents.  According to
- the Presidential Directive just issued, the Attorney General will be
- asked to identify appropriate escrow agents.  Some in the Administration
+ upon presentation of a valid court order, the two escrow agents would
+ have to turn the key parts over to law enforcement agents.  according to
+ the presidential directive just issued, the attorney general will be
+ asked to identify appropriate escrow agents.  some in the administration
  have suggested that one non-law enforcement federal agency (perhaps the
- Federal Reserve), and one non-governmental organization could be chosen,
+ federal reserve), and one non-governmental organization could be chosen,
  but there is no agreement on the identity of the agents yet.
  
- CLASSIFIED ALGORITHM AND THE POSSIBILITY OF BACK DOORS
+ classified algorithm and the possibility of back doors
  
- The Administration claims that there are no back doors -- means by which
+ the administration claims that there are no back doors -- means by which
  the government or others could break the code without securing keys from
- the escrow agents -- and that the President will be told there are no
- back doors to this classified algorithm.  In order to prove this,
- Administration sources are interested in arranging for an all-star crypto
+ the escrow agents -- and that the president will be told there are no
+ back doors to this classified algorithm.  in order to prove this,
+ administration sources are interested in arranging for an all-star crypto
  cracker team to come in, under a security arrangement, and examine the
- algorithm for trap doors.  The results of the investigation would then be
+ algorithm for trap doors.  the results of the investigation would then be
  made public.
  
- The Clipper Chipset was designed and is being produced and a sole-source,
- secret contract between the National Security Agency and two private
- firms:  VLSI and Mycotronx.  NSA work on this plan has been underway for
- about four years.  The manufacturing contract was let 14 months ago.
+ the clipper chipset was designed and is being produced and a sole-source,
+ secret contract between the national security agency and two private
+ firms:  vlsi and mycotronx.  nsa work on this plan has been underway for
+ about four years.  the manufacturing contract was let 14 months ago.
  
- GOVERNMENT AS MARKET DRIVER
+ government as market driver
  
- In order to get a market moving, and to show that the government believes
+ in order to get a market moving, and to show that the government believes
  in the security of this system, the feds will be the first big customers
- for this product.  Users will include the FBI, Secret Service, VP Al
- Gore, and maybe even the President.  At today's Commerce Department press
+ for this product.  users will include the fbi, secret service, vp al
+ gore, and maybe even the president.  at today's commerce department press
  briefing, a number of people asked this question, though:  why would any
  private organization or individual adopt a classified standard that had
  no independent guaranty of security or freedom from trap doors?
  
- COMPREHENSIVE POLICY INQUIRY
+ comprehensive policy inquiry
  
- The Administration has also announced that it is about to commence an
+ the administration has also announced that it is about to commence an
  inquiry into all policy issues related to privacy protection, encryption,
- and law enforcement.  The items to be considered include:  export
- controls on encryption technology and the FBI's Digital Telephony
- Proposal.  It appears that the this inquiry will be conducted by the
- National Security Council.  Unfortunately, however, the Presidential
- Directive describing the inquiry is classified.  Some public involvement
+ and law enforcement.  the items to be considered include:  export
+ controls on encryption technology and the fbi's digital telephony
+ proposal.  it appears that the this inquiry will be conducted by the
+ national security council.  unfortunately, however, the presidential
+ directive describing the inquiry is classified.  some public involvement
  in the process has been promised, but they terms have yet to be specified.
  
- FROM MORE INFORMATION CONTACT:
+ from more information contact:
  
- Jerry Berman, Executive Director (jberman@eff.org)
- Daniel J. Weitzner, Senior Staff Counsel (djw@eff.org)
+ jerry berman, executive director (jberman@eff.org)
+ daniel j. weitzner, senior staff counsel (djw@eff.org)
  
- Full text of the Press releases and Fact Sheets issued by the
- Administration will be available on EFF's ftp site.
+ full text of the press releases and fact sheets issued by the
+ administration will be available on eff's ftp site.
  
- Danny Weitzner                      Senior Staff Counsel, EFF
+ danny weitzner                      senior staff counsel, eff
                                      +1 202 544 3077
  

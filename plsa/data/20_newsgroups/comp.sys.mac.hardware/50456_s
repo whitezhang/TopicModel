@@ -1,29 +1,29 @@
 
- In article <1pqprtINNf2@escargot.xx.rmit.OZ.AU>,
- s912013@minyos.xx.rmit.OZ.AU (Douglas Barry Mcpherson) writes:
- >Could someone please tell me what a
+ in article <1pqprtinnf2@escargot.xx.rmit.oz.au>,
+ s912013@minyos.xx.rmit.oz.au (douglas barry mcpherson) writes:
+ >could someone please tell me what a
  >
- >LaserWriter IINTX upgrade kit is.
+ >laserwriter iintx upgrade kit is.
  >
- >Its a small box, which has a bag inn it , seemingly
- >containing 6 chips (look like ROMS) and a IINTX manual.
- >The installation instructions are most informative and say, in full,
- >"This product must be installed by an Apple ........."
+ >its a small box, which has a bag inn it , seemingly
+ >containing 6 chips (look like roms) and a iintx manual.
+ >the installation instructions are most informative and say, in full,
+ >"this product must be installed by an apple ........."
  >
- >SO what does this do ? At first I thought it might be a NT to NTX
- >upgrade, but I thought that required an entirely new board.
+ >so what does this do ? at first i thought it might be a nt to ntx
+ >upgrade, but i thought that required an entirely new board.
  >
- >Any info appreciated.
+ >any info appreciated.
  >
- >Doug.
+ >doug.
  
- The kit is for an already existing Laserwriter IINTX. It is a ROM
+ the kit is for an already existing laserwriter iintx. it is a rom
  upgrade that replaces the font rasterizer code with the more
- efficient, speedier code that first became available in Adobe Type
- Manager 1.0.
+ efficient, speedier code that first became available in adobe type
+ manager 1.0.
  
- That software came out after the original NTXes and the so-called
- ATM rasterizer is now standard on Postscript printers.
+ that software came out after the original ntxes and the so-called
+ atm rasterizer is now standard on postscript printers.
  
- Mark
+ mark
  

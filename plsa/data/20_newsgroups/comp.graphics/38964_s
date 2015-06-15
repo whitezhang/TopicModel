@@ -1,19 +1,19 @@
 
  
- Hi,
-   I need to know if there is a 256 color graphics mode that allows multiple
- pages.  I want something like mode 0x10 (640x350x16 2 pages).  I have been
- experimenting with graphics by calling the BIOS with borland turbo c.  I
- feel like I am flying blind in this area, and could use all the help that
+ hi,
+   i need to know if there is a 256 color graphics mode that allows multiple
+ pages.  i want something like mode 0x10 (640x350x16 2 pages).  i have been
+ experimenting with graphics by calling the bios with borland turbo c.  i
+ feel like i am flying blind in this area, and could use all the help that
  you can give.
  
-   Thanks,
- 	Ivan......
+   thanks,
+ 	ivan......
  
  
  -- 
  	+----------------------------------------+
- 	| Ivan Pulleyn - University of Rochester |
- 	| E-mail - ip001b@uhura.cc.rochester.edu |
+ 	| ivan pulleyn - university of rochester |
+ 	| e-mail - ip001b@uhura.cc.rochester.edu |
  	+----------------------------------------+
  

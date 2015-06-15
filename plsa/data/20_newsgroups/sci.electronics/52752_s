@@ -1,38 +1,38 @@
 
- In article <PASCAL.93Apr1160623@ap10.apd.cpg.sony.co.jp> pascal@apd.cpg.sony.co.jp (Pascal Goguey) writes:
- >In article <7376@blue.cis.pitt.edu> macfitz+@pitt.edu (Mark D Fitzsimmos) writes:
+ in article <pascal.93apr1160623@ap10.apd.cpg.sony.co.jp> pascal@apd.cpg.sony.co.jp (pascal goguey) writes:
+ >in article <7376@blue.cis.pitt.edu> macfitz+@pitt.edu (mark d fitzsimmos) writes:
  
- > *After a considerable amount of research, review of discussions 
- > *on this group, and mainly fruitless time on breadboards, I have 
+ > *after a considerable amount of research, review of discussions 
+ > *on this group, and mainly fruitless time on breadboards, i have 
  > *decided that the path of least resistance for prototyping my (not 
  > *necessarily someone else's) electronic designs is wire wrapping.  
  
- >	I have no idea about what you want to do, but be careful :
- >Wire wrapping increases a lot the wiring capacitance. That shouldn't
- >be a problem for "slow" applications (i.e a few MHz), but as for
- >quicker ones (around 30 / 40 MHz), I doubt that it can work.
+ >	i have no idea about what you want to do, but be careful :
+ >wire wrapping increases a lot the wiring capacitance. that shouldn't
+ >be a problem for "slow" applications (i.e a few mhz), but as for
+ >quicker ones (around 30 / 40 mhz), i doubt that it can work.
  
  
- 	Fortunately, wire-wrapping is a better wiring technique than
- most at high frequencies; Cray computers (up to the X-MP, at least)
- all had wirewrapped backplanes.  Wirewrap gets into trouble at
- much higher frequencies than any TTL can handle.  The 'increase'
+ 	fortunately, wire-wrapping is a better wiring technique than
+ most at high frequencies; cray computers (up to the x-mp, at least)
+ all had wirewrapped backplanes.  wirewrap gets into trouble at
+ much higher frequencies than any ttl can handle.  the 'increase'
  of wiring capacitance is not really relevant (you have to use
  transmission line techniques, and the capacitance is no problem).
  
- > *1) Where can I get a decent wrapping tool?  I'd like to spend less 
- > *than $150 for an AC powered unit including bit and sleeve.
+ > *1) where can i get a decent wrapping tool?  i'd like to spend less 
+ > *than $150 for an ac powered unit including bit and sleeve.
  
- >	Hand powered is the best. There are good AC powered ones,
- >but rather expensive. A low-cost one doesn't work very well.
+ >	hand powered is the best. there are good ac powered ones,
+ >but rather expensive. a low-cost one doesn't work very well.
  
- 	Hand-powered is a terrible choice (IMHO) unless you are
+ 	hand-powered is a terrible choice (imho) unless you are
  a field maintenance person who will do maybe a dozen connections
- at a time.  Your hands will cramp.  Battery-powered wire-wrap guns
+ at a time.  your hands will cramp.  battery-powered wire-wrap guns
  are available in the $150 range, and so are the little
- twiddle-stick manual types ($15).  For a modest project, of
- a couple hundred connections, I'd prefer to borrow a professional
- AC unit... or a pneumatic one.
+ twiddle-stick manual types ($15).  for a modest project, of
+ a couple hundred connections, i'd prefer to borrow a professional
+ ac unit... or a pneumatic one.
  
- 	John Whitmore
+ 	john whitmore
  

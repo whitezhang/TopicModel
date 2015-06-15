@@ -1,25 +1,25 @@
 
- Hello netters,
+ hello netters,
  
- 	I have a question concerning SCSI on DOS.
+ 	i have a question concerning scsi on dos.
  
- 	I have a ST01 SCSI controller and two hard-disks conected
- 	(id's 0 and 1). I'd like to connect a SCSI streamer, but I
- 	don't have software to access it. Does such a beast exist
- 	as shareware or PD ?
+ 	i have a st01 scsi controller and two hard-disks conected
+ 	(id's 0 and 1). i'd like to connect a scsi streamer, but i
+ 	don't have software to access it. does such a beast exist
+ 	as shareware or pd ?
  	
- 	Also what if I want a third disk ? I know that DOs only can
- 	"see" two two physical and four logical disks. Will it be
+ 	also what if i want a third disk ? i know that dos only can
+ 	"see" two two physical and four logical disks. will it be
  	possible to use extra disks ?
  
- 	Thanks in advance.
+ 	thanks in advance.
  
- 	Ib
+ 	ib
  
- |               | Ib Hojme
- |    |   |      | Euromax
- |  __| __| __   | Dansk Data Elektronik A/S, Vejle branch, Denmark
- | /  |/  |/__>  | Telephone: Int +45 75 72 26 00
- | \__/\__/\__   | Fax:       Int +45 75 72 27 76
- |               | E-mail:    ibh@dde.dk
+ |               | ib hojme
+ |    |   |      | euromax
+ |  __| __| __   | dansk data elektronik a/s, vejle branch, denmark
+ | /  |/  |/__>  | telephone: int +45 75 72 26 00
+ | \__/\__/\__   | fax:       int +45 75 72 27 76
+ |               | e-mail:    ibh@dde.dk
  

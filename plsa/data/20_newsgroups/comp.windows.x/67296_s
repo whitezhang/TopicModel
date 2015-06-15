@@ -1,22 +1,22 @@
 
- Can anyone out there tell me how to get the total number of color cells
+ can anyone out there tell me how to get the total number of color cells
  allocated in the default colormap?
  
- e.g.   colormap = DefaultColormap(mydisplay, myscreen);
+ e.g.   colormap = defaultcolormap(mydisplay, myscreen);
  
- The MAXIMUM number of allocated cells is given by DefaultCells(mydisplay,
+ the maximum number of allocated cells is given by defaultcells(mydisplay,
  myscreen), but in general the number of cells actually allocated will be
  much less than this, depending on the color requirements of the windows
- currently in place. I'd like a way to determine this number. Thanks in
+ currently in place. i'd like a way to determine this number. thanks in
  advance!
  
- Derek
+ derek
  
  -----------------------------------------------------------
- | Derek C. Richardson    | Tel: (0223) 337548 x 37501     |
- | Institute of Astronomy | Fax: (0223) 337523             |
- | Cambridge, U.K.        |                                |
- | CB3 0HA                | E-mail: dcr@mail.ast.cam.ac.uk |
+ | derek c. richardson    | tel: (0223) 337548 x 37501     |
+ | institute of astronomy | fax: (0223) 337523             |
+ | cambridge, u.k.        |                                |
+ | cb3 0ha                | e-mail: dcr@mail.ast.cam.ac.uk |
  -----------------------------------------------------------
  
  

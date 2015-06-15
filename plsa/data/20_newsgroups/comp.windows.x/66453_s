@@ -1,54 +1,54 @@
 
- Can anybody tell me how to use the Xmu function "XmuCvtStringToWidget". I
- want to specify a widget name in a resource file so that I can connect
- two widgets together on an XmForm. ie.
+ can anybody tell me how to use the xmu function "xmucvtstringtowidget". i
+ want to specify a widget name in a resource file so that i can connect
+ two widgets together on an xmform. ie.
  
- MyProggy*MyListSW.topWidget:               MainTextSW
+ myproggy*mylistsw.topwidget:               maintextsw
  
- However, when I run the program, I get the message:
+ however, when i run the program, i get the message:
  
- Warning: No type converter registered for 'String' to 'Window' conversion.
+ warning: no type converter registered for 'string' to 'window' conversion.
  
- (Just like the manual sez).
+ (just like the manual sez).
  
- I have managed to find this bit of code which seems to be the correct way
+ i have managed to find this bit of code which seems to be the correct way
  to go about this:
  
-     static XtConvertArgRec parentCvtArgs[] = {
+     static xtconvertargrec parentcvtargs[] = {
          {
-             XtWidgetBaseOffset,
-             (XtPointer)XtOffsetOf( CoreRec, core.parent ),
-             sizeof(CoreWidget)
+             xtwidgetbaseoffset,
+             (xtpointer)xtoffsetof( corerec, core.parent ),
+             sizeof(corewidget)
          }
      };
  
-     XtSetTypeConverter( XtRString, XtRWidget, XmuCvtStringToWidget,
-                             parentCvtArgs, XtNumber(parentCvtArgs), XtCacheAll,                                NULL );
+     xtsettypeconverter( xtrstring, xtrwidget, xmucvtstringtowidget,
+                             parentcvtargs, xtnumber(parentcvtargs), xtcacheall,                                null );
  
  
- However, I haven't got a clue where to put it! The example code I have seems
- to suggest I can only do this if I am creating my own widget; but elsewhere it
- says that I can add it to a widget's "class_intialize" function. HOW? What's
+ however, i haven't got a clue where to put it! the example code i have seems
+ to suggest i can only do this if i am creating my own widget; but elsewhere it
+ says that i can add it to a widget's "class_intialize" function. how? what's
  one of those? :-(
  
- If anybody has any code to do this, please let me know the trick - I'm sure
- this is a FAQ.
+ if anybody has any code to do this, please let me know the trick - i'm sure
+ this is a faq.
  
- Thanks in advance,
+ thanks in advance,
  
- Rik.
+ rik.
  
- PS: What are the header files "CoreP.h" and "IntrinsicsP.h" - should I use
-     these or "Core.h" and "Intrinsics.h" (OK I know RTFM:-)
+ ps: what are the header files "corep.h" and "intrinsicsp.h" - should i use
+     these or "core.h" and "intrinsics.h" (ok i know rtfm:-)
  
  .=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=.
  |                               |                                       |
- | Richard Turnbull              |                                       |
- |                               |       Dept. Computer Science          |
- | E-mail:                       |       University of Liverpool         |
- | rik@compsci.liverpool.ac.uk   |       Liverpool L69 3BX               |
- |                               |       England                         |
- | Phone: (051) 794 3704         |                                       |
+ | richard turnbull              |                                       |
+ |                               |       dept. computer science          |
+ | e-mail:                       |       university of liverpool         |
+ | rik@compsci.liverpool.ac.uk   |       liverpool l69 3bx               |
+ |                               |       england                         |
+ | phone: (051) 794 3704         |                                       |
  |                               |                                       |
  .=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=.
  

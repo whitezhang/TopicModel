@@ -1,13 +1,13 @@
 
- Hi there,
+ hi there,
  
- With a 16Megs of RAM, is there a need to run/load Smartdrv for
- Windows 3.1?  If yes, can I run/load Ramdrive without Smartdrv?
- If I need both Ramdrive & Smartdrv, is the following Config.Sys
- settings OK:  ...SMARTDRV.SYS 2048 2048
-               ...RAMDRIVE.SYS 2048 /E
+ with a 16megs of ram, is there a need to run/load smartdrv for
+ windows 3.1?  if yes, can i run/load ramdrive without smartdrv?
+ if i need both ramdrive & smartdrv, is the following config.sys
+ settings ok:  ...smartdrv.sys 2048 2048
+               ...ramdrive.sys 2048 /e
  
- Thanks in advance for e-mail reply.
+ thanks in advance for e-mail reply.
  
  yuan@wiliki.eng.hawaii.edu
  

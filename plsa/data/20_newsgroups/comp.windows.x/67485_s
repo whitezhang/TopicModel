@@ -1,40 +1,40 @@
 
  ---
- Hello!
+ hello!
  
- We want to configure our X11R5 sytem (i486 33Mhz running BSD-like UNIX)
+ we want to configure our x11r5 sytem (i486 33mhz running bsd-like unix)
  comming up with a chooser menu with different machines on it (works) an then
- connect to them. But the only connection works is localhost!
- An 'X -indirect <machine>' works very well!
- The configuration:
+ connect to them. but the only connection works is localhost!
+ an 'x -indirect <machine>' works very well!
+ the configuration:
  
  		- starting the 'xdm' at boot time with no servers specified
- 		   in Xservers
- 		- starting the X-server at boot time with X -indirect localhost
+ 		   in xservers
+ 		- starting the x-server at boot time with x -indirect localhost
  
  	     ---> the chooser menu appears with the machines named in
- 		  Xacces bye
- 			'*	CHOOSER <machine1> <machine2> ... BROADCAST	
+ 		  xacces bye
+ 			'*	chooser <machine1> <machine2> ... broadcast	
  		- the number of users on this machines and the load is 
  		    displayed correct
  
- 		- selecting an other machine than my own host the X-server
- 		   starts and nothing happens, after a time out the CHOOSER menu
+ 		- selecting an other machine than my own host the x-server
+ 		   starts and nothing happens, after a time out the chooser menu
  		   appears again.
  
- I know the xdm bug in X11R4, but all machines running X11R5
+ i know the xdm bug in x11r4, but all machines running x11r5
  
- Please help
- 			Lars
+ please help
+ 			lars
  
  
  -------------------------------------------------------------------------------
  
- Lars Koeller			    E-Mail: uphya001@odie.Uni-Bielefeld.de
- Universitaet Bielefeld (Germany)	    uphya001@dave.hrz.Uni-Bielefeld.de
- Fakultaet fuer Physik / D0-231	    Phone:  +49 521-106-5375
- Universitaetsstr. 25		    Fax:    +49 521-106-5244
- 4800 Bielefeld 1		    Telex:  932 362
+ lars koeller			    e-mail: uphya001@odie.uni-bielefeld.de
+ universitaet bielefeld (germany)	    uphya001@dave.hrz.uni-bielefeld.de
+ fakultaet fuer physik / d0-231	    phone:  +49 521-106-5375
+ universitaetsstr. 25		    fax:    +49 521-106-5244
+ 4800 bielefeld 1		    telex:  932 362
  
  
  

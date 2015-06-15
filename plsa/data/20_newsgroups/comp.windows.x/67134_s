@@ -1,31 +1,31 @@
 
- I have two questions (well probably more...) about how Expose & Configure
+ i have two questions (well probably more...) about how expose & configure
  events are handled.
  
- I have an appl. which uses 1 window to draw in.  Since I give the user the
+ i have an appl. which uses 1 window to draw in.  since i give the user the
  capability of scaling and zooming as well as allowing the window to be
- resized, I made a translation table for the Expose & Configure events.
- The Expose event calls my redraw method while the Configure event
- calls my rescale method.  The rescale method invokes a "fake" Expose
- event (actually just calls the redraw w/ an appropriate Expose struct)
+ resized, i made a translation table for the expose & configure events.
+ the expose event calls my redraw method while the configure event
+ calls my rescale method.  the rescale method invokes a "fake" expose
+ event (actually just calls the redraw w/ an appropriate expose struct)
  to draw the data.
  
- Quest 1.
- When the appl. is compiled/linked w/ R4 (running in either R4 or R5 env.)
- I get multiple (>4) redraws when the window gets uncovered or the size
- is changed.  I assume I'm getting cascading events.  Is that right?
- Any suggestions as to how to handle/trap events in a better way?
+ quest 1.
+ when the appl. is compiled/linked w/ r4 (running in either r4 or r5 env.)
+ i get multiple (>4) redraws when the window gets uncovered or the size
+ is changed.  i assume i'm getting cascading events.  is that right?
+ any suggestions as to how to handle/trap events in a better way?
  
- Quest 2.
- When the appl. is compiled/linked w/ R5 I get no Expose events
- whatsoever.  Do events and/or translation tables act differently in R5?
+ quest 2.
+ when the appl. is compiled/linked w/ r5 i get no expose events
+ whatsoever.  do events and/or translation tables act differently in r5?
  
- Thanks in advance
+ thanks in advance
  
- Steve
+ steve
  -- 
  ==========================================================================================
  
- Steve Kelley	UMCP CS/UMIACS			Captain, I protest!
- Internet:	skelley@umiacs.umd.edu		I am *NOT* a merry man! - Worf
+ steve kelley	umcp cs/umiacs			captain, i protest!
+ internet:	skelley@umiacs.umd.edu		i am *not* a merry man! - worf
  

@@ -1,14 +1,14 @@
 
- Can someone point me in the direction of any papers (not necessarily
- formally conducted studies) discussing how much traffic X apps generate
+ can someone point me in the direction of any papers (not necessarily
+ formally conducted studies) discussing how much traffic x apps generate
  for the network, particularly in comparison with curses-bases apps 
- over telnet?  Also, does an X server typically buffer up user keyboard
- input a line at a time?  Can the X client control this, asking for
- keystrokes immediately?  Thanks in advance for any feedback!
+ over telnet?  also, does an x server typically buffer up user keyboard
+ input a line at a time?  can the x client control this, asking for
+ keystrokes immediately?  thanks in advance for any feedback!
  
  --
  /*----------------------------------------------------------------------*/
- /* Bob Kline                                      Phoenix Systems, Inc. */
+ /* bob kline                                      phoenix systems, inc. */
  /* bkline@occs.nlm.nih.gov                        voice: (703) 522-0820 */
  /*----------------------------------------------------------------------*/
  

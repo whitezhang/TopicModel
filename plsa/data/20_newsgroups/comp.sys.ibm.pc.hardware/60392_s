@@ -1,110 +1,110 @@
 
- wlsmith@valve.heart.rri.uwo.ca (Wayne Smith) write:
+ wlsmith@valve.heart.rri.uwo.ca (wayne smith) write:
  
- >In article <1qpu0uINNbt1@dns1.NMSU.Edu> bgrubb@dante.nmsu.edu (GRUBB) writes:
- >>wlsmith@valve.heart.rri.uwo.ca (Wayne Smith) writes:
- >>Since the Mac uses ONLY SCSI-1 for hard drives YES the "figure includes a
- >>hundred $$$ for SCSI drivers"  This is sloppy people and DUMB.
- >What group is this?  This is not a MAC group.
- Nice of you to DELETE BOTH YOUR responce and the item that prompted it.
+ >in article <1qpu0uinnbt1@dns1.nmsu.edu> bgrubb@dante.nmsu.edu (grubb) writes:
+ >>wlsmith@valve.heart.rri.uwo.ca (wayne smith) writes:
+ >>since the mac uses only scsi-1 for hard drives yes the "figure includes a
+ >>hundred $$$ for scsi drivers"  this is sloppy people and dumb.
+ >what group is this?  this is not a mac group.
+ nice of you to delete both your responce and the item that prompted it.
  to whit:
- >>I just bought at Quantum 240 for my mac at home.  I paid $369 for it.  I
+ >>i just bought at quantum 240 for my mac at home.  i paid $369 for it.  i
                                        ^^^
- >>haven't seen IDE drives cheaper.
- To which YOU responded:
- >A friend of mine just got a Maxtor 245 meg IDE drive for $320.  (that's 245
- >million bytes, or 234 mega-bytes).  With the basic $20 interface, he gets
- >close to 1 meg/sec transfer on his 286-20.  Does your figure include a few
- >hundred $$$ for SCSI drivers?
- To which I correctly pointed out the following:                         
- >Since the Mac uses ONLY SCSI-1 for hard drives YES the "figure includes a
- >hundred $$$ for SCSI drivers"  This is sloppy people and DUMB.
- As I said this is sloppy and DUMB {YOU should resounded by DISCOUNTING the Mac
- NOT giving "Maxtor 245 meg IDE drive for $320" example.  By giving an
- example you give the IMPLIED consent that for MAC info to be INCLUDED
- in the SCSI discusion.}
+ >>haven't seen ide drives cheaper.
+ to which you responded:
+ >a friend of mine just got a maxtor 245 meg ide drive for $320.  (that's 245
+ >million bytes, or 234 mega-bytes).  with the basic $20 interface, he gets
+ >close to 1 meg/sec transfer on his 286-20.  does your figure include a few
+ >hundred $$$ for scsi drivers?
+ to which i correctly pointed out the following:                         
+ >since the mac uses only scsi-1 for hard drives yes the "figure includes a
+ >hundred $$$ for scsi drivers"  this is sloppy people and dumb.
+ as i said this is sloppy and dumb {you should resounded by discounting the mac
+ not giving "maxtor 245 meg ide drive for $320" example.  by giving an
+ example you give the implied consent that for mac info to be included
+ in the scsi discusion.}
  
- >>Ok once again with the SCSI spec list:
- >Why the spec list again?  We are talking SCSI on a PC, not on a MAC or
- >a UNIX box.  And we are talking ISA bus, or possibly EISA or VLB.
- Ok I will do this V E R Y  S L O W L Y so you can understand
- REGUARDLESS of whether it is a Mac or a PC SCSI-1 and SCSI-2 are DIFFERENT
- from each other as is asynchronous and synchronous SCSI-1.  All of these
- have DIFFERENT SPEEDS and COSTS. Lumping them all together as 'SCSI' is
- dumb and sloppy.  Take again the quote later on as an example of the problem 
- in the PC world {The spec list was so that you knew where the numbers were
- coming from in the article.  It shows the article is CORRECT in it
- staments about SCSI but not CONSITANT}.
+ >>ok once again with the scsi spec list:
+ >why the spec list again?  we are talking scsi on a pc, not on a mac or
+ >a unix box.  and we are talking isa bus, or possibly eisa or vlb.
+ ok i will do this v e r y  s l o w l y so you can understand
+ reguardless of whether it is a mac or a pc scsi-1 and scsi-2 are different
+ from each other as is asynchronous and synchronous scsi-1.  all of these
+ have different speeds and costs. lumping them all together as 'scsi' is
+ dumb and sloppy.  take again the quote later on as an example of the problem 
+ in the pc world {the spec list was so that you knew where the numbers were
+ coming from in the article.  it shows the article is correct in it
+ staments about scsi but not consitant}.
  
- >This isin't comp.periphs.SCSI.
- With the way this thread has gone how do you tell :-).
- >Tell me what the performance figures are with a single SCSI drive on a PC
- >with an ISA (or EISA or VLB) bus.
- Already GAVE them.  YOU keep deleting them! So here are the Specs
- on everybody AGAIN {With some added info}:
+ >this isin't comp.periphs.scsi.
+ with the way this thread has gone how do you tell :-).
+ >tell me what the performance figures are with a single scsi drive on a pc
+ >with an isa (or eisa or vlb) bus.
+ already gave them.  you keep deleting them! so here are the specs
+ on everybody again {with some added info}:
  
- SCSI-1 {SCSI-1 controler chip} asynchronous range: 0-3MB/s
-  synchronous range: 0-5MB/s  Both common to the PC world; difference is
+ scsi-1 {scsi-1 controler chip} asynchronous range: 0-3mb/s
+  synchronous range: 0-5mb/s  both common to the pc world; difference is
   mainly in software not hardware.
  
- SCSI-1 {SCSI-2 controller chip; also called SCSI-2 (8-bit)}: 4-6MB/s with 
- 10MB/s burst.  This is advertised as SCSI-2 in BYTE 4/93:159 FOR the
-  PC and AT THESE SPEEDS.{NOT the Mac, the PC.}
+ scsi-1 {scsi-2 controller chip; also called scsi-2 (8-bit)}: 4-6mb/s with 
+ 10mb/s burst.  this is advertised as scsi-2 in byte 4/93:159 for the
+  pc and at these speeds.{not the mac, the pc.}
  
- {I have not seen the following for EITHER the Mac or the PC}
- SCSI-2 {16-bit/wide or fast mode}:  8-12MB/s with 20MB/s burst
- SCSI-2 {32-bit/wide AND fast}:     15-20MB/s with 40MB/s burst
+ {i have not seen the following for either the mac or the pc}
+ scsi-2 {16-bit/wide or fast mode}:  8-12mb/s with 20mb/s burst
+ scsi-2 {32-bit/wide and fast}:     15-20mb/s with 40mb/s burst
  
- On the other interfaces let DXB132@psuvm.psu.edu speak:
- >IDE ranges from 0-8.3MB/s.                          
-  asynchronous range: 0-5MB/s {infered from BYTE 4/93:159}
-  synchronous range: 0-8.3MB/s.
- >ESDI is always 1.25MB/s (although there are some non-standard versions)
+ on the other interfaces let dxb132@psuvm.psu.edu speak:
+ >ide ranges from 0-8.3mb/s.                          
+  asynchronous range: 0-5mb/s {infered from byte 4/93:159}
+  synchronous range: 0-8.3mb/s.
+ >esdi is always 1.25mb/s (although there are some non-standard versions)
  
- wlsmith@valve.heart.rri.uwo.ca (Wayne Smith) writes:
- >Theoretical performance figures are not relevant to this group or this
- >debate.  I'm sure that there are some platforms out there that can
- >handle the 40 megs/sec of SCSI xyz wide'n'fast, but the PC isin't one of
+ wlsmith@valve.heart.rri.uwo.ca (wayne smith) writes:
+ >theoretical performance figures are not relevant to this group or this
+ >debate.  i'm sure that there are some platforms out there that can
+ >handle the 40 megs/sec of scsi xyz wide'n'fast, but the pc isin't one of
  >them.
- Note that I ALSO give the AVERAGE through put for SCSI-2 which holds true
- a Mac OR IBM/PC clone with the correct hardware and software.
- And since PC ADVERSIZEMENTS are using Theoretical performance figures WHY 
- CANNOT WE?
+ note that i also give the average through put for scsi-2 which holds true
+ a mac or ibm/pc clone with the correct hardware and software.
+ and since pc adversizements are using theoretical performance figures why 
+ cannot we?
  
- >>If we are to continue this thread STATE CLEARLY WHICH SCSI you are talking 
- >>about SCSI-1 or SCSI-2 or SCSI over all {SCSI-1 AND SCSI-2}
- >>IT DOES MAKE A DIFFERENCE.
+ >>if we are to continue this thread state clearly which scsi you are talking 
+ >>about scsi-1 or scsi-2 or scsi over all {scsi-1 and scsi-2}
+ >>it does make a difference.
  
- >Well maybe if the SCSI design people had their act together than maybe
- >all PC's would have built in SCSI ports by now.
- With PC articles like the following it is obvious that the problem is NOT with
- SCSI but with the PEOPLE WHO REPORT IT! {Like YOU.}
- Look at the inconsitant use of SCSI in the below quote: 
- (My comments in {})
- "Although SCSI is twice as fast as ESDI,{This is asynchronous SCSI-1 with
- a SCSI-1 chip} 20% faster than IDE..." {this is BOTH asynchronous SCSI-1 with 
- a SCSI-2 chip AND 8-bit SCSI-2} PC Magazine April 27, 1993:29
- The ARTICLE is confused, NOT SCSI.  The TERM is a mess from inconsitant use
- NOT because the interface itself is a mess.
+ >well maybe if the scsi design people had their act together than maybe
+ >all pc's would have built in scsi ports by now.
+ with pc articles like the following it is obvious that the problem is not with
+ scsi but with the people who report it! {like you.}
+ look at the inconsitant use of scsi in the below quote: 
+ (my comments in {})
+ "although scsi is twice as fast as esdi,{this is asynchronous scsi-1 with
+ a scsi-1 chip} 20% faster than ide..." {this is both asynchronous scsi-1 with 
+ a scsi-2 chip and 8-bit scsi-2} pc magazine april 27, 1993:29
+ the article is confused, not scsi.  the term is a mess from inconsitant use
+ not because the interface itself is a mess.
  
- SCSI means "The set of SCSI interfaces composed of SCSI-1 AND SCSI-2"
- NOT 'SCSI-1' as some people want to use it.
+ scsi means "the set of scsi interfaces composed of scsi-1 and scsi-2"
+ not 'scsi-1' as some people want to use it.
  
- To read CONSITANTLY the quote SHOULD read:
- {asynchronous SCSI-1 with a SCSI-1 chip}
- "Although asynchronous SCSI-1 is twice as fast as ESDI, one third the 
- speed of IDE..."
- or {asynchronous SCSI-1 with a SCSI-2 chip or 8-bit SCSI-2}
- "Although SCSI-1 with a SCSI-2 chip and 8-bit SCSI-2 are eight times as fast as
- ESDI, 20% faster than IDE..."
+ to read consitantly the quote should read:
+ {asynchronous scsi-1 with a scsi-1 chip}
+ "although asynchronous scsi-1 is twice as fast as esdi, one third the 
+ speed of ide..."
+ or {asynchronous scsi-1 with a scsi-2 chip or 8-bit scsi-2}
+ "although scsi-1 with a scsi-2 chip and 8-bit scsi-2 are eight times as fast as
+ esdi, 20% faster than ide..."
  
- NOTE the NONUSE of 'SCSI' by itself.  This eliminates ambaguity.
+ note the nonuse of 'scsi' by itself.  this eliminates ambaguity.
  
- If we are to continue this thread STATE CLEARLY WHICH SCSI you are talking 
- about SCSI-1 or SCSI-2 or SCSI over all {SCSI-1 AND SCSI-2}.  Lumping
- everything into SCSI as SCSI-1 is SLOPPY, WRONG, and DUMB.  Inconsitant
- SCSI-1 and SCSI-2 usage is also a problem.  Clean it up now or have
- a mess like SVGA was several years ago because everybody and his Uncle
- slapped 'SCSA' an their own monitor inteface {SCSI IS standarized unlike
- SVGA was years ago EXCEPT in terminaology.}
+ if we are to continue this thread state clearly which scsi you are talking 
+ about scsi-1 or scsi-2 or scsi over all {scsi-1 and scsi-2}.  lumping
+ everything into scsi as scsi-1 is sloppy, wrong, and dumb.  inconsitant
+ scsi-1 and scsi-2 usage is also a problem.  clean it up now or have
+ a mess like svga was several years ago because everybody and his uncle
+ slapped 'scsa' an their own monitor inteface {scsi is standarized unlike
+ svga was years ago except in terminaology.}
  

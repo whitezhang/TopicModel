@@ -1,21 +1,21 @@
 
- In article <1993Apr06.154348.17163@zeos.com> root@zeos.com (Superuser) writes:
+ in article <1993apr06.154348.17163@zeos.com> root@zeos.com (superuser) writes:
  >
- >                     NCR              Stealth 24 VLB        Viper VLB
- >64Ox480 Colors       16,256           16,256,32K,64K,16.7M 16,256,32K,64K,16.7M *
+ >                     ncr              stealth 24 vlb        viper vlb
+ >64ox480 colors       16,256           16,256,32k,64k,16.7m 16,256,32k,64k,16.7m *
  [stuff deleted]
- >Video RAM            1M               1M                    1M
- >Max RAM addressable
- >  by Vid Processor   3M               2M                    2M
+ >video ram            1m               1m                    1m
+ >max ram addressable
+ >  by vid processor   3m               2m                    2m
                                         ^^
  
-   Just a note, even though the 805 can address 2 megs of dram, the
- Stealth 24 VLB can only handle 1 meg, unless Diamond has a newer
- design (or some special deal with Zeos).
+   just a note, even though the 805 can address 2 megs of dram, the
+ stealth 24 vlb can only handle 1 meg, unless diamond has a newer
+ design (or some special deal with zeos).
  
  +----------------------------------------------------------------+
- Stephen Lau, Elec. Engineering, Univ. of Hawaii
- *Using a friend's account while waiting for my new grad. account*
- +              Death to FM synthesis! Go Gus!                    +
+ stephen lau, elec. engineering, univ. of hawaii
+ *using a friend's account while waiting for my new grad. account*
+ +              death to fm synthesis! go gus!                    +
  
  

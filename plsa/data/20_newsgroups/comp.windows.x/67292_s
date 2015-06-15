@@ -1,37 +1,37 @@
 
- queloz@bernina.ethz.ch (Ronald Queloz) writes:
+ queloz@bernina.ethz.ch (ronald queloz) writes:
  
- >Hi netlanders,
+ >hi netlanders,
  
- >Does anybody know if there is something like Macintosh Hypercard for any UNIX 
+ >does anybody know if there is something like macintosh hypercard for any unix 
  >platform?
  
- There are several products you might investigate.  If you've got
- $20,000 per seat and high-end hardware, Gain Momentum might be a good
- choice.  It isn't compatible with HyperCard, but has a similar
- architecture (and *way* more functionality).  I don't have contact
- information, but they were recently purchased by Sybase who shouldn't
+ there are several products you might investigate.  if you've got
+ $20,000 per seat and high-end hardware, gain momentum might be a good
+ choice.  it isn't compatible with hypercard, but has a similar
+ architecture (and *way* more functionality).  i don't have contact
+ information, but they were recently purchased by sybase who shouldn't
  be too hard to find.
  
- If you're running News on SPARC, check out HyperLook
- (hyperlook@turing.com).  It uses Postscript as a scripting language
+ if you're running news on sparc, check out hyperlook
+ (hyperlook@turing.com).  it uses postscript as a scripting language
  which is good if you need to do lots of display oriented scripting,
- but not so good for non-programmers.  It was $995, last I heard.
+ but not so good for non-programmers.  it was $995, last i heard.
  
- You might also look at our product MetaCard.  We're alpha-testing
- direct importing of HyperCard stacks (we've even made the test release
- available for anonymous FTP), so we're obviously the closest in
- functionality.  MetaCard runs on most UNIX workstations and costs
- $495.  Email to info@metacard.com for more details.
-   Scott
+ you might also look at our product metacard.  we're alpha-testing
+ direct importing of hypercard stacks (we've even made the test release
+ available for anonymous ftp), so we're obviously the closest in
+ functionality.  metacard runs on most unix workstations and costs
+ $495.  email to info@metacard.com for more details.
+   scott
  
- >Thanks in advance
+ >thanks in advance
  
  
- >Ron.
+ >ron.
  -- 
  ***********************************************************************
- * Scott Raney  303-447-3936            Remember: the better you look, *
- * raney@metacard.com                   the more you'll see -- Lidia   *
+ * scott raney  303-447-3936            remember: the better you look, *
+ * raney@metacard.com                   the more you'll see -- lidia   *
  ***********************************************************************
  

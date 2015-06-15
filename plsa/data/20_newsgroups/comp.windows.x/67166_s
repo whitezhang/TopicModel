@@ -1,52 +1,52 @@
 
- In article 4867@mlb.semi.harris.com, jmartin@egret.imagesRus (John Martin) writes:
- > Animation is most frequently done by copying the the client resident XImages into 
- > server resident Pixmap(s) using XPutImage.  Once this is done, the original XImages
- > can be deleted and the animation loop can be performed using XCopyArea from the Pixmaps to the windows drawable.
+ in article 4867@mlb.semi.harris.com, jmartin@egret.imagesrus (john martin) writes:
+ > animation is most frequently done by copying the the client resident ximages into 
+ > server resident pixmap(s) using xputimage.  once this is done, the original ximages
+ > can be deleted and the animation loop can be performed using xcopyarea from the pixmaps to the windows drawable.
  > 
- > Hope this is helpfull.
+ > hope this is helpfull.
  > 
- > John
+ > john
  > 
  
- I just implemented this and it seems I can just about achieve the display
- rates (20 400x400x8 frames / sec on IPX) that I get with Sunview, though
- it's a bit "choppy" at times. Also, loading the data, making an XImage,
- then XPut'ing it into a pixmap is a bit cumbersome, so the animation is
- slower to load than with Sunview. Is there a better way to load in the
+ i just implemented this and it seems i can just about achieve the display
+ rates (20 400x400x8 frames / sec on ipx) that i get with sunview, though
+ it's a bit "choppy" at times. also, loading the data, making an ximage,
+ then xput'ing it into a pixmap is a bit cumbersome, so the animation is
+ slower to load than with sunview. is there a better way to load in the
  data?
  
- rgooch@rp.CSIRO.AU (Richard Gooch) writes:
- >  If you need speed, and your client can run on the same host as the X server,
- >  you should use the shared memory extension to the sample X server (MIT-SHM).
- >  xdpyinfo  will tell you if your server has this extension. This is certainly
- >  available with the sample MIT X server running under SunOS.
- >  A word of warning: make sure your kernel is configured to support shared
- >  memory. And another word of warning: OpenWindows is slower than the MIT
+ rgooch@rp.csiro.au (richard gooch) writes:
+ >  if you need speed, and your client can run on the same host as the x server,
+ >  you should use the shared memory extension to the sample x server (mit-shm).
+ >  xdpyinfo  will tell you if your server has this extension. this is certainly
+ >  available with the sample mit x server running under sunos.
+ >  a word of warning: make sure your kernel is configured to support shared
+ >  memory. and another word of warning: openwindows is slower than the mit
  >  server.
- >  I have written an imaging tool (using XView for the GUI, by the way) which
- >  yields over 10 frames per second for 512*512*8 bit images, running on a Sparc
- >  IPC (half the cpu grunt of an IPX). This has proved quite sufficient for
+ >  i have written an imaging tool (using xview for the gui, by the way) which
+ >  yields over 10 frames per second for 512*512*8 bit images, running on a sparc
+ >  ipc (half the cpu grunt of an ipx). this has proved quite sufficient for
  >  animations.
  >
- >				Regards,
+ >				regards,
  >
- >					Richard Gooch....
+ >					richard gooch....
  
- Shared memory PutImage (also mentioned by nkissebe@delphi.beckman.uiuc.edu,
- Nick Kisseberth) looks interesting, but I need someone to point me to some
- documentation. Is this method likely to give better results than server-
- resident pixmaps? I'd also be interested in looking at the XView code
+ shared memory putimage (also mentioned by nkissebe@delphi.beckman.uiuc.edu,
+ nick kisseberth) looks interesting, but i need someone to point me to some
+ documentation. is this method likely to give better results than server-
+ resident pixmaps? i'd also be interested in looking at the xview code
  mentioned above...
  
- Thanks for the help so far. If I get something decent put together, I'll
- definitely post it to the Net.
+ thanks for the help so far. if i get something decent put together, i'll
+ definitely post it to the net.
  
  -----------------------------------------------------------
- | Derek C. Richardson    | Tel: (0223) 337548 x 37501     |
- | Institute of Astronomy | Fax: (0223) 337523             |
- | Cambridge, U.K.        |                                |
- | CB3 0HA                | E-mail: dcr@mail.ast.cam.ac.uk |
+ | derek c. richardson    | tel: (0223) 337548 x 37501     |
+ | institute of astronomy | fax: (0223) 337523             |
+ | cambridge, u.k.        |                                |
+ | cb3 0ha                | e-mail: dcr@mail.ast.cam.ac.uk |
  -----------------------------------------------------------
  
  

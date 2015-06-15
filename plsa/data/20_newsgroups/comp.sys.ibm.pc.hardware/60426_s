@@ -1,31 +1,31 @@
 
- In article <C5I8Fx.8FC@ucdavis.edu> ez033672@rocky.ucdavis.edu (The Great Randalli!) writes:
+ in article <c5i8fx.8fc@ucdavis.edu> ez033672@rocky.ucdavis.edu (the great randalli!) writes:
  
- >     Can anyone explain in fairly simple terms why, if I get OS/2, I might 
- >   need an SCSI controler rather than an IDE.  Will performance suffer that
- >   much?  For a 200MB or so drive?  If I don't have a tape drive or CD-ROM?
- >   Any help would be appreciated.
+ >     can anyone explain in fairly simple terms why, if i get os/2, i might 
+ >   need an scsi controler rather than an ide.  will performance suffer that
+ >   much?  for a 200mb or so drive?  if i don't have a tape drive or cd-rom?
+ >   any help would be appreciated.
  >
- >   Richard Randall -- <ez033672@hamlet.ucdavis.edu>
+ >   richard randall -- <ez033672@hamlet.ucdavis.edu>
  
- There is a way in which a multi-tasking computer actually gives you
- more CPU power then you had before, and that is with I/O overlap.
- With I/O overlap, your CPU can continue to "think" while disk
- operations are underway, whereas without overlap, your CPU sits idly
+ there is a way in which a multi-tasking computer actually gives you
+ more cpu power then you had before, and that is with i/o overlap.
+ with i/o overlap, your cpu can continue to "think" while disk
+ operations are underway, whereas without overlap, your cpu sits idly
  waiting for each disk operation to finish - and disk operations take
- an *eternity*, compared to a fast CPU.
+ an *eternity*, compared to a fast cpu.
  
- So, when you've got multi-tasking, you want to increase performance by
+ so, when you've got multi-tasking, you want to increase performance by
  increasing the amount of overlapping you do.
  
- One way is with DMA or bus mastering.  Either of these make it
- possible for I/O devices to move their data into and out of memory
- without interrupting the CPU.  The alternative is for the CPU to move
- the data.  There are several SCSI interface cards that allow DMA and
- bus mastering.  IDE, however, is defined by the standard AT interface
- created for the IBM PC AT, which requires the CPU to move all the data
- bytes, with no DMA.
+ one way is with dma or bus mastering.  either of these make it
+ possible for i/o devices to move their data into and out of memory
+ without interrupting the cpu.  the alternative is for the cpu to move
+ the data.  there are several scsi interface cards that allow dma and
+ bus mastering.  ide, however, is defined by the standard at interface
+ created for the ibm pc at, which requires the cpu to move all the data
+ bytes, with no dma.
  -- 
- Richard Krehbiel                                 richk@grebyn.com
- OS/2 2.0 will do for me until AmigaDOS for the 386 comes along...
+ richard krehbiel                                 richk@grebyn.com
+ os/2 2.0 will do for me until amigados for the 386 comes along...
  

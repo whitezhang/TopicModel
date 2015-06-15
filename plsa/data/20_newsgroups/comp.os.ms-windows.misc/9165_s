@@ -1,34 +1,34 @@
 
- Tom Belmonte x4858 (tbelmont@feds55.prime.com) wrote:
+ tom belmonte x4858 (tbelmont@feds55.prime.com) wrote:
  : 
- : Hello,
+ : hello,
  : 
- : I recently tried to print some envelopes using AmiPro 3.0 with my
- : Deskjet 500 printer, and I seem to be having a problem.  What
- : happens is after I physically load the envelope into the printer
- : (per the user manual) and then select the "Print Envelope" icon
- : from AmiPro (all of the proper options have been selected), the
+ : i recently tried to print some envelopes using amipro 3.0 with my
+ : deskjet 500 printer, and i seem to be having a problem.  what
+ : happens is after i physically load the envelope into the printer
+ : (per the user manual) and then select the "print envelope" icon
+ : from amipro (all of the proper options have been selected), the
  : printer just "spits out" the envelope without any printing of
- : either a return address or the selected mailing address.  At
- : this point, the printer's "ONLINE" light begins to flash, and
- : the Print Manager shows the printer job as busy.  This is all
- : that happens, until I either shut the printer off or cancel the
- : printing job from the Print Manager.  I have also tried this
- : without the use of the Print Manager, with similar results 
- : (AmiPro shows the printer as being busy).  So, does anybody
- : have any idea/solution regarding this problem?  I appreciate
- : the help.  Thanks.
+ : either a return address or the selected mailing address.  at
+ : this point, the printer's "online" light begins to flash, and
+ : the print manager shows the printer job as busy.  this is all
+ : that happens, until i either shut the printer off or cancel the
+ : printing job from the print manager.  i have also tried this
+ : without the use of the print manager, with similar results 
+ : (amipro shows the printer as being busy).  so, does anybody
+ : have any idea/solution regarding this problem?  i appreciate
+ : the help.  thanks.
  
- Yes - ignore the manual.  Just insert the evelope - don't use the keypad
- to move it up.  The Windows driver sends a message to the printer that
+ yes - ignore the manual.  just insert the evelope - don't use the keypad
+ to move it up.  the windows driver sends a message to the printer that
  tells it to load the envelope - if it is already loaded, it gets ejected
- and the printer tries to load another.  The instructions in the manual
- are for dumb DOS apps. that don't send the "load envelople" message.
+ and the printer tries to load another.  the instructions in the manual
+ are for dumb dos apps. that don't send the "load envelople" message.
  
  
  : 
- : -- Tom Belmonte
+ : -- tom belmonte
  
- Bob Taylor
- HP Vancouver
+ bob taylor
+ hp vancouver
  

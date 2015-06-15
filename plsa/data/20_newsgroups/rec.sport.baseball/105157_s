@@ -1,51 +1,51 @@
 
- whitty@cv.hp.com (Joe Whitty) writes:
+ whitty@cv.hp.com (joe whitty) writes:
  
- >Thomas Theiner (thein@damabus.informatik.rwth-aachen.de) wrote:
- >: Hi there,
+ >thomas theiner (thein@damabus.informatik.rwth-aachen.de) wrote:
+ >: hi there,
  >: 
- >: I'm german and I have been into this MLB stuff since almost one year now.
- >: There are many problems occuring for me. One of them is the ERA statistic for
- >: pitchers. What does it say ??
+ >: i'm german and i have been into this mlb stuff since almost one year now.
+ >: there are many problems occuring for me. one of them is the era statistic for
+ >: pitchers. what does it say ??
  
- >ERA indicates the average number of earned runs attributed to a pitcher per
- >nine inning game.  Thus, if a pitcher pitched 3 innings and gave up 1 earned
- >run, his 9 inning equivelent perfomance would be 3 earned runs, thus his ERA
- >is 3.00.  To compute the ERA you simply take the number of earned runs divided
+ >era indicates the average number of earned runs attributed to a pitcher per
+ >nine inning game.  thus, if a pitcher pitched 3 innings and gave up 1 earned
+ >run, his 9 inning equivelent perfomance would be 3 earned runs, thus his era
+ >is 3.00.  to compute the era you simply take the number of earned runs divided
  >by the innings pitched and then multiple the result by 9.
  
- >	ERA = (ER/IP) * 9
+ >	era = (er/ip) * 9
  
- I think there is another formula for ERA.  I heard something about it last 
- year.  Im not sure what it is, but im gonna give it a stab.  It allows for
+ i think there is another formula for era.  i heard something about it last 
+ year.  im not sure what it is, but im gonna give it a stab.  it allows for
  a pitcher to pitch more than 9 innings at a time and not benefit, cuz it
  uses outs recorded instead of innings pitched...
  
-         ERA = (ER*27)/outs recorded
+         era = (er*27)/outs recorded
  
- Like i said, im not sure this is exactly it, but im pretty sure they changed
+ like i said, im not sure this is exactly it, but im pretty sure they changed
  it to something of the sort.
  
  
- >An earned run is run that is given up by the pitcher that is not attributed
- >to a fielding error.  More specifically, if an error occurs that represented
- >the third out, all runs scored after the error are considered UNEARNED runs.
- >Earned runs are also runs scored as a result of players who were left on base
- >when the pitcher exited the game.  Here are some examples:
+ >an earned run is run that is given up by the pitcher that is not attributed
+ >to a fielding error.  more specifically, if an error occurs that represented
+ >the third out, all runs scored after the error are considered unearned runs.
+ >earned runs are also runs scored as a result of players who were left on base
+ >when the pitcher exited the game.  here are some examples:
  
- >	If there are two outs in an inning and there are men on base.  If
+ >	if there are two outs in an inning and there are men on base.  if
  >	an error occurs that represents the third out, all of the runs after
- >	this error and NOT counted as earned runs.
+ >	this error and not counted as earned runs.
  
- >	If a pitcher issues some base on balls (walks), and leaves the game
+ >	if a pitcher issues some base on balls (walks), and leaves the game
  >	before the inning is completed, he is responsible for the people who
- >	were left on base.  If the those runners who were left on base score,
+ >	were left on base.  if the those runners who were left on base score,
  >	and the score was not a result of an error, those eraned runs are
  >	attributed to the pitcher who left the game.
  
- >I hope this explains things for you.
+ >i hope this explains things for you.
  
- >					Joe
+ >					joe
  
  >	
  

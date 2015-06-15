@@ -1,23 +1,23 @@
 
- 	This is a followup post to something I've written previously.  Several
- people responded with good information, but I don't think I communicated 
- exactly what I am looking for.
- 	I'm working on a custom I/O device that will communicate with a host
- via RS-232.  My custom circuitry will use an 80C186EB or EC CPU and require
- about 64K of RAM (preferably FLASH RAM).  In looking around, I see that lots
- of people have engineered UART-CPU-ROM-RAM subsystems that are ready to be
- interfaced to your custom I/O devices.  It's been done so much, that it 
- would be best if I can avoid reinventing a system.  It just needs to use
- an 80C186 (or 188) CPU, and be able to load a program from the host then 
- transfer control to that program.  Well, there's one other thing the ROM
- needs to know how to do.  It should have routines to send and receive bytes
- to/from the host, that utilize the hardware control lines (DTR,RTS,DTS,CTS).
- Everything I've seen is in the $200.00 and up range.  That's too much for
- this application.  I need something around $100.00.  The CPU has the UART
- built-in, so you're only looking at a few chips.  Does anyone know a 
+ 	this is a followup post to something i've written previously.  several
+ people responded with good information, but i don't think i communicated 
+ exactly what i am looking for.
+ 	i'm working on a custom i/o device that will communicate with a host
+ via rs-232.  my custom circuitry will use an 80c186eb or ec cpu and require
+ about 64k of ram (preferably flash ram).  in looking around, i see that lots
+ of people have engineered uart-cpu-rom-ram subsystems that are ready to be
+ interfaced to your custom i/o devices.  it's been done so much, that it 
+ would be best if i can avoid reinventing a system.  it just needs to use
+ an 80c186 (or 188) cpu, and be able to load a program from the host then 
+ transfer control to that program.  well, there's one other thing the rom
+ needs to know how to do.  it should have routines to send and receive bytes
+ to/from the host, that utilize the hardware control lines (dtr,rts,dts,cts).
+ everything i've seen is in the $200.00 and up range.  that's too much for
+ this application.  i need something around $100.00.  the cpu has the uart
+ built-in, so you're only looking at a few chips.  does anyone know a 
  company that markets a good board in this range, or some public domain 
- circuitry I can use?  Thanks in advance for the info.
+ circuitry i can use?  thanks in advance for the info.
  
- Rich
+ rich
  
  

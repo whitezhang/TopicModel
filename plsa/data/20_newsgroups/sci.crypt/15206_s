@@ -1,96 +1,96 @@
 
- In article <1qmugcINNpu9@gap.caltech.edu> hal@cco.caltech.edu (Hal Finney) writes:
- >The key question is whether non-Clipper encryption will be made illegal.
+ in article <1qmugcinnpu9@gap.caltech.edu> hal@cco.caltech.edu (hal finney) writes:
+ >the key question is whether non-clipper encryption will be made illegal.
  >
- >>     The Administration is not saying, "since encryption
+ >>     the administration is not saying, "since encryption
  >>     threatens the public safety and effective law enforcement,
  >>     we will prohibit it outright" (as some countries have
- >>     effectively done); nor is the U.S. saying that "every
+ >>     effectively done); nor is the u.s. saying that "every
  
- Does anyone know what countries are these?
+ does anyone know what countries are these?
  
- >>     American, as a matter of right, is entitled to an
- >>     unbreakable commercial encryption product."  There is a
+ >>     american, as a matter of right, is entitled to an
+ >>     unbreakable commercial encryption product."  there is a
  >>     false "tension" created in the assessment that this issue is
- >>     an "either-or" proposition.  Rather, both concerns can be,
+ >>     an "either-or" proposition.  rather, both concerns can be,
  >>     and in fact are, harmoniously balanced through a reasoned,
- >>     balanced approach such as is proposed with the "Clipper
- >>     Chip" and similar encryption techniques.
+ >>     balanced approach such as is proposed with the "clipper
+ >>     chip" and similar encryption techniques.
  >
- >The clear middle ground implied by these statements is to say that Americans
- >have the right to Clipper encryption, but not to unbreakable encryption.
- >This implies that, ultimately, non-Clipper strong encryption must become
+ >the clear middle ground implied by these statements is to say that americans
+ >have the right to clipper encryption, but not to unbreakable encryption.
+ >this implies that, ultimately, non-clipper strong encryption must become
  >illegal.
  
- With the following logical consequences
- 	(a) Using any code designed to obscure informatio which is 
+ with the following logical consequences
+ 	(a) using any code designed to obscure informatio which is 
  	    not easily breakable will be illegal, including
- 		(i) Using code words such as ``Project P5''
- 		(ii) Speaking a language other than English
- 		(iii) Ever refering implicitly to events not known to
+ 		(i) using code words such as ``project p5''
+ 		(ii) speaking a language other than english
+ 		(iii) ever refering implicitly to events not known to
  			everyone, eg
- 			"Hi John. How was last night?"
- 		      For all the listener knows, this may be a code for
- 			"Did you pick up the drugs OK last night?"
+ 			"hi john. how was last night?"
+ 		      for all the listener knows, this may be a code for
+ 			"did you pick up the drugs ok last night?"
  		      of be a code for
- 		        "OK. We blow up the Pentagon at midnight."
- 		(iv) Mentioning anything that could not be perfectly
+ 		        "ok. we blow up the pentagon at midnight."
+ 		(iv) mentioning anything that could not be perfectly
  		     understood by an average person with no education.
- 		(v) Words with more than one syllable.
- 		(vi) Speaking with a heavy accent that could bemisunderstood
+ 		(v) words with more than one syllable.
+ 		(vi) speaking with a heavy accent that could bemisunderstood
  		     by people not used to it.
- 		(vii) books with an "Inner meaning"...such
- 		      as "Animal Farm".
+ 		(vii) books with an "inner meaning"...such
+ 		      as "animal farm".
  
- >(As an aside, isn't the language here jarring?  All this talk about
+ >(as an aside, isn't the language here jarring?  all this talk about
  >"harmonious balance" when they're talking about taking away people's
  >right to communications privacy?)
  
- Yes.
+ yes.
  
- >It looks like the worst nightmares raised by Dorothy Denning's proposals
- >are coming true.  If the government continues on this course, I imagine
- >that we will see strong cryptography made illegal.  Encryption programs
+ >it looks like the worst nightmares raised by dorothy denning's proposals
+ >are coming true.  if the government continues on this course, i imagine
+ >that we will see strong cryptography made illegal.  encryption programs
  >for disk files and email, as well as software to allow for encrypted
  >voice communications, will be distributed only through the
- >"underground".  People will have to learn how to hide the fact that
+ >"underground".  people will have to learn how to hide the fact that
  >they are protecting their privacy.
  
- I have a wonderful encrypter you can borrow that converts a message
- eg "Meet me at 11:30 to bomb the White House. Bring some dynamite"
- to an apparently (relatively) innoculous message. This message
+ i have a wonderful encrypter you can borrow that converts a message
+ eg "meet me at 11:30 to bomb the white house. bring some dynamite"
+ to an apparently (relatively) innoculous message. this message
  here is an example of the output for the above message :-).
  
- >It's shocking and frightening to see that this is actually happening here.
+ >it's shocking and frightening to see that this is actually happening here.
  
- It is shockiong that it could happen anywhere.
- It is shocking that it could happen in a country 
+ it is shockiong that it could happen anywhere.
+ it is shocking that it could happen in a country 
  that has the arrogance to call itself free.
  
- What you can do:
- 	(1) Write to your congress person in plain text.
- 	(2) Write to your congress person in encrypted text.
+ what you can do:
+ 	(1) write to your congress person in plain text.
+ 	(2) write to your congress person in encrypted text.
  		(decrypter optional)
- 	(3) Send some random keystroked to your congressperson
- 	(4) Send some random keystrokes accross the US boundaries,
+ 	(3) send some random keystroked to your congressperson
+ 	(4) send some random keystrokes accross the us boundaries,
  		and keep the spooks busy trying to decode it.
- 	(5) Write your own encryption algorithms.
- 	(6) Don't buy clipper products.
+ 	(5) write your own encryption algorithms.
+ 	(6) don't buy clipper products.
  
- P.S. I can't work out why the US government doesn't want to sell
- them overseas. After all, they are rather easy for US interests to decode,
+ p.s. i can't work out why the us government doesn't want to sell
+ them overseas. after all, they are rather easy for us interests to decode,
  so make a perfect tool for industrial/military espionage...lulling 
- anyone stupid enough to buy it into a false sense of security. You will
- notice that there is NO mention anywhere about safety for non-Americans.
+ anyone stupid enough to buy it into a false sense of security. you will
+ notice that there is no mention anywhere about safety for non-americans.
  
- Disclaimer: My opinions are mine alone, and do not represent anyone elses.
- I have nothing that I particularly want to hide at the moment...though I 
+ disclaimer: my opinions are mine alone, and do not represent anyone elses.
+ i have nothing that i particularly want to hide at the moment...though i 
  consider the right
- to be able to use whatever method of coding data I like to be high on my
+ to be able to use whatever method of coding data i like to be high on my
  list of priorities.
  
  -- 
  -----------------------------------------------------------------
- Andrew Conway    arc@leland.stanford.edu  Phone: USA 415 497 1094
+ andrew conway    arc@leland.stanford.edu  phone: usa 415 497 1094
  
  

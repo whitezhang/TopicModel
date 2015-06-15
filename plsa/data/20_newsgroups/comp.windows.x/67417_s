@@ -1,27 +1,27 @@
 
- The MOTIF application consists of multiple Transient shells as children 
- of a single TopLevel shell:
+ the motif application consists of multiple transient shells as children 
+ of a single toplevel shell:
  
  +-----------+   +---------------+   +----------------+
- | AppShell  |---| TopLevelShell |---| TransientShell |
+ | appshell  |---| toplevelshell |---| transientshell |
  +-----------+   +---------------+ | +----------------+
                                    |
                                    | +----------------+
-                                   |-| TransientShell |
+                                   |-| transientshell |
                                    | +----------------+
                                    |
  
- While a Transient shell is popped-up, my application modifies the 
- sensitivity of a button in the TopLevel shell which is hidden by the 
- Transient shell window.  When the Transient shell is popped-down, the 
+ while a transient shell is popped-up, my application modifies the 
+ sensitivity of a button in the toplevel shell which is hidden by the 
+ transient shell window.  when the transient shell is popped-down, the 
  button sensitivity is correct but the button text remains unchanged 
- (i.e., solid/shaded).  Subsequent selection of the button causes the 
+ (i.e., solid/shaded).  subsequent selection of the button causes the 
  text to revert to the correct visual state.
  
- When tracing event messages sent to the application, many of the events 
- seen under mwm are not present under OpenWindows.
+ when tracing event messages sent to the application, many of the events 
+ seen under mwm are not present under openwindows.
  
- If anyone has any suggestions or solutions please post or send me mail.
-   Thanks!
+ if anyone has any suggestions or solutions please post or send me mail.
+   thanks!
  
  

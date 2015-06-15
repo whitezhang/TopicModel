@@ -1,61 +1,61 @@
 
- Hello,
+ hello,
  
- I thought this problem might have something to do with Windows 3.1 SMARTDRV and
- a VESA video card...any ideas???
+ i thought this problem might have something to do with windows 3.1 smartdrv and
+ a vesa video card...any ideas???
  
- I recently purchased a 486DX-33 machine and am having problems where the 
- machine will suddenly freeze or reboot.  This may happen in Windows 3.1 or DOS 
- 5.0.  Sometimes it is after printing a document, sometimes after using the 
- mouse, and sometimes just when I am sitting there.  Twice when it happened, the 
- machine rebooted and sounded seven beeps.  I looked in the documentation and 
- the seven beep code meant a problem with interrupts.  The machine has the 
+ i recently purchased a 486dx-33 machine and am having problems where the 
+ machine will suddenly freeze or reboot.  this may happen in windows 3.1 or dos 
+ 5.0.  sometimes it is after printing a document, sometimes after using the 
+ mouse, and sometimes just when i am sitting there.  twice when it happened, the 
+ machine rebooted and sounded seven beeps.  i looked in the documentation and 
+ the seven beep code meant a problem with interrupts.  the machine has the 
  following configuration and files:
  
- 486DX-33
- AMI BIOS
+ 486dx-33
+ ami bios
  5.25 and 3.5 floppies
- 170 Meg IDE hard drive
+ 170 meg ide hard drive
  256k cache
- Microsoft compatible mouse on com1
- Citizen GSX-145 on lpt1
- NI SuperVGA Monitor with VESA Windows Accelerator Card w/ 1Meg
- Two VESA slots
- Windows 3.1
- DOS 5.0
+ microsoft compatible mouse on com1
+ citizen gsx-145 on lpt1
+ ni supervga monitor with vesa windows accelerator card w/ 1meg
+ two vesa slots
+ windows 3.1
+ dos 5.0
  
- CONFIG.SYS
+ config.sys
  ==========
- DEVICE=C:\WINDOWS\HIMEM.SYS
- DOS=HIGH
- DEVICEHIGH=C:\DOS\SETVER.EXE
- FILES=20
- BUFFERS=20
- STACKS=9,128
+ device=c:\windows\himem.sys
+ dos=high
+ devicehigh=c:\dos\setver.exe
+ files=20
+ buffers=20
+ stacks=9,128
  
- AUTOEXEC.BAT
+ autoexec.bat
  ============
- @ECHO OFF
- LH C:\WINDOWS\SMARTDRV.EXE 1024
- PROMPT $p$g
- PATH C:\DOS;C:\WINDOWS;C:\MOUSE
- LH C:\MOUSE\MOUSE
- SET TEMP=C:\DOS
- LH C:\DOS\DOSKEY 
+ @echo off
+ lh c:\windows\smartdrv.exe 1024
+ prompt $p$g
+ path c:\dos;c:\windows;c:\mouse
+ lh c:\mouse\mouse
+ set temp=c:\dos
+ lh c:\dos\doskey 
  
  
- When the machine freezes, I can't use the mouse or keyboard or use Ctrl-Alt-Del 
- to reboot.  If any one can give me any help, I would greatly appreciate it.  If 
- anyone can help configure this machine for the best efficiency (memory wise) I 
+ when the machine freezes, i can't use the mouse or keyboard or use ctrl-alt-del 
+ to reboot.  if any one can give me any help, i would greatly appreciate it.  if 
+ anyone can help configure this machine for the best efficiency (memory wise) i 
  would appreciate that also.
  -- 
- Douglas B. Dodson		 	Internet:	DBD@ICF.HRB.COM
- HRB Systems, Inc.			
- State College, PA  USA			
+ douglas b. dodson		 	internet:	dbd@icf.hrb.com
+ hrb systems, inc.			
+ state college, pa  usa			
  16804
  
- Disclaimer!
+ disclaimer!
  ===========
- Any ideas or opinions expressed here do not necessarily reflect the ideas or 
- opinions of HRB.
+ any ideas or opinions expressed here do not necessarily reflect the ideas or 
+ opinions of hrb.
  

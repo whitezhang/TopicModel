@@ -1,41 +1,41 @@
 
- Here's an interesting table showing how much resources an application
- uses and how much it gives back on shut down.  This is take from
- Windows User May 1993 issue:
+ here's an interesting table showing how much resources an application
+ uses and how much it gives back on shut down.  this is take from
+ windows user may 1993 issue:
  
  
- Application		Min. Resource Use	Resource Not Returned
- 			GDI	USER		GDI	USER
+ application		min. resource use	resource not returned
+ 			gdi	user		gdi	user
  
- WinSleuth Gold v3.03	10	6		2	14
- Word For Windows v2.0b	10	0		5	0
- Lotus 123 v1.1		13	3		3	2
- Arts and Leters v3.12	7	7		3	1
- PowerPoint v3.0		9	1		3	0
- Corel Draw v3.0		10	6		3	0
- Micro. Designer v3.1	10	2		2	0
- CrossTalk v2.0		0	0		0	0
- Excel v4.0a		11	8		0	0
- HiJacck v1.0		2	2		0	0
- Image-In Color Pro	3	2		0	0
- PIcture Publisher v3.1	21	8		0	0	
- PowerLeads!-
-   Executive Ed. v1.03	0	5		0	0
- Adobe Type Manager v2.5	1	0		NA	NA
- Skylight v2.0		1	0		0	0
+ winsleuth gold v3.03	10	6		2	14
+ word for windows v2.0b	10	0		5	0
+ lotus 123 v1.1		13	3		3	2
+ arts and leters v3.12	7	7		3	1
+ powerpoint v3.0		9	1		3	0
+ corel draw v3.0		10	6		3	0
+ micro. designer v3.1	10	2		2	0
+ crosstalk v2.0		0	0		0	0
+ excel v4.0a		11	8		0	0
+ hijacck v1.0		2	2		0	0
+ image-in color pro	3	2		0	0
+ picture publisher v3.1	21	8		0	0	
+ powerleads!-
+   executive ed. v1.03	0	5		0	0
+ adobe type manager v2.5	1	0		na	na
+ skylight v2.0		1	0		0	0
  
- *The numbers are in percentage and are in a decreasing order.
+ *the numbers are in percentage and are in a decreasing order.
  
- What does this table tells you, if you frequently start and exit a
+ what does this table tells you, if you frequently start and exit a
  program that doesn't give back all of it's resources, then you
- continually lose these resouces.  Therefore, only open these programs
+ continually lose these resouces.  therefore, only open these programs
  up once and leave them open.
  
  
- BTW:  Maybe people can add to this list so we know what application to
+ btw:  maybe people can add to this list so we know what application to
  watch out for.
   
  later,
- Doug
+ doug
  
  

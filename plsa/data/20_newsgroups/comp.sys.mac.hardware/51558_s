@@ -1,32 +1,32 @@
 
- In article <C5Fqno.9HH@news.udel.edu> Bill Johnston, johnston@me.udel.edu
+ in article <c5fqno.9hh@news.udel.edu> bill johnston, johnston@me.udel.edu
  writes:
- > >I'm going to buy a DayStar 68040 with 25 MHz for the SE/30. Since there
+ > >i'm going to buy a daystar 68040 with 25 mhz for the se/30. since there
  > >were so many mails about problems with this board, my questions:
- > >does the board work with 7.1 and A/UX 3.0 ? Does anybody know problems
+ > >does the board work with 7.1 and a/ux 3.0 ? does anybody know problems
  > >with any kind of software ?
  > 
- > Well, I haven't seen any reports of problems with the Turbo '040,
- > but to my knowledge, Daystar has not released a version of the 
- > board that works with anything but the IIsi and IIci, and they
- > have not finished tweaking/testing for use with A/UX.  This may
- > not happen until the A/UX 3.0.2 upgrade is released (my guess) so 
- > I'd recommend waiting or buying the 50 MHz '030 board and upgrade
- > later when A/UX compatibility is assured.  Turbo '040 interface 
- > cards for the II, IIx, SE/30, IIcx, etc will probably be available
- > sooner, but if A/UX compatibility is a requirement, it is probably
+ > well, i haven't seen any reports of problems with the turbo '040,
+ > but to my knowledge, daystar has not released a version of the 
+ > board that works with anything but the iisi and iici, and they
+ > have not finished tweaking/testing for use with a/ux.  this may
+ > not happen until the a/ux 3.0.2 upgrade is released (my guess) so 
+ > i'd recommend waiting or buying the 50 mhz '030 board and upgrade
+ > later when a/ux compatibility is assured.  turbo '040 interface 
+ > cards for the ii, iix, se/30, iicx, etc will probably be available
+ > sooner, but if a/ux compatibility is a requirement, it is probably
  > best to be patient and let someone else be the pioneer.  ;-)
  
- An added advantate of waiting for the DayStar for the SE/30 is that,
+ an added advantate of waiting for the daystar for the se/30 is that,
  just as with the '030 power cache, the '040 accelerator will plug into
- the CPU socket, leaving the PDS slot free for a video card or ethernet
- card.  With DayStar's upgrade path, it's a no lose situation.
+ the cpu socket, leaving the pds slot free for a video card or ethernet
+ card.  with daystar's upgrade path, it's a no lose situation.
  
  -------------------------------------------------------------------------
  
- Earl D. Fife          |          Department of Mathematics
- fife@calvin.edu       |          Calvin College
- (616)957-6403         |          Grand Rapids, MI 49546
+ earl d. fife          |          department of mathematics
+ fife@calvin.edu       |          calvin college
+ (616)957-6403         |          grand rapids, mi 49546
  
  =========================================================================
  

@@ -1,30 +1,30 @@
 
- In article <1993Apr5.145635.16857@Informatik.TU-Muenchen.DE>
- wilk@Informatik.TU-Muenchen.DE (Christian Wilk) writes:
+ in article <1993apr5.145635.16857@informatik.tu-muenchen.de>
+ wilk@informatik.tu-muenchen.de (christian wilk) writes:
  |> 
- |> Hello,
+ |> hello,
  |> 
- |> does somebody know the functions  XtShellStrings and XtStrings?
- |> I haven't found them in any librarys not Xm, Xt, nor X11, and I need
+ |> does somebody know the functions  xtshellstrings and xtstrings?
+ |> i haven't found them in any librarys not xm, xt, nor x11, and i need
  |> them to install a tool.
  |> 
- |> Any hints greatly appreciated! Please reply via e-mail.
+ |> any hints greatly appreciated! please reply via e-mail.
  
- They aren't functions, they are character arrays. The standard strings
+ they aren't functions, they are character arrays. the standard strings
  are either defined as string constants or character pointers into
- XtShellStrings and XtStrings determined by XTSTRINGDEFINES. Your
+ xtshellstrings and xtstrings determined by xtstringdefines. your
  libraries were compiled with this defined and your application with it
- undefined so simply recompile one or the other. It is probably worth
- adding -DXTSTRINGDEFINES to your CFLAGS.
+ undefined so simply recompile one or the other. it is probably worth
+ adding -dxtstringdefines to your cflags.
  
  -- 
  
- Michael Salmon
+ michael salmon
  
  #include	<standard.disclaimer>
  #include	<witty.saying>
  #include	<fancy.pseudo.graphics>
  
- Ericsson Telecom AB
- Stockholm
+ ericsson telecom ab
+ stockholm
  

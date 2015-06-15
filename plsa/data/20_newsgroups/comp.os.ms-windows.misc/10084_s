@@ -1,29 +1,29 @@
 
- Somebody help me cure my poor computer before I go insane!
+ somebody help me cure my poor computer before i go insane!
  
- I have a problem with my 486 when running windows that appears
- to be memory-related.  It's actually not limited to windows, but
- that's where it causes most of my problems.  Ths machine's 486DX33,
- 8Meg RAM, 256Kcache, TRIDENT TVGA card, PAS-16 soundcard.
+ i have a problem with my 486 when running windows that appears
+ to be memory-related.  it's actually not limited to windows, but
+ that's where it causes most of my problems.  ths machine's 486dx33,
+ 8meg ram, 256kcache, trident tvga card, pas-16 soundcard.
  
- 1)  Windows runs REALLY, REALLY slow most of the time.  Slower than
- on my old 386SX16.  Graphics draws/fills are slow, boots are slow,
+ 1)  windows runs really, really slow most of the time.  slower than
+ on my old 386sx16.  graphics draws/fills are slow, boots are slow,
  applications are sluggish, dialog boxes take up to 15 seconds to appear.
- (Note: some of my other non-windows applications do funny things that
- appear to be related.  Several run slow, my .mod player crashes the
+ (note: some of my other non-windows applications do funny things that
+ appear to be related.  several run slow, my .mod player crashes the
  system etc..)
  
- 2) Running Borland C++ 3.0 before running windows (or any of the other
- programs)  COMPLETELY fixes the problem.  Windows will run as fast as
- I've ever seen it run, easily 10 times faster for graphics than
- when I don't run BC beforehand.
+ 2) running borland c++ 3.0 before running windows (or any of the other
+ programs)  completely fixes the problem.  windows will run as fast as
+ i've ever seen it run, easily 10 times faster for graphics than
+ when i don't run bc beforehand.
  
- 3)  I don't have a memory manager installed in config.sys.  Installing
- emm386.exe does not fix the problem- it makes it worse.  After emm386 is
- installed, running BC will not fix the problem anymore.
+ 3)  i don't have a memory manager installed in config.sys.  installing
+ emm386.exe does not fix the problem- it makes it worse.  after emm386 is
+ installed, running bc will not fix the problem anymore.
  
- This problem is driving me nuts.  If you think you can help,
+ this problem is driving me nuts.  if you think you can help,
  please reply through the mail.
- Thanks,
- Evan 
+ thanks,
+ evan 
  

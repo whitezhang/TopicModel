@@ -1,149 +1,149 @@
 
  
- To those interested in the new ATI Ultra Cards:
+ to those interested in the new ati ultra cards:
  
- I had posted some questions regarding the new ATI Ultra Pro cards and
+ i had posted some questions regarding the new ati ultra pro cards and
  had asked confirmation of some opinions.
  
- This message is a summary of the responses. Thanks to all of you that
+ this message is a summary of the responses. thanks to all of you that
  replied.
  
  
- > 1) The card does not work in a system with 32M RAM.
+ > 1) the card does not work in a system with 32m ram.
  
- a) The higher memory limits apply to ISA cards only, as far as I know.  The VLB
-    and EISA version should have no problems.
+ a) the higher memory limits apply to isa cards only, as far as i know.  the vlb
+    and eisa version should have no problems.
   
- b) I'm pretty sure from my experience that the ISA version doesn't
-    work in systems with over 16M Ram.  There is supposed to be way
+ b) i'm pretty sure from my experience that the isa version doesn't
+    work in systems with over 16m ram.  there is supposed to be way
     of switching the "memory aperture" feature off to prevent this,
-    but apparently it doesn't work.  I posted some "help me" messages
-    on the net and people indicated that the EISA card didn't have this
+    but apparently it doesn't work.  i posted some "help me" messages
+    on the net and people indicated that the eisa card didn't have this
     problem.
  
- c) FALSE
+ c) false
  
- d) The VLB card, which I have, allows you to set memory aperture over 32M
-    by using their configuration software.  No messing with jumpers necessary.
+ d) the vlb card, which i have, allows you to set memory aperture over 32m
+    by using their configuration software.  no messing with jumpers necessary.
  
-    The 32M problem is probably valid only for ISA cards.
+    the 32m problem is probably valid only for isa cards.
  
  
- > 2) The card works in a 32M system with some switches
+ > 2) the card works in a 32m system with some switches
  >    set but it is much slower.
  
- a) Again, the memory aperture need only be disabled if you have more than 124M RAM
-    (EISA and VLB) or 12 M (ISA).  32M should not be a problem for you. 
+ a) again, the memory aperture need only be disabled if you have more than 124m ram
+    (eisa and vlb) or 12 m (isa).  32m should not be a problem for you. 
   
- b) Dunno.
+ b) dunno.
  
- c) Depends on the bus. YES if ISA, NO if EISA or Localbus
+ c) depends on the bus. yes if isa, no if eisa or localbus
  
  
- > 3) The card is _interlaced_ in its 24bit (true-colour) modes.
+ > 3) the card is _interlaced_ in its 24bit (true-colour) modes.
  
- a) Nope.  I can use 640x480 at 72hz, 24-bit and 800x600 at 70hz, 24-bit, all
+ a) nope.  i can use 640x480 at 72hz, 24-bit and 800x600 at 70hz, 24-bit, all
     non-interlaced.
  
- b) Yes - According to PC Magazine, they've tested a local bus version
+ b) yes - according to pc magazine, they've tested a local bus version
     that does 1024x768 in 24-bit which may or may not be interlaced.
  
- c) Not for the Pro. Sometimes for the Plus.
+ c) not for the pro. sometimes for the plus.
  
-    Some modes may run only interlaced on certain monitors. This has nothing to 
-    do with 24 bits ... only with screen size. Note that for 24 bit color
-    and Windows you MUST have 2 megs, memory size calculations notwithstanding.
+    some modes may run only interlaced on certain monitors. this has nothing to 
+    do with 24 bits ... only with screen size. note that for 24 bit color
+    and windows you must have 2 megs, memory size calculations notwithstanding.
  
  
- > 4) The latest build 59 drivers still do not work in many
+ > 4) the latest build 59 drivers still do not work in many
  >    cases.
  
- a) They aren't perfect, but are much improved.  I don't recall the last time which
-    I had to leave mach 32 mode (ATI GUP mode) and switch to 8514 or VGA mode due
+ a) they aren't perfect, but are much improved.  i don't recall the last time which
+    i had to leave mach 32 mode (ati gup mode) and switch to 8514 or vga mode due
     to software incompatibility.
  
- b) True.  Many people recommended going back to Build 55 or 54.
+ b) true.  many people recommended going back to build 55 or 54.
  
- c) They appear to be excellent, but have a few bugs. For example, certain
-    graphs with dashed lines in Mathcad 3.1 do not print correctly, though they
-    do display OK on the screen. They are about par for fancy cards ..
+ c) they appear to be excellent, but have a few bugs. for example, certain
+    graphs with dashed lines in mathcad 3.1 do not print correctly, though they
+    do display ok on the screen. they are about par for fancy cards ..
     other accelerated cards also have bugs.
  
- d) Overall, I like the card, even if driver performance is somewhat less than
-    satisfactory.  I am running the 1024*768 16 Color mode as that is all my
-    NT driver for October NT version seems to allow.
+ d) overall, i like the card, even if driver performance is somewhat less than
+    satisfactory.  i am running the 1024*768 16 color mode as that is all my
+    nt driver for october nt version seems to allow.
  
-    I will say this that Color performance is not quite as nice as a Diamond
-    Stealth VRAM, but I have not been able to try out a lot of the options on
+    i will say this that color performance is not quite as nice as a diamond
+    stealth vram, but i have not been able to try out a lot of the options on
     the old driver.
  
  
- > 5) This card is the fastest full colour card for the money.
+ > 5) this card is the fastest full colour card for the money.
  
- a) It's quite fast, but whether or not its the fastest is open to debate.
+ a) it's quite fast, but whether or not its the fastest is open to debate.
   
- b) Yes - I'll admit it was very very fast in 16-bit mode, which is what
-    I wanted to use it for.  Too bad it crashed (in many different ways)
+ b) yes - i'll admit it was very very fast in 16-bit mode, which is what
+    i wanted to use it for.  too bad it crashed (in many different ways)
     every 20 minutes or so...
  
- c) Depends on many many things.
+ c) depends on many many things.
  
  
- > 6) This card is the greatest thing since sliced bread. ;-)
+ > 6) this card is the greatest thing since sliced bread. ;-)
  
- a) I like it.
+ a) i like it.
  
- b) Well - PC Magazine seems to think it is.
+ b) well - pc magazine seems to think it is.
  
- c) Yes, this appears to be true :-)
+ c) yes, this appears to be true :-)
  
- d) As to greatest thing since sliced bread, I doubt it.  Better cards are
-    coming out.  Who knows, maybe ATI will come out with something faster yet.
-    Several reviews I read rated one Pycon Winjet card as a superior performer 
-    at a cheaper price except for availability of drivers, which Pycon was 
-    developing at that time.  (PC Magazine, about two months or so back)
+ d) as to greatest thing since sliced bread, i doubt it.  better cards are
+    coming out.  who knows, maybe ati will come out with something faster yet.
+    several reviews i read rated one pycon winjet card as a superior performer 
+    at a cheaper price except for availability of drivers, which pycon was 
+    developing at that time.  (pc magazine, about two months or so back)
  
-    Overall, the card has a lot of potential, but you have to be able to use it.
+    overall, the card has a lot of potential, but you have to be able to use it.
   
  
  -----------------------------------------------------------------------------
- That is the end of the questions. These were the most discussed items in this
- group so I thought they needed confirmation. For those of you not familiar
- with the card I have included a summary here (from an ATI ad since I don't have
- an Graphics Ultra yet.)
+ that is the end of the questions. these were the most discussed items in this
+ group so i thought they needed confirmation. for those of you not familiar
+ with the card i have included a summary here (from an ati ad since i don't have
+ an graphics ultra yet.)
  
- ATI Graphics Ultra Plus:
- - Accelerated 1024x768 at 65K colours
- - True colour(16.7M) at 800x600
- - Multimedia Video Acceleration (for Indeo Video,RLE and Video 1 compressed)
-   Stretch full motion video windows to full size
- - Fast VGA
- - Includes 3 button mouse (ISA versions only)
- - Anti-aliased fonts (ed. avail in 16 colour mode only,I think)
- - Real-time pan and zoom across large virtual windows desktop
- - Around a 1/2 length card size
- - Priced from $400 U.S.
+ ati graphics ultra plus:
+ - accelerated 1024x768 at 65k colours
+ - true colour(16.7m) at 800x600
+ - multimedia video acceleration (for indeo video,rle and video 1 compressed)
+   stretch full motion video windows to full size
+ - fast vga
+ - includes 3 button mouse (isa versions only)
+ - anti-aliased fonts (ed. avail in 16 colour mode only,i think)
+ - real-time pan and zoom across large virtual windows desktop
+ - around a 1/2 length card size
+ - priced from $400 u.s.
  
- ATI Graphics Ultra Pro:
- - Everything in Graphics Ultra Plus
- - Faster performance with VRAMS
- - Accelerated 1280x1024 at 256 colours 74Hz non-interlaced
- - Available in ISA, EISA and Microchannel
- - Priced from $600 U.S.
+ ati graphics ultra pro:
+ - everything in graphics ultra plus
+ - faster performance with vrams
+ - accelerated 1280x1024 at 256 colours 74hz non-interlaced
+ - available in isa, eisa and microchannel
+ - priced from $600 u.s.
  
- ATI Technologies
+ ati technologies
  (416) 756-0718
  
- I hope this summary can be of use to you.
+ i hope this summary can be of use to you.
  
- Al
+ al
  
- P.S.  I am not associated with ATI Technologies in any way other
-       than having used their previous ATI Ultra card for a few
-       years (which I generally liked).
+ p.s.  i am not associated with ati technologies in any way other
+       than having used their previous ati ultra card for a few
+       years (which i generally liked).
  
  
  -- 
- Alan Walford     Eos Systems Inc., Vancouver,B.C., Canada  Tel: 604-734-8655
- aew@eosvcr.wimsey.bc.ca           OR        ...uunet!wimsey.bc.ca!eosvcr!aew  
+ alan walford     eos systems inc., vancouver,b.c., canada  tel: 604-734-8655
+ aew@eosvcr.wimsey.bc.ca           or        ...uunet!wimsey.bc.ca!eosvcr!aew  
  

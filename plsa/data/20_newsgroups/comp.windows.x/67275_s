@@ -1,32 +1,32 @@
 
  
- Tcpview is the result of several problems we had at UW.  We have several
- Network General Sniffers which are heavily used to help debug problems on
- several hundred subnets. These are good tools, but they are 1) heavy, 
+ tcpview is the result of several problems we had at uw.  we have several
+ network general sniffers which are heavily used to help debug problems on
+ several hundred subnets. these are good tools, but they are 1) heavy, 
  2) hard to find when you need one, 3) limited in their software expandibility,
  4) difficult to use to upload data for analysis, 5) cannot be remotely
- operated, and 6) cannot resolve names with DNS, requiring much manual 
- manipulation of the name table.  We also sometimes use tcpdump, but we found 
+ operated, and 6) cannot resolve names with dns, requiring much manual 
+ manipulation of the name table.  we also sometimes use tcpdump, but we found 
  it 1) too difficult for most people, 2) did not have enough information for
  many protocols, 3) could not be used interactively, 4) could not handle
- TCP streams and 5) could not read Sniffer files.  However, tcpdump did do
+ tcp streams and 5) could not read sniffer files.  however, tcpdump did do
  a reasonable job of decoding a large number of protocols, and could be easily
- modified.  Tcpview is an attempt to resolve these problems
- by adding a Motif interface to tcpdump and expanding its features.
+ modified.  tcpview is an attempt to resolve these problems
+ by adding a motif interface to tcpdump and expanding its features.
  
- Tcpview has been tested on a DECstation 5000 and Sun 4 under Ultrix 4.2 and
- SunOS 4.1 respectively.  It should work on the same systems as tcpdump.
- It compiles with cc and gcc on the DEC and Sun.  To build tcpview you will
- need Motif 1.1 or better.
+ tcpview has been tested on a decstation 5000 and sun 4 under ultrix 4.2 and
+ sunos 4.1 respectively.  it should work on the same systems as tcpdump.
+ it compiles with cc and gcc on the dec and sun.  to build tcpview you will
+ need motif 1.1 or better.
  
- The following files are available for anonymous ftp from 
+ the following files are available for anonymous ftp from 
  ftp.cac.washington.edu in /pub/networking
  
- tcpview-1.0.tar.Z	tcpview and tcpdump source code
- tcpview-1.0.sun.tar.Z	Sun4 binaries
- tcpview-1.0.dec.tar.Z	DEC Mips Ultrix 4.2 binaries
+ tcpview-1.0.tar.z	tcpview and tcpdump source code
+ tcpview-1.0.sun.tar.z	sun4 binaries
+ tcpview-1.0.dec.tar.z	dec mips ultrix 4.2 binaries
  
- What tcpview adds to tcpdump:
+ what tcpview adds to tcpdump:
  - easier interface
  - enhanced protocol decoding
  - hex display of frame
@@ -34,49 +34,49 @@
  - can show ethernet addresses with manufacturer's name
  - ethernet address host table
  - can easily follow a stream, highlighting out-of-order frames
- - can send TCP data to an external file or filter for additional
+ - can send tcp data to an external file or filter for additional
  	processing.
  
  -------------------------------------------------------------------------------
- CHANGES TO TCPDUMP 2.2.1
+ changes to tcpdump 2.2.1
  
- New features:
+ new features:
  
- Now reads and writes Network General Sniffer files.  When used with '-r', the 
+ now reads and writes network general sniffer files.  when used with '-r', the 
  file type will be automatically detected.
  
- Can now read in (and use) an SNMP MIB file.
+ can now read in (and use) an snmp mib file.
  
- The hex format has been changed.
+ the hex format has been changed.
  
- New time options have been added.
+ new time options have been added.
  
- Options were added to allow viewing and processing of the data in TCP packets.
+ options were added to allow viewing and processing of the data in tcp packets.
  
- Bugs were fixed in the relative TCP sequence numbers. (-S flag)
+ bugs were fixed in the relative tcp sequence numbers. (-s flag)
  
- New flags:
- -R	read Sniffer file.  Not usually needed, except for reading from stdin
+ new flags:
+ -r	read sniffer file.  not usually needed, except for reading from stdin
  -ttt	prints delta times
  -tttt	prints times relative to the first frame
- -W	write a Sniffer save file (use with -w)
+ -w	write a sniffer save file (use with -w)
  -x	print frame (minus link-level header) in hexdump format.  
- 	Sample output:
+ 	sample output:
  
- 16:36:23.349851 jeff.cac.washington.edu.1285 > nic.funet.fi.ftp: S 0:0(0) win 16384
-         0000  45 00 00 28 8a 98 00 00 3c 06 7c 9c 80 5f 70 02   |  E..(....<.|.._p.
-         0010  80 d6 06 64 05 05 00 15 5b 19 4a 00 00 00 00 00   |  ...d....[.J.....
-         0020  50 02 40 00 4e 13 00 00 00 00 00 00 00 00         |  P.@.N.........
+ 16:36:23.349851 jeff.cac.washington.edu.1285 > nic.funet.fi.ftp: s 0:0(0) win 16384
+         0000  45 00 00 28 8a 98 00 00 3c 06 7c 9c 80 5f 70 02   |  e..(....<.|.._p.
+         0010  80 d6 06 64 05 05 00 15 5b 19 4a 00 00 00 00 00   |  ...d....[.j.....
+         0020  50 02 40 00 4e 13 00 00 00 00 00 00 00 00         |  p.@.n.........
  
- -X	print TCP data in hexdump format (used with -Z)
- -z	write TCP data to stdout (use with -t to eliminate timestamp)
- -Z	write frames and TCP data to stdout
+ -x	print tcp data in hexdump format (used with -z)
+ -z	write tcp data to stdout (use with -t to eliminate timestamp)
+ -z	write frames and tcp data to stdout
  
  
- Martin M. Hunt
+ martin m. hunt
  martinh@cac.washington.edu
- Networks & Distributed Computing
- University of Washington
+ networks & distributed computing
+ university of washington
  
  
  
@@ -86,6 +86,6 @@
  --
  
  -------------------------------------------------------------------------------
- Martin Hunt                            martinh@cac.washington.edu   
- Networks and Distributed Computing     University of Washington		  
+ martin hunt                            martinh@cac.washington.edu   
+ networks and distributed computing     university of washington		  
  

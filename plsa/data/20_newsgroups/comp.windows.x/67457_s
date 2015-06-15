@@ -1,25 +1,25 @@
 
- At the moment, I am using a Sun 3/80 (cgfour/bwtwo) with SunOS 4.0.3
- and OpenWindows 2.0.
+ at the moment, i am using a sun 3/80 (cgfour/bwtwo) with sunos 4.0.3
+ and openwindows 2.0.
  
- This configuration is slow and I can't run all the programs on OW2. For
- example, when I start a mailtool from OW3 and display it on my OW2
- display, I can't open the compose window.
+ this configuration is slow and i can't run all the programs on ow2. for
+ example, when i start a mailtool from ow3 and display it on my ow2
+ display, i can't open the compose window.
  
- I want to install an X11R5 or X11R4 server on my Sun and use xdm (yes,
- we have xdm already running for other X-Terminals) to log in and start
- the X programs.
+ i want to install an x11r5 or x11r4 server on my sun and use xdm (yes,
+ we have xdm already running for other x-terminals) to log in and start
+ the x programs.
  
- Is there a "ready to go" binairy of the X11 server for my configuration
- (I have read something about Xsun), or must I compile the X11 stuff by
+ is there a "ready to go" binairy of the x11 server for my configuration
+ (i have read something about xsun), or must i compile the x11 stuff by
  myself?
  
- Any help is welcome
+ any help is welcome
  
- 	V. Smeets
+ 	v. smeets
  
  -- 
- --	Vincent Smeets			Competence Center Informatik GmbH
- --	smeets@cci.de			Software Engineering / Ada
- --	whois VS36			4470 Meppen, Germany
+ --	vincent smeets			competence center informatik gmbh
+ --	smeets@cci.de			software engineering / ada
+ --	whois vs36			4470 meppen, germany
  

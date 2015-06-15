@@ -1,26 +1,26 @@
 
- In article <C5qtKK.wp@cup.hp.com>, defaria@cup.hp.com (Andy DeFaria) writes:
- |> [ Article crossposted from hp.windows ]
- |> [ Author was Andy DeFaria ]
- |> [ Posted on Mon, 19 Apr 1993 18:08:38 GMT ]
+ in article <c5qtkk.wp@cup.hp.com>, defaria@cup.hp.com (andy defaria) writes:
+ |> [ article crossposted from hp.windows ]
+ |> [ author was andy defaria ]
+ |> [ posted on mon, 19 apr 1993 18:08:38 gmt ]
  |> 
- |> For some reason the following code causes my X application to beep whenever I
- |> intercept a keystroke and change it's meaning.  The intent of this code it to
+ |> for some reason the following code causes my x application to beep whenever i
+ |> intercept a keystroke and change it's meaning.  the intent of this code it to
  |> allow "date" fields the following special keys:
  |> 
- |> 	[Tt]:	Insert today's date
- |> 	[+=]:	Bump day up by one
- |> 	[-_]:	Bump day down by one
+ |> 	[tt]:	insert today's date
+ |> 	[+=]:	bump day up by one
+ |> 	[-_]:	bump day down by one
  |> 
- |> I hardcoded some dates for this example.  Perhaps I shouldn't be using an
- |> XmText field for this.
+ |> i hardcoded some dates for this example.  perhaps i shouldn't be using an
+ |> xmtext field for this.
  |> 
  |> ////////////////////////////////////////////////////////////////////////////// 
  |> // 
- |> // For some reason the following code beeps whenever any of the special keys
- |> // of [Tt+=-_] are hit.  Why?  The idea of this code is to interpret these
- |> // keys having the special meaning implied by the code.  I would like to get
- |> // rid of the beeping but, as far as I can tell, I'm not doing the beep and 
+ |> // for some reason the following code beeps whenever any of the special keys
+ |> // of [tt+=-_] are hit.  why?  the idea of this code is to interpret these
+ |> // keys having the special meaning implied by the code.  i would like to get
+ |> // rid of the beeping but, as far as i can tell, i'm not doing the beep and 
  |> // am at a lose as to understanding who and why the beeping is occuring.
  |> // 
  |> ////////////////////////////////////////////////////////////////////////////// 
@@ -28,16 +28,16 @@
  
  code deleted...
  
- >From the XmTextField man page (during discussion of resources):
+ >from the xmtextfield man page (during discussion of resources):
  
-    XmNverifyBell
+    xmnverifybell
  
-       Specifies whether a bell will sound when an action is reversed
+       specifies whether a bell will sound when an action is reversed
        during a verification callback.
  
- You are setting doit to false in the callback, and Text[Field] is beeping
- as it should.  To turn off this behavior, set this boolean resource to false.
+ you are setting doit to false in the callback, and text[field] is beeping
+ as it should.  to turn off this behavior, set this boolean resource to false.
  
- Tom McFarland
+ tom mcfarland
  <tommc@cv.hp.com>
  

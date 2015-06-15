@@ -1,24 +1,24 @@
 
- In article <1993Apr15.195810.26648@sol.ctr.columbia.edu> jerry@msi.com (Jerry Shekhel) writes:
- >Hello folks!
+ in article <1993apr15.195810.26648@sol.ctr.columbia.edu> jerry@msi.com (jerry shekhel) writes:
+ >hello folks!
  >
- >I have an Archive XL5580 (internal QIC-80) tape drive, which is pretty
- >comparable to the Colorado Jumbo 250.  Since I have two floppy drives in
- >my system, I'm using a small card (not accelerated) made by Archive to 
+ >i have an archive xl5580 (internal qic-80) tape drive, which is pretty
+ >comparable to the colorado jumbo 250.  since i have two floppy drives in
+ >my system, i'm using a small card (not accelerated) made by archive to 
  >attach my tape drive as a third floppy device.
  >
- >The problem: Although the DOS-based QICstream software works just fine,
- >both the Norton and Central Point backup programs for Windows fail unless
- >I switch the machine to non-turbo speed (I'm using a 486DX/33 EISA).  Since
- >the DOS software works, it can't be a hardware problem, can it?  Has anyone
- >seen similar problems?  Any solutions?  Thanks in advance.
+ >the problem: although the dos-based qicstream software works just fine,
+ >both the norton and central point backup programs for windows fail unless
+ >i switch the machine to non-turbo speed (i'm using a 486dx/33 eisa).  since
+ >the dos software works, it can't be a hardware problem, can it?  has anyone
+ >seen similar problems?  any solutions?  thanks in advance.
  
- Yeah.  Sounds typical.  Windows makes all sorts of extra demands on hardware,
- and therefore your machine can't keep up with things.  Ever notice how when
- acessing the floppies in Windows, everything else slows to a crawl?  I 
- imagine your backup and evertyhing else that is running fights for CPU time,
- and sometimes the backup program loses.  Be glad.  I can't even run in 
- medium speed with CP backup on my machine, supposedly because I have a SCSI
+ yeah.  sounds typical.  windows makes all sorts of extra demands on hardware,
+ and therefore your machine can't keep up with things.  ever notice how when
+ acessing the floppies in windows, everything else slows to a crawl?  i 
+ imagine your backup and evertyhing else that is running fights for cpu time,
+ and sometimes the backup program loses.  be glad.  i can't even run in 
+ medium speed with cp backup on my machine, supposedly because i have a scsi
  machine which places extra demands on the data bus.
  
  don

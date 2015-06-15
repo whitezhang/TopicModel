@@ -1,19 +1,19 @@
 
  
- Sketch:  Rotate so cylinder axis is || Z axis.
+ sketch:  rotate so cylinder axis is || z axis.
  
- Intersect X/Y projection of line with projected cylinder (similar to,
- but easier than, sphere intersection).  Result: no intersection, one
+ intersect x/y projection of line with projected cylinder (similar to,
+ but easier than, sphere intersection).  result: no intersection, one
  intersection, or two intersections, parameterized along line by t0 and
- t1.  Now look at Z, and compute intersections of line with top and
- bottom planes of cylinder.  This gives t0' and t1'.  The interval of
- intersection is then the bit of the line from [t0,t1] INTERSECT [t0',t1'].
+ t1.  now look at z, and compute intersections of line with top and
+ bottom planes of cylinder.  this gives t0' and t1'.  the interval of
+ intersection is then the bit of the line from [t0,t1] intersect [t0',t1'].
  
- Details left as an exercise for the reader.
+ details left as an exercise for the reader.
  
- =S
+ =s
  --
- =Spencer W. Thomas 		|  Info Tech and Networking, B1911 CFOB, 0704
-    "Genome Informatician"	|  Univ of Michigan, Ann Arbor, MI 48109
- Spencer.W.Thomas@med.umich.edu	|  313-764-8065, FAX 313-764-4133
+ =spencer w. thomas 		|  info tech and networking, b1911 cfob, 0704
+    "genome informatician"	|  univ of michigan, ann arbor, mi 48109
+ spencer.w.thomas@med.umich.edu	|  313-764-8065, fax 313-764-4133
  

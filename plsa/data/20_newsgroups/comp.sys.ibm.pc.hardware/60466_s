@@ -1,37 +1,37 @@
 
- In article <RICHK.93Apr15075248@gozer.grebyn.com> richk@grebyn.com (Richard Krehbiel) writes:
- >>     Can anyone explain in fairly simple terms why, if I get OS/2, I might 
- >>   need an SCSI controler rather than an IDE.  Will performance suffer that
- >>   much?  For a 200MB or so drive?  If I don't have a tape drive or CD-ROM?
- >>   Any help would be appreciated.
+ in article <richk.93apr15075248@gozer.grebyn.com> richk@grebyn.com (richard krehbiel) writes:
+ >>     can anyone explain in fairly simple terms why, if i get os/2, i might 
+ >>   need an scsi controler rather than an ide.  will performance suffer that
+ >>   much?  for a 200mb or so drive?  if i don't have a tape drive or cd-rom?
+ >>   any help would be appreciated.
  
- >So, when you've got multi-tasking, you want to increase performance by
+ >so, when you've got multi-tasking, you want to increase performance by
  >increasing the amount of overlapping you do.
  >
- >One way is with DMA or bus mastering.  Either of these make it
- >possible for I/O devices to move their data into and out of memory
- >without interrupting the CPU.  The alternative is for the CPU to move
- >the data.  There are several SCSI interface cards that allow DMA and
+ >one way is with dma or bus mastering.  either of these make it
+ >possible for i/o devices to move their data into and out of memory
+ >without interrupting the cpu.  the alternative is for the cpu to move
+ >the data.  there are several scsi interface cards that allow dma and
  >bus mastering.
   ^^^^^^^^^^^^
- How do you do bus-mastering on the ISA bus?
+ how do you do bus-mastering on the isa bus?
  
- >IDE, however, is defined by the standard AT interface
- >created for the IBM PC AT, which requires the CPU to move all the data
- >bytes, with no DMA.
+ >ide, however, is defined by the standard at interface
+ >created for the ibm pc at, which requires the cpu to move all the data
+ >bytes, with no dma.
  
- If we're talking ISA (AT) bus here, then you can only have 1 DMA channel
+ if we're talking isa (at) bus here, then you can only have 1 dma channel
  active at any one time, presumably transferring data from a single device.
- So even though you can have at least 7 devices on a SCSI bus, explain how
- all 7 of those devices can to DMA transfers through a single SCSI card
- to the ISA-AT bus at the same time.
+ so even though you can have at least 7 devices on a scsi bus, explain how
+ all 7 of those devices can to dma transfers through a single scsi card
+ to the isa-at bus at the same time.
  
- Also, I'm still trying to track down a copy of IBM's AT reference book,
- but from their PC technical manual (page 2-93):
+ also, i'm still trying to track down a copy of ibm's at reference book,
+ but from their pc technical manual (page 2-93):
  
- "The (FDD) adapter is buffered on the I.O bus and uses the System Board
- direct memory access (DMA) for record data transfers."
- I expect to see something similar for the PC-AT HDD adapter.  
- So the lowly low-density original PC FDD card used DMA and the PC-AT
- HDD controller doesn't!?!?  That makes real sense.
+ "the (fdd) adapter is buffered on the i.o bus and uses the system board
+ direct memory access (dma) for record data transfers."
+ i expect to see something similar for the pc-at hdd adapter.  
+ so the lowly low-density original pc fdd card used dma and the pc-at
+ hdd controller doesn't!?!?  that makes real sense.
  

@@ -1,15 +1,15 @@
 
- How does one print to a non-appletalk printer  using DMM LaserWriter Stuff.
+ how does one print to a non-appletalk printer  using dmm laserwriter stuff.
  
- I'm using the Serial driverand does nothig. I'vetried saving a postscriptfile and then tried sending with SendPS2.0 and it says can'topen LaserWriter Driver,
- then some appletalk messagethatprinter not specified.  I'm using and imagewritwrite one cable.   Should I use a null-modem adapter?  Help...
+ i'm using the serial driverand does nothig. i'vetried saving a postscriptfile and then tried sending with sendps2.0 and it says can'topen laserwriter driver,
+ then some appletalk messagethatprinter not specified.  i'm using and imagewritwrite one cable.   should i use a null-modem adapter?  help...
  
- ---Lowell
+ ---lowell
  --
  ***********************************************************************
- * Lowell Reiter			  "I need a Vacation... Now!!! "      *
- * Tufts University                                                    *
- * Internet Account: lreiter@jade.tufts.edu                            *
+ * lowell reiter			  "i need a vacation... now!!! "      *
+ * tufts university                                                    *
+ * internet account: lreiter@jade.tufts.edu                            *
  ***********************************************************************
  
  

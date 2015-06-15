@@ -1,34 +1,34 @@
 
- In <1993Apr12.154418.14463@cimlinc.uucp> bharper@cimlinc.uucp (Brett Harper) writes:
- >Hello,
+ in <1993apr12.154418.14463@cimlinc.uucp> bharper@cimlinc.uucp (brett harper) writes:
+ >hello,
  >  
- >  I'm investigating the purchase of an Object Oriented Application Framework.  I have
+ >  i'm investigating the purchase of an object oriented application framework.  i have
  >come across a few that look good:
  
- >  Zapp 1.1 from Inmark
- >  Zinc 3.5 from Zinc software
- >  C++/Views from Liant
- >  Win++ from Blaise
+ >  zapp 1.1 from inmark
+ >  zinc 3.5 from zinc software
+ >  c++/views from liant
+ >  win++ from blaise
  
- >Some considerations I'm using:
+ >some considerations i'm using:
  
- >  Being new to Windows programming (I'm from the UNIX/X world), the quality and
+ >  being new to windows programming (i'm from the unix/x world), the quality and
  >intuitivness of the abstraction that these class libraries provide is very 
- >important.  However, since I'm not adverse to learning the internals of Windows
+ >important.  however, since i'm not adverse to learning the internals of windows
  >programming, the new programming methodology should be closely aligned with
- >the native one.  I don't believe arbitrary levels of abstraction, just for the
- >sake of changing the API, are valuable.
+ >the native one.  i don't believe arbitrary levels of abstraction, just for the
+ >sake of changing the api, are valuable.
  
- The Microsoft Founation classes (afx) that come with C/C++ 7.0 (and 
- Visual C++) are very good, they already have a version for NT,
- it comes with source code, and is very close to the navtive API.
- It also as some classes to manage data structures...
+ the microsoft founation classes (afx) that come with c/c++ 7.0 (and 
+ visual c++) are very good, they already have a version for nt,
+ it comes with source code, and is very close to the navtive api.
+ it also as some classes to manage data structures...
  
- ...Stefan
+ ...stefan
  
  -- 
  ------------------------------------------------------------------------
-    Stefan Olson                     Mail: stefan@olson.acme.gen.nz
-    Kindness in giving creates love.
+    stefan olson                     mail: stefan@olson.acme.gen.nz
+    kindness in giving creates love.
  ------------------------------------------------------------------------
  

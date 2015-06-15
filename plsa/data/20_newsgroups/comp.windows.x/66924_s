@@ -1,54 +1,54 @@
 
- I am using X11R5patch23 with the R5-SUNOS5 patch posted on export.
- I did optionally apply the patch.olit.
+ i am using x11r5patch23 with the r5-sunos5 patch posted on export.
+ i did optionally apply the patch.olit.
  
- libXmu compiles fine .. when I try to use it with clients (i.e. bmtoa and
- twm), I get errors ... I can not figure out what is wrong:
+ libxmu compiles fine .. when i try to use it with clients (i.e. bmtoa and
+ twm), i get errors ... i can not figure out what is wrong:
  
- gcc -fpcc-struct-return -o twm gram.o lex.o deftwmrc.o add_window.o gc.o list.o twm.o  parse.o menus.o events.o resize.o util.o version.o iconmgr.o  cursor.o icons.o -O2   -R/usr/wgep/X11R5.sos5/lib${LD_RUN_PATH+\:$LD_RUN_PATH} -L../.././lib/Xmu -lXmu -L../.././lib/Xt -L../.././extensions/lib -L../.././lib/X -L../.././extensions/lib -lXext -L../.././extensions/lib -lXext -L../.././lib/X -lX11 -L/usr/wgep/X11R5.sos5/lib  -lsocket -lnsl
- ld: warning: file ../.././extensions/lib/libXext.so: attempted multiple inclusion of file libXext.so
- Undefined                       first referenced
+ gcc -fpcc-struct-return -o twm gram.o lex.o deftwmrc.o add_window.o gc.o list.o twm.o  parse.o menus.o events.o resize.o util.o version.o iconmgr.o  cursor.o icons.o -o2   -r/usr/wgep/x11r5.sos5/lib${ld_run_path+\:$ld_run_path} -l../.././lib/xmu -lxmu -l../.././lib/xt -l../.././extensions/lib -l../.././lib/x -l../.././extensions/lib -lxext -l../.././extensions/lib -lxext -l../.././lib/x -lx11 -l/usr/wgep/x11r5.sos5/lib  -lsocket -lnsl
+ ld: warning: file ../.././extensions/lib/libxext.so: attempted multiple inclusion of file libxext.so
+ undefined                       first referenced
   symbol                             in file
- XtAppSetWarningMsgHandler           ../.././lib/Xmu/libXmu.so
- XtScreenDatabase                    ../.././lib/Xmu/libXmu.so
- XtDisplayStringConversionWarning    ../.././lib/Xmu/libXmu.so
- XtErrorMsg                          ../.././lib/Xmu/libXmu.so
- XtRealloc                           ../.././lib/Xmu/libXmu.so
- XtIsManaged                         ../.././lib/Xmu/libXmu.so
- XtMalloc                            ../.././lib/Xmu/libXmu.so
- XtGetApplicationResources           ../.././lib/Xmu/libXmu.so
- XtOwnSelection                      ../.././lib/Xmu/libXmu.so
- XtGetConstraintResourceList         ../.././lib/Xmu/libXmu.so
- XtCalloc                            ../.././lib/Xmu/libXmu.so
- XtName                              ../.././lib/Xmu/libXmu.so
- XtStringConversionWarning           ../.././lib/Xmu/libXmu.so
- XtAppSetTypeConverter               ../.././lib/Xmu/libXmu.so
- XtDisplayToApplicationContext       ../.././lib/Xmu/libXmu.so
- XtGetResourceList                   ../.././lib/Xmu/libXmu.so
- XtFree                              ../.././lib/Xmu/libXmu.so
- XtDestroyWidget                     ../.././lib/Xmu/libXmu.so
- XtGetValues                         ../.././lib/Xmu/libXmu.so
- XtWarningMsg                        ../.././lib/Xmu/libXmu.so
- XtTranslateCoords                   ../.././lib/Xmu/libXmu.so
- XtCvtStringToFont                   ../.././lib/Xmu/libXmu.so
- XtWidgetToApplicationContext        ../.././lib/Xmu/libXmu.so
- XtWarning                           ../.././lib/Xmu/libXmu.so
- XtCreateWidget                      ../.././lib/Xmu/libXmu.so
- XtWindowOfObject                    ../.././lib/Xmu/libXmu.so
- XtVaSetValues                       ../.././lib/Xmu/libXmu.so
- XtAppWarningMsg                     ../.././lib/Xmu/libXmu.so
- XtGetSelectionValue                 ../.././lib/Xmu/libXmu.so
- XtResolvePathname                   ../.././lib/Xmu/libXmu.so
- ld: fatal: Symbol referencing errors. No output written to twm
- *** Error code 1
+ xtappsetwarningmsghandler           ../.././lib/xmu/libxmu.so
+ xtscreendatabase                    ../.././lib/xmu/libxmu.so
+ xtdisplaystringconversionwarning    ../.././lib/xmu/libxmu.so
+ xterrormsg                          ../.././lib/xmu/libxmu.so
+ xtrealloc                           ../.././lib/xmu/libxmu.so
+ xtismanaged                         ../.././lib/xmu/libxmu.so
+ xtmalloc                            ../.././lib/xmu/libxmu.so
+ xtgetapplicationresources           ../.././lib/xmu/libxmu.so
+ xtownselection                      ../.././lib/xmu/libxmu.so
+ xtgetconstraintresourcelist         ../.././lib/xmu/libxmu.so
+ xtcalloc                            ../.././lib/xmu/libxmu.so
+ xtname                              ../.././lib/xmu/libxmu.so
+ xtstringconversionwarning           ../.././lib/xmu/libxmu.so
+ xtappsettypeconverter               ../.././lib/xmu/libxmu.so
+ xtdisplaytoapplicationcontext       ../.././lib/xmu/libxmu.so
+ xtgetresourcelist                   ../.././lib/xmu/libxmu.so
+ xtfree                              ../.././lib/xmu/libxmu.so
+ xtdestroywidget                     ../.././lib/xmu/libxmu.so
+ xtgetvalues                         ../.././lib/xmu/libxmu.so
+ xtwarningmsg                        ../.././lib/xmu/libxmu.so
+ xttranslatecoords                   ../.././lib/xmu/libxmu.so
+ xtcvtstringtofont                   ../.././lib/xmu/libxmu.so
+ xtwidgettoapplicationcontext        ../.././lib/xmu/libxmu.so
+ xtwarning                           ../.././lib/xmu/libxmu.so
+ xtcreatewidget                      ../.././lib/xmu/libxmu.so
+ xtwindowofobject                    ../.././lib/xmu/libxmu.so
+ xtvasetvalues                       ../.././lib/xmu/libxmu.so
+ xtappwarningmsg                     ../.././lib/xmu/libxmu.so
+ xtgetselectionvalue                 ../.././lib/xmu/libxmu.so
+ xtresolvepathname                   ../.././lib/xmu/libxmu.so
+ ld: fatal: symbol referencing errors. no output written to twm
+ *** error code 1
  
  
  
  --
- Douglas L.Acker                Western Geophysical Exploration Products
- ____    ____     ____          a division of Western Atlas International Inc.
- \   \  /   /\   /   /\         A Litton / Dresser Company
+ douglas l.acker                western geophysical exploration products
+ ____    ____     ____          a division of western atlas international inc.
+ \   \  /   /\   /   /\         a litton / dresser company
   \   \/   /  \ /   /  \        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   \  /   / \  /   /\   \       Internet  :  acker@wg2.waii.com
-    \/___/   \/___/  \___\      Voice     :  (713) 964-6128
+   \  /   / \  /   /\   \       internet  :  acker@wg2.waii.com
+    \/___/   \/___/  \___\      voice     :  (713) 964-6128
  

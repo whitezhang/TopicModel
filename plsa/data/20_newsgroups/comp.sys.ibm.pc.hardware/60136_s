@@ -1,45 +1,45 @@
 
- To following up my own note:
- Ted Richards (ted@isgtec.com) wrote:
- : Al DeVilbiss (al@col.hp.com) wrote:
+ to following up my own note:
+ ted richards (ted@isgtec.com) wrote:
+ : al devilbiss (al@col.hp.com) wrote:
  : :
- : : It looks like everything works as advertised but I am disappointed
- : : with the speed.  I'm using an Intel 400 internal 14.4k modem in the PC
- : : with Telebit 14.4k on the Unix end, which are currently limited to
- : : 19.2Kbits by the Unix com link. To get a quantitative comparison, I
+ : : it looks like everything works as advertised but i am disappointed
+ : : with the speed.  i'm using an intel 400 internal 14.4k modem in the pc
+ : : with telebit 14.4k on the unix end, which are currently limited to
+ : : 19.2kbits by the unix com link. to get a quantitative comparison, i
  : : did 'cat file' where "file" is 20 kbyte uncompressed ascii text, and
- : : it took 75 seconds to scroll through an X window over the modem link,
- : : 270 chars/sec.  Using the identical hardware and Procomm+FW the same
- : : "cat file' takes 11 seconds, 1820 chars/sec.  BTW, I use NCD PC XView
- : : on my PC at work (HP) every day for the same Unix access from a PC over
- : : a LAN and like that just fine.  The same 'cat file' scrolls by in
- : : ~2 seconds on the LAN connection.
+ : : it took 75 seconds to scroll through an x window over the modem link,
+ : : 270 chars/sec.  using the identical hardware and procomm+fw the same
+ : : "cat file' takes 11 seconds, 1820 chars/sec.  btw, i use ncd pc xview
+ : : on my pc at work (hp) every day for the same unix access from a pc over
+ : : a lan and like that just fine.  the same 'cat file' scrolls by in
+ : : ~2 seconds on the lan connection.
  
- I just tried a few experiments. I cat'd a 20261-byte file (471 lines)
+ i just tried a few experiments. i cat'd a 20261-byte file (471 lines)
  under various scenarios:
  
- PC-Xview for DOS in a full-screen OS/2 window (1024x768x16):    18 sec
- Telix (DOS) in an OS/2 window (1024xs768x256):                  107 sec!
- Telix (DOS) is a full-screen OS/2 window (standard VGA):        11 sec
- Telix (DOS) in a Windows 3.1 window (1024x768x256):             30 sec
- UW/WIN in a seamless OS/2 window (1024x768x256):        gave up after 4 min!
- UW/WIN in Windows 3.1 (1024x768x256):           faster, but gave up after 2 min
- UW/WIN in a seamless OS/2 window using pg       30 sec, could have been a
-                                                 little faster (I had to keep
+ pc-xview for dos in a full-screen os/2 window (1024x768x16):    18 sec
+ telix (dos) in an os/2 window (1024xs768x256):                  107 sec!
+ telix (dos) is a full-screen os/2 window (standard vga):        11 sec
+ telix (dos) in a windows 3.1 window (1024x768x256):             30 sec
+ uw/win in a seamless os/2 window (1024x768x256):        gave up after 4 min!
+ uw/win in windows 3.1 (1024x768x256):           faster, but gave up after 2 min
+ uw/win in a seamless os/2 window using pg       30 sec, could have been a
+                                                 little faster (i had to keep
                                                  hitting the space bar)
  
- I was using an ATI Wonder XL video card, by the way.
+ i was using an ati wonder xl video card, by the way.
  
- So PC-Xview for DOS looks pretty good (and the line-by-line scrolling
- in OS/2 desktop looks pathetic, although full-page redraws are pretty
+ so pc-xview for dos looks pretty good (and the line-by-line scrolling
+ in os/2 desktop looks pathetic, although full-page redraws are pretty
  good).
  
- I tried it under PC-Xview using my normal (9x15bold or 10x20) font,
+ i tried it under pc-xview using my normal (9x15bold or 10x20) font,
  and with a very small font, and there was no difference in the times.
- The modem receive light was on pretty solidly, so it looks like the
+ the modem receive light was on pretty solidly, so it looks like the
  bottleneck was the 9600-baud modem, not the screen drawing.
  
  --
- Ted Richards            ted@isgtec.com             [...!uunet.ca!isgtec!ted]
- ISG Technologies Inc.   6509 Airport Rd., Mississauga  Ont.  Canada   L4V 1S7
+ ted richards            ted@isgtec.com             [...!uunet.ca!isgtec!ted]
+ isg technologies inc.   6509 airport rd., mississauga  ont.  canada   l4v 1s7
  

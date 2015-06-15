@@ -1,18 +1,18 @@
 
- rdk2@cec2.wustl.edu (Robert David Klapper) writes:
+ rdk2@cec2.wustl.edu (robert david klapper) writes:
  >
- >	I also believe that the 950 fixed a bug in the CPU which screwed up
+ >	i also believe that the 950 fixed a bug in the cpu which screwed up
  >some floating point calculations.
  
- 	Does anyone have details on this?   What sort of FP errors is
- the Q900 sensitive to?
+ 	does anyone have details on this?   what sort of fp errors is
+ the q900 sensitive to?
  
- 	(My Q900 is having some strange problems with an FP intensive
- program, getting a lot of DS15 (Segment Loader) errors.  ThinkC5.0.4 and
- System 7.0.1+)
+ 	(my q900 is having some strange problems with an fp intensive
+ program, getting a lot of ds15 (segment loader) errors.  thinkc5.0.4 and
+ system 7.0.1+)
  -- 
- Gregory G. Woodbury @ The Wolves Den UNIX, Durham NC  <Standard disclaimers>
- UUCP: ...dukcds!wolves!ggw   ...duke!wolves!ggw           [use the maps!]
- Domain: ggw@wolves.Durham.NC.US  ggw%wolves@duke.cs.duke.edu
- [This site is *not* affiliated with Duke University.  (Idiots!) ]
+ gregory g. woodbury @ the wolves den unix, durham nc  <standard disclaimers>
+ uucp: ...dukcds!wolves!ggw   ...duke!wolves!ggw           [use the maps!]
+ domain: ggw@wolves.durham.nc.us  ggw%wolves@duke.cs.duke.edu
+ [this site is *not* affiliated with duke university.  (idiots!) ]
  

@@ -1,50 +1,50 @@
 
- In article <1993Mar25.161909.8110@wuecl.wustl.edu> dp@cec1.wustl.edu (David Prutchi) writes:
- >In article <C4CntG.Jv4@spk.hp.com> long@spk.hp.com (Jerry Long) writes:
- >>Fred W. Culpepper (fculpepp@norfolk.vak12ed.edu) wrote:
+ in article <1993mar25.161909.8110@wuecl.wustl.edu> dp@cec1.wustl.edu (david prutchi) writes:
+ >in article <c4cntg.jv4@spk.hp.com> long@spk.hp.com (jerry long) writes:
+ >>fred w. culpepper (fculpepp@norfolk.vak12ed.edu) wrote:
  >>[...]
- >>A couple of years ago I put together a Tesla circuit which
+ >>a couple of years ago i put together a tesla circuit which
  >>was published in an electronics magazine and could have been
- >>the circuit which is referred to here. This one used a
+ >>the circuit which is referred to here. this one used a
  >>flyback transformer from a tv onto which you wound your own
- >>primary windings. It also used 2 power transistors in a TO 3
+ >>primary windings. it also used 2 power transistors in a to 3
  >[...]
- >10 years ago I built a 1'000,000 volt Tesla, and the thing was VERY
+ >10 years ago i built a 1'000,000 volt tesla, and the thing was very
  >spectacular, but besides scaring/amazing friends (depending on their
- >knowledge of Science), and generating strong EMI, I never found anything
- >useful that could be done with it ...  Is there any real-world application
- >for Tesla coils today ?
+ >knowledge of science), and generating strong emi, i never found anything
+ >useful that could be done with it ...  is there any real-world application
+ >for tesla coils today ?
  >
- >David Prutchi
+ >david prutchi
  
- First of all, realize that Tesla invented AC power generators, motors,
- transformers, conductors, etc. Technically, *ALL* transformers are Tesla
- coils.  In general though when someone refers to a Tesla coil, they mean
- an "air core resonant transformer". The TV flyback version Tesla
- coil (see the _Encyclopedia_of_Electronic_Circuits_ V3, 106-1 for
- diagram) has NOT an air core. It is of a class of circuit called
- "Oscillating Shuttle Circuit" (OSC). Generally OSC's are highly
+ first of all, realize that tesla invented ac power generators, motors,
+ transformers, conductors, etc. technically, *all* transformers are tesla
+ coils.  in general though when someone refers to a tesla coil, they mean
+ an "air core resonant transformer". the tv flyback version tesla
+ coil (see the _encyclopedia_of_electronic_circuits_ v3, 106-1 for
+ diagram) has not an air core. it is of a class of circuit called
+ "oscillating shuttle circuit" (osc). generally osc's are highly
  efficient, but this version uses transistors and resistors,
- which are very lossy devices. Typically Tesla used active
+ which are very lossy devices. typically tesla used active
  reactances instead of passive resistors, so that he could achieve
- efficiencies of 99.5%, and better. The usual application of an air-core
- resonant transformer, or of an OSC, is to produce strong EMI
- for wireless broadcasts. How well do you think your computer
- screen would work if we removed the HF HV Tesla (flyback) coil
- from it? If we were to remove from our homes and industries all
- Tesla coils, our lights would go dark, our cars would sputter
+ efficiencies of 99.5%, and better. the usual application of an air-core
+ resonant transformer, or of an osc, is to produce strong emi
+ for wireless broadcasts. how well do you think your computer
+ screen would work if we removed the hf hv tesla (flyback) coil
+ from it? if we were to remove from our homes and industries all
+ tesla coils, our lights would go dark, our cars would sputter
  and die, our radios would go silent, our industries would grind
  to a halt, and we would have to go back to using coal for heat,
  gas for lamps, horses for transportation, steam for power, and
- telegraph for communication. Is that real world enough for you???????
+ telegraph for communication. is that real world enough for you???????
  
- GET THE MESSAGE! WE WOULD NOT HAVE 1/100 THE CONVIENIENCES WE HAVE
- TODAY IF NOT FOR TESLA. GIVE CREDIT WHERE CREDIT IS DUE!
+ get the message! we would not have 1/100 the convieniences we have
+ today if not for tesla. give credit where credit is due!
  
- If it had been up to Edison, we'd still be in the 19th century.
- (flame me at your own peril. I'm very good at putting edison down).
+ if it had been up to edison, we'd still be in the 19th century.
+ (flame me at your own peril. i'm very good at putting edison down).
  
  ----
-  ET   "Tesla was 100 years ahead of his time. Perhaps now his time comes".
+  et   "tesla was 100 years ahead of his time. perhaps now his time comes".
  ----
  

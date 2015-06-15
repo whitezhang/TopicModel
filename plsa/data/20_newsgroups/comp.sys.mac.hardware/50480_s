@@ -1,25 +1,25 @@
 
- jfinete@cats.ucsc.edu (Joseph Manuel Finete) writes:
- >The IIvx...LCIII performance at a Centris 610 price. 
- >And unless
- >you're running FPU-intensive software, the 610 will blow the doors off the
- >LCIII and the IIvx.
+ jfinete@cats.ucsc.edu (joseph manuel finete) writes:
+ >the iivx...lciii performance at a centris 610 price. 
+ >and unless
+ >you're running fpu-intensive software, the 610 will blow the doors off the
+ >lciii and the iivx.
  
- From the benchmarks I've seen (was that in MacUser or MacWeek?) the FPU-less
- Centris 610 is _faster_ at floating-point operations (the kind of calculations
- that get routed to an FPU) than a Mac IIfx!
+ from the benchmarks i've seen (was that in macuser or macweek?) the fpu-less
+ centris 610 is _faster_ at floating-point operations (the kind of calculations
+ that get routed to an fpu) than a mac iifx!
  
- And a Mac IIfx (68030 @ 40MHz + FPU) is _the_ fastest 030-based Mac.
+ and a mac iifx (68030 @ 40mhz + fpu) is _the_ fastest 030-based mac.
  
- Take note, of course, that benchmarks never tell the whole story... Get your
- favorite program(s) and run them on both machines at the store.  They should
+ take note, of course, that benchmarks never tell the whole story... get your
+ favorite program(s) and run them on both machines at the store.  they should
  let you do that before you plunk down a hefty amount...
  
- Virtually,
- Philippe
+ virtually,
+ philippe
  --
  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
- Philippe Casgrain              Etudiant-Chercheur      Casgrain@ERE.UMontreal.CA
- Departement des Sciences Biologiques                      Universite de Montreal
- #define disclaimer(caught) (caught ? "I wasn't even there!" : "I didn't do it!")
+ philippe casgrain              etudiant-chercheur      casgrain@ere.umontreal.ca
+ departement des sciences biologiques                      universite de montreal
+ #define disclaimer(caught) (caught ? "i wasn't even there!" : "i didn't do it!")
  

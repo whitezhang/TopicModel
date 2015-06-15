@@ -1,33 +1,33 @@
 
- In article <timmbake.735294667@mcl> timmbake@mcl.ucsb.edu (Bake Timmons) writes:
+ in article <timmbake.735294667@mcl> timmbake@mcl.ucsb.edu (bake timmons) writes:
  >mccullou@whipple.cs.wisc.edu writes:
  >
- >>The line about atheists haveing something up their sleeves is what seemed
- >>to imply that.  Sorry, been reading too much on the CLIPPER project lately,
+ >>the line about atheists haveing something up their sleeves is what seemed
+ >>to imply that.  sorry, been reading too much on the clipper project lately,
  >>and the paranoia over there may have seeped in some.
  >
- >;)  What is the CLIPPER project BTW?
+ >;)  what is the clipper project btw?
  
- The CLIPPER initiative is an announcement by Clinton that all the 
+ the clipper initiative is an announcement by clinton that all the 
  "secure" voice phones will use the same crypto chip, as a de-facto
- government standard.  Problem is, the government is admitting that
- they hold the keys to break the code easily, and the Justice department
- will be using the keys to listen in on "illegal activities."  Many
+ government standard.  problem is, the government is admitting that
+ they hold the keys to break the code easily, and the justice department
+ will be using the keys to listen in on "illegal activities."  many
  people are really scared about such an initiative because it is
  a major step towards outlawing real crypto protection on things
- like email if you read the press release.  The project was developed
- by NSA and given to NIST.  It uses two keys S1 and S2 that the
- government claims are needed to break the code.  They claim that
+ like email if you read the press release.  the project was developed
+ by nsa and given to nist.  it uses two keys s1 and s2 that the
+ government claims are needed to break the code.  they claim that
  these keys will be handed to two different companies, and when they
  get a warrant to do a wiretap (the chip is nicknamed the wiretap chip),
- they have to get the keys from both companies.  People have poked holes
+ they have to get the keys from both companies.  people have poked holes
  through and through the press release official version and shown how
- it is nowhere near as nice as it sounds, and I have given the simplified
- version.  People over on sci.crypt are really scared about this
+ it is nowhere near as nice as it sounds, and i have given the simplified
+ version.  people over on sci.crypt are really scared about this
  proposal it seems.
  -- 
  ***************************************************************************
- * mccullou@whipple.cs.wisc.edu * Never program and drink beer at the same *
- * M^2                          *  time.  It doesn't work.                 *
+ * mccullou@whipple.cs.wisc.edu * never program and drink beer at the same *
+ * m^2                          *  time.  it doesn't work.                 *
  ***************************************************************************
  

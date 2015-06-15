@@ -1,29 +1,29 @@
 
- Paul Repacholi (zrepachol@cc.curtin.edu.au) wrote:
+ paul repacholi (zrepachol@cc.curtin.edu.au) wrote:
  
- : PS The first posting I saw I thought was a joke in *VERY* bad taste. My appologies
+ : ps the first posting i saw i thought was a joke in *very* bad taste. my appologies
  : to the person who broke the news.
  
- For what it's worth...
+ for what it's worth...
  
- Clipper Chip Announcement (clipper@csrc.ncsl.nist.gov) wrote:
+ clipper chip announcement (clipper@csrc.ncsl.nist.gov) wrote:
  
- : Note:  This file will also be available via anonymous file
+ : note:  this file will also be available via anonymous file
  : transfer from csrc.ncsl.nist.gov in directory /pub/nistnews and
- : via the NIST Computer Security BBS at 301-948-5717.
+ : via the nist computer security bbs at 301-948-5717.
  :      ---------------------------------------------------
  : 
- :                          THE WHITE HOUSE
+ :                          the white house
  : 
  
- I haven't been able to open an ftp session with that machine.
+ i haven't been able to open an ftp session with that machine.
  
- Operating under the assumption that the address was wrong, I tried using
+ operating under the assumption that the address was wrong, i tried using
  nslookup and nicname/whois...
  
  > ls nist.gov 
  [nnsc.nsf.net]
- Host or domain name            Internet address              
+ host or domain name            internet address              
  [...]
   ncsl                           server = mail-gw.ncsl.nist.gov         
   mail-gw.ncsl                   129.6.48.199
@@ -31,21 +31,21 @@
   ncsl                           server = ecf.ncsl.nist.gov             
   ecf.ncsl                       129.6.48.2
   ncsl                           server = enh.nist.gov                  
-  ncsl                           server = SUNMGR.NCSL.NIST.GOV          
-  SUNMGR.NCSL                    129.6.48.12
+  ncsl                           server = sunmgr.ncsl.nist.gov          
+  sunmgr.ncsl                    129.6.48.12
  [...]
  
- That's all I could find about the ncsl domain...oh, and I tried an MX lookup
- on the machine in question, which failed.  Nicname/whois domain lookups at
+ that's all i could find about the ncsl domain...oh, and i tried an mx lookup
+ on the machine in question, which failed.  nicname/whois domain lookups at
  both registries failed, too. 
  
- So I thought, "hey, I'm just not using the tools right" and tried calling
- the BBS number -- no answer.
+ so i thought, "hey, i'm just not using the tools right" and tried calling
+ the bbs number -- no answer.
  
- I'm probably doing something wrong...or, perhaps, the machine has been put
- behind a firewall.  But it does look like csrc.ncsl.nist.gov has become an
- un-machine.  If someone would try ftp'ing to it, or knows what's up, I'd
+ i'm probably doing something wrong...or, perhaps, the machine has been put
+ behind a firewall.  but it does look like csrc.ncsl.nist.gov has become an
+ un-machine.  if someone would try ftp'ing to it, or knows what's up, i'd
  really appreciate the info. 
  
- Scott Doty <sdoty@odie.santarosa.edu>
+ scott doty <sdoty@odie.santarosa.edu>
  

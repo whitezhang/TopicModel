@@ -1,36 +1,36 @@
 
- Ralph Seguin (rps@arbortext.COM) wrote:
- : > My question is this:  Is there a means of determining what the state
- : > of CapsLock and/or NumLock is?
+ ralph seguin (rps@arbortext.com) wrote:
+ : > my question is this:  is there a means of determining what the state
+ : > of capslock and/or numlock is?
  
- : Alright.  Ignore this.  I have delved a bit deeper (XKeyEvent) and
- : found what I was looking for.
+ : alright.  ignore this.  i have delved a bit deeper (xkeyevent) and
+ : found what i was looking for.
  
- : ev->state   has a bunch of masks to check against (LockMask is the one
- : for CapsLock).  Unfortunately, it appears that the NumLock mask varies
- : from server to server.  How does one tell what mask is numlock and
- : which are for Meta (Mod1Mask, Mod2Mask, Mod3Mask, Mod4Mask, Mod5Mask).
- : eg, SGI's vendor server has Mod2Mask being NumLock, whereas Solaris
- : 1.0.1 OpenWindows 3.0 has Mod3Mask for NumLock.  Is there an
- : unambiguous means of determining NumLock's mask at runtime for any
- : given server?  Sorry for the wasted bandwidth and my appalling ignorance.
+ : ev->state   has a bunch of masks to check against (lockmask is the one
+ : for capslock).  unfortunately, it appears that the numlock mask varies
+ : from server to server.  how does one tell what mask is numlock and
+ : which are for meta (mod1mask, mod2mask, mod3mask, mod4mask, mod5mask).
+ : eg, sgi's vendor server has mod2mask being numlock, whereas solaris
+ : 1.0.1 openwindows 3.0 has mod3mask for numlock.  is there an
+ : unambiguous means of determining numlock's mask at runtime for any
+ : given server?  sorry for the wasted bandwidth and my appalling ignorance.
  
- You'll have to check the keysym(s) on each of the keys for each
- modifier. The one with NumLock in its mapping is the modifier
- you want. A bit ugly perhaps but I think its currently the only
+ you'll have to check the keysym(s) on each of the keys for each
+ modifier. the one with numlock in its mapping is the modifier
+ you want. a bit ugly perhaps but i think its currently the only
  way to do this (and it does have some precedent as keysyms are 
- used to differentiate CapsLock from ShiftLock for the Lock
+ used to differentiate capslock from shiftlock for the lock
  modifier).
  
- I don't know of an accepted strategy for handling ambiguous
- assignments either. (ie. what if NumLock is mapped for more then
- one modifier). I suppose first found is as good as any.
+ i don't know of an accepted strategy for handling ambiguous
+ assignments either. (ie. what if numlock is mapped for more then
+ one modifier). i suppose first found is as good as any.
  
- X doesn't handle locking modifiers that well. 
+ x doesn't handle locking modifiers that well. 
  
- Hope that helps,
+ hope that helps,
  
- Dave Lapp
+ dave lapp
  
- Standard Disclaimer etc...
+ standard disclaimer etc...
  

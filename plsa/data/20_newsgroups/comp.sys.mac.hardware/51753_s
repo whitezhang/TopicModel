@@ -1,79 +1,79 @@
 
  
- First of all:  Thank you everyone who replied.  As you can well
- imagine, I got nearly one hundred responses, so I figured I'd thank
+ first of all:  thank you everyone who replied.  as you can well
+ imagine, i got nearly one hundred responses, so i figured i'd thank
  you all here instead of individually.
  
- The tallies:
+ the tallies:
  
- I got one vote for A/UX, which runs on the Macintosh.
+ i got one vote for a/ux, which runs on the macintosh.
  
- I got several nays for Commodore's 3000UX system.
+ i got several nays for commodore's 3000ux system.
  
- Most people agreed that SGI's were nice, and very very expensive.
+ most people agreed that sgi's were nice, and very very expensive.
  
- Some (devoted) Sun users nearly insisted that I try to find a used
- Sun, say a 3/60 or 3/80.
+ some (devoted) sun users nearly insisted that i try to find a used
+ sun, say a 3/60 or 3/80.
  
- About a dozen people told me how they love their NeXT...only now NeXT
+ about a dozen people told me how they love their next...only now next
  is out of the hardware business (see below).
  
- And most of the other 85+ people said:  Get a 486 box, and run some
- version of Unix that's available either in the Public Domain or
+ and most of the other 85+ people said:  get a 486 box, and run some
+ version of unix that's available either in the public domain or
  commercially.
  
  =============
  
- And so I weighed my options.  What stood out, in my opinion, was that
- there were several different versions of Unix available on one system:
- the 486 (PC) architecture.  If I bought a Sun, I'd have to use SunOS.
- If I bought a (used) NeXT, I'd have to use NeXTSTEP (see below).  Ad
+ and so i weighed my options.  what stood out, in my opinion, was that
+ there were several different versions of unix available on one system:
+ the 486 (pc) architecture.  if i bought a sun, i'd have to use sunos.
+ if i bought a (used) next, i'd have to use nextstep (see below).  ad
  nauseum.
  
- But with a PC, I can run Linux, which is a small user-friendly (?)
- flavor that uses shared libraries to cut down on volume, although I
+ but with a pc, i can run linux, which is a small user-friendly (?)
+ flavor that uses shared libraries to cut down on volume, although i
  hear its networking abilities aren't up to speed with 386bsd, another
- PD (==free) port (which takes up a lot more space).  I can purchase
- BSD386 (commercial product) if I choose.  There are several other
+ pd (==free) port (which takes up a lot more space).  i can purchase
+ bsd386 (commercial product) if i choose.  there are several other
  commercial packages available.
  
- So, what I've found out (after pricing systems, etc.), is that I can
- get a really good Unix workstation for as little as ~$2500.  Including
+ so, what i've found out (after pricing systems, etc.), is that i can
+ get a really good unix workstation for as little as ~$2500.  including
  source code!
  
- Or, for ~$3500-4000, I can get an unbelievable EISA bus 486-66DX2
- system, fully blown, and run single user BSD386.
+ or, for ~$3500-4000, i can get an unbelievable eisa bus 486-66dx2
+ system, fully blown, and run single user bsd386.
  
- What I'm really excited about, though, is NEXTSTEP for Intel.  NeXT
- changed into a software company only, and they are releasing their OS
- for PC's.  I've used NeXT's before, and I absolutely loved them.
- Everyone who wrote me about NeXT (or NEXTSTEP) commented on the
+ what i'm really excited about, though, is nextstep for intel.  next
+ changed into a software company only, and they are releasing their os
+ for pc's.  i've used next's before, and i absolutely loved them.
+ everyone who wrote me about next (or nextstep) commented on the
  developer's environment, and how well designed the whole package is.
  
  ===========
  
- So, my choice is to:
+ so, my choice is to:
  
- 1)  Wait for the mail on Monday, so I can read what NEXTSTEP's system
+ 1)  wait for the mail on monday, so i can read what nextstep's system
  requirements are
  
- 2)  If I'm wowed on what they say, I'll buy a system that fits into
+ 2)  if i'm wowed on what they say, i'll buy a system that fits into
  their criteria
  
-     2a)  Get NEXTSTEP
+     2a)  get nextstep
  
- 3)  If I'm wowed, but I can't afford it yet (most likely), I'll buy a
+ 3)  if i'm wowed, but i can't afford it yet (most likely), i'll buy a
  system that fits their criteria
  
-     3a)  Get Linux or 386bsd, as a temporary learning experience so I
- can save up for NEXTSTEP
+     3a)  get linux or 386bsd, as a temporary learning experience so i
+ can save up for nextstep
  
- 4)  If I'm not sufficiently wowed (least likely), I'll buy a system
- that is slightly less blown out (like a 486DX 25, ISA) and put Linux
+ 4)  if i'm not sufficiently wowed (least likely), i'll buy a system
+ that is slightly less blown out (like a 486dx 25, isa) and put linux
  or 386bsd on it.
  
  ================
  
- Again, thanks to everyone around the net.
+ again, thanks to everyone around the net.
  
  

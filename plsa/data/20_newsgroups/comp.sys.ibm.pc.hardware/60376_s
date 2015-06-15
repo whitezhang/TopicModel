@@ -1,36 +1,36 @@
 
- In article <wayne.02uv@amtower.spacecoast.org> wayne@amtower.spacecoast.orgX-NewsSoftware: GRn 1.16f (10.17.92) by Mike Schwartz & Michael B. Smith writes:
+ in article <wayne.02uv@amtower.spacecoast.org> wayne@amtower.spacecoast.orgx-newssoftware: grn 1.16f (10.17.92) by mike schwartz & michael b. smith writes:
  
- >> but I still want to know why it intrinsically better
- >> (than IDE, on an ISA bus) when it comes to multi-tasking OS's when
- >> managing data from a single SCSI hard drive.
+ >> but i still want to know why it intrinsically better
+ >> (than ide, on an isa bus) when it comes to multi-tasking os's when
+ >> managing data from a single scsi hard drive.
  >
- >A SCSI controller that transfers data by DMA allows the cpu to request data
+ >a scsi controller that transfers data by dma allows the cpu to request data
  >from the hard drive and continue working while the controller gets the data
  >and moves it to memory. 
  
- IDE also uses DMA techniques.  I believe floppy controller also uses DMA,
- and most A/D boards also use DMA.  DMA is no big deal, and has nothing to
- do directly with SCSI.
+ ide also uses dma techniques.  i believe floppy controller also uses dma,
+ and most a/d boards also use dma.  dma is no big deal, and has nothing to
+ do directly with scsi.
  
- > For example, when rewinding or formatting a tape, the command is
+ > for example, when rewinding or formatting a tape, the command is
  >issued to the controller and the bus is released to allow access to other
- >devices on the bus.  This greatly increases productivity or, at least, do
- >something else while backing up your hard drive :-).  Which happens to be
- >what I am doing while reading this group.
+ >devices on the bus.  this greatly increases productivity or, at least, do
+ >something else while backing up your hard drive :-).  which happens to be
+ >what i am doing while reading this group.
  
- You can thank your software for that.  If DOS had a few more brains, it
- could format floppies etc. while you were doing something else.  The
- hardware will support it, but DOS (at least) won't.  Again, this has   
- nothing to do with SCSI.
+ you can thank your software for that.  if dos had a few more brains, it
+ could format floppies etc. while you were doing something else.  the
+ hardware will support it, but dos (at least) won't.  again, this has   
+ nothing to do with scsi.
  
- >Its a long story, but I still use IDE on my 486 except for the CDROM which,
- >thanks to SCSI, I can move between both machines.  If, and when, SCSI is
- >better standardized and supported on the ibm-clone machines, I plan to
- >completely get rid of IDE.
+ >its a long story, but i still use ide on my 486 except for the cdrom which,
+ >thanks to scsi, i can move between both machines.  if, and when, scsi is
+ >better standardized and supported on the ibm-clone machines, i plan to
+ >completely get rid of ide.
  
- And if you stick with DOS you'll wonder why you can't multitask.
+ and if you stick with dos you'll wonder why you can't multitask.
  
- Again I ask why can't a UNIX or OS/2 type OS do all the miraculous things
- with an IDE harddrive that it can with a (single) SCSI hard drive.
+ again i ask why can't a unix or os/2 type os do all the miraculous things
+ with an ide harddrive that it can with a (single) scsi hard drive.
  

@@ -1,23 +1,23 @@
 
- Question for those familiar with Quadra VRAM:
+ question for those familiar with quadra vram:
  
- I put 2 256K VRAM SIMMs in my Quadra 700 (in the 2 slots closest to the
- RAM SIMM slots) and I got no results whatsoever.  I have been told that
+ i put 2 256k vram simms in my quadra 700 (in the 2 slots closest to the
+ ram simm slots) and i got no results whatsoever.  i have been told that
  the built-in video should support at least 16bit and maybe 24bit color on
- a Macintosh Color Display.  However, the Monitors control panel still
+ a macintosh color display.  however, the monitors control panel still
  lists 8bit (256 colors) as the highest possible.
  
- Does it make any difference which slots you put the SIMMs in?
- Do you have to do something to activate them?
- Do you have to do something to the Monitors control panel?
+ does it make any difference which slots you put the simms in?
+ do you have to do something to activate them?
+ do you have to do something to the monitors control panel?
  
- BTW, I am running System 7.1 with 8 Megs of RAM.
+ btw, i am running system 7.1 with 8 megs of ram.
  
  
  ---
- Charles P. Cox, Jr.
- Computer Engineering
- Case Western Reserve University
+ charles p. cox, jr.
+ computer engineering
+ case western reserve university
  cpc3@po.cwru.edu
  cox@snowhite.eeap.cwru.edu
  

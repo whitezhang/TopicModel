@@ -1,15 +1,15 @@
 
- tomh@metrics.com (Tom Haapanen) writes:
- > Can I run WFW 's NET utilities in a DOS box?  Or is there a way to actually
- > get OS/2 to talk to WFW?  Will OS/2 LanMan clients talk to WFW?
+ tomh@metrics.com (tom haapanen) writes:
+ > can i run wfw 's net utilities in a dos box?  or is there a way to actually
+ > get os/2 to talk to wfw?  will os/2 lanman clients talk to wfw?
  
- Following up to my own article...  I found that several people say that 
- LAN Server clients can talk to WFW.  Is this, then, also true for LAN
- Manager?  (Don't LAN Server and LAN Manager share common roots?)
+ following up to my own article...  i found that several people say that 
+ lan server clients can talk to wfw.  is this, then, also true for lan
+ manager?  (don't lan server and lan manager share common roots?)
  
- > Dazed and confused,
+ > dazed and confused,
  
- Somewhat less so now...  :)
+ somewhat less so now...  :)
  
  -- 
  [ /tom haapanen -- tomh@metrics.com -- software metrics inc -- waterloo, ont ]

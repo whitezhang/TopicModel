@@ -1,23 +1,23 @@
 
  
- I have a toggleButton widget (yes widget) and I have a routine
+ i have a togglebutton widget (yes widget) and i have a routine
  which changes the color of the foreground and background of the
- label.  Well, the background changes alright, but the label
+ label.  well, the background changes alright, but the label
  text does not redraw itself.
  
- I am guessing that I have to force it to redraw with an
- XExposeEvent sent to it via XSendEvent.  Is this the best
- way to get the text up again?  I can't seeem to get
- XSEndEvent to work right.... if this is a good approach,
+ i am guessing that i have to force it to redraw with an
+ xexposeevent sent to it via xsendevent.  is this the best
+ way to get the text up again?  i can't seeem to get
+ xsendevent to work right.... if this is a good approach,
  might anyone have an example lying around to show me how to
- do this?  I've RTFM all evening and did not find a decent
+ do this?  i've rtfm all evening and did not find a decent
  example.
  
- PS I keep getting Segmentation Faults in XSEndEvent, tho all
+ ps i keep getting segmentation faults in xsendevent, tho all
  the values are as expected.
  
- Thanks in Advance
+ thanks in advance
  
- Stephen M. Dahmen
+ stephen m. dahmen
  
  

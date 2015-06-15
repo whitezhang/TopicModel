@@ -1,19 +1,19 @@
 
  
- I have a Gateway 4DX-33V with my 3.5 inch floppy as drive A.  I
- accidentally discovered that if a have a floppy from ONE particular
- box of diskettets in the A drive when I boot up, rather than getting
- the "Non-system diskette" message, the machine hangs and the CMOS
- gets overwritten (luckily, Gateway sends a print of the standard
- CMOS settings with their systems).  This only happens with a box
- of pre-formatted Fuji disks that I have, no other disks cause this
- problem.  If I re-format one of the Fuji disks, the problem goes away.
- I did a virus scan (scan v1.02) of the disks and found nothing.
+ i have a gateway 4dx-33v with my 3.5 inch floppy as drive a.  i
+ accidentally discovered that if a have a floppy from one particular
+ box of diskettets in the a drive when i boot up, rather than getting
+ the "non-system diskette" message, the machine hangs and the cmos
+ gets overwritten (luckily, gateway sends a print of the standard
+ cmos settings with their systems).  this only happens with a box
+ of pre-formatted fuji disks that i have, no other disks cause this
+ problem.  if i re-format one of the fuji disks, the problem goes away.
+ i did a virus scan (scan v1.02) of the disks and found nothing.
  
- Anyone have any idea what is going on here?  Hardware problem?  A
- virus that can't be detected?  The system reading in garbage from
+ anyone have any idea what is going on here?  hardware problem?  a
+ virus that can't be detected?  the system reading in garbage from
  the boot sector?
  
  --
- Tim King, tcking@uswnvg.com
+ tim king, tcking@uswnvg.com
  

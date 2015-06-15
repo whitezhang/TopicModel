@@ -1,15 +1,15 @@
 
- In article <93122.142712CHANGJ@QUCDN.QueensU.CA> <CHANGJ@QUCDN.QueensU.CA> writes:
- >Is there a tn3270 program which support xterm? I don't like x3270 at all. You
- >can't copy with other windows. Thanks.
+ in article <93122.142712changj@qucdn.queensu.ca> <changj@qucdn.queensu.ca> writes:
+ >is there a tn3270 program which support xterm? i don't like x3270 at all. you
+ >can't copy with other windows. thanks.
  
- The x3270 at export.lcs.mit.edu supposedly does.  I use another x3270
- that was cleaned up by Brian Ward <ward@math.psu.edu> which adds better
+ the x3270 at export.lcs.mit.edu supposedly does.  i use another x3270
+ that was cleaned up by brian ward <ward@math.psu.edu> which adds better
  color support, and cleans up _lots_ of bugs, as well as cut&paste.
- I just put it on export.lcs.mit.edu, as x3270v2.65beta.tar.Z.
+ i just put it on export.lcs.mit.edu, as x3270v2.65beta.tar.z.
  
- --Dave
+ --dave
  -- 
- System Administrator, Penn State Population Research Institute
- End of article 2565 (of 2565)--what next? [npq]
+ system administrator, penn state population research institute
+ end of article 2565 (of 2565)--what next? [npq]
  

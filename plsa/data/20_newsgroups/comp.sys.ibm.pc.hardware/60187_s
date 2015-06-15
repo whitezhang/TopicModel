@@ -1,18 +1,18 @@
 
- I have WD1007-WA2 ESDI controller with ROM BIOS v.1.1.
- It has been working fine until I recently upgraded motherboard to 386-40MHz.
- Now, my Maxter drive goes crazy making lots of seeking sound even when the
- drive is not accessed.  Of course, with numourous hard disk controller errors.
- These symptoms disappear when I switch to non-turbo mode (8 MHz).
- I suspect some timing dependent Rom Bios routines. (There's a newer version
- 2.x) Could anybody help me on this?
- By the way, my new mother board has AMI Bios, 128k Cache, 8 MHz bus, and
- works fine with my old MFM drives (I had to dig them up). :-(
- Also, I will appreciate it very much if somebody send me the phone numbers
- (tech support/BBS) for Western Digital.
- Many thanks in advance.
+ i have wd1007-wa2 esdi controller with rom bios v.1.1.
+ it has been working fine until i recently upgraded motherboard to 386-40mhz.
+ now, my maxter drive goes crazy making lots of seeking sound even when the
+ drive is not accessed.  of course, with numourous hard disk controller errors.
+ these symptoms disappear when i switch to non-turbo mode (8 mhz).
+ i suspect some timing dependent rom bios routines. (there's a newer version
+ 2.x) could anybody help me on this?
+ by the way, my new mother board has ami bios, 128k cache, 8 mhz bus, and
+ works fine with my old mfm drives (i had to dig them up). :-(
+ also, i will appreciate it very much if somebody send me the phone numbers
+ (tech support/bbs) for western digital.
+ many thanks in advance.
  
- Jay
+ jay
  --
- Physics, UW, Seattle, WA 98195  (206)543-7543  choe@phys.washington.edu
+ physics, uw, seattle, wa 98195  (206)543-7543  choe@phys.washington.edu
  

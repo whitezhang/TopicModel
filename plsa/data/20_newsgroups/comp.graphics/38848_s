@@ -1,210 +1,210 @@
-      --- Scientific Visualization of Chemical Systems ---
+      --- scientific visualization of chemical systems ---
   
-            Cornell Theory Center Summer School
+            cornell theory center summer school
   
-           Offered through the Cornell School of
-         Continuing Education and Summer Sessions
+           offered through the cornell school of
+         continuing education and summer sessions
   
-                   Course Description
+                   course description
   
-  Within the past ten years, the  simulation and  modeling of
- Followup-To: FYI
- Lines: 197
+  within the past ten years, the  simulation and  modeling of
+ followup-to: fyi
+ lines: 197
  
  molecules has evolved from an esoteric academic subject into
- a  international  industry. Computer  graphics has played  a
+ a  international  industry. computer  graphics has played  a
  decisive role in this transformation by allowing chemists to
  build, visualize and interact with complex geometrical objects.
   
- While computer scientists are conversant in the language of their
+ while computer scientists are conversant in the language of their
  own discipline, they are often unfamiliar with the terminology,
  simulation techniques and practical needs of research chemists.
- Similarly, chemists are often unfamiliar with the latest paradigms
+ similarly, chemists are often unfamiliar with the latest paradigms
  and technological advances in graphical computing.
   
- This interdisciplinary course is intended to bridge the gap
+ this interdisciplinary course is intended to bridge the gap
  between computer science and chemistry and to equip chemistry
  researchers who wish to be more than just casual users of
- prepackaged graphics software. Although this is not intended to
+ prepackaged graphics software. although this is not intended to
  be a course in computational chemistry or drug design, data sets
  from chemical research problems will be used in lab and students
- will be encouraged to bring data sets of their own. Lab exercises
+ will be encouraged to bring data sets of their own. lab exercises
  and projects will be carried out using data-flow programming
- (IBM Visualization Data Explorer software) and students will have
- access to Cornell Theory Center computing resources, including video
+ (ibm visualization data explorer software) and students will have
+ access to cornell theory center computing resources, including video
  recording equipment.
   
- Audience:  researchers and students in the chemical and biological
+ audience:  researchers and students in the chemical and biological
             sciences interested in integrating state-of-the-art
             computer graphics into their research; computer scientists
             wishing to gain familiarity with a major application of
             scientific visualization.
   
-            The class size will be limited to 25 participants on a
+            the class size will be limited to 25 participants on a
             first-come first-served basis.
   
- Level:     Graduate/advanced undergraduate, 1 or 2 Credits. May be taken
-            without credit as a workshop. Calculus, linear algebra
-            and introductory chemistry required. Familiarity with Unix,
-            X-windows and C is useful but not required.
+ level:     graduate/advanced undergraduate, 1 or 2 credits. may be taken
+            without credit as a workshop. calculus, linear algebra
+            and introductory chemistry required. familiarity with unix,
+            x-windows and c is useful but not required.
   
- Date:   June 14-25, 1993  (2 Credits)
-         June 14-18, 1993  (1 or 0 credits)
+ date:   june 14-25, 1993  (2 credits)
+         june 14-18, 1993  (1 or 0 credits)
   
- Time:   Mon-Fri 9:00 am to 12:00 pm and 1:00 pm to 4:00 pm
+ time:   mon-fri 9:00 am to 12:00 pm and 1:00 pm to 4:00 pm
   
- Cost:   0 or 1 credit       $410
+ cost:   0 or 1 credit       $410
          2 credits           $820
   
- Format
+ format
   
- The course will be held in the Theory Center training facility
- where computer workstations will be available.  Daily lectures will be
+ the course will be held in the theory center training facility
+ where computer workstations will be available.  daily lectures will be
  interspersed with laboratory exercises and ample time will be provided
  for project enablement and familiarization with the new computing
- environment. Students enrolled for one credit will be graded on the basis
- of their laboratory exercises and short final project. Those enrolled
+ environment. students enrolled for one credit will be graded on the basis
+ of their laboratory exercises and short final project. those enrolled
  for a second credit will receive more advanced lectures, be given
  more time for project development and meet daily to share experience
  and discuss problems encountered.
   
- Content (may vary)
+ content (may vary)
   
-     Elements of computer graphics
+     elements of computer graphics
           polygonal rendering, lighting models, ray tracing, volumetric
           rendering, stereo graphics, animation, introduction to data-flow
-          programming (DX), interactivity.
+          programming (dx), interactivity.
   
-     Representing the atom
+     representing the atom
           size, time and energy scales
           basic classical and quantum mechanics
   
-     Important categories of molecules
+     important categories of molecules
           small molecules, biopolymers, surfaces and catalysts,
           miscellaneous current applications
   
-     Data formats and conversions
+     data formats and conversions
   
-     Advanced molecular graphics techniques
+     advanced molecular graphics techniques
   
-     Types of simulation and experiment
+     types of simulation and experiment
           electronic structure, molecular dynamics/mechanics
-          electrostatics, X-ray crystallography, NMR, quantum
+          electrostatics, x-ray crystallography, nmr, quantum
           dynamics and spectroscopy.
   
- Instructors
+ instructors
   
- The course will be taught by two instructors. Topics related to computer
- graphics will be handled by Dr. Bruce Land, Project Leader of Visualization,
- Cornell National Supercomputing Facility. Chemistry-specific aspects
- of the course will be handled by Dr. Richard E. Gillilan, Visualization
- Specialist and Research Scientist, Cornell National Supercomputing Facility
+ the course will be taught by two instructors. topics related to computer
+ graphics will be handled by dr. bruce land, project leader of visualization,
+ cornell national supercomputing facility. chemistry-specific aspects
+ of the course will be handled by dr. richard e. gillilan, visualization
+ specialist and research scientist, cornell national supercomputing facility
   
- TO REGISTER:  mail completed form to
+ to register:  mail completed form to
   
-               Cornell University
-               School of Continuing Education
-               and Summer Sessions
-               B20 Day Hall
-               Ithaca, NY 14853-2801
+               cornell university
+               school of continuing education
+               and summer sessions
+               b20 day hall
+               ithaca, ny 14853-2801
   
- Questions:  Richard Gillilan (607) 254-8757
+ questions:  richard gillilan (607) 254-8757
              richard@tc.cornell.edu
   
- IMPORTANT: Acceptance will be first-come, first-served and based
+ important: acceptance will be first-come, first-served and based
             on a target class size of 15 full-credit and 10 single
             or non-credit participants.
   
- DEADLINE:   May 20, 1993
+ deadline:   may 20, 1993
   
   
- ----------------------- Application Form ----------------------
+ ----------------------- application form ----------------------
   
-          Scientific Visualization of Chemical Systems
+          scientific visualization of chemical systems
   
-             Chemistry 782    Computer Science 718
+             chemistry 782    computer science 718
   
- U.S. Social Security number (if available) _____ - ___ - _______
+ u.s. social security number (if available) _____ - ___ - _______
   
- Cornell ID number (if available) ________________
+ cornell id number (if available) ________________
   
- Name: _______________________________________________________________
-          Last            First         Middle        Suffix (Jr, etc)
+ name: _______________________________________________________________
+          last            first         middle        suffix (jr, etc)
   
- Address: _____________________________________________________________
-  
-          _____________________________________________________________
-  
-          _____________________________________________________________
-  
-  
- Home Address (where grades will be mailed):
+ address: _____________________________________________________________
   
           _____________________________________________________________
   
           _____________________________________________________________
   
+  
+ home address (where grades will be mailed):
+  
           _____________________________________________________________
   
- Local Phone ________________   Home Phone _______________
+          _____________________________________________________________
+  
+          _____________________________________________________________
+  
+ local phone ________________   home phone _______________
   
   
- Academic Discipline _____________________________
+ academic discipline _____________________________
   
   
- Course number (check one):   __ Chemistry  __ Computer Science
+ course number (check one):   __ chemistry  __ computer science
   
- Credits:       __.__
+ credits:       __.__
   
- Status:     __ Undergraduate Student   __ Smart Node Consultant
-             __ Graduate Student        __ Smart Node Advisor
-             __ Post-Doctoral
-             __ Faculty                 __ Other (explain) _______________
+ status:     __ undergraduate student   __ smart node consultant
+             __ graduate student        __ smart node advisor
+             __ post-doctoral
+             __ faculty                 __ other (explain) _______________
   
- Corporate Commercial
+ corporate commercial
   
-             __ Research Staff          __ Other (explain) ______________
+             __ research staff          __ other (explain) ______________
   
- Name of Firm ___________________________________________________________
+ name of firm ___________________________________________________________
   
- Indicate which of the following best describes you (optional):
+ indicate which of the following best describes you (optional):
   
-   __ African American  __ Alaskan Native     __ Asian American
-   __ Caucasian         __ Hispanic American  __ Native American
+   __ african american  __ alaskan native     __ asian american
+   __ caucasian         __ hispanic american  __ native american
   
- List special needs (e.g. mobility impaired): ____________________________
+ list special needs (e.g. mobility impaired): ____________________________
   
  ----------------------------------------------------------------------------
   
- Accommodations:
+ accommodations:
   
- Blocks of rooms are available at the Sheraton. Reservations
- must be made no later than May 17. Be sure to tell them you
- are here for the "Cornell Theory Center Visualization Workshop".
+ blocks of rooms are available at the sheraton. reservations
+ must be made no later than may 17. be sure to tell them you
+ are here for the "cornell theory center visualization workshop".
   
-     Sheraton Inn
-          One Sheraton Drive, Ithaca
+     sheraton inn
+          one sheraton drive, ithaca
           (607) 257-2000
-          FAX: 607-257-398
-          Rates starting at $64.00
+          fax: 607-257-398
+          rates starting at $64.00
   
- Other local motels (Make your reservation early! Our
- workshop coincides with other Cornell events)
+ other local motels (make your reservation early! our
+ workshop coincides with other cornell events)
   
- Econo Lodge
-         Cayuga Mall 2303 N. Triphammer Rd. Ithaca
+ econo lodge
+         cayuga mall 2303 n. triphammer rd. ithaca
          (607) 257-1400
          (800) 466-6900
-         FAX: (607) 257-6359
-         Rates from $35.10 (ask for the Cornell Rate)
+         fax: (607) 257-6359
+         rates from $35.10 (ask for the cornell rate)
   
   
- Dorm rooms have also been reserved participants
- (both credit and non-credit). Participants who
+ dorm rooms have also been reserved participants
+ (both credit and non-credit). participants who
  are interested in dorm rooms should call (below)
  for registration information:
   
- Jeanne Miller (607) 254-8813 or Donna Smith (607) 254-8614
+ jeanne miller (607) 254-8813 or donna smith (607) 254-8614
  email: jeanne@tc.cornell.edu or donna@tc.cornell.edu
   
  

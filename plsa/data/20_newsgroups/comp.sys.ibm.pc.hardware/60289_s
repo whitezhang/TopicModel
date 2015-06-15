@@ -1,26 +1,26 @@
 
- About two months ago I purchased the Adaptec ASW-410 driver for use with a
- CD-ROM drive.  At the time this seemed the thing to do as the documentation I
- had with my Adaptec SCSI controller said that this is the driver to be used with
- CD-ROM drives.  Since then I have learn that this driver is out of date in a
- major way and that Adaptec have an upgrade deal for going to the next driver
- (I think it's called EZI-SCSI or something).  I wasn't too fussed about this
- until I upgraded by CD-ROM drive from a Sony CDU-541 to a Sony CDU-641.  I now
- find that the audio-mode will not work.  I assume it is not being handled
- correctly by the ASW-410 driver.
+ about two months ago i purchased the adaptec asw-410 driver for use with a
+ cd-rom drive.  at the time this seemed the thing to do as the documentation i
+ had with my adaptec scsi controller said that this is the driver to be used with
+ cd-rom drives.  since then i have learn that this driver is out of date in a
+ major way and that adaptec have an upgrade deal for going to the next driver
+ (i think it's called ezi-scsi or something).  i wasn't too fussed about this
+ until i upgraded by cd-rom drive from a sony cdu-541 to a sony cdu-641.  i now
+ find that the audio-mode will not work.  i assume it is not being handled
+ correctly by the asw-410 driver.
  
- So, should I chase Adaptec for an upgrade?  If so does anyone know their
- FAX number?
+ so, should i chase adaptec for an upgrade?  if so does anyone know their
+ fax number?
  
- Any assistance appreciated.
+ any assistance appreciated.
  
- Regards
+ regards
  
- BTW: everything else works fine, certainly seems that Sony have caught up with
+ btw: everything else works fine, certainly seems that sony have caught up with
       the rest with the 641.
  -- 
- <<<<<<<<<<<<<<<<<<<<<<<<<  Nigel Harwood  >>>>>>>>>>>>>>>>>>>>>>>>>>>
- << Post:  Coles Supermarkets, PO Box 480 Glen Iris 3146, Australia >>
- << Phone: +61 3 829 6090  E-mail: nigel@cnw01.storesys.coles.oz.au >>
- <<   FAX: +61 3 829 6886                                           >>
+ <<<<<<<<<<<<<<<<<<<<<<<<<  nigel harwood  >>>>>>>>>>>>>>>>>>>>>>>>>>>
+ << post:  coles supermarkets, po box 480 glen iris 3146, australia >>
+ << phone: +61 3 829 6090  e-mail: nigel@cnw01.storesys.coles.oz.au >>
+ <<   fax: +61 3 829 6886                                           >>
  

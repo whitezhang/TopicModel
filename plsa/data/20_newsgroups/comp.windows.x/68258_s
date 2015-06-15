@@ -1,18 +1,18 @@
 
  
- We tried to compile an old X11R4/Motif program with X115 and a newer
- Version of Motif.
+ we tried to compile an old x11r4/motif program with x115 and a newer
+ version of motif.
  
- But we newer succeed. Any ideas?
+ but we newer succeed. any ideas?
  
- CC  -o xtrack.new main.o libxtrack.a ../xutils/libxutils.a ../pmshort/libpmshort.a  ../matrix/libmatrix.a  otte/lib_otte.a verb/lib_verb.a /tools/newmotif/lib/libMrm.a /tools/newmotif/lib/libXm.a -L/tools/X11R5/lib -lXaw -lXmu -lXt -lX11  -lL -lm -lXext 
- cXm.a -lXaw -lXmu -lXt -lX11 -lL -lm -lXext -L/usr/CC/sun4/ -lC
- ld: /tools/X11R5/lib/libXaw.sa.5.0(sharedlib.o): _vendorShellWidgetClass: multiply defined
- *** Error code 2
- make: Fatal error: Command failed for target `xtrack'
+ cc  -o xtrack.new main.o libxtrack.a ../xutils/libxutils.a ../pmshort/libpmshort.a  ../matrix/libmatrix.a  otte/lib_otte.a verb/lib_verb.a /tools/newmotif/lib/libmrm.a /tools/newmotif/lib/libxm.a -l/tools/x11r5/lib -lxaw -lxmu -lxt -lx11  -ll -lm -lxext 
+ cxm.a -lxaw -lxmu -lxt -lx11 -ll -lm -lxext -l/usr/cc/sun4/ -lc
+ ld: /tools/x11r5/lib/libxaw.sa.5.0(sharedlib.o): _vendorshellwidgetclass: multiply defined
+ *** error code 2
+ make: fatal error: command failed for target `xtrack'
  
- Thanks FvD.
+ thanks fvd.
  --
-        FvD, Markus Weber fvd@ma1ws1.mathematik.uni-karlsruhe.de
- 		  Sometimes there's nothing to feel.
+        fvd, markus weber fvd@ma1ws1.mathematik.uni-karlsruhe.de
+ 		  sometimes there's nothing to feel.
  

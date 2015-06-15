@@ -1,22 +1,22 @@
 
- I got this from GW2000:
+ i got this from gw2000:
  
- From: gateway@aol.com
- X-Mailer: America Online Mailer
- To: pastor@vfl.paramax.com
- Subject: Re: 32-bit disk access
- Date: Mon, 29 Mar 93 14:26:45 EST
- Message-Id: <9303291426.tn05643@aol.com>
- Status: RO
+ from: gateway@aol.com
+ x-mailer: america online mailer
+ to: pastor@vfl.paramax.com
+ subject: re: 32-bit disk access
+ date: mon, 29 mar 93 14:26:45 est
+ message-id: <9303291426.tn05643@aol.com>
+ status: ro
  
- Jon -
+ jon -
  
- To get 32bit access in windows all you have to do is edit the system.ini...
- Look under the 386Enhanced section and add this line to it
- "32bitdiskaccess=on"... This will give you the 32bitdiskaccess that you
- need... Thanks  :)
+ to get 32bit access in windows all you have to do is edit the system.ini...
+ look under the 386enhanced section and add this line to it
+ "32bitdiskaccess=on"... this will give you the 32bitdiskaccess that you
+ need... thanks  :)
  
- Regards,
- Scot Oehlerking (G2kScooter)
- Gateway 2000
+ regards,
+ scot oehlerking (g2kscooter)
+ gateway 2000
  

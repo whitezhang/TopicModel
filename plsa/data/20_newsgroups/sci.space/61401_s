@@ -1,68 +1,68 @@
-	<1993Apr27.132255.12653@tpl68k0.tplrd.tpl.oz.au>
- 	<STEINLY.93Apr27121443@topaz.ucsc.edu>
- Organization: U. of Washington
- Lines: 59
- NNTP-Posting-Host: kepler.astro.washington.edu
- To: steinly@topaz.ucsc.edu (Steinn Sigurdsson)
- In-reply-to: steinly@topaz.ucsc.edu's message of 27 Apr 93 12:14:43
+	<1993apr27.132255.12653@tpl68k0.tplrd.tpl.oz.au>
+ 	<steinly.93apr27121443@topaz.ucsc.edu>
+ organization: u. of washington
+ lines: 59
+ nntp-posting-host: kepler.astro.washington.edu
+ to: steinly@topaz.ucsc.edu (steinn sigurdsson)
+ in-reply-to: steinly@topaz.ucsc.edu's message of 27 apr 93 12:14:43
  
- In article <STEINLY.93Apr27121443@topaz.ucsc.edu> steinly@topaz.ucsc.edu (Steinn Sigurdsson) writes:
+ in article <steinly.93apr27121443@topaz.ucsc.edu> steinly@topaz.ucsc.edu (steinn sigurdsson) writes:
  
-    _The_ problem with Oort cloud sources is that absolutely
-    no plausible mechanism has been proposed. It would have
-    to involve new physics as far as I can tell. Closest to
-    "conventional" Oort sources is a model of B-field pinching
+    _the_ problem with oort cloud sources is that absolutely
+    no plausible mechanism has been proposed. it would have
+    to involve new physics as far as i can tell. closest to
+    "conventional" oort sources is a model of b-field pinching
     by comets, it's got too many holes in it to count, but at
     least it was a good try...
  
- So you have a plausible model for GRB's at astronomical distances?
- Recent observations have just about ruled out the merging neutron star
- hypothesis, which had a lot of problems, anyhow.  We have to look for
+ so you have a plausible model for grb's at astronomical distances?
+ recent observations have just about ruled out the merging neutron star
+ hypothesis, which had a lot of problems, anyhow.  we have to look for
  implausible models and what is fundamentally allowed independent of
  models.
  
- A paper on the possibility of GRB's in the Oort cloud just came
- through the astrophysics abstract service.  To get a copy of this
+ a paper on the possibility of grb's in the oort cloud just came
+ through the astrophysics abstract service.  to get a copy of this
  paper, send a message to astro-ph@babbage.sissa.it with the subject
  line 
    get 9304001
  
  
- Here is the abstract of that paper.
+ here is the abstract of that paper.
  
-    The currently favored explanation for the origin of \GRBs puts them
+    the currently favored explanation for the origin of \grbs puts them
     at cosmological distances;
     but as long as there is no distance
     indicator to these events all possible sources which are
-    isotropically distributed should remain under consideration. This is
-    why the Oort cloud of comets is kept on the list,
-    although there is no known mechanism for generating \GRBs
-    from cometary nuclei. Unlikely as it may seem, the possibility that \GRBs
+    isotropically distributed should remain under consideration. this is
+    why the oort cloud of comets is kept on the list,
+    although there is no known mechanism for generating \grbs
+    from cometary nuclei. unlikely as it may seem, the possibility that \grbs
     originate in the solar cometary cloud
     cannot be excluded until it is disproved.
  
-    We use the available data on the distribution of \GRBs (the BATSE
-    catalogue up to March, 1992), and
-    the Catalogue of Cometary Orbits  by Marsden and Williams (1992) to
+    we use the available data on the distribution of \grbs (the batse
+    catalogue up to march, 1992), and
+    the catalogue of cometary orbits  by marsden and williams (1992) to
     investigate whether there is any observational indication for correlations
-    between the angular distributions of \GRBs and comets' aphelia,
+    between the angular distributions of \grbs and comets' aphelia,
     assuming that the distribution of aphelia direction reflect,
     at least to some extent, true variations
-    in the column density of the Oort cloud. We also apply the $\vov$
+    in the column density of the oort cloud. we also apply the $\vov$
     test to both distributions.
  
-    We have  performed a variety of statistical tests (a Kolmogorov-Smirnov
+    we have  performed a variety of statistical tests (a kolmogorov-smirnov
     test for the distributions in galactic latitude, a
-    $\chi^2$ test for the spherical multiple moments, and a 2-D
+    $\chi^2$ test for the spherical multiple moments, and a 2-d
     cross-correlation analysis), including testing sub-samples for
     isolating the effect of possible observational biases.
-    These tests imply that it is unlikely that the two distributions agree, but
+    these tests imply that it is unlikely that the two distributions agree, but
     the statistical significance  is not sufficient for ruling out any
-    connection with complete confidence. We performed Monte-Carlo simulations
+    connection with complete confidence. we performed monte-carlo simulations
     which show that only when the number of bursts exceeds $\sim 800$
     it is possible to rule out a correlation between the angular distributions.
-    Currently,
+    currently,
      it is only the combination of these tests  with the large disagreement
-    found for the $\vov$ parameter which makes the Oort
-    cloud of comets unlikely to be related to \GRBs.
+    found for the $\vov$ parameter which makes the oort
+    cloud of comets unlikely to be related to \grbs.
  

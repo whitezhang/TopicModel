@@ -1,54 +1,54 @@
 
- In article <1993Apr16.212441.34125@rchland.ibm.com>, ricardo@rchland.vnet.ibm.com (Ricardo Hernandez Muchado) writes:
- > In article <1993Apr15.164940.11632@mercury.unt.edu>, Sean McMains <mcmains@unt.edu> writes:
+ in article <1993apr16.212441.34125@rchland.ibm.com>, ricardo@rchland.vnet.ibm.com (ricardo hernandez muchado) writes:
+ > in article <1993apr15.164940.11632@mercury.unt.edu>, sean mcmains <mcmains@unt.edu> writes:
  >
  > |>
- > |> Ricardo, the animation playback to which Lawrence was referring in an
- > |> earlier post is plain old Quicktime 1.5 with the Compact Video codec.
- > |> I've seen digitized video (some of Apple's early commercials, to be
- > |> precise) running on a Centris 650 at about 30fps very nicely (16-bit
- > |> color depth). I would expect that using the same algorithm, a RISC
+ > |> ricardo, the animation playback to which lawrence was referring in an
+ > |> earlier post is plain old quicktime 1.5 with the compact video codec.
+ > |> i've seen digitized video (some of apple's early commercials, to be
+ > |> precise) running on a centris 650 at about 30fps very nicely (16-bit
+ > |> color depth). i would expect that using the same algorithm, a risc
  > |> processor should be able to approach full-screen full-motion animation,
  > |> though as you've implied, the processor will be taxed more with highly
  > |> dynamic material.
  >
  >
- >    Sean, I don't want to get into a 'mini-war' by what I am going to say,
- > but I have to be a little bit skeptic about the performance you are
- > claiming on the Centris, you'll see why (please, no-flames, I reserve
+ >    sean, i don't want to get into a 'mini-war' by what i am going to say,
+ > but i have to be a little bit skeptic about the performance you are
+ > claiming on the centris, you'll see why (please, no-flames, i reserve
  > those for c.s.m.a :-) )
  >
- >    I was in Chicago in the last consumer electronics show, and Apple had a
- > booth there.  I walked by, and they were showing real-time video capture
- > using a (Radious or SuperMac?) card to digitize and make right on the spot
- > quicktime movies.  I think the quicktime they were using was the old one
+ >    i was in chicago in the last consumer electronics show, and apple had a
+ > booth there.  i walked by, and they were showing real-time video capture
+ > using a (radious or supermac?) card to digitize and make right on the spot
+ > quicktime movies.  i think the quicktime they were using was the old one
  > (1.5).
  
- That is in fact the current version (it only came out in December).
+ that is in fact the current version (it only came out in december).
  
- >    They digitized a guy talking there in 160x2xx something.  It played back quite
- > nicely and in real time.  The guy then expanded the window (resized) to 25x by
- > 3xx (320 in y I think) and the frame rate decreased enough to notice that it
- > wasn't 30fps (or about 30fps) anymore.  It dropped to like 15 fps.  Then he
+ >    they digitized a guy talking there in 160x2xx something.  it played back quite
+ > nicely and in real time.  the guy then expanded the window (resized) to 25x by
+ > 3xx (320 in y i think) and the frame rate decreased enough to notice that it
+ > wasn't 30fps (or about 30fps) anymore.  it dropped to like 15 fps.  then he
  > increased it just a bit more, and it dropped to 10<->12 fps.
  >
- >    Then I asked him what Mac he was using... He was using a Quadra (don't know
- > what model, 900?) to do it, and he was telling the guys there that the Quicktime
- > could play back at the same speed even on an LCII.
+ >    then i asked him what mac he was using... he was using a quadra (don't know
+ > what model, 900?) to do it, and he was telling the guys there that the quicktime
+ > could play back at the same speed even on an lcii.
  >
- >    Well, I spoiled his claim so to say, since a 68040 Quadra Mac was having
- > a little bit of trouble.  And this wasn't even from the hardisk!  This was
+ >    well, i spoiled his claim so to say, since a 68040 quadra mac was having
+ > a little bit of trouble.  and this wasn't even from the hardisk!  this was
  > from memory!
  
- My test movie was created at 320*240 resolution, it wasn't being scaled up.
- Scaling was a very CPU-intensive operation with the original QuickTime (1.0);
+ my test movie was created at 320*240 resolution, it wasn't being scaled up.
+ scaling was a very cpu-intensive operation with the original quicktime (1.0);
  the current version has optimizations for ratios like 4:1 (160*120 -> 320*240),
- but even so, I'm prepared to believe that the performance isn't as good as
- with playing back an actual 320*240 movie. I haven't done any numerical
+ but even so, i'm prepared to believe that the performance isn't as good as
+ with playing back an actual 320*240 movie. i haven't done any numerical
  measurements for scaled playback.
  
- Lawrence D'Oliveiro                       fone: +64-7-856-2889
- Computer Services Dept                     fax: +64-7-838-4066
- University of Waikato            electric mail: ldo@waikato.ac.nz
- Hamilton, New Zealand    37^ 47' 26" S, 175^ 19' 7" E, GMT+12:00
+ lawrence d'oliveiro                       fone: +64-7-856-2889
+ computer services dept                     fax: +64-7-838-4066
+ university of waikato            electric mail: ldo@waikato.ac.nz
+ hamilton, new zealand    37^ 47' 26" s, 175^ 19' 7" e, gmt+12:00
  

@@ -1,89 +1,89 @@
 
- Well, I'm amazed at how successful this exercise was. I received 20
- responses and 4 requests for summary. Thanks to everyone who made it
+ well, i'm amazed at how successful this exercise was. i received 20
+ responses and 4 requests for summary. thanks to everyone who made it
  possible.
  
- On my own I was able to find out about Codebase, Accsys, and Q+E. Codebase
- and Accsys are C libraries without SQL. Q+E is a Windows application
- that can be communicated through Windows DDE calls, where you send a SQL
+ on my own i was able to find out about codebase, accsys, and q+e. codebase
+ and accsys are c libraries without sql. q+e is a windows application
+ that can be communicated through windows dde calls, where you send a sql
  string and receive the results.
  
- Most people wrote to tell me about the Paradox Engine from Borland. Other 
- products mentioned were: Microsoft's ODBC, Accsys, Quadbase, Codebase,
- RBASE, and Q+E. Only ODBC, Quadbase, RBASE, and Q+E have SQL.
+ most people wrote to tell me about the paradox engine from borland. other 
+ products mentioned were: microsoft's odbc, accsys, quadbase, codebase,
+ rbase, and q+e. only odbc, quadbase, rbase, and q+e have sql.
  
- For myself, I decided on Codebase, mostly because it has an ANSI C
- portability version that runs under DOS, UNIX, etc, and includes the
- source code, and portability is important in my application. It works
- with DBASE, FoxPro, or Clipper files.
+ for myself, i decided on codebase, mostly because it has an ansi c
+ portability version that runs under dos, unix, etc, and includes the
+ source code, and portability is important in my application. it works
+ with dbase, foxpro, or clipper files.
  
- However, I feel that Microsoft's ODBC looks very promising.
- It's mostly a formalisation of building and submitting SQL queries, and
- formatting query results. As the responses say, it's available via ftp,
+ however, i feel that microsoft's odbc looks very promising.
+ it's mostly a formalisation of building and submitting sql queries, and
+ formatting query results. as the responses say, it's available via ftp,
  except it's effectively unusuable without two manuals:
- the "ODBC Programmer's Reference" and the "ODBC SDK Guide". Moreover,
- ODBC doesn't actually interpret SQL and liase with databases, that's 
- up to drivers that should be provided by database manufacturers. Also,
- it's Windows only (it's actually an extension to the Windows SDK). 
- Nevertheless, it's a start at a SQL interface standard, and should
+ the "odbc programmer's reference" and the "odbc sdk guide". moreover,
+ odbc doesn't actually interpret sql and liase with databases, that's 
+ up to drivers that should be provided by database manufacturers. also,
+ it's windows only (it's actually an extension to the windows sdk). 
+ nevertheless, it's a start at a sql interface standard, and should
  make life interesting in the future.
  
- Here's my original post, followed by the responses, separated by 
+ here's my original post, followed by the responses, separated by 
  a line of asterisks (*).
  
- > Does anyone know if Borland or Microsoft have libraries for accessing
- > their respective databases (Paradox, FoxPro) from within C programs?
- > I'd really like to be able to build a SQL query string and pass it
- > to a function which returns the query results in some format. Failing
+ > does anyone know if borland or microsoft have libraries for accessing
+ > their respective databases (paradox, foxpro) from within c programs?
+ > i'd really like to be able to build a sql query string and pass it
+ > to a function which returns the query results in some format. failing
  > that, any other access would still be better than nothing.
  > 
- > I'd also like to hear of third party libraries for doing the same thing.
+ > i'd also like to hear of third party libraries for doing the same thing.
  > 
- > If other people are interested, I'll prepare a summary of what I'm
+ > if other people are interested, i'll prepare a summary of what i'm
  > told and post it.
  > 
- > Thanks to all.
+ > thanks to all.
  
  ****************************************************************************
  
- Borland has a product called Paradox Engine that does just what you want. 
- The current version is 3.0, which is fully compatible with (ack) Paradox
- 4.0.  (Why the versions are different, I don't know. PD Engine 2.0 was
- compatible with Pdox 3.0 and 3.5...).  It consists of a rather broad
- library of functions for accesing database files from both Pascal (I think
- turbo Pascal 5.5 and up) and C (I think either Microsoft or Borland).
+ borland has a product called paradox engine that does just what you want. 
+ the current version is 3.0, which is fully compatible with (ack) paradox
+ 4.0.  (why the versions are different, i don't know. pd engine 2.0 was
+ compatible with pdox 3.0 and 3.5...).  it consists of a rather broad
+ library of functions for accesing database files from both pascal (i think
+ turbo pascal 5.5 and up) and c (i think either microsoft or borland).
  
- Now.. reading the box... it's "Borland Paradox Engine & Database
- Frameworks".  Works with any Borland C/C++, Mocrosoft C 6.01 or later,
- Turbo C++ for Windows, Turbo Pascal 6.0 or later, TP for Windows 1.0 or
- later.  For Framework applications, BC++ 3.0 or later or MS C/C++ 7.0. It
+ now.. reading the box... it's "borland paradox engine & database
+ frameworks".  works with any borland c/c++, mocrosoft c 6.01 or later,
+ turbo c++ for windows, turbo pascal 6.0 or later, tp for windows 1.0 or
+ later.  for framework applications, bc++ 3.0 or later or ms c/c++ 7.0. it
  does have support for object useage...
  
- I haven't had a real chance to really use it myself... but it looks fairly
- complete... I'm planning to use it this summer.
- -Rick
+ i haven't had a real chance to really use it myself... but it looks fairly
+ complete... i'm planning to use it this summer.
+ -rick
  -- 
  +--------------------------------------------------------------------------+
- |  Rick Osterberg   osterber@husc.harvard.edu  617-493-7784  617-493-3892  |
- |     2032 Harvard Yard Mail Center   Cambridge, MA   02138-7510   USA     |
+ |  rick osterberg   osterber@husc.harvard.edu  617-493-7784  617-493-3892  |
+ |     2032 harvard yard mail center   cambridge, ma   02138-7510   usa     |
  +--------------------------------------------------------------------------+
  
  ****************************************************************************
  
- Borland has a product which is called Paradox Engine. 
- I do not know about MS.
+ borland has a product which is called paradox engine. 
+ i do not know about ms.
  
- The paradox engine I know very well, and it definitiely
- not a replacement for SQL, but it will enable you to
- save and restore records, has locking, et al. Supposedly
- the Paradox for Windows was impemented on top of it.
+ the paradox engine i know very well, and it definitiely
+ not a replacement for sql, but it will enable you to
+ save and restore records, has locking, et al. supposedly
+ the paradox for windows was impemented on top of it.
  
  
  ---------------------------------------------------------
  
- Charles Parker			  Phone.(800) 669 9165
- Technical Support			(617) 498 3321
- CenterLine Software, Inc.	    Fax.(617) 868 6655
+ charles parker			  phone.(800) 669 9165
+ technical support			(617) 498 3321
+ centerline software, inc.	    fax.(617) 868 6655
  
  cparker@centerline.com
                                         cyberspace
@@ -93,9 +93,9 @@
  
  ****************************************************************************
  
- I know Borland has a library of routines for accessing PARADOX from within
- a C program. They recently came out with version 3.0. This works with both
- Borland and Microsoft's C compiler.
+ i know borland has a library of routines for accessing paradox from within
+ a c program. they recently came out with version 3.0. this works with both
+ borland and microsoft's c compiler.
  
  				shailesh bhobe
  				(708) 979-7101
@@ -104,195 +104,195 @@
  
  ****************************************************************************
  
-   MS has put their ODBC SDK into the public domain; it's
-  _big_ (I believe 1.8 MB), but worth downloading over a
-  fast link. Look at ftp.uu.net in vendor/microsoft/odbc-sdk.
+   ms has put their odbc sdk into the public domain; it's
+  _big_ (i believe 1.8 mb), but worth downloading over a
+  fast link. look at ftp.uu.net in vendor/microsoft/odbc-sdk.
  
-  Also some companies are starting to provide SQL engines; I
-  just got one for RBASE, not exactly cheap at $450, but it
-  allows programs in C or VBASIC (under DOS or Windows) to talk
-  to data bases using SQL functions in your code.
+  also some companies are starting to provide sql engines; i
+  just got one for rbase, not exactly cheap at $450, but it
+  allows programs in c or vbasic (under dos or windows) to talk
+  to data bases using sql functions in your code.
  
   hth
  
-  Walter Knopf
-  Fermilab
+  walter knopf
+  fermilab
  
   knopf@fnal.fnal.gov
  
  
  ****************************************************************************
  
-    Check out the ODBC toolikt from Microsoft.  It is available on
- ftp.uu.net:vendor/microsoft/odbc-sdk.  This is the way that we've
+    check out the odbc toolikt from microsoft.  it is available on
+ ftp.uu.net:vendor/microsoft/odbc-sdk.  this is the way that we've
  chosen to access databases from all of our apps.
  mj
  -- 
  +----------------------------------------------------------------------------+
- | PPPPP  SSSSSIIIIII   Specialists in MS-Windows and Windows-NT Development  |
- | PP  PPSS      II     Call for information about our OOA/OOD tool:  OOAiD.  |
- | PPPPP  SSSS   II     Michaeljon Miller                   mikem@apertus.com |
- | PP        SS  II     Proficient Solutions, Inc.               612-860-2181 |
- | PP    SSSSS IIIIII   2877 Holmes Ave So. #5          Minneapolis, MN 55408 |
+ | ppppp  sssssiiiiii   specialists in ms-windows and windows-nt development  |
+ | pp  ppss      ii     call for information about our ooa/ood tool:  ooaid.  |
+ | ppppp  ssss   ii     michaeljon miller                   mikem@apertus.com |
+ | pp        ss  ii     proficient solutions, inc.               612-860-2181 |
+ | pp    sssss iiiiii   2877 holmes ave so. #5          minneapolis, mn 55408 |
  +----------------------------------------------------------------------------+
  
  
  ****************************************************************************
  
- Borland sells the "Paradox Engine" which is a C language interface to
- Paradox, dBase, Btrieve, ans ASCI files.  They also sell "Database Frameworks"
- which includes the engine plus a collection (with source) of C++ classes
+ borland sells the "paradox engine" which is a c language interface to
+ paradox, dbase, btrieve, ans asci files.  they also sell "database frameworks"
+ which includes the engine plus a collection (with source) of c++ classes
  for using the engine.
  
  -- 
- Earl Roethke
+ earl roethke
  eroethke@ems.cdc.com
  
  
  ****************************************************************************
  
- I actualy have Paradox Engine.  It is a library of functions (large model)
- for accessing the Paradox's databases.  It seems to be working fine,
- but I never did try it thouroughly.  It costs ~200$.
+ i actualy have paradox engine.  it is a library of functions (large model)
+ for accessing the paradox's databases.  it seems to be working fine,
+ but i never did try it thouroughly.  it costs ~200$.
  
- Hope it will help you...
+ hope it will help you...
  
  
- From: David Lefebvre <david@hp817.speedware.com>
+ from: david lefebvre <david@hp817.speedware.com>
  
  ****************************************************************************
  
- Borland provides a database lib called Paradox Engine which can access
+ borland provides a database lib called paradox engine which can access
  and use the database files aswell as many other things.
  
- Gary.
+ gary.
  
  -- 
  ``````````` bell@nellads.cc.monash.edu.au `````````````````````````````````````
- | Gary Bell                                                                   |
- | Department of Robotics and Digital Technology                               |
- |Faculty of Computing, Caulfield Campus, Monash University, Australia         |
+ | gary bell                                                                   |
+ | department of robotics and digital technology                               |
+ |faculty of computing, caulfield campus, monash university, australia         |
  
  ****************************************************************************
  
- Paradox Engine is the library  for Paradox .
+ paradox engine is the library  for paradox .
  
  
- Artur Babecki
+ artur babecki
  artur@ii.uj.edu.pl
  
  ****************************************************************************
  
- Borland sells the Paradox Engine -- which has all the Paradox calls in it.
- Its hardly SQL though.  You can do searches on key fields and on 
+ borland sells the paradox engine -- which has all the paradox calls in it.
+ its hardly sql though.  you can do searches on key fields and on 
  indivual fields, but no comparison operators like <, >=....
  
  so its pretty painful (in my opinion) do do anything besides simple
  retrieval and inserts/updates.
  
- I'm currently using it (I have an eval copy..) and I've linked it in to
- some entry screens I've written.
+ i'm currently using it (i have an eval copy..) and i've linked it in to
+ some entry screens i've written.
  
- The Engine library adds about 100K to the size of the program, but you can
- load it as an overlay using Borland's VROOM manager.
+ the engine library adds about 100k to the size of the program, but you can
+ load it as an overlay using borland's vroom manager.
  
- Now Borland claims that later versions of the engine will have SQL support
+ now borland claims that later versions of the engine will have sql support
  but they don't really expect it till late in the year... or even next year
- They are trying to get thrid parties to help out..
+ they are trying to get thrid parties to help out..
  
- If you have any other questions -- let me know...
+ if you have any other questions -- let me know...
  
- Mike Kamlet
+ mike kamlet
  mike@vpnet.chi.il.us
  
  
  ****************************************************************************
  
- Yes, borland sells their Paradox Engine separately.  It has C, C++, and
- Pascal interfaces, although the underlying interface is in 'C'. Well at
- least for version 2.0 of the Engine which I have (costed $99 at Egghead).
- They now have version 3.0 of the engine, and a separate C++ class package
+ yes, borland sells their paradox engine separately.  it has c, c++, and
+ pascal interfaces, although the underlying interface is in 'c'. well at
+ least for version 2.0 of the engine which i have (costed $99 at egghead).
+ they now have version 3.0 of the engine, and a separate c++ class package
  for it.
  
  
  -- 
- Michael D. Kersenbrock
- ADC Kentrox - Portland, Oregon
+ michael d. kersenbrock
+ adc kentrox - portland, oregon
  michaelk@kentrox.com
  uunet!kentrox!michaelk
  
  
  ****************************************************************************
  
- I've used AccSys for Paradox (new version is almost ready for Paradox
- 4.0) to access Paradox files from C.  Its pretty good.  Not SQL
- though.  Have heard of Borland Paradox Engine or some such which is
+ i've used accsys for paradox (new version is almost ready for paradox
+ 4.0) to access paradox files from c.  its pretty good.  not sql
+ though.  have heard of borland paradox engine or some such which is
  supposed to do likewise, but not sure of what it is exactly.
  
- Hope this helps, good luck!
+ hope this helps, good luck!
  chris
  
- From: fernand@slinky.cs.nyu.edu (Christopher Fernandes)
+ from: fernand@slinky.cs.nyu.edu (christopher fernandes)
  
  ****************************************************************************
  
- Borland sells their "Paradox Engine (3.0)".  It's a library of functions
- for accessing paradox DB files.  It comes with libraries for:
- MS C 7.0
- BCC 3.1
- Turbo Pascal (v??)
- and I believe it comes with Turbo Pascal/Win libraries as well.
- The C libraries come in both DOS and Windows flavors (the win stuff 
+ borland sells their "paradox engine (3.0)".  it's a library of functions
+ for accessing paradox db files.  it comes with libraries for:
+ ms c 7.0
+ bcc 3.1
+ turbo pascal (v??)
+ and i believe it comes with turbo pascal/win libraries as well.
+ the c libraries come in both dos and windows flavors (the win stuff 
  being dll's).  
  
- When I got it, it also came with Crystal Reports which
- is a graphical report generator.  It allows you to create a generic
- form and use it within a compiled program using Pdox Engine.  I don't
- know if they still offer it or what the current price is, I paid 
+ when i got it, it also came with crystal reports which
+ is a graphical report generator.  it allows you to create a generic
+ form and use it within a compiled program using pdox engine.  i don't
+ know if they still offer it or what the current price is, i paid 
  something like $50-$60 for an upgrade from the earlier version though...
  
- Hope this helps...
+ hope this helps...
  
- -David Taylor
+ -david taylor
  ---
- |      ->> The Commander <<--	   | It is easier to change the 	|
- |Internet: gt2847c@prism.gatech.edu| specification to fit the program	|
- |    Also: dtaylor@cfd.gatech.edu  | than vice-versa.			|
- |     And: root@cfd.gatech.edu	   | -Author Unknown (but very wise :-) |
+ |      ->> the commander <<--	   | it is easier to change the 	|
+ |internet: gt2847c@prism.gatech.edu| specification to fit the program	|
+ |    also: dtaylor@cfd.gatech.edu  | than vice-versa.			|
+ |     and: root@cfd.gatech.edu	   | -author unknown (but very wise :-) |
  
  
  ****************************************************************************
  
  
- If you want to do SQL from within your programs, check out QuadBase. I don't
- have their address oops -- yes I do!    :
- QuadBase Systems, Inc.
- 790 Lucerne Dr #51
- Sunnyvale, CA 94086 (USA)
+ if you want to do sql from within your programs, check out quadbase. i don't
+ have their address oops -- yes i do!    :
+ quadbase systems, inc.
+ 790 lucerne dr #51
+ sunnyvale, ca 94086 (usa)
  
  phone: 408-738-6989 (voice)  408-738-6980 (fax)
  
- Ask for the SQL/Win demo disk.
+ ask for the sql/win demo disk.
  
- It looked good to me (I have a background in embedded SQL in Ingres -- this
- looked real similar). It's a little expensive, but if you order the demo
+ it looked good to me (i have a background in embedded sql in ingres -- this
+ looked real similar). it's a little expensive, but if you order the demo
  and then just wait they will probably send you a special offer that'll
- probably run about $500 US. Good luck!
+ probably run about $500 us. good luck!
  
- Best,
-                              Tom DeLosh
+ best,
+                              tom delosh
  
- From: delosh@emunix.emich.edu (Tom Delosh)
+ from: delosh@emunix.emich.edu (tom delosh)
  
  
  ****************************************************************************
  
- Borland has the Paradox Engine library.  It has libraries for
- both C and Pascal to access Paradox files under DOS/Windows.  
- But for Paradox, I believe you'd have buy have the SQL Link 
- since Pdox itself isn't SQL compliant.  I've used the engine 
+ borland has the paradox engine library.  it has libraries for
+ both c and pascal to access paradox files under dos/windows.  
+ but for paradox, i believe you'd have buy have the sql link 
+ since pdox itself isn't sql compliant.  i've used the engine 
  for over a year now and have been pretty satisfied with it.  
- Under DOS, it's a real pig.  It tacks on about 120K to the size of 
+ under dos, it's a real pig.  it tacks on about 120k to the size of 
  your programs.
  
  tim ma
@@ -302,85 +302,85 @@
  
  ****************************************************************************
  
- I don't know about Microsoft, but Borland sells the Paradox Engine for C/C++ &
- Pascal (in one package).  And if you want dBase compatible files there is a 
- library called CodeBase from Sequiter software that works with C/C++.
+ i don't know about microsoft, but borland sells the paradox engine for c/c++ &
+ pascal (in one package).  and if you want dbase compatible files there is a 
+ library called codebase from sequiter software that works with c/c++.
  
- From: davidr@rincon.ema.rockwell.com (David J. Ray)
+ from: davidr@rincon.ema.rockwell.com (david j. ray)
  
  
  ****************************************************************************
  
  
- We're using Q+E database libraries to do what you describe.
- It's a set of DLL's accessed through a common API to talk to most of the
- major database formats. We're using it to build an application that
- queries several databases using SQL queries. _All_ access using Q+E is
- done using SQL. The package is available through Microway in Melbourne. I
- believe it is produced by Pioneer Systems in the US. We have no
- association with Microway or Pioneer Systems other than being satisfied
- customers.  Feel free to mail me for further information.
+ we're using q+e database libraries to do what you describe.
+ it's a set of dll's accessed through a common api to talk to most of the
+ major database formats. we're using it to build an application that
+ queries several databases using sql queries. _all_ access using q+e is
+ done using sql. the package is available through microway in melbourne. i
+ believe it is produced by pioneer systems in the us. we have no
+ association with microway or pioneer systems other than being satisfied
+ customers.  feel free to mail me for further information.
  
- Chris 
- (Programming for NSW National Parks and Wildlife Service)
+ chris 
+ (programming for nsw national parks and wildlife service)
  -- 
  -------------------------------------------------------------------------------
- Chris Hutchinson                       Box U302
- Research Programmer                    University of New England
- chris@sulaw.law.su.OZ.AU               Armidale NSW 2351
+ chris hutchinson                       box u302
+ research programmer                    university of new england
+ chris@sulaw.law.su.oz.au               armidale nsw 2351
  (067) 727 014
  
  
  ****************************************************************************
  
- Paradox Engine 3.0 provides a complete set of C libraries for 
- accessing Paradox tables. However, it seems that it supports 
- only Borland/Turbo C and MicroSoft C. When I tried to compile 
- the engine's sample applications with the Waterloo WATCOM C/C++
- (32-bit) compiler, it complains that the library file LLIBCE.LIB 
- is missing even though I am quite certain that the file is NOT
- part of WATCOM C or the engine. Anybody have any success with 
- other C compilers?
+ paradox engine 3.0 provides a complete set of c libraries for 
+ accessing paradox tables. however, it seems that it supports 
+ only borland/turbo c and microsoft c. when i tried to compile 
+ the engine's sample applications with the waterloo watcom c/c++
+ (32-bit) compiler, it complains that the library file llibce.lib 
+ is missing even though i am quite certain that the file is not
+ part of watcom c or the engine. anybody have any success with 
+ other c compilers?
  
- Ron.K.Ng@hydro.on.ca
+ ron.k.ng@hydro.on.ca
  --------------------
  
  
  ****************************************************************************
  
- I'm currently developing an app. with Borland's "Paradox Engine
- for C" (it also comes in Pascal), which has recently gone to version 3.0
- (I.e., PX Engine 3.0 is compatible with Paradox 4.0, and downward compat.
- w/3.5).  There are indeed C libs for Fox access, but I can't think of the
- names offhand - I'm sure someone has already written you in that regard -
- (I think I just saw an add for a Fox lib in the "C Users Journal", which
+ i'm currently developing an app. with borland's "paradox engine
+ for c" (it also comes in pascal), which has recently gone to version 3.0
+ (i.e., px engine 3.0 is compatible with paradox 4.0, and downward compat.
+ w/3.5).  there are indeed c libs for fox access, but i can't think of the
+ names offhand - i'm sure someone has already written you in that regard -
+ (i think i just saw an add for a fox lib in the "c users journal", which
  is a good place to look for this type of package in general, by the way).
- I've been paying my dues to learn a lot of the quirks of PX Eng. over the
- past year - wouldn't recommend it for a complex multiuser app.--but I'm
- staying with it for now--it's like a bad marriage: I've got too much time
- invested in learning and work-arounds!  But if your interest is limited
- to a simple single-user interface (you want to build your own SQL engine,
- I take it), PX Engine will do the job easily - it doesn't sound like
- you'll be bumping into any of the gotchas.  If you do, write me; I may
+ i've been paying my dues to learn a lot of the quirks of px eng. over the
+ past year - wouldn't recommend it for a complex multiuser app.--but i'm
+ staying with it for now--it's like a bad marriage: i've got too much time
+ invested in learning and work-arounds!  but if your interest is limited
+ to a simple single-user interface (you want to build your own sql engine,
+ i take it), px engine will do the job easily - it doesn't sound like
+ you'll be bumping into any of the gotchas.  if you do, write me; i may
  be able to point you in the right direction.
  
- From: raymond@cruzio.santa-cruz.ca.us (raymond)
+ from: raymond@cruzio.santa-cruz.ca.us (raymond)
  
  ****************************************************************************
  
- Borland has a "Paradox Engine and Database Framework 3.0" which gives you
- a "C" (and assembler?) API to Paradox databases.  This is part of "BOCA"
- -- Borland's Object Component Architecture.  They have technical briefs
- on BOCA, PdoxEng, and other products of theirs.
+ borland has a "paradox engine and database framework 3.0" which gives you
+ a "c" (and assembler?) api to paradox databases.  this is part of "boca"
+ -- borland's object component architecture.  they have technical briefs
+ on boca, pdoxeng, and other products of theirs.
  
- From: jdm@jumbo.Read.TASC.COM (James D. McNamara)
- -------------------  James D. McNamara | TASC  --------------------
- 55 Walkers Brook Drive | Reading, MA 01867-3238 | 617-942-2000x2948
+ from: jdm@jumbo.read.tasc.com (james d. mcnamara)
+ -------------------  james d. mcnamara | tasc  --------------------
+ 55 walkers brook drive | reading, ma 01867-3238 | 617-942-2000x2948
  
  ****************************************************************************
  
  -- 
- John Bongiovanni, Systems Analyst, Orbital Engine Company, Perth, Australia
+ john bongiovanni, systems analyst, orbital engine company, perth, australia
  oecjtb@oec4.orbital.dialix.oz.au, bongo@alumni.caltech.edu
- Opinions expressed are my own and not those of my organisation.
+ opinions expressed are my own and not those of my organisation.
  

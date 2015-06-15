@@ -1,17 +1,17 @@
 
  
- Hi!
- 	I am working on a project that needs to create contour lines
- from random data points.  The work that I have done so far tells me that I
- need to look into Triangulated Irregular Networks (TIN), the Delauney
- criiterion, and the Krige method.  Does anyone have any suggestions for
- references, programs and hopefully source code for creating contours.  Any
+ hi!
+ 	i am working on a project that needs to create contour lines
+ from random data points.  the work that i have done so far tells me that i
+ need to look into triangulated irregular networks (tin), the delauney
+ criiterion, and the krige method.  does anyone have any suggestions for
+ references, programs and hopefully source code for creating contours.  any
  help with this or any surface modeling would be greatly appreciated.
- I can be reached at the addresses below:
+ i can be reached at the addresses below:
  
  
- 			-- Paul Conway
+ 			-- paul conway
  
- PVCONWAY@COPPER.DENVER.COLORADO.EDU
- PVCONWAY@CUDNVR.DENVER.COLORADO.EDU
+ pvconway@copper.denver.colorado.edu
+ pvconway@cudnvr.denver.colorado.edu
  

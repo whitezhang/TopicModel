@@ -1,23 +1,23 @@
 
  
- In article <1td5inINNl7m@finch.doc.ic.ac.uk>, ln@doc.ic.ac.uk (Leonidas Nikidis) writes:
+ in article <1td5ininnl7m@finch.doc.ic.ac.uk>, ln@doc.ic.ac.uk (leonidas nikidis) writes:
  |> 
- |> Hi,
- |> 
- |> 	
- |> 
- |>    Could someone explain to me what exactly the Xlib functions 
- |> 
- |> XCreateRegion, XPolygonRegion, XPointInRegion do, or to 
- |> 
- |> suggest a ftp site where I can find programs using these functions.
- |> 
- |> 
- |> PS: The man pages does not explain much ......
+ |> hi,
  |> 
  |> 	
- |> Thank you,
- |> Leo.
+ |> 
+ |>    could someone explain to me what exactly the xlib functions 
+ |> 
+ |> xcreateregion, xpolygonregion, xpointinregion do, or to 
+ |> 
+ |> suggest a ftp site where i can find programs using these functions.
+ |> 
+ |> 
+ |> ps: the man pages does not explain much ......
+ |> 
+ |> 	
+ |> thank you,
+ |> leo.
  |> 
  |> 
  |> 
@@ -26,22 +26,22 @@
  |> 
  |> -- 
  |> ---------------------------------------------------------------------
- |> Leonidas Nikidis : ln@doc.ic.ac.uk	Imperial College, London,UK
- |> 					Dept. of Computing
+ |> leonidas nikidis : ln@doc.ic.ac.uk	imperial college, london,uk
+ |> 					dept. of computing
  |> ---------------------------------------------------------------------
- I use those routines in a widget which only redraws exposed areas.
+ i use those routines in a widget which only redraws exposed areas.
  here's a small piece of code that uses those routines
  
- static void Redisplay(pw, ev, region)
- XtpManagerWidget pw;
- XExposeEvent *ev;
- Region region;
+ static void redisplay(pw, ev, region)
+ xtpmanagerwidget pw;
+ xexposeevent *ev;
+ region region;
  
- /* pp->exposure_region is an XRegion */
- XtpManagerPart *pp = &pw->plotter;
- pp->exposure_region = XCreateRegion();
+ /* pp->exposure_region is an xregion */
+ xtpmanagerpart *pp = &pw->plotter;
+ pp->exposure_region = xcreateregion();
     /* region is passed via an expose event */
- if(region == NULL)
+ if(region == null)
  {
  if (ev->send_event)  /* synthetic event sent by widget it wants a full redraw*/
          {
@@ -61,29 +61,29 @@
  stuff deleted      
  
  /* region now contains the exposure region */
-         XUnionRectWithRegion(&exporect,pp->exposure_region,pp->exposure_region);
+         xunionrectwithregion(&exporect,pp->exposure_region,pp->exposure_region);
  }
  else
-         XUnionRegion ( region, pp->exposure_region, pp->exposure_region);
+         xunionregion ( region, pp->exposure_region, pp->exposure_region);
  stuff deleted 
- /* WE NEED to CLIP on EXPOSE REGION for REDRAWING the GRID */
-         XSetRegion(XtDisplayOfObject(pw), pp->plotarea_gc,pp->exposure_region);
+ /* we need to clip on expose region for redrawing the grid */
+         xsetregion(xtdisplayofobject(pw), pp->plotarea_gc,pp->exposure_region);
  stuff deleted 
          /* check to see if child is exposed */
-         if (XRectInRegion (pw->plotter.exposure_region,
+         if (xrectinregion (pw->plotter.exposure_region,
                           child->core.x ,
                           child->core.y ,
                           child->core.width  ,
                           child->core.height ))
  
- So, I build up a region of exposures so that when I service my container
- widget redraw of rectobj children, I only redraw what need to be redrawn.
+ so, i build up a region of exposures so that when i service my container
+ widget redraw of rectobj children, i only redraw what need to be redrawn.
  
- It works for me, hope this helps you.
- Brian
+ it works for me, hope this helps you.
+ brian
  
  -- 
- Brian Dealy                |301-572-8267| It not knowing where it's at  
+ brian dealy                |301-572-8267| it not knowing where it's at  
  dealy@kong.gsfc.nasa.gov   |            | that's important,it's knowing
- !uunet!dftsrv!kong!dealy   |            | where it's not at...  B.Dylan
+ !uunet!dftsrv!kong!dealy   |            | where it's not at...  b.dylan
  

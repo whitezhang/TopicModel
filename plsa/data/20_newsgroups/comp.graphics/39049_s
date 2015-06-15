@@ -1,19 +1,19 @@
 
- >Does anyone know where I can find a code which would take concave
+ >does anyone know where i can find a code which would take concave
  >polygons and break them up into a set of convex polygons?
- O
+ o
  
- I also would like code or algorithms to do this.
+ i also would like code or algorithms to do this.
  
- In fact, I am interested in sources for code and/or algorithms that
- convert 2D graphical objects into other 2D graphical objects that
- will render into the same image. i.e. Bezier curves to B splines,
- or splines to circular arc segments, or B splines to polgons, etc...
+ in fact, i am interested in sources for code and/or algorithms that
+ convert 2d graphical objects into other 2d graphical objects that
+ will render into the same image. i.e. bezier curves to b splines,
+ or splines to circular arc segments, or b splines to polgons, etc...
  
  
  -- 
- Michael Dillon                 Internet: mpdillon@halcyon.halcyon.com
- C-4 Powerhouse                  Fidonet: 1:353/350
- RR #2 Armstrong, BC  V0E 1B0      Voice: +1-604-546-8022
- Canada                              BBS: +1-604-546-2705
+ michael dillon                 internet: mpdillon@halcyon.halcyon.com
+ c-4 powerhouse                  fidonet: 1:353/350
+ rr #2 armstrong, bc  v0e 1b0      voice: +1-604-546-8022
+ canada                              bbs: +1-604-546-2705
  

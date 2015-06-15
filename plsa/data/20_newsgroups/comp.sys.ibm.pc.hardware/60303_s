@@ -1,16 +1,16 @@
- <1993Apr16.105809.22218@walter.cray.com> <s106275.734980377@ee.tut.fi>
- Lines: 12
+ <1993apr16.105809.22218@walter.cray.com> <s106275.734980377@ee.tut.fi>
+ lines: 12
  
- In article <s106275.734980377@ee.tut.fi>, s106275@ee.tut.fi (Anssi Saari) says:
+ in article <s106275.734980377@ee.tut.fi>, s106275@ee.tut.fi (anssi saari) says:
  >
- >In <1993Apr16.105809.22218@walter.cray.com> huot@cray.com (Tom Huot) writes:
+ >in <1993apr16.105809.22218@walter.cray.com> huot@cray.com (tom huot) writes:
  >
- >>I would also like an explanation of this. If anyone can explain
- >>why the SB Pro and LPT 1 can share an IRQ, please do so.
+ >>i would also like an explanation of this. if anyone can explain
+ >>why the sb pro and lpt 1 can share an irq, please do so.
  >
- >I think it's simply because DOS doesn't use the IRQ for anything. OS/2 does,
- >so with that you can't share the IRQ.
+ >i think it's simply because dos doesn't use the irq for anything. os/2 does,
+ >so with that you can't share the irq.
  >
- That is correct.  in DOS you can use IRQ 7 for your SB.You can't do
- that under OS/2 because it uses IRQ 7 for the printer
+ that is correct.  in dos you can use irq 7 for your sb.you can't do
+ that under os/2 because it uses irq 7 for the printer
  

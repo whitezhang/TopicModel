@@ -1,25 +1,25 @@
 
- I installed Windows for Workgroups on my network and I'm having problems 
+ i installed windows for workgroups on my network and i'm having problems 
  mapping drives in the file-manager.
  
- Situation:
- If I put LASTDRIVE = Z in my config.sys, NETX will run but I can't access
- drive f: to log in to Novell.  
- If I don't put LASTDRIVE = Z in my config.sys I can't access other W4WG 
+ situation:
+ if i put lastdrive = z in my config.sys, netx will run but i can't access
+ drive f: to log in to novell.  
+ if i don't put lastdrive = z in my config.sys i can't access other w4wg 
  drives from the file-manager.
  
- It seems that there should be a way to make NETX work with the LASTDRIVE = 
- statement in my Config.Sys.
+ it seems that there should be a way to make netx work with the lastdrive = 
+ statement in my config.sys.
  
- I would appreciate any help.  It's probably an easy problem that all you 
- Windows guru's solved many many moons ago...
+ i would appreciate any help.  it's probably an easy problem that all you 
+ windows guru's solved many many moons ago...
  
- Thanks,
- Tom Bilan
+ thanks,
+ tom bilan
  
  -- 
  /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
- $ Department of Death by Engineering   ^   Surgeon General's Warning:        $
- $ Michigan State University            ^   Graduate School may cause brain   $
+ $ department of death by engineering   ^   surgeon general's warning:        $
+ $ michigan state university            ^   graduate school may cause brain   $
  $ bilan@cps.msu.edu                    ^   damage and sporadic loss of hair  $
  

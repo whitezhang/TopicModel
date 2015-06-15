@@ -1,37 +1,37 @@
 
- I have an internal modem that I configure as COM4 with IRQ 3, but
- when I insert that card into my DOS 5.02 PC, it shows up
- as COM3, with IRQ3 and COM4's address (2E8)!
+ i have an internal modem that i configure as com4 with irq 3, but
+ when i insert that card into my dos 5.02 pc, it shows up
+ as com3, with irq3 and com4's address (2e8)!
  
- When I get into debug, and dump the data at 40:0, it shows
- the address 2E8 as belonging to COM3 - even though the modem
- should be at COM4.
+ when i get into debug, and dump the data at 40:0, it shows
+ the address 2e8 as belonging to com3 - even though the modem
+ should be at com4.
  
- Now, I know the modem is working correctly since I have tested
- it in a different PC - and it shows up correctly as COM4, 2E8, IRQ3.
+ now, i know the modem is working correctly since i have tested
+ it in a different pc - and it shows up correctly as com4, 2e8, irq3.
  
- To make it work in the DOS 5.02 PC, I have to configure the
- modem as COM3, 2E8, IRQ3---but though I have a comm program that
- allows that, the FAX program that came with the modem does not work.
- Anyway, I would like the computer to display the modem as it is set,
- as COM4...
- I did run a few diagnostic programs, and they did not help at all:
- a few displayed the modem as COM4, and others displayed it as
- being COM3.
+ to make it work in the dos 5.02 pc, i have to configure the
+ modem as com3, 2e8, irq3---but though i have a comm program that
+ allows that, the fax program that came with the modem does not work.
+ anyway, i would like the computer to display the modem as it is set,
+ as com4...
+ i did run a few diagnostic programs, and they did not help at all:
+ a few displayed the modem as com4, and others displayed it as
+ being com3.
  
- I am not using Windows, this is just a DOS problem...Any help
+ i am not using windows, this is just a dos problem...any help
  or pointers appreciated....
- For various reasons, I must have this modem work at COM4, thus
- switching COM ports is not an answer...
+ for various reasons, i must have this modem work at com4, thus
+ switching com ports is not an answer...
  
- (Last time I posted this, I did not get any DOS specific answer,
- this time I have included all the specific information....please help!)
+ (last time i posted this, i did not get any dos specific answer,
+ this time i have included all the specific information....please help!)
  
  -----
- Avinash Chopde
+ avinash chopde
  avinash@acm.org
  -- 
- Avinash Chopde
+ avinash chopde
  avinash@acm.org
  avinash@genesis.nred.ma.us
  

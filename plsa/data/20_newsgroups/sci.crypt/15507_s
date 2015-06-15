@@ -1,47 +1,47 @@
 	only
- Date: Tue, 20 Apr 1993 14:43:15 -0500
- Organization: InterCon Systems Corporation - Herndon, VA  USA
- Lines: 35
- Distribution: world
- Message-ID: <1r1g82$rui@news.intercon.com>
- References: <C5qy3M.DE3@agora.rain.com>
- Reply-To: amanda@intercon.com (Amanda Walker)
- NNTP-Posting-Host: chaos.intercon.com
- X-Newsreader: InterCon TCP/Connect II 1.1
+ date: tue, 20 apr 1993 14:43:15 -0500
+ organization: intercon systems corporation - herndon, va  usa
+ lines: 35
+ distribution: world
+ message-id: <1r1g82$rui@news.intercon.com>
+ references: <c5qy3m.de3@agora.rain.com>
+ reply-to: amanda@intercon.com (amanda walker)
+ nntp-posting-host: chaos.intercon.com
+ x-newsreader: intercon tcp/connect ii 1.1
  
- jhart@agora.rain.com (Jim Hart) writes:
- > You don't care that people are being lied to, fooled into believing the 
+ jhart@agora.rain.com (jim hart) writes:
+ > you don't care that people are being lied to, fooled into believing the 
  > chip gives "privacy" when it fact it allows wiretaps?
  
- It does give privacy, just not absolute privacy.  The announcement was very 
- up front about this, and about allowing wiretaps.  How is this "fooling" 
+ it does give privacy, just not absolute privacy.  the announcement was very 
+ up front about this, and about allowing wiretaps.  how is this "fooling" 
  anyone?
  
  > are you so smart that you know when you're talking 
  > to somebody who has a wiretap chip on their phone instead of a privacy 
  > chip with private keys?) 
  
- Sure.  The two don't interoperate.  You couldn't talk to, say, a Cylink phone 
- from a Clipper phone.  I would expect even multiprotocal phones to come with 
+ sure.  the two don't interoperate.  you couldn't talk to, say, a cylink phone 
+ from a clipper phone.  i would expect even multiprotocal phones to come with 
  indicators saying which kind of link encryption is in use...
  
- > We *do* need an alternative to NSA-bugged telephones, but 
+ > we *do* need an alternative to nsa-bugged telephones, but 
  > we're talking inexpensive *telephones* here, including hand-sized 
  > cellulars, that need strong crypto, real privacy.
  
- So start a company and build them.  This is still mostly a capitalist 
+ so start a company and build them.  this is still mostly a capitalist 
  economy...
  
- > What we need is a true *privacy chip*.  For example, a real-time 
- > voice-encryption RSA, put it into a silicon compiler and spit out 
- > ASIC.  Put this chip on the market as a de facto standard for 
+ > what we need is a true *privacy chip*.  for example, a real-time 
+ > voice-encryption rsa, put it into a silicon compiler and spit out 
+ > asic.  put this chip on the market as a de facto standard for 
  > international business, diplomats, and private communications.
  
- I agree.  Go for it.
+ i agree.  go for it.
  
  
- Amanda Walker
- InterCon Systems Corporation
+ amanda walker
+ intercon systems corporation
  
  
  

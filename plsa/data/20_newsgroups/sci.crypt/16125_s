@@ -1,62 +1,62 @@
 
- At the risk of getting lost in the clipper chip discussion I give a  
+ at the risk of getting lost in the clipper chip discussion i give a  
  summary on my recent question:
  
- In article <PQSCBCNH@minnie.zdv.uni-mainz.de> I wrote:
- > The recent discussion in this news group suggests that a key search
+ in article <pqscbcnh@minnie.zdv.uni-mainz.de> i wrote:
+ > the recent discussion in this news group suggests that a key search
  > attack  
- > against DES is quite feasible now. But normally DES is applied in CBC or 
- > CFB  
- > mode where one chooses a random init vector of 8 bytes. Questions:
+ > against des is quite feasible now. but normally des is applied in cbc or 
+ > cfb  
+ > mode where one chooses a random init vector of 8 bytes. questions:
  > 
- >  - Makes it sense to handle the init vector as an additional key? Then
+ >  - makes it sense to handle the init vector as an additional key? then
  > we have  
  > a 56 + 64 = 120 bit key.
  >  
- >  - If yes: Is anything known about the security of this key scheme? Can 
+ >  - if yes: is anything known about the security of this key scheme? can 
  > we  
  > break it faster than by exhaustive search through the 120 bit key space?
  
- Unfortunately the answer is no - concealing the initialisation vector  
- essentially doesn't give any additional security. I got 3 answers (from  
- grady@netcom.com, Mark.Lomas@cl.cam.ac.uk, smb@research.att.com) that  
- opened my eyes. It's pretty simple:
+ unfortunately the answer is no - concealing the initialisation vector  
+ essentially doesn't give any additional security. i got 3 answers (from  
+ grady@netcom.com, mark.lomas@cl.cam.ac.uk, smb@research.att.com) that  
+ opened my eyes. it's pretty simple:
  
- Say E is encryption (and D decryption) with key K on 64-bit blocks.
+ say e is encryption (and d decryption) with key k on 64-bit blocks.
  
- Let c[0] be the initialisation vector,
+ let c[0] be the initialisation vector,
  m[1], m[2], ... the message blocks,
  c[1], c[2], ... the cipher text blocks.
  
- Then encryption in cipher block chaining (CBC) mode works by the formula
+ then encryption in cipher block chaining (cbc) mode works by the formula
  
-    c[i] = E(m[i] XOR c[i-1]),
+    c[i] = e(m[i] xor c[i-1]),
  
  and decryption by
  
-    m[i] = c[i-1] XOR D(c[i]).
+    m[i] = c[i-1] xor d(c[i]).
  
- So if the attacker doesn't have c[0] this only affects the first message  
- block m[1]. But she can do her key search attack on m[2], m[3], ...
+ so if the attacker doesn't have c[0] this only affects the first message  
+ block m[1]. but she can do her key search attack on m[2], m[3], ...
  
- The situation in cipher feedback (CFB) mode is a bit more complicated but  
+ the situation in cipher feedback (cfb) mode is a bit more complicated but  
  similar and left as an exercise for the reader :-)
  
- Finally there is the modified output feedback mode (OFB) where DES (or  
+ finally there is the modified output feedback mode (ofb) where des (or  
  whatever block cipher you use) simply acts as random generator by
  
-    s[i] = E(s[i-1]) with initialisation vector (= seed) s[0],
+    s[i] = e(s[i-1]) with initialisation vector (= seed) s[0],
  
  and encryption is given by
  
-    c[i] = m[i] XOR s[i].
+    c[i] = m[i] xor s[i].
  
- Here the usual `known plaintext' attack against XOR-bitstream ciphers  
- reduces the cracking to key search for K.
+ here the usual `known plaintext' attack against xor-bitstream ciphers  
+ reduces the cracking to key search for k.
  
  --
- Klaus Pommerening
- Institut fuer Medizinische Statistik und Dokumentation
- der Johannes-Gutenberg-Universitaet
- Obere Zahlbacher Strasse 69, W-6500 Mainz, Germany
+ klaus pommerening
+ institut fuer medizinische statistik und dokumentation
+ der johannes-gutenberg-universitaet
+ obere zahlbacher strasse 69, w-6500 mainz, germany
  

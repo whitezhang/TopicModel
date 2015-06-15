@@ -1,34 +1,34 @@
 
  
- 	I just bought a select 300 and rushed home to print 
- some grayscale pictures for my kids, when I discovered that
+ 	i just bought a select 300 and rushed home to print 
+ some grayscale pictures for my kids, when i discovered that
  grayscale(and photograde) are not available if you are
- using an SE...even if you are running with an '030 cpu.
- You won't see this in the printer's docs, and the Apple
- rep didn't mention it to our users group either. It seems
- that SE ROMs won't support those "features". Okay, I 
- guess I should have somehow known that this was the case.
- Let the buyer beware, huh Apple?
- 	Be that as it may, I have been thinking about the 
- problem and I'm puzzled. Why  can't a defencieny in the 
- ROM be made up for in software. I write software for a living
- (on unix platforms) and I don't understand the "it just
- can't be done" responses I've gotten from those I have
- asked so far.  Isn't Mode32, or somesuch piece of  soft-
+ using an se...even if you are running with an '030 cpu.
+ you won't see this in the printer's docs, and the apple
+ rep didn't mention it to our users group either. it seems
+ that se roms won't support those "features". okay, i 
+ guess i should have somehow known that this was the case.
+ let the buyer beware, huh apple?
+ 	be that as it may, i have been thinking about the 
+ problem and i'm puzzled. why  can't a defencieny in the 
+ rom be made up for in software. i write software for a living
+ (on unix platforms) and i don't understand the "it just
+ can't be done" responses i've gotten from those i have
+ asked so far.  isn't mode32, or somesuch piece of  soft-
  ware, just such a fix. 
- 	Anyway, I was hoping someone knowledgeable
- about Mac internals could set me straight: is it simply
- impossible for a mac SE to print grayscale, or could
+ 	anyway, i was hoping someone knowledgeable
+ about mac internals could set me straight: is it simply
+ impossible for a mac se to print grayscale, or could
  someone armed with enough info and a little pro-
  gramming experience cook something up that would
- supplement the ROM's capabilities?
- 	Also, how does one know if one's mac can
- support the grayscale and photograde that the Select 300
- is supposedly capable of? ( Short of buying the printer
- and trying it out like I did)
- 	Thanks for your help.
+ supplement the rom's capabilities?
+ 	also, how does one know if one's mac can
+ support the grayscale and photograde that the select 300
+ is supposedly capable of? ( short of buying the printer
+ and trying it out like i did)
+ 	thanks for your help.
   
- Bill Wright
+ bill wright
  wgw@netcom.com
  	
  

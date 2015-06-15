@@ -1,26 +1,26 @@
 
- In article <93114.142835U19250@uicvm.uic.edu>, <U19250@uicvm.uic.edu> writes...
- >Can anyone offer a suggestion on a problem I am having?
- >I have several boards whose sole purpose is to decode DTMF tones and send
- >the resultant in ASCII to a PC.  These boards run on the serial interface.
- >I need to run * of the boards somwehat simultaneously.  I need to be able to ho
- >ok them up to a PC>  The problem is, how do I hook up 8+ serial devices to one
- >PC inexpensivley, so that all can send data simulataneously (or close to it)?
- >Any help would be greatly appreciated!
- >Abhin Singla
- If you can modify the design of the DTMF decoder, the ideal comunications
- would be over a multi-drop system, like RS-485.  RS-485 boards are available
- for PC's, probably cheaper than a bunch of RS-232 channels, and RS-485 is
+ in article <93114.142835u19250@uicvm.uic.edu>, <u19250@uicvm.uic.edu> writes...
+ >can anyone offer a suggestion on a problem i am having?
+ >i have several boards whose sole purpose is to decode dtmf tones and send
+ >the resultant in ascii to a pc.  these boards run on the serial interface.
+ >i need to run * of the boards somwehat simultaneously.  i need to be able to ho
+ >ok them up to a pc>  the problem is, how do i hook up 8+ serial devices to one
+ >pc inexpensivley, so that all can send data simulataneously (or close to it)?
+ >any help would be greatly appreciated!
+ >abhin singla
+ if you can modify the design of the dtmf decoder, the ideal comunications
+ would be over a multi-drop system, like rs-485.  rs-485 boards are available
+ for pc's, probably cheaper than a bunch of rs-232 channels, and rs-485 is
  cheaper to build onto your satellite modules, using only a single supply
- 8-pin DIP driver chip.  Software at the PC end would be similarly complex
- for either RS-232 or RS-485, in my opinion.  The higher data rates possible
- with RS-485 would permit quasi-simultaneous data transmission.
- Hope this helps.
+ 8-pin dip driver chip.  software at the pc end would be similarly complex
+ for either rs-232 or rs-485, in my opinion.  the higher data rates possible
+ with rs-485 would permit quasi-simultaneous data transmission.
+ hope this helps.
  
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   Rod Nussbaumer, Programmer/Technologist       Bitnet: BOMR@TRIUMFER
-   TRIUMF --- University of British Columbia,  Internet: bomr@erich.triumf.ca
-   Vancouver, BC, Canada.                         Phone: (604)222-1047 ext 510
+   rod nussbaumer, programmer/technologist       bitnet: bomr@triumfer
+   triumf --- university of british columbia,  internet: bomr@erich.triumf.ca
+   vancouver, bc, canada.                         phone: (604)222-1047 ext 510
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
  

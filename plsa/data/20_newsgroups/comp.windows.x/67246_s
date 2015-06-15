@@ -1,38 +1,38 @@
 
- Bryan Boreham (bryan@alex.com) wrote:
- : In article <735259869.13021@minster.york.ac.uk>, cjhs@minster.york.ac.uk writes:
- : > The application creates window with a button "Quit" and "Press me".
- : > The button "Press me" pops up a dialog box. The strange feature of
+ bryan boreham (bryan@alex.com) wrote:
+ : in article <735259869.13021@minster.york.ac.uk>, cjhs@minster.york.ac.uk writes:
+ : > the application creates window with a button "quit" and "press me".
+ : > the button "press me" pops up a dialog box. the strange feature of
  : > this program is that it always pops up the dialog box much faster the
- : > first time. If I try to pop it up a 2nd time (3rd, 4th .... time), 
+ : > first time. if i try to pop it up a 2nd time (3rd, 4th .... time), 
  : > it is *much* slower.
  : 
- : The shell is waiting for the window-manager to respond to its
- : positioning request.  The window-manager is not responding because
+ : the shell is waiting for the window-manager to respond to its
+ : positioning request.  the window-manager is not responding because
  : it thinks the window is already in the right place.
  : 
- : Exactly *why* the two components get into this sulk is unclear to
+ : exactly *why* the two components get into this sulk is unclear to
  : me; all information greatly received.
  
- Thanks for this clue, and thanks to Derek Ho also for a pointer in the
+ thanks for this clue, and thanks to derek ho also for a pointer in the
  same direction.
  
- One solution, due to Derek Ho: when the popup is popped up, we SetValue
+ one solution, due to derek ho: when the popup is popped up, we setvalue
  its location -- which on repeat popups will be unchanged from the
- previous popup. The slow response can be avoided by calling GetValue
- first, and only using SetValue if the required location is different.
- The problem can also be avoided by making a tiny alteration in the
- location of the popup, so that the SetValue really does change the
- location of the popup. (We tried this just for a double check on the
+ previous popup. the slow response can be avoided by calling getvalue
+ first, and only using setvalue if the required location is different.
+ the problem can also be avoided by making a tiny alteration in the
+ location of the popup, so that the setvalue really does change the
+ location of the popup. (we tried this just for a double check on the
  source of the problem.)
  
- The solutions we have tried successfully are now as follows:
+ the solutions we have tried successfully are now as follows:
  
- 1) Use "twm" or "mwm" rather than "olwm"
- 2) Use "olwm", with resource "*wmTimeout: 10"
- 3) Only reset the location of the popup window if it is truely changed.
+ 1) use "twm" or "mwm" rather than "olwm"
+ 2) use "olwm", with resource "*wmtimeout: 10"
+ 3) only reset the location of the popup window if it is truely changed.
  
- This is obviously working around some bug somewhere.
+ this is obviously working around some bug somewhere.
  
- Thanks -- Chris Ho-Stuart
+ thanks -- chris ho-stuart
  

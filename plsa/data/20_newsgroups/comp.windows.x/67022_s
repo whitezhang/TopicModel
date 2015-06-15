@@ -1,38 +1,38 @@
 
  
- I am developing an X (Xt,Xm) application that will include a graphics window
- of some sort with moving symbols among other things.  A pure X application
- could be implemented with Motif widgets, one of which would be an 
- XmDrawingArea for drawing with Xlib.  But I would like to take advantage of
- the Graphics Library (GL) available on our IBM RS/6000 (SGI's GL i believe).
+ i am developing an x (xt,xm) application that will include a graphics window
+ of some sort with moving symbols among other things.  a pure x application
+ could be implemented with motif widgets, one of which would be an 
+ xmdrawingarea for drawing with xlib.  but i would like to take advantage of
+ the graphics library (gl) available on our ibm rs/6000 (sgi's gl i believe).
  
- Is it possible to mix X and GL in one application program?
- Can I use GL subroutines in an XmDrawingArea or in an X window opened by me
- with XOpenWindow?
+ is it possible to mix x and gl in one application program?
+ can i use gl subroutines in an xmdrawingarea or in an x window opened by me
+ with xopenwindow?
  
- I have never used GL before, but the doc on GL winopen() says that the first
- time winopen() is called it opens a connection to the server.   Also, most of
- the GL calls do not require a Display or GC, unlike most X calls.  From this
- initial information it appears that X and GL cannot be mixed easily.   Is this
+ i have never used gl before, but the doc on gl winopen() says that the first
+ time winopen() is called it opens a connection to the server.   also, most of
+ the gl calls do not require a display or gc, unlike most x calls.  from this
+ initial information it appears that x and gl cannot be mixed easily.   is this
  true?
  
- Does PEX (graPHIGS?) have the same functionality of GL?
+ does pex (graphigs?) have the same functionality of gl?
  
  
- Environment:
-      AIXwindows X11R4
-      Motif 1.1
-      GL is available
-      AIX Sys V 3.2
-      IBM RS/6000 360
+ environment:
+      aixwindows x11r4
+      motif 1.1
+      gl is available
+      aix sys v 3.2
+      ibm rs/6000 360
  
  
- Thanks in advance.
+ thanks in advance.
  
- Jay Graham
- Jade Simulations International Corp.
- 14 Colonnade Road, Suite 150
- Nepean, Ontario, Canada
+ jay graham
+ jade simulations international corp.
+ 14 colonnade road, suite 150
+ nepean, ontario, canada
  613-225-5900 x226
  
  graham@ottawa.jade.com

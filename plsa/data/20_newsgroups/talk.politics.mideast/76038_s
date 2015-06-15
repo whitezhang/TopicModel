@@ -1,65 +1,65 @@
 
- JLE the Great writes:
+ jle the great writes:
  
- [JLE] Q: How many occupying israeli soldiers (terrorists) does it
- [JLE] take to kill a 5 year old native child?
- [JLE] A: Four
- [JLE] Two fasten his arms, one shoots in the face,
- [JLE] and one writes up a false report.
+ [jle] q: how many occupying israeli soldiers (terrorists) does it
+ [jle] take to kill a 5 year old native child?
+ [jle] a: four
+ [jle] two fasten his arms, one shoots in the face,
+ [jle] and one writes up a false report.
  
- A couple of months ago JLE wrote a terrible C program (it would never have 
- passed compilation). This is one describes JLE the Great.
+ a couple of months ago jle wrote a terrible c program (it would never have 
+ passed compilation). this is one describes jle the great.
  
- ---- 8< Cut Here and save to jle.c ----------- >8 ----------
+ ---- 8< cut here and save to jle.c ----------- >8 ----------
  
  #include <stdio.h>
  #include <signal.h>
  
- #define	LOSER		0x01
- #define	CHILDISH	0x01
- #define	UNHUMORISTIC	0x01
- #define VULGAR		0x01
- #define MOSSAD_AGENT	0x01
+ #define	loser		0x01
+ #define	childish	0x01
+ #define	unhumoristic	0x01
+ #define vulgar		0x01
+ #define mossad_agent	0x01
  
- #define J_L_E		LOSER | CHILDISH | UNHUMORISTIC | VULGAR | MOSSAD_AGENT
+ #define j_l_e		loser | childish | unhumoristic | vulgar | mossad_agent
  
  static void
  abort()
  {
- 	printf("Even if she wanted, JLE's mother couldn't abort this program");
+ 	printf("even if she wanted, jle's mother couldn't abort this program");
  	printf("\n\n\n\n");
  }
  
  void
  main()
  {
- 	signal(SIGINT,abort);
- 	printf("This program does not help Jewish-Arab relations  :-( \n");
+ 	signal(sigint,abort);
+ 	printf("this program does not help jewish-arab relations  :-( \n");
  
- 	printf("Hit ^C to abort \n");
+ 	printf("hit ^c to abort \n");
  
- /* Infinite loop, JLE never comes out of his world 	*/
+ /* infinite loop, jle never comes out of his world 	*/
  
- 	while(J_L_E);
+ 	while(j_l_e);
  }
  
- ---- 8< Cut Here ----------- >8 ----------
+ ---- 8< cut here ----------- >8 ----------
  
  
- To compile this "wonderfool" program on a unix machine try.
+ to compile this "wonderfool" program on a unix machine try.
  cc -o jle jle.c
  or 
  make jle
  
  then type jle at your prompt.
  
- I tried it, it works great ...
+ i tried it, it works great ...
  
  
- Tsiel
+ tsiel
  -- 
  ----8<--------------------------------------------------------------->8------
- Tsiel:ohayon@jcpl.co.jp	   | If you do not receive this E-mail, please let me
- Employer may not have same | know as soon as possible, if possible.
- opinions, if any !         | Two percent of zero is almost nothing.
+ tsiel:ohayon@jcpl.co.jp	   | if you do not receive this e-mail, please let me
+ employer may not have same | know as soon as possible, if possible.
+ opinions, if any !         | two percent of zero is almost nothing.
  

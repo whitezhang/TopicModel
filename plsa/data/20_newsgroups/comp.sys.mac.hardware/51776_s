@@ -1,28 +1,28 @@
 
- In <1qsfak$skc@network.ucsd.edu> dpb@sdchemw2.ucsd.edu (Doug P. Book) writes:
+ in <1qsfak$skc@network.ucsd.edu> dpb@sdchemw2.ucsd.edu (doug p. book) writes:
  
- >But, the following games only play out of the left channel:
+ >but, the following games only play out of the left channel:
  
  ...
  
- >But still, STEREO system beeps do play in stereo, through BOTH speakers.
+ >but still, stereo system beeps do play in stereo, through both speakers.
  
- Mac sound hardware is diverse; some macs play in stereo and
- mix the output (the SE/30 for instance) while others play in
- stereo but ONLY has the left channel for the speaker, while
- some are "truly" mono (like the LC)
+ mac sound hardware is diverse; some macs play in stereo and
+ mix the output (the se/30 for instance) while others play in
+ stereo but only has the left channel for the speaker, while
+ some are "truly" mono (like the lc)
  
- Developers know that stuff played in the left channel is
- guaranteed to be heard, while the right channel isn't. Some
+ developers know that stuff played in the left channel is
+ guaranteed to be heard, while the right channel isn't. some
  send data to both, some only send data to the left channel
  (the first is preferrable, of course)
  
- Cheers,
+ cheers,
  
  					/ h+
  -- 
-  -- Jon W{tte, h+@nada.kth.se, Mac Hacker Deluxe --
-  Engineering: "How will this work?" Science: "Why will this work?" Management:
-  "When will this work?"  Liberal Arts: "Do you want fries with that?"
-                      -- Jesse N. Schell
+  -- jon w{tte, h+@nada.kth.se, mac hacker deluxe --
+  engineering: "how will this work?" science: "why will this work?" management:
+  "when will this work?"  liberal arts: "do you want fries with that?"
+                      -- jesse n. schell
  

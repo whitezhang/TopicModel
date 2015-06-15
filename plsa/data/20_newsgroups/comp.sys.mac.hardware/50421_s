@@ -1,20 +1,20 @@
 
- In article <1993Apr2.123619.548@physc1.byu.edu> goblec@physc1.byu.edu writes:
- >I just tried running my Bernoulli Box off a Centris and the driver
- >software only seems to work when the 040 cache is off.  If it is
- >on I get the message "This is not a Macintosh Disk - do you wish
+ in article <1993apr2.123619.548@physc1.byu.edu> goblec@physc1.byu.edu writes:
+ >i just tried running my bernoulli box off a centris and the driver
+ >software only seems to work when the 040 cache is off.  if it is
+ >on i get the message "this is not a macintosh disk - do you wish
  >to initialize it."  
  >
- >I have IOMEGA Driver 3.4.2.  Is there a newer version that works
- >with the 040's?  Is there something I am doing wrong?
+ >i have iomega driver 3.4.2.  is there a newer version that works
+ >with the 040's?  is there something i am doing wrong?
  >
- >Clark Goble
+ >clark goble
  >goblec@theory.byu.edu
  
- I Have Version 3.5.1 which I believe was needed for a 040 machine.
- You should be able to get the newest version by calling their tech
+ i have version 3.5.1 which i believe was needed for a 040 machine.
+ you should be able to get the newest version by calling their tech
  support at 1-800-456-5522 or if you have a modem you can get the
- driver from their BBS at 801-778-4400.
+ driver from their bbs at 801-778-4400.
  
  
  
@@ -24,6 +24,6 @@
  
  -- 
  
- Dean Clark
- Internet dfclark@ca.sandia.gov
+ dean clark
+ internet dfclark@ca.sandia.gov
  

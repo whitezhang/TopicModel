@@ -1,15 +1,15 @@
 
- Do you happen to know how I can get a serial mouse (9 pins) working on
- an IBM L40 notebook (which has a kind of bus mouse connection besides serial
- and parallel interfaces). The manual doesn't say anything about it.
+ do you happen to know how i can get a serial mouse (9 pins) working on
+ an ibm l40 notebook (which has a kind of bus mouse connection besides serial
+ and parallel interfaces). the manual doesn't say anything about it.
  
- I've tried two drivers, with the result that left and right buttons are
- recognized, but mouse movement is not. Should I cut or shortcut some
+ i've tried two drivers, with the result that left and right buttons are
+ recognized, but mouse movement is not. should i cut or shortcut some
  wires to/from the mouse?
  
- Thanks for your help.
+ thanks for your help.
  
- Eddy Zondag
- Philips Research
+ eddy zondag
+ philips research
  egzondag@prl.philips.nl
  

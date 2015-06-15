@@ -1,15 +1,15 @@
 
- Is anyone out there running a MS-DOS system with a LocalTalk board? I am on an
- Appletalk network, hooked up with a DayStar Digital LT200 MC LocalTalk
- Interface Board, running on a PS/2 Model 70. I'm using the AppleShare PC
- software for file server and network access. It works fine under DOS or the
- Window or OS/2 DOS box. But when I try to load it *before* Windows, so that
- every application I run could get access to it, the machine crashes hard as
- soon as I start up an application. And of course, things look pretty hopeless
- for OS/2 (but who knows). 
+ is anyone out there running a ms-dos system with a localtalk board? i am on an
+ appletalk network, hooked up with a daystar digital lt200 mc localtalk
+ interface board, running on a ps/2 model 70. i'm using the appleshare pc
+ software for file server and network access. it works fine under dos or the
+ window or os/2 dos box. but when i try to load it *before* windows, so that
+ every application i run could get access to it, the machine crashes hard as
+ soon as i start up an application. and of course, things look pretty hopeless
+ for os/2 (but who knows). 
  
- So, does anyone have experience with this bizarre and obsolete setup?
+ so, does anyone have experience with this bizarre and obsolete setup?
  
- - Duncan
- - duncans@phoenix.Princeton.EDU
+ - duncan
+ - duncans@phoenix.princeton.edu
  

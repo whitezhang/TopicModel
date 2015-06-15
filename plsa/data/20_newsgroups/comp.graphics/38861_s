@@ -1,120 +1,120 @@
 
  
- Okay, I got enough replies about the Kubota Kenai/Denali systems that I
- will post a summary of their capabilities.  I haven't actually used one
- or seen one, so take the specs with a grain of salt.  I'd like to see
- an independent review of one against, say, an SGI Indigo Extreme or
+ okay, i got enough replies about the kubota kenai/denali systems that i
+ will post a summary of their capabilities.  i haven't actually used one
+ or seen one, so take the specs with a grain of salt.  i'd like to see
+ an independent review of one against, say, an sgi indigo extreme or
  something.
  
- Basically, the Kenai workstations are DEC Alpha AXP based workstations that
- run OSF/1 ( DEC's ) and will likely run Windows NT in the future.  They are
- binary compatible with Digital's OSF/1 Alpha AXP implementation.  Denali
+ basically, the kenai workstations are dec alpha axp based workstations that
+ run osf/1 ( dec's ) and will likely run windows nt in the future.  they are
+ binary compatible with digital's osf/1 alpha axp implementation.  denali
  is their graphics subsystem, which is upgradable in the field by
  simply adding "transformation engines".
  
- The two main Kenai machines are the 3400 Imaging and 3D Graphics Workstation
- and the 3500 Imaging and 3D Graphics Workstation.
+ the two main kenai machines are the 3400 imaging and 3d graphics workstation
+ and the 3500 imaging and 3d graphics workstation.
  
  
  			3400			3500
  
- CPU			DEC Alpha AXP 133MHz	DEC Alpha AXP 150MHz
- On-chip cache		8k/8k			8k/8k
- Onboard cache		512K			512K
- Word Size		64-bit			64-bit
- Memory ( initial )	32-128MB		32-256MB
- Memory ( future )	512MB			1GB
- SPECMARK89		111			126
- SPECINT92		75			84
- SPECFP92		112			128
+ cpu			dec alpha axp 133mhz	dec alpha axp 150mhz
+ on-chip cache		8k/8k			8k/8k
+ onboard cache		512k			512k
+ word size		64-bit			64-bit
+ memory ( initial )	32-128mb		32-256mb
+ memory ( future )	512mb			1gb
+ specmark89		111			126
+ specint92		75			84
+ specfp92		112			128
  
- GRAPHICS
+ graphics
  
- Transform Modules	1-6			1-6
- Frame Buffer Modules	5,10,20			5,10,20
- Frame Buffer		1280x1024x24bit		1280x1024x24bit
+ transform modules	1-6			1-6
+ frame buffer modules	5,10,20			5,10,20
+ frame buffer		1280x1024x24bit		1280x1024x24bit
  			double buffered		double buffered
- Z-buffer		24-bit			24-bit
- Alpha/stencil		8-bit			8-bit
- Stereo support		yes			yes
- Other:				both machines will double buffer or do
- 				stereo output per window.  Both have an
- 				auxiliary video output that is RS-170A,
- 				NTSC, and PAL
+ z-buffer		24-bit			24-bit
+ alpha/stencil		8-bit			8-bit
+ stereo support		yes			yes
+ other:				both machines will double buffer or do
+ 				stereo output per window.  both have an
+ 				auxiliary video output that is rs-170a,
+ 				ntsc, and pal
  
- STORAGE
+ storage
  
- Internal-fixed		2 3.5"			4 3.5"
- Internal-removable	1 5.25"			2 5.25"
- Max capacity		9.5GB			11.6 GB
+ internal-fixed		2 3.5"			4 3.5"
+ internal-removable	1 5.25"			2 5.25"
+ max capacity		9.5gb			11.6 gb
  
- IO
+ io
  
- Both have TurboChannel 100MB/sec, SCSI-2, Ethernet, and FDDI
+ both have turbochannel 100mb/sec, scsi-2, ethernet, and fddi
  
- APPLICATION PROGRAMMING INTERFACES
+ application programming interfaces
  
- Both have libraries for Xlib, Motif, MIT PEXlib, DEC-PEXlib DEC-PHIGS, and GL
+ both have libraries for xlib, motif, mit pexlib, dec-pexlib dec-phigs, and gl
  
- Okay, now the real stuff.  The Kenai stations work with a graphics architecture
- known as Denali.  The Denali comes in three models, the E, P, and V.  They
- use a DECchip 21064 superscalar RISC processor at 150MHz.  Their
+ okay, now the real stuff.  the kenai stations work with a graphics architecture
+ known as denali.  the denali comes in three models, the e, p, and v.  they
+ use a decchip 21064 superscalar risc processor at 150mhz.  their
  capabilities are as follows:
  
- 			E		P		V
+ 			e		p		v
  
- 2D Vectors		800-200K	2000-3800K	4000-4800K
- 3D Vectors #1		350-1100K	1100-1800K	1800-2100K
- 3D Vectors #2		300-1000K	1000-1600K	1600-1900K
- 3D Vectors #3		300-500K	800-1000K	1300-1400K
- 3D Triangles, #4	200-500K	600-1000K	1000-1200K
- 3D Triangles, #5	100-200K	300-400K	500-600K
+ 2d vectors		800-200k	2000-3800k	4000-4800k
+ 3d vectors #1		350-1100k	1100-1800k	1800-2100k
+ 3d vectors #2		300-1000k	1000-1600k	1600-1900k
+ 3d vectors #3		300-500k	800-1000k	1300-1400k
+ 3d triangles, #4	200-500k	600-1000k	1000-1200k
+ 3d triangles, #5	100-200k	300-400k	500-600k
  
  #1: 10 pixel, flat shaded, connected
- #2: 10 pixel, Gouraud shaded, connected
+ #2: 10 pixel, gouraud shaded, connected
  #3: 10 pixel, 2-pixel wide, anti-aliased, connected
- #4: 50-pixel, Gouraud shaded, Z-buffered, strip
+ #4: 50-pixel, gouraud shaded, z-buffered, strip
  #5: 50-pixel, texture mapped, persp., point sampled
  
- IMAGE PROCESSING
+ image processing
  
- Cine loop - 8-bit	15-36Mp/s	37-58 Mp/s	60-68 Mp/s
- Cine loop - 16-bit	14 Mp/s		25 Mp/s		38 Mp/s
- Cine loop - 24-bit	12-21 Mp/s	21 Mp/s		21 Mp/s
- Contrast stretching #1	14 Mp/s		25 Mp/s		20 Mp/s
- Bilinear zoom		6 Mp/s		11 Mp/s		20 Mp/s
- Trilinear interp#2	--		6 Mvoxels/s	11 Mvoxels/s
+ cine loop - 8-bit	15-36mp/s	37-58 mp/s	60-68 mp/s
+ cine loop - 16-bit	14 mp/s		25 mp/s		38 mp/s
+ cine loop - 24-bit	12-21 mp/s	21 mp/s		21 mp/s
+ contrast stretching #1	14 mp/s		25 mp/s		20 mp/s
+ bilinear zoom		6 mp/s		11 mp/s		20 mp/s
+ trilinear interp#2	--		6 mvoxels/s	11 mvoxels/s
  
- #1: Lookup table -- 12-,16-bit to 8
- #2: Trilinear interpolation, 8-bit voxels
+ #1: lookup table -- 12-,16-bit to 8
+ #2: trilinear interpolation, 8-bit voxels
  
- CONFIGURATIONS
- Frame Buffer Modules	5		10		20
- Transform Engine Mod.	1-3		3-5		5-6
+ configurations
+ frame buffer modules	5		10		20
+ transform engine mod.	1-3		3-5		5-6
  
  
- As you can see, these are pretty powerful workstations, and the best part
- is the pricing.  I would recommend that you call Kubota for more information.
- Their number is 408-727-8100.  I'm sure they'll send you an information you
- may want.  Oh, some prices:
+ as you can see, these are pretty powerful workstations, and the best part
+ is the pricing.  i would recommend that you call kubota for more information.
+ their number is 408-727-8100.  i'm sure they'll send you an information you
+ may want.  oh, some prices:
  
- Low-end
+ low-end
  
- Kenai 3400, E Series w/ 1 TEM and 5 FBM --- 27,795 dollars U.S.
- Kenai 3500, E Series w/ 1 TEM and 5 FBM --- 45,345 dollars U.S.
+ kenai 3400, e series w/ 1 tem and 5 fbm --- 27,795 dollars u.s.
+ kenai 3500, e series w/ 1 tem and 5 fbm --- 45,345 dollars u.s.
  
- High-end
+ high-end
  
- Kenai 3400, V Series w/ 6 TEM and 20 FBM -- 61,795 dollars U.S.
- Kenai 3500, V Series w/ 6 TEM and 20 FBM -- 79,345 dollars U.S.
+ kenai 3400, v series w/ 6 tem and 20 fbm -- 61,795 dollars u.s.
+ kenai 3500, v series w/ 6 tem and 20 fbm -- 79,345 dollars u.s.
  
- If someone could post a relative comparision with an Indigo Extreme or
- something I would appreciate it.
+ if someone could post a relative comparision with an indigo extreme or
+ something i would appreciate it.
  
- Hope this helps someone out there,
+ hope this helps someone out there,
  
- Brian
+ brian
  
- PS I am not affiliated with Kubota in any way.  Hell, I thought they made
+ ps i am not affiliated with kubota in any way.  hell, i thought they made
  tractors or something. :-)
  

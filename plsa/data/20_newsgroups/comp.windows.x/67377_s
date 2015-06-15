@@ -1,50 +1,50 @@
 
- Dear sun and windows people,
+ dear sun and windows people,
  
- I am running sun workstations with SunOs 4.1.1 and 
- vanilla X11 R5. I have a bunch of xterminals as well.
+ i am running sun workstations with sunos 4.1.1 and 
+ vanilla x11 r5. i have a bunch of xterminals as well.
  
- Today I had my xdm fail. At about 9:30
+ today i had my xdm fail. at about 9:30
  it was impossible to login to a host from an xterminal.
- The message was the "xdm too many retransmissions".
- In my xdm-errors file I had the following entries:
+ the message was the "xdm too many retransmissions".
+ in my xdm-errors file i had the following entries:
  
  
-   >error (pid 7423): Server for display :0 terminated unexpectedly:
+   >error (pid 7423): server for display :0 terminated unexpectedly:
    >256
-   >error (pid 7927): WARNING: keyboard on display :0 could not be
+   >error (pid 7927): warning: keyboard on display :0 could not be
    >secured
-   >error (pid 7423): Server for display :0 terminated unexpectedly:
+   >error (pid 7423): server for display :0 terminated unexpectedly:
    >
-   >I also had:
+   >i also had:
    >
-   >error (pid 7457): WARNING: keyboard on display :0 could not be
+   >error (pid 7457): warning: keyboard on display :0 could not be
    >secured
-   >error (pid 7423): Server for display :0 terminated unexpectedly:
+   >error (pid 7423): server for display :0 terminated unexpectedly:
    >256
-   >error (pid 7462): WARNING: keyboard on display :0 could not be
+   >error (pid 7462): warning: keyboard on display :0 could not be
    >secured
-   >error (pid 7423): Server for display :0 terminated unexpectedly:
+   >error (pid 7423): server for display :0 terminated unexpectedly:
    >256
  
- Also, at the console, the login box would come up for
+ also, at the console, the login box would come up for
  about 2 seconds and then
- it would go away. It would do this continuously.
+ it would go away. it would do this continuously.
  
- I could login from another workstation to the hosts in question,
- however, I could not login on the console.
+ i could login from another workstation to the hosts in question,
+ however, i could not login on the console.
  
- I tried killing xdm and restarting it but that didn't help.
- I finally rebooted all the hosts. (Which hurts when done in the
+ i tried killing xdm and restarting it but that didn't help.
+ i finally rebooted all the hosts. (which hurts when done in the
  middle of the day).
  
- Any help would be appreciated.
+ any help would be appreciated.
  
- Thanks,
- Phil 
+ thanks,
+ phil 
  -- 
- Phil Neal, Systems Programmer, Statistics Department GN-22
- University of Washington, Seattle, Wa. 98195 USA  | 206-685-1627
+ phil neal, systems programmer, statistics department gn-22
+ university of washington, seattle, wa. 98195 usa  | 206-685-1627
  ----------------------------------------------------------------
- "Look, another bit!" -- Repo Man (the movie)
+ "look, another bit!" -- repo man (the movie)
  

@@ -1,21 +1,21 @@
 
- [ Article crossposted from comp.windows.ms ]
- [ Author was Kevin Routh ]
- [ Posted on 19 Apr 1993 12:35:55 GMT ]
+ [ article crossposted from comp.windows.ms ]
+ [ author was kevin routh ]
+ [ posted on 19 apr 1993 12:35:55 gmt ]
  
- For your information:
+ for your information:
  
- I hooked up my ImageWriter I to my COM1 serial port and used the C-Itoh
- 8510 driver in Windows 3.1.  The cable I am using is a straight-thru
- cable connected to a Null Modem Adapter I got at Radio Shack (catalog
- #26-1496a) for $4.95.  It seems to work fine with both DOS and Windows.
- I used the following command in DOS
+ i hooked up my imagewriter i to my com1 serial port and used the c-itoh
+ 8510 driver in windows 3.1.  the cable i am using is a straight-thru
+ cable connected to a null modem adapter i got at radio shack (catalog
+ #26-1496a) for $4.95.  it seems to work fine with both dos and windows.
+ i used the following command in dos
  
- 	C:\DOS\mode COM1:9600,n,8,1,p
+ 	c:\dos\mode com1:9600,n,8,1,p
  
- and set up the port the same way in the Windows Ports setup.
+ and set up the port the same way in the windows ports setup.
  
- the Null Modem connections are as follows:
+ the null modem connections are as follows:
  
  	1	to	1
  	2	to	3
@@ -26,30 +26,30 @@
  	20	to	6+8
  	7	to	7
  
- I printed from several applications and all seems OK.  
+ i printed from several applications and all seems ok.  
  
  -- 
- Kevin C. Routh                     Internet:    krouth@slee01.srl.ford.com
- Ford Electronics                   IBMmail (PROFS):               USFMCTMF
- ELD IC Engineering
- 17000 Rotunda Drive, B-121         Voice mail:              (313) 337-5136
- Dearborn, MI  48121-6010           Facsimile:               (313) 248-6244
+ kevin c. routh                     internet:    krouth@slee01.srl.ford.com
+ ford electronics                   ibmmail (profs):               usfmctmf
+ eld ic engineering
+ 17000 rotunda drive, b-121         voice mail:              (313) 337-5136
+ dearborn, mi  48121-6010           facsimile:               (313) 248-6244
  
  
  
  --
- Kevin C. Routh                     Internet:    krouth@slee01.srl.ford.com
- Ford Electronics                   IBMmail (PROFS):               USFMCTMF
- ELD IC Engineering
- 17000 Rotunda Drive, B-121         Voice mail:              (313) 337-5136
- Dearborn, MI  48121-6010           Facsimile:               (313) 248-6244
+ kevin c. routh                     internet:    krouth@slee01.srl.ford.com
+ ford electronics                   ibmmail (profs):               usfmctmf
+ eld ic engineering
+ 17000 rotunda drive, b-121         voice mail:              (313) 337-5136
+ dearborn, mi  48121-6010           facsimile:               (313) 248-6244
  
  
  --
- Kevin C. Routh                     Internet:    krouth@slee01.srl.ford.com
- Ford Electronics                   IBMmail (PROFS):               USFMCTMF
- ELD IC Engineering
- 17000 Rotunda Drive, B-121         Voice mail:              (313) 337-5136
- Dearborn, MI  48121-6010           Facsimile:               (313) 248-6244
+ kevin c. routh                     internet:    krouth@slee01.srl.ford.com
+ ford electronics                   ibmmail (profs):               usfmctmf
+ eld ic engineering
+ 17000 rotunda drive, b-121         voice mail:              (313) 337-5136
+ dearborn, mi  48121-6010           facsimile:               (313) 248-6244
  
  

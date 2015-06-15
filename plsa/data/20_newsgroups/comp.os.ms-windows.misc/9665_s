@@ -1,15 +1,15 @@
 
- Hi
- I'm having a problem with TrueType fonts in WIndows 3.1. I have installed
- the Cyrillic fonts I found on CICA and now a strange thing happens:
- Sometimes windows uses Cyrillic when its supposed to use Times Roman.
- Examples: The PC-Tools Backup (version 7.1) has one line of Cyrillic text
- in its opening banner, the next to last line. Importing a Word for Windows
- text written in Times into WP5.2 also results in Cyrillic.
- Does anyone have an idea where to look for the problem?
- Thanks
+ hi
+ i'm having a problem with truetype fonts in windows 3.1. i have installed
+ the cyrillic fonts i found on cica and now a strange thing happens:
+ sometimes windows uses cyrillic when its supposed to use times roman.
+ examples: the pc-tools backup (version 7.1) has one line of cyrillic text
+ in its opening banner, the next to last line. importing a word for windows
+ text written in times into wp5.2 also results in cyrillic.
+ does anyone have an idea where to look for the problem?
+ thanks
  --
- Reiner Suikat                       |   Institute for Flight Guidance                  
- fl2g@gandalf.fl.bs.dlr.de           |   German Aerospace Research Establishment (DLR)
+ reiner suikat                       |   institute for flight guidance                  
+ fl2g@gandalf.fl.bs.dlr.de           |   german aerospace research establishment (dlr)
  
  

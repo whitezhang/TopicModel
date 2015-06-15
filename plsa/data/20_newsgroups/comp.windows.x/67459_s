@@ -1,18 +1,18 @@
 
  
- > It is interesting to look at the change(s) of mind that John has had.
+ > it is interesting to look at the change(s) of mind that john has had.
  
- Very interested indeed! This is against this kind of "changes" that the GNU
- COPYLEFT is protecting us.
+ very interested indeed! this is against this kind of "changes" that the gnu
+ copyleft is protecting us.
  
- Anyway, at SIMULOG, we will abandon xv. We were using it mostly for slide-
+ anyway, at simulog, we will abandon xv. we were using it mostly for slide-
  shows because of its "-loop" feature that display does not have (display
- from the *wonderful* ImageMagick package! :-D), but I think I will implement
+ from the *wonderful* imagemagick package! :-d), but i think i will implement
  it myself (even a shell-script should do the job) and forget xv.
  
- Cheers,
- Christophe.
+ cheers,
+ christophe.
  -- muller@simulog.fr
  
-      =    Are you the police?  --  No ma'am, we're musicians.    =
+      =    are you the police?  --  no ma'am, we're musicians.    =
  

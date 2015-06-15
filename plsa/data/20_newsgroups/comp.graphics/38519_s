@@ -1,13 +1,13 @@
 
- In <1993Apr20.083731.260@eicn.etna.ch> NO E-MAIL ADDRESS@eicn.etna.ch writes:
- >Do somenone know the solution to run XV ??? any help would be apprecied..
+ in <1993apr20.083731.260@eicn.etna.ch> no e-mail address@eicn.etna.ch writes:
+ >do somenone know the solution to run xv ??? any help would be apprecied..
  
- I would guess that it requires X, almost certainly DV/X, which commonly
- uses the GO32 (DJGPP) setup for its programs.  If you don't have DV/X
- running, you can't get anything which requires interfacing with X.
+ i would guess that it requires x, almost certainly dv/x, which commonly
+ uses the go32 (djgpp) setup for its programs.  if you don't have dv/x
+ running, you can't get anything which requires interfacing with x.
  
  -- 
- Kevin Martin
+ kevin martin
  sigma@rahul.net
- "I gotta get me another hat."
+ "i gotta get me another hat."
  

@@ -1,19 +1,19 @@
 
- Hi I'm new to imaging, and my advisor and I would like to 
- do some 3D reconstructions.
+ hi i'm new to imaging, and my advisor and i would like to 
+ do some 3d reconstructions.
  
- We take slides (biological), and image them on a 486.  Then
+ we take slides (biological), and image them on a 486.  then
  the software allows us to trace the outline of the objects 
- we want to save.  The outlines are stored as a TIFF file.
+ we want to save.  the outlines are stored as a tiff file.
  
- We would like to convert a group of these outlines into a 
- 3D image.  We are unsure as to where to begin.  Someone mentioned
- that if we could convert the TIFF into a vector format then 
- we could view them in Autocad.
+ we would like to convert a group of these outlines into a 
+ 3d image.  we are unsure as to where to begin.  someone mentioned
+ that if we could convert the tiff into a vector format then 
+ we could view them in autocad.
  
- Any help would be greatly appreciated.
+ any help would be greatly appreciated.
  
- Pankaj Oberoi
+ pankaj oberoi
  spedhead@athena.mit.edu
  
  

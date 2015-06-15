@@ -1,55 +1,55 @@
 
- In article <1qv1rc$fcp@news.cs.tu-berlin.de>, make@cs.tu-berlin.de (M. Kerkhoff) writes:
- > Hi all,
+ in article <1qv1rc$fcp@news.cs.tu-berlin.de>, make@cs.tu-berlin.de (m. kerkhoff) writes:
+ > hi all,
  > 
- > has anybody tried to compile CTRLTEST from the MFC/SAMPLES directory,
- > after compiling the MFC-libs with BWC ?
+ > has anybody tried to compile ctrltest from the mfc/samples directory,
+ > after compiling the mfc-libs with bwc ?
  > 
- > Seems to me, that BWC isn't able to distinguish pointers to overloaded
+ > seems to me, that bwc isn't able to distinguish pointers to overloaded
  > functions.
- > For example, imagine the following 2 (overloaded) functions:
+ > for example, imagine the following 2 (overloaded) functions:
  > void same_name ( void ) 
  > void same_name ( int )
  >  
- > After trying the whole day, I think, with BWC its impossible to take the
+ > after trying the whole day, i think, with bwc its impossible to take the
  > adress of one of the above two functions and assign it to a properly defined
  > function pointer. 
- > Am I right ? Has anybody else had this problem ?
+ > am i right ? has anybody else had this problem ?
  > 
  > 	thanx
  
- I think you may be chasing the wrong problem.  I don't think it is the
- function overloading at all-- I do that sort of thing all of the time
- in BC++ without a hitch.  The big problems I have encountered in
- porting MFC to BC++ is that fact that MFC _depends_ on a couple of
- invalid C++ assumptions.
+ i think you may be chasing the wrong problem.  i don't think it is the
+ function overloading at all-- i do that sort of thing all of the time
+ in bc++ without a hitch.  the big problems i have encountered in
+ porting mfc to bc++ is that fact that mfc _depends_ on a couple of
+ invalid c++ assumptions.
  
- I have never gotten the _entire_ ctrltest app to run under BC++, but
- the reason is that MS makes some bad assumptions about the order in
+ i have never gotten the _entire_ ctrltest app to run under bc++, but
+ the reason is that ms makes some bad assumptions about the order in
  which static/global objects are initialized (i.e. some objects are
- getting accessed before they are initialized).  The problem is in the
+ getting accessed before they are initialized).  the problem is in the
  owner-draw menu code somewhere-- if you comment out that section, all
  other pieces of ctrltest work fine.
  
- Two other major gotchas I have found using MFC under BC++:
+ two other major gotchas i have found using mfc under bc++:
  
- - The CFile::OpenFlags enum uses hard-coded numbers for the open mode,
+ - the cfile::openflags enum uses hard-coded numbers for the open mode,
    rather than the manifest constants defined in fcntrl.h (which differ
-   between MSC and BC).
+   between msc and bc).
  
- - All of the MFC collection classes depend on another bad C++
+ - all of the mfc collection classes depend on another bad c++
    assumption-- that a reference to a base object can used be in place
-   of a reference to a derived object (true for pointers, NOT for
+   of a reference to a derived object (true for pointers, not for
    references).
  
- I am sure there are other problems along the same lines, but I have
- not encountered them (yet).  I have not seen MFC 2.0 yet, but I hope
- that some of these will be addressed.  If they are not, all of MS's
+ i am sure there are other problems along the same lines, but i have
+ not encountered them (yet).  i have not seen mfc 2.0 yet, but i hope
+ that some of these will be addressed.  if they are not, all of ms's
  hype about portability to other vendor's compilers will be just that.
  
  -- 
-       If these were my employer's opinions, I wouldn't be posting them.
+       if these were my employer's opinions, i wouldn't be posting them.
  ###############################################################################
-   "Whoever said nothing lasts forever was obviously  # R. Brendler
-    NOT a Cubs fan..." - Mike Royko                   # SPSS, Inc. - Chicago IL
+   "whoever said nothing lasts forever was obviously  # r. brendler
+    not a cubs fan..." - mike royko                   # spss, inc. - chicago il
  

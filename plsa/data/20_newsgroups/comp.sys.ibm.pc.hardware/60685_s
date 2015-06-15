@@ -1,100 +1,100 @@
 
- Hi Netters,
+ hi netters,
  
- As promised, here are the summary of opinions on DoubleDisk Gold v.6.0.
- People seem to be quite happy with the product. There is no much of
- opinion on how good it is compared to the industry leader Stacker 3.0.
- (Superstor Pro is not considered since it is slower than Stacker although
- just as reliable - BYTE Magazine's conclusion ;-) ), so it's hard to make
- any decision to go with Stacker or with DoubleDisk Gold v6.0. 
- However, it seems that at $39.95, it is quite a buy.
+ as promised, here are the summary of opinions on doubledisk gold v.6.0.
+ people seem to be quite happy with the product. there is no much of
+ opinion on how good it is compared to the industry leader stacker 3.0.
+ (superstor pro is not considered since it is slower than stacker although
+ just as reliable - byte magazine's conclusion ;-) ), so it's hard to make
+ any decision to go with stacker or with doubledisk gold v6.0. 
+ however, it seems that at $39.95, it is quite a buy.
  
- Buddy Christyono
+ buddy christyono
  buddy@optics.ece.wisc.edu
  -------------------------------------------------------------------------
  summary of replies
  -------------------------------------------------------------------------
- Hello Buddy,
+ hello buddy,
  
- I do not have DD Gold 6.0 experience.  I just ordered it.  I currently have
- DD 2.3 (the last version).  I am very pleased with its performance.
+ i do not have dd gold 6.0 experience.  i just ordered it.  i currently have
+ dd 2.3 (the last version).  i am very pleased with its performance.
  
- Here is my suggestion...
+ here is my suggestion...
  
- 1)  If you do not have any compression software currently, I would go with
- 	DOS 6.0's compression.  All the discussion on the net indicates that
- 	for $50 you get the compression (built into the OS), plus the other
- 	utilities that you would pay way more than $50 for.  Besides, you 
- 	are now at DOS6.0 (whatever that means...)
+ 1)  if you do not have any compression software currently, i would go with
+ 	dos 6.0's compression.  all the discussion on the net indicates that
+ 	for $50 you get the compression (built into the os), plus the other
+ 	utilities that you would pay way more than $50 for.  besides, you 
+ 	are now at dos6.0 (whatever that means...)
  
- 2)  If you have DoubleDisk 2.3 already (like I do), the cost is $29.95
- 	for the upgrade.  After thinking about it and asking the net, I
- 	decided that I could not go wrong with the update cost!
- 	I have never suffered from performance of DD.  I have a 12ms HD with
- 	large SW packages in both compressed and uncompressed format.  It
- 	works great.  Not delays.  I think the "A" is better than "B" 
+ 2)  if you have doubledisk 2.3 already (like i do), the cost is $29.95
+ 	for the upgrade.  after thinking about it and asking the net, i
+ 	decided that i could not go wrong with the update cost!
+ 	i have never suffered from performance of dd.  i have a 12ms hd with
+ 	large sw packages in both compressed and uncompressed format.  it
+ 	works great.  not delays.  i think the "a" is better than "b" 
  	arguements are a lot of bunk... they are all comparable in performance.
- 	I am looking forward to being able to "LOADHIGH" the DD sw.  That
+ 	i am looking forward to being able to "loadhigh" the dd sw.  that
  	has been an annoyance.
  
- 3)  If you have Stacker, et.al. currently, I would not see it worth the
+ 3)  if you have stacker, et.al. currently, i would not see it worth the
  	effort to upgrade.
  
- Just my $.02 ...
+ just my $.02 ...
  
- Regards,
- Mark Bagdy
+ regards,
+ mark bagdy
  ----------------------------------------------------------------
- Buddy,
+ buddy,
  
- I got the same mailer. About 2 weeks ago I got DDG and installed it. The
- documentation was, in my opinion, easy to follow. I used the automatic
+ i got the same mailer. about 2 weeks ago i got ddg and installed it. the
+ documentation was, in my opinion, easy to follow. i used the automatic
  installation (not the custom) and everything went smoothly.
  
- There were some specific instructions on a readme file for dealing with 386max
- & QEMM. DDG has an uninstall (unlike DOS6.0) if you need it. My system has a
- 203Mb hard drive. before installing DDG I had ~5Mb free. After DDG I had
- ~197Mb free. Pretty good statistics considering that my 8Mb permanent windows
+ there were some specific instructions on a readme file for dealing with 386max
+ & qemm. ddg has an uninstall (unlike dos6.0) if you need it. my system has a
+ 203mb hard drive. before installing ddg i had ~5mb free. after ddg i had
+ ~197mb free. pretty good statistics considering that my 8mb permanent windows
  swap file stayed on the uncompressed portion (along with other drivers and
  such).
  
- I have had no problems whatsoever. I have noticed no slowdown (other than it
- takes a little longer to boot) either in windows or dos. So far I am a very
+ i have had no problems whatsoever. i have noticed no slowdown (other than it
+ takes a little longer to boot) either in windows or dos. so far i am a very
  happy camper.
  
- -Bruce
+ -bruce
  -- 
-   Bruce F. Steinke                    | "Never know when you're going to
+   bruce f. steinke                    | "never know when you're going to
    bsteinke@dsd.es.com                 |  need a good piece of rope."
-   Software Technical Support Engineer |               Sam Gamgee
-   Evans & Sutherland Computer Corp.   |      <My mail, My Opinions>
+   software technical support engineer |               sam gamgee
+   evans & sutherland computer corp.   |      <my mail, my opinions>
  ---------------------------------------------------------------------------
  
- 	I have been using DoubleDisk Gold for a little more than a month on
- a 486DX 33Mhz, 120MB Seagate drive, running DOS & Windows in 386 enhanced
+ 	i have been using doubledisk gold for a little more than a month on
+ a 486dx 33mhz, 120mb seagate drive, running dos & windows in 386 enhanced
  mode.
- 	I ran some tests and concluded that the speed of a DoubleDisk drive
+ 	i ran some tests and concluded that the speed of a doubledisk drive
  with a drive read cache is about equal to the bare drive without a cache.
- 	I have no complaints about reliability.  It was very easy to install.
- The only problem I had was with Castle Wolfenstein 3-D.  I assumed the game
- was trying to bypass DOS disk access and moved the game to the non-compressed
- region of the disk.  Since then the game has never given me a problem. 
- There was never any damage to the DoubleDisk drive.
- 	Compression performance for the whole disk has held steady 
- around 1.8:1.  This is lower than expected but about 20% (size) of my files 
+ 	i have no complaints about reliability.  it was very easy to install.
+ the only problem i had was with castle wolfenstein 3-d.  i assumed the game
+ was trying to bypass dos disk access and moved the game to the non-compressed
+ region of the disk.  since then the game has never given me a problem. 
+ there was never any damage to the doubledisk drive.
+ 	compression performance for the whole disk has held steady 
+ around 1.8:1.  this is lower than expected but about 20% (size) of my files 
  are compressed image files and some large zip files.  
  
- If you have any more specific questions let me know.
- Dan
+ if you have any more specific questions let me know.
+ dan
  ---------------------------------------------------------------------------
  
- I bought it an have been happy with it.  I use it on both MFM and IDE 40
- MB drives.  I was using DoubleDisk before Gold came out.  That is the
- same product MSDOS 6.0 is shipping with.  No problems with either
+ i bought it an have been happy with it.  i use it on both mfm and ide 40
+ mb drives.  i was using doubledisk before gold came out.  that is the
+ same product msdos 6.0 is shipping with.  no problems with either
  product.
  
  -- 
- Ron Bjornseth                 bjornset@pogo.den.mmc.com
+ ron bjornseth                 bjornset@pogo.den.mmc.com
  ///////////////////////////////////////////////////////////////
- -------------------- END OF MESSAGES --------------------------------------
+ -------------------- end of messages --------------------------------------
  

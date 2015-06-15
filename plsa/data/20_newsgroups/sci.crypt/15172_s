@@ -1,47 +1,47 @@
 
  
-      1. Do a straight encryption of your keyrings and put the
+      1. do a straight encryption of your keyrings and put the
          results with misleading names somewhere they won't be noticed
          (eg. in the \windows directory; nobody knows what half those
          files are).
  
-      2. Do a straight encryption of a .BAT file that will decrypt
-         the keyrings to RAMdisk and will set PGPPATH to point at it.
+      2. do a straight encryption of a .bat file that will decrypt
+         the keyrings to ramdisk and will set pgppath to point at it.
  
-      3. Set up another .BAT file to decrypt and execute the first
-         (again on RAM disk). Have it take the name of the target file
+      3. set up another .bat file to decrypt and execute the first
+         (again on ram disk). have it take the name of the target file
          as an argument so that there is no link between this file and
          the (non-existent) batch file referred to by the rest of the
-         system. Comment it so it looks like a test script for fooling
-         around with PGP. Set PGPPATH to the PGP directory.
+         system. comment it so it looks like a test script for fooling
+         around with pgp. set pgppath to the pgp directory.
  
-      4. Leave the original keyrings that came with PGP in the
-         directory with PGP; a good indication that you are playing
-         with, but haven't made serious use of PGP. Add a set of keys
-         with your name and a really simple passphrase. Never use it,
+      4. leave the original keyrings that came with pgp in the
+         directory with pgp; a good indication that you are playing
+         with, but haven't made serious use of pgp. add a set of keys
+         with your name and a really simple passphrase. never use it,
          or use it as your widely published key for low-security
          e-mail.
  
-      5. When needed, run the second .BAT file. Make sure all
-         intermediate and plainfiles are generated on RAMdisk.
+      5. when needed, run the second .bat file. make sure all
+         intermediate and plainfiles are generated on ramdisk.
  
-      6. When you hear the concussion grenade, hit the power switch.
+      6. when you hear the concussion grenade, hit the power switch.
          
-         Cheers,
-                 Marc
+         cheers,
+                 marc
  
  ---
-  Marc Thibault        | CIS:71441,2226     |  Put another log
-  marc@tanda.isis.org  | NC FreeNet: aa185  |  on the fire.
+  marc thibault        | cis:71441,2226     |  put another log
+  marc@tanda.isis.org  | nc freenet: aa185  |  on the fire.
  
- -----BEGIN PGP PUBLIC KEY BLOCK-----
- Version: 2.0
+ -----begin pgp public key block-----
+ version: 2.0
  
- mQBNAiqxYTkAAAECALfeHYp0yC80s1ScFvJSpj5eSCAO+hihtneFrrn+vuEcSavh
- AAUwpIUGyV2N8n+lFTPnnLc42Ms+c8PJUPYKVI8ABRG0I01hcmMgVGhpYmF1bHQg
- PG1hcmNAdGFuZGEuaXNpcy5vcmc+
- =HLnv
- -----END PGP PUBLIC KEY BLOCK-----
+ mqbnaiqxytkaaaecalfehyp0yc80s1scfvjspj5escao+hihtnefrrn+vuecsavh
+ aauwpiugyv2n8n+lftpnnlc42ms+c8pjupykvi8abrg0i01hcmmgvghpymf1bhqg
+ pg1hcmnadgfuzgeuaxnpcy5vcmc+
+ =hlnv
+ -----end pgp public key block-----
  
  
  

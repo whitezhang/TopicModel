@@ -1,26 +1,26 @@
 
- In sci.electronics, rgc3679@bcstec.ca.boeing.com (Robert G. Carpenter) writes:
+ in sci.electronics, rgc3679@bcstec.ca.boeing.com (robert g. carpenter) writes:
  
- > I'm wondering if it's possible to use radio waves to measure the
+ > i'm wondering if it's possible to use radio waves to measure the
  > distance between a transmitter(s) and receiver?
  
- Yes. It's called RADAR.
+ yes. it's called radar.
  
- > Seems to me that you should be able to measure the signal strength
- > and determine distance. This would be for short distances (2000 ft),
- > and I would need to have accuracy of 6 inches, or so.
+ > seems to me that you should be able to measure the signal strength
+ > and determine distance. this would be for short distances (2000 ft),
+ > and i would need to have accuracy of 6 inches, or so.
  
- Depends on the environment: in a static environent such as a waveguide yes, in
+ depends on the environment: in a static environent such as a waveguide yes, in
  a dynamic environment (with objects moving about) the multipath kills this
  concept.
  
- > How about measuring vertical distance as well, any chance - or am I getting
+ > how about measuring vertical distance as well, any chance - or am i getting
  > ridiculous?
  
- What is the difference between vertical and horizontal?
+ what is the difference between vertical and horizontal?
  
- > What frequencies would be best for this? Or does matter?
+ > what frequencies would be best for this? or does matter?
  
- This depends on the required range, the required accuracy, the allowable
- ambiguity in range, the frequencies the FCC (etc) allow you to use.
+ this depends on the required range, the required accuracy, the allowable
+ ambiguity in range, the frequencies the fcc (etc) allow you to use.
  

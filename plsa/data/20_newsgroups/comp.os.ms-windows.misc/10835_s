@@ -1,27 +1,27 @@
 
- I have been backing up my hard drive ever since I had to re-install
- everything from scratch after a crash (learned the hard way, didn't I?!).
- I am using a windows-based backup program (actually Norton), and I 
- began wondering about the logic of this.  Sure, if I accidentally delete
- a file, I can get it from the archive.  But what if my disk crashes again?
- I would not be able to start windows to run the backup program!  (Note,
- by crash, I mean, there was some error message that prevented the machine
- from booting properly.  I think I gave up too early, but I didn't have
- the time/patience/tools to figure out exactly what the problem was.  My
- hard drive needed cleaning up anyway. Yeah right...)  This whole scenario
- is complicated by the fact that I am using Stacker.
+ i have been backing up my hard drive ever since i had to re-install
+ everything from scratch after a crash (learned the hard way, didn't i?!).
+ i am using a windows-based backup program (actually norton), and i 
+ began wondering about the logic of this.  sure, if i accidentally delete
+ a file, i can get it from the archive.  but what if my disk crashes again?
+ i would not be able to start windows to run the backup program!  (note,
+ by crash, i mean, there was some error message that prevented the machine
+ from booting properly.  i think i gave up too early, but i didn't have
+ the time/patience/tools to figure out exactly what the problem was.  my
+ hard drive needed cleaning up anyway. yeah right...)  this whole scenario
+ is complicated by the fact that i am using stacker.
  
- So I think there are 2 possibilities:
+ so i think there are 2 possibilities:
  
-    1) I'm right.  If my disk really crashes, I would at least have to
-       re-install DOS and Windows to get the backup program working.
-    2) I'm wrong.  There is an easy way to make a "mirror" of a hard disk
+    1) i'm right.  if my disk really crashes, i would at least have to
+       re-install dos and windows to get the backup program working.
+    2) i'm wrong.  there is an easy way to make a "mirror" of a hard disk
        that can easily restore it's state from scratch.
  
- The polls are open...
+ the polls are open...
  
- Tom Ioerger
- Univeristy of Illinois, CS grad student
+ tom ioerger
+ univeristy of illinois, cs grad student
  ioerger@cs.uiuc.edu
  
  

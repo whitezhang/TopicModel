@@ -1,21 +1,21 @@
 
  
- Dear Netters
- I want to send EMG-signals from a running person to a computer. 
- Each signal is 4KHz wide and there is up to 30 of them on each
- running person. The signal is only to be sent over a few hundred 
- meters. It seems to me that the frequency intended for this use is
- about 150MHz and about 440MHz.
- To make the transmitters as light as possible I suppose it will be best 
- the to send the signals in an analog form. As this application is rather 
- specialized I do not expect to be able to buy the exact transmitter-
+ dear netters
+ i want to send emg-signals from a running person to a computer. 
+ each signal is 4khz wide and there is up to 30 of them on each
+ running person. the signal is only to be sent over a few hundred 
+ meters. it seems to me that the frequency intended for this use is
+ about 150mhz and about 440mhz.
+ to make the transmitters as light as possible i suppose it will be best 
+ the to send the signals in an analog form. as this application is rather 
+ specialized i do not expect to be able to buy the exact transmitter-
  units i need.
- On the other hand I imagine that I can buy the receiver somewhere. I 
+ on the other hand i imagine that i can buy the receiver somewhere. i 
  need a multichannel (up to 30 channels) receiver or 30 complete  
  receivers in some rack system where one can add as many receivers 
  as needed in the particular case.
- DO ANYBODY KNOW IF THERE IS EXISTING SUCH RECEIVER 
- SYSTEM ON THE MARKET?
+ do anybody know if there is existing such receiver 
+ system on the market?
  
- baldur@rsp.is     (TF3BP) (please respond by email rather than nn)
+ baldur@rsp.is     (tf3bp) (please respond by email rather than nn)
  

@@ -1,17 +1,17 @@
 
- Short summary of what Bellovin says Hellman says the NSA says: There is
- a global key G, plus one key U_C for each chip C. The user can choose a
- new session key K_P for each phone call P he makes. Chip C knows three
- keys: G, its own U_C, and the user's K_P. The government as a whole
- knows G and every U_C. Apparently a message M is encrypted as
- E_G(E_{U_C}(K_P),C) , E_{K_P}(M). That's it.
+ short summary of what bellovin says hellman says the nsa says: there is
+ a global key g, plus one key u_c for each chip c. the user can choose a
+ new session key k_p for each phone call p he makes. chip c knows three
+ keys: g, its own u_c, and the user's k_p. the government as a whole
+ knows g and every u_c. apparently a message m is encrypted as
+ e_g(e_{u_c}(k_p),c) , e_{k_p}(m). that's it.
  
- The system as described here can't possibly work. What happens when
- someone plugs the above ciphertext into a receiving chip? To get M
- the receiving chip needs K_P; to get K_P the receiving chip needs U_C.
- The only information it can work with is C. If U_C can be computed
- from C then the system is cryptographically useless and the ``key
- escrow'' is bullshit. Otherwise how is a message decrypted?
+ the system as described here can't possibly work. what happens when
+ someone plugs the above ciphertext into a receiving chip? to get m
+ the receiving chip needs k_p; to get k_p the receiving chip needs u_c.
+ the only information it can work with is c. if u_c can be computed
+ from c then the system is cryptographically useless and the ``key
+ escrow'' is bullshit. otherwise how is a message decrypted?
  
- ---Dan
+ ---dan
  

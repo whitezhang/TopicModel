@@ -1,28 +1,28 @@
 
- In article <34T302tW40N601@JUTS.ccc.amdahl.com> dws30@p1hdb01cd.amdahl.com (David Sharpe) writes:
+ in article <34t302tw40n601@juts.ccc.amdahl.com> dws30@p1hdb01cd.amdahl.com (david sharpe) writes:
  >
- > Pink Noise and White Noise are equal amounts of all frequencies.  This
- >is in most cases around the 20-3.3K Hz range.  Pink/White are used to
- >adjust for room dynamics and stuff like that.  There are a few EQ's out
- >on the market that have Pink noise built in.  Most all from Audio
- >Control have them I know the C-101 does.  
+ > pink noise and white noise are equal amounts of all frequencies.  this
+ >is in most cases around the 20-3.3k hz range.  pink/white are used to
+ >adjust for room dynamics and stuff like that.  there are a few eq's out
+ >on the market that have pink noise built in.  most all from audio
+ >control have them i know the c-101 does.  
   
  
- With regards to what you wrote, how does one "adjust for room dynamics 
- and stuff like that"?  I asked a professor that question just
- last week and he didn't really know himself.  Since pink noise is believed
- to be due to surface states (say, the surface of the Silicon where there's
+ with regards to what you wrote, how does one "adjust for room dynamics 
+ and stuff like that"?  i asked a professor that question just
+ last week and he didn't really know himself.  since pink noise is believed
+ to be due to surface states (say, the surface of the silicon where there's
  a lack of a covalent bond) that act as "traps" to nearby elecrons, and since
  this happens at low frequencies (because at high frequencies they aren't
- able to "trap" electrons), how do you compensate for that?  It seems to me
- that you wouldn't be able to compensate for pink noise.  I have seen the
- "pink noise" feature, however, on many EQs, and I was wondering
+ able to "trap" electrons), how do you compensate for that?  it seems to me
+ that you wouldn't be able to compensate for pink noise.  i have seen the
+ "pink noise" feature, however, on many eqs, and i was wondering
  how they are suppose to compensate for noise when pink noise is not due to
- "man made noise" like power lines, crosstalks, coupling, etc.  If you have
- any information about this, it would be appreciated.  Hope this didn't sound
- too drawn out.  Thanx.
+ "man made noise" like power lines, crosstalks, coupling, etc.  if you have
+ any information about this, it would be appreciated.  hope this didn't sound
+ too drawn out.  thanx.
   
-                               - David (shorty@helios.nevada.edu)
+                               - david (shorty@helios.nevada.edu)
  
  
  

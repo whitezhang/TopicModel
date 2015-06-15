@@ -1,39 +1,39 @@
 
- Tony Kidson (tony@morgan.demon.co.uk) wrote:
- : In article <oHZs2B2w164w@k5qwb.lonestar.org> lrk@k5qwb.lonestar.org writes:
+ tony kidson (tony@morgan.demon.co.uk) wrote:
+ : in article <ohzs2b2w164w@k5qwb.lonestar.org> lrk@k5qwb.lonestar.org writes:
  : 
- : >mcovingt@aisun3.ai.uga.edu (Michael Covington) writes:
+ : >mcovingt@aisun3.ai.uga.edu (michael covington) writes:
  : >
- : >> In article <1ptolq$p7e@werple.apana.org.au> petert@zikzak.apana.org.au (Peter
+ : >> in article <1ptolq$p7e@werple.apana.org.au> petert@zikzak.apana.org.au (peter
  : >> >
- : >> >Just a thought of mine here:
- : >> >Since an on-hook line is aprox 48-50V, and off-hook it usually drops below 1
- : >> >How about an LED in series with a zener say around 30V.
- : >> >On-hook = LED on
- : >> >Off-hook = LED off.
- : >> >Would this work? If anyone tries/tried it, please let me know.
+ : >> >just a thought of mine here:
+ : >> >since an on-hook line is aprox 48-50v, and off-hook it usually drops below 1
+ : >> >how about an led in series with a zener say around 30v.
+ : >> >on-hook = led on
+ : >> >off-hook = led off.
+ : >> >would this work? if anyone tries/tried it, please let me know.
  : >>
- : >> Aye, there's the rub -- if you draw enough current to light an LED, the
+ : >> aye, there's the rub -- if you draw enough current to light an led, the
  : >> equipment at the phone company will think you've gone off hook.
- : >> In the on-hook state you're not supposed to draw current.
+ : >> in the on-hook state you're not supposed to draw current.
  : >
- : >Which means you should just use your Digital VoltMeter. You can use an
- : >old VOM but the phone company equipment can detect that and might think
+ : >which means you should just use your digital voltmeter. you can use an
+ : >old vom but the phone company equipment can detect that and might think
  : >there's something wrong with the cable.
  : >
  : 
- : Look Guys, what's the problem here?  If you want a light that goes on when 
- : the 'phone is *Off* hook, all you need it to run it in *series* with the 
- : line, as I mentioned in my previous post.  If you want a light that goes on 
+ : look guys, what's the problem here?  if you want a light that goes on when 
+ : the 'phone is *off* hook, all you need it to run it in *series* with the 
+ : line, as i mentioned in my previous post.  if you want a light that goes on 
  : when the 'phone is *on* hook, all you need is a voltage threshold detector.
  
- If you're going to do the series Diode thing (which is the easiest), just
- make sure that the LED can take the current (I can't recall it off-hand, but
- it's something like 100mA or more?)
+ if you're going to do the series diode thing (which is the easiest), just
+ make sure that the led can take the current (i can't recall it off-hand, but
+ it's something like 100ma or more?)
  
- Greggo.
+ greggo.
  
- Greg Moffatt  moffatt@bnr.ca
- Bell-Northern Resarch Inc., Ottawa Canada
- "My opinions; not BNR's"
+ greg moffatt  moffatt@bnr.ca
+ bell-northern resarch inc., ottawa canada
+ "my opinions; not bnr's"
  

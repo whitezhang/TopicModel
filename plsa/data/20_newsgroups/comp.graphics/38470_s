@@ -1,24 +1,24 @@
 
- To: ad994@Freenet.carleton.ca
+ to: ad994@freenet.carleton.ca
  
- JW> 1) Where is there a book or code that will teach me how
- JW> to read and write pcx,dbf,and gif files?
+ jw> 1) where is there a book or code that will teach me how
+ jw> to read and write pcx,dbf,and gif files?
  
- JW> 2) How do I access the extra ram on my paradise video board
- JW> so I can do paging in the higher vga modes ie: 320x200x256
- JW> 800x600x256
+ jw> 2) how do i access the extra ram on my paradise video board
+ jw> so i can do paging in the higher vga modes ie: 320x200x256
+ jw> 800x600x256
  
- JW> 3) anybody got a line on a good book to help answer these question?
+ jw> 3) anybody got a line on a good book to help answer these question?
  
- Here are some that I have that are very good:
+ here are some that i have that are very good:
  
-   Graphics File Formats, Kay and Levine, ISBN 0-8306-3059-7
-   Supercharged Bitmapped Graphics, Rimmer, ISBN 0-8306-3788-5
-   Programmer's Guide to the EGA and VGA Cards, Ferraro,
-      ISBN 0-201-57025-4 (has a whole chapter on Paradise SVGA)
+   graphics file formats, kay and levine, isbn 0-8306-3059-7
+   supercharged bitmapped graphics, rimmer, isbn 0-8306-3788-5
+   programmer's guide to the ega and vga cards, ferraro,
+      isbn 0-201-57025-4 (has a whole chapter on paradise svga)
  
- Dave
+ dave
  ---
-  . DeLuxe./386 1.12 #8993 . 
+  . deluxe./386 1.12 #8993 . 
                                                                                         
  

@@ -1,11 +1,11 @@
 
  
- I've got a 386DX-40, 4MB and I'm using Windows 3.1. Sometimes I wondered why 
- Windows worked endlessly on my HD when I was doing nothing (execpt having lunch
- or something like that). Then I turned this virtual memory swapfile off, and
- Windows became quite faster, but now having less memory free. And so I'm still
+ i've got a 386dx-40, 4mb and i'm using windows 3.1. sometimes i wondered why 
+ windows worked endlessly on my hd when i was doing nothing (execpt having lunch
+ or something like that). then i turned this virtual memory swapfile off, and
+ windows became quite faster, but now having less memory free. and so i'm still
  wondering, why windows is reading everything from virtual memory when the
- convertional is sufficient? Any common-sense-explanation is really appreciated.
+ convertional is sufficient? any common-sense-explanation is really appreciated.
  
    
  

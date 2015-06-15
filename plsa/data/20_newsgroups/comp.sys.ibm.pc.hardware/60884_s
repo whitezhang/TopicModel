@@ -1,90 +1,90 @@
 
- On Thu, 22 Apr 1993 00:22:31 GMT Ross Mitchell (rmitch@irus.rri.uwo.ca) wrote:
+ on thu, 22 apr 1993 00:22:31 gmt ross mitchell (rmitch@irus.rri.uwo.ca) wrote:
  
- | I want to use this (proposed) beast for basically four things:  
+ | i want to use this (proposed) beast for basically four things:  
  
- |      -	Editing documents using WordPerfect 5.1 (under dos)
+ |      -	editing documents using wordperfect 5.1 (under dos)
  
- |      -	Creating graphs/analyzing data using Sigmaplot V5.0 (under dos)
+ |      -	creating graphs/analyzing data using sigmaplot v5.0 (under dos)
  
- |      -	Editing/playing with images using Aldus PhotoStyler, running under 
- | 	Windows 3.1 - these images can be large, say 2k x 2k, 24bits/pixel
+ |      -	editing/playing with images using aldus photostyler, running under 
+ | 	windows 3.1 - these images can be large, say 2k x 2k, 24bits/pixel
  
- |      -	Using the PC as an Xterminal, running DesqView/X 1.1 and Sun PC-NFS, 
- | 	talking to our network of Sparcstation's - this is where a lot of
+ |      -	using the pc as an xterminal, running desqview/x 1.1 and sun pc-nfs, 
+ | 	talking to our network of sparcstation's - this is where a lot of
  | 	the images/data come from, and is the most demanding of these tasks.
  
- | I've read, read, read PC magazines, performed benchmarks, read this newsgroup,
+ | i've read, read, read pc magazines, performed benchmarks, read this newsgroup,
  | and decided that a "nice" system (price/performance) would be:
  
- | 	486DX-50 256k cache, ISA, VLB, 16meg ram
- | 	ATI Graphics Ultra Pro, 2 meg ram, local bus
- | 	15" monitor, 1280x1024 NI
- | 	3Com Etherlink III 16bit
- | 	Maxtor 240MB IDE hard drive
+ | 	486dx-50 256k cache, isa, vlb, 16meg ram
+ | 	ati graphics ultra pro, 2 meg ram, local bus
+ | 	15" monitor, 1280x1024 ni
+ | 	3com etherlink iii 16bit
+ | 	maxtor 240mb ide hard drive
  
- | However, the parts don't fit!  Our local retailer apparently put one of these
- | together, only to discover that the ATI card wouldn't run at 50MHz - surprise
- | surprise.  Actually, after reading this group, I'm surprised that they even
- | have a 50MHz local bus running...
+ | however, the parts don't fit!  our local retailer apparently put one of these
+ | together, only to discover that the ati card wouldn't run at 50mhz - surprise
+ | surprise.  actually, after reading this group, i'm surprised that they even
+ | have a 50mhz local bus running...
  
- | I have a choice now between basically the above system but with a
- | 486DX2-66 with ISA and VLB,  or,   a 486DX-50 with EISA and no VLB (and thus
- | the non-local bus version of the ATI card).  Which is better, keeping in mind
- | that I'm primarily interested in the last two tasks?  
+ | i have a choice now between basically the above system but with a
+ | 486dx2-66 with isa and vlb,  or,   a 486dx-50 with eisa and no vlb (and thus
+ | the non-local bus version of the ati card).  which is better, keeping in mind
+ | that i'm primarily interested in the last two tasks?  
  
- Having in mind the size of the images, my opinion is to go with VLB.
- It has _much_ more bandwith that EISA, which in fact can be utilized
- by the craphics card. (I have not made measures, so someone else may
+ having in mind the size of the images, my opinion is to go with vlb.
+ it has _much_ more bandwith that eisa, which in fact can be utilized
+ by the craphics card. (i have not made measures, so someone else may
  share experience on that.)
  
- Also, the DX2/66 is faster in the operations, that run off internal
+ also, the dx2/66 is faster in the operations, that run off internal
  cache, slightly slower off the external and about the same off memory.
- So my advice is the 66/VLB.
+ so my advice is the 66/vlb.
  
- | We're quite happy with the ATI card - very fast, ONCE the data gets to it!!
- | ~Slow~ repainting images under PhotoStyler that have moved off screen, or
+ | we're quite happy with the ati card - very fast, once the data gets to it!!
+ | ~slow~ repainting images under photostyler that have moved off screen, or
  | been uncovered!  
  
- | There doesn't seem to be enough raw cpu when running DesqView/X!  Its sluggish
- | running the local window manager.  Also, many functions under PhotoStyler take
+ | there doesn't seem to be enough raw cpu when running desqview/x!  its sluggish
+ | running the local window manager.  also, many functions under photostyler take
  | a long time (even when the images fit entirely in ram).
  
- | There's not enough memory in the system - DesqView/X and a 1 meg SmartDrive
- | don't leave much room for other apps.  Photostyler will page to disk with
+ | there's not enough memory in the system - desqview/x and a 1 meg smartdrive
+ | don't leave much room for other apps.  photostyler will page to disk with
  | medium size images.
  
- Have You tried running Photostyler without the cache? No need to have
- paging and cache both. (Well, you might argue, that the paging is
- cached). My belief (no measurements) is that apps left with more
+ have you tried running photostyler without the cache? no need to have
+ paging and cache both. (well, you might argue, that the paging is
+ cached). my belief (no measurements) is that apps left with more
  memory will manage it better than smartdrv.exe(sys).
  
- | I have performed a number of benchmarks on the ethernet transfer rates.  This
- | machine sustains only 120k/sec over ethernet while our Sparcs sustain 600k/sec 
- | on the same network.  Going to the 16 bit version of the SMC card increases
+ | i have performed a number of benchmarks on the ethernet transfer rates.  this
+ | machine sustains only 120k/sec over ethernet while our sparcs sustain 600k/sec 
+ | on the same network.  going to the 16 bit version of the smc card increases
  | transfer rates to 160k/sec - still very slow (especially when moving large 
- | images).  Is there such a thing as a local-bus ethernet card coming??  Will it
- | make a difference?  I'm hoping so, and leaning towards the 486DX2-66 choice 
+ | images).  is there such a thing as a local-bus ethernet card coming??  will it
+ | make a difference?  i'm hoping so, and leaning towards the 486dx2-66 choice 
  | (above), for that reason.
  
- The bandwidth (theoretical) of ISA is over 5MB/s, which is far from
- 0.15MB/s. I tried my ISA IDE hard drive (Maxtor 213MB) and got the
- same results - 0.65MB/s - regardless of the ISA bus speed
- (5.5-8.25MHz). So I guess, that just the card/drivers combination is
+ the bandwidth (theoretical) of isa is over 5mb/s, which is far from
+ 0.15mb/s. i tried my isa ide hard drive (maxtor 213mb) and got the
+ same results - 0.65mb/s - regardless of the isa bus speed
+ (5.5-8.25mhz). so i guess, that just the card/drivers combination is
  lousy.
  
- | Also, are there DX2-100's on the horizon?  What about DX3-99's?  DX3-150's ???!
+ | also, are there dx2-100's on the horizon?  what about dx3-99's?  dx3-150's ???!
  
- The rumors are that DX3-99 (if any) is the most likely chip to come
- out. But note, that IBM is closest to the technology an it will only
- sell whole motherboards, so you'll have to upgrade the MB.
+ the rumors are that dx3-99 (if any) is the most likely chip to come
+ out. but note, that ibm is closest to the technology an it will only
+ sell whole motherboards, so you'll have to upgrade the mb.
  
- | Any information is greatly appreciated.
+ | any information is greatly appreciated.
  
- Just some view, not much figures.
+ just some view, not much figures.
  
  --
- Penio Penev  x7423 (212)327-7423 (w) Internet: penev@venezia.rockefeller.edu
+ penio penev  x7423 (212)327-7423 (w) internet: penev@venezia.rockefeller.edu
  
- Disclaimer: All oppinions are mine.
+ disclaimer: all oppinions are mine.
  

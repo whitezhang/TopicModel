@@ -1,37 +1,37 @@
 
- [ Article crossposted from comp.speech,comp.sys.ibm.pc.soundcard,comp.os.linux ]
- [ Author was MARIO LAURETTI ]
- [ Posted on Mon, 5 Apr 1993 21:44:24 GMT ]
+ [ article crossposted from comp.speech,comp.sys.ibm.pc.soundcard,comp.os.linux ]
+ [ author was mario lauretti ]
+ [ posted on mon, 5 apr 1993 21:44:24 gmt ]
  
- I Have a Sound Blaster ver 1.5
+ i have a sound blaster ver 1.5
  
- When I try to install driver ver 1.5 (driver that comes with window 3.1)
- It tell me to upgrade my card first!!!????
+ when i try to install driver ver 1.5 (driver that comes with window 3.1)
+ it tell me to upgrade my card first!!!????
  
- Now, I have found new drivers from Creative labs.
+ now, i have found new drivers from creative labs.
  
- But I have problems installing it:
+ but i have problems installing it:
  
- After removing the vsbd.386 (old version that come in windows)
- After installing Creative Sound Blaster - MIDI Synthesizer
+ after removing the vsbd.386 (old version that come in windows)
+ after installing creative sound blaster - midi synthesizer
  
- I try to install Creative Sound Blaster 1.5 Wave...
+ i try to install creative sound blaster 1.5 wave...
  
- But when I am in the menu: Add Unlisted or Updated Driver
- and double click on this driver, I have this error:
+ but when i am in the menu: add unlisted or updated driver
+ and double click on this driver, i have this error:
  
- --------------------------Driver Error---------------------------
+ --------------------------driver error---------------------------
  
- Cannot load Creative Sound Blaster 1.5 Wave and MIDI driver. The driver file
- may be missing. Try installing the driver again, or contact your system
+ cannot load creative sound blaster 1.5 wave and midi driver. the driver file
+ may be missing. try installing the driver again, or contact your system
  administrator.
  
- Yes, yes, yes, I have read the README.1st and try every thing!
+ yes, yes, yes, i have read the readme.1st and try every thing!
  
  can somebody help me??
  
  
- Mario Laureti
+ mario laureti
  
  internet: laurm00@tohi.dmi.usherb.ca
  

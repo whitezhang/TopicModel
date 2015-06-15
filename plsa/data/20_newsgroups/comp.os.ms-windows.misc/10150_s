@@ -1,32 +1,32 @@
 
- Here's the situation:
+ here's the situation:
  
- At home, I have MS Word for windows but no printer.  At work, I
- have windows + a postscript printer, but not MS Word.  So, I
+ at home, i have ms word for windows but no printer.  at work, i
+ have windows + a postscript printer, but not ms word.  so, i
  configure my machine at home to use a postscript printer, and use
  the print to file option, which produces a nice postscript file,
- which I then bring to work.
+ which i then bring to work.
  
- My question:  how do I print this postscript file through the print
- manager at work? If, for example, I select print from the file
+ my question:  how do i print this postscript file through the print
+ manager at work? if, for example, i select print from the file
  manager, it treats the postscript as a text file, and gives me
  several pages of postscript gibberish.
  
- I know that I can open a DOS window and do:
+ i know that i can open a dos window and do:
  
  	 copy file.ps com1:
  
  which does work, but seems not to multitask very well -- other applications
  run rather slowly and often pause for 10's of seconds.
  
- There ought to be a way of passing the postscript file to the Print
- Manager, but if there is, I can't find any mention of it in the
+ there ought to be a way of passing the postscript file to the print
+ manager, but if there is, i can't find any mention of it in the
  documentation.
  
- Anyone know how to do this?
+ anyone know how to do this?
  
  -- 
- Michael Clase
- Memorial University of Newfoundland
+ michael clase
+ memorial university of newfoundland
  mclase@riemann.math.mun.ca
  

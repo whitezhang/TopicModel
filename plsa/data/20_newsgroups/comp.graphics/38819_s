@@ -1,18 +1,18 @@
 
- I'm planning on writing several classes to build a raytracing/radiosity library
+ i'm planning on writing several classes to build a raytracing/radiosity library
  on top of, and i'm wondering if anythink like this is freely available on the
- net before i go to it. What i need is classes like rays, vectors, colors,
+ net before i go to it. what i need is classes like rays, vectors, colors,
  shaders, surfaces, media, primitives, worlds (containing primitives) and
  views/images.
  
- Please post or mail.
+ please post or mail.
  -- 
- Torgeir Veimo
+ torgeir veimo
  
- Studying at the University of Bergen
+ studying at the university of bergen
  
- "...I'm gona wave my freak flag high!" (Jimi Hendrix)
+ "...i'm gona wave my freak flag high!" (jimi hendrix)
  
- "...and it would be okay on any other day!" (The Police)
+ "...and it would be okay on any other day!" (the police)
  
  

@@ -1,31 +1,31 @@
 
- In a previous article, JOEL@jach.hawaii.edu (Joel Aycock) wrote:
+ in a previous article, joel@jach.hawaii.edu (joel aycock) wrote:
  > 
- >	I struggled with the margin problem for ages as well, until I
- >finally got hold of the shareware binary editor BEAV133, and dug into
- >NOTEPAD.EXE (there is no SETUP facility to force NOTEPAD to default to 
+ >	i struggled with the margin problem for ages as well, until i
+ >finally got hold of the shareware binary editor beav133, and dug into
+ >notepad.exe (there is no setup facility to force notepad to default to 
  >0.0 margins- it's hardwired into code!!!). 
  > 
- >	Do a SEARCH for ".75", then change the offending bytes to ".00", 
- >et viola. Who are the guys who hardcode these "options" anyway?
+ >	do a search for ".75", then change the offending bytes to ".00", 
+ >et viola. who are the guys who hardcode these "options" anyway?
  > 
- >	I'm interested in whether the problem only rears it's ugly head for 
- >certain printers- I'm using an old Epson LX-800 (or is that EX-800? never can 
+ >	i'm interested in whether the problem only rears it's ugly head for 
+ >certain printers- i'm using an old epson lx-800 (or is that ex-800? never can 
  >remember).
  > 
  >aloha.
  
- You are nto alone.  I get the same problems with my Panasonic kpx 1124i (24 
- pin).  Oterhwise, it's a great printer.  I just can't find a driver for it, 
- only for the non-"i" version.  Anyone seen it?
+ you are nto alone.  i get the same problems with my panasonic kpx 1124i (24 
+ pin).  oterhwise, it's a great printer.  i just can't find a driver for it, 
+ only for the non-"i" version.  anyone seen it?
  
- Rob
+ rob
  
           |------------------------------------------------------------|
                        \       rmohns@vax.clarku.edu       /
                 _________\                               /________
-                           \         Rob Mohns         /
+                           \         rob mohns         /
                 ==================================================
-                     Annoy Rush Limbaugh.  Think for yourself.
+                     annoy rush limbaugh.  think for yourself.
                 ==================================================
  

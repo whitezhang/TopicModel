@@ -1,18 +1,18 @@
 
- doug@hparc0.aus.hp.com (Doug Parsons) writes:
+ doug@hparc0.aus.hp.com (doug parsons) writes:
  
- >I was chaining around in the anonymous ftp world looking for 3D Studio
+ >i was chaining around in the anonymous ftp world looking for 3d studio
  >meshes and other interesting graphical stuff for the program, and found
- >a few files with the extension 3D2.  My 3DS v2.01 doesn't know this type
+ >a few files with the extension 3d2.  my 3ds v2.01 doesn't know this type
  >of file, so what are they?
  
- They are 3D object files for CAD 3D 2.0, a program written by Tom Hudson
- for the Atari ST computers.  Don't know much more about them except that
+ they are 3d object files for cad 3d 2.0, a program written by tom hudson
+ for the atari st computers.  don't know much more about them except that
  they are stored with the points first, then the surfaces are next, and are
- made by listing 3 point numbers that make up the triangle surface. Then
- there's a header that describes coloring, lighting, etc.  Don't know much
+ made by listing 3 point numbers that make up the triangle surface. then
+ there's a header that describes coloring, lighting, etc.  don't know much
  more than this, hope this helps.
  
- Stuart Denman
+ stuart denman
  stusoft@u.washington.edu
  

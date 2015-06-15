@@ -1,39 +1,39 @@
 
- In article <1ree36INNdmp@darkstar.UCSC.EDU> speth@cats.ucsc.edu (James Gustave) writes:
+ in article <1ree36inndmp@darkstar.ucsc.edu> speth@cats.ucsc.edu (james gustave) writes:
  >
- >Could someone point me toward a source (FTP/BBS/whatever) for development
- >tools for the 8051 microprocessor.  I specifically am looking for a Macintosh
- >cross-assembler/disassembler.  Also, is there a mailing-list dedicated to
- >discussing the 8051?  Thanks.
+ >could someone point me toward a source (ftp/bbs/whatever) for development
+ >tools for the 8051 microprocessor.  i specifically am looking for a macintosh
+ >cross-assembler/disassembler.  also, is there a mailing-list dedicated to
+ >discussing the 8051?  thanks.
  >
  >-- 
  >________________________________________________________________________________
  >james speth       email for pgp compatible public-key        speth@cats.ucsc.edu
  
- I have the same question for any tools for the 6502 derivative processor
- the 65C816 processor (designed by Western Design Center).
+ i have the same question for any tools for the 6502 derivative processor
+ the 65c816 processor (designed by western design center).
  
- Thanks,
- Oscar.
+ thanks,
+ oscar.
  <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
-  Oscar R. Mitchell
-   IBM Advanced Workstations and Systems Division
-    RISC System/6000(tm) - Future Systems Hardware Architecture and Design Group
-    Mail Stop: ZIP 9461
-    11400 Burnet Road
-    Austin, Texas   78758                               USA Phone: (512)823-0000
-    IBM Tieline:  678-8513                              USA "FAX": (512)838-8561
+  oscar r. mitchell
+   ibm advanced workstations and systems division
+    risc system/6000(tm) - future systems hardware architecture and design group
+    mail stop: zip 9461
+    11400 burnet road
+    austin, texas   78758                               usa phone: (512)823-0000
+    ibm tieline:  678-8513                              usa "fax": (512)838-8561
  
-    IBM VNet: OSCAR at AUSVM6
-    IBM InterNet: oscar@oscar.austin.ibm.com
+    ibm vnet: oscar at ausvm6
+    ibm internet: oscar@oscar.austin.ibm.com
  
-      USA InterNet: oscar@austin.ibm.com
+      usa internet: oscar@austin.ibm.com
  
- #include <standard.disclaimer>   /* I DO NOT speak for IBM, only for MYSELF */
+ #include <standard.disclaimer>   /* i do not speak for ibm, only for myself */
  <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
  -- 
  <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
-  IBM Corporation - Advanced Workstations and Systems Division
-  RISC System/6000(tm) - Future Systems Hardware Architecture and Design Group
-                   USA InterNet: oscar@austin.ibm.com
+  ibm corporation - advanced workstations and systems division
+  risc system/6000(tm) - future systems hardware architecture and design group
+                   usa internet: oscar@austin.ibm.com
  

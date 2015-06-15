@@ -1,22 +1,22 @@
 
  
- After setting up a very large (>4 pages) table in Word for Windows
- I asked word to print it to my HP laserjet II -- worked fine at first.
- After much editing of the table contents (but not structure) output
- requests now kick the LJ into manual feed mode for the document
- containing the table.  Other documents without tables print correctly.
+ after setting up a very large (>4 pages) table in word for windows
+ i asked word to print it to my hp laserjet ii -- worked fine at first.
+ after much editing of the table contents (but not structure) output
+ requests now kick the lj into manual feed mode for the document
+ containing the table.  other documents without tables print correctly.
  
- Where should I look and what should I change to get the document with
+ where should i look and what should i change to get the document with
  the long table to use the paper drawer rather than kick into manual
- feed mode? [I believe I've tried all the obvious printer manager changes
+ feed mode? [i believe i've tried all the obvious printer manager changes
  as well as replacing the hppcl.[lp]00 files with archived versions.]
  
- Thanks for any and all help.
+ thanks for any and all help.
  
- Peter
+ peter
  --
- Peter Palij                                       Internet: pbp1@columbia.edu
- Columbia University, Graduate School of Business
- 804 Uris Hall
- New York  NY  10027
+ peter palij                                       internet: pbp1@columbia.edu
+ columbia university, graduate school of business
+ 804 uris hall
+ new york  ny  10027
  

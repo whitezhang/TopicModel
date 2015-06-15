@@ -1,28 +1,28 @@
 
- In article <1993Apr26.103230.10618@spider.co.uk> keiths@spider.co.uk (Keith Smith) writes:
- >OK will some one out there tell me why / how DOS 5
- >can read (I havn't tried writing in case it breaks something)
- >the Win/NT NTFS file system.
- >I thought NTFS was supposed to be better than the FAT system
+ in article <1993apr26.103230.10618@spider.co.uk> keiths@spider.co.uk (keith smith) writes:
+ >ok will some one out there tell me why / how dos 5
+ >can read (i havn't tried writing in case it breaks something)
+ >the win/nt ntfs file system.
+ >i thought ntfs was supposed to be better than the fat system
  >
  >keith
  
- DOS 5.0/6.0 cannot read the NTFS file system, although the NTFS file system
- can read the FAT file system of DOS.  I have WindowsNT on a seperate
- partition on my machine at home, and I can read my DOS disks from Windows NT,
+ dos 5.0/6.0 cannot read the ntfs file system, although the ntfs file system
+ can read the fat file system of dos.  i have windowsnt on a seperate
+ partition on my machine at home, and i can read my dos disks from windows nt,
  but not vice-versa.
  
- As far as the robustness of the file system, it seems to be very fast, and
- I have yet to have a single problem with it.  That doesn't prove it's better
- than the FAT system though.  Read the book 'Inside Windows NT,' it will give
+ as far as the robustness of the file system, it seems to be very fast, and
+ i have yet to have a single problem with it.  that doesn't prove it's better
+ than the fat system though.  read the book 'inside windows nt,' it will give
  you all the info you're looking for.
  
- 		Scott
+ 		scott
  
  
  -- 
  -------------------------------------------------------------------------------
-   Scott Reimert  \    reimert@mamacass.etdesg.trw.com     /Standard disclaimer:
- Redondo Beach, CA \______________________________________/"Blah blah blah ... "
- __________________|Always store beer in a cool dark place|_____________________
+   scott reimert  \    reimert@mamacass.etdesg.trw.com     /standard disclaimer:
+ redondo beach, ca \______________________________________/"blah blah blah ... "
+ __________________|always store beer in a cool dark place|_____________________
  

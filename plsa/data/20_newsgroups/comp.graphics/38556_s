@@ -1,25 +1,25 @@
 
- In article <1993Apr19.234409.18303@kpc.com> jbulf@balsa.Berkeley.EDU (Jeff Bulf) writes:
- >In article <ia522B1w165w@oeinck.waterland.wlink.nl>, ferdinan@oeinck.waterland.wlink.nl (Ferdinand Oeinck) writes:
- >|> I'm looking for any information on detecting and/or calculating a double
+ in article <1993apr19.234409.18303@kpc.com> jbulf@balsa.berkeley.edu (jeff bulf) writes:
+ >in article <ia522b1w165w@oeinck.waterland.wlink.nl>, ferdinan@oeinck.waterland.wlink.nl (ferdinand oeinck) writes:
+ >|> i'm looking for any information on detecting and/or calculating a double
  >|> point and/or cusp in a bezier curve.
  >|> 
- >|> An algorithm, literature reference or mail about this is very appreciated,
+ >|> an algorithm, literature reference or mail about this is very appreciated,
  >
- >There was a very useful article in one of the 1989 issues of
- >Transactions On Graphics. I believe Maureen Stone was one of
- >the authors. Sorry not to be more specific. I don't have the
+ >there was a very useful article in one of the 1989 issues of
+ >transactions on graphics. i believe maureen stone was one of
+ >the authors. sorry not to be more specific. i don't have the
  >reference here with me.
  
  
- Stone, DeRose: Geometric characterization of parametric cubic curves.
- ACM Trans. Graphics 8 (3) (1989) 147 - 163.
+ stone, derose: geometric characterization of parametric cubic curves.
+ acm trans. graphics 8 (3) (1989) 147 - 163.
  
  
- Manocha, Canny: Detecting cusps and inflection points in curves.
- Computer aided geometric design 9 (1992) 1-24.
+ manocha, canny: detecting cusps and inflection points in curves.
+ computer aided geometric design 9 (1992) 1-24.
  
- Pekka Siltanen
+ pekka siltanen
  
  
  

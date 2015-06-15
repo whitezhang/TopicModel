@@ -1,19 +1,19 @@
 
- When I changed from SVR4 to SVR4.2 on my Intel box I discovered that
- some of my SVR4 xclients such as xload, etc would no longer work.
+ when i changed from svr4 to svr4.2 on my intel box i discovered that
+ some of my svr4 xclients such as xload, etc would no longer work.
  
  
- They bomb out with the message:
+ they bomb out with the message:
  
  error: can't open display unix:0.0
  
- Is this because they can't find the correct shared libraries, they need
- to be recompiled, or have I not used the correct options?
+ is this because they can't find the correct shared libraries, they need
+ to be recompiled, or have i not used the correct options?
  
- Both systems use X11R5.
+ both systems use x11r5.
  
- Thanks.
+ thanks.
  
- Jack.
+ jack.
  
  

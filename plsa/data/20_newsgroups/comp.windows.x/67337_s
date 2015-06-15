@@ -1,14 +1,14 @@
 
- In article <stevedavC5y2Jz.3D7@netcom.com>, stevedav@netcom.com (Steve Davidson) writes:
- > Does anyone know the difference between MOOLIT and OLIT?  Does Sun
- > support MOOLIT?  Is MOOLIT available on Sparcstations?
+ in article <stevedavc5y2jz.3d7@netcom.com>, stevedav@netcom.com (steve davidson) writes:
+ > does anyone know the difference between moolit and olit?  does sun
+ > support moolit?  is moolit available on sparcstations?
  > 
  
  -- 
- MoOLIT (Motif/Open Look Intrinsic Toolkit allows developers to build 
- applications that can switch between Motif and Open Look at run-time,
- while OLIT only gives you Open Look.
+ moolit (motif/open look intrinsic toolkit allows developers to build 
+ applications that can switch between motif and open look at run-time,
+ while olit only gives you open look.
  
  --
- Internet: chunhong@vnet.ibm.com
+ internet: chunhong@vnet.ibm.com
  

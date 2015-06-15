@@ -1,18 +1,18 @@
 
- In article <1qjnpi$bsj@nz12.rz.uni-karlsruhe.de>,
- ig25@fg70.rz.uni-karlsruhe.de (Thomas Koenig) wrote:
+ in article <1qjnpi$bsj@nz12.rz.uni-karlsruhe.de>,
+ ig25@fg70.rz.uni-karlsruhe.de (thomas koenig) wrote:
  > 
- > We are doing heavy - duty image processing with some seriously
- > underpowered Mac's (Mac IIsi, for example).  Most of the CPU time is
- > burned in doing FFT's.
+ > we are doing heavy - duty image processing with some seriously
+ > underpowered mac's (mac iisi, for example).  most of the cpu time is
+ > burned in doing fft's.
  > 
- > What cards are out there which would allow us to take away that part
- > of the load from the CPU?  Any DSP 56001 or i860 cards out there,
- > for example?  They'd have to be callable from Think Pascal, to
- > replace the one - and two - dimensional FFT's routines in an already
+ > what cards are out there which would allow us to take away that part
+ > of the load from the cpu?  any dsp 56001 or i860 cards out there,
+ > for example?  they'd have to be callable from think pascal, to
+ > replace the one - and two - dimensional fft's routines in an already
  > existing program.
  
- Check out the National Instruments NB-DSP2300. This uses the Texas
- Instruments TMS320C30 chip, which is a true 32 bit floating point DSP. It's
+ check out the national instruments nb-dsp2300. this uses the texas
+ instruments tms320c30 chip, which is a true 32 bit floating point dsp. it's
  pricey, however.
  

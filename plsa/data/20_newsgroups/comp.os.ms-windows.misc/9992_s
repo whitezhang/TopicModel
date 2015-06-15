@@ -1,36 +1,36 @@
 
  
- In article <1993Mar31.014237.28478@jupiter.sun.csd.unb.ca> dwoo@unb.ca writes:
- >To all the W4W experts:
+ in article <1993mar31.014237.28478@jupiter.sun.csd.unb.ca> dwoo@unb.ca writes:
+ >to all the w4w experts:
  >
- >I have a file that is three pages long with 10 to 12 1-line equations
- >plus a 5"by 2" diagram. The size of this file is about 81KB before
- >unlinking all the embedded objects and 30KB after unlinking all the
- >embedded objects. Well, when I print it (since I don't have a laser
- >printer, I have to send it to a print file), W4W gives me back a
- >BBBBBBIG file that is well over 6MB long.  I just fail to see how a 81K
- >file can be boosted to a 6MB file. Obviously, I will not able to carry
- >this 6MB+ file to the public printer unless I find myself a network
+ >i have a file that is three pages long with 10 to 12 1-line equations
+ >plus a 5"by 2" diagram. the size of this file is about 81kb before
+ >unlinking all the embedded objects and 30kb after unlinking all the
+ >embedded objects. well, when i print it (since i don't have a laser
+ >printer, i have to send it to a print file), w4w gives me back a
+ >bbbbbbig file that is well over 6mb long.  i just fail to see how a 81k
+ >file can be boosted to a 6mb file. obviously, i will not able to carry
+ >this 6mb+ file to the public printer unless i find myself a network
  >card, a cable etc.
  >
- >Could anyone please enlighten me with a solution? (I already try to
- >print a page at a time, it still won't fit into a HD floppy)
+ >could anyone please enlighten me with a solution? (i already try to
+ >print a page at a time, it still won't fit into a hd floppy)
  >
- >Thanx a mil.
+ >thanx a mil.
  >
  >
  >
  >*****************************************************************
- >*  Dennis Woo              Department of Mechanical Engineering *
- >*  E-mail: dwoo@unb.ca     University of New Brunswick          *
- >*  Tel: (506) 453-4513                                          *
+ >*  dennis woo              department of mechanical engineering *
+ >*  e-mail: dwoo@unb.ca     university of new brunswick          *
+ >*  tel: (506) 453-4513                                          *
  >*****************************************************************	
  > 
  >
- I once had this problem.  All I did was to copy the whole doc to a new file.  The problem 
- was gone.  Hope this helps.
+ i once had this problem.  all i did was to copy the whole doc to a new file.  the problem 
+ was gone.  hope this helps.
  
- Hua
+ hua
  
  
  

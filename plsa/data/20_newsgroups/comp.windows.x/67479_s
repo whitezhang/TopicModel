@@ -1,24 +1,24 @@
 
  
- Hello,
+ hello,
  
  
- Our application requires us to capture keypad presses for all windows
- in a number of applications.  We are trying to use action translation
- tables to implement this.  We have only succeeded by assigning the
+ our application requires us to capture keypad presses for all windows
+ in a number of applications.  we are trying to use action translation
+ tables to implement this.  we have only succeeded by assigning the
  translation table to every individual widget in all windows in a single
- application.  The Xt calls we make are included below.
+ application.  the xt calls we make are included below.
  
- It would be much more convenient if we could assign the translation
+ it would be much more convenient if we could assign the translation
  table to a class of widgets rather than individual widget instantiations,
- and also accomplish it for MULTIPLE applications.  If someone could
+ and also accomplish it for multiple applications.  if someone could
  describe how do this it would be greatly appreciated.
  
- Platform: Sun Sparc w/ X11R4 & Motif 1.1.4
+ platform: sun sparc w/ x11r4 & motif 1.1.4
  
  ***********************************************************************
  
- static XtActionsRec actionsTable[] = {
+ static xtactionsrec actionstable[] = {
          {"up", do_up},
          {"right", do_right},
          {"middle", do_middle},
@@ -27,25 +27,25 @@
  	{"bye", quit},
  };
  
- static char defaultTranslations[] = 
- 		"<Key>KP_8: up() \n\
- 		 <Key>KP_6: right() \n\
- 		 <Key>KP_5: middle() \n\
- 		 <Key>KP_4: left() \n\
- 		 <Key>KP_2: down() \n\
- 		 <Key>KP_1: bye()"; 
+ static char defaulttranslations[] = 
+ 		"<key>kp_8: up() \n\
+ 		 <key>kp_6: right() \n\
+ 		 <key>kp_5: middle() \n\
+ 		 <key>kp_4: left() \n\
+ 		 <key>kp_2: down() \n\
+ 		 <key>kp_1: bye()"; 
  
- XtTranslations	trans_table, trans_table2;
+ xttranslations	trans_table, trans_table2;
  
  (. . .)
  
-     XtAddActions(actionsTable, XtNumber(actionsTable));
-     trans_table = XtParseTranslationTable(defaultTranslations);
+     xtaddactions(actionstable, xtnumber(actionstable));
+     trans_table = xtparsetranslationtable(defaulttranslations);
  
-     widget = XtCreateManagedWidget("msg", xmPushButtonWidgetClass,
+     widget = xtcreatemanagedwidget("msg", xmpushbuttonwidgetclass,
  		form, wargs, n);
  
-     XtOverrideTranslations(widget, trans_table);
+     xtoverridetranslations(widget, trans_table);
  
  ***********************************************************************
  

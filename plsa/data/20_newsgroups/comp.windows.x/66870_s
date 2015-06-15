@@ -1,90 +1,90 @@
 
  > 
- > I am trying to use XCopyPlane to copy a single plane 
- > from a depth-8 pixmap to a depth-1 pixmap.  Everytime I
- > try this, I see absolutely nothing displayed.  I know there
- > is data in the depth-8 pixmap becuase I have checked by doing
- > an XCopyArea to the screen.
+ > i am trying to use xcopyplane to copy a single plane 
+ > from a depth-8 pixmap to a depth-1 pixmap.  everytime i
+ > try this, i see absolutely nothing displayed.  i know there
+ > is data in the depth-8 pixmap becuase i have checked by doing
+ > an xcopyarea to the screen.
  > 
- > I have been successful getting XCopyPlane to work if I use
- > two pixmaps of depth-8.  Is there a problem with what I am
+ > i have been successful getting xcopyplane to work if i use
+ > two pixmaps of depth-8.  is there a problem with what i am
  > trying to do??
  > 
- > Could someone please scan my code segment and let me know
- > where I am going wrong...
+ > could someone please scan my code segment and let me know
+ > where i am going wrong...
  > 
- > I have created a XmDrawingArea widget called canvas. 
+ > i have created a xmdrawingarea widget called canvas. 
  >  
- >     w_id = XtWindow(canvas);
- >     display = XtDisplay(canvas);
- >     screen = DefaultScreen (display);
- >     pixmap8 = XCreatePixmap (display, RootWindow (display, screen),
- >                     w_width, w_height, DefaultDepth (display, screen));
- >     pixmap1 = XCreatePixmap (display, RootWindow (display, screen),
+ >     w_id = xtwindow(canvas);
+ >     display = xtdisplay(canvas);
+ >     screen = defaultscreen (display);
+ >     pixmap8 = xcreatepixmap (display, rootwindow (display, screen),
+ >                     w_width, w_height, defaultdepth (display, screen));
+ >     pixmap1 = xcreatepixmap (display, rootwindow (display, screen),
  >                     w_width, w_height, 1);
  > 
- >     w_gc8 = XCreateGC (display, w_id, 0, NULL);
- >     w_gc1 = XCreateGC (display, pixmap1, 0, NULL);
+ >     w_gc8 = xcreategc (display, w_id, 0, null);
+ >     w_gc1 = xcreategc (display, pixmap1, 0, null);
  > 
- > --> Code to read xwd image into pixmap8 is omitted <----
+ > --> code to read xwd image into pixmap8 is omitted <----
  > 
  
- Have you set the foreground and background colors in w_gc1 to 
- something other than 0 and 1?  The WhitePixel and BlackPixel macros
+ have you set the foreground and background colors in w_gc1 to 
+ something other than 0 and 1?  the whitepixel and blackpixel macros
  on your server may not return values suitable for depth 1 drawables.
  
  
- >     /* Copy one plane into the depth-1 pixmap */
- >     XCopyPlane (display, pixmap8, pixmap1,
+ >     /* copy one plane into the depth-1 pixmap */
+ >     xcopyplane (display, pixmap8, pixmap1,
  >                 w_gc1, 0, 0, w_width, w_height, 0, 0, 16);
  > 
  
- Are you sure that the fifth plane of the data isn't all the same?  You could
+ are you sure that the fifth plane of the data isn't all the same?  you could
  have different pixel values in the image, but the fifth plane (0x10 == 16)
  might all be the same value?
  
  
- >     /* Using the depth-1 pixmap as the clipmask, copy it to the screen */
+ >     /* using the depth-1 pixmap as the clipmask, copy it to the screen */
  >     values.foreground = fg_color;
  >     values.clip_x_origin = 0;
  >     values.clip_y_origin = 0;
  >     values.clip_mask = pixmap1;
- >     mask = GCForeground | GCClipMask;
- >     XChangeGC (display, w_gc8, mask, &values);
+ >     mask = gcforeground | gcclipmask;
+ >     xchangegc (display, w_gc8, mask, &values);
  > 
- >     XFillRectangle (display, w_id, w_gc8, 0, 0, w_width, w_height);
+ >     xfillrectangle (display, w_id, w_gc8, 0, 0, w_width, w_height);
  > 
  
  
- If you just want to see the plane of data and want better performance,
- don't use ClipMasks, just use pixmap1 as the stipple in a stippled
- rectangle fill.  Many servers are very stupid about handling complex
+ if you just want to see the plane of data and want better performance,
+ don't use clipmasks, just use pixmap1 as the stipple in a stippled
+ rectangle fill.  many servers are very stupid about handling complex
  clip lists, and turn a bitmap clip region into hundreds and hundreds of
  little clipping rectangles, and clips every drawing primitive against every
  one of these little triangles.
  
  
- Actually, I must also ask the FAQ's #1 most popular reason why graphics
+ actually, i must also ask the faq's #1 most popular reason why graphics
  don't show up: do you wait for an expose event before drawing your
  rectangle?
  
  
  
- > Other Info:  X11R5 Patchlevel 10
- >              Motif 1.2.1
- >              Sun Sparc2 running SunOS 4.1.1
+ > other info:  x11r5 patchlevel 10
+ >              motif 1.2.1
+ >              sun sparc2 running sunos 4.1.1
  >              
  > 
- > Thanks in Advance!
+ > thanks in advance!
  > 
  >  ----------------------------------------------------------------
- >  Nancie P. Marin      NET:  nancie@neko.css.gov
- >  ENSCO Inc.           MAIL: 445 Pineda Ct.  Melbourne, Fl.  32940
- >  (407)254-4122        FAX:  (407)254-3293
+ >  nancie p. marin      net:  nancie@neko.css.gov
+ >  ensco inc.           mail: 445 pineda ct.  melbourne, fl.  32940
+ >  (407)254-4122        fax:  (407)254-3293
  >  ----------------------------------------------------------------
  --
- Kenneth Whaley			 (408) 748-6347
- Kubota Pacific Computer, Inc.	 Email: whaley@kpc.com
- 2630 Walsh Avenue
- Santa Clara, CA.  95051
+ kenneth whaley			 (408) 748-6347
+ kubota pacific computer, inc.	 email: whaley@kpc.com
+ 2630 walsh avenue
+ santa clara, ca.  95051
  

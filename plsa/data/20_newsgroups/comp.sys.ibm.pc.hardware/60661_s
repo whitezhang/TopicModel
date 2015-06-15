@@ -1,32 +1,32 @@
 
- Hi,
-    I'm currently in the process of writing a number of PD programs
- for the sound blaster. The first of which is a CMF voice editor which
- is hopefully going to be available soon (as soon as I can get it to 
- an FTP site).
+ hi,
+    i'm currently in the process of writing a number of pd programs
+ for the sound blaster. the first of which is a cmf voice editor which
+ is hopefully going to be available soon (as soon as i can get it to 
+ an ftp site).
  
- Anyway the next stage is to use the midi port to enter music and play
- the FM synth remotely. The problem is that I have little or no info
- on the SB midi port.
+ anyway the next stage is to use the midi port to enter music and play
+ the fm synth remotely. the problem is that i have little or no info
+ on the sb midi port.
  
- I have tried using the Sound blaster freedom project routines, however
+ i have tried using the sound blaster freedom project routines, however
  this just results in the port locking after a couple of accesses and
  loss the of note velocity data byte.
  
- I am using Turbo C and would be grateful for any info or source fragments
- may help. When I was in Berlin this summer I saw a book which seemed to
- have all this information, but my German is poor to say the least, if anyone
+ i am using turbo c and would be grateful for any info or source fragments
+ may help. when i was in berlin this summer i saw a book which seemed to
+ have all this information, but my german is poor to say the least, if anyone
  has this book could they please mail me.
  
- My second request for help concerns standard file formats (how can a file 
- format be standard if you keep it secret ?) I need to know the file format 
- for instrument bank files *.BNK and Roland music files *.ROL.
+ my second request for help concerns standard file formats (how can a file 
+ format be standard if you keep it secret ?) i need to know the file format 
+ for instrument bank files *.bnk and roland music files *.rol.
  
- Finally does anyone have a source for displaying PCX or GIF files to EGA
- or VGA monitors.
+ finally does anyone have a source for displaying pcx or gif files to ega
+ or vga monitors.
  
- Please Help, You know it makes sense.
+ please help, you know it makes sense.
  
- Colin
+ colin
  
  

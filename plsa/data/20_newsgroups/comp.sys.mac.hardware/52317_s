@@ -1,10 +1,10 @@
 
- Hi-
- Does anyone out there know how I would get started on writing a
- device driver for the Apple CD300 CD-ROM drive, which *can*
- read audio CD formats out through the SCSI bus? 
+ hi-
+ does anyone out there know how i would get started on writing a
+ device driver for the apple cd300 cd-rom drive, which *can*
+ read audio cd formats out through the scsi bus? 
  
- Thanks,
- -Avery
+ thanks,
+ -avery
  
  

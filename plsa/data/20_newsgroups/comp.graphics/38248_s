@@ -1,131 +1,131 @@
 
- scrowe@hemel.bull.co.uk (Simon Crowe) writes:
+ scrowe@hemel.bull.co.uk (simon crowe) writes:
  
- >I am looking for an algorithm to determine if a given point is bound by a 
- >polygon. Does anyone have any such code or a reference to book containing
+ >i am looking for an algorithm to determine if a given point is bound by a 
+ >polygon. does anyone have any such code or a reference to book containing
  >information on the subject ?
  
- Well, it's been a while since this was discussed so i take the liberty of
- reprinting (without permission, so sue me) Eric Haines reprint of the very
+ well, it's been a while since this was discussed so i take the liberty of
+ reprinting (without permission, so sue me) eric haines reprint of the very
  interesting discussion of this topic...
  
-                 /Jonas
+                 /jonas
  
-                          O /         \ O
- ------------------------- X snip snip X ------------------------------
-                          O \         / O
+                          o /         \ o
+ ------------------------- x snip snip x ------------------------------
+                          o \         / o
  
- "Give a man a fish, and he'll eat one day.
- Give a man a fishing rod, and he'll laze around fishing and never do anything."
+ "give a man a fish, and he'll eat one day.
+ give a man a fishing rod, and he'll laze around fishing and never do anything."
  
- With that in mind, I reprint (without permission, so sue me) relevant
- information posted some years ago on this very problem.  Note the early use of
- PostScript technology, predating many of this year's papers listed in the
- April 1st SIGGRAPH Program Announcement posted here a few days ago.
+ with that in mind, i reprint (without permission, so sue me) relevant
+ information posted some years ago on this very problem.  note the early use of
+ postscript technology, predating many of this year's papers listed in the
+ april 1st siggraph program announcement posted here a few days ago.
  
- -- Eric
+ -- eric
  
  
- Intersection Between a Line and a Polygon (UNDECIDABLE??),
- 	by Dave Baraff, Tom Duff
+ intersection between a line and a polygon (undecidable??),
+ 	by dave baraff, tom duff
  
- 	From: deb@charisma.graphics.cornell.edu
- 	Newsgroups: comp.graphics
- 	Keywords: P, NP, Jordan curve separation, Ursyhon Metrization Theorem
- 	Organization: Program of Computer Graphics
+ 	from: deb@charisma.graphics.cornell.edu
+ 	newsgroups: comp.graphics
+ 	keywords: p, np, jordan curve separation, ursyhon metrization theorem
+ 	organization: program of computer graphics
  
- In article [...] ncsmith@ndsuvax.UUCP (Timothy Lyle Smith) writes:
+ in article [...] ncsmith@ndsuvax.uucp (timothy lyle smith) writes:
  >
- >  I need to find a formula/algorithm to determine if a line intersects
- >  a polygon.  I would prefer a method that would do this in as little
- >  time as possible.  I need this for use in a forward raytracing
+ >  i need to find a formula/algorithm to determine if a line intersects
+ >  a polygon.  i would prefer a method that would do this in as little
+ >  time as possible.  i need this for use in a forward raytracing
  >  program.
  
- I think that this is a very difficult problem.  To start with, lines and
+ i think that this is a very difficult problem.  to start with, lines and
  polygons are semi-algebraic sets which both contain uncountable number of
- points.  Here are a few off-the-cuff ideas.
+ points.  here are a few off-the-cuff ideas.
  
- First, we need to check if the line and the polygon are separated.  Now, the
- Jordan curve separation theorem says that the polygon divides the plane into
- exactly two open (and thus non-compact) regions.  Thus, the line lies
+ first, we need to check if the line and the polygon are separated.  now, the
+ jordan curve separation theorem says that the polygon divides the plane into
+ exactly two open (and thus non-compact) regions.  thus, the line lies
  completely inside the polygon, the line lies completely outside the polygon,
  or possibly (but this will rarely happen) the line intersects the polyon.
  
- Now, the phrasing of this question says "if a line intersects a polygon", so
- this is a decision problem.  One possibility (the decision model approach) is
- to reduce the question to some other (well known) problem Q, and then try to
- solve Q.  An answer to Q gives an answer to the original decision problem.
+ now, the phrasing of this question says "if a line intersects a polygon", so
+ this is a decision problem.  one possibility (the decision model approach) is
+ to reduce the question to some other (well known) problem q, and then try to
+ solve q.  an answer to q gives an answer to the original decision problem.
  
- In recent years, many geometric problems have been successfully modeled in a
- new language called PostScript.  (See "PostScript Language", by Adobe Systems
- Incorporated, ISBN # 0-201-10179-3, co. 1985).
+ in recent years, many geometric problems have been successfully modeled in a
+ new language called postscript.  (see "postscript language", by adobe systems
+ incorporated, isbn # 0-201-10179-3, co. 1985).
  
- So, given a line L and a polygon P, we can write a PostScript program that
- draws the line L and the polygon P, and then "outputs" the answer.  By
+ so, given a line l and a polygon p, we can write a postscript program that
+ draws the line l and the polygon p, and then "outputs" the answer.  by
  "output", we mean the program executes a command called "showpage", which
- actually prints a page of paper containing the line and the polygon.  A quick
- examination of the paper provides an answer to the reduced problem Q, and thus
+ actually prints a page of paper containing the line and the polygon.  a quick
+ examination of the paper provides an answer to the reduced problem q, and thus
  the original problem.
  
- There are two small problems with this approach. 
+ there are two small problems with this approach. 
  
- 	(1) There is an infinite number of ways to encode L and P into the
- 	reduced problem Q.  So, we will be forced to invoke the Axiom of
- 	Choice (or equivalently, Zorn's Lemma).  But the use of the Axiom of
- 	Choice is not regarded in a very serious light these days.
+ 	(1) there is an infinite number of ways to encode l and p into the
+ 	reduced problem q.  so, we will be forced to invoke the axiom of
+ 	choice (or equivalently, zorn's lemma).  but the use of the axiom of
+ 	choice is not regarded in a very serious light these days.
  
- 	(2) More importantly, the question arises as to whether or not the
- 	PostScript program Q will actually output a piece of paper; or in
+ 	(2) more importantly, the question arises as to whether or not the
+ 	postscript program q will actually output a piece of paper; or in
  	other words, will it halt?
  
- 	Now, PostScript is expressive enough to encode everything that a
- 	Turing Machine might do; thus the halting problem (for PostScript) is
- 	undecidable.  It is quite possible that the original problem will turn
+ 	now, postscript is expressive enough to encode everything that a
+ 	turing machine might do; thus the halting problem (for postscript) is
+ 	undecidable.  it is quite possible that the original problem will turn
  	out to be undecidable.
  
  
- I won't even begin to go into other difficulties, such as aliasing, finite
+ i won't even begin to go into other difficulties, such as aliasing, finite
  precision and running out of ink, paper or both.
  
- A couple of references might be:
+ a couple of references might be:
  
- 1. Principia Mathematica.  Newton, I.  Cambridge University Press, Cambridge,
-    England.  (Sorry, I don't have an ISBN# for this).
+ 1. principia mathematica.  newton, i.  cambridge university press, cambridge,
+    england.  (sorry, i don't have an isbn# for this).
  
- 2. An Introduction to Automata Theory, Languages, and Computation.  Hopcroft, J
-    and Ulman, J.
+ 2. an introduction to automata theory, languages, and computation.  hopcroft, j
+    and ulman, j.
  
- 3. The C Programming Language. Kernighan, B and Ritchie, D.
+ 3. the c programming language. kernighan, b and ritchie, d.
  
- 4. A Tale of Two Cities. Dickens, C.
+ 4. a tale of two cities. dickens, c.
  
  --------
  
- From: td@alice.UUCP (Tom Duff)
- Summary: Overkill.
- Organization: AT&T Bell Laboratories, Murray Hill NJ
+ from: td@alice.uucp (tom duff)
+ summary: overkill.
+ organization: at&t bell laboratories, murray hill nj
  
- The situation is not nearly as bleak as Baraff suggests (he should know
- better, he's hung around The Labs for long enough).  By the well known
- Dobbin-Dullman reduction (see J. Dullman & D. Dobbin, J. Comp. Obfusc.
+ the situation is not nearly as bleak as baraff suggests (he should know
+ better, he's hung around the labs for long enough).  by the well known
+ dobbin-dullman reduction (see j. dullman & d. dobbin, j. comp. obfusc.
  37,ii:  pp. 33-947, lemma 17(a)) line-polygon intersection can be reduced to
- Hamiltonian Circuit, without(!) the use of Grobner bases, so LPI (to coin an
- acronym) is probably only NP-complete.  Besides, Turing-completeness will no
- longer be a problem once our Cray-3 is delivered, since it will be able to
+ hamiltonian circuit, without(!) the use of grobner bases, so lpi (to coin an
+ acronym) is probably only np-complete.  besides, turing-completeness will no
+ longer be a problem once our cray-3 is delivered, since it will be able to
  complete an infinite loop in 4 milliseconds (with scatter-gather.)
  
  --------
  
- From: deb@svax.cs.cornell.edu (David Baraff)
+ from: deb@svax.cs.cornell.edu (david baraff)
  
- Well, sure its no worse than NP-complete, but that's ONLY if you restrict
- yourself to the case where the line satisfies a Lipschitz condition on its
- second derivative.  (I think there's an '89 SIGGRAPH paper from Caltech that
+ well, sure its no worse than np-complete, but that's only if you restrict
+ yourself to the case where the line satisfies a lipschitz condition on its
+ second derivative.  (i think there's an '89 siggraph paper from caltech that
  deals with this).
  
  --
  ------------------------------------------------------------------------------
-  J o n a s   Y n g v e s s o n          email: jonas-y@isy.liu.se
- Dept. of Electrical Engineering	        voice:  +46-(0)13-282162          
- University of Linkoping, Sweden         fax  :  +46-(0)13-139282
+  j o n a s   y n g v e s s o n          email: jonas-y@isy.liu.se
+ dept. of electrical engineering	        voice:  +46-(0)13-282162          
+ university of linkoping, sweden         fax  :  +46-(0)13-139282
  

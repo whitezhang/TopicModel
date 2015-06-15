@@ -1,26 +1,26 @@
-	of Tokyo, JAPAN
- Lines: 508
- In-Reply-To: robertsa@unix2.tcd.ie's message of Tue, 27 Apr 1993 14: 48:04 GMT
- Nntp-Posting-Host: tje12.is.s.u-tokyo.ac.jp
+	of tokyo, japan
+ lines: 508
+ in-reply-to: robertsa@unix2.tcd.ie's message of tue, 27 apr 1993 14: 48:04 gmt
+ nntp-posting-host: tje12.is.s.u-tokyo.ac.jp
  
- In article <robertsa.735922084@unix2.tcd.ie> 
- 	robertsa@unix2.tcd.ie (Andrew L. Roberts) writes:
+ in article <robertsa.735922084@unix2.tcd.ie> 
+ 	robertsa@unix2.tcd.ie (andrew l. roberts) writes:
  
- >What exactly does the windows bitmap format look like? I mean, how is
- >the data stored: width, height, no. of colours, bitmap data? I couldn't
+ >what exactly does the windows bitmap format look like? i mean, how is
+ >the data stored: width, height, no. of colours, bitmap data? i couldn't
  >find anything in ths user manual, is there any other reference material
  >which would give me this information?
  
- From: thomas@sunshine.Kodak.COM (Thomas Kinsman)
- Newsgroups: comp.os.ms-windows.programmer.misc,alt.binaries.pictures.utilities
- Subject: DIB/BMP CREATION GUIDE, as requested.
- Keywords: DIB BMP Bitmaps File Formats
- Message-ID: <1992Dec23.214432.18764@kodak.kodak.com>
- Date: 23 Dec 92 21:44:32 GMT
- Sender: news@kodak.kodak.com
- Organization: Precambiran Electronics, Rochester, NY
- Lines: 484
- Xref: cradle.titech comp.os.ms-windows.programmer.misc:3609
+ from: thomas@sunshine.kodak.com (thomas kinsman)
+ newsgroups: comp.os.ms-windows.programmer.misc,alt.binaries.pictures.utilities
+ subject: dib/bmp creation guide, as requested.
+ keywords: dib bmp bitmaps file formats
+ message-id: <1992dec23.214432.18764@kodak.kodak.com>
+ date: 23 dec 92 21:44:32 gmt
+ sender: news@kodak.kodak.com
+ organization: precambiran electronics, rochester, ny
+ lines: 484
+ xref: cradle.titech comp.os.ms-windows.programmer.misc:3609
  
  
  
@@ -29,56 +29,56 @@
  
  
  
- 			   GUIDE TO CREATION OF DIB IMAGES
+ 			   guide to creation of dib images
  
  
- 				  Thomas B. Kinsman
+ 				  thomas b. kinsman
  
- 			       Precambrian Electronics
- 				   29 Falstaff Rd.
- 				 Rochester, NY 14609
+ 			       precambrian electronics
+ 				   29 falstaff rd.
+ 				 rochester, ny 14609
  				  thomask@kodak.com
- 			       Copyright March 15, 1991
+ 			       copyright march 15, 1991
  
  
  
- 					 ABSTRACT
+ 					 abstract
  
- 	      The format of images created for use by  MS  Windows  3.0/3.1
- 	      applications  is	documented  in	the MS Windows Programmer's
- 	      Reference guide.	This guide is intended as a  clearify  some
+ 	      the format of images created for use by  ms  windows  3.0/3.1
+ 	      applications  is	documented  in	the ms windows programmer's
+ 	      reference guide.	this guide is intended as a  clearify  some
  	      wording	of   the   specifications,   and  to  put  forth  a
  	      recommendation among the various alternatives.
  
- 	      Please send updates/corrections/suggestions and revisions	 to
- 	      me.   Please  thank  me  for  writing  this on my own time by
- 	      keeping my name  with  the  document.   Thank  you  for  your
+ 	      please send updates/corrections/suggestions and revisions	 to
+ 	      me.   please  thank  me  for  writing  this on my own time by
+ 	      keeping my name  with  the  document.   thank  you  for  your
  	      respect.
  
- 	      This document Copyright, 1991, by Thomas B. Kinsman.
- 	      If  desired,  a  PostScript  version  of	this  document	 is
+ 	      this document copyright, 1991, by thomas b. kinsman.
+ 	      if  desired,  a  postscript  version  of	this  document	 is
  	      available.
  
- 	      This information is free.	 You get more than what you pay for.
- 	      Don't sue me if I'm wrong.
+ 	      this information is free.	 you get more than what you pay for.
+ 	      don't sue me if i'm wrong.
  
  
-     OVERVIEW
+     overview
  
-     The DIB image file format is intended to be a "Device Independent  Bitmap"
-     file  format.  (What Microsoft means by "Device Independent" is unclear to
-     me.) Four pixel resolutions are supported: 1 bit, 4 bit, 8 bit, and 24 bit
+     the dib image file format is intended to be a "device independent  bitmap"
+     file  format.  (what microsoft means by "device independent" is unclear to
+     me.) four pixel resolutions are supported: 1 bit, 4 bit, 8 bit, and 24 bit
      pixels.
  
-     These images were intended for use on DOS (IBM, or Little-Endian) systems.
-     If	you  are  creating them on another architecture you will have to byte-
+     these images were intended for use on dos (ibm, or little-endian) systems.
+     if	you  are  creating them on another architecture you will have to byte-
      swap all short and long integer values.
  
-     By convention, DIB images end in the extension ".BMP".   This  is  because
+     by convention, dib images end in the extension ".bmp".   this  is  because
  
  
  
- 			      March 15, 1991
+ 			      march 15, 1991
  
  
  
@@ -87,17 +87,17 @@
  				    - 2 -
  
  
-     they  are  a  super-set of earlier "bitmap image files".  Consequently you
-     will sometimes hear DIB files referred to as "BMP" files.
+     they  are  a  super-set of earlier "bitmap image files".  consequently you
+     will sometimes hear dib files referred to as "bmp" files.
  
-     Since DIB images files are a super-set, there are three "flavors"  of  DIB
+     since dib images files are a super-set, there are three "flavors"  of  dib
      images:
- 	 o   DOS DIB images.  These are the recommended	 convention,  and  the
- 	     form  which I will describe how to create.	 They are intended for
- 	     applications running under MS Windows /3.0 in a DOS environment.
- 	 o   OS/2 DIB images.  My understanding is that these are  the	flavor
- 	     of DIB images that were used by the Presentation Manager.
- 	 o   Old-style Bitmap images.
+ 	 o   dos dib images.  these are the recommended	 convention,  and  the
+ 	     form  which i will describe how to create.	 they are intended for
+ 	     applications running under ms windows /3.0 in a dos environment.
+ 	 o   os/2 dib images.  my understanding is that these are  the	flavor
+ 	     of dib images that were used by the presentation manager.
+ 	 o   old-style bitmap images.
  
  
  
@@ -138,7 +138,7 @@
  
  
  
- 			      March 15, 1991
+ 			      march 15, 1991
  
  
  
@@ -147,58 +147,58 @@
  				    - 3 -
  
  
-     DIFFERENCES BETWEEN FLAVORS
+     differences between flavors
  
-     The DOS DIB images consist of:
- 	 1.  A "BITMAPFILEHEADER" file header which identifies the file	 as  a
- 	     DIB  file.	  This	header	also gives the total size of the image
+     the dos dib images consist of:
+ 	 1.  a "bitmapfileheader" file header which identifies the file	 as  a
+ 	     dib  file.	  this	header	also gives the total size of the image
  	     file, and the offset to the image data.
- 	 2.  A "BITMAPINFOHEADER"  image  header  which	 specifies  the	 image
+ 	 2.  a "bitmapinfoheader"  image  header  which	 specifies  the	 image
  	     attributes.
- 	 3.  An optional palette of colors used by the image.  If  it  exists,
- 	     this  may contain 2, 16, or 256 entries.  Each entry is a Windows
- 	     RGBQUAD structure.
- 	 4.  The image data itself.
+ 	 3.  an optional palette of colors used by the image.  if  it  exists,
+ 	     this  may contain 2, 16, or 256 entries.  each entry is a windows
+ 	     rgbquad structure.
+ 	 4.  the image data itself.
  
  
-     The OS/2 DIB images consist of:
- 	 1.  The same "BITMAPFILEHEADER" file header which identifies the file
- 	     as	 a  DIB	 file.	 This  header also gives the total size of the
+     the os/2 dib images consist of:
+ 	 1.  the same "bitmapfileheader" file header which identifies the file
+ 	     as	 a  dib	 file.	 this  header also gives the total size of the
  	     image file, and the offset to the image data.
- 	 2.  A "BITMAPCOREHEADER"  image  header  which	 specifies  the	 image
+ 	 2.  a "bitmapcoreheader"  image  header  which	 specifies  the	 image
  	     attributes.
- 	 3.  An optional palette of colors used by the image.  Again, if  this
- 	     exists  it	 may  contain  2, 16, or 256 entries.  Each entry is a
- 	     Windows RGBTRIPLE structure.
- 	 4.  The image data itself.
+ 	 3.  an optional palette of colors used by the image.  again, if  this
+ 	     exists  it	 may  contain  2, 16, or 256 entries.  each entry is a
+ 	     windows rgbtriple structure.
+ 	 4.  the image data itself.
  
  
-     The Old Style image bitmap consists of:
- 	 1.  Either a BITMAPINFOHEADER or a  BITMAPCOREHEADER.	 Which	header
- 	     type is determined by the first long integer (DWORD) value.
- 	 2.  An optional color palette.	  This	palette	 may  be  composed  of
- 	     either   Windows	RGBQUAD	  structures  (if  the	header	was  a
- 	     BITMAPINFOHEADER) or Windows RGBTRIPLE structures (if the	header
- 	     was a BITMAPCOREHEADER).
- 	 3.  The image data itself.
+     the old style image bitmap consists of:
+ 	 1.  either a bitmapinfoheader or a  bitmapcoreheader.	 which	header
+ 	     type is determined by the first long integer (dword) value.
+ 	 2.  an optional color palette.	  this	palette	 may  be  composed  of
+ 	     either   windows	rgbquad	  structures  (if  the	header	was  a
+ 	     bitmapinfoheader) or windows rgbtriple structures (if the	header
+ 	     was a bitmapcoreheader).
+ 	 3.  the image data itself.
  
  
-     CREATING DIB IMAGE FILES.
+     creating dib image files.
  
-     Creating a DOS DIB image file consists of several straight forward	steps.
-     The headers need to be created and then written to the file.  These header
-     structures are defined in the MS  Windows/3.0  "windows.h"	include	 file.
-     Palette  information  needs	 to  be	 stored for images that are not 24-bit
-     images.  The five general steps are:
- 	 1.  Filling  in  the  BITMAPFILEHEADER	  and	the   BITMAPINFOHEADER
+     creating a dos dib image file consists of several straight forward	steps.
+     the headers need to be created and then written to the file.  these header
+     structures are defined in the ms  windows/3.0  "windows.h"	include	 file.
+     palette  information  needs	 to  be	 stored for images that are not 24-bit
+     images.  the five general steps are:
+ 	 1.  filling  in  the  bitmapfileheader	  and	the   bitmapinfoheader
  	     structures the basic image information.
- 	 2.  If the image is a 1-bit, 4-bit, or an 8-bit image,	 creating  the
- 	     color palette of RGBQUADS.
- 	 3.  Calculating the total file size and putting this  information  in
+ 	 2.  if the image is a 1-bit, 4-bit, or an 8-bit image,	 creating  the
+ 	     color palette of rgbquads.
+ 	 3.  calculating the total file size and putting this  information  in
  
  
  
- 			      March 15, 1991
+ 			      march 15, 1991
  
  
  
@@ -207,26 +207,26 @@
  				    - 4 -
  
  
- 	     the "bfSize" field of the BITMAPFILEHEADER.
- 	 4.  Calculating the offset to the image data from the	start  of  the
- 	     file,   and   putting  this  in  the  "bfOffBits"	field  of  the
- 	     BITMAPFILEHEADER.
- 	 5.  Writing to the file the BITMAPFILEHEADER,	the  BITMAPINFOHEADER,
+ 	     the "bfsize" field of the bitmapfileheader.
+ 	 4.  calculating the offset to the image data from the	start  of  the
+ 	     file,   and   putting  this  in  the  "bfoffbits"	field  of  the
+ 	     bitmapfileheader.
+ 	 5.  writing to the file the bitmapfileheader,	the  bitmapinfoheader,
  	     the color palette, and the image data (in that order).
  
-     The following sections describe structures in terms of MicroSoft  C	 type-
-     defined  keywords.	The following table describes these keywords for those
-     not familiar with MicroSoft C.
+     the following sections describe structures in terms of microsoft  c	 type-
+     defined  keywords.	the following table describes these keywords for those
+     not familiar with microsoft c.
  
  		     _______________________________________
  		    |					   |
- 		    | Type-defined keywords in MicroSoft C.|
+ 		    | type-defined keywords in microsoft c.|
  		    |______________________________________|
  		    | typedef |	 meaning		   |
  		    |_________|____________________________|
- 		    | BYTE    |	 unsigned character	   |
- 		    | WORD    |	 two byte unsigned integer |
- 		    | DWORD   |	 four byte unsigned integer|
+ 		    | byte    |	 unsigned character	   |
+ 		    | word    |	 two byte unsigned integer |
+ 		    | dword   |	 four byte unsigned integer|
  		    |_________|____________________________|
  
  
@@ -260,7 +260,7 @@
  
  
  
- 			      March 15, 1991
+ 			      march 15, 1991
  
  
  
@@ -269,38 +269,38 @@
  				    - 5 -
  
  
-     THE BITMAPFILEHEADER
+     the bitmapfileheader
  
-     This structure is defined in "windows.h" as:
- 	 typedef struct tagBITMAPFILEHEADER {
- 		 WORD	 bfType;
- 		 DWORD	 bfSize;
- 		 WORD	 bfReserved1;
- 		 WORD	 bfReserved2;
- 		 DWORD	 bfOffBits;
- 	 } BITMAPFILEHEADER;
+     this structure is defined in "windows.h" as:
+ 	 typedef struct tagbitmapfileheader {
+ 		 word	 bftype;
+ 		 dword	 bfsize;
+ 		 word	 bfreserved1;
+ 		 word	 bfreserved2;
+ 		 dword	 bfoffbits;
+ 	 } bitmapfileheader;
  
-     The "bfType" field is the two ascii characters 'B' and 'M'.	  This	serves
-     to	identify  the  file  as	 a  DIB	 image file.  On an intel byte ordered
-     machine (IBM or a compatible), this constant can be formed	in  C  as  the
-     quantity ('M' << 8 | 'B') == 0x4d42 on an intel system.
+     the "bftype" field is the two ascii characters 'b' and 'm'.	  this	serves
+     to	identify  the  file  as	 a  dib	 image file.  on an intel byte ordered
+     machine (ibm or a compatible), this constant can be formed	in  c  as  the
+     quantity ('m' << 8 | 'b') == 0x4d42 on an intel system.
  
-     The "bfSize" field is the total size of the file.  For our	purposes  this
-     field  is equal to: the size of the BITMAPFILEHEADER, plus the size of the
-     BITMAPINFOHEADER, plus the number of entries in the	 color	palette	 times
-     the	 size  of  a  RGBQUAD, plus the number of bytes of image data.	If the
+     the "bfsize" field is the total size of the file.  for our	purposes  this
+     field  is equal to: the size of the bitmapfileheader, plus the size of the
+     bitmapinfoheader, plus the number of entries in the	 color	palette	 times
+     the	 size  of  a  rgbquad, plus the number of bytes of image data.	if the
      image data is being written out in an uncompressed form, this value can be
-     calculated	ahead  of  time.   Otherwise, this field needs to be filled in
+     calculated	ahead  of  time.   otherwise, this field needs to be filled in
      later.
  
-     Both the "bfReserved1" and the "bfReserved2"  fields  are  always  set  to
+     both the "bfreserved1" and the "bfreserved2"  fields  are  always  set  to
      zero.
  
-     The "bfOffBits" field is set to the offset to the start of the image  data
-     from  the  start  of the file.  For our purposes, this field should be set
-     to:	 the  size  of	the   BITMAPFILEHEADER,	  plus	 the   size   of   the
-     BITMAPINFOHEADER,  plus  the  number of entries in the color palette times
-     the size of a RGBQUAD.  This works out because the image data  is  written
+     the "bfoffbits" field is set to the offset to the start of the image  data
+     from  the  start  of the file.  for our purposes, this field should be set
+     to:	 the  size  of	the   bitmapfileheader,	  plus	 the   size   of   the
+     bitmapinfoheader,  plus  the  number of entries in the color palette times
+     the size of a rgbquad.  this works out because the image data  is  written
      write after the color palette if one exists.
  
  
@@ -320,7 +320,7 @@
  
  
  
- 			      March 15, 1991
+ 			      march 15, 1991
  
  
  
@@ -329,58 +329,58 @@
  				    - 6 -
  
  
-     THE BITMAPINFOHEADER
+     the bitmapinfoheader
  
-     This structure is defined in "windows.h" as:
- 	 typedef struct tagBITMAPINFOHEADER{
- 		 DWORD	 biSize;
- 		 DWORD	 biWidth;
- 		 DWORD	 biHeight;
- 		 WORD	 biPlanes;
- 		 WORD	 biBitCount;
- 		 DWORD	 biCompression;
- 		 DWORD	 biSizeImage;
- 		 DWORD	 biXPelsPerMeter;
- 		 DWORD	 biYPelsPerMeter;
- 		 DWORD	 biClrUsed;
- 		 DWORD	 biClrImportant;
- 	 } BITMAPINFOHEADER;
+     this structure is defined in "windows.h" as:
+ 	 typedef struct tagbitmapinfoheader{
+ 		 dword	 bisize;
+ 		 dword	 biwidth;
+ 		 dword	 biheight;
+ 		 word	 biplanes;
+ 		 word	 bibitcount;
+ 		 dword	 bicompression;
+ 		 dword	 bisizeimage;
+ 		 dword	 bixpelspermeter;
+ 		 dword	 biypelspermeter;
+ 		 dword	 biclrused;
+ 		 dword	 biclrimportant;
+ 	 } bitmapinfoheader;
  
-     The "biSize" field is set to the size of  the  BITMAPINFOHEADER  structure
-     itself.   When  reading  the  image	 file,	this  value is what is used to
-     determine  that  the  image	 contains  a  BITMAPINFOHEADER	 and   not   a
-     BITMAPCOREHEADER.
+     the "bisize" field is set to the size of  the  bitmapinfoheader  structure
+     itself.   when  reading  the  image	 file,	this  value is what is used to
+     determine  that  the  image	 contains  a  bitmapinfoheader	 and   not   a
+     bitmapcoreheader.
  
-     The "biWidth" field is the width of the image in image pixels.
+     the "biwidth" field is the width of the image in image pixels.
  
-     The "biHeight" field is the height of the image in image lines.
+     the "biheight" field is the height of the image in image lines.
  
-     The "biPlanes" field should always be set to 1.  This data is written  out
+     the "biplanes" field should always be set to 1.  this data is written  out
      as if there was one color plane.
  
-     The "biBitCount" field is the bit-depth of the image.  This must be either
+     the "bibitcount" field is the bit-depth of the image.  this must be either
      1, 4, 8, or 24, depending on the bit-depth of the image data.
  
-     The "biCompression" field tells how the image data is compressed if it  is
-     compressed.	   DIB	images	support	 two  forms  of	 run-length  encoding.
-     However, I have never seen any images which use it, and don't know yet how
-     it works.  Set this field to zero (long zero, or 0L), to indicate that the
+     the "bicompression" field tells how the image data is compressed if it  is
+     compressed.	   dib	images	support	 two  forms  of	 run-length  encoding.
+     however, i have never seen any images which use it, and don't know yet how
+     it works.  set this field to zero (long zero, or 0l), to indicate that the
      data is not compressed.
  
-     All subsequent fields of the BITMAPINFOHEADER  structure  may  be  set  to
-     zero.   A  requirement  of	the  interpretting software that it be able to
+     all subsequent fields of the bitmapinfoheader  structure  may  be  set  to
+     zero.   a  requirement  of	the  interpretting software that it be able to
      compute these fields as necessary from the previous information.
  
-     The field which you might want to explicitly specify might be "biClrUsed".
-     For	 4-bit	and  8-bit  images  this  field	 indicates that not all of the
-     possible color entries are used and that the  image	 contains  "biClrUsed"
-     colors.  If you are using only 32 colors with an 8-bit image, then you may
-     only want to save 32 of the possible 256 palette entries.  Generally,  set
+     the field which you might want to explicitly specify might be "biclrused".
+     for	 4-bit	and  8-bit  images  this  field	 indicates that not all of the
+     possible color entries are used and that the  image	 contains  "biclrused"
+     colors.  if you are using only 32 colors with an 8-bit image, then you may
+     only want to save 32 of the possible 256 palette entries.  generally,  set
      this field to zero.
  
  
  
- 			      March 15, 1991
+ 			      march 15, 1991
  
  
  
@@ -389,58 +389,58 @@
  				    - 7 -
  
  
-     COLOR PALETTES
+     color palettes
  
-     Each entry of a  color  palette  is	 a  RGBQUAD  structure.	  The  RGBQUAD
+     each entry of a  color  palette  is	 a  rgbquad  structure.	  the  rgbquad
      structure is defined in the "windows.h" include file as:
- 	 typedef struct tagRGBQUAD {
- 		 BYTE	 rgbBlue;
- 		 BYTE	 rgbGreen;
- 		 BYTE	 rgbRed;
- 		 BYTE	 rgbReserved;
- 	 } RGBQUAD;
-     The "rgbReserved" field is always zero.  For each color used,  the	amount
-     of Blue, Green, and Red are filled into the structure and the structure is
-     written to the file.  A value of zero in  the  "rgbBlue",  "rgbGreen",  or
-     "rgbRed"   fields  indicates  that	that  particular  component  does  not
-     contribute to the color composition.  A value  of  255  in	any  of	 these
+ 	 typedef struct tagrgbquad {
+ 		 byte	 rgbblue;
+ 		 byte	 rgbgreen;
+ 		 byte	 rgbred;
+ 		 byte	 rgbreserved;
+ 	 } rgbquad;
+     the "rgbreserved" field is always zero.  for each color used,  the	amount
+     of blue, green, and red are filled into the structure and the structure is
+     written to the file.  a value of zero in  the  "rgbblue",  "rgbgreen",  or
+     "rgbred"   fields  indicates  that	that  particular  component  does  not
+     contribute to the color composition.  a value  of  255  in	any  of	 these
      fields  indicates  that  the  component  contributes  fully	 to  the color
      composition.
  
  
  
-     IMAGE DATA
+     image data
  
-     There are three surprises about the ordering of image data	in  DIB	 image
-     file.   The	 creator  of  this  format  was determined to be creative, and
+     there are three surprises about the ordering of image data	in  dib	 image
+     file.   the	 creator  of  this  format  was determined to be creative, and
      certainly was.
  
-     Within the image data, each line written out is padded to  the  next  four
-     byte  quantity.   So,  if  you had an 8-bit image which was only one pixel
-     wide, you still have to write out four bytes for every  image  line.   The
+     within the image data, each line written out is padded to  the  next  four
+     byte  quantity.   so,  if  you had an 8-bit image which was only one pixel
+     wide, you still have to write out four bytes for every  image  line.   the
      number of bytes per line can be calculated as:
  
  		 bytes_per_line = (width_in_pix * bit_depth + 31 ) / 32 * 4;
  
- 	---or, in terms of the fields of the BITMAPINFOHEADER structure---
+ 	---or, in terms of the fields of the bitmapinfoheader structure---
  
- 		 bytes_per_line = (biWidth * biBitCount + 31 ) / 32 * 4;
+ 		 bytes_per_line = (biwidth * bibitcount + 31 ) / 32 * 4;
  
  
-     When writing out your image data, you must write it out bottom line first.
-     The	 bottom line of the image as you would look at it on the screen is the
+     when writing out your image data, you must write it out bottom line first.
+     the	 bottom line of the image as you would look at it on the screen is the
      first line of image data in the file.
  
-     For 1-bit, 4-bit, and 8-bit images, information is written	as  you	 would
-     expect.   One  bit	images	are  padded  eight pixels to a byte.  Four bit
-     images are padded two pixels to a byte.  Eight bit images are written  one
-     pixel per byte.  Twenty-four bit images are written three bytes per pixel.
-     However, for 24-bit images the information must  be	 written  out  in  the
-     order  blue,  green, red.  While most image file formats write data out in
+     for 1-bit, 4-bit, and 8-bit images, information is written	as  you	 would
+     expect.   one  bit	images	are  padded  eight pixels to a byte.  four bit
+     images are padded two pixels to a byte.  eight bit images are written  one
+     pixel per byte.  twenty-four bit images are written three bytes per pixel.
+     however, for 24-bit images the information must  be	 written  out  in  the
+     order  blue,  green, red.  while most image file formats write data out in
  
  
  
- 			      March 15, 1991
+ 			      march 15, 1991
  
  
  
@@ -449,17 +449,15 @@
  				    - 8 -
  
  
-     an "RGB" ordering, a DIB image file	 writes	 the  data  out	 in  an	 "BGR"
+     an "rgb" ordering, a dib image file	 writes	 the  data  out	 in  an	 "bgr"
      ordering.
  
-     SUMMARY
+     summary
  
-     This  should  provide  enough  information	to  create  DIB	 images	  from
-     applications  such	as  scanners  or for image exporting routines.	If you
-     find out any more about DIB images, please pass the information on	to  me
-     so that I can modify this document accordingly.
- 
- 
+     this  should  provide  enough  information	to  create  dib	 images	  from
+     applications  such	as  scanners  or for image exporting routines.	if you
+     find out any more about dib images, please pass the information on	to  me
+     so that i can modify this document accordingly.
  
  
  
@@ -500,15 +498,17 @@
  
  
  
- 			      March 15, 1991
  
  
- --
-     Thomas B. Kinsman, Rochester, NY, thomas@acadia.kodak.com
-     "Practice random kindness and senseless acts of beauty."	-anon
+ 			      march 15, 1991
+ 
  
  --
- 			ITO Takayuki <yuki@is.s.u-tokyo.ac.jp>
- 			Senior, Department of Infomation Science,
- 			Faculty of Science, University of Tokyo, JAPAN.
+     thomas b. kinsman, rochester, ny, thomas@acadia.kodak.com
+     "practice random kindness and senseless acts of beauty."	-anon
+ 
+ --
+ 			ito takayuki <yuki@is.s.u-tokyo.ac.jp>
+ 			senior, department of infomation science,
+ 			faculty of science, university of tokyo, japan.
  

@@ -1,32 +1,32 @@
 
- >How do you do bus-mastering on the ISA bus?
+ >how do you do bus-mastering on the isa bus?
  
- By initiating a DMA xfer.  :)
+ by initiating a dma xfer.  :)
  
- Seriously, busmastering adapter have their own DMA ability, they don't use
- the motherboards on-board DMA(which is *MUCH* slower).
+ seriously, busmastering adapter have their own dma ability, they don't use
+ the motherboards on-board dma(which is *much* slower).
  
- ISA has no bus arbitration, so if two busmastering cards in 1 ISA system
- try to do DMA xfers on the same DMA channel the system will lock or 
- crash.(I forget)
+ isa has no bus arbitration, so if two busmastering cards in 1 isa system
+ try to do dma xfers on the same dma channel the system will lock or 
+ crash.(i forget)
  
- Their are 8 DMA channels in an ISA system. 0-7. 0-3 are 8-bit & 4-7 are
+ their are 8 dma channels in an isa system. 0-7. 0-3 are 8-bit & 4-7 are
  16-bit.
  
- The system uses DMA 0, a SoundBlaster uses DMA 1.
+ the system uses dma 0, a soundblaster uses dma 1.
  
- I could buy a busmastering XGA-2 video card & a busmastering SCSI HA.
+ i could buy a busmastering xga-2 video card & a busmastering scsi ha.
  
- In order for them to work properly, I would have to find out what DMA
- channel the XGA-2 card uses and then simply configure the SCSI HA to
- use a different DMA channel for its DMA xfers.
+ in order for them to work properly, i would have to find out what dma
+ channel the xga-2 card uses and then simply configure the scsi ha to
+ use a different dma channel for its dma xfers.
  
- I don't know if multiple DMA xfers can go on at the same time on ISA.
- I'm not sure if they can on EISA systems either.
+ i don't know if multiple dma xfers can go on at the same time on isa.
+ i'm not sure if they can on eisa systems either.
  
- I do know that on EISA/MCA systems, you can allow BM cards to use the
- same DMA channel.
+ i do know that on eisa/mca systems, you can allow bm cards to use the
+ same dma channel.
  
- Thanks.
+ thanks.
  
  

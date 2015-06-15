@@ -1,64 +1,64 @@
 
-                                E G L I N     A F B
+                                e g l i n     a f b
  
- From:  DENNIS L. HART                       Date:     14-May-1993 02:41pm CST
-        HART                                 Tel No:   904 882 3154
- Dept:  646CCSG/SCWA*SAS
+ from:  dennis l. hart                       date:     14-may-1993 02:41pm cst
+        hart                                 tel no:   904 882 3154
+ dept:  646ccsg/scwa*sas
  
- TO:    Internet Addressee                   ( _SMTP[xpert@expo.lcs.mit.edu] )
- 
- 
- Subject: VXT2000 Windowing Terminal Help
- 
- Greetings!
+ to:    internet addressee                   ( _smtp[xpert@expo.lcs.mit.edu] )
  
  
- We have several VXT 2000 Windowing terminals and associated software on our
- network.  We are able to open a LAT terminal window to any of our workstation
- nodes but we are unable to get a LAT X session to work.
+ subject: vxt2000 windowing terminal help
  
- We have customized the terminal security to allow all LAT connections.
+ greetings!
  
- Trying to invoke a LAT X session from the VXT 2000 results in the following
+ 
+ we have several vxt 2000 windowing terminals and associated software on our
+ network.  we are able to open a lat terminal window to any of our workstation
+ nodes but we are unable to get a lat x session to work.
+ 
+ we have customized the terminal security to allow all lat connections.
+ 
+ trying to invoke a lat x session from the vxt 2000 results in the following
  message being displayed in the terminal manager window message area:
  
- Host Does Not Support X Sessions
+ host does not support x sessions
  
- (The host is a VAX4000 Model 60 and does support X sessions)
+ (the host is a vax4000 model 60 and does support x sessions)
  
  
- Opening a LAT terminal window and logging into the server node, setting the
+ opening a lat terminal window and logging into the server node, setting the
  display variable as follows:
  
- $ set display/create/node=LAT_###########/transport=lat
+ $ set display/create/node=lat_###########/transport=lat
  
- and then trying to create a decterm on the VXT as follows:
+ and then trying to create a decterm on the vxt as follows:
  
  $ create/term=decterm/detach
  
- Fails and gives the following error message:
+ fails and gives the following error message:
  
- dectermport failed to find language, XOpenDisplay("")  returned NULL
- %DECW-F-CANT-OPEN-DISPL Can't open display
+ dectermport failed to find language, xopendisplay("")  returned null
+ %decw-f-cant-open-displ can't open display
  
- The VXT 2000 is using its system defaults (ie. default font(s), language, ...)
+ the vxt 2000 is using its system defaults (ie. default font(s), language, ...)
  except for the security options to allow all connections and options enabling 
- LAT protocol.
+ lat protocol.
  
- we have VT1200 windowing terminals and the above things were enough to allow
- LAT X sessions.
+ we have vt1200 windowing terminals and the above things were enough to allow
+ lat x sessions.
  
- VMS Version is 5.5-1
- Running DECwindows/Motif of VAX4000 Model 60s
- 
- 
- Please help.
+ vms version is 5.5-1
+ running decwindows/motif of vax4000 model 60s
  
  
- Dennis Hart
- Atlantic Research Corporation
- Directorate of Computer Sciences
- Eglin AFB, FL
+ please help.
+ 
+ 
+ dennis hart
+ atlantic research corporation
+ directorate of computer sciences
+ eglin afb, fl
   
  
  

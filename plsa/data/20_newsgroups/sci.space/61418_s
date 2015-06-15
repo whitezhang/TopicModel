@@ -1,35 +1,35 @@
 
- In article <29APR199311345485@judy.uh.edu>, wingo%cspara.decnet@Fedex.Msfc.Nasa.Gov writes:
- -| In article <1993Apr28.200843.83413@embl-heidelberg.de>, tuparev@EMBL-Heidelberg.DE (Georg Tuparev) writes...
+ in article <29apr199311345485@judy.uh.edu>, wingo%cspara.decnet@fedex.msfc.nasa.gov writes:
+ -| in article <1993apr28.200843.83413@embl-heidelberg.de>, tuparev@embl-heidelberg.de (georg tuparev) writes...
  -| > 
  -| > 
- -| >ANNOUNCEMENT:	The "HyperKnowledge" PROJECT for NeXTSTEP
+ -| >announcement:	the "hyperknowledge" project for nextstep
  -| 
- -| I know this is kinda off the subject of sci.space, but not really, I want to
- -| answer this for their, as well as everyone else's information.  What these
+ -| i know this is kinda off the subject of sci.space, but not really, i want to
+ -| answer this for their, as well as everyone else's information.  what these
  -| people are proposing, by and large already exists and can be purchased today.
  -| 
- -| It is called labview by National Instruments. IT is a wonderful object
- -| IT is a wonderful object oriented graphical programming language.
+ -| it is called labview by national instruments. it is a wonderful object
+ -| it is a wonderful object oriented graphical programming language.
  -| [some lines deleted]
  
- I am afraid you are mis-directed. NeXTSTEP is an operating system as opposed to 
- a package. I have read a little about it but since Steve Jobs does not seem to 
- have the marketing capabilities of Bill Gates my info. is limited. Probably why
- the far inferior Windows NT is going to be more widely distributed (but that
- is another flame-ridden story). Some of the innovative features of NeXTSTEP are
+ i am afraid you are mis-directed. nextstep is an operating system as opposed to 
+ a package. i have read a little about it but since steve jobs does not seem to 
+ have the marketing capabilities of bill gates my info. is limited. probably why
+ the far inferior windows nt is going to be more widely distributed (but that
+ is another flame-ridden story). some of the innovative features of nextstep are
  binary compatibility across platforms (eg you can just copy your program from
- a Sparc to a PC and it would run, as opposed to buying the version of the package
- ported to a PC), graphical object-oriented design (its all WSIWIG postscript), 
+ a sparc to a pc and it would run, as opposed to buying the version of the package
+ ported to a pc), graphical object-oriented design (its all wsiwig postscript), 
  supports parallel hetrogeneous processing, and best of all it is based around 
- the Mach micro-kernel so you can make it look like Unix with X, or DOS, or NT or 
- even VMS if you feel the need. No package out there comes even close. I hope 
- people will subscribe to the HyperKnowledge project and NeXTSTEP finally
+ the mach micro-kernel so you can make it look like unix with x, or dos, or nt or 
+ even vms if you feel the need. no package out there comes even close. i hope 
+ people will subscribe to the hyperknowledge project and nextstep finally
  takes off in my lifetime :-)
  -- 
- | Mail          Dr Ata Etemadi, Blackett Laboratory,                          |
- |               Space and Atmospheric Physics Group,                          |
- |               Imperial College of Science, Technology, and Medicine         |
- | Internet/Arpanet/Earn/Bitnet atae@spva.ph.ic.ac.uk or ata@c.mssl.ucl.ac.uk  |
- | Span                              SPVA::atae       or     MSSLC:atae        |
+ | mail          dr ata etemadi, blackett laboratory,                          |
+ |               space and atmospheric physics group,                          |
+ |               imperial college of science, technology, and medicine         |
+ | internet/arpanet/earn/bitnet atae@spva.ph.ic.ac.uk or ata@c.mssl.ucl.ac.uk  |
+ | span                              spva::atae       or     msslc:atae        |
  

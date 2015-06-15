@@ -1,12 +1,12 @@
 
- dmittleman@bpavms.bpa.arizona.edu (Daniel Mittleman) writes:
+ dmittleman@bpavms.bpa.arizona.edu (daniel mittleman) writes:
  
- >    This may be an FAQ (if so, please direct me to the known answer) but I
+ >    this may be an faq (if so, please direct me to the known answer) but i
  >    am getting frustrated and looking for help.
  
- >    I am running Win 3.1 with NDW 2.2 on a 486sx with 8 meg of memory and a
+ >    i am running win 3.1 with ndw 2.2 on a 486sx with 8 meg of memory and a
  >    6 meg perm swap file and am getting exceedingly frustrated that my
- >    applications are not giving back system resources when I close them.
+ >    applications are not giving back system resources when i close them.
  
  >    <many lines deleted>
  
@@ -14,24 +14,24 @@
  >===========================================================================
  >daniel david mittleman     -     danny@arizona.edu     -     (602) 621-2932
  
- Danny...
+ danny...
  
- While working on my shareware toolbar, I found myself 'eating' resources,
- and a very wise person pointed me to the SDK, and specifically the debug
- kernel. Once you have all the SDK stuff installed, (this also comes with
- VC++), you run 'n2d' which does a 'normal-to-debug' swap. The debug kernel
- runs C O N S I D E R A B L Y slower, but you then execute the command
- DBWIN, and let it report to you what is going on. You are going to find
- out a lot more about your Apps than you cared to, and possibly about other
- peoples Apps (is that OPA?..I'm sorry). 
+ while working on my shareware toolbar, i found myself 'eating' resources,
+ and a very wise person pointed me to the sdk, and specifically the debug
+ kernel. once you have all the sdk stuff installed, (this also comes with
+ vc++), you run 'n2d' which does a 'normal-to-debug' swap. the debug kernel
+ runs c o n s i d e r a b l y slower, but you then execute the command
+ dbwin, and let it report to you what is going on. you are going to find
+ out a lot more about your apps than you cared to, and possibly about other
+ peoples apps (is that opa?..i'm sorry). 
  
- If this doesn't make sense, repost, or e-mail me
+ if this doesn't make sense, repost, or e-mail me
  
  dave
  
  -- 
  ------------------------------------------------------------------------------
- Dave Campbell at WynApse |                       WynApse
-   wynapse@indirect.com   |        The Shareware Custom Control Source
+ dave campbell at wynapse |                       wynapse
+   wynapse@indirect.com   |        the shareware custom control source
  ------------------------------------------------------------------------------
  

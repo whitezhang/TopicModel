@@ -1,14 +1,14 @@
 
- In article <o4fzrApDBh107h@eosvcr.wimsey.bc.ca> aew@eosvcr.wimsey.bc.ca writes:
- >We have heard many bad things about the ATI Ultra Plus card (mainly having
- >to do with its buggy Windows drivers).
+ in article <o4fzrapdbh107h@eosvcr.wimsey.bc.ca> aew@eosvcr.wimsey.bc.ca writes:
+ >we have heard many bad things about the ati ultra plus card (mainly having
+ >to do with its buggy windows drivers).
  >
- >I would like to replace by ATI Graphics Ultra with a true-colour accelerated
- >card. I was about to buy the ATI Ultra Plus (EISA) but it has had so much
- >bad press that I am reconsidering.
+ >i would like to replace by ati graphics ultra with a true-colour accelerated
+ >card. i was about to buy the ati ultra plus (eisa) but it has had so much
+ >bad press that i am reconsidering.
  >
  >
- >I would like an accelerated card
+ >i would like an accelerated card
  >             a card that does 24bit true colour at 800x600 at least
  >             a card that does 1024x758 at 256 colours (or more)
  >             a card that has fast polygon fills
@@ -16,29 +16,29 @@
  >             a card that has a robust windows driver
  >             a card that has high speed non-interlaced refresh
  >
- >Any suggestions?
+ >any suggestions?
  >
- >My app requires lots of 3d poly grahics and complexing true colour
- >imaging.  I would sure like a faster solution that what I have now.
+ >my app requires lots of 3d poly grahics and complexing true colour
+ >imaging.  i would sure like a faster solution that what i have now.
  >
- >Thanks,
+ >thanks,
  >
- >Al
+ >al
  >
  >-- 
- >Alan Walford     Eos Systems Inc., Vancouver,B.C., Canada  Tel: 604-734-8655
- >aew@eosvcr.wimsey.bc.ca           OR        ...uunet!wimsey.bc.ca!eosvcr!aew  
+ >alan walford     eos systems inc., vancouver,b.c., canada  tel: 604-734-8655
+ >aew@eosvcr.wimsey.bc.ca           or        ...uunet!wimsey.bc.ca!eosvcr!aew  
  
- I had enough problems with my ISA bus Ultra Plus that I finally returned it,
- but many of the people I spoke to through the net were happy with the EISA
- version of the Ultra Pro.  I kind of suspect the MACH32 chip was designed
- with a 32-bit external bus in mind and the ISA version is kind of a hack, but
+ i had enough problems with my isa bus ultra plus that i finally returned it,
+ but many of the people i spoke to through the net were happy with the eisa
+ version of the ultra pro.  i kind of suspect the mach32 chip was designed
+ with a 32-bit external bus in mind and the isa version is kind of a hack, but
  that's just a guess. 
  
  
  -- 
- David Farley                           The University of Chicago Library
- 312 702-3426                              1100 East 57th Street, JRL-210
- dgf1@midway.uchicago.edu                         Chicago, Illinois 60637
+ david farley                           the university of chicago library
+ 312 702-3426                              1100 east 57th street, jrl-210
+ dgf1@midway.uchicago.edu                         chicago, illinois 60637
  
  

@@ -1,36 +1,36 @@
 
  
- In article <14569@greg>, greg@Software.Mitel.COM (Gregory Lehman) writes:
- |>Path: wrdis01!gatech!howland.reston.ans.net!usc!cs.utexas.edu!utnut!torn!nott!uotcsi2!geovision!software.mitel.com!greg
- |>From: greg@Software.Mitel.COM (Gregory Lehman)
- |>Newsgroups: comp.windows.x,comp.windows.x.motif
- |>Subject: Looking for drawing packages
- |>Message-ID: <14569@greg>
- |>Date: 27 Apr 93 20:08:10 GMT
- |>Organization: Mitel. Kanata (Ontario). Canada.
- |>Lines: 24
- |>Xref: wrdis01 comp.windows.x:36152 comp.windows.x.motif:13750
+ in article <14569@greg>, greg@software.mitel.com (gregory lehman) writes:
+ |>path: wrdis01!gatech!howland.reston.ans.net!usc!cs.utexas.edu!utnut!torn!nott!uotcsi2!geovision!software.mitel.com!greg
+ |>from: greg@software.mitel.com (gregory lehman)
+ |>newsgroups: comp.windows.x,comp.windows.x.motif
+ |>subject: looking for drawing packages
+ |>message-id: <14569@greg>
+ |>date: 27 apr 93 20:08:10 gmt
+ |>organization: mitel. kanata (ontario). canada.
+ |>lines: 24
+ |>xref: wrdis01 comp.windows.x:36152 comp.windows.x.motif:13750
  |>
- |>Greetings.
+ |>greetings.
  |>
- |>I am developing an application that allows a *user* to interactively
+ |>i am developing an application that allows a *user* to interactively
  |>create/edit/view a visual "model" (i.e. topology) of their network, and
- |>I was wondering if anyone knew of any builder tools that exist to
+ |>i was wondering if anyone knew of any builder tools that exist to
  |>simplify this task.
  |>
- |>In the past I have used Visual Edge's UIM/X product to develop other
- |>GUIs, so I am familiar with UIMSs in general.
+ |>in the past i have used visual edge's uim/x product to develop other
+ |>guis, so i am familiar with uimss in general.
  |>
- |>The topology will support objects and connecting links.  Once the
- |>topology is created, I want to provide the user with capabilities to
+ |>the topology will support objects and connecting links.  once the
+ |>topology is created, i want to provide the user with capabilities to
  |>support grouping, zooming, etc.
  |>
- |>I am looking for some form of a higher abstraction other than X drawing
- |>routines to accomplish this.  Specifically, the zooming and grouping
- |>aspects may prove difficult, and certainly time consuming,  if I have
+ |>i am looking for some form of a higher abstraction other than x drawing
+ |>routines to accomplish this.  specifically, the zooming and grouping
+ |>aspects may prove difficult, and certainly time consuming,  if i have
  |>to "roll my own".
  |>
- |>Suggestions?
+ |>suggestions?
  |>
  |>-greg
  |>
@@ -38,11 +38,11 @@
  |>
  
  
- You don't mention your platform but Digital has a custom widget, NetEd, 
- which does exactly what you want to do. Cost is nominal 300 or so - call your
- local office.  The widget is supported on a variety of platforms and I heard
- rumblings of porting to Sun, etc. so it may be worth the check.
+ you don't mention your platform but digital has a custom widget, neted, 
+ which does exactly what you want to do. cost is nominal 300 or so - call your
+ local office.  the widget is supported on a variety of platforms and i heard
+ rumblings of porting to sun, etc. so it may be worth the check.
  
- Charlie Gilley
- Digital Equipment Corp.
+ charlie gilley
+ digital equipment corp.
  

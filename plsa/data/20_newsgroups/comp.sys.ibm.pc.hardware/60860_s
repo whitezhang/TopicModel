@@ -1,11 +1,11 @@
 
- I have an 8-bit serial card with two ports.  Each port has the option of
- using IRQ 2,3,4 or 5.  I also have two serial ports on a multi-I/O card,
- and the ports can be set to IRQ 3,4,5,7 or 9.  From other posts I've read,
- I get the impression that IRQ2 on the 8-bit card is the same as IRQ9 on
- the multi-I/O card.  Am I right?
+ i have an 8-bit serial card with two ports.  each port has the option of
+ using irq 2,3,4 or 5.  i also have two serial ports on a multi-i/o card,
+ and the ports can be set to irq 3,4,5,7 or 9.  from other posts i've read,
+ i get the impression that irq2 on the 8-bit card is the same as irq9 on
+ the multi-i/o card.  am i right?
  -- 
- Eric Dittman                  Texas Instruments - Component Test Facility
+ eric dittman                  texas instruments - component test facility
  dittman@skitzo.dseg.ti.com    (214) 480-7313
- Disclaimer:  Not even my opinions.  I found them by the side of the road.
+ disclaimer:  not even my opinions.  i found them by the side of the road.
  

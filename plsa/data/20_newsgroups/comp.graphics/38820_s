@@ -1,48 +1,48 @@
 
  
- In article <1r1iv3$cba@cc.tut.fi>, jk87377@lehtori.cc.tut.fi (Kouhia Juhana) writes:
+ in article <1r1iv3$cba@cc.tut.fi>, jk87377@lehtori.cc.tut.fi (kouhia juhana) writes:
  
- >Recent discussion about XV's problems were held in some newsgroup.
- >Here is some text users of XV might find interesting.
+ >recent discussion about xv's problems were held in some newsgroup.
+ >here is some text users of xv might find interesting.
  
- >(I have also minor ideas for 24bit XV, e-mail me for them.)
+ >(i have also minor ideas for 24bit xv, e-mail me for them.)
  
- [Deleted for space; basically complaints that xv is an 8 bit program and that
- making several modifications to the RGB sliders is slow because of screen updates.]
+ [deleted for space; basically complaints that xv is an 8 bit program and that
+ making several modifications to the rgb sliders is slow because of screen updates.]
  
- In reverse order:
+ in reverse order:
  
- 1) Try clicking in the auto-apply box to switch it off. Then make your mods. Then
- click on apply. There is no problem as stated; it has already been solved if you
+ 1) try clicking in the auto-apply box to switch it off. then make your mods. then
+ click on apply. there is no problem as stated; it has already been solved if you
  look carefully.
  
- 2) Yes XV is an 8 bit program. This is not a bug. You can edit individual pallette
- entries or do global colour changes; crop, scale etc. Clearly the program must
- save out the *altered* image else all your work would be thrown away. So yes it
+ 2) yes xv is an 8 bit program. this is not a bug. you can edit individual pallette
+ entries or do global colour changes; crop, scale etc. clearly the program must
+ save out the *altered* image else all your work would be thrown away. so yes it
  saves out 8 bit images - of course!
  
- XV can import 24 bit images and quantises them down to 8 bits. This is a handy
+ xv can import 24 bit images and quantises them down to 8 bits. this is a handy
  facility, not a bug.
  
- How would you suggest doing colour editing on a 24 bit file? How would you group
- 'related' colours to edit them together? Only global changes could be done
+ how would you suggest doing colour editing on a 24 bit file? how would you group
+ 'related' colours to edit them together? only global changes could be done
  unless the software were very different and much more complicated.
  
- If you want to do colour editing on a 24 bit image, you need much more powerfull
+ if you want to do colour editing on a 24 bit image, you need much more powerfull
  software - which is readily available commercially.
  
- And lastly, JPEG is a compression algorithm. It can be applied to any image of
- arbitrary bit depth. Again, this is not a bug. It is a way of saving disk space
+ and lastly, jpeg is a compression algorithm. it can be applied to any image of
+ arbitrary bit depth. again, this is not a bug. it is a way of saving disk space
  ;-)
  
- Later,
+ later,
  
  --
- Chris Lilley
+ chris lilley
  ----------------------------------------------------------------------------
- Technical Author, ITTI Computer Graphics and Visualisation Training Project
- Computer Graphics Unit, Manchester Computing Centre, Oxford Road, 
- Manchester, UK.  M13 9PL                        Internet: C.C.Lilley@mcc.ac.uk 
- Voice: +44 (0)61 275 6045  Fax: +44 (0)61 275 6040 Janet: C.C.Lilley@uk.ac.mcc
+ technical author, itti computer graphics and visualisation training project
+ computer graphics unit, manchester computing centre, oxford road, 
+ manchester, uk.  m13 9pl                        internet: c.c.lilley@mcc.ac.uk 
+ voice: +44 (0)61 275 6045  fax: +44 (0)61 275 6040 janet: c.c.lilley@uk.ac.mcc
  ------------------------------------------------------------------------------
  

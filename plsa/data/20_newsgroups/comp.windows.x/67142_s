@@ -1,33 +1,33 @@
 
  #
- #I have a question regarding the processing of program arguments
- #such as the -geometry option. Since this is a standard X option, 
- #I'm wondering wether I have to parse it manually or whether there
+ #i have a question regarding the processing of program arguments
+ #such as the -geometry option. since this is a standard x option, 
+ #i'm wondering wether i have to parse it manually or whether there
  #is some predefined function that will do this for me?
  #
  
- If you are using the Intrinsics, it is parsed for you.  If you are working
- at the Xlib level, you can parse it yourself or you can use the following
+ if you are using the intrinsics, it is parsed for you.  if you are working
+ at the xlib level, you can parse it yourself or you can use the following
  bit of code.
  
- static XrmOptionDescRec options[] = {
- 	{"-geometry",	".geometry",	XrmoptionSepArg, (XPointer)NULL}
+ static xrmoptiondescrec options[] = {
+ 	{"-geometry",	".geometry",	xrmoptionseparg, (xpointer)null}
  };
  
- #define Number(x)	(sizeof(x)/sizeof(x[0]))
- XrmParseCommand(db, options, Number(options), "MyApplication", &argc, argv);
+ #define number(x)	(sizeof(x)/sizeof(x[0]))
+ xrmparsecommand(db, options, number(options), "myapplication", &argc, argv);
  
- Then use XrmGetResource() to retrieve the value and parse it using
- XParseGeometry().
+ then use xrmgetresource() to retrieve the value and parse it using
+ xparsegeometry().
  
- It is probably quicker to parse it yourself from argv, however, I much prefer
- using the X resource management routines to do this.
+ it is probably quicker to parse it yourself from argv, however, i much prefer
+ using the x resource management routines to do this.
  
- Patrick L. Mahan
+ patrick l. mahan
  
- --- TGV Window Washer ------------------------------- Mahan@TGV.COM ---------
+ --- tgv window washer ------------------------------- mahan@tgv.com ---------
  
- Waking a person unnecessarily should not be considered  - Lazarus Long
- a capital crime.  For a first offense, that is            From the Notebooks of
- 							  Lazarus Long
+ waking a person unnecessarily should not be considered  - lazarus long
+ a capital crime.  for a first offense, that is            from the notebooks of
+ 							  lazarus long
  

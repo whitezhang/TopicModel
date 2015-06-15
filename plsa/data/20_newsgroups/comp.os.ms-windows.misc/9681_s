@@ -1,16 +1,16 @@
 
- Hi,
- 	We've been having problems on a few setups when printing to a
- serial printer (dmp or Laser). I have used Works and Windows Write. The
- output is OK from DOS and if I send plain text output, but anything
- fancy garbles or just doesn't output. The exception is outputting to a
- Lserjet 4 which 'appears' to be fast enough receiving data, not to
- bother about handshaking messages. I'm sure I'm not alone in this. I've
- tried most of the Print/Network manager options I can think of. Anyone
+ hi,
+ 	we've been having problems on a few setups when printing to a
+ serial printer (dmp or laser). i have used works and windows write. the
+ output is ok from dos and if i send plain text output, but anything
+ fancy garbles or just doesn't output. the exception is outputting to a
+ lserjet 4 which 'appears' to be fast enough receiving data, not to
+ bother about handshaking messages. i'm sure i'm not alone in this. i've
+ tried most of the print/network manager options i can think of. anyone
  had similar problems they've cured and would like to tell me 'bout it??
- Thanks
+ thanks
  
- John Atherton
+ john atherton
  
  
  

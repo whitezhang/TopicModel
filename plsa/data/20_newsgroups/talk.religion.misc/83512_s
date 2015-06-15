@@ -1,43 +1,43 @@
 
- In article <1qme79$c0k@kyle.eitech.com> ekr@kyle.eitech.com (Eric Rescorla) writes:
- >In article <1qm36b$gn2@horus.ap.mchp.sni.de> frank@D012S658.uucp (Frank O'Dwyer) writes:
- >>In article <1qktj3$bn9@squick.eitech.com> ekr@squick.eitech.com (Eric Rescorla) writes:
- >>#In article <1qkn1t$59l@horus.ap.mchp.sni.de> frank@D012S658.uucp (Frank O'Dwyer) writes:
+ in article <1qme79$c0k@kyle.eitech.com> ekr@kyle.eitech.com (eric rescorla) writes:
+ >in article <1qm36b$gn2@horus.ap.mchp.sni.de> frank@d012s658.uucp (frank o'dwyer) writes:
+ >>in article <1qktj3$bn9@squick.eitech.com> ekr@squick.eitech.com (eric rescorla) writes:
+ >>#in article <1qkn1t$59l@horus.ap.mchp.sni.de> frank@d012s658.uucp (frank o'dwyer) writes:
  >
- >>#Like I said before, DES works whether I value my privacy or
+ >>#like i said before, des works whether i value my privacy or
  >>#not.
  >>
- >>O.K., which DES?  The abstract function DES? that stops working in any 
+ >>o.k., which des?  the abstract function des? that stops working in any 
  >>important sense if no-one cares for the importance of truth, mathematics, 
- >>meaning, information, etc.  A DES chip or DES s/w?  That stops working in any 
- >>important sense if no-one values science, objective reality, etc.   DES
- >>does not work in a value vacuum.  Nothing else does, either.
+ >>meaning, information, etc.  a des chip or des s/w?  that stops working in any 
+ >>important sense if no-one values science, objective reality, etc.   des
+ >>does not work in a value vacuum.  nothing else does, either.
  >
- >This is just truth by blatant assertion. Your "in any important sense"
- >seem to be just weasel words. Imagine that I have a box which
- >accepts 16 bytes and uses the first 8 to ECB the second 8.
- >It still does a perfect job of DESing, whether or not any input
+ >this is just truth by blatant assertion. your "in any important sense"
+ >seem to be just weasel words. imagine that i have a box which
+ >accepts 16 bytes and uses the first 8 to ecb the second 8.
+ >it still does a perfect job of desing, whether or not any input
  >is being made at the time--whether or not anyone values mathematics..
  
- If no-one looks at the results, or acknowledges their correctness, in what
- meaningful sense can the chip be said to "work"?? Does flibozity exist?
- By "flibozity", I mean a particular, extremely complex configuration of 
- physical phenomena, which no-one, absolutely NO-ONE cares about in the 
- slightest. Does it exist, Eric?
+ if no-one looks at the results, or acknowledges their correctness, in what
+ meaningful sense can the chip be said to "work"?? does flibozity exist?
+ by "flibozity", i mean a particular, extremely complex configuration of 
+ physical phenomena, which no-one, absolutely no-one cares about in the 
+ slightest. does it exist, eric?
  
- Getting back to the question of whether the DES chip "works", doesn't "work" 
- mean something like "achieving the desired/expected effect"? Note the way 
- intentionality subtly underlies that definition. Even if we take the 
+ getting back to the question of whether the des chip "works", doesn't "work" 
+ mean something like "achieving the desired/expected effect"? note the way 
+ intentionality subtly underlies that definition. even if we take the 
  definition as "expected", instead of "desired", can you deny that conformance 
  to expectations is itself a value of sorts, namely the scientific values of 
  accuracy-of-prediction and reproducibility-of-results?
  
- The phenomenologist Husserl, for one, considered Intentionality to be the
+ the phenomenologist husserl, for one, considered intentionality to be the
  primary ontological "stuff" from which all other ontology was built --
- perceptions, consciousness, thoughts, etc. Frank is by no means alone in
+ perceptions, consciousness, thoughts, etc. frank is by no means alone in
  seeing intentionality (or "values", as he puts it) underlying all human
  experience, even the so-called "objective" experiences, such as 
- measurements of the natural world, or the output of your DES chip.
+ measurements of the natural world, or the output of your des chip.
  
- 								- Kevin
+ 								- kevin
  

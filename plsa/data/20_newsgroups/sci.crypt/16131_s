@@ -1,19 +1,19 @@
 
- In article <1993Apr27.075011.12624@wuecl.wustl.edu>
-  eah1@gauguin.wustl.edu (Edward Anthony Hutchins) writes:
+ in article <1993apr27.075011.12624@wuecl.wustl.edu>
+  eah1@gauguin.wustl.edu (edward anthony hutchins) writes:
  >[modify] pgp to allow it to compress/decompress 144 bit frames
  >every 30msec... 
- >As part of the project I'm working on now, we're trying to get CELP up and
- >running in realtime full duplex mode... I gotta find the source to pgp and
+ >as part of the project i'm working on now, we're trying to get celp up and
+ >running in realtime full duplex mode... i gotta find the source to pgp and
  >see how tough it would be to integrate the en/decryption parts into the code.
  
- I presume you are just going to use IDEA for the session encryption and
- transmit the session key with RSA?
+ i presume you are just going to use idea for the session encryption and
+ transmit the session key with rsa?
  
- David R. Conrad		"No his mind is not for rent/To any god or government"
+ david r. conrad		"no his mind is not for rent/to any god or government"
  -- 
- =  CAT-TALK Conferencing Network, Computer Conferencing and File Archive      =
- -  1-313-882-2209, 300bps-14400bps, V.32/V.32bis/TurboPEP New users use 'new' - 
- =  as a login id.  AVAILABLE VIA PC-PURSUIT!!! (City code "MIDET")            =
-    E-MAIL Address: dave@Michigan.COM
+ =  cat-talk conferencing network, computer conferencing and file archive      =
+ -  1-313-882-2209, 300bps-14400bps, v.32/v.32bis/turbopep new users use 'new' - 
+ =  as a login id.  available via pc-pursuit!!! (city code "midet")            =
+    e-mail address: dave@michigan.com
  

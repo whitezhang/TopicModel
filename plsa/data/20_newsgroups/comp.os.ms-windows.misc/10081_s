@@ -1,29 +1,29 @@
 
  
  
- I am interested to know if there is know procedure/document to
- configure an IBM Musci Feature (IMF) card to work as the sound device
- with MS-Windows 3.1.  I believe the IMF uses the same FM synth chip as
- the Soun Blaster, but didn't know what driver to use or how to
- configure the MIDI-mapper.
+ i am interested to know if there is know procedure/document to
+ configure an ibm musci feature (imf) card to work as the sound device
+ with ms-windows 3.1.  i believe the imf uses the same fm synth chip as
+ the soun blaster, but didn't know what driver to use or how to
+ configure the midi-mapper.
  
- Any help, past success, suggestions?
+ any help, past success, suggestions?
  
- Thanks,
+ thanks,
  
- Don.
+ don.
  
  ==============================================================================
          /\				
-         \ \				|	Donald Finch
+         \ \				|	donald finch
         \ \ /        /\  | | |\ |	|	
-       \ \ / /       \   | | |\ |	|	Technical Support Engr.	
-      / \/ \/ /\      \  | | | \|	|	N. American Solution Centers
+       \ \ / /       \   | | |\ |	|	technical support engr.	
+      / \/ \/ /\      \  | | | \|	|	n. american solution centers
      / /     / /     \/  \_/ | \|	|
-     \/ /\ /\ /				|	Voice: (415)336-2796
-       / / \ \	    MICROSYSTEMS	|	FAX #: (415)960-0943
-        / \ \				|	Email: Don.Finch@Corp.Sun.COM
-         \ \				|	M/S:   MTV07-04
+     \/ /\ /\ /				|	voice: (415)336-2796
+       / / \ \	    microsystems	|	fax #: (415)960-0943
+        / \ \				|	email: don.finch@corp.sun.com
+         \ \				|	m/s:   mtv07-04
           \/
  ==============================================================================
  

@@ -1,15 +1,15 @@
 
- In article <C6DEo6.uyE@watson.ibm.com>, basturk@watson.ibm.com (Erol Basturk) 
+ in article <c6deo6.uye@watson.ibm.com>, basturk@watson.ibm.com (erol basturk) 
  writes:
  
- |>                          So, the question is: has a "fast" hash
+ |>                          so, the question is: has a "fast" hash
  |> function been designed for hardware implementation ? 
  
- Yes, you can use a stream cipher chip to hash data with only slight 
- modification. See:
+ yes, you can use a stream cipher chip to hash data with only slight 
+ modification. see:
  
- `A fast cryptographic checksum algorithm based on stream ciphers', X Lai,
- RA Rueppel, J Woolven, Auscrypt 92 pp 8-7 to 8-11.
+ `a fast cryptographic checksum algorithm based on stream ciphers', x lai,
+ ra rueppel, j woolven, auscrypt 92 pp 8-7 to 8-11.
  
- Ross
+ ross
  

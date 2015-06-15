@@ -1,25 +1,25 @@
 
- Hi everyone,
-       I'm experiencing a very annoying problem with background printing
- on the HP Deskwriter (Sys 7.1, Deskwriter driver 3.1, PowerBook 170).
- When I print from, say, MS Word, I see the message "Spooling to disk,"
- but sometimes nothing prints. Checking my memory map thanks to Now Menus,
- I see that HP Backgrounder has not loaded. Restarting fixes this. It
- seems to me that HP Backgrounder is quitting unexpectedly, and that its
- status as "Multifinder NOT aware" allows it to do this without my being
- informed by a message such as "HP Backgrounder quit unexpectedly." Have
+ hi everyone,
+       i'm experiencing a very annoying problem with background printing
+ on the hp deskwriter (sys 7.1, deskwriter driver 3.1, powerbook 170).
+ when i print from, say, ms word, i see the message "spooling to disk,"
+ but sometimes nothing prints. checking my memory map thanks to now menus,
+ i see that hp backgrounder has not loaded. restarting fixes this. it
+ seems to me that hp backgrounder is quitting unexpectedly, and that its
+ status as "multifinder not aware" allows it to do this without my being
+ informed by a message such as "hp backgrounder quit unexpectedly." have
  you ever seen this problem before.
-         There may or may not be a related problem. I have experienced
- problems in putting my computer to sleep. Choosing "sleep" from the
- Finder menu sometimes does nothing. Today on a whim I checked the memory
- map, and I discovered that HP backgrounder was not loaded. Restarted
- reloaded HP backgrounder, and I was able to put my machine to sleep as
- usual. Just a mere coincidence or is the HP backgrounder crash preventing
+         there may or may not be a related problem. i have experienced
+ problems in putting my computer to sleep. choosing "sleep" from the
+ finder menu sometimes does nothing. today on a whim i checked the memory
+ map, and i discovered that hp backgrounder was not loaded. restarted
+ reloaded hp backgrounder, and i was able to put my machine to sleep as
+ usual. just a mere coincidence or is the hp backgrounder crash preventing
  my machine from going to sleep?
- 	Has anyone seen this problem? I'm seriously considering the purchase of
- a StylewriterII because of the poor quality of the HP software. 
+ 	has anyone seen this problem? i'm seriously considering the purchase of
+ a stylewriterii because of the poor quality of the hp software. 
  
- 	Please send your answers directly to me and post to the net.
- 	Yours truly,
- 	Marc Bizer
+ 	please send your answers directly to me and post to the net.
+ 	yours truly,
+ 	marc bizer
  

@@ -1,32 +1,32 @@
  
- Sender: root@sophia.smith.edu (Operator)
- Organization: Smith College
- References: <1993Apr28.160220.963@oracle.us.oracle.com>
- Distribution: na
- Date: Fri, 30 Apr 1993 14:59:10 GMT
- Lines: 23
+ sender: root@sophia.smith.edu (operator)
+ organization: smith college
+ references: <1993apr28.160220.963@oracle.us.oracle.com>
+ distribution: na
+ date: fri, 30 apr 1993 14:59:10 gmt
+ lines: 23
  
- In article <1993Apr28.160220.963@oracle.us.oracle.com> ebosco@us.oracle.com writes:
+ in article <1993apr28.160220.963@oracle.us.oracle.com> ebosco@us.oracle.com writes:
  >
- >I have a 486 sx 25 and I recently added a SCSI drive to my system using an  
- >Adaptec 1522 (non busmastering) controller. Yesterday I ran coretest to  
- >find out drive performance and these are the values I got
+ >i have a 486 sx 25 and i recently added a scsi drive to my system using an  
+ >adaptec 1522 (non busmastering) controller. yesterday i ran coretest to  
+ >find out drive performance and these are the values i got
  >
- >Seagate 106 Meg: 875.1kb/Sec	14.5ms avg seek   3.7ms track to track 
- >Quantum 400 Meg SCSI: 991.2 Kb/sec  12.7 avg seek 3.6 track to track.
+ >seagate 106 meg: 875.1kb/sec	14.5ms avg seek   3.7ms track to track 
+ >quantum 400 meg scsi: 991.2 kb/sec  12.7 avg seek 3.6 track to track.
  >
- >First off all are these good results? I don't know what typical values  
+ >first off all are these good results? i don't know what typical values  
  >are.
  
- Those are pretty typical, I believe.
+ those are pretty typical, i believe.
  
- >What I'm wondering now is the following. My swap file is currently on the  
- >IDE. I could move it to the SCSI which is 13% faster, but then I would not  
- >be able to use 32-bit access which might actuall make it slower. So on  
- >which drive should I put my swap file to get best results? Is there a swap  
+ >what i'm wondering now is the following. my swap file is currently on the  
+ >ide. i could move it to the scsi which is 13% faster, but then i would not  
+ >be able to use 32-bit access which might actuall make it slower. so on  
+ >which drive should i put my swap file to get best results? is there a swap  
  >file speed test program out there?
  
- Keep the swap file on the IDE.  32-bit access is worth a fair amount more
+ keep the swap file on the ide.  32-bit access is worth a fair amount more
  than 13%.
  
  

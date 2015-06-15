@@ -1,65 +1,65 @@
 
- swartzjh@NeXTwork.Rose-Hulman.Edu (Jeff H. Swartz) writes:
+ swartzjh@nextwork.rose-hulman.edu (jeff h. swartz) writes:
  
- >  	when I use a name such as rosevc.rose-hulman.edu
- >		Initiating nameserver query for 'rosevc'
+ >  	when i use a name such as rosevc.rose-hulman.edu
+ >		initiating nameserver query for 'rosevc'
  >		nameserver query time out
- >  	when I use the IP number
- >		Local host or gateway not responding
+ >  	when i use the ip number
+ >		local host or gateway not responding
  
- >I know the nameserver is correct and the router is correct.  They work  
- >fine using NCSA telnet/ftp.
+ >i know the nameserver is correct and the router is correct.  they work  
+ >fine using ncsa telnet/ftp.
  
- They are working ok, but your definitions in QVTNET.INI and QVTHOST.RC are
+ they are working ok, but your definitions in qvtnet.ini and qvthost.rc are
  incorrect (see below).
  
- >The docs said if you are running concurrent packet software you need to  
- >load PKTMUX???  Does this apply to me???
+ >the docs said if you are running concurrent packet software you need to  
+ >load pktmux???  does this apply to me???
  
- No, I don't think so. You are using QVTNET and NOVELL concurrently, aren't
- you? They use different packet types, so QVTNET (TCP/IP) and NOVELL (IPX/SPX)
- should be able to coexist just fine. PKTMUX is required if you are using
- different TCP/IP-Packages concurrently.
+ no, i don't think so. you are using qvtnet and novell concurrently, aren't
+ you? they use different packet types, so qvtnet (tcp/ip) and novell (ipx/spx)
+ should be able to coexist just fine. pktmux is required if you are using
+ different tcp/ip-packages concurrently.
  
- >This is the qvthost.rc file.
+ >this is the qvthost.rc file.
  >137.112.5.2
  >137.112.199.50
  
- There is the first problem: You didn't specify hostnames, just IP-Addresses.
- Your file should look like this:
+ there is the first problem: you didn't specify hostnames, just ip-addresses.
+ your file should look like this:
  
- 137.112.5.2        <Name of your Nameserver>
- 137.112.199.50     <Name of your Router>
+ 137.112.5.2        <name of your nameserver>
+ 137.112.199.50     <name of your router>
  
- >This is the beginning of the winqvt.ini file.
+ >this is the beginning of the winqvt.ini file.
  >[net]
  >name=swartzjh.test.rose-hulman.edu
  
- Here you should only specify your hostname, without the domain part.
+ here you should only specify your hostname, without the domain part.
  
  >router=137.112.199.50
  
- Instead, use router=<Name of your Router>, as specified in your QVTHOST.RC
- I know the release notes for 3.31 say that IP addresses should work also,
+ instead, use router=<name of your router>, as specified in your qvthost.rc
+ i know the release notes for 3.31 say that ip addresses should work also,
  but  apparently they don't.
  
  >nameserver=137.112.5.2
  
- Here, too, you should use the hostname of the nameserver instead of the
- IP address.
+ here, too, you should use the hostname of the nameserver instead of the
+ ip address.
  
- It worked fine for me that way, although I could not specify more than
- one nameserver. The relnotes say it should be possible to specify up to
+ it worked fine for me that way, although i could not specify more than
+ one nameserver. the relnotes say it should be possible to specify up to
  three nameservers, separated by commas, but it didn't work.
  
- Hope it helps,
- Richard
+ hope it helps,
+ richard
  
  -- 
  +----------------------------+-------------------------------------------+
- | Dr. Richard Spitz          | INTERNET: spitz@ana.med.uni-muenchen.de   |
- | EDV-Gruppe Anaesthesie     | Tel     : +49-89-7095-3421                |
- | Klinikum Grosshadern       | FAX     : +49-89-7095-8886                |
- | Munich, Germany            |                                           |
+ | dr. richard spitz          | internet: spitz@ana.med.uni-muenchen.de   |
+ | edv-gruppe anaesthesie     | tel     : +49-89-7095-3421                |
+ | klinikum grosshadern       | fax     : +49-89-7095-8886                |
+ | munich, germany            |                                           |
  +----------------------------+-------------------------------------------+
  

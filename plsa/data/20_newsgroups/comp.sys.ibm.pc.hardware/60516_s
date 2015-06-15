@@ -1,35 +1,35 @@
 
- tdbear@dvorak.amd.com (Thomas D. Barrett) writes:
+ tdbear@dvorak.amd.com (thomas d. barrett) writes:
  
- >In article <im14u2c.735176900@camelot> im14u2c@camelot.bradley.edu (Joe Zbiciak) writes:
- >>What's the word on the chipset?  Is this a ROM bug specific 
- >>to a specific brand using the Rockwell, or is it the Rockwell
+ >in article <im14u2c.735176900@camelot> im14u2c@camelot.bradley.edu (joe zbiciak) writes:
+ >>what's the word on the chipset?  is this a rom bug specific 
+ >>to a specific brand using the rockwell, or is it the rockwell
  >>chipset itself?
  
- >There were an assortment of firmware problems, but that is pretty much
- >expected with any FAX/modem talking with a different FAX or modem
- >which may have also been revised or is new.  I'm pretty much
+ >there were an assortment of firmware problems, but that is pretty much
+ >expected with any fax/modem talking with a different fax or modem
+ >which may have also been revised or is new.  i'm pretty much
  >oblivious to any current firmware problems, so you'll have to get it
  >from someone else.
  
- Someone Else, could you please comment on that. I have just bought
- a Twincom 14.4DFi, which has a Rockwell chipset. It wasn't cheap
- so I would like to hear of problems I'm likely to run into.
+ someone else, could you please comment on that. i have just bought
+ a twincom 14.4dfi, which has a rockwell chipset. it wasn't cheap
+ so i would like to hear of problems i'm likely to run into.
  
- >However, I can tell you to stay clear of any board which uses the
- >Rockwell MPU (as opposed to the DPU) for an internal implementation.
- >This is because the MPU used "speed buffering" instead of having a
- >16550 interface.  Without the 550 interface, the number of interrupts
+ >however, i can tell you to stay clear of any board which uses the
+ >rockwell mpu (as opposed to the dpu) for an internal implementation.
+ >this is because the mpu used "speed buffering" instead of having a
+ >16550 interface.  without the 550 interface, the number of interrupts
  >are still the same and thus may get dropped under multitasking
- >conditions (like in windows).  As far as I know, the "speed buffering"
- >works OK for external modems if a 550 is used on the internal serial
+ >conditions (like in windows).  as far as i know, the "speed buffering"
+ >works ok for external modems if a 550 is used on the internal serial
  >port board.
  
- Phew, I was lucky! The Twincom internal version has a 550A and one
- of the Rockwell chips is marked RC144DP.
+ phew, i was lucky! the twincom internal version has a 550a and one
+ of the rockwell chips is marked rc144dp.
  
- But still I would like to hear more of the above mentioned firmware
+ but still i would like to hear more of the above mentioned firmware
  problems.
  
- Niels
+ niels
  

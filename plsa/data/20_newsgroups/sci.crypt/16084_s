@@ -1,42 +1,42 @@
 
- In article <allen.735873202@well.sf.ca.us> allen@well.sf.ca.us (Allen Barrett Ethridge) writes:
- >In <1993Apr26.063532.10120@eff.org> mnemonic@eff.org (Mike Godwin) writes:
+ in article <allen.735873202@well.sf.ca.us> allen@well.sf.ca.us (allen barrett ethridge) writes:
+ >in <1993apr26.063532.10120@eff.org> mnemonic@eff.org (mike godwin) writes:
  >
- >>In article <C614BJ.BK6@agora.rain.com> jhart@agora.rain.com (Jim Hart) writes:
- >>>"The security of the system should depend only on the secrecy of
- >>>the keys and not on the secrecy of the algorithms" -- Dorothy Denning
+ >>in article <c614bj.bk6@agora.rain.com> jhart@agora.rain.com (jim hart) writes:
+ >>>"the security of the system should depend only on the secrecy of
+ >>>the keys and not on the secrecy of the algorithms" -- dorothy denning
  >
- >>Cite source, please.
+ >>cite source, please.
  >
- >"Cryptography and Data Security", page 8, perhaps.
+ >"cryptography and data security", page 8, perhaps.
  
- Thanks. Got that from two other sources as well. The full quote is as
+ thanks. got that from two other sources as well. the full quote is as
  follows:
  
- From Dorothy Denning, CRYPTOGRAPHY AND DATA SECURITY, Addison-Wesley
+ from dorothy denning, cryptography and data security, addison-wesley
  1982,1983, page 8:
  
- "Cryptosystems must satisfy three general requirements:
+ "cryptosystems must satisfy three general requirements:
  
- "1. The enciphering and deciphering transformations must be efficient for
+ "1. the enciphering and deciphering transformations must be efficient for
  all keys.
  
- "2. The system must be easy to use.
+ "2. the system must be easy to use.
  
- "3. The security of the system should depend only on the secrecy of the
- keys and not on the secrecy of algorithms E [enciphering] or D
+ "3. the security of the system should depend only on the secrecy of the
+ keys and not on the secrecy of algorithms e [enciphering] or d
  [deciphering]."
  
  
  
- --Mike
+ --mike
  
  
  
  
  -- 
- Mike Godwin,    |    Ariel Rose Godwin
- mnemonic@eff.org|    Born 4-15-93 at 4:34 pm in Cambridge 
+ mike godwin,    |    ariel rose godwin
+ mnemonic@eff.org|    born 4-15-93 at 4:34 pm in cambridge 
  (617) 576-4510  |    7 pounds, 1.5 ounces, 19.75 inches long 
- EFF, Cambridge  |    A new citizen of the Electronic Frontier 
+ eff, cambridge  |    a new citizen of the electronic frontier 
  

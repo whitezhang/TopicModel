@@ -1,27 +1,27 @@
 
- Now available: xvertext 4.0 
+ now available: xvertext 4.0 
  --------------
  
- Summary                                  
+ summary                                  
  -------
  xvertext provides you with four functions to draw strings at any angle in   
- an X window (previous versions were limited to vertical text). Rotation  
- is still achieved using XImages, but the notion of rotating a whole font
+ an x window (previous versions were limited to vertical text). rotation  
+ is still achieved using ximages, but the notion of rotating a whole font
  first has been dropped.
  
- What's new?
+ what's new?
  -----------
- I've added a cache which keeps a copy of previously rotated strings - thus
+ i've added a cache which keeps a copy of previously rotated strings - thus
  speeding up redraws.
  
- Where can I get it? 
+ where can i get it? 
  -------------------
  comp.sources.x (soon...)
- export.lcs.mit.edu : contrib/xvertext.4.0.shar.Z  (now)
+ export.lcs.mit.edu : contrib/xvertext.4.0.shar.z  (now)
  
  -- 
- Alan Richardson,                             * "You don't have to be *
- School of Maths & Physical Sciences,         *  old to be wise"      *
- Univ. of Sussex, Brighton BN1 9QH, ENGLAND   * ******Judas Priest*****
- UK: mppa3@uk.ac.sussex.syma         elsewhere: mppa3@syma.sussex.ac.uk
+ alan richardson,                             * "you don't have to be *
+ school of maths & physical sciences,         *  old to be wise"      *
+ univ. of sussex, brighton bn1 9qh, england   * ******judas priest*****
+ uk: mppa3@uk.ac.sussex.syma         elsewhere: mppa3@syma.sussex.ac.uk
  

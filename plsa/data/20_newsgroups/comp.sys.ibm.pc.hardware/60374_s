@@ -1,24 +1,24 @@
 
- In article <wayne.02uv@amtower.spacecoast.org> wayne@amtower.spacecoast.orgX-NewsSoftware: GRn 1.16f (10.17.92) by Mike Schwartz & Michael B. Smith writes:
- >In article <1993Apr15.235509.29818@julian.uwo.ca> wlsmith@valve.heart.rri.uwo.ca (Wayne Smith) writes:
+ in article <wayne.02uv@amtower.spacecoast.org> wayne@amtower.spacecoast.orgx-newssoftware: grn 1.16f (10.17.92) by mike schwartz & michael b. smith writes:
+ >in article <1993apr15.235509.29818@julian.uwo.ca> wlsmith@valve.heart.rri.uwo.ca (wayne smith) writes:
  >>
- >> I won't argue that the SCSI standard makes for a good, well implimented
- >> data highway, but I still want to know why it intrinsically better
- >> (than IDE, on an ISA bus) when it comes to multi-tasking OS's when
- >> managing data from a single SCSI hard drive.
+ >> i won't argue that the scsi standard makes for a good, well implimented
+ >> data highway, but i still want to know why it intrinsically better
+ >> (than ide, on an isa bus) when it comes to multi-tasking os's when
+ >> managing data from a single scsi hard drive.
  >
- >I have been following this thread and figured I'd throw in my two cents...
+ >i have been following this thread and figured i'd throw in my two cents...
  >
- >The Amiga Zorro II bus is comparable with the ISA bus (7.16 vs 8.33 MHZ).
+ >the amiga zorro ii bus is comparable with the isa bus (7.16 vs 8.33 mhz).
  
- 	Except for the fact that it's superior in just about every way to
- the ISA Bus.
+ 	except for the fact that it's superior in just about every way to
+ the isa bus.
  
- >The Amiga has had a pre-emptative multi-tasking  OS since '85 and can
- >operate with 1 MB RAM!  SCSI is used almost exclusively on these systems.
+ >the amiga has had a pre-emptative multi-tasking  os since '85 and can
+ >operate with 1 mb ram!  scsi is used almost exclusively on these systems.
  
- 	Except for the new systems that now ship only with IDE controllers.
+ 	except for the new systems that now ship only with ide controllers.
  
- 	ToodlepiP!
- 	Marc 'em.
+ 	toodlepip!
+ 	marc 'em.
  

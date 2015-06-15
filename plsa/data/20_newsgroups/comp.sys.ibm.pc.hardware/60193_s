@@ -1,55 +1,55 @@
 
- In article <C5Fu1u.pxx@austin.ibm.com> guyd@austin.ibm.com (Guy Dawson) writes:
+ in article <c5fu1u.pxx@austin.ibm.com> guyd@austin.ibm.com (guy dawson) writes:
  >
- >In article <10998@lhdsy1.lahabra.chevron.com>, jjctc@lhdsy1.lahabra.chevron.com (James C. Tsiao) writes:
- >> In article <1993Apr12.172751.27270@fct.unl.pt> fcm@diana.fct.unl.pt (Fernando Correia Martins (MEI 1)) writes:
- >> >Spectre (spectre@nmt.edu) wrote:
- >> >: When I look at a magazine ad that says:
+ >in article <10998@lhdsy1.lahabra.chevron.com>, jjctc@lhdsy1.lahabra.chevron.com (james c. tsiao) writes:
+ >> in article <1993apr12.172751.27270@fct.unl.pt> fcm@diana.fct.unl.pt (fernando correia martins (mei 1)) writes:
+ >> >spectre (spectre@nmt.edu) wrote:
+ >> >: when i look at a magazine ad that says:
  [deleted]
- >> >: what exactly do the numbers mean?  (i.e.  which is the MB, ns...)
+ >> >: what exactly do the numbers mean?  (i.e.  which is the mb, ns...)
  >> >
- >> >The numbers 60, 70 and 80 refers to nanoseconds. Could someone explain
- >> >*exactly* what this numbers means? (Time spent bettwen processor's request
+ >> >the numbers 60, 70 and 80 refers to nanoseconds. could someone explain
+ >> >*exactly* what this numbers means? (time spent bettwen processor's request
  >> >and answer retrieved (in case of reading)? )
  >> 
- >> It means the time required for the memory to refresh,  i.e. a 1x9-60
+ >> it means the time required for the memory to refresh,  i.e. a 1x9-60
  >> needs 60ns before it is ready to be read again.
  >
- >Nope! It's the time taken to read data from memory. It's the read time.
- >The memory will still have to be refreshed. The whole phase is called
+ >nope! it's the time taken to read data from memory. it's the read time.
+ >the memory will still have to be refreshed. the whole phase is called
  >a cycle, the cycle time being about twice the access time.
  
- I'm sorry if I'm misunderstanding your post, but DRAM *does not* have to
- be refreshed on *each access cycle*.  So cycle time does *not* have to be
+ i'm sorry if i'm misunderstanding your post, but dram *does not* have to
+ be refreshed on *each access cycle*.  so cycle time does *not* have to be
  twice the access time *because of refresh phase*.
  
- The access time usually means the delay time from falling edge of raw
- address strobe (RAS) to data bus driven.
+ the access time usually means the delay time from falling edge of raw
+ address strobe (ras) to data bus driven.
  
- DRAM access cycle timing chart can be roughly shown as following (some
+ dram access cycle timing chart can be roughly shown as following (some
  signals are intentionally omitted);
  
- ADDR --<RA><CA>-------<RA><CA>--------- RA=Raw Address, CA=Column Address
- RAS  ~~~~\________/~~~~~\________/~~~~~		~=High, _=Low, -=Floating
- CAS  ~~~~~~~\_______/~~~~~~\_______/~~~		<..>=driven either H or L
- DATA ---------<VALID>--------<VALID>---
+ addr --<ra><ca>-------<ra><ca>--------- ra=raw address, ca=column address
+ ras  ~~~~\________/~~~~~\________/~~~~~		~=high, _=low, -=floating
+ cas  ~~~~~~~\_______/~~~~~~\_______/~~~		<..>=driven either h or l
+ data ---------<valid>--------<valid>---
           |-------+------|
           |-+--|  |
             |     +----------- cycle time
-            +---- access time (or RAS access time)
+            +---- access time (or ras access time)
  
- Yes, the cycle time is more than twice as the access time but *not*
- because of the refresh phase.  The refresh can be done either as a
+ yes, the cycle time is more than twice as the access time but *not*
+ because of the refresh phase.  the refresh can be done either as a
  trailing phase of normal access cycle or as an individual cycle.
  
  >
  [other stuff deleted]
  >
  
- Ken Nakata
+ ken nakata
  -- 
- /* I apologize if there are incorrect, rude, and/or impolite expressions in
- this mail or post. They are not intended. Please consider that English is a
- second language for me and I don't have full understanding of certain words
- or each nuance of a phrase.  Thank you. -- Ken Nakata, CIS student, NJIT */
+ /* i apologize if there are incorrect, rude, and/or impolite expressions in
+ this mail or post. they are not intended. please consider that english is a
+ second language for me and i don't have full understanding of certain words
+ or each nuance of a phrase.  thank you. -- ken nakata, cis student, njit */
  

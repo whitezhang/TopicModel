@@ -1,45 +1,45 @@
 
  
- In article <1993Apr11.120848.493@wnbbs.nbg.sub.org> (comp.sys.ibm.pc.hardware,alt.msdos.programmer,comp.sys.ibm.pc.misc,uw.pc.general,uw.pc.ibm,misc.forsale.computers.d,comp.dcom.modems,), oli@wnbbs.nbg.sub.org (Oliver Duesel) writes:
- ] Hi there,
+ in article <1993apr11.120848.493@wnbbs.nbg.sub.org> (comp.sys.ibm.pc.hardware,alt.msdos.programmer,comp.sys.ibm.pc.misc,uw.pc.general,uw.pc.ibm,misc.forsale.computers.d,comp.dcom.modems,), oli@wnbbs.nbg.sub.org (oliver duesel) writes:
+ ] hi there,
  ] 
- ] yuri@windy.Berkeley.EDU (Yuri Yulaev) writes:
+ ] yuri@windy.berkeley.edu (yuri yulaev) writes:
  ] 
- ] : 	I have 1s/1p/1g  I/O card in my 386/40 PC. 
- ] : When I plug in wang modem at com4,it works. If I change
+ ] : 	i have 1s/1p/1g  i/o card in my 386/40 pc. 
+ ] : when i plug in wang modem at com4,it works. if i change
  ] : it to com1- it doesn't. 
- ] : Program "chkport" gives diagnostics like "possible com /irq
+ ] : program "chkport" gives diagnostics like "possible com /irq
  ] : conflict at com1" (with mouse driver in memory).
  ] 
- ] Since your IO-card only has one serial port - this should default to COM1 ? 
- ] Under MS-DOS, you can't share IRQ's - so you'll have to set either your modem
- ] or your mouse to COM2 ... using different adresses and IRQ's.
- ] When you set two 'devices' onto the same IRQ - like COM1 and COM3 (or 2 and 4)
- ] - the 'latter' one will always win, i.e. if you have your mouse on COM1 and
- ] start using your modem on COM3, your modem should work - but your mouse will
+ ] since your io-card only has one serial port - this should default to com1 ? 
+ ] under ms-dos, you can't share irq's - so you'll have to set either your modem
+ ] or your mouse to com2 ... using different adresses and irq's.
+ ] when you set two 'devices' onto the same irq - like com1 and com3 (or 2 and 4)
+ ] - the 'latter' one will always win, i.e. if you have your mouse on com1 and
+ ] start using your modem on com3, your modem should work - but your mouse will
  ] stop doing so, until reboot.
  ] 
- ] It should be no problem, setting your modem to COM2 ? (you didn't write 
+ ] it should be no problem, setting your modem to com2 ? (you didn't write 
  ] anything about other peripherals ...)
  ] 
- ] I hope, it helped a bit ....					By(t)e, Oli.
+ ] i hope, it helped a bit ....					by(t)e, oli.
  ] 
  ] 
  
- Hi,
+ hi,
  
- I'm kind of new at the pc stuff.  My machine has 4 serial ports.  Com 1 and3
- and 2 &4 share same IRQs.  You mean I can't plug a mouse into Com1 and a modem
+ i'm kind of new at the pc stuff.  my machine has 4 serial ports.  com 1 and3
+ and 2 &4 share same irqs.  you mean i can't plug a mouse into com1 and a modem
  into com3 and expect both to work?
  
- If Answer is NO, should I change IRQ's for com ports to be different?  And,
- does it really matter which IRQ I set the ports too?
+ if answer is no, should i change irq's for com ports to be different?  and,
+ does it really matter which irq i set the ports too?
  
- Phil
+ phil
  
  --------------------------------------------------------------------
- Phil Hunt                          "Wherever you go, there you are!"
- Howtek, Inc.		                   
+ phil hunt                          "wherever you go, there you are!"
+ howtek, inc.		                   
  
- Internet: phil@howtek.MV.COM   uucp: {decvax|harvard}!mv!howtek!phil
+ internet: phil@howtek.mv.com   uucp: {decvax|harvard}!mv!howtek!phil
  

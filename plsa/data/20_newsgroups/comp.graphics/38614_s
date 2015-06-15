@@ -1,34 +1,34 @@
 
- In article <1r1cqiINNje8@srvr1.engin.umich.edu> tdawson@llullaillaco.engin.umich.edu (Chris Herringshaw) writes:
+ in article <1r1cqiinnje8@srvr1.engin.umich.edu> tdawson@llullaillaco.engin.umich.edu (chris herringshaw) writes:
  >
- >Sorry for the repeat of this request, but does anyone know of a good
- >free/shareware program with which I can create ray-traces and save
- >them as bit-mapped files?  (Of course if there is such a thing =)
+ >sorry for the repeat of this request, but does anyone know of a good
+ >free/shareware program with which i can create ray-traces and save
+ >them as bit-mapped files?  (of course if there is such a thing =)
  >
- >Thanks in advance
+ >thanks in advance
  >
- >Daemon
+ >daemon
  
- There are 2 books published by M&T BOOKS that come with C source code on
- floppies.  They are:
+ there are 2 books published by m&t books that come with c source code on
+ floppies.  they are:
  
- Programming In 3 Dimensions, 3-D Graphics, Ray Traycing, and Animation
- by: Christopher D. Watkins and Larry Sharp.
+ programming in 3 dimensions, 3-d graphics, ray traycing, and animation
+ by: christopher d. watkins and larry sharp.
  
- Photorealism and Ray Tracing in C
- by: Christopher D. Watkins, Stephen B. Coy, and Mark Finlay.
+ photorealism and ray tracing in c
+ by: christopher d. watkins, stephen b. coy, and mark finlay.
  
- I have the first book and it is a great intro to 3-D, Ray Tracing and
- Animation.  Most of the programs are on the disk compiled and ready to run.
+ i have the first book and it is a great intro to 3-d, ray tracing and
+ animation.  most of the programs are on the disk compiled and ready to run.
  
- I have only glanced at the second book but it also appears to be good.
+ i have only glanced at the second book but it also appears to be good.
  
- Hope this helps!
- Mark Larsen
+ hope this helps!
+ mark larsen
  
  ---------------------------------------------------------------------------
  markl@hunan.rastek.com
  
- "This R2 unit has a bad motivator!"
-    - Luke, Star Wars
+ "this r2 unit has a bad motivator!"
+    - luke, star wars
  

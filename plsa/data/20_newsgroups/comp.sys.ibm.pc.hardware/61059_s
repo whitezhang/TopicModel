@@ -1,39 +1,39 @@
 
- Hi peeps,
+ hi peeps,
  
- Here's another of those "any ideas" type queries.
+ here's another of those "any ideas" type queries.
  
- I've been given an oldish Phillips TeleVideo terminal type thingy, without
- a keyboard.  But no problem so far.
+ i've been given an oldish phillips televideo terminal type thingy, without
+ a keyboard.  but no problem so far.
  
- When I dismantled it, I discovered that it is really just a standard
- RGB monitor with built in modem/ROM software etc.
+ when i dismantled it, i discovered that it is really just a standard
+ rgb monitor with built in modem/rom software etc.
  
- Phillips kindly labelled the circuit board with the RGB inputs, so I
+ phillips kindly labelled the circuit board with the rgb inputs, so i
  connected it up as a monitor and he presto it worked - sort of.
  
- The problem is that I have no idea where to connect the Sync lines.
- The display rolls continuously, but does change modes (OK only to
- CGA - but useful for my laptop).
+ the problem is that i have no idea where to connect the sync lines.
+ the display rolls continuously, but does change modes (ok only to
+ cga - but useful for my laptop).
  
- Any of you wonderful people any knowledge of Phillips monitors?
+ any of you wonderful people any knowledge of phillips monitors?
  
- I've tried Phillips in the UK and a very helpful guy told me that
- he has had several enquiries of this sort, but Phillips Computer
- is now under the auspices of DEC (at least in the UK).  DEC said
- sorry Phillips don't make it any more. What is it anyway?
- A UK support dealer said "Circuit diagrams? Sync?"
+ i've tried phillips in the uk and a very helpful guy told me that
+ he has had several enquiries of this sort, but phillips computer
+ is now under the auspices of dec (at least in the uk).  dec said
+ sorry phillips don't make it any more. what is it anyway?
+ a uk support dealer said "circuit diagrams? sync?"
  
- So any ideas.
+ so any ideas.
  
- John.
+ john.
  
  
  ____________________________________________________________________
- Quote:
-       Computer Scientists are not boring. They're Wonderful, 
-       Exciting, Interesting people who just happen to like
+ quote:
+       computer scientists are not boring. they're wonderful, 
+       exciting, interesting people who just happen to like
        talking to inanimate objects as if they are human.
-                                                    by Me.
+                                                    by me.
  
  

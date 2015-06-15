@@ -1,9 +1,9 @@
 
  
- Hello,
-   I've been trying to bump map a gif onto a sphere for a while and I
- can't seem to get it to work.  Image mapping works, but not bump
- mapping.  Here's a simple file I was working with, could some kind
+ hello,
+   i've been trying to bump map a gif onto a sphere for a while and i
+ can't seem to get it to work.  image mapping works, but not bump
+ mapping.  here's a simple file i was working with, could some kind
  soul tell me whats wrong with this.....
  
  #include "colors.inc"
@@ -18,7 +18,7 @@
    look_at   <0 1 2>
  }
   
- object { light_source { <2 4 -3> color White }
+ object { light_source { <2 4 -3> color white }
         }
   
  object {
@@ -28,19 +28,19 @@
     }
  }
  
- NOTE: surf.gif is a plasma fractal from Fractint that is using the
+ note: surf.gif is a plasma fractal from fractint that is using the
  landscape palette map.
  
    
- 	Thanks in advance
- 	   -Daniel-
+ 	thanks in advance
+ 	   -daniel-
  
  *======================================================================* 
- | Daniel Kennett	 		                               |
+ | daniel kennett	 		                               |
  | dkennett@sfu.ca          		   			       |
- | "Our minds are finite, and yet even in those circumstances of        |
+ | "our minds are finite, and yet even in those circumstances of        |
  |  finitude, we are surrounded by possibilities that are infinite, and |
  |  the purpose of human life is to grasp as much as we can out of that |
- |  infinitude." - Alfred North Whitehead                               |  
+ |  infinitude." - alfred north whitehead                               |  
  *======================================================================*
  

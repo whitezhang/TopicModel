@@ -1,32 +1,32 @@
 
- Joshua Smith (jlredd@ravel.udel.edu) wrote:
+ joshua smith (jlredd@ravel.udel.edu) wrote:
  : 
- : Once again, someone else with a Gateway Monitor problem, anyone who can
- : help, please do, it would be much apprieciated.  Thanks in advance.
+ : once again, someone else with a gateway monitor problem, anyone who can
+ : help, please do, it would be much apprieciated.  thanks in advance.
  : 
- : Ok, I have a Local Bus 486/66 machine, with the Crystal Scan 15inch
- : monitor.  I have 1 meg of loca memory on the ATI ultra pro, w/ the
+ : ok, i have a local bus 486/66 machine, with the crystal scan 15inch
+ : monitor.  i have 1 meg of loca memory on the ati ultra pro, w/ the
  : mach32 driver (the newest release).
  : 
- : My problem is in Windows when I use the 1024 mode. I get shadows down
- : the sides of the screens, and very blurry type in the corners.  The
- : types on the screen are all out of focus. I've gotten replacement video
- : cards, and a replacement monitor.  None of that has helped though.
- : Could someone pleae help me with this very frustruating problem.
+ : my problem is in windows when i use the 1024 mode. i get shadows down
+ : the sides of the screens, and very blurry type in the corners.  the
+ : types on the screen are all out of focus. i've gotten replacement video
+ : cards, and a replacement monitor.  none of that has helped though.
+ : could someone pleae help me with this very frustruating problem.
  
- I have the 1 meg card with the Crystal Scan 15 inch also.  I see very
+ i have the 1 meg card with the crystal scan 15 inch also.  i see very
  faint shadows on the left side of the screen only in 1024 x 768 mode,
- but not enough to really bother me.  The characters on the screen
- are clear until I turn on the Crystal Fonts, then they become blurry.
+ but not enough to really bother me.  the characters on the screen
+ are clear until i turn on the crystal fonts, then they become blurry.
  
- I have a friend who has 2 meg on the video card who has the same shadows,
- but says the Crystal Fonts are, well, crystal clear.
+ i have a friend who has 2 meg on the video card who has the same shadows,
+ but says the crystal fonts are, well, crystal clear.
  
- We are both using build 59 of the mach32 drivers. Neither of us has a monitor
- extension cable.  I tried the build55 driver and found no difference.
+ we are both using build 59 of the mach32 drivers. neither of us has a monitor
+ extension cable.  i tried the build55 driver and found no difference.
  
  --
- Tim King, tcking@uswnvg.com
- US West NewVector Group Inc.
- Bellevue, Washington
+ tim king, tcking@uswnvg.com
+ us west newvector group inc.
+ bellevue, washington
  

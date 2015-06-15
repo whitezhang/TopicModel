@@ -1,51 +1,51 @@
 
- Rich Brandwein writes:
+ rich brandwein writes:
  
- +In article <1993May7.211312.10403@bert.eecs.uic.edu>, rsc@siggraph.org
- +(Steve Cunningham) writes:
- +|>           Computer Graphics experimental special online issue
- +|>                                May 1993
+ +in article <1993may7.211312.10403@bert.eecs.uic.edu>, rsc@siggraph.org
+ +(steve cunningham) writes:
+ +|>           computer graphics experimental special online issue
+ +|>                                may 1993
  +|> 
- +|> The May 1993 experimental special issue of Computer Graphics is online 
+ +|> the may 1993 experimental special issue of computer graphics is online 
  +|> as a set of files on the  siggraph.org  system in the directory 
- +|>      ~ftp/publications/May_93_online 
- +|> This is made available to the computer graphics community by ACM 
- +|> SIGGRAPH.  The general theme of this issue is electronic documents, and 
- +|> the Table of Contents in the AboutThisIssue files will tell you more 
+ +|>      ~ftp/publications/may_93_online 
+ +|> this is made available to the computer graphics community by acm 
+ +|> siggraph.  the general theme of this issue is electronic documents, and 
+ +|> the table of contents in the aboutthisissue files will tell you more 
  +|> about this publication and its contents.
  +
- +        I ftp'd here, but found nothing.  Has this been removed?
+ +        i ftp'd here, but found nothing.  has this been removed?
  
- Nope, it's still there:
+ nope, it's still there:
  
  ftp siggraph.org
- Connected to siggraph.org.
- 220 siggraph.org FTP server (Version 6.12 Tue Apr 13 09:53:56 CDT 1993) ready.
- Name (siggraph.org:rsc): anonymous
- 331 Guest login ok, send e-mail address as password.
- Password:
+ connected to siggraph.org.
+ 220 siggraph.org ftp server (version 6.12 tue apr 13 09:53:56 cdt 1993) ready.
+ name (siggraph.org:rsc): anonymous
+ 331 guest login ok, send e-mail address as password.
+ password:
  230--------------------------------------------------------------
- 230-    Welcome to Siggraph.Org, a machine maintained for ACM 
- 230-    SIGGRAPH by volunteers as a service to the active
+ 230-    welcome to siggraph.org, a machine maintained for acm 
+ 230-    siggraph by volunteers as a service to the active
  230-    computer graphics community.
  230-    ...
- ftp> cd publications/May_93_online
- 250 CWD command successful.
+ ftp> cd publications/may_93_online
+ 250 cwd command successful.
  ftp> ls
- 200 PORT command successful.
- 150 Opening ASCII mode data connection for file list.
- AboutThisIssue
- Kappe.Maurer
- Skip.Tappan.Russell
- Gonzalez
- Rosenblum
- Bossomaier.Green
- Announcements
- Calendar
- Contacts
+ 200 port command successful.
+ 150 opening ascii mode data connection for file list.
+ aboutthisissue
+ kappe.maurer
+ skip.tappan.russell
+ gonzalez
+ rosenblum
+ bossomaier.green
+ announcements
+ calendar
+ contacts
  index
- READ_ME
- 226 Transfer complete.
- 141 bytes received in 0.04 seconds (3.4 Kbytes/s)
+ read_me
+ 226 transfer complete.
+ 141 bytes received in 0.04 seconds (3.4 kbytes/s)
  ftp>
  

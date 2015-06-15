@@ -1,30 +1,30 @@
 
- In article <1993Apr20.150531.2059@magnus.acs.ohio-state.edu>, jebright@magnus.acs.ohio-state.edu (James R Ebright) writes:
- > Now why is that?  I doubt there is a trapdoor in Skipjack.  (But we will
- > never know).  And I doubt the NSA would promote a mass market chip they
- > couldn't compromise.  Ergo, NSA is now capable of compromising (probably
- > with brute force keysearch) engines of the complexity of Skipjack.  Look
- > at the specs.  Why, I bet they have thousands of little chips chugging
- > away in their crypto busters... Maybe even tens of thousands.  Complexity?
- > Not much more than a 3090.  How many such machines will fit into Fort Meade?
+ in article <1993apr20.150531.2059@magnus.acs.ohio-state.edu>, jebright@magnus.acs.ohio-state.edu (james r ebright) writes:
+ > now why is that?  i doubt there is a trapdoor in skipjack.  (but we will
+ > never know).  and i doubt the nsa would promote a mass market chip they
+ > couldn't compromise.  ergo, nsa is now capable of compromising (probably
+ > with brute force keysearch) engines of the complexity of skipjack.  look
+ > at the specs.  why, i bet they have thousands of little chips chugging
+ > away in their crypto busters... maybe even tens of thousands.  complexity?
+ > not much more than a 3090.  how many such machines will fit into fort meade?
  
- > I think PGP2.3 should have 256 bit IDEA keys...
+ > i think pgp2.3 should have 256 bit idea keys...
  
- Thousands?  Tens of thousands?  Do some arithmetic, please...  Skipjack
- has 2^80 possible keys.  Let's assume a brute-force engine like that
- hypothesized for DES:  1 microsecond per trial, 1 million chips.  That's
- 10^12 trials per second, or about 38,000 years for 2^80 trials.  Well,
+ thousands?  tens of thousands?  do some arithmetic, please...  skipjack
+ has 2^80 possible keys.  let's assume a brute-force engine like that
+ hypothesized for des:  1 microsecond per trial, 1 million chips.  that's
+ 10^12 trials per second, or about 38,000 years for 2^80 trials.  well,
  maybe they can get chips running at one trial per nanosecond, and build
- a machine with 10 million chips.  Sure -- only 3.8 years for each solution.
+ a machine with 10 million chips.  sure -- only 3.8 years for each solution.
  
- IDEA uses 128-bit keys.  Shall I bother doing the calculations for you?
- Hint:  multiply 3.8 years by 2^(128-80).  And you can't do IDEA at that
- speed; key setup takes much too long.  I wouldn't be surprised if that
- were the case for Skipjack, too, though there's no way of knowing just
- yet.  DES used only xor because that's what was feasible with mid-70's
- technology.  Modern chips can do a lot more.
+ idea uses 128-bit keys.  shall i bother doing the calculations for you?
+ hint:  multiply 3.8 years by 2^(128-80).  and you can't do idea at that
+ speed; key setup takes much too long.  i wouldn't be surprised if that
+ were the case for skipjack, too, though there's no way of knowing just
+ yet.  des used only xor because that's what was feasible with mid-70's
+ technology.  modern chips can do a lot more.
  
- NSA may or may not know how to crack Skipjack and IDEA (I doubt it for
- the former; I have no idea for the latter, though it does seem to be a
- strong cryptosystem).  But it ain't gonna be by exhaustive search.
+ nsa may or may not know how to crack skipjack and idea (i doubt it for
+ the former; i have no idea for the latter, though it does seem to be a
+ strong cryptosystem).  but it ain't gonna be by exhaustive search.
  

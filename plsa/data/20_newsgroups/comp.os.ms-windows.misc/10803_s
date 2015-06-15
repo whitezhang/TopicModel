@@ -1,16 +1,16 @@
 
  
  
- The Microsoft Windows Device Driver Kit (DDK) documentation (blurb)
- states that the user must separately acquire the Microsoft Windows
- Software Development Kit (SDK), which contains the Windows tools
- to build the drivers. If we are using Borland C++ with Application
- Frameworks, is this necessary? We also have a copy of the Microsoft
- Press Programmer's Reference Library (books) which normally comes
- with the SDK, and Microsoft Macro Assembler 6.0. Why is the SDK
- neccessary for development of Virtual Device Drivers?
+ the microsoft windows device driver kit (ddk) documentation (blurb)
+ states that the user must separately acquire the microsoft windows
+ software development kit (sdk), which contains the windows tools
+ to build the drivers. if we are using borland c++ with application
+ frameworks, is this necessary? we also have a copy of the microsoft
+ press programmer's reference library (books) which normally comes
+ with the sdk, and microsoft macro assembler 6.0. why is the sdk
+ neccessary for development of virtual device drivers?
  
-  - Steven Murray 
-    (posted on behalf of Brian Davies)
+  - steven murray 
+    (posted on behalf of brian davies)
  
  

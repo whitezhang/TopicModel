@@ -1,45 +1,45 @@
 
- In <C622A1.7t6@demon.co.uk> Graham Toal <gtoal@gtoal.com> writes:
- >In article <1regq0INNn7u@gap.caltech.edu> hal@cco.caltech.edu (Hal Finney) writes:
- >:I tried this code yesterday.  On my Sparcstation ELC it takes over
- >:300 seconds to compress 22 seconds' worth of speech.  This means that it
+ in <c622a1.7t6@demon.co.uk> graham toal <gtoal@gtoal.com> writes:
+ >in article <1regq0innn7u@gap.caltech.edu> hal@cco.caltech.edu (hal finney) writes:
+ >:i tried this code yesterday.  on my sparcstation elc it takes over
+ >:300 seconds to compress 22 seconds' worth of speech.  this means that it
  >:needs to be "optimized" by over a factor of 10 before it will be usable
  >:in even a half-duplex mode.
  
- >Ouch!  Thanks for trying it.
+ >ouch!  thanks for trying it.
  
- The following program is a very quick hack I created a few months
- ago to determine whether a Sun Sparcstation IPC could perform
+ the following program is a very quick hack i created a few months
+ ago to determine whether a sun sparcstation ipc could perform
  real-time, full-duplex encrypted audio with resulting data rates
  sustainable by today's modems.
  
- This test program reads linearly-encoded audio from the audio device,
- compresses it with GSM 06.10 (compresses frames of 160 13-bit samples
- recorded at 8kHz into 260 bits resulting in a 50 Hz frame rate), encrypts
- it with DES, then reverses the process and sends the reconstructed audio
- back to the audio device.  The compressed, encrypted audio stream
+ this test program reads linearly-encoded audio from the audio device,
+ compresses it with gsm 06.10 (compresses frames of 160 13-bit samples
+ recorded at 8khz into 260 bits resulting in a 50 hz frame rate), encrypts
+ it with des, then reverses the process and sends the reconstructed audio
+ back to the audio device.  the compressed, encrypted audio stream
  is 13 kbits/s (!).
  
- My Sparcstation IPC (not exactly a very fast machine these days,
- certainly slower than an ELC) would just barely sustain this activity
- (audio underruns would occcur but the speech was very intelligible).  I
- ran it as a real-time process to get the best results.  Remember,
+ my sparcstation ipc (not exactly a very fast machine these days,
+ certainly slower than an elc) would just barely sustain this activity
+ (audio underruns would occcur but the speech was very intelligible).  i
+ ran it as a real-time process to get the best results.  remember,
  though, that this program is a quick hack and the performance can
  certainly be improved.
  
- The audio compression routines can be ftp'd from tub.cs.tu-berlin.de,
- I believe (look for gsm or toast).  I used Eric Young's DES
- implementation but I no longer know where I got it from.
+ the audio compression routines can be ftp'd from tub.cs.tu-berlin.de,
+ i believe (look for gsm or toast).  i used eric young's des
+ implementation but i no longer know where i got it from.
  
- Cheers!greg
+ cheers!greg
  
- <--------------------------- CUT HERE ----------------------------->
+ <--------------------------- cut here ----------------------------->
  /*
-  * Test program to see how much CPU it takes for secure digital audio.
-  * Written by G. Onufer (greg@cheers.Bungi.COM).
+  * test program to see how much cpu it takes for secure digital audio.
+  * written by g. onufer (greg@cheers.bungi.com).
   *
-  * Written on a Sun IPC running Solaris 2.2 with a Sun ISDN S-Bus card
-  * and a SpeakerBox.
+  * written on a sun ipc running solaris 2.2 with a sun isdn s-bus card
+  * and a speakerbox.
   */
  #include <stdlib.h>
  #include <unistd.h>
@@ -57,51 +57,51 @@
  {
  	audio_info_t info;
  
- 	if (prev_info != NULL) {
- 		if (ioctl(fd, AUDIO_GETINFO, prev_info) < 0) {
- 			perror("AUDIO_GETINFO");
- 			return (B_FALSE);
+ 	if (prev_info != null) {
+ 		if (ioctl(fd, audio_getinfo, prev_info) < 0) {
+ 			perror("audio_getinfo");
+ 			return (b_false);
  		}
  	}
  
- 	AUDIO_INITINFO(&info);
+ 	audio_initinfo(&info);
  
- 	info.record.pause = B_TRUE;
- 	info.play.pause = B_TRUE;
+ 	info.record.pause = b_true;
+ 	info.play.pause = b_true;
  
  	info.play.sample_rate = 8000;
- 	info.play.encoding = AUDIO_ENCODING_LINEAR;
+ 	info.play.encoding = audio_encoding_linear;
  	info.play.channels = 1;
  	info.play.precision = 16;
  	info.record.sample_rate = 8000;
- 	info.record.encoding = AUDIO_ENCODING_LINEAR;
+ 	info.record.encoding = audio_encoding_linear;
  	info.record.channels = 1;
  	info.record.precision = 16;
  
  	info.record.buffer_size = 320 * 4;
  
- 	if (ioctl(fd, AUDIO_SETINFO, &info) < 0) {
- 		perror("AUDIO_SETINFO");
- 		return (B_FALSE);
+ 	if (ioctl(fd, audio_setinfo, &info) < 0) {
+ 		perror("audio_setinfo");
+ 		return (b_false);
  	}
  
- 	if (ioctl(fd, I_FLUSH, FLUSHRW) < 0) {
- 		perror("I_FLUSH");
- 		return (B_FALSE);
+ 	if (ioctl(fd, i_flush, flushrw) < 0) {
+ 		perror("i_flush");
+ 		return (b_false);
  	}
  
  	
- 	AUDIO_INITINFO(&info);
+ 	audio_initinfo(&info);
  
- 	info.record.pause = B_FALSE;
- 	info.play.pause = B_FALSE;
+ 	info.record.pause = b_false;
+ 	info.play.pause = b_false;
  
- 	if (ioctl(fd, AUDIO_SETINFO, &info) < 0) {
- 		perror("AUDIO_SETINFO");
- 		return (B_FALSE);
+ 	if (ioctl(fd, audio_setinfo, &info) < 0) {
+ 		perror("audio_setinfo");
+ 		return (b_false);
  	}
  
- 	return (B_TRUE);
+ 	return (b_true);
  }
  
  
@@ -112,12 +112,12 @@
  
  	if (read(ifd, sample, sizeof (sample)) != sizeof (sample)) {
  		fprintf(stderr, "svs_in: short read\n");
- 		return (B_FALSE);
+ 		return (b_false);
  	}
  
  	gsm_encode(handle, sample, buf);
  
- 	return (B_TRUE);
+ 	return (b_true);
  }
  
  
@@ -128,15 +128,15 @@
  
  	if (gsm_decode(handle, buf, sample) < 0) {
  		fprintf(stderr, "svs_out: gsm_decode failed\n");
- 		return (B_FALSE);
+ 		return (b_false);
  	}
  
  	if (write(ofd, sample, sizeof (sample)) != sizeof (sample)) {
  		fprintf(stderr, "svs_out: short write\n");
- 		return (B_FALSE);
+ 		return (b_false);
  	}
  
- 	return (B_TRUE);
+ 	return (b_true);
  }
  
  
@@ -150,28 +150,28 @@
  	des_key_schedule ks_in, ks_out;
  	des_cblock cbuf_in[4], cbuf_out[4], cbuf_buf[4];
  
- 	audiofd = open("/dev/audio", O_RDWR);
+ 	audiofd = open("/dev/audio", o_rdwr);
  	if (audiofd < 0) {
  		perror("open");
  		exit(4);
  	}
  
  	/*
- 	 * Initialize GSM compression code
+ 	 * initialize gsm compression code
  	 */
- 	if ((handle = gsm_create()) == NULL) {
+ 	if ((handle = gsm_create()) == null) {
  		fprintf(stderr, "svs: gsm_create failed\n");
  		exit(4);
  	}
  
- 	option = B_TRUE;
- 	if (gsm_option(handle, GSM_OPT_FAST, &option) < 0) {
- 		fprintf(stderr, "svs: gsm_option (FAST) failed\n");
+ 	option = b_true;
+ 	if (gsm_option(handle, gsm_opt_fast, &option) < 0) {
+ 		fprintf(stderr, "svs: gsm_option (fast) failed\n");
  		exit(4);
  	}
  
  	/*
- 	 * Initialize DES code
+ 	 * initialize des code
  	 */
  	des_random_key(&key);
  
@@ -187,26 +187,26 @@
  	memset(ivec_out, 0, sizeof (ivec_out));
  
  	/*
- 	 * Open audio device and configure it
+ 	 * open audio device and configure it
  	 */
- 	if (!svs_audio_init(audiofd, NULL))
+ 	if (!svs_audio_init(audiofd, null))
  		exit(3);
  
  	for (;;) {
  		/*
- 		 * Get 160 samples (16-bit linear 8000Hz) and
+ 		 * get 160 samples (16-bit linear 8000hz) and
  		 * convert to a 33 byte frame
  		 */
  		if (!svs_in(audiofd, handle, frame))
  			exit(1);
  
  		/*
- 		 * Encrypt/Decrypt block
+ 		 * encrypt/decrypt block
  		 */
  		des_cbc_encrypt(frame, cbuf_out, (long)32, ks_in, ivec_in,
- 		    DES_ENCRYPT);
+ 		    des_encrypt);
  		des_cbc_encrypt(cbuf_out, cbuf_buf, (long)32, ks_out, ivec_out,
- 		    DES_DECRYPT);
+ 		    des_decrypt);
  
  		memmove(frame, cbuf_buf, 32);
  
@@ -218,7 +218,7 @@
  #endif
  
  		/*
- 		 * Take 33 byte frame and convert to 160 samples
+ 		 * take 33 byte frame and convert to 160 samples
  		 * and play
  		 */
  		if (!svs_out(audiofd, handle, frame))
@@ -227,5 +227,5 @@
  
  	gsm_destroy(handle);
  }
- <--------------------------- CUT HERE ----------------------------->
+ <--------------------------- cut here ----------------------------->
  

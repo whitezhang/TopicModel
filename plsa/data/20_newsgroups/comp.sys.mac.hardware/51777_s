@@ -1,35 +1,35 @@
 
- I'm a system and network admin. One of my users has a Duo 230
+ i'm a system and network admin. one of my users has a duo 230
  ([*]specifications below) that has been having slowdown problems.
- Leaving the Duo on for several hours causes it to slow down
- unacceptably. It can take 10-15 seconds to change applications. During
- this time it is completely hung.  If he reboots, the problem goes away
- (For a while). It seems the system is getting itself into a wedged
+ leaving the duo on for several hours causes it to slow down
+ unacceptably. it can take 10-15 seconds to change applications. during
+ this time it is completely hung.  if he reboots, the problem goes away
+ (for a while). it seems the system is getting itself into a wedged
  configuration.
  
- He's re-installed System 7.1 and rebuilt the desktop. Neither of these
+ he's re-installed system 7.1 and rebuilt the desktop. neither of these
  have helped. 
  
- It's possible that it's network-related, he uses Eudora which checks his
- email every 10 minutes (over Ethernet). He hasn't checked to see if this
+ it's possible that it's network-related, he uses eudora which checks his
+ email every 10 minutes (over ethernet). he hasn't checked to see if this
  problem occurs while undocked (he's docked most of the time). 
  
- Little to no non-Apple inits, I don't want to start yanking the rest
- unless I know that might *really* be the problem. 
+ little to no non-apple inits, i don't want to start yanking the rest
+ unless i know that might *really* be the problem. 
  
- He hasn't tried zapping the PRAM, I have advised him to do that next.
+ he hasn't tried zapping the pram, i have advised him to do that next.
  
- Anyone who has ideas, I'd love to hear about them. I'd call Apple, but
- I've found they're best to call during the week (it's Sunday evening).
+ anyone who has ideas, i'd love to hear about them. i'd call apple, but
+ i've found they're best to call during the week (it's sunday evening).
  
  
- [*] Powerbook Duo 230  16/120. 12mb RAM card from Tech Works to replace
- non-self-refreshing 8mb card. Is using System Enabler 1.0.1. Express
- Modem (including latest software). Has been to Apple Dealer for Keyboard
+ [*] powerbook duo 230  16/120. 12mb ram card from tech works to replace
+ non-self-refreshing 8mb card. is using system enabler 1.0.1. express
+ modem (including latest software). has been to apple dealer for keyboard
  replacement. 
  --
- Helen Trillian Rose             	<hrose@kei.com, hrose@eff.org>
- Kapor Enterprises, Inc.            	email eff@eff.org for EFF Info
- Electronic Frontier Foundation          Flames to: 
- Systems and Networks Administration	women-not-to-be-messed-with@eff.org
+ helen trillian rose             	<hrose@kei.com, hrose@eff.org>
+ kapor enterprises, inc.            	email eff@eff.org for eff info
+ electronic frontier foundation          flames to: 
+ systems and networks administration	women-not-to-be-messed-with@eff.org
  

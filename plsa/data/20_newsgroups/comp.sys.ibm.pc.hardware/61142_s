@@ -1,39 +1,39 @@
 
  
- In article <1993Apr23.142720.25002@spartan.ac.BrockU.CA>, tmc@spartan.ac.BrockU.CA (Tim Ciceran) writes:
+ in article <1993apr23.142720.25002@spartan.ac.brocku.ca>, tmc@spartan.ac.brocku.ca (tim ciceran) writes:
  > 
- > After reading many postings concerning hard drives I'm still unclear
- > about one thing.  These new "cached hard drives" - is the cache on the
+ > after reading many postings concerning hard drives i'm still unclear
+ > about one thing.  these new "cached hard drives" - is the cache on the
  > drive itself or is it separate, like on the controller or something?
- > Thanks to anyone who can clear this up.
+ > thanks to anyone who can clear this up.
  
- I have two SCSI hard drives, each has 512KB of 'cache'.
+ i have two scsi hard drives, each has 512kb of 'cache'.
  
- There several reasons for this :-
+ there several reasons for this :-
  
- When the drive has read requested data from the disk the SCSI bus may be
- busy. This data needs to be stored some where until the bus is free and
+ when the drive has read requested data from the disk the scsi bus may be
+ busy. this data needs to be stored some where until the bus is free and
  the data can be transmitted.
  
- When the drive receives data to be written, the data can come down the bus
- faster than the drive can write it to the disk. It needs to be stored
+ when the drive receives data to be written, the data can come down the bus
+ faster than the drive can write it to the disk. it needs to be stored
  somewhere while the disk is writing it out.
  
- In these situations the memory is being used as a buffer NOT a cache!
+ in these situations the memory is being used as a buffer not a cache!
  
- May be the drive does some read-adead caching as well...
+ may be the drive does some read-adead caching as well...
  
  > 
  > -- 
  > 
- > TMC
- > (tmc@spartan.ac.BrockU.ca)
+ > tmc
+ > (tmc@spartan.ac.brocku.ca)
  > 
  
- Guy
+ guy
  -- 
  -- -----------------------------------------------------------------------------
- Guy Dawson - Hoskyns Group Plc.
-         guyd@hoskyns.co.uk  Tel Hoskyns UK     -  71 251 2128
-         guyd@austin.ibm.com Tel IBM Austin USA - 512 838 3377
+ guy dawson - hoskyns group plc.
+         guyd@hoskyns.co.uk  tel hoskyns uk     -  71 251 2128
+         guyd@austin.ibm.com tel ibm austin usa - 512 838 3377
  

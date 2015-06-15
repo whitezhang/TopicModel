@@ -1,29 +1,29 @@
 
- In article <WHALEY.93Apr22110027@sigma.kpc.com>, whaley@sigma.kpc.com (Ken Whaley) writes:
- > One advanage of MIT-SHM is that if your images are large, you don't end up
+ in article <whaley.93apr22110027@sigma.kpc.com>, whaley@sigma.kpc.com (ken whaley) writes:
+ > one advanage of mit-shm is that if your images are large, you don't end up
  > growing the size of the server process to hold them.
  >
-   Correct. Most X servers use a version of  malloc(3)  which will not return
-   memory to the OS (ie. the X server might  free(3)  a Pixmap, but the heap does
+   correct. most x servers use a version of  malloc(3)  which will not return
+   memory to the os (ie. the x server might  free(3)  a pixmap, but the heap does
    not shrink).
  
- > One disadvantage of the MIT-SHM is that, in its sample implementation,
+ > one disadvantage of the mit-shm is that, in its sample implementation,
  > there is no provision for elegantly cleaning up the shared memory segments
- > if the client dies a sudden, violent death (e.g., "kill").  You have to 
+ > if the client dies a sudden, violent death (e.g., "kill").  you have to 
  > be mindful of cluttering up the system with zombie shared memory segments.
  >
-   Well, part of the routines I mentioned do a dirty little trick to get around
-   that problem. First, I create the shared memory segment, attach the client,
-   attach the X server, and then remove (!) the segment. If you read the man
+   well, part of the routines i mentioned do a dirty little trick to get around
+   that problem. first, i create the shared memory segment, attach the client,
+   attach the x server, and then remove (!) the segment. if you read the man
    pages on removing of shared memory segments, you will see that the segment
    only dies after all attachments are gone.
-   Now, if the client dies, that's one attachment gone (the OS cleans up for you)
-   and since the X server notices the client has dies, frees up it's resources,
-   including detaching from the segment: there goes the last attachment. No more
+   now, if the client dies, that's one attachment gone (the os cleans up for you)
+   and since the x server notices the client has dies, frees up it's resources,
+   including detaching from the segment: there goes the last attachment. no more
    shared memory segment.
-   Terrible, but it works.
+   terrible, but it works.
  
- 				Regards,
+ 				regards,
  
- 					Richard Gooch....
+ 					richard gooch....
  

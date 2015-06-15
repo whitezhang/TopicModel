@@ -1,21 +1,21 @@
 
- 	Even more interesting: the SMTP server at csrc.ncsl.nist.gov no longer
+ 	even more interesting: the smtp server at csrc.ncsl.nist.gov no longer
  	recognizes the 'expn' and 'vrfy' commands...
  
  	   telnet csrc.ncsl.nist.gov smtp
- 	   Trying 129.6.54.11...
- 	   Connected to csrc.ncsl.nist.gov.
- 	   Escape character is '^]'.
- 	   220 first.org sendmail 4.1/NIST ready at Tue, 20 Apr 93 17:01:34 EDT
+ 	   trying 129.6.54.11...
+ 	   connected to csrc.ncsl.nist.gov.
+ 	   escape character is '^]'.
+ 	   220 first.org sendmail 4.1/nist ready at tue, 20 apr 93 17:01:34 edt
  	   expn clipper
- 	   500 Command unrecognized
+ 	   500 command unrecognized
  
- 	Seems like sombody didn't like your snooping around, Marc.
+ 	seems like sombody didn't like your snooping around, marc.
  
- Or mine.  Or the dozen or so other people who probably had the same idea :-)
+ or mine.  or the dozen or so other people who probably had the same idea :-)
  
- So does this rush to shut it down imply that some of the names on that
+ so does this rush to shut it down imply that some of the names on that
  list *are* heavy-duty spooks? :-)))
  
- G
+ g
  

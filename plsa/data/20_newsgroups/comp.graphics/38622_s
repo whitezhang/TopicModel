@@ -1,55 +1,55 @@
 
  
- Printer model and specification:
+ printer model and specification:
  
- Canon CLC 500 (Color Laser Copier)
+ canon clc 500 (color laser copier)
  ps-ipu unit (postscript intelligent processing unit)
  
  
- Hello,
+ hello,
  
- We have recently purchased a very expensive and nice color copier/printer. 
- We want to be able to print to it from our SGI iris network.  The 
- copier/printer has both a parallel and SCSI interface.  I have configured the
+ we have recently purchased a very expensive and nice color copier/printer. 
+ we want to be able to print to it from our sgi iris network.  the 
+ copier/printer has both a parallel and scsi interface.  i have configured the
  printer with the "lp" system using the parallel interface and can print 
- postscript files to the printer.  I can also print rgb files, but these are in 
- turn converted to postscript by an internal filter.  The Canon CLC 500 is a 
+ postscript files to the printer.  i can also print rgb files, but these are in 
+ turn converted to postscript by an internal filter.  the canon clc 500 is a 
  publication quality printer but the quality of our postscript printouts 
- are less than acceptable.  We create the postscript files with a variaty of 
- programs, such as showcase, xv, and tops.  When we convert to postscript 
+ are less than acceptable.  we create the postscript files with a variaty of 
+ programs, such as showcase, xv, and tops.  when we convert to postscript 
  with tops and use the -l option to specify the halftone screen density of 98 
  rather than the default 40 the output is better, but still much less that 
- acceptable.  Note, that we are starting with a screen image in rgb image format
+ acceptable.  note, that we are starting with a screen image in rgb image format
  and translating the image into postscript.
  
- We suspect that if we could use the SCSI interface we would get higher quality 
- pictures.  We have not purchased the software that drives the printer from the 
- SCSI port.  To my knowledge this software is $5000 and does not come with a 
- warranty.  The management here does not want to spend this much money without 
+ we suspect that if we could use the scsi interface we would get higher quality 
+ pictures.  we have not purchased the software that drives the printer from the 
+ scsi port.  to my knowledge this software is $5000 and does not come with a 
+ warranty.  the management here does not want to spend this much money without 
  some assurance that the product will work.
  
  
- Here my questions:
+ here my questions:
  
- If anybody on the net uses this printer are you using the SCSI or 
- parallel port?  What is the quality of the printouts?
+ if anybody on the net uses this printer are you using the scsi or 
+ parallel port?  what is the quality of the printouts?
  
- Is there a way to create high quality postscript printouts?  What is the
+ is there a way to create high quality postscript printouts?  what is the
  limiting component, the postscript language or the postscript interpretor on 
  the printer?
   
- The Big question:
+ the big question:
  
- Where can I get some software to drive the SCSI port for this printer?
+ where can i get some software to drive the scsi port for this printer?
  
  
  
- Please email directly to me, I don't not read news on a regular basis. 
- I will post a summary.
+ please email directly to me, i don't not read news on a regular basis. 
+ i will post a summary.
  
- Thanks in advance.
+ thanks in advance.
  
  -- 
- 	E-mail:		scott@ncifcrf.gov ,Phone #:	(301) 846-5798
-         Title:  	Sr. Systems Manager/Analyst
+ 	e-mail:		scott@ncifcrf.gov ,phone #:	(301) 846-5798
+         title:  	sr. systems manager/analyst
  

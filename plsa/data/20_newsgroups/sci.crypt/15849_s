@@ -1,207 +1,207 @@
 
  
- PROGRAM EUROCRYPT'93, MAY 23-27, LOFTHUS, NORWAY
+ program eurocrypt'93, may 23-27, lofthus, norway
  ------------------------------------------------
- General chair : Kaare Presttun 
+ general chair : kaare presttun 
                  email: eurocrypt93@alcatel.no                
  
- Program chair : Tor Helleseth
-                 Department of Informatics 
-                 University of Bergen
-                 N-5020 Bergen
-                 NORWAY
+ program chair : tor helleseth
+                 department of informatics 
+                 university of bergen
+                 n-5020 bergen
+                 norway
                  email: torh@ii.uib.no
  
  =========================================================================
  
-                       MONDAY,  May 24
+                       monday,  may 24
                        ---------------
                   
-               SESSION 1 : AUTHENTICATION
+               session 1 : authentication
                --------------------------
-               Chair: J. Seberry
+               chair: j. seberry
  
-  9.00- 9.30   Welcome and opening remarks
-  9.30-10.00   On the Relation Between A-codes and Codes Correcting Independent 
-               Errors, T. Johansson, B. Smeets (Lund University, Sweden), 
-               and G. Kabatianskii (Institute for Problems of Information 
-               Transmission, Russia)
- 10.00-10.20   Optimal Authentication Systems, R. Safavi-Naini and L. Tombak 
-               (University of Wollongong, Australia)
+  9.00- 9.30   welcome and opening remarks
+  9.30-10.00   on the relation between a-codes and codes correcting independent 
+               errors, t. johansson, b. smeets (lund university, sweden), 
+               and g. kabatianskii (institute for problems of information 
+               transmission, russia)
+ 10.00-10.20   optimal authentication systems, r. safavi-naini and l. tombak 
+               (university of wollongong, australia)
  
- 10.20-10.50   Coffee or tea
+ 10.20-10.50   coffee or tea
  
  
-               SESSION 2 : PUBLIC KEY
+               session 2 : public key
                ----------------------
-               Chair: A. Odlyzko
+               chair: a. odlyzko
  
- 10.50-11.10   Factoring Integers using SIMD Sieves, B. Dixon (Princeton 
-               University, USA) and A.K. Lenstra (Bellcore, USA)
- 11.10-11.30   A New Elliptic Curve Based Analogue of RSA, 
-               N. Demytko (Telecom Research Laboratories, Australia)
- 11.30-11.50   Weaknesses of a Public-Key Cryptosystem Based on Factorization 
-               of Finite Groups, J. Stern (ENS, France)
+ 10.50-11.10   factoring integers using simd sieves, b. dixon (princeton 
+               university, usa) and a.k. lenstra (bellcore, usa)
+ 11.10-11.30   a new elliptic curve based analogue of rsa, 
+               n. demytko (telecom research laboratories, australia)
+ 11.30-11.50   weaknesses of a public-key cryptosystem based on factorization 
+               of finite groups, j. stern (ens, france)
  
- 11.50-14.00   Lunch
+ 11.50-14.00   lunch
  
  
-               SESSION 3 : BLOCK CIPHERS
+               session 3 : block ciphers
                -------------------------
-               Chair: A. De Santis
+               chair: a. de santis
  
- 14.00-14.20   Differentially Uniform Mappings for Cryptography, 
-               K. Nyberg (Technical University of Vienna, Austria)
- 14.20-14.40   On Permutations Against Differential Cryptanalysis, 
-               T. Beth and C. Ding (EISS, University of Karlsruhe, Germany)
- 14.40-15.10   Two New Classes of Bent Functions, 
-               C. Carlet (INRIA, France)
- 15.10-15.30   Boolean Functions Satisfying a Higher Order Strict Avalanche
-               Condition, T.W. Cusick (SUNY, Buffalo, USA)
+ 14.00-14.20   differentially uniform mappings for cryptography, 
+               k. nyberg (technical university of vienna, austria)
+ 14.20-14.40   on permutations against differential cryptanalysis, 
+               t. beth and c. ding (eiss, university of karlsruhe, germany)
+ 14.40-15.10   two new classes of bent functions, 
+               c. carlet (inria, france)
+ 15.10-15.30   boolean functions satisfying a higher order strict avalanche
+               condition, t.w. cusick (suny, buffalo, usa)
  
- 15.30-16.00   Coffee or tea
+ 15.30-16.00   coffee or tea
  
  
-               SESSION 4 : SECRET SHARING
+               session 4 : secret sharing
                --------------------------
-               Chair: Y. Desmedt
+               chair: y. desmedt
  
- 16.00-16.30  Size of Shares and Probability of Cheating in Threshold Schemes, 
-              M. Carpentieri, A. De Santis and U. Vaccaro (University of 
-              Salerno, Italy)
- 16.30-17.00  Nonperfect Secret Sharing Schemes and Matroids, K. Kurosawa,
-              K. Okada, K. Sakano, W. Ogata and S. Tsujii (Tokyo Institute of
-              Technology, Japan)
+ 16.00-16.30  size of shares and probability of cheating in threshold schemes, 
+              m. carpentieri, a. de santis and u. vaccaro (university of 
+              salerno, italy)
+ 16.30-17.00  nonperfect secret sharing schemes and matroids, k. kurosawa,
+              k. okada, k. sakano, w. ogata and s. tsujii (tokyo institute of
+              technology, japan)
       
  
-                       TUESDAY, May 25
+                       tuesday, may 25
                        ---------------
  
-              SESSION 5 : STREAMCIPHERS I
+              session 5 : streamciphers i
               ---------------------------
-              Chair: T. Helleseth 
+              chair: t. helleseth 
  
-  9.00-10.00 From the Memoars of a Norwegian Cryptolog, E. Selmer (University 
-             of Bergen, Norway) (Invited talk)
- 10.00-10.20 On the Linear Complexity of Products of Shift-Register Sequences, 
-             R. Gottfert and H. Niderreiter (Austrian Academy of Sciences, 
-             Vienna, Austria)
+  9.00-10.00 from the memoars of a norwegian cryptolog, e. selmer (university 
+             of bergen, norway) (invited talk)
+ 10.00-10.20 on the linear complexity of products of shift-register sequences, 
+             r. gottfert and h. niderreiter (austrian academy of sciences, 
+             vienna, austria)
  
- 10.20-10.50 Coffee or tea
+ 10.20-10.50 coffee or tea
  
  
-              SESSION 6 : STREAMCIPHERS II
+              session 6 : streamciphers ii
               ----------------------------
-              Chair: D. Gollman
+              chair: d. gollman
  
- 10.50-11.20  Resynchronisation Weaknesses in Synchronous Stream Ciphers,
-              J. Daemen, R. Govaerts and J. Vandewalle (ESAT, KU Leuven, 
-              Belgium)
- 11.20-11.40  Blind Synchronization of m-Sequences with Even Span,
-              R. Games and J.J. Rushanan (MITRE, USA)
- 11.40-12.10  On Constructions and Nonlinearity of Correlation Immune Functions,
-              J. Seberry, X. Zhang and Y. Zheng (University of Wollongong, 
-              Australia)
+ 10.50-11.20  resynchronisation weaknesses in synchronous stream ciphers,
+              j. daemen, r. govaerts and j. vandewalle (esat, ku leuven, 
+              belgium)
+ 11.20-11.40  blind synchronization of m-sequences with even span,
+              r. games and j.j. rushanan (mitre, usa)
+ 11.40-12.10  on constructions and nonlinearity of correlation immune functions,
+              j. seberry, x. zhang and y. zheng (university of wollongong, 
+              australia)
  
- 12.10-14.00  Lunch
+ 12.10-14.00  lunch
  
  
-              SESSION 7 : DIGITAL SIGNATURES
+              session 7 : digital signatures
               ------------------------------
-              Chair: C. Schnorr
+              chair: c. schnorr
  
- 14.00-14.30  Practical and Provable Secure Release of a Secret and Exchange of
-              Signatures, I.B. Damgard (Aarhus University, Denmark)
- 14.30-14.50  Subliminal Communication is Easy Using the DSA, 
-              G.J. Simmons
- 14.50-15.10  Can OSS be Repaired, D. Naccache (Gemplus, France)
+ 14.00-14.30  practical and provable secure release of a secret and exchange of
+              signatures, i.b. damgard (aarhus university, denmark)
+ 14.30-14.50  subliminal communication is easy using the dsa, 
+              g.j. simmons
+ 14.50-15.10  can oss be repaired, d. naccache (gemplus, france)
  
- 15.10-15.40  Coffee or tea
+ 15.10-15.40  coffee or tea
  
  
-              SESSION 8 : PROTOCOLS I
+              session 8 : protocols i
               -----------------------
-              Chair: K. Kurosawa
+              chair: k. kurosawa
  
- 15.40-16.00  Limitations of Logical Analysis of Cryptographic Protocols,  
-              C. Boyd and W. Mao (University of Manchester, United Kingdom)
- 16.00-16.30  Practical Anonymous and Secure Voting Scheme, K. Itoh, C. Park 
-              and K. Kurosawa (Tokyo Institute of Technology, Japan)
- 16.30-16.50  Untransferable Rights in a Client-Independent Server Environment,
-              J. Domingo-Ferrer (University of Barcelona, Spain)
- 16.50-17.20  Interactive Hashing Simplifies Zero-Knowledge Protocol Design,
-              R. Ostrovsky (UC Berkeley, USA), R. Venkatesan (Bellcore, USA) and
-              M. Yung (IBM T. Watson, USA)
+ 15.40-16.00  limitations of logical analysis of cryptographic protocols,  
+              c. boyd and w. mao (university of manchester, united kingdom)
+ 16.00-16.30  practical anonymous and secure voting scheme, k. itoh, c. park 
+              and k. kurosawa (tokyo institute of technology, japan)
+ 16.30-16.50  untransferable rights in a client-independent server environment,
+              j. domingo-ferrer (university of barcelona, spain)
+ 16.50-17.20  interactive hashing simplifies zero-knowledge protocol design,
+              r. ostrovsky (uc berkeley, usa), r. venkatesan (bellcore, usa) and
+              m. yung (ibm t. watson, usa)
  
-              RUMP SESSION
+              rump session
               -------------
-              Chair: I. Ingemarsson     
+              chair: i. ingemarsson     
  
- 20.00-24.00  Accepted paper: 
-              Security in Digital Mobile Communication Systems,
-              C. Park, K. Kurosawa, T. Okamoto and S. Tsujii (Tokyo
-              Institute of Technology, Japan)
+ 20.00-24.00  accepted paper: 
+              security in digital mobile communication systems,
+              c. park, k. kurosawa, t. okamoto and s. tsujii (tokyo
+              institute of technology, japan)
  
  
-                      WEDNESDAY, May 26
+                      wednesday, may 26
                       -----------------
  
-              SESSION 9 : HASH FUNCTIONS
+              session 9 : hash functions
               ---------------------------
-              Chair: B. Preneel
+              chair: b. preneel
  
-  9.00- 9.20  One-Way Accumulators: A Decentralized Alternative to Digital
-              Signatures, J. Benaloh and M. de Mare (Clarkson University, USA)
-  9.20- 9.40  Some Attacks on the ARL Hash Function, I.B. Damgard and 
-              L.R. Knudsen (Aarhus University, Denmark)
-  9.40-10.10  Collisions for the Compression Function of MD5, B. den Boer and
-              A. Bosselaers (ESAT, KU Leuven, Belgium)
- 10.10-10.30  How to Find and Avoid Collisions for the Knapsack Hash Function, 
-              J. Patarin (Bull CP8, France)
+  9.00- 9.20  one-way accumulators: a decentralized alternative to digital
+              signatures, j. benaloh and m. de mare (clarkson university, usa)
+  9.20- 9.40  some attacks on the arl hash function, i.b. damgard and 
+              l.r. knudsen (aarhus university, denmark)
+  9.40-10.10  collisions for the compression function of md5, b. den boer and
+              a. bosselaers (esat, ku leuven, belgium)
+ 10.10-10.30  how to find and avoid collisions for the knapsack hash function, 
+              j. patarin (bull cp8, france)
    
- 10.30-11.00  Coffee or tea
+ 10.30-11.00  coffee or tea
  
  
-              SESSION 10: PAYMENT SYSTEMS
+              session 10: payment systems
               ---------------------------
-              Chair: I.B. Damgard
+              chair: i.b. damgard
  
- 11.00-11.20  Single Term Off-Line Coins, N.T. Ferguson (CWI Amsterdam,
-              The Netherlands)
- 11.20-11.40  Improved Privacy in Wallets with Observers,
-              R.J.F. Cramer (CWI Amsterdam, The Netherlands) and 
-              T.P. Pedersen (Aarhus University, Denmark)
- 11.40-12.10  How to Prevent the Mafia Fraud Using Distance-Bounding Protocols,
-              S. Brands and D. Chaum (CWI Amsterdam, The Netherlands)
+ 11.00-11.20  single term off-line coins, n.t. ferguson (cwi amsterdam,
+              the netherlands)
+ 11.20-11.40  improved privacy in wallets with observers,
+              r.j.f. cramer (cwi amsterdam, the netherlands) and 
+              t.p. pedersen (aarhus university, denmark)
+ 11.40-12.10  how to prevent the mafia fraud using distance-bounding protocols,
+              s. brands and d. chaum (cwi amsterdam, the netherlands)
             
- 12.10-14.00 Lunch
+ 12.10-14.00 lunch
   
  
-              SESSION 11: CRYPTANALYSIS
+              session 11: cryptanalysis
               --------------------------
-              Chair: G.J. Simmons
+              chair: g.j. simmons
  
- 14.00-14.20 On the Distribution of Characteristics in Bijective Mappings,
-             L. O'Connor (University of Waterloo, Canada)
- 14.20-14.40 On the Security of the IDEA Block Cipher, 
-             W. Meier (HTL, Switzerland)
- 14.40-15.10 Linear Cryptanalysis Method for DES Cipher,
-             M. Matsui (Mitsubishi, Japan)
- 15.10-15.40 New Types of Cryptanalytic Attacks Using Related Keys, 
-             E. Biham (Technion, Israel)
+ 14.00-14.20 on the distribution of characteristics in bijective mappings,
+             l. o'connor (university of waterloo, canada)
+ 14.20-14.40 on the security of the idea block cipher, 
+             w. meier (htl, switzerland)
+ 14.40-15.10 linear cryptanalysis method for des cipher,
+             m. matsui (mitsubishi, japan)
+ 15.10-15.40 new types of cryptanalytic attacks using related keys, 
+             e. biham (technion, israel)
  
- 15.40-16.10 Coffee or tea
+ 15.40-16.10 coffee or tea
   
  
-              SESSION 12 : PROTOCOLS II
+              session 12 : protocols ii
               -------------------------
-              Chair: P. Landrock
+              chair: p. landrock
  
- 16.10-16.40  Reconciliation on a Secret Key Through Public Discussion,
-              G. Brassard and L. Salvail (University of Montreal, Canada)
- 16.40-17.10  Global, Unpredictable Bit Generation Without Broadcast,
-              D. Beaver and N. So (Penn State University, USA)
- 17.10-17.40  IACR Business meeting
+ 16.10-16.40  reconciliation on a secret key through public discussion,
+              g. brassard and l. salvail (university of montreal, canada)
+ 16.40-17.10  global, unpredictable bit generation without broadcast,
+              d. beaver and n. so (penn state university, usa)
+ 17.10-17.40  iacr business meeting
  
  ==========================================================================
  
@@ -220,6 +220,6 @@
  
  
  
- Keywords: 
+ keywords: 
  
  

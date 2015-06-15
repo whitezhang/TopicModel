@@ -1,41 +1,41 @@
 
- Daniel Salber <salber@imag.fr> writes:
+ daniel salber <salber@imag.fr> writes:
  
- >I have a question regarding Quadras VRAM. I have tried to find info on this
- >but I could not get precise answers.
+ >i have a question regarding quadras vram. i have tried to find info on this
+ >but i could not get precise answers.
  
- >On one hand, we have a Quadra 950 with a 16" monitor, which is capable of
- >32-bit color. How much VRAM does it have?
+ >on one hand, we have a quadra 950 with a 16" monitor, which is capable of
+ >32-bit color. how much vram does it have?
  
-     To display Millions of colors on a 16" monitor you need 2MB of VRAM
- in the Q950.
+     to display millions of colors on a 16" monitor you need 2mb of vram
+ in the q950.
  
- >On the other hand, we have a Quadra 800 with a 16" monitor, which is capable
- >of 8-bit color only, so it must have 512 Ko of VRAM.
+ >on the other hand, we have a quadra 800 with a 16" monitor, which is capable
+ >of 8-bit color only, so it must have 512 ko of vram.
  
-     Correct. This is the amount of on-board VRAM that the Q800 comes
+     correct. this is the amount of on-board vram that the q800 comes
  with.
  
- >I would like to take VRAM SIMMs for the 950 and put them in the 800 so that
+ >i would like to take vram simms for the 950 and put them in the 800 so that
  >both machines have 16-bit color capability.
- >Is it possible, and if yes, how many VRAM SIMMs should I take from the 950?
+ >is it possible, and if yes, how many vram simms should i take from the 950?
  
-     Yes this is possible. Technically, you only need to take out 2 of
- the VRAM SIMMs but leaving in the other two will not get you anything
- because the 950 cannot really do anything with 1.5MB of VRAM. It only
- knows 1MB and 2MB.
+     yes this is possible. technically, you only need to take out 2 of
+ the vram simms but leaving in the other two will not get you anything
+ because the 950 cannot really do anything with 1.5mb of vram. it only
+ knows 1mb and 2mb.
  
- >From the documentation I have, the Quadra 800 must get 1 Mo VRAM to have
+ >from the documentation i have, the quadra 800 must get 1 mo vram to have
  >16-bit color, is that correct?
  
-     Yes, this is correct. You get to 1MB by putting 2 256k VRAM SIMMs
- into the VRAM SIMM slots on the Q800's motherboard.
+     yes, this is correct. you get to 1mb by putting 2 256k vram simms
+ into the vram simm slots on the q800's motherboard.
  
- >Bonus question: where do VRAM SIMMs hide? From the 950 documentation, they
- >seem to be *behind* the power supply. Do I really have to take off the power
- >supply to access the VRAM SIMMs?
+ >bonus question: where do vram simms hide? from the 950 documentation, they
+ >seem to be *behind* the power supply. do i really have to take off the power
+ >supply to access the vram simms?
  
-     Yup. You have to take off the power supply. It's only a couple of
- screws so you should be ok. Just make sure that everything is
+     yup. you have to take off the power supply. it's only a couple of
+ screws so you should be ok. just make sure that everything is
  disconnected from it and watch out for static discharges.
  

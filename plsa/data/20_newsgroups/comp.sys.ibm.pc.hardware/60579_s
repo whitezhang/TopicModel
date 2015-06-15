@@ -1,17 +1,17 @@
 
- I have been unable to get COM 4 to work - diagnostic programs such as msd show
- nothing installed.  I think the software options are OK - is there a known
- hardware conflict and/or workaround for this problemand CD ROM
- System is a G2K 486DX2/66 tower with ATI video card
- Ports are set as follows 
-   On board COMa = COM1 IRQ4 to external device
-   Internal modem = COM 3 IRQ5
-   DFIO port card primary port = COM 2 IRQ3  mouse
-   On board COM B = COM 4 IRQ 9  <--- DOES NOT WORK
- I have run this from a boot disk with only command.com to eliminate softwar
+ i have been unable to get com 4 to work - diagnostic programs such as msd show
+ nothing installed.  i think the software options are ok - is there a known
+ hardware conflict and/or workaround for this problemand cd rom
+ system is a g2k 486dx2/66 tower with ati video card
+ ports are set as follows 
+   on board coma = com1 irq4 to external device
+   internal modem = com 3 irq5
+   dfio port card primary port = com 2 irq3  mouse
+   on board com b = com 4 irq 9  <--- does not work
+ i have run this from a boot disk with only command.com to eliminate softwar
  
- Any suggestions before I call technical support?
- John Siegel
+ any suggestions before i call technical support?
+ john siegel
  k4bnc@cbnewsh.att.com
  jas@hrollie.hr.att.com
  

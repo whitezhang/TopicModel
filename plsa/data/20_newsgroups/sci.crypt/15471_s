@@ -1,20 +1,20 @@
 
- In article <C5qy3M.DE3@agora.rain.com>,
- jhart@agora.rain.com (Jim Hart) writes:
- > Since the wiretap chip is being distributed internationally,
- > allowing the U.S. government to spy on foreign governments,
+ in article <c5qy3m.de3@agora.rain.com>,
+ jhart@agora.rain.com (jim hart) writes:
+ > since the wiretap chip is being distributed internationally,
+ > allowing the u.s. government to spy on foreign governments,
  > companies and people as as well as to wiretap domestic citizens,
- > this is a world-wide issue.  Please put DISTRIBUTION: WORLD on the 
- > Distrubution: line.  Thank you.
+ > this is a world-wide issue.  please put distribution: world on the 
+ > distrubution: line.  thank you.
  
- No!  Distribution keywords are case sensitive.  What you want
+ no!  distribution keywords are case sensitive.  what you want
  is
  
- 	Distribution: world
+ 	distribution: world
  
- or no Distribution line at all.  "WORLD" in capital letters is wrong.
+ or no distribution line at all.  "world" in capital letters is wrong.
  
  --apb
- Alan Barrett, Dept. of Electronic Eng., Univ. of Natal, Durban, South Africa
- RFC822: barrett@ee.und.ac.za
+ alan barrett, dept. of electronic eng., univ. of natal, durban, south africa
+ rfc822: barrett@ee.und.ac.za
  

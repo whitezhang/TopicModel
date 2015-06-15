@@ -1,17 +1,17 @@
 
  
- In article <1993Apr21.141824.23536@cbis.ece.drexel.edu>, jpw@cbis.ece.drexel.edu (Joseph Wetstein) asked:
+ in article <1993apr21.141824.23536@cbis.ece.drexel.edu>, jpw@cbis.ece.drexel.edu (joseph wetstein) asked:
  |> 
- |> Hello. I am looking for a program (or algorithm) that can be used
+ |> hello. i am looking for a program (or algorithm) that can be used
  |> to compute sunrise and sunset times.
  |> 
- |> I would appreciate any advice.
+ |> i would appreciate any advice.
  |> 
- |> Joe Wetstein
+ |> joe wetstein
  |> jpw@coe.drexel.edu
  
- To compute this, and many other astronomical things, go and get (x)ephem written
- by Elwood C. Downey. It is e.g. on export.lcs.mit.edu
+ to compute this, and many other astronomical things, go and get (x)ephem written
+ by elwood c. downey. it is e.g. on export.lcs.mit.edu
  
- Uwe Bonnes  bon@lte.e-technik.uni-erlangen.de
+ uwe bonnes  bon@lte.e-technik.uni-erlangen.de
  

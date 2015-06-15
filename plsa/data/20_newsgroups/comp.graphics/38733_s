@@ -1,125 +1,125 @@
 
  
- diablo.UUCP!cboesel (Charles Boesel) writes:
+ diablo.uucp!cboesel (charles boesel) writes:
  
- >Is there an FTP archive for United States Geological Services (USGS)
- >terrain data? If so, where?
+ >is there an ftp archive for united states geological services (usgs)
+ >terrain data? if so, where?
  
- Point your gopher client at merlot.welch.jhu.edu
+ point your gopher client at merlot.welch.jhu.edu
  
  and select the following directories:
  
-  -->  13. Search and Retrieve Software/
+  -->  13. search and retrieve software/
  
-    -->  8.  Search and Retrieve Graphics Software and Data/
- 
- 
- And you'll see -
+    -->  8.  search and retrieve graphics software and data/
  
  
+ and you'll see -
  
  
-  -->  1.  Graphics Online Bibliography (ACM SIGGRAPH)/
-       2.  Graphics Software and Data Archives (ftp sites)/
-       3.  Search All Graphics Information <?>
-       4.  Search Comp.graphics FAQ <?>
-       5.  Search Graphics Resources (Software and Data) <?>
-       6.  Search Pictures Utilities FAQ <?>
  
  
-           1.  Graphics Online Bibliography (ACM SIGGRAPH)/
+  -->  1.  graphics online bibliography (acm siggraph)/
+       2.  graphics software and data archives (ftp sites)/
+       3.  search all graphics information <?>
+       4.  search comp.graphics faq <?>
+       5.  search graphics resources (software and data) <?>
+       6.  search pictures utilities faq <?>
  
-               Searches and archives of bibliographic database that covers
+ 
+           1.  graphics online bibliography (acm siggraph)/
+ 
+               searches and archives of bibliographic database that covers
                graphics literature for over a hundred years (served
-               by a gopher hole in Austria).
+               by a gopher hole in austria).
  
  
-           2.  Graphics Software and Data Archives (ftp sites)/ 
+           2.  graphics software and data archives (ftp sites)/ 
  
-               Has links to over 70 sites around the world which
+               has links to over 70 sites around the world which
                have software and/or data for computer graphics.
-               This can be used on its own or as a companion to the
+               this can be used on its own or as a companion to the
                searches found in this directory which will point you
                toward software and data at various places.  
                
  
-           3.  Search All Graphics Information <?>
-           4.  Search Comp.graphics FAQ <?>
-           5.  Search Graphics Resources (Software and Data) <?>
-           6.  Search Pictures Utilities FAQ <?>
+           3.  search all graphics information <?>
+           4.  search comp.graphics faq <?>
+           5.  search graphics resources (software and data) <?>
+           6.  search pictures utilities faq <?>
             
  
-               These searches contain a wealth of information about
+               these searches contain a wealth of information about
                computer graphics, data, software, techniques etc...
  
-               3.  Search All Graphics Information <?> 
+               3.  search all graphics information <?> 
  
-                   Will simply search all of the information contained
+                   will simply search all of the information contained
                    in searches 4, 5, and 6.
  
-               4.  Search Comp.graphics FAQ <?>
+               4.  search comp.graphics faq <?>
  
-                   Lets you search the FAQ (Frequently Asked Questions)
-                   from the Comp.graphics newsgroup compiled by John
-                   Grieggs at the JPL.
+                   lets you search the faq (frequently asked questions)
+                   from the comp.graphics newsgroup compiled by john
+                   grieggs at the jpl.
  
-               5.  Search Graphics Resources (Software and Data) <?>
+               5.  search graphics resources (software and data) <?>
  
-                   Lets you search the Grpahics Resource Listing of
-                   software and data provided by Nick Fotis at the
-                   National Technical Univ. of Athens.
+                   lets you search the grpahics resource listing of
+                   software and data provided by nick fotis at the
+                   national technical univ. of athens.
  
-               6.  Search Pictures Utilities FAQ <?>
+               6.  search pictures utilities faq <?>
  
-                   Lets you search the FAQ (Frequently Asked Questions)
-                   from the Alt.binaries.pixutils newsgroup compiled by
-                   Jim Howard at Cadence.
+                   lets you search the faq (frequently asked questions)
+                   from the alt.binaries.pixutils newsgroup compiled by
+                   jim howard at cadence.
  
  
- Select:
+ select:
  
-  -->  3.  Search All Graphics Information <?>
+  -->  3.  search all graphics information <?>
  
- And search for:
+ and search for:
  
  usgs
  
  
- And you'll find out some information about USGS data availability.
+ and you'll find out some information about usgs data availability.
  
- Now select:
+ now select:
  
-    -->  2.  Graphics Software and Data Archives (ftp sites)/
+    -->  2.  graphics software and data archives (ftp sites)/
  
  and you might find the following interesting:
  
-    -->  12. Cartographic data - USGS data (Xerox)/
+    -->  12. cartographic data - usgs data (xerox)/
  
-    -->  42. Mapgen/Plotgen and more (USGS)/
+    -->  42. mapgen/plotgen and more (usgs)/
  
-    -->  68. USGS Weekly Seismicity Reports (including maps - GIF)/
+    -->  68. usgs weekly seismicity reports (including maps - gif)/
  
-    -->  68. USGS Earth Science Data Directory/
-              (This actually is a database of available data - search
+    -->  68. usgs earth science data directory/
+              (this actually is a database of available data - search
                it for terrain - could prove quite useful.)
  
- One other place to look is only available by anonymous ftp at
+ one other place to look is only available by anonymous ftp at
  the moment - 
  
- US Geological Survey Maps  -  isdres.er.usgs.gov (130.11.48.2).
+ us geological survey maps  -  isdres.er.usgs.gov (130.11.48.2).
  
  
- If you've never heard of gopher don't worry it's free and on the net,
+ if you've never heard of gopher don't worry it's free and on the net,
  write me a note if you'd like information on how to get started.
  
  
- Best of luck,
+ best of luck,
  
- Dan Jacobson
+ dan jacobson
  
  danj@welchgate.welch.jhu.edu
  
- Johns Hopkins University
+ johns hopkins university
  
  
  

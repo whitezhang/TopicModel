@@ -1,22 +1,22 @@
 
- Hi there netters,
+ hi there netters,
  
- I require a window to appear at a co-ordinates (0,0) (top left corner) of my
- screen (root window). Could some windows guru out there help me on how to
- go about doing this. I write the whole program which creates the window with
- the image it displays - I require the image to appear at the top-left corner
- so that I can grab it for recording on to video, using a MIniVas controller,
+ i require a window to appear at a co-ordinates (0,0) (top left corner) of my
+ screen (root window). could some windows guru out there help me on how to
+ go about doing this. i write the whole program which creates the window with
+ the image it displays - i require the image to appear at the top-left corner
+ so that i can grab it for recording on to video, using a minivas controller,
  which expects the window at the same spot every time.
  
- Thanks in advance.
+ thanks in advance.
  
  sincerely,
  
- Sanjeev Sharma
+ sanjeev sharma
  
  -- 
  _____________________________________________________________________
- Office:					     e_mail:	
-    Deptt. of Computing Science		     	sharma@monet.vill.edu
-    Villanova University			     (215)645-6463  
+ office:					     e_mail:	
+    deptt. of computing science		     	sharma@monet.vill.edu
+    villanova university			     (215)645-6463  
  

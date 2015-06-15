@@ -1,32 +1,32 @@
 
- In article <9APR199312315727@envmsa.eas.asu.edu>, firman@envmsa.eas.asu.edu (B B S) writes:
- > In article <CASEY.93Apr9115458@grace.wharton.upenn.edu>, casey@grace.wharton.upenn.edu (Shawn Casey) writes...
- >>Hello,
+ in article <9apr199312315727@envmsa.eas.asu.edu>, firman@envmsa.eas.asu.edu (b b s) writes:
+ > in article <casey.93apr9115458@grace.wharton.upenn.edu>, casey@grace.wharton.upenn.edu (shawn casey) writes...
+ >>hello,
  >> 
- >>I have a question for anyone that may be familiar with ISA and EISA sytem
+ >>i have a question for anyone that may be familiar with isa and eisa sytem
  >>configurations.
  >> 
- >>1)  After I switch the ISA boards into the EISA board (all of the cards are
- >>ISA) the system seems to work with no problem what so ever.  But some of the 
- >>interupt problems that we had with the ISA board continue with the EISA board.
- >>Is it my understanding that the EISA board should be able to handle IRQ 
+ >>1)  after i switch the isa boards into the eisa board (all of the cards are
+ >>isa) the system seems to work with no problem what so ever.  but some of the 
+ >>interupt problems that we had with the isa board continue with the eisa board.
+ >>is it my understanding that the eisa board should be able to handle irq 
  >>conficts when running windows.
  >> 
- >>	Problem:  When running our network via telnet (tcp/ip) with windows
- >>	running the system kicks us out of windows (IRQ confict within windows
- >>	I assume).
+ >>	problem:  when running our network via telnet (tcp/ip) with windows
+ >>	running the system kicks us out of windows (irq confict within windows
+ >>	i assume).
  >> 
- >>Also, are there any memory address problems that will happen when the 
+ >>also, are there any memory address problems that will happen when the 
  >>boards are switched (base memory that is).
  > 
- > As far as I know, if you are using EISA mother board, you have to use also
- > EISA cards or else your computer system will be slower than when you're
- > using ISA board with ISA cards.
- > 							-Bill
+ > as far as i know, if you are using eisa mother board, you have to use also
+ > eisa cards or else your computer system will be slower than when you're
+ > using isa board with isa cards.
+ > 							-bill
  
  
- That's nonsense!!  You can use ISA cards in an EISA-system without problem
- and at the same speed as in an ISA system!!
+ that's nonsense!!  you can use isa cards in an eisa-system without problem
+ and at the same speed as in an isa system!!
  
- -Luke
+ -luke
  

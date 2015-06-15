@@ -1,40 +1,40 @@
 
- Hi!
- In article <C5svup.I4I@news.cso.uiuc.edu> rky57514@uxa.cso.uiuc.edu (Tall Cool One ) writes:
+ hi!
+ in article <c5svup.i4i@news.cso.uiuc.edu> rky57514@uxa.cso.uiuc.edu (tall cool one ) writes:
  
- >After I have produced a schematic with PADS-LOGIC, how do I import it into 
- >PADS-PCB to create a PCB pattern?  The only way I've gotten it to work is
- >to output a FutureNet netlist, and then import this into PADS-PCB.  Is there
- >another way of doing this?  I didn't see any information in the instructions
- >provided, but I might have missed something.  Any suggestions would be 
- >greatly appreciated.  Thanks!
+ >after i have produced a schematic with pads-logic, how do i import it into 
+ >pads-pcb to create a pcb pattern?  the only way i've gotten it to work is
+ >to output a futurenet netlist, and then import this into pads-pcb.  is there
+ >another way of doing this?  i didn't see any information in the instructions
+ >provided, but i might have missed something.  any suggestions would be 
+ >greatly appreciated.  thanks!
  
- Sorry, it's german, but I hope you understand it.
+ sorry, it's german, but i hope you understand it.
  
  
- Uebertragung der Schaltplan-Daten (*.SCH) in die Board-Daten
- (*.JOB):
+ uebertragung der schaltplan-daten (*.sch) in die board-daten
+ (*.job):
  
- PADS-LOGIC:
-          In/Out
-          Reports
-          Net List
-          Select      PADS-PCB
- Net List Output file name
+ pads-logic:
+          in/out
+          reports
+          net list
+          select      pads-pcb
+ net list output file name
           -> filename angeben
  
- PADS-PCB:
-          In/Out
-          Ascii In
- Ascii input file name
+ pads-pcb:
+          in/out
+          ascii in
+ ascii input file name
           -> filename angeben
- Errors aoutput file name
-          -> filename angeben, nicht CR
+ errors aoutput file name
+          -> filename angeben, nicht cr
  
- Jetzt sind alle Bauteile auf einem Haufen und muessen mit Move
+ jetzt sind alle bauteile auf einem haufen und muessen mit move
  verteilt werden.
  
- Viele Gruesse
+ viele gruesse
  
- Uli
+ uli
  

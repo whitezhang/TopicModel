@@ -1,19 +1,19 @@
 
- amathur@ces.cwru.edu (Alok Mathur) writes:
- >I would like to know how I can set the depth of the frame to be 24 bits.
- >I tried using the following Xlib code :
+ amathur@ces.cwru.edu (alok mathur) writes:
+ >i would like to know how i can set the depth of the frame to be 24 bits.
+ >i tried using the following xlib code :
  
- >Am I using a completely wrong approach here ? Is it possible to set the depth
+ >am i using a completely wrong approach here ? is it possible to set the depth
  
- Yes.
+ yes.
  
- >and colormap for a window created by Xview ? What am I doing wrong ?
+ >and colormap for a window created by xview ? what am i doing wrong ?
  
- Look up XV_DEPTH.  Also, you might want to try using XView colormap segments
- instead of Xlib for your colormap stuff.  They will probably be easier
- for you to use, and since you are using a TrueColor visual, you won't
- be losing anything compared to straight Xlib.
+ look up xv_depth.  also, you might want to try using xview colormap segments
+ instead of xlib for your colormap stuff.  they will probably be easier
+ for you to use, and since you are using a truecolor visual, you won't
+ be losing anything compared to straight xlib.
  
  
- -Jonathan		hue@island.COM
+ -jonathan		hue@island.com
  

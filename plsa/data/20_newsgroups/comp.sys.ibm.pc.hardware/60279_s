@@ -1,57 +1,57 @@
 
  
- Hi Netters!
+ hi netters!
  
- I'm looking at purchasing some sort of backup solution.  After you read about
- my situation, I'd like your opinion.  Here's the scenario:
+ i'm looking at purchasing some sort of backup solution.  after you read about
+ my situation, i'd like your opinion.  here's the scenario:
  
- 1.  There are two computers in the house.  One is a small 286 (40MB IDE drive).
-     The other is a 386DX (213 SCSI drive w/ Adaptec 1522 controller).  Both 
-     systems have PC TOOLS and will use Central Point Backup as the backup / 
-     restore program.  Both systems have 3.5" and 5.25" floppies.
+ 1.  there are two computers in the house.  one is a small 286 (40mb ide drive).
+     the other is a 386dx (213 scsi drive w/ adaptec 1522 controller).  both 
+     systems have pc tools and will use central point backup as the backup / 
+     restore program.  both systems have 3.5" and 5.25" floppies.
  
- 2.  The computers are not networked (nor will they be anytime soon).
+ 2.  the computers are not networked (nor will they be anytime soon).
  
- From what I have seen so far, there appear to be at least 4 possible
- solutions (I'm sure there are others I haven't thought about).  For these 
- options, I would appreciate hearing from anyone who has tried them or sees 
- any flaws (drive type X won't coexist with device Y, etc.) in my thinking 
- (I don't know very much about these beasts):
+ from what i have seen so far, there appear to be at least 4 possible
+ solutions (i'm sure there are others i haven't thought about).  for these 
+ options, i would appreciate hearing from anyone who has tried them or sees 
+ any flaws (drive type x won't coexist with device y, etc.) in my thinking 
+ (i don't know very much about these beasts):
  
- 1.  Put 2.88MB floppy drives (or a combination drive) on each system.
-     Can someone supply cost and brand information?  What's a good brand?
-     What do the floppies themselves cost?
+ 1.  put 2.88mb floppy drives (or a combination drive) on each system.
+     can someone supply cost and brand information?  what's a good brand?
+     what do the floppies themselves cost?
  
  
- 2.  Put an internal tape backup unit on the 386 using my SCSI adapter, and
-     continue to back up the 286 with floppies.  Again, can someone recommend a
-     few manufacturers?  The only brand I remember is Colorado Memories.  Any
-     happy or unhappy users (I know about the compression controversy)?
+ 2.  put an internal tape backup unit on the 386 using my scsi adapter, and
+     continue to back up the 286 with floppies.  again, can someone recommend a
+     few manufacturers?  the only brand i remember is colorado memories.  any
+     happy or unhappy users (i know about the compression controversy)?
   
  
- 3.  Connect an external tape backup unit on the 386 using my SCSI adapter, and
+ 3.  connect an external tape backup unit on the 386 using my scsi adapter, and
      (maybe?) connect it to the 286 somehow (any suggestions?)
  
  
- 4.  Install a Floptical drive in each machine.  Again, any gotcha's or 
+ 4.  install a floptical drive in each machine.  again, any gotcha's or 
      recommendations for manufacturers?  
  
- I appreciate your help.  You may either post or send me e-mail.  I will
+ i appreciate your help.  you may either post or send me e-mail.  i will
  summarize all responses for the net.
  
- Thanks,
+ thanks,
  
- George
+ george
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-   George J. Pandelios				Internet:  gjp@sei.cmu.edu
-   Software Engineering Institute		usenet:	   sei!gjp
-   4500 Fifth Avenue				Voice:	   (412) 268-7186
-   Pittsburgh, PA 15213				FAX:	   (412) 268-5758
+   george j. pandelios				internet:  gjp@sei.cmu.edu
+   software engineering institute		usenet:	   sei!gjp
+   4500 fifth avenue				voice:	   (412) 268-7186
+   pittsburgh, pa 15213				fax:	   (412) 268-5758
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
- Disclaimer:  These opinions are my own and do not reflect those of the
- 	     Software Engineering Institute, its sponsors, customers, 
- 	     clients, affiliates, or Carnegie Mellon University.  In fact,
+ disclaimer:  these opinions are my own and do not reflect those of the
+ 	     software engineering institute, its sponsors, customers, 
+ 	     clients, affiliates, or carnegie mellon university.  in fact,
  	     any resemblence of these opinions to any individual, living
- 	     or dead, fictional or real, is purely coincidental.  So there.
+ 	     or dead, fictional or real, is purely coincidental.  so there.
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
  

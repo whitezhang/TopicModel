@@ -1,25 +1,25 @@
 
- In article <1sijn0$mi2@werple.apana.org.au>, jamie@zikzak (Jamie Scuglia) writes:
+ in article <1sijn0$mi2@werple.apana.org.au>, jamie@zikzak (jamie scuglia) writes:
  > 
- > Does anyone know of any public domain toolkits for creating X-Windows
- > applications?  I have used the "Xt toolkit", but I would like to
+ > does anyone know of any public domain toolkits for creating x-windows
+ > applications?  i have used the "xt toolkit", but i would like to
  > create pop-up windows/dialog boxes, etc, using some sort of drawing editor
- > instead of trying to specify what I want, sizes, positions, etc,
- > within actual source code.  Basically, I am looking for something
- > similar to Borland's "WHITEWATER RESOURCE TOOLKIT" for MS-WINDOWS,
- > expect I need one for X-Windows instead.
+ > instead of trying to specify what i want, sizes, positions, etc,
+ > within actual source code.  basically, i am looking for something
+ > similar to borland's "whitewater resource toolkit" for ms-windows,
+ > expect i need one for x-windows instead.
  > 
- > Any help would be much appreciated.
+ > any help would be much appreciated.
  
     
-      I recently found an excellent source for X-windows programs. I've seen
- quite a few x-windows toolkits up there. The place is:  
+      i recently found an excellent source for x-windows programs. i've seen
+ quite a few x-windows toolkits up there. the place is:  
  
                       export.lcs.mit.edu
  
- go to the contrib directory. Its full of x-windows programs.
+ go to the contrib directory. its full of x-windows programs.
  
-                                            Hope this Helps!
+                                            hope this helps!
  
  
  

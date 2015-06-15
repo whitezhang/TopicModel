@@ -1,56 +1,56 @@
 
- In article <1r0rslINNnv2@senator-bedfellow.MIT.EDU> jfc@athena.mit.edu (John F Carr) writes:
+ in article <1r0rslinnnv2@senator-bedfellow.mit.edu> jfc@athena.mit.edu (john f carr) writes:
  >
- >I'm running Linux on an 80486 EISA system, and I'm having what I think are
- >hardware problems.  It could be software, but I don't see why I'd be the
- >only one having trouble.  I'd like some advice on how best to debug this.
+ >i'm running linux on an 80486 eisa system, and i'm having what i think are
+ >hardware problems.  it could be software, but i don't see why i'd be the
+ >only one having trouble.  i'd like some advice on how best to debug this.
  >
- >The symptom: when I try to build gcc, I get unpredictable and unrepeatable
- >results.  Sometimes a .o file is not in valid a.out format.  Recompiling the
- >file gives me a valid binary.  Sometimes the compiler aborts or dumps core,
- >but works fine when run again with the same input.  Compiling the same
+ >the symptom: when i try to build gcc, i get unpredictable and unrepeatable
+ >results.  sometimes a .o file is not in valid a.out format.  recompiling the
+ >file gives me a valid binary.  sometimes the compiler aborts or dumps core,
+ >but works fine when run again with the same input.  compiling the same
  >source files with the same arguments gives slight differences in a few
- >object files.  (Note that Linux, unlike many other systems, does not put
+ >object files.  (note that linux, unlike many other systems, does not put
  >timestamps in object files so compiling twice should give bit-identical
  >results.)
  >
- >I also have occasional filesystem corruption on my SCSI drive, but that
- >could be caused by using development software.  It could also be related to
- >my problems compiling.  The compile problems are not caused by disk
- >problems: I get the same results whether I do my work on an IDE or SCSI
+ >i also have occasional filesystem corruption on my scsi drive, but that
+ >could be caused by using development software.  it could also be related to
+ >my problems compiling.  the compile problems are not caused by disk
+ >problems: i get the same results whether i do my work on an ide or scsi
  >disk.
  >
- >I've set the memory speed and cache write speed to the recommended values.
+ >i've set the memory speed and cache write speed to the recommended values.
  
- Recommended for what, DOS? That is a junk.
- 
- >
- >I suspect the external cache, but I have no real evidence for this.
- >
- >The motherboard is a NICE Super-EISA with 256 KB write-back cache and a DX/2
- >66 Mhz processor.
- >
- >What I'm looking for:
- >
- >	. A system test program to run under DOS or Linux
- 
- 	Linux + gcc. Fire up gcc to compile libc and kernel at the
- 	same time running X11R5.
+ recommended for what, dos? that is a junk.
  
  >
- >	. Suggestions about the cause of the problem
+ >i suspect the external cache, but i have no real evidence for this.
+ >
+ >the motherboard is a nice super-eisa with 256 kb write-back cache and a dx/2
+ >66 mhz processor.
+ >
+ >what i'm looking for:
+ >
+ >	. a system test program to run under dos or linux
  
- 	Bad memory, bad motherboard, bad cache.
+ 	linux + gcc. fire up gcc to compile libc and kernel at the
+ 	same time running x11r5.
  
  >
- >	. Suggestions about how to debug the problem
+ >	. suggestions about the cause of the problem
+ 
+ 	bad memory, bad motherboard, bad cache.
+ 
+ >
+ >	. suggestions about how to debug the problem
  >
  
- 	change wait state of RAM.
+ 	change wait state of ram.
  	turn off turbo.
  	change bus speed
- 	swap RAM.
+ 	swap ram.
  
  
- H.J.
+ h.j.
  

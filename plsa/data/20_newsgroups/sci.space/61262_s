@@ -1,55 +1,55 @@
- <93116.093828SAUNDRSG@QUCDN.QueensU.CA> <1993Apr26.141114.19777@midway.uchicago.edu>
- Organization: Mankato State University
- Nntp-Posting-Host: vax1.mankato.msus.edu
- Lines: 53
+ <93116.093828saundrsg@qucdn.queensu.ca> <1993apr26.141114.19777@midway.uchicago.edu>
+ organization: mankato state university
+ nntp-posting-host: vax1.mankato.msus.edu
+ lines: 53
  
- In article <1993Apr26.141114.19777@midway.uchicago.edu>, pef1@quads.uchicago.edu (it's enrico palazzo!) writes:
- >> = From: Graydon <SAUNDRSG@QUCDN.QueensU.CA>
+ in article <1993apr26.141114.19777@midway.uchicago.edu>, pef1@quads.uchicago.edu (it's enrico palazzo!) writes:
+ >> = from: graydon <saundrsg@qucdn.queensu.ca>
  > 
- >> If all of these things have been detected in space, has anyone
+ >> if all of these things have been detected in space, has anyone
  >> looked into possible problems with the detectors?
  > 
- >> That is, is there some mechanism (cosmic rays, whatever) that
+ >> that is, is there some mechanism (cosmic rays, whatever) that
  >> could cause the dector to _think_ it was seeing one of these
  >> things?
  > 
- >> Graydon
+ >> graydon
  > 
- > That would not explain why widely separated detectors, such as on Ulysses
- > and PVO and Ginga et al., would see a burst at the same time(*).  In fact, be-
- > fore BATSE, having this widely separated "Interplanetary Network" was the
- > only sure way to locate a random burst.  With only one detector, one cannot
- > locate a burst (except to say "It's somewhere in the field of view.").  With
+ > that would not explain why widely separated detectors, such as on ulysses
+ > and pvo and ginga et al., would see a burst at the same time(*).  in fact, be-
+ > fore batse, having this widely separated "interplanetary network" was the
+ > only sure way to locate a random burst.  with only one detector, one cannot
+ > locate a burst (except to say "it's somewhere in the field of view.").  with
  > two detectors, one can use the time that the burst is seen in each detector
- > to narrow the location to a thin annulus on the sky.  With three detectors,
- > one gets intersecting annuli, giving two possible locations.  If one of these
- > locations is impossible (because, say, the Earth blocked that part of the 
+ > to narrow the location to a thin annulus on the sky.  with three detectors,
+ > one gets intersecting annuli, giving two possible locations.  if one of these
+ > locations is impossible (because, say, the earth blocked that part of the 
  > sky), voila, you have an error box.
  > 
- > BATSE, by having 8 detectors of its own, can do its own location determination,
- > but only to within about 3 degrees (would someone at GSFC, like David, like
- > to comment on the current state of location determination?).  Having inde-
+ > batse, by having 8 detectors of its own, can do its own location determination,
+ > but only to within about 3 degrees (would someone at gsfc, like david, like
+ > to comment on the current state of location determination?).  having inde-
  > pendent sightings by other detectors helps drive down the uncertainty.
  > 
- > You did touch on something that you didn't mean to, though.  Some believe
- > (in a reference that I have somewhere) that absorption-like features seen
- > in a fraction of GRBs can actually be caused by the detector.  It would be
- > a mean, nasty God, though, that would have a NaI crystal act like a 10^12 Gauss
+ > you did touch on something that you didn't mean to, though.  some believe
+ > (in a reference that i have somewhere) that absorption-like features seen
+ > in a fraction of grbs can actually be caused by the detector.  it would be
+ > a mean, nasty god, though, that would have a nai crystal act like a 10^12 gauss
  > neutron star...but this is getting too far afield.
  > 
- > Peter
+ > peter
  > peterf@oddjob.uchicago.edu
  > 
  
-         All of this is VERY valid and very true.  But to add to this
+         all of this is very valid and very true.  but to add to this
  explaniation, each individual detector also has a built in fail-safe, just so
  the detector does not read the background radiation(i.e. cosmic rays), 
- if I remember right, the detectors go off about 3 to 5 sigma above the 
- background.  This is so they don't catch particularly energetic cosmic rays
- that would normally set it off. Even with this buffer, they still have to throw
- out something like 1/2 of the bursts that they DO get, because of the Earth's
- Van Allen Belts, the South Atlantic Anomaly, the Sun,  if I remember right,
- there is either a radar station, or a radio station in Australia, and there are
+ if i remember right, the detectors go off about 3 to 5 sigma above the 
+ background.  this is so they don't catch particularly energetic cosmic rays
+ that would normally set it off. even with this buffer, they still have to throw
+ out something like 1/2 of the bursts that they do get, because of the earth's
+ van allen belts, the south atlantic anomaly, the sun,  if i remember right,
+ there is either a radar station, or a radio station in australia, and there are
  a couple other sources as well.  
                                                  -jeremy
                                                  belgarath@vax1.mankato.msus.edu

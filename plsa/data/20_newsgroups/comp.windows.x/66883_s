@@ -1,16 +1,16 @@
 
- In article <C5IFJ0.F2u@csn.org> doomer@teal.csn.org (John Dumais) writes:
- >I've been trying to figure a way to programmatically iconize 
- >an application running under a Motif window manager.  I have tried
+ in article <c5ifj0.f2u@csn.org> doomer@teal.csn.org (john dumais) writes:
+ >i've been trying to figure a way to programmatically iconize 
+ >an application running under a motif window manager.  i have tried
  >several approaches includeing sending events to the application's
- >border window, but to no avail?  Anyone done this before?
+ >border window, but to no avail?  anyone done this before?
  
- I tend to use XIconifyWindow to achieve this effect...  Have you tried that?
+ i tend to use xiconifywindow to achieve this effect...  have you tried that?
  
- - Brad
+ - brad
  -- 
- Brad Daniels		`	|  "If money can't buy happiness,
- daniels@neosoft.com		|   I guess I'll have to rent it."
- I don't work for NeoSoft, and	|		- Weird Al Yenkovic
+ brad daniels		`	|  "if money can't buy happiness,
+ daniels@neosoft.com		|   i guess i'll have to rent it."
+ i don't work for neosoft, and	|		- weird al yenkovic
  don't speak for my employer.	|
  

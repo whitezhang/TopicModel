@@ -1,41 +1,41 @@
 
- Some time back I asked for software recommendations to  allow me to
- run X from my PC at home to my Sparc at the office.
+ some time back i asked for software recommendations to  allow me to
+ run x from my pc at home to my sparc at the office.
  
- Many thanks for all replies, the majority of people  recommended
- PCXremote from NCD. I received it yesterday  and installed it on
- my Sparc and PC with only one hitch. 
- The UNIX install consists of copying 2 files into some local bin directory. 
- On the PC side, I ordered the WINDOWS version  which  came with a slick windows
+ many thanks for all replies, the majority of people  recommended
+ pcxremote from ncd. i received it yesterday  and installed it on
+ my sparc and pc with only one hitch. 
+ the unix install consists of copying 2 files into some local bin directory. 
+ on the pc side, i ordered the windows version  which  came with a slick windows
  installation.
  
  
- The only problem I had was that  my .xinitrc  in my home directory
+ the only problem i had was that  my .xinitrc  in my home directory
  had the line
- DISPLAY=`hostname`:0.0; export DISPLAY
+ display=`hostname`:0.0; export display
  
- s.t the clients I kicked off connected to my Xserver on the Sparc console.
- By removing this line from the .xinitrc everything worked as planned
+ s.t the clients i kicked off connected to my xserver on the sparc console.
+ by removing this line from the .xinitrc everything worked as planned
  and the clients connected to the server at
  
  `hostname`:1.0
  
- Some comments on performance, I was connected to a Sparc 2 thru
- a NetBlazer Terminal Server over a 9600 baud line.
- My PC is a 486-DX2 ATI Ultra, 16 MB
+ some comments on performance, i was connected to a sparc 2 thru
+ a netblazer terminal server over a 9600 baud line.
+ my pc is a 486-dx2 ati ultra, 16 mb
  
- Bitmap Stuff Sucked.
- Basic Editing and compilation stuff definitely usable.
- Xmail was very usable.
+ bitmap stuff sucked.
+ basic editing and compilation stuff definitely usable.
+ xmail was very usable.
  
- At times the first time U typed in an Xclient window there was
- a very noticable delay, I put this down to brain damaged "WINDOWS
- should not be called a SCHEDULER", besides that this will become
+ at times the first time u typed in an xclient window there was
+ a very noticable delay, i put this down to brain damaged "windows
+ should not be called a scheduler", besides that this will become
  my remote work environment for a while.
  
- Has anybody tried the NON Windows version of the product, the sales
+ has anybody tried the non windows version of the product, the sales
  person said they performed about the same, given the over head of
- WINDOWS I question this?
+ windows i question this?
  
  many thanks for help to all who responded
  

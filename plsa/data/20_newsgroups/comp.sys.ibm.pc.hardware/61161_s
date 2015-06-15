@@ -1,26 +1,26 @@
 
  
- AHHHUUURRRRGGGGHHHH!!!!!   Spinrite says: 80 sectors marked bad in the FAT
+ ahhhuuurrrrgggghhhh!!!!!   spinrite says: 80 sectors marked bad in the fat
  initially, 79 returned to active use, 80 new sectors marked bad, following
  successive runs of spinrite.
  
- I think I need a new ESDI HDD controller.
+ i think i need a new esdi hdd controller.
  
- I know that these two will work:
- DTC 6280
- Adaptec 2322B
+ i know that these two will work:
+ dtc 6280
+ adaptec 2322b
  
- Others that MIGHT work:
- DTC 6282
- Ultra Store 12
- WD 1007V
+ others that might work:
+ dtc 6282
+ ultra store 12
+ wd 1007v
  
- If you own one and will sell it cheaply I'll buy it.
+ if you own one and will sell it cheaply i'll buy it.
  
- Thanks,
+ thanks,
  
- -Greg Bishop
+ -greg bishop
  gt3635a@hydra.gatech.edu
  -- 
- GT: "Designing tommorow the night before with yesterday's technology."
+ gt: "designing tommorow the night before with yesterday's technology."
  

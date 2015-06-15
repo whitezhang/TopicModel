@@ -1,562 +1,562 @@
 
- Ron Mastus (ronaldm@extro.ucc.su.OZ.AU) wrote:
+ ron mastus (ronaldm@extro.ucc.su.oz.au) wrote:
  
- >     I've just replaced my existing DTC SCSI controller with an Adaptec 1542B,
- > and am now having trouble restoring from a Jumbo 250 tape drive.
+ >     i've just replaced my existing dtc scsi controller with an adaptec 1542b,
+ > and am now having trouble restoring from a jumbo 250 tape drive.
  
-      Here's a document that I wrote some time back.  It's slightly
- out-of-date, now that DOS 6 has been released, but much of it is still
+      here's a document that i wrote some time back.  it's slightly
+ out-of-date, now that dos 6 has been released, but much of it is still
  useful.
  
-      -- Darryl Okahata
- 	Internet: darrylo@sr.hp.com
+      -- darryl okahata
+ 	internet: darrylo@sr.hp.com
  
- DISCLAIMER: this message is the author's personal opinion and does not
- constitute the support, opinion or policy of Hewlett-Packard or of the
+ disclaimer: this message is the author's personal opinion and does not
+ constitute the support, opinion or policy of hewlett-packard or of the
  little green men that have been following him all day.
  
  ===============================================================================
- $Id: adaptec.txt 1.8 1993/01/25 00:55:08 darrylo Rel darrylo $
-           Hints and Tips for the Adaptec 1540/1542 SCSI adapter
+ $id: adaptec.txt 1.8 1993/01/25 00:55:08 darrylo rel darrylo $
+           hints and tips for the adaptec 1540/1542 scsi adapter
  
  
-      This document contains hints and tips for getting the Adaptec
- 1540/1542 SCSI adapter to work with various hardware and software
- packages.  They are based upon my experiences with an Adaptec 1542A
- controller, and will, hopefully, help others.  However, note that I
+      this document contains hints and tips for getting the adaptec
+ 1540/1542 scsi adapter to work with various hardware and software
+ packages.  they are based upon my experiences with an adaptec 1542a
+ controller, and will, hopefully, help others.  however, note that i
  cannot guarantee that the following will really help you (it works for
  me), and the information in this document could possibly cause you to
  lose some or all of your files on your hard disk.
  
-      IMPORTANT!  BACK UP THE ENTIRE CONTENTS OF YOUR HARD DISK BEFORE
- TRYING ANYTHING BASED UPON INFORMATION IN THIS DOCUMENT.
+      important!  back up the entire contents of your hard disk before
+ trying anything based upon information in this document.
  
-      Copyright 1993, by Darryl Okahata.  This document may be freely
+      copyright 1993, by darryl okahata.  this document may be freely
  copied for personal use only, and may not be reprinted in a for-profit
- publication without the consent of the author.  Please note that I have
- no connection with Adaptec other than as a customer.
+ publication without the consent of the author.  please note that i have
+ no connection with adaptec other than as a customer.
  
- Topics covered in this document:
+ topics covered in this document:
  
- 	* Windows 3.1 enhanced mode
- 	* Floppy-controller-based tape backup devices
- 	* Sound cards
- 	* Miscellaneous info
+ 	* windows 3.1 enhanced mode
+ 	* floppy-controller-based tape backup devices
+ 	* sound cards
+ 	* miscellaneous info
  
-      Please note that parts of this document contain technical, and
+      please note that parts of this document contain technical, and
  sometimes terse, descriptions of problems.
  
- For reference:
+ for reference:
  
- 	Adaptec technical support:	(800) 959-7274
- 	Adaptec BBS (2400/9600):	(408) 945-7727
+ 	adaptec technical support:	(800) 959-7274
+ 	adaptec bbs (2400/9600):	(408) 945-7727
  
- Please send comments, corrections, etc. via email to me:
+ please send comments, corrections, etc. via email to me:
  
- 	CompuServe:	75206,3074
- 	Internet:	darrylo@sr.hp.com
- 
- 
- ***** Windows 3.1 enhanced mode:
- 
-      The Windows 3.1 install program should automatically configure DOS
- and Windows for use with the Adaptec 1542.  However, just in case
- something went wrong, I'm going to describe some of the changes needed
- to get Windows 3.1 working with the 1542.  Also, you may have noticed
- that installing Windows 3.1 makes your PC run much slower, even when
- you're not running Windows; methods of speeding it up are discussed in
- the section called, "Windows 3.1 runs slowly".
+ 	compuserve:	75206,3074
+ 	internet:	darrylo@sr.hp.com
  
  
- * MSDOS configuration:
+ ***** windows 3.1 enhanced mode:
  
-      The Windows install program adds the SmartDrive disk cache to your
- CONFIG.SYS and AUTOEXEC.BAT files.  If you follow the instructions,
- you'll notice that you'll need to use double-buffering with SmartDrive
- (this is the default setup).  You'll also notice that your system runs
- much, much slower -- in both Windows *AND* MSDOS.  See the section
- called, "Windows 3.1 runs slowly", for some ways of speeding your system
+      the windows 3.1 install program should automatically configure dos
+ and windows for use with the adaptec 1542.  however, just in case
+ something went wrong, i'm going to describe some of the changes needed
+ to get windows 3.1 working with the 1542.  also, you may have noticed
+ that installing windows 3.1 makes your pc run much slower, even when
+ you're not running windows; methods of speeding it up are discussed in
+ the section called, "windows 3.1 runs slowly".
+ 
+ 
+ * msdos configuration:
+ 
+      the windows install program adds the smartdrive disk cache to your
+ config.sys and autoexec.bat files.  if you follow the instructions,
+ you'll notice that you'll need to use double-buffering with smartdrive
+ (this is the default setup).  you'll also notice that your system runs
+ much, much slower -- in both windows *and* msdos.  see the section
+ called, "windows 3.1 runs slowly", for some ways of speeding your system
  up.
  
  
- * Windows configuration:
+ * windows configuration:
  
-      To get the Adaptec 1542 to work with Windows, make sure that the
- "[388Enh]" section of the SYSTEM.INI file contains the entry:
+      to get the adaptec 1542 to work with windows, make sure that the
+ "[388enh]" section of the system.ini file contains the entry:
  
- 	VirtualHDIRQ=Off
+ 	virtualhdirq=off
  
- I believe that the Windows install program automatically adds this entry
- to SYSTEM.INI, but I'm not sure.  If this doesn't work for you, you
+ i believe that the windows install program automatically adds this entry
+ to system.ini, but i'm not sure.  if this doesn't work for you, you
  might want to try adding some more lines:
  
- 	VirtualHDIRQ=Off
- 	SystemROMBreakPoint=false
- 	EMMExclude=A000-CFFF
+ 	virtualhdirq=off
+ 	systemrombreakpoint=false
+ 	emmexclude=a000-cfff
  
- (You probably don't need the above lines, though.)  The
- "SystemROMBreakPoint" entry is used to enable support for memory
- managers like QEMM/386MAX (only needed if you use such programs).
+ (you probably don't need the above lines, though.)  the
+ "systemrombreakpoint" entry is used to enable support for memory
+ managers like qemm/386max (only needed if you use such programs).
  
  
- * Windows 3.1 runs slowly:
+ * windows 3.1 runs slowly:
  
-      Once you do get Windows 3.1 running with the 1542, chances are that
- your system is running much slower than before.  If it's not, it's
+      once you do get windows 3.1 running with the 1542, chances are that
+ your system is running much slower than before.  if it's not, it's
  probably because:
  
-      1. You happen to be using ASPI4DOS.SYS version 3.1 in your
- 	CONFIG.SYS file.  Congratulations -- this appears to be a
+      1. you happen to be using aspi4dos.sys version 3.1 in your
+ 	config.sys file.  congratulations -- this appears to be a
  	winning solution.
  
-      2. You are very lucky.  Whether your luck will hold out remains to
+      2. you are very lucky.  whether your luck will hold out remains to
  	be seen ....
  
- If your system is running much slower than before, this is almost
- definitely caused by Smartdrive with double-buffering.  According to the
- Windows documentation, and the Microsoft technical note #Q81808
- ("SMARTDrive Double Buffering Required with ASPI4DOS.SYS"), you must use
- Smartdrive with double-buffering enabled.  While this works, it really
- slows down your PC; I once estimated that this slowed my PC down by a
- factor of 5 (FIVE).  As I consider this unacceptable, I looked for other
+ if your system is running much slower than before, this is almost
+ definitely caused by smartdrive with double-buffering.  according to the
+ windows documentation, and the microsoft technical note #q81808
+ ("smartdrive double buffering required with aspi4dos.sys"), you must use
+ smartdrive with double-buffering enabled.  while this works, it really
+ slows down your pc; i once estimated that this slowed my pc down by a
+ factor of 5 (five).  as i consider this unacceptable, i looked for other
  solutions.
  
-      Unfortunately, you cannot just disable double-buffering.  If you
- do, Windows 3.1 in enhanced mode will not work, and you might even
- destroy the contents of your hard disk by trying to run Windows 3.1.
- What you can do is one of the following:
+      unfortunately, you cannot just disable double-buffering.  if you
+ do, windows 3.1 in enhanced mode will not work, and you might even
+ destroy the contents of your hard disk by trying to run windows 3.1.
+ what you can do is one of the following:
  
-      1. Use other drivers that provide double-buffering.  It is my
- 	opinion that the unbelievable slowness in Smartdrive is caused
+      1. use other drivers that provide double-buffering.  it is my
+ 	opinion that the unbelievable slowness in smartdrive is caused
  	either by horribly inefficient double-buffering, or by a bug in
- 	Smartdrive.
+ 	smartdrive.
  
-      2. Use a driver that provides "VDS" services ("VDS" stands for
- 	"Virtual DMA Services").  This is a standard, which is supported
- 	by Windows 3.1, that allows bus-mastering disk controllers (like
- 	the 1542) to work with Windows.
+      2. use a driver that provides "vds" services ("vds" stands for
+ 	"virtual dma services").  this is a standard, which is supported
+ 	by windows 3.1, that allows bus-mastering disk controllers (like
+ 	the 1542) to work with windows.
  
-      After trashing my hard disk countless times, I found the following
- solutions, none of which require using Smartdrive (note, however, that I
- am now getting occasional parity errors, which are probably *NOT* caused
- by these solutions, but might be -- see below).  While the following
- does not require Smartdrive, using some kind of disk cache utility is
- strongly recommended, as this makes Windows run much, much faster:
+      after trashing my hard disk countless times, i found the following
+ solutions, none of which require using smartdrive (note, however, that i
+ am now getting occasional parity errors, which are probably *not* caused
+ by these solutions, but might be -- see below).  while the following
+ does not require smartdrive, using some kind of disk cache utility is
+ strongly recommended, as this makes windows run much, much faster:
  
- 1. If you do not have the ASPI4DOS.SYS driver, or you do not need ASPI
-    functions (for controlling a CDROM, tape drive, more than two
-    physical hard disks, etc.), you can add the SCSIHA.SYS driver to your
-    CONFIG.SYS file, e.g.:
+ 1. if you do not have the aspi4dos.sys driver, or you do not need aspi
+    functions (for controlling a cdrom, tape drive, more than two
+    physical hard disks, etc.), you can add the scsiha.sys driver to your
+    config.sys file, e.g.:
  
- 	DRIVER=c:\SCSIHA.SYS /V386
+ 	driver=c:\scsiha.sys /v386
  
-    (Windows needs the "/V386" option.)  This driver MUST be loaded into
-    LOW memory (it cannot be loaded into high memory), and it occupies
-    about 16-20K.  As of November 1992, the SCSIHA.SYS driver could be
-    obtained from the Adaptec BBS at (408)-945-7727 (hopefully, it's
+    (windows needs the "/v386" option.)  this driver must be loaded into
+    low memory (it cannot be loaded into high memory), and it occupies
+    about 16-20k.  as of november 1992, the scsiha.sys driver could be
+    obtained from the adaptec bbs at (408)-945-7727 (hopefully, it's
     still there).
  
- 2. If you need ASPI functions and have the ASPI4DOS.SYS driver, version
-    3.0 or 3.0a, you can use both the ASPI4DOS.SYS and SCSIHA.SYS drivers
-    in your CONFIG.SYS file, e.g.:
+ 2. if you need aspi functions and have the aspi4dos.sys driver, version
+    3.0 or 3.0a, you can use both the aspi4dos.sys and scsiha.sys drivers
+    in your config.sys file, e.g.:
  
- 	DRIVER=c:\ASPI4DOS.SYS
- 	DRIVER=c:\SCSIHA.SYS /V386
+ 	driver=c:\aspi4dos.sys
+ 	driver=c:\scsiha.sys /v386
  
-    Amazingly enough, the SCSIHA.SYS driver can also be loaded high
-    (assuming you have DOS 5.0); I would have thought that this would
-    crash my system, but it doesn't.  I asked Adaptec's technical support
-    about this, and they said that loading SCSIHA.SYS high should be fine
-    as long as ASPI4DOS.SYS is loaded LOW.
+    amazingly enough, the scsiha.sys driver can also be loaded high
+    (assuming you have dos 5.0); i would have thought that this would
+    crash my system, but it doesn't.  i asked adaptec's technical support
+    about this, and they said that loading scsiha.sys high should be fine
+    as long as aspi4dos.sys is loaded low.
  
-    On my system, NOT using SCSIHA.SYS with ASPI4DOS 3.0a would
-    occasionally cause Windows 3.1 to crash upon restarting or exiting
-    Windows, with the additional result of a corrupted disk (some of my
-    C:\WINDOWS\*.GRP files would be corrupted).  For me, these crashes
-    usually occurred while making a different program from PROGMAN.EXE
-    the default Windows shell, and vice-versa.  This is the reason
-    SCSIHA.SYS may be necessary.
+    on my system, not using scsiha.sys with aspi4dos 3.0a would
+    occasionally cause windows 3.1 to crash upon restarting or exiting
+    windows, with the additional result of a corrupted disk (some of my
+    c:\windows\*.grp files would be corrupted).  for me, these crashes
+    usually occurred while making a different program from progman.exe
+    the default windows shell, and vice-versa.  this is the reason
+    scsiha.sys may be necessary.
  
-    I have absolutely no idea if SCSIHA.SYS is necessary with versions of
-    ASPI4DOS earlier than 3.0.
+    i have absolutely no idea if scsiha.sys is necessary with versions of
+    aspi4dos earlier than 3.0.
  
-    Note that many people can use ASPI4DOS 3.0 or 3.0a without
-    SCSIHA.SYS; they do not seem to have any problems at all.  I consider
-    these people lucky.  Others, like me, have had all sorts of problems.
+    note that many people can use aspi4dos 3.0 or 3.0a without
+    scsiha.sys; they do not seem to have any problems at all.  i consider
+    these people lucky.  others, like me, have had all sorts of problems.
  
- 3. In my opinion, the best, but not necessarily the easiest, solution is
-    to upgrade to ASPI4DOS 3.1.  The SCSIHA.SYS driver is no longer
-    needed.  Unfortunately, while you could get previous ASPI4DOS
-    upgrades from the Adaptec BBS, the ASPI4DOS 3.1 driver is not
-    available from the Adaptec BBS.  As far as I know, there are only
+ 3. in my opinion, the best, but not necessarily the easiest, solution is
+    to upgrade to aspi4dos 3.1.  the scsiha.sys driver is no longer
+    needed.  unfortunately, while you could get previous aspi4dos
+    upgrades from the adaptec bbs, the aspi4dos 3.1 driver is not
+    available from the adaptec bbs.  as far as i know, there are only
     three ways to get a copy:
  
-       * You can buy the new (as of November 1992) Adaptec EZ SCSI driver
- 	kit, which supposedly includes ASPI4DOS 3.1 as well as other
- 	drivers, such as CDROM drivers.  I believe the list price is
+       * you can buy the new (as of november 1992) adaptec ez scsi driver
+ 	kit, which supposedly includes aspi4dos 3.1 as well as other
+ 	drivers, such as cdrom drivers.  i believe the list price is
  	around $75.
  
-       * If you already have a copy of an older version of ASPI4DOS, you
- 	can supposedly contact Adaptec to upgrade it to EZ SCSI for
+       * if you already have a copy of an older version of aspi4dos, you
+ 	can supposedly contact adaptec to upgrade it to ez scsi for
  	around $30.
  
-       * A copy of ASPI4DOS 3.1 is included in Central Point PC Tools 8.0
- 	for MSDOS.  Note that the documentation and driver are stored in
- 	different directories.  Note further that only ASPI4DOS is
- 	included; the CDROM drivers and drivers to support more than two
- 	hard disks are not included.  This is where I obtained my copy
- 	of ASPI4DOS 3.1.
+       * a copy of aspi4dos 3.1 is included in central point pc tools 8.0
+ 	for msdos.  note that the documentation and driver are stored in
+ 	different directories.  note further that only aspi4dos is
+ 	included; the cdrom drivers and drivers to support more than two
+ 	hard disks are not included.  this is where i obtained my copy
+ 	of aspi4dos 3.1.
  
- Note, however, that I am now getting occasional parity errors with
- Windows.  In all probability, defective hardware in my PC is causing
- this, as I upgraded my motherboard just after I found the above
- solutions.  However, because these parity errors occur only during disk
+ note, however, that i am now getting occasional parity errors with
+ windows.  in all probability, defective hardware in my pc is causing
+ this, as i upgraded my motherboard just after i found the above
+ solutions.  however, because these parity errors occur only during disk
  accesses, there is a very small, but definite, possibility that the
  parity errors are driver-related (for example, changing the bus on/off
- timing for certain disk transfers might cause this).  I've run various
+ timing for certain disk transfers might cause this).  i've run various
  memory tests for hours at a time, and these tests have found no
- problems.  This problem is probably caused by memory with marginal
+ problems.  this problem is probably caused by memory with marginal
  timing requirements, which cause parity errors during disk transfers
  (this is why the memory tests didn't find any problems -- the problems
- show up only under disk I/O).  However, I'm mentioning this just in case
+ show up only under disk i/o).  however, i'm mentioning this just in case
  it isn't a hardware problem.
  
  
- ***** Floppy-controller-based tape backup devices:
+ ***** floppy-controller-based tape backup devices:
  
-      There are two possible problems with using the Adaptec 1542 with a
- floppy-controller-based tape backup device, such as the Colorado Memory
- Systems Jumbo 250:
+      there are two possible problems with using the adaptec 1542 with a
+ floppy-controller-based tape backup device, such as the colorado memory
+ systems jumbo 250:
  
- 1. Tape backups/restores can take a very long time.  The tape drive
+ 1. tape backups/restores can take a very long time.  the tape drive
     constantly starts, stops, starts, stops, etc.
  
- 2. Tape operations may be erratic, or encounter too many tape errors.
-    (This problem might be caused by defective hardware on my 1542.
-    However, I've heard of other people having similar problems, and so
-    I'm mentioning this just in case it is not a hardware problem on my
+ 2. tape operations may be erratic, or encounter too many tape errors.
+    (this problem might be caused by defective hardware on my 1542.
+    however, i've heard of other people having similar problems, and so
+    i'm mentioning this just in case it is not a hardware problem on my
     1542.)
  
  
- * Tape backups/restores take a long time:
+ * tape backups/restores take a long time:
  
-      If you have a floppy-controller-based tape backup device, you may
- have to adjust the Adaptec 1540/1542 "bus on/off timing" for best
- results when using the tape drive.  Normally, while doing a tape backup
+      if you have a floppy-controller-based tape backup device, you may
+ have to adjust the adaptec 1540/1542 "bus on/off timing" for best
+ results when using the tape drive.  normally, while doing a tape backup
  or restore, the tape drive motor should be continuously running, with
- only an occasional pause.  However, the default bus timing on the
- Adaptec 1540/1542 may cause the tape drive motor to start and stop,
- start and stop, every few seconds.  This causes needless wear to the
+ only an occasional pause.  however, the default bus timing on the
+ adaptec 1540/1542 may cause the tape drive motor to start and stop,
+ start and stop, every few seconds.  this causes needless wear to the
  tape and tape drive (however, note that a dirty tape head or a defective
  tape drive can also cause this -- make sure your tape heads are clean).
- This also causes the tape backup or restore to take much, much longer
+ this also causes the tape backup or restore to take much, much longer
  than necessary.
  
-      The problem here is that these tape backups use the floppy DMA to
- transfer data in memory to/from the tape drive, and the Adaptec uses DMA
- to transfer data in memory to/from the hard disk.  The floppy DMA needs
+      the problem here is that these tape backups use the floppy dma to
+ transfer data in memory to/from the tape drive, and the adaptec uses dma
+ to transfer data in memory to/from the hard disk.  the floppy dma needs
  to feed data to the tape drive at a certain rate; if the tape drive is
- not fed data quickly enough by the floppy DMA, the tape drive stops,
+ not fed data quickly enough by the floppy dma, the tape drive stops,
  rewinds a bit, and restarts (once enough data is eventually fed to it).
- The default bus timing on the Adaptec (which is really DMA timing) is
- "too large".  For example, when a backup is done, data has to be
+ the default bus timing on the adaptec (which is really dma timing) is
+ "too large".  for example, when a backup is done, data has to be
  transferred from a hard disk to memory, and then from memory to the
- tape.  Because the default timing on the Adaptec "hogs" the memory too
+ tape.  because the default timing on the adaptec "hogs" the memory too
  much (too much time is spent transferring data from a hard disk to
  memory), not enough time is spent transferring data from memory to the
- tape drive.  As a result, the tape drive constantly starts and stops,
+ tape drive.  as a result, the tape drive constantly starts and stops,
  because data is not fed to it quickly enough.
  
-      The solution is to change the Adaptec's bus on/off timing.  The
+      the solution is to change the adaptec's bus on/off timing.  the
  default factory setting is 11 microseconds on, and 5 microseconds off.
- The "bus on" timing needs to be lowered to 2-4 microseconds.  This can
+ the "bus on" timing needs to be lowered to 2-4 microseconds.  this can
  be done in one of two ways:
  
- * If you have ASPI4DOS, you can use the "/n" option.  For example, I use
-   a "bus on" timing of 4 microseconds, which means that I use the
-   following line in my CONFIG.SYS file:
+ * if you have aspi4dos, you can use the "/n" option.  for example, i use
+   a "bus on" timing of 4 microseconds, which means that i use the
+   following line in my config.sys file:
  
- 	DEVICE=c:\aspi4dos.sys /n4
+ 	device=c:\aspi4dos.sys /n4
  
-   Note that there is NO space between the "/n" and the "4".
+   note that there is no space between the "/n" and the "4".
  
- * If you don't have ASPI4DOS, your only recourse is to try to find a
-   program called "SETSCSI.EXE", which is very difficult to find.  The
-   reason is that Adaptec, for reasons of their own, does not seem to
-   want this widely distributed.  I once asked someone who worked for
-   Adaptec, and they asked me to not upload it anywhere.  If you have
-   anonymous ftp access to the Internet, you could try using archie to
-   hunt down a copy; I believe that there are a couple of sites that have
-   it.  If you do find a copy, you run it like so:
+ * if you don't have aspi4dos, your only recourse is to try to find a
+   program called "setscsi.exe", which is very difficult to find.  the
+   reason is that adaptec, for reasons of their own, does not seem to
+   want this widely distributed.  i once asked someone who worked for
+   adaptec, and they asked me to not upload it anywhere.  if you have
+   anonymous ftp access to the internet, you could try using archie to
+   hunt down a copy; i believe that there are a couple of sites that have
+   it.  if you do find a copy, you run it like so:
  
  	setscsi -n:4
  
-   This adjusts the "bus on" timing to 4 microseconds.  Running
-   SETSCSI.EXE without any arguments resets the bus timing back to the
+   this adjusts the "bus on" timing to 4 microseconds.  running
+   setscsi.exe without any arguments resets the bus timing back to the
    factory defaults.
  
-   Note that it seems that you cannot use SETSCSI.EXE if you use
-   ASPI4DOS; SETSCSI.EXE crashed my system if ASPI4DOS was loaded.  I
-   could use SETSCSI.EXE with SCSIHA.SYS, however.
+   note that it seems that you cannot use setscsi.exe if you use
+   aspi4dos; setscsi.exe crashed my system if aspi4dos was loaded.  i
+   could use setscsi.exe with scsiha.sys, however.
  
- Do not lower the "bus on" timing below 2 microseconds, or increase it
- above 11 microseconds.  If you lower it too low, the hard disk
- throughput will suddenly drop; your system will feel slower.  For me, 4
- microseconds works fine.  This value may work fine for you, or you may
+ do not lower the "bus on" timing below 2 microseconds, or increase it
+ above 11 microseconds.  if you lower it too low, the hard disk
+ throughput will suddenly drop; your system will feel slower.  for me, 4
+ microseconds works fine.  this value may work fine for you, or you may
  have to adjust it downwards a little.
  
-      Once you've lowered the "bus on" timing, tape backups and restores
+      once you've lowered the "bus on" timing, tape backups and restores
  should run faster.
  
-      Also, do not experiment with the bus on/off times (with the other
- options that I have intentionally not described), unless you know what
- you are doing.  Bad combinations can cause parity errors and worse, by
+      also, do not experiment with the bus on/off times (with the other
+ options that i have intentionally not described), unless you know what
+ you are doing.  bad combinations can cause parity errors and worse, by
  starving memory refresh.
  
-      A program called BUSTIFIX.EXE exists on the Adaptec BBS.  Unless
- this has been upgraded since I last checked (which has been a while),
+      a program called bustifix.exe exists on the adaptec bbs.  unless
+ this has been upgraded since i last checked (which has been a while),
  this is a self-extracting archive containing a batch file and a couple
- of other files.  This batch file was supposed to allow one to set the
- bus on/off times for the 1540/1542 and others.  However, when I tried
- running this program with my 1542A, my system crashed.  At the time, I
- was running SCSIHA.SYS, and I didn't check to see if there was a
- conflict with it.  Maybe this old program works only with the 1542B,
- although the docs say that it works with the 1542A?
+ of other files.  this batch file was supposed to allow one to set the
+ bus on/off times for the 1540/1542 and others.  however, when i tried
+ running this program with my 1542a, my system crashed.  at the time, i
+ was running scsiha.sys, and i didn't check to see if there was a
+ conflict with it.  maybe this old program works only with the 1542b,
+ although the docs say that it works with the 1542a?
  
  
- * Erratic tape operations or too many tape errors:
+ * erratic tape operations or too many tape errors:
  
-      This "problem" may or may not exist.  Although it existed on my
+      this "problem" may or may not exist.  although it existed on my
  system, a hardware problem just on my particular 1542 could cause it.
- However, I've heard of other people having similar problems, and so I'm
+ however, i've heard of other people having similar problems, and so i'm
  mentioning this just in case it isn't a hardware problem just on my
  1542.
  
-      Symptoms of this "problem", which persists even after cleaning the
+      symptoms of this "problem", which persists even after cleaning the
  tape head:
  
- 1. Backing up to tape encounters "unusable sector detected" errors,
+ 1. backing up to tape encounters "unusable sector detected" errors,
     resulting in an aborted tape backup.
  
- 2. Tape backup works, but the tape compare fails.
+ 2. tape backup works, but the tape compare fails.
  
- 3. The tape drive starts, stops, starts, stops, etc. much too often.
-    Unlike the above-mentioned problem ("Tape backups/restores take a
+ 3. the tape drive starts, stops, starts, stops, etc. much too often.
+    unlike the above-mentioned problem ("tape backups/restores take a
     long time"), where the tape drive starts and stops every few seconds,
     this kind of starting/stopping occurs every few 10-20 seconds or so.
  
- 4. Fastback Plus 3.1 does not find/see any tape backup devices.  Other
-    programs, like Central Point Backup and the CMS Jumbo software
-    (assuming that you have a CMS Jumbo 250 tape drive) can find/see the
-    tape drive, but Fastback Plus 3.1 cannot.
+ 4. fastback plus 3.1 does not find/see any tape backup devices.  other
+    programs, like central point backup and the cms jumbo software
+    (assuming that you have a cms jumbo 250 tape drive) can find/see the
+    tape drive, but fastback plus 3.1 cannot.
  
- 5. Too many tape read errors.
+ 5. too many tape read errors.
  
-      Although I do not know what is causing this problem, I discovered
- that using a different floppy controller solves it.  A few months ago, I
+      although i do not know what is causing this problem, i discovered
+ that using a different floppy controller solves it.  a few months ago, i
  upgraded my motherboard, which contained an integrated floppy
- controller.  As I already had a floppy controller on the 1542, I
- initially disabled the motherboard floppy controller.  After a while, I
+ controller.  as i already had a floppy controller on the 1542, i
+ initially disabled the motherboard floppy controller.  after a while, i
  decided to try disabling the 1542 floppy controller and using the one on
- the motherboard.  When I did this, the tape drive (a CMS Jumbo 250)
- reliability increased dramatically, and Fastback Plus 3.1 was suddenly
+ the motherboard.  when i did this, the tape drive (a cms jumbo 250)
+ reliability increased dramatically, and fastback plus 3.1 was suddenly
  able to find and use the tape drive.
  
-      I don't know if this was caused by a hardware problem on my 1542.
- On the one hand, the floppy drives worked great when they were attached
+      i don't know if this was caused by a hardware problem on my 1542.
+ on the one hand, the floppy drives worked great when they were attached
  to the 1542, which seems to say that there was nothing wrong with the
- 1542.  On the other hand, the tape drive didn't work well attached to
+ 1542.  on the other hand, the tape drive didn't work well attached to
  the 1542 floppy controller, but it did work when attached to a different
  controller; this could be an indication of a hardware problem on my
- 1542.  I did change floppy drive cables, and so it is conceivable that
- the problem was in the cables.  I don't know what the cause really is;
+ 1542.  i did change floppy drive cables, and so it is conceivable that
+ the problem was in the cables.  i don't know what the cause really is;
  however, if you're having similar problems, you might want to consider
  trying a new floppy controller.
  
  
- ***** Sound cards:
+ ***** sound cards:
  
-      Many popular sound cards can play or record digitized sound, and
- this is typically done using DMA.  Like the tape drive DMA, the
- Adaptec's DMA can conflict with the sound card DMA.  Unlike that of the
- tape DMA, this "conflict" usually manifests itself as a parity error
- (your system crashes with a parity error message).  What happens is
+      many popular sound cards can play or record digitized sound, and
+ this is typically done using dma.  like the tape drive dma, the
+ adaptec's dma can conflict with the sound card dma.  unlike that of the
+ tape dma, this "conflict" usually manifests itself as a parity error
+ (your system crashes with a parity error message).  what happens is
  that, data is being transferred so quickly by the sound card and the
- Adaptec, memory refresh cannot occur quickly enough, which causes a
- parity error.  Usually, getting a parity error means that there is a
+ adaptec, memory refresh cannot occur quickly enough, which causes a
+ parity error.  usually, getting a parity error means that there is a
  hardware problem with your system; in this case, however, the parity
  error is not a symptom of bad hardware.
  
-      I've found that such parity errors typically occur while recording
+      i've found that such parity errors typically occur while recording
  digitized sound, and the chances of such errors increase as you increase
  the recording fidelity (e.g., higher sampling rate, recording in stereo,
  recording using 16-bits instead of 8, etc.).
  
-      Like the tape drive solution, the solution here is to lower the
- Adaptec's "bus on" timing.  See the section on tape drives for
- information on how this is done.  Note, however, that this may or may
+      like the tape drive solution, the solution here is to lower the
+ adaptec's "bus on" timing.  see the section on tape drives for
+ information on how this is done.  note, however, that this may or may
  not solve the problem; it may only reduce the probability of a parity
- error.  The software used to record digitized sound can greatly affect
- this problem (i.e., some software is inefficient).  Disk caches, the
+ error.  the software used to record digitized sound can greatly affect
+ this problem (i.e., some software is inefficient).  disk caches, the
  speed of your hard disk, and the amount of disk fragmentation can also
  affect this.
  
  
- ***** Miscellaneous info:
+ ***** miscellaneous info:
  
-      This section contains miscellaneous hints, tips, and rumors.  Much
- of it is merely information that I've heard or read about, and have not
- verified.  I believe that the following information is correct, but I'm
- not sure.  Use it at your own risk.
+      this section contains miscellaneous hints, tips, and rumors.  much
+ of it is merely information that i've heard or read about, and have not
+ verified.  i believe that the following information is correct, but i'm
+ not sure.  use it at your own risk.
  
- * With QEMM 6.00, 6.01, and 6.02, you need to specify the "DB="
-   parameter (e.g., "DB=2"), unless you are using the ASPI4DOS driver.
-   If you don't, QEMM will crash/hang at bootup.  Although the QEMM
+ * with qemm 6.00, 6.01, and 6.02, you need to specify the "db="
+   parameter (e.g., "db=2"), unless you are using the aspi4dos driver.
+   if you don't, qemm will crash/hang at bootup.  although the qemm
    manual mentions this, the install program does not seem to detect that
-   a 1542 is present and automatically add this option to the QEMM
-   command line (at least, this occurred with the QEMM 6.00 install
-   program -- I haven't tested any other version).  Earlier versions of
-   QEMM probably need this parameter, but I'm not sure (I've never used a
+   a 1542 is present and automatically add this option to the qemm
+   command line (at least, this occurred with the qemm 6.00 install
+   program -- i haven't tested any other version).  earlier versions of
+   qemm probably need this parameter, but i'm not sure (i've never used a
    version earlier than 6.00).
  
-   If you use ASPI4DOS, you do not need to give QEMM the "DB=" parameter.
+   if you use aspi4dos, you do not need to give qemm the "db=" parameter.
  
- * Some or all versions of the 1542 do not support hard disks over one
-   gigabyte in size.  To support hard disks with capacities over 1GB, you
-   need to get a new ROM BIOS from Adaptec.  I'm not sure if this is
-   still true of the latest 1542Bs being sold by Adaptec.
+ * some or all versions of the 1542 do not support hard disks over one
+   gigabyte in size.  to support hard disks with capacities over 1gb, you
+   need to get a new rom bios from adaptec.  i'm not sure if this is
+   still true of the latest 1542bs being sold by adaptec.
  
- * To connect a CDROM drive to the 1542, you need a SCSI CDROM drive and
-   some drivers.  Note that some CDROM drives have proprietary interfaces
-   (non-SCSI); these drives cannot be used with the 1542.  You have three
-   choices for CDROM drivers (I have no idea how well the following
+ * to connect a cdrom drive to the 1542, you need a scsi cdrom drive and
+   some drivers.  note that some cdrom drives have proprietary interfaces
+   (non-scsi); these drives cannot be used with the 1542.  you have three
+   choices for cdrom drivers (i have no idea how well the following
    solutions work, or even if they work -- the following is secondhand
    information):
  
-      1. You can buy Adaptec's EZ SCSI driver package, which lists for
- 	something like $75.  If you already have older Adaptec drivers,
- 	you can supposedly upgrade to EZ SCSI for around $30.  Contact
- 	Adaptec for details.  The EZ SCSI package supposedly contains
+      1. you can buy adaptec's ez scsi driver package, which lists for
+ 	something like $75.  if you already have older adaptec drivers,
+ 	you can supposedly upgrade to ez scsi for around $30.  contact
+ 	adaptec for details.  the ez scsi package supposedly contains
  	everything that you need.
  
-      2. You can buy the CorelSCSI! driver package, which is made by the
- 	same people that make CorelDRAW!  This package contains CDROM
- 	drivers, SCSI tape drivers, WORM drivers, etc.  I do not know
- 	the list price, but I've seen this package sold for around
- 	$80-$90.  Note that CorelSCSI! does not come with the ASPI4DOS
- 	driver, which is needed.  If you do not already have ASPI4DOS,
- 	you may be better off getting Adaptec's EZ SCSI instead.
+      2. you can buy the corelscsi! driver package, which is made by the
+ 	same people that make coreldraw!  this package contains cdrom
+ 	drivers, scsi tape drivers, worm drivers, etc.  i do not know
+ 	the list price, but i've seen this package sold for around
+ 	$80-$90.  note that corelscsi! does not come with the aspi4dos
+ 	driver, which is needed.  if you do not already have aspi4dos,
+ 	you may be better off getting adaptec's ez scsi instead.
  
-      3. [This method is obsolete, as the following drivers have been
- 	obsoleted by Adaptec's EZ SCSI kit, but I'm mentioning it in
- 	case someone already has these drivers.]  You can use the
- 	drivers in the Adaptec ASW-1410 kit (ASPI4DOS) and the ASW-410
- 	kit (ASPI CDROM drivers).  You will have to get a copy of
- 	MSCDEX.EXE (a high-level CDROM driver), if it is not included in
- 	the ASW-410 kit, but this is available from several bulletin
+      3. [this method is obsolete, as the following drivers have been
+ 	obsoleted by adaptec's ez scsi kit, but i'm mentioning it in
+ 	case someone already has these drivers.]  you can use the
+ 	drivers in the adaptec asw-1410 kit (aspi4dos) and the asw-410
+ 	kit (aspi cdrom drivers).  you will have to get a copy of
+ 	mscdex.exe (a high-level cdrom driver), if it is not included in
+ 	the asw-410 kit, but this is available from several bulletin
  	boards.
  
- * To use a SCSI tape drive with the 1542, you need software that knows
-   how to talk to a SCSI tape drive.  Software that I've heard about are
-   (again, like the above section on CDROM drives, I have no idea how
+ * to use a scsi tape drive with the 1542, you need software that knows
+   how to talk to a scsi tape drive.  software that i've heard about are
+   (again, like the above section on cdrom drives, i have no idea how
    well the following solutions work, or even if they work -- the
    following is secondhand information):
  
-      1. Central Point PC Tools 8.0 for MSDOS supposedly supports a large
- 	number of SCSI tape drives.  It comes with SCSI drivers
- 	(ASPI4DOS 3.1) as well as Central Point Backup.
+      1. central point pc tools 8.0 for msdos supposedly supports a large
+ 	number of scsi tape drives.  it comes with scsi drivers
+ 	(aspi4dos 3.1) as well as central point backup.
  
-      2. The CorelSCSI! driver package contains a SCSI tape backup
- 	program (see the above section on CDROM drives for more
- 	details).  However, note that CorelSCSI! does not come with, but
- 	requires, ASPI4DOS.
+      2. the corelscsi! driver package contains a scsi tape backup
+ 	program (see the above section on cdrom drives for more
+ 	details).  however, note that corelscsi! does not come with, but
+ 	requires, aspi4dos.
  
- * I've seen advertisements that sell the 1542 in three configurations:
+ * i've seen advertisements that sell the 1542 in three configurations:
  
-      1. 1542 SCSI controller with hard disk ROM BIOS.
-      2. 1542 SCSI controller w/BIOS and Adaptec ASPI drivers.
-      3. 1542 SCSI controller w/BIOS, Adaptec ASPI drivers, and
- 	CorelSCSI! drivers/programs.
+      1. 1542 scsi controller with hard disk rom bios.
+      2. 1542 scsi controller w/bios and adaptec aspi drivers.
+      3. 1542 scsi controller w/bios, adaptec aspi drivers, and
+ 	corelscsi! drivers/programs.
  
-   I imagine that Adaptec now sells the 1542 in a fourth configuration:
+   i imagine that adaptec now sells the 1542 in a fourth configuration:
  
-      4. 1542 SCSI controller w/BIOS and EZ SCSI drivers (including ASPI
+      4. 1542 scsi controller w/bios and ez scsi drivers (including aspi
  	drivers).
  
- * Those people who use Unix might be interested in a version of GNU tar
-   for MSDOS that talks to a SCSI tape drive via the ASPI4DOS driver (you
-   need this driver before you can use this program).  I've never used
-   this version of GNU tar, but I've heard that it works (I don't know
-   how well, though).  If you have anonymous ftp access to the Internet,
+ * those people who use unix might be interested in a version of gnu tar
+   for msdos that talks to a scsi tape drive via the aspi4dos driver (you
+   need this driver before you can use this program).  i've never used
+   this version of gnu tar, but i've heard that it works (i don't know
+   how well, though).  if you have anonymous ftp access to the internet,
    a copy can be found on wsmr-simtel20.army.mil and mirror sites:
  
- 	PD1:<MSDOS.DSKUTL>
- 	ASPIBIN.ZIP  67841 920131 Gnu Tar for SCSI tape drives, Adaptec 154xx
- 	ASPIPAT.ZIP  21206 920131 Patches for ASPIBIN relative to Gnu Tar 1.10
- 	ASPISRC.ZIP 221370 920131 Src for Gnu Tar for SCSI tape, Adaptec ctrlr
+ 	pd1:<msdos.dskutl>
+ 	aspibin.zip  67841 920131 gnu tar for scsi tape drives, adaptec 154xx
+ 	aspipat.zip  21206 920131 patches for aspibin relative to gnu tar 1.10
+ 	aspisrc.zip 221370 920131 src for gnu tar for scsi tape, adaptec ctrlr
  
-   I have no idea if a copy can be found on Compuserve; UNIXFORUM might
+   i have no idea if a copy can be found on compuserve; unixforum might
    have it, if any forum does.
  
- * As far as MSDOS is concerned, the 1542A and the 1542B controllers are
-   the same; with MSDOS, the 1542A should work as well as the 1542B.
-   However, the hardware for these two boards is not 100% identical, and
-   there is at least one (NON-MSDOS) program that initially did not work
-   with a 1542A, but did work with a 1542B (BSD386 -- a 386 version of
-   BSD Unix).
+ * as far as msdos is concerned, the 1542a and the 1542b controllers are
+   the same; with msdos, the 1542a should work as well as the 1542b.
+   however, the hardware for these two boards is not 100% identical, and
+   there is at least one (non-msdos) program that initially did not work
+   with a 1542a, but did work with a 1542b (bsd386 -- a 386 version of
+   bsd unix).
  
- * In case anyone's curious, here's an edited copy of my CONFIG.SYS file:
+ * in case anyone's curious, here's an edited copy of my config.sys file:
  
- 	FILES=40
- 	BUFFERS=40
- 	BREAK=ON
- 	STACKS=10,256
- 	DEVICE=c:\sys\dev\aspi4dos.sys /d /n4
- 	DEVICE=C:\QEMM\QEMM386.SYS on RAM ROM DMA=32 ST:M X=F800-FFFF
- 	DOS=HIGH,UMB
- 	DEVICEHIGH=c:\sys\dev\nnansi.sys
- 	DEVICEHIGH=C:\DOS\SETVER.EXE
+ 	files=40
+ 	buffers=40
+ 	break=on
+ 	stacks=10,256
+ 	device=c:\sys\dev\aspi4dos.sys /d /n4
+ 	device=c:\qemm\qemm386.sys on ram rom dma=32 st:m x=f800-ffff
+ 	dos=high,umb
+ 	devicehigh=c:\sys\dev\nnansi.sys
+ 	devicehigh=c:\dos\setver.exe
  	shell = c:\dos\command.com /p
  
-   Note that I'm using QEMM and ASPI4DOS 3.1.  If I were using ASPI4DOS
-   3.0 or 3.0a, I'd probably have to use a CONFIG.SYS that looked like:
+   note that i'm using qemm and aspi4dos 3.1.  if i were using aspi4dos
+   3.0 or 3.0a, i'd probably have to use a config.sys that looked like:
  
- 	FILES=40
- 	BUFFERS=40
- 	BREAK=ON
- 	STACKS=10,256
- 	DEVICE=c:\sys\dev\aspi4dos.sys /d /n4
- 	DEVICE=C:\QEMM\QEMM386.SYS on RAM ROM DMA=32 ST:M X=F800-FFFF
- 	DOS=HIGH,UMB
- 	DEVICEHIGH=c:\sys\dev\scsiha.sys /V386
- 	DEVICEHIGH=c:\sys\dev\nnansi.sys
- 	DEVICEHIGH=C:\DOS\SETVER.EXE
+ 	files=40
+ 	buffers=40
+ 	break=on
+ 	stacks=10,256
+ 	device=c:\sys\dev\aspi4dos.sys /d /n4
+ 	device=c:\qemm\qemm386.sys on ram rom dma=32 st:m x=f800-ffff
+ 	dos=high,umb
+ 	devicehigh=c:\sys\dev\scsiha.sys /v386
+ 	devicehigh=c:\sys\dev\nnansi.sys
+ 	devicehigh=c:\dos\setver.exe
  	shell = c:\dos\command.com /p
  
-   If I weren't using ASPI4DOS, I'd probably use something that looked
+   if i weren't using aspi4dos, i'd probably use something that looked
    like:
  
- 	FILES=40
- 	BUFFERS=40
- 	BREAK=ON
- 	STACKS=10,256
- 	DEVICE=c:\sys\dev\scsiha.sys /V386
- 	DEVICE=C:\QEMM\QEMM386.SYS on RAM ROM DB=32 DMA=32 ST:M X=F800-FFFF
- 	DOS=HIGH,UMB
- 	DEVICEHIGH=c:\sys\dev\nnansi.sys
- 	DEVICEHIGH=C:\DOS\SETVER.EXE
+ 	files=40
+ 	buffers=40
+ 	break=on
+ 	stacks=10,256
+ 	device=c:\sys\dev\scsiha.sys /v386
+ 	device=c:\qemm\qemm386.sys on ram rom db=32 dma=32 st:m x=f800-ffff
+ 	dos=high,umb
+ 	devicehigh=c:\sys\dev\nnansi.sys
+ 	devicehigh=c:\dos\setver.exe
  	shell = c:\dos\command.com /p
  
-   However, if I used a floppy-controller-based tape drive, or if I
-   planned to record high-quality sound from a sound card, I would still
-   need some way of changing the Adaptec's bus on/off times.  The first
-   two versions of CONFIG.SYS take care of this, but this last version
+   however, if i used a floppy-controller-based tape drive, or if i
+   planned to record high-quality sound from a sound card, i would still
+   need some way of changing the adaptec's bus on/off times.  the first
+   two versions of config.sys take care of this, but this last version
    doesn't.
  
  
  
- Local Variables:
+ local variables:
  fill-column:	72
  eval:		(auto-fill-mode nil)
- End:
+ end:
  

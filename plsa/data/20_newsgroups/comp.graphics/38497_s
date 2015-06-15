@@ -1,35 +1,35 @@
 
  
  
- G'day all,
+ g'day all,
  
- Can anybody point me at a utility which will read/convert/crop/whatnot/
- display HDF image files ? I've had a look at the HDF stuff under NCSA 
+ can anybody point me at a utility which will read/convert/crop/whatnot/
+ display hdf image files ? i've had a look at the hdf stuff under ncsa 
  and it must take an award for odd directory structure, strange storage
  approaches and minimalist documentation :-)
  
- Part of the problem is that I want to look at large (5MB+) HDF files and
- crop out a section. Ideally I would like a hdftoppm type of utility, from
- which I can then use the PBMplus stuff quite merrily. I can convert the cropped
+ part of the problem is that i want to look at large (5mb+) hdf files and
+ crop out a section. ideally i would like a hdftoppm type of utility, from
+ which i can then use the pbmplus stuff quite merrily. i can convert the cropped
  part into another format for viewing/animation.
  
- Otherwise, can someone please explain how to set up the NCSA Visualisation S/W
- for HDF (3.2.r5 or 3.3beta) and do the above cropping/etc. This is for
- Suns with SunOS 4.1.2.
+ otherwise, can someone please explain how to set up the ncsa visualisation s/w
+ for hdf (3.2.r5 or 3.3beta) and do the above cropping/etc. this is for
+ suns with sunos 4.1.2.
  
- Any help GREATLY appreciated. Ta muchly !
+ any help greatly appreciated. ta muchly !
  
- Cheers,
- 	Markus
+ cheers,
+ 	markus
  
  -- 
- Markus Buchhorn, Parallel Computing Research Facility
+ markus buchhorn, parallel computing research facility
  email = markus@octavia.anu.edu.au
- Australian National University, Canberra, 0200 , Australia.
- [International = +61 6, Australia = 06] [Phone = 2492930, Fax = 2490747]
+ australian national university, canberra, 0200 , australia.
+ [international = +61 6, australia = 06] [phone = 2492930, fax = 2490747]
  -- 
- Markus Buchhorn, Parallel Computing Research Facility
+ markus buchhorn, parallel computing research facility
  email = markus@octavia.anu.edu.au
- Australian National University, Canberra, 0200 , Australia.
- [International = +61 6, Australia = 06] [Phone = 2492930, Fax = 2490747]
+ australian national university, canberra, 0200 , australia.
+ [international = +61 6, australia = 06] [phone = 2492930, fax = 2490747]
  

@@ -1,31 +1,31 @@
-	<C52DsD.7pB@compsci.liverpool.ac.uk>
- Distribution: rec,sci
- Date: Tue, 6 Apr 1993 17:26:50 GMT
- Lines: 25
+	<c52dsd.7pb@compsci.liverpool.ac.uk>
+ distribution: rec,sci
+ date: tue, 6 apr 1993 17:26:50 gmt
+ lines: 25
  
- In article <C52DsD.7pB@compsci.liverpool.ac.uk> scst83@csc.liv.ac.uk (Chris Smith) writes:
+ in article <c52dsd.7pb@compsci.liverpool.ac.uk> scst83@csc.liv.ac.uk (chris smith) writes:
  
- > I'm looking to build a DSP for guitar processing. Hence lots of background
+ > i'm looking to build a dsp for guitar processing. hence lots of background
  > information would be really useful !
  > 
- > If anyone's got any info, could they email.....
+ > if anyone's got any info, could they email.....
  
- Well, I'm not sure I'd use this to process a guitar but there was a audio
- filter DSP construction article in the Sept 92 issue of QST magazine (Ham Radio
- oriented).  The DSP is available in kit form for about $120.
+ well, i'm not sure i'd use this to process a guitar but there was a audio
+ filter dsp construction article in the sept 92 issue of qst magazine (ham radio
+ oriented).  the dsp is available in kit form for about $120.
  
- This particular DSP filter was targetted toward processing audio to remove
- noise (static).  I built it and it really works well.  The source code is
- available too.  It makes a noisy audio signal much easier to hear.  Note that
+ this particular dsp filter was targetted toward processing audio to remove
+ noise (static).  i built it and it really works well.  the source code is
+ available too.  it makes a noisy audio signal much easier to hear.  note that
  this is for communication applications and is not "high fidelity".
  
  
  
  --
  - - - - - - - - - - - - - - - - - - + - - - - - - - - - - - - - - - - - +
- Mike Linnig, Texas Instruments Inc. | 97.43% of all statistics are made |
- Phone: (214) 575-3597  CALL: N5QAW  | up; most of them (83.6 percent)   |
- Internet: mike.linnig@dseg.ti.com   | are wrong.                        |
+ mike linnig, texas instruments inc. | 97.43% of all statistics are made |
+ phone: (214) 575-3597  call: n5qaw  | up; most of them (83.6 percent)   |
+ internet: mike.linnig@dseg.ti.com   | are wrong.                        |
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  
  

@@ -1,33 +1,33 @@
 
- I need information on the Display PostScript strokeadjust feature.
- This feature adjusts the endpoints of lines so that the displayed line
+ i need information on the display postscript strokeadjust feature.
+ this feature adjusts the endpoints of lines so that the displayed line
  looks better on low resolution devices.
  
- The PostScript literature explains the process to some extent.  They
- also give an example of how to "emulate" strokeadjust in PostScript
+ the postscript literature explains the process to some extent.  they
+ also give an example of how to "emulate" strokeadjust in postscript
  environments where it is absent.
  
- The suggested emulation is to modify the coordinates of the endpoints
+ the suggested emulation is to modify the coordinates of the endpoints
  of a line using the following formula for each coordinate:
  
  	new_coord = (round (old_coord - 0.25)) + 0.25
  	
- Doing this we end up with all coordinates ending in ".25".  From
- reading I thought that what they might actually do is:
+ doing this we end up with all coordinates ending in ".25".  from
+ reading i thought that what they might actually do is:
  
  	new_coord = ((trunc (old_coord * 2)) / 2) + 0.25
  	
- This results in all the coordinates ending in either "0.25" or "0.75" 
+ this results in all the coordinates ending in either "0.25" or "0.75" 
  whichever is closer.
  
- By doing some actual comparisons with Display PostScript, I find that
- neither of these is what DPS really uses.  Since I like how the DPS
- result looks better than how my stuff looks, I'd like to know if
- anyone who knows how DPS does it is willing/able to tell me.
+ by doing some actual comparisons with display postscript, i find that
+ neither of these is what dps really uses.  since i like how the dps
+ result looks better than how my stuff looks, i'd like to know if
+ anyone who knows how dps does it is willing/able to tell me.
  
- Thanks,
+ thanks,
  
- --Steve
+ --steve
  squeegee@world.std.com
  
  

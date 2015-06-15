@@ -1,29 +1,29 @@
 
- Hi.
+ hi.
  
- The RTrace ray tracer supports 3D text as a primitive, not collections of
+ the rtrace ray tracer supports 3d text as a primitive, not collections of
  spheres, cylinders and so on...
- The 3D chars are made of lines and splines that are extruded...
+ the 3d chars are made of lines and splines that are extruded...
  
- Please have a look at asterix.inescn.pt [192.35.246.17] in directory
- pub/RTrace.
- In pub/RTrace/tmp there are some demo images with high quality text.
- All of them are called Text?.jpg (JPEG encoded). See them first and then
+ please have a look at asterix.inescn.pt [192.35.246.17] in directory
+ pub/rtrace.
+ in pub/rtrace/tmp there are some demo images with high quality text.
+ all of them are called text?.jpg (jpeg encoded). see them first and then
  tell me what you think.
  
- Regards,
- Antonio.
+ regards,
+ antonio.
  .........................................................................
-      O     O
-     /     /                        I N E S C
-    | O   |        Antonio Costa        | E-Mail   acc@asterix.inescn.pt
-    | |\  |   O                         |          acosta@porto.inescn.pt
-    | | \ |  /  O  Comp. Graphics & CAD | DECnet   porto::a_costa
+      o     o
+     /     /                        i n e s c
+    | o   |        antonio costa        | e-mail   acc@asterix.inescn.pt
+    | |\  |   o                         |          acosta@porto.inescn.pt
+    | | \ |  /  o  comp. graphics & cad | decnet   porto::a_costa
     | |  \| /  /                        |
-    | |  /  | |    Largo Mompilher 22   | UUCP     {mcvax,...}!...
-    O | |-O | |    4100 Porto PORTUGAL  | Bell     +351+02+321006
+    | |  /  | |    largo mompilher 22   | uucp     {mcvax,...}!...
+    o | |-o | |    4100 porto portugal  | bell     +351+02+321006
      /   \ /   \
-    O     O     O          "Let the good times roll..."
+    o     o     o          "let the good times roll..."
  
  
  

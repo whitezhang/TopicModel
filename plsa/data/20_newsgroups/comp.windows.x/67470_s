@@ -1,25 +1,25 @@
 
- In <9304211637.AA03386@blue.arbortext.com> rps@arbortext.COM (Ralph Seguin) writes:
+ in <9304211637.aa03386@blue.arbortext.com> rps@arbortext.com (ralph seguin) writes:
  
- >My question is this:  Is there a means of determining what the state
- >of CapsLock and/or NumLock is?
+ >my question is this:  is there a means of determining what the state
+ >of capslock and/or numlock is?
  
- I don't know any way except to see what modifiers are on in th
- Keypress event.  Of course if there is some reason why you need to
+ i don't know any way except to see what modifiers are on in th
+ keypress event.  of course if there is some reason why you need to
  always know the state of modifiers even if your windows don't have the
- keyborads focus you can always ask for KeyPress events from the root
- window.  Then you get all the KeyPresses and you always know what have
+ keyborads focus you can always ask for keypress events from the root
+ window.  then you get all the keypresses and you always know what have
  been pressed.
  
- >An even more pointed question: Is there an easy means of making an X
- >keyboard act like a PC keyboard?  ie, CapsLock is active, and the user
- >presses shift-a, I'd like to get a lowercase 'a' instead of 'A'.
+ >an even more pointed question: is there an easy means of making an x
+ >keyboard act like a pc keyboard?  ie, capslock is active, and the user
+ >presses shift-a, i'd like to get a lowercase 'a' instead of 'a'.
  
- I think this is just a question of how to implement XLookupString.
- You can always write another function that interprets the KeyPresses
- as you like.  You can look at the implementation of XLookupString from
- the Xlib sources and then modify it a little bit.
+ i think this is just a question of how to implement xlookupstring.
+ you can always write another function that interprets the keypresses
+ as you like.  you can look at the implementation of xlookupstring from
+ the xlib sources and then modify it a little bit.
  -- 
-         Sami.Tikka@hut.fi | /G=Sami/S=Tikka/O=hut/ADMD=fumail/C=fi/
-                            "Live Long and Prosper!"
+         sami.tikka@hut.fi | /g=sami/s=tikka/o=hut/admd=fumail/c=fi/
+                            "live long and prosper!"
  

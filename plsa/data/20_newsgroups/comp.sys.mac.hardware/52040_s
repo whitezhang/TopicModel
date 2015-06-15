@@ -1,38 +1,38 @@
 
- REPOST - DUE TO NET PROBLEMS
+ repost - due to net problems
  
- Hi,
-    I have problems with the FDHD on a IICX that EKG reports is ROM
- revision 376. I had reports that this Mac was having trouble 
- formatting disks and by the time I got to it, the FDHD just would
+ hi,
+    i have problems with the fdhd on a iicx that ekg reports is rom
+ revision 376. i had reports that this mac was having trouble 
+ formatting disks and by the time i got to it, the fdhd just would
  not respond although all other functions were fine.
  
- I checked the voltages on the DB19 external drive connector and pin
- 6 showed no volts with 7 and 8 giving 25volts unloaded. The power 
- supply is an Astec and I sent it away for repair.
+ i checked the voltages on the db19 external drive connector and pin
+ 6 showed no volts with 7 and 8 giving 25volts unloaded. the power 
+ supply is an astec and i sent it away for repair.
  
- With the power supply reinstalled, I now get the following error:
+ with the power supply reinstalled, i now get the following error:
  
- With the internal FDHD connected, the Mac boots fine but on completion
- of boot cycle an alert displays "The disk is unreadable - do you
- want to eject it?". For every combination of response, the alert 
- reappears within approx 2 seconds and this error is continuous. The
- FDHD does spin but there is no head seeking and the FDHD is incapable
- of ejecting the disk. This error sequence occurs regardless of whether
- there is a floppy in the drive or not. Pin 6 on the DB19 external 
- connector shows 1.2V, pins 7 and 8 show 10.75V.
+ with the internal fdhd connected, the mac boots fine but on completion
+ of boot cycle an alert displays "the disk is unreadable - do you
+ want to eject it?". for every combination of response, the alert 
+ reappears within approx 2 seconds and this error is continuous. the
+ fdhd does spin but there is no head seeking and the fdhd is incapable
+ of ejecting the disk. this error sequence occurs regardless of whether
+ there is a floppy in the drive or not. pin 6 on the db19 external 
+ connector shows 1.2v, pins 7 and 8 show 10.75v.
  
- With the internal FDHD disconnected, the Mac boots fine and works great 
- (MacEKG reports no errors). The DB19 external connector now shows
- no voltage on pin 6 but pins 7 and 8 show 10.75V.
+ with the internal fdhd disconnected, the mac boots fine and works great 
+ (macekg reports no errors). the db19 external connector now shows
+ no voltage on pin 6 but pins 7 and 8 show 10.75v.
  
- Now, the internal FDHD may be fubar, but I have an apple 800K external
+ now, the internal fdhd may be fubar, but i have an apple 800k external
  drive that gives exactly the same symptoms as the internal drive when
- connected to either the external DB19 or the internal connector at J16
- (after suitable surgery to the external drive). The voltages at J16 
- (with the internal FDHD disconnected) are as follows:
+ connected to either the external db19 or the internal connector at j16
+ (after suitable surgery to the external drive). the voltages at j16 
+ (with the internal fdhd disconnected) are as follows:
  
- 	PIN	Volts	PIN	Volts
+ 	pin	volts	pin	volts
  	1	-	2	5
  	3	-	4	5
  	5	-	6	5
@@ -44,19 +44,19 @@
  	17	10.75	18	-
  	19	10.75	20	5
  
- This machine has a SWIM which I don't think EKG tests. I have tested all
- diodes and pica fuses and can find no problems. Does anybody have any
+ this machine has a swim which i don't think ekg tests. i have tested all
+ diodes and pica fuses and can find no problems. does anybody have any
  ideas ?
  
-                         Best wishes,
-                           Woody.
+                         best wishes,
+                           woody.
  
-                                Paul Woodman  
+                                paul woodman  
  
-                                Praxis plc,
- \          /           |       the software engineering company of Touche Ross, 
-  \        / ___  ___  _|       20 Manvers Street, Bath, BA1 1PX, UK.
-   \  /\  / /  / /  / / | \  /  Tel +44 225 444700 xt228
-    \/  \/ /__/ /__/ /__|  \/   Fax +44 225 465205.
+                                praxis plc,
+ \          /           |       the software engineering company of touche ross, 
+  \        / ___  ___  _|       20 manvers street, bath, ba1 1px, uk.
+   \  /\  / /  / /  / / | \  /  tel +44 225 444700 xt228
+    \/  \/ /__/ /__/ /__|  \/   fax +44 225 465205.
   _________________________/    woody@praxis.co.uk                       
  

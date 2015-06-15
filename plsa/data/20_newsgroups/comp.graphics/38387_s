@@ -1,28 +1,28 @@
 
- In <C5LEvt.1nJ@rahul.net> bryanw@rahul.net (Bryan Woodworth) writes:
- >In <1qlobb$p5a@tuegate.tue.nl> renew@blade.stack.urc.tue.nl (Rene Walter) writes:
- >[Most info regarding dangers of reading from Floppy disks omitted]
- >>unrevcoverable way.  SO BE CAREFUL!  It is incredibly poor programming for a
+ in <c5levt.1nj@rahul.net> bryanw@rahul.net (bryan woodworth) writes:
+ >in <1qlobb$p5a@tuegate.tue.nl> renew@blade.stack.urc.tue.nl (rene walter) writes:
+ >[most info regarding dangers of reading from floppy disks omitted]
+ >>unrevcoverable way.  so be careful!  it is incredibly poor programming for a
  >>program to do this...
- >Nevertheless, it is an important bug that needs to be squashed.  I am
- >merely pointing out that it was probably overlooked.  While it is serious,
+ >nevertheless, it is an important bug that needs to be squashed.  i am
+ >merely pointing out that it was probably overlooked.  while it is serious,
  >one must keep in mind that it will probably affect at most 5% of the
- >targeted users of CView.
+ >targeted users of cview.
  
- OK, I don't use CView anymore, but I saw that no one had explaind this
+ ok, i don't use cview anymore, but i saw that no one had explaind this
  "bug" in the thread, so here goes:
  
- It is NOT the fault of CView.  It is DOS!  If you leave a file open on a
+ it is not the fault of cview.  it is dos!  if you leave a file open on a
  floppy drive, then change the disk and do something which updates or closes
- that file, you have a good chance of getting part of the directory and FAT
- from the other disk written to the new disk.  This has always been true,
- and has destroyed data under other programs, not just CView.
+ that file, you have a good chance of getting part of the directory and fat
+ from the other disk written to the new disk.  this has always been true,
+ and has destroyed data under other programs, not just cview.
  
- The only thing CView can do to improve the situation is to try not to leave
+ the only thing cview can do to improve the situation is to try not to leave
  files open unless it's actively using them (ie, reading and decoding).
  
  -- 
- Kevin Martin
+ kevin martin
  sigma@rahul.net
- "I gotta get me another hat."
+ "i gotta get me another hat."
  

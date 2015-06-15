@@ -1,26 +1,26 @@
 
- In article <27808.9304211039@scorpion.dps.co.uk>, gerard@dps.co.UK (Gerard O'Driscoll) writes:
+ in article <27808.9304211039@scorpion.dps.co.uk>, gerard@dps.co.uk (gerard o'driscoll) writes:
  |> 
- |> pyeatt@Texaco.com writes:
+ |> pyeatt@texaco.com writes:
  |> 
- |> >> There is a widget already defined for GL.  It is the GlxMDraw (motif) or
- |> >> GlxDraw (athena) widget.  It is similar to a XmDrawingArea, except that it
- |> >> allows you to use GL calls to render into the window.  Look at glxlink,
+ |> >> there is a widget already defined for gl.  it is the glxmdraw (motif) or
+ |> >> glxdraw (athena) widget.  it is similar to a xmdrawingarea, except that it
+ |> >> allows you to use gl calls to render into the window.  look at glxlink,
  |> >> glxunlink, glxgetconfig, and glxwinset in the man pages.
  |> 
- |> Where do I get hold of these widgets?
+ |> where do i get hold of these widgets?
  |> 
- |>  	Gerard O'Driscoll (gerard.odriscoll@dps.co.uk)
- |>  	Du Pont Pixel Systems Ltd.
+ |>  	gerard o'driscoll (gerard.odriscoll@dps.co.uk)
+ |>  	du pont pixel systems ltd.
  
- They come with every Iris now.  Nth also ships it with their latest
- version of Nth Portable GL.  I just got the update a couple of weeks
- ago.  I would assume that Silicon Graphics would license the source
- to you so that you can include it in your company's GL offering.
+ they come with every iris now.  nth also ships it with their latest
+ version of nth portable gl.  i just got the update a couple of weeks
+ ago.  i would assume that silicon graphics would license the source
+ to you so that you can include it in your company's gl offering.
  
  -- 
- Larry D. Pyeatt                 The views expressed here are not
- Internet : pyeatt@texaco.com    those of my employer or of anyone
- Voice    : (713) 975-4056       that I know of with the possible
+ larry d. pyeatt                 the views expressed here are not
+ internet : pyeatt@texaco.com    those of my employer or of anyone
+ voice    : (713) 975-4056       that i know of with the possible
                                  exception of myself.
  

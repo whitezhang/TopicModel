@@ -1,46 +1,46 @@
 
  
- In article <C5K6ny.AzJ@kirk.bu.oz.au>, bambi@kirk.bu.oz.au (David J. Hughes) writes:
- > berry@durian.citr.uq.oz.au (Andrew Berry) writes:
+ in article <c5k6ny.azj@kirk.bu.oz.au>, bambi@kirk.bu.oz.au (david j. hughes) writes:
+ > berry@durian.citr.uq.oz.au (andrew berry) writes:
  >
- > Ports of Motif to both 386BSD and Linux are available for a fee of about
- > $100.  This is cost recovery for the person who bought the rights to
- > redistribute.  The activity in both the BSD and Linux news groups
- > pertaining to Motif has been high.
+ > ports of motif to both 386bsd and linux are available for a fee of about
+ > $100.  this is cost recovery for the person who bought the rights to
+ > redistribute.  the activity in both the bsd and linux news groups
+ > pertaining to motif has been high.
  > 
  > 
- > >I just wonder if this will also cause a divergence between commercial
+ > >i just wonder if this will also cause a divergence between commercial
  > >and non-commercial software (ie. you will only get free software using
- > >Athena or OpenLook widget sets, and only get commercial software using
- > >the Motif widget sets).  
+ > >athena or openlook widget sets, and only get commercial software using
+ > >the motif widget sets).  
  > 
  > 
- > I can't see why.  If just about every workstation will come with Motif
- > by default and you can buy it for under $100 for the "free" UNIX
- > platforms, I can't see this causing major problems.
+ > i can't see why.  if just about every workstation will come with motif
+ > by default and you can buy it for under $100 for the "free" unix
+ > platforms, i can't see this causing major problems.
  
-   Let me add another of my concerns: Yes, I can buy a port of Motif for "cheap",
- but I cannot get the source for "cheap", hence I am limited to using whatever X
- libraries the Motif port was compiled against (at least with older versions of
- Motif. I have been told that Motif 1.2 can be used with any X, but I have not
+   let me add another of my concerns: yes, i can buy a port of motif for "cheap",
+ but i cannot get the source for "cheap", hence i am limited to using whatever x
+ libraries the motif port was compiled against (at least with older versions of
+ motif. i have been told that motif 1.2 can be used with any x, but i have not
  seen it myself).
  
-   Currently, I have X11R5 running on eight different unix platforms, of which
- only three came with Motif. On those three, I am unable to use the X11R5
- libraries to build Motif clients, because I get link errors between the
- vendor-supplied port of Motif and my X11R5. I anticipate having this same
- problem when X11R6 becomes available.
+   currently, i have x11r5 running on eight different unix platforms, of which
+ only three came with motif. on those three, i am unable to use the x11r5
+ libraries to build motif clients, because i get link errors between the
+ vendor-supplied port of motif and my x11r5. i anticipate having this same
+ problem when x11r6 becomes available.
  
-   The result is that I cannot build Motif clients that rely on X11R5, since I do
- not have Motif compiled under X11R5. True, I could buy another port of Motif,
+   the result is that i cannot build motif clients that rely on x11r5, since i do
+ not have motif compiled under x11r5. true, i could buy another port of motif,
  but that sort of ruins the whole idea of "free", doesn't it?
  
-     Cheers,
+     cheers,
  
-     Tom McConnell
+     tom mcconnell
  -- 
-  Tom McConnell          |     Internet: tmcconne@sedona.intel.com
-  Intel, Corp. C3-91     |     Phone: (602)-554-8229
-  5000 W. Chandler Blvd. | The opinions expressed are my own. No one in 
-  Chandler, AZ  85226    | their right mind would claim them.
+  tom mcconnell          |     internet: tmcconne@sedona.intel.com
+  intel, corp. c3-91     |     phone: (602)-554-8229
+  5000 w. chandler blvd. | the opinions expressed are my own. no one in 
+  chandler, az  85226    | their right mind would claim them.
  

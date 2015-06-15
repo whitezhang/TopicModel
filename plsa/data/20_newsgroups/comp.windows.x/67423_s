@@ -1,41 +1,41 @@
 
- I'm trying to turn on Xauthorization using MIT-MAGIC-COOKIE on my servers
- (CPU heads, HP700RX Xterminals), but I'm running into a couple of problems.
+ i'm trying to turn on xauthorization using mit-magic-cookie on my servers
+ (cpu heads, hp700rx xterminals), but i'm running into a couple of problems.
  
- First, at least one of our applications (Maple) doesn't seem to understand 
+ first, at least one of our applications (maple) doesn't seem to understand 
  how to deliver the magic cookie, and won't run on a display with authorization
  turned on. 
  
- Second, we have people with client software on remote machines, and I
- really don't want to hassle them with having to copy their .Xauthority
+ second, we have people with client software on remote machines, and i
+ really don't want to hassle them with having to copy their .xauthority
  file to the remote machine... assuming that the clients there support
- Xauthorization.
+ xauthorization.
  
- So, what I would like to do is turn on MIT-MAGIC-COOKIE by default, with
+ so, what i would like to do is turn on mit-magic-cookie by default, with
  non-privileged users able to turn it off - dropping back to host-based
  authorization.
  
- (Yes, I know how to turn it off by changing the Xconfig file for the
- heads and the Client Authorize setting for the Xterminals, but
+ (yes, i know how to turn it off by changing the xconfig file for the
+ heads and the client authorize setting for the xterminals, but
  non-privileged users can't do this.)
  
- I've checked with the HP Support Line, and there doesn't appear to be a way.
- Can anyone confirm this, or do you know of a way to accomplish what I
+ i've checked with the hp support line, and there doesn't appear to be a way.
+ can anyone confirm this, or do you know of a way to accomplish what i
  want?
  
- BTW, I'm running HPUX 9.0, and Vue 3.0.
+ btw, i'm running hpux 9.0, and vue 3.0.
  
- Thanks in advance,
- Rick
+ thanks in advance,
+ rick
  -- 
  
- Rick McTeague
- Electrical Engineering Department, Speed Scientific School
- University of Louisville, Louisville, KY 40292
+ rick mcteague
+ electrical engineering department, speed scientific school
+ university of louisville, louisville, ky 40292
  (502) 588-7020
  
- Internet: sysrick@starbase.spd.louisville.edu
+ internet: sysrick@starbase.spd.louisville.edu
  
- Disclaimer: I'm a stand-up comedian; if anyone takes me seriously, I'm
+ disclaimer: i'm a stand-up comedian; if anyone takes me seriously, i'm
              doing something wrong!
  

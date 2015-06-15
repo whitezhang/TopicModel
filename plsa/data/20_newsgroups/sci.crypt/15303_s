@@ -1,16 +1,16 @@
 
- The message from the NIST about the clipper chip comes from the
+ the message from the nist about the clipper chip comes from the
  following address:
  
- 	clipper@csrc.ncsl.nist.gov (Clipper Chip Announcement)
+ 	clipper@csrc.ncsl.nist.gov (clipper chip announcement)
  
- Just who is that, I asked myself, or rather, I asked the computer.
+ just who is that, i asked myself, or rather, i asked the computer.
  
      % telnet csrc.ncsl.nist.gov 25
-     Trying...
-     Connected to csrc.ncsl.nist.gov.
-     Escape character is '^]'.
-     220 first.org sendmail 4.1/NIST ready at Sat, 17 Apr 93 20:42:56 EDT
+     trying...
+     connected to csrc.ncsl.nist.gov.
+     escape character is '^]'.
+     220 first.org sendmail 4.1/nist ready at sat, 17 apr 93 20:42:56 edt
      expn clipper
      250-<csspab@mail-gw.ncsl.nist.gov>
      250-<denning@cs.georgetown.edu>
@@ -26,15 +26,15 @@
      250 <mgrsplus@csmes.ncsl.nist.gov>
      quit
      221 first.org closing connection
-     Connection closed.
+     connection closed.
  
- Well, isn't that interesting.  Dorothy Denning, Mitch Kapor, Marc
- Rotenberg, Ron Rivest, Jim Bidzos, and others.  The Government, RSA,
- TIS, CPSR, and the EFF are all represented.  I don't suppose anybody
- within any of these organizations would care to comment?  Or is this
- just the White House's idea of a cruel joke on these peoples' inboxes?
+ well, isn't that interesting.  dorothy denning, mitch kapor, marc
+ rotenberg, ron rivest, jim bidzos, and others.  the government, rsa,
+ tis, cpsr, and the eff are all represented.  i don't suppose anybody
+ within any of these organizations would care to comment?  or is this
+ just the white house's idea of a cruel joke on these peoples' inboxes?
  
- 		Marc
+ 		marc
  --
- Marc Horowitz N1NZU <marc@mit.edu>				617-253-7788
+ marc horowitz n1nzu <marc@mit.edu>				617-253-7788
  

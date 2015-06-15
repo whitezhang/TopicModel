@@ -1,27 +1,27 @@
 
  
- |>    > Just curious, how would the Clipper Chip system handle
+ |>    > just curious, how would the clipper chip system handle
  |>    > conference calls?
   
- |> Depending on the encryption system, so long as everyone has the same
- |> key, it can be done.  For example, I was using "vat", which is an
- |> Internet Audio tool, for a conference call, and we were encrypting the
- |> session.  (Unfortunately, one site was doing more work, and didn't
- |> have the CPU for it, so it didn't sound all that good at a different
+ |> depending on the encryption system, so long as everyone has the same
+ |> key, it can be done.  for example, i was using "vat", which is an
+ |> internet audio tool, for a conference call, and we were encrypting the
+ |> session.  (unfortunately, one site was doing more work, and didn't
+ |> have the cpu for it, so it didn't sound all that good at a different
  |> site)
  
- You would have to use something other than the AT&T black box - in other
- words, I don't think public key would work.  The session key would have 
+ you would have to use something other than the at&t black box - in other
+ words, i don't think public key would work.  the session key would have 
  to be agreed upon prior to the conversation and distributed to all 
  sites beforehand.
  
- Or go out and get a STU-III ;-)
+ or go out and get a stu-iii ;-)
  
  -- 
- Doug Bank                       Private Systems Division
- dougb@ecs.comm.mot.com          Motorola Communications Sector
- dougb@nwu.edu                   Schaumburg, Illinois
+ doug bank                       private systems division
+ dougb@ecs.comm.mot.com          motorola communications sector
+ dougb@nwu.edu                   schaumburg, illinois
  dougb@casbah.acns.nwu.edu       708-576-8207                    
  
- These opinions do NOT reflect Motorola thinking in any way, shape, or form.
+ these opinions do not reflect motorola thinking in any way, shape, or form.
  

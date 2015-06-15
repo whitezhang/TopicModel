@@ -1,34 +1,34 @@
 
  jburke@abacus.bates.edu (jburke) writes:
  
- >I was wondering if anyone knew how to view a .EPS in Ms Word 2.0a..
- >Here are the first couple of lines if it helps...
- >%!PS-Adobe-3.0
- >%%Creator: ProWrite
- >%%Title: TCWN
- >%%Orientation: Portrait
- >%%Pages: 12
- >%%PageOrder: Ascend                                                    
- >Can any one Help?
+ >i was wondering if anyone knew how to view a .eps in ms word 2.0a..
+ >here are the first couple of lines if it helps...
+ >%!ps-adobe-3.0
+ >%%creator: prowrite
+ >%%title: tcwn
+ >%%orientation: portrait
+ >%%pages: 12
+ >%%pageorder: ascend                                                    
+ >can any one help?
  
  >________________________________________________________________________
- >|       James Burke       |  By reading this you agree not to hold     |
+ >|       james burke       |  by reading this you agree not to hold     |
  >|                         |   the writer responsible for any evil      |
  >| jburke@abacus.bates.edu | happening that may befall you at any time. |
  >------------------------------------------------------------------------
  
- We had a similar problem in converting a .EPS file. The solution was simple.
- We changed the first line from %!PS-Adobe-3.0 to
+ we had a similar problem in converting a .eps file. the solution was simple.
+ we changed the first line from %!ps-adobe-3.0 to
  
- %!PS-Adobe-2.0
+ %!ps-adobe-2.0
  
- This fouled the converter, the .EPS file only contained very simple 
+ this fouled the converter, the .eps file only contained very simple 
  move and draw statements.
  
- Mario
+ mario
  -- 
- Mario Veraart                  TNO Physics and Electronics Laboratory
- email: rioj7@fel.tno.nl        The Hague       The Netherlands
- "If all else fails, show pretty pictures and animated videos, 
-  and don't talk about performance",  David Bailey
+ mario veraart                  tno physics and electronics laboratory
+ email: rioj7@fel.tno.nl        the hague       the netherlands
+ "if all else fails, show pretty pictures and animated videos, 
+  and don't talk about performance",  david bailey
  

@@ -1,14 +1,14 @@
 
- Hello, I am writing a program which forks of a number of child processes
+ hello, i am writing a program which forks of a number of child processes
  and each of the children printing things on the screen (quite messy in
  one window)... 
  
- The "xterm  -Sxxd"  option seems to be the solution to opening up
- slave windows only to display output and I use the following code to
- open up a pty (taken from Stevens)...and manage to open up an x-term
+ the "xterm  -sxxd"  option seems to be the solution to opening up
+ slave windows only to display output and i use the following code to
+ open up a pty (taken from stevens)...and manage to open up an x-term
  successfully.... 
  
- The problem however is how do I write into this x-term ? Please help!
+ the problem however is how do i write into this x-term ? please help!
  
  
  static char pty_name[12];
@@ -23,7 +23,7 @@
    static char hexdigit[] = "0123456789abcdef";
    
    for( ptr = ptychar; *ptr!=0; ptr++ ) {
-     strcpy( pty_name, "/dev/ttyXY" );
+     strcpy( pty_name, "/dev/ttyxy" );
      pty_name[8] = *ptr;
      pty_name[9] = '0';
      
@@ -32,7 +32,7 @@
  
      for( i=0; i < 16; i++ ) {
        pty_name[9] = hexdigit[i];
-       if( (fd = open( pty_name, O_RDWR )) >= 0 )
+       if( (fd = open( pty_name, o_rdwr )) >= 0 )
  	return( fd );
      }
    }
@@ -42,7 +42,7 @@
    
  
  -- 
- Vinod  						   email : vinod@ee.wpi.edu
- An eye for an eye makes the whole world blind
- 			-Mohandas Karamchand Gandhi
+ vinod  						   email : vinod@ee.wpi.edu
+ an eye for an eye makes the whole world blind
+ 			-mohandas karamchand gandhi
  

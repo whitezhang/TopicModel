@@ -1,24 +1,24 @@
 
- In article <C5w9v0.FCE@news.cso.uiuc.edu> Marty Sachs 
+ in article <c5w9v0.fce@news.cso.uiuc.edu> marty sachs 
  <msachs@ux1.cso.uiuc.edu> writes:
- > I purchased 2x8 MB 72-pin (60 ns) SIMMs for my Quadra 800 from Chip
- > Merchant (I've been very satisfied with them in the past).  Either one
- > alone works, but both together fail.  I called Apple for advice and was
- > told that there was a problem with "Composite" SIMMs.  Only non-composite
- > SIMMs should be used with the Q-800.  Chip Merchant confirmed that they
- > presently sell only composite 72-pin SIMMs.  So, Q-800 SIMMs need to be
+ > i purchased 2x8 mb 72-pin (60 ns) simms for my quadra 800 from chip
+ > merchant (i've been very satisfied with them in the past).  either one
+ > alone works, but both together fail.  i called apple for advice and was
+ > told that there was a problem with "composite" simms.  only non-composite
+ > simms should be used with the q-800.  chip merchant confirmed that they
+ > presently sell only composite 72-pin simms.  so, q-800 simms need to be
  > both 60 ns and non-composite.
  
- 8 MB SIMMs do not have to be composite SIMMs, although many (most?) 16 MB 
- SIMMs are.  72-pin SIMMs allow two memory banks per SIMM, thus permitting 
- the use of 4 Mb DRAM devices (the same ones used on 4 MB SIMMs) to be used 
- for two 4 MB banks on one SIMM.  I can't imagine that it would be cheaper 
- to build an 8 MB SIMM using 1 Mb DRAMs as the 4 Mb parts reached (and 
- exceeded) bit for bit price parity with the 1 Mb parts some time ago.  
- It's probably possible to build a single-bank 8 MB SIMM using 4 Mb parts - 
- this could cause problems in a Q800.  I'm not sure why you'd want to do 
- this, though, as a dual-bank 8 MB SIMM would be cheaper to build than a 
+ 8 mb simms do not have to be composite simms, although many (most?) 16 mb 
+ simms are.  72-pin simms allow two memory banks per simm, thus permitting 
+ the use of 4 mb dram devices (the same ones used on 4 mb simms) to be used 
+ for two 4 mb banks on one simm.  i can't imagine that it would be cheaper 
+ to build an 8 mb simm using 1 mb drams as the 4 mb parts reached (and 
+ exceeded) bit for bit price parity with the 1 mb parts some time ago.  
+ it's probably possible to build a single-bank 8 mb simm using 4 mb parts - 
+ this could cause problems in a q800.  i'm not sure why you'd want to do 
+ this, though, as a dual-bank 8 mb simm would be cheaper to build than a 
  single-bank composite one.
  
- - Dale Adams
+ - dale adams
  

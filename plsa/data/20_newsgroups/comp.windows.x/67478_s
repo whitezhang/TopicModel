@@ -1,29 +1,29 @@
 
- Hi,
+ hi,
  
- I am using xdm on X11R5 with OW3 and Xview3 on Sun3s and SPARCs running 
- SunOS 4.1.1.  Prior to using xdm, I used to set PATH and other environment
- variables (like MANPATH, HELPPATH, ARCH, etc) in my .login file.  With xdm,
+ i am using xdm on x11r5 with ow3 and xview3 on sun3s and sparcs running 
+ sunos 4.1.1.  prior to using xdm, i used to set path and other environment
+ variables (like manpath, helppath, arch, etc) in my .login file.  with xdm,
  the .login file doesn't get executed and therefore neither the olwm
  root-window nor my applications know about these variables.
  
- I used the "DisplayManager._0.userPath" resource in /usr/lib/X11/xdm/xdm-config
- to succesfully pass the PATH variable.  But I am having problems passing anything else!!!  I tried execing $HOME/.login in /usr/lib/X11/xdm/Xsession
- but that didn't help.  I also tried using
- 	"DisplayManager.exportList: HELPPATH MANPATH ARCH"
+ i used the "displaymanager._0.userpath" resource in /usr/lib/x11/xdm/xdm-config
+ to succesfully pass the path variable.  but i am having problems passing anything else!!!  i tried execing $home/.login in /usr/lib/x11/xdm/xsession
+ but that didn't help.  i also tried using
+ 	"displaymanager.exportlist: helppath manpath arch"
  which didn't work either.
  
- I would appreciate any help on this matter.
+ i would appreciate any help on this matter.
  
- Thanks in advance,
- Shash
+ thanks in advance,
+ shash
  
  +-----------------------------------------------------------------------------+
- + Shash Chatterjee                           EMAIL:  fwr8bv@fin.af.mil        +
- + EC Software                                PHONE:  (817) 763-1495           +
- + Lockheed Fort Worth Company                FAX:    (817) 777-2115           +
- + P.O. Box 748, MZ1719                                                        +
- + Ft. Worth, TX 76101                                                         +
+ + shash chatterjee                           email:  fwr8bv@fin.af.mil        +
+ + ec software                                phone:  (817) 763-1495           +
+ + lockheed fort worth company                fax:    (817) 777-2115           +
+ + p.o. box 748, mz1719                                                        +
+ + ft. worth, tx 76101                                                         +
  +-----------------------------------------------------------------------------+
  
  

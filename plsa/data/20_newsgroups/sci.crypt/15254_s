@@ -1,90 +1,90 @@
- Hash Functions.  Theory of one-way hash functions, distinctions of
-  terms. MD4 and MD5. Snefru.
- X-Last-Updated: 1993/04/16
+ hash functions.  theory of one-way hash functions, distinctions of
+  terms. md4 and md5. snefru.
+ x-last-updated: 1993/04/16
  
- Archive-name: cryptography-faq/part07
- Last-modified: 1993/4/15
+ archive-name: cryptography-faq/part07
+ last-modified: 1993/4/15
  
  
- FAQ for sci.crypt, part 7: Digital Signatures and Hash Functions
+ faq for sci.crypt, part 7: digital signatures and hash functions
  
- This is the seventh of ten parts of the sci.crypt FAQ. The parts are
+ this is the seventh of ten parts of the sci.crypt faq. the parts are
  mostly independent, but you should read the first part before the rest.
- We don't have the time to send out missing parts by mail, so don't ask.
- Notes such as ``[KAH67]'' refer to the reference list in the last part.
+ we don't have the time to send out missing parts by mail, so don't ask.
+ notes such as ``[kah67]'' refer to the reference list in the last part.
  
- The sections of this FAQ are available via anonymous FTP to rtfm.mit.edu 
- as /pub/usenet/news.answers/cryptography-faq/part[xx].  The Cryptography 
- FAQ is posted to the newsgroups sci.crypt, sci.answers, and news.answers
+ the sections of this faq are available via anonymous ftp to rtfm.mit.edu 
+ as /pub/usenet/news.answers/cryptography-faq/part[xx].  the cryptography 
+ faq is posted to the newsgroups sci.crypt, sci.answers, and news.answers
  every 21 days.
  
  
- Contents:
+ contents:
  
- * What is a one-way hash function?
- * What is the difference between public, private, secret, shared, etc.?
- * What are MD4 and MD5?
- * What is Snefru?
+ * what is a one-way hash function?
+ * what is the difference between public, private, secret, shared, etc.?
+ * what are md4 and md5?
+ * what is snefru?
  
  
- * What is a one-way hash function?
+ * what is a one-way hash function?
  
-   A typical one-way hash function takes a variable-length message and
-   produces a fixed-length hash. Given the hash it is computationally
+   a typical one-way hash function takes a variable-length message and
+   produces a fixed-length hash. given the hash it is computationally
    impossible to find a message with that hash; in fact one can't
    determine any usable information about a message with that hash, not
-   even a single bit. For some one-way hash functions it's also
+   even a single bit. for some one-way hash functions it's also
    computationally impossible to determine two messages which produce the
    same hash.
  
-   A one-way hash function can be private or public, just like an
-   encryption function. Here's one application of a public one-way hash
-   function, like MD5 or Snefru. Most public-key signature systems are
-   relatively slow. To sign a long message may take longer than the user
-   is willing to wait. Solution: Compute the one-way hash of the message,
-   and sign the hash, which is short. Now anyone who wants to verify the
+   a one-way hash function can be private or public, just like an
+   encryption function. here's one application of a public one-way hash
+   function, like md5 or snefru. most public-key signature systems are
+   relatively slow. to sign a long message may take longer than the user
+   is willing to wait. solution: compute the one-way hash of the message,
+   and sign the hash, which is short. now anyone who wants to verify the
    signature can do the same thing.
  
-   Another name for one-way hash function is message digest function.
+   another name for one-way hash function is message digest function.
  
- * What is the difference between public, private, secret, shared, etc.?
+ * what is the difference between public, private, secret, shared, etc.?
  
-   There is a horrendous mishmash of terminology in the literature for a
-   very small set of concepts. When an algorithm depends on a key which
+   there is a horrendous mishmash of terminology in the literature for a
+   very small set of concepts. when an algorithm depends on a key which
    isn't published, we call it a private algorithm; otherwise we call it
-   a public algorithm. We have encryption functions E and decryption
-   functions D, so that D(E(M)) = M for any message M. We also have
-   hashing functions H and verification functions V, such that V(M,X) = 1
-   if and only if X = H(M).
+   a public algorithm. we have encryption functions e and decryption
+   functions d, so that d(e(m)) = m for any message m. we also have
+   hashing functions h and verification functions v, such that v(m,x) = 1
+   if and only if x = h(m).
  
-   A public-key cryptosystem has public encryption and private
-   decryption. Checksums, such as the application mentioned in the
+   a public-key cryptosystem has public encryption and private
+   decryption. checksums, such as the application mentioned in the
    previous question, have public hashing and public verification.
-   Digital signature functions have private hashing and public
+   digital signature functions have private hashing and public
    verification: only one person can produce the hash for a message,
    but everyone can verify that the hash is correct.
  
-   Obviously, when an algorithm depends on a private key, it's meant to
-   be unusable by anyone who doesn't have the key. There's no real
+   obviously, when an algorithm depends on a private key, it's meant to
+   be unusable by anyone who doesn't have the key. there's no real
    difference between a ``shared'' key and a private key: a shared key
-   isn't published, so it's private. If you encrypt data for a friend
+   isn't published, so it's private. if you encrypt data for a friend
    rather than ``for your eyes only'', are you suddenly doing
-   ``shared-key encryption'' rather than private-key encryption? No.
+   ``shared-key encryption'' rather than private-key encryption? no.
  
- * What are MD4 and MD5?
+ * what are md4 and md5?
  
-   MD4 and MD5 are message digest functions developed by Ron Rivest.
-   Definitions appear in RFC 1320 and RFC 1321 (see part 10). Code is
-   available from [FTPMD].
+   md4 and md5 are message digest functions developed by ron rivest.
+   definitions appear in rfc 1320 and rfc 1321 (see part 10). code is
+   available from [ftpmd].
  
-   Note that a transcription error was found in the original MD5 draft
-   RFC. The corrected algorithm should be called MD5a, though some
-   people refer to it as MD5.
+   note that a transcription error was found in the original md5 draft
+   rfc. the corrected algorithm should be called md5a, though some
+   people refer to it as md5.
  
- * What is Snefru?
+ * what is snefru?
  
-   Snefru is a family of message digest functions developed by Ralph
-   Merkle. Snefru-8 is an 8-round function, the newest in the family.
-   Definitions appear in Merkle's paper [ME91a]. Code is available from
-   [FTPSF].
+   snefru is a family of message digest functions developed by ralph
+   merkle. snefru-8 is an 8-round function, the newest in the family.
+   definitions appear in merkle's paper [me91a]. code is available from
+   [ftpsf].
  

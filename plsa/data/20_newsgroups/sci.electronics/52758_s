@@ -1,83 +1,83 @@
 
- In article <sehari.733764410@vincent1.iastate.edu>, sehari@iastate.edu (Babak Sehari) writes:
- |> In <C4truE.6AA@ms.uky.edu> msunde01@mik.uky.edu (Mark  Underwood) writes:
+ in article <sehari.733764410@vincent1.iastate.edu>, sehari@iastate.edu (babak sehari) writes:
+ |> in <c4true.6aa@ms.uky.edu> msunde01@mik.uky.edu (mark  underwood) writes:
  |> 
- |> >I am somewhat familiar with the dB measurements as they apply to  
+ |> >i am somewhat familiar with the db measurements as they apply to  
  |> >electrical circuits - i.e. it is the gain of (for example) an amplifier  
- |> >measured on a logarithmic scale.  However, this requires that you have a  
- |> >reference value:  i.e the ouput is +20dB (e.g.) with respect to the input  
+ |> >measured on a logarithmic scale.  however, this requires that you have a  
+ |> >reference value:  i.e the ouput is +20db (e.g.) with respect to the input  
  |> >signal.
  
  <stuff deleted>
  
- |> What you actually talking about here is dBm and not dB.  However, the terms
- |> are used loosely by most people.  ``dBm'' is power with respact to 1mW, whereas
- |> dB is a ratio.  Now, like these two English statement:
+ |> what you actually talking about here is dbm and not db.  however, the terms
+ |> are used loosely by most people.  ``dbm'' is power with respact to 1mw, whereas
+ |> db is a ratio.  now, like these two english statement:
  |>
- |> 1.  I am doing well.
- |> 2.  I am doing good.
+ |> 1.  i am doing well.
+ |> 2.  i am doing good.
  |> 
- |> Similarly, people usually use dB for dBm. Another common mistake is spelling
- |> ``db'' instead of ``dB'' as you did in your article. See the ``B'' is for 
- |> ``Bell'' company, the mother of AT&T and should be capitalized.
+ |> similarly, people usually use db for dbm. another common mistake is spelling
+ |> ``db'' instead of ``db'' as you did in your article. see the ``b'' is for 
+ |> ``bell'' company, the mother of at&t and should be capitalized.
  |> 
- |>                           With highest regards,
- |>                                Babak   Sehari.
+ |>                           with highest regards,
+ |>                                babak   sehari.
  
- Good gravy! Decibels are all *ratios.* The question that remains in
- any ratio is the reference unit used. Sometimes, this will be a reference
+ good gravy! decibels are all *ratios.* the question that remains in
+ any ratio is the reference unit used. sometimes, this will be a reference
  power, such as 1 milliwatt (given a certain circuit impedance which
  should also be included in the fine print or known, like 50 ohms
- in an RF circuit of that impedance), leading to an accepted
- notation of dBm. Maybe it might be dBV, disregarding the impedance of
+ in an rf circuit of that impedance), leading to an accepted
+ notation of dbm. maybe it might be dbv, disregarding the impedance of
  the circuit and power developed, using 1 volt as reference *amplitude*
- (rather than reference power). Or, it might have an arbitrary or omitted
- reference that is not included in the notation, leading to just plain dB.
- So. look at it this way--'dB' has an implied reference while notation
- such as 'dBm' has an explicit reference.
+ (rather than reference power). or, it might have an arbitrary or omitted
+ reference that is not included in the notation, leading to just plain db.
+ so. look at it this way--'db' has an implied reference while notation
+ such as 'dbm' has an explicit reference.
  
- For power:
+ for power:
  
-   dB = 10*log( P(measured)/P(reference) )
+   db = 10*log( p(measured)/p(reference) )
  
- For amplitude
+ for amplitude
  
-   dB = 20*log( A(measured)/A(reference) )
+   db = 20*log( a(measured)/a(reference) )
  
- 'B' is for bel, which is a standard term for a log ratio to the base
- 10, named after Alexander Graham Bell. A 'deci' Bel is 1/10 of a bel.
- It has nothing to do with the Bell Telephone company except for
- the common founder's name. The small 'd'/large 'B' is per SI notation
- convention. I don't know anyone that's been crucified for messing it up.
+ 'b' is for bel, which is a standard term for a log ratio to the base
+ 10, named after alexander graham bell. a 'deci' bel is 1/10 of a bel.
+ it has nothing to do with the bell telephone company except for
+ the common founder's name. the small 'd'/large 'b' is per si notation
+ convention. i don't know anyone that's been crucified for messing it up.
  
- Common references for audio are:
+ common references for audio are:
  
- 	0 dBm = 1 milliwatt across 600 ohms
- 	0 dBV = 1 volt
+ 	0 dbm = 1 milliwatt across 600 ohms
+ 	0 dbv = 1 volt
  
- 	0 VU (a zero on the VU meter) = +4 dBm  (pro gear line level)
- 	0 VU = -10dBV	(consumer gear line level)
+ 	0 vu (a zero on the vu meter) = +4 dbm  (pro gear line level)
+ 	0 vu = -10dbv	(consumer gear line level)
  
  
- Often times, a power amp VU meter will be aligned using
- the rated power of the amp as the 0 dB point. It is all
+ often times, a power amp vu meter will be aligned using
+ the rated power of the amp as the 0 db point. it is all
  done to whatever reference is reasonable for the application
  or moment.
  
- Note that in a circuit with a given (and maybe unknown) linear
+ note that in a circuit with a given (and maybe unknown) linear
  impedance, if the amplitude goes up so many decibels, the
- power will also increase the same amount. This proof can be done
+ power will also increase the same amount. this proof can be done
  with the above two identities and ohm's law.
  
  -- 
  --------------------------------------------------------------------
-        Dave Medin			Phone:	(205) 730-3169 (w)
-     SSD--Networking				(205) 837-1174 (h)
-     Intergraph Corp.
-        M/S GD3004 		Internet: dtmedin@catbyte.b30.ingr.com
-   Huntsville, AL 35894		UUCP:  ...uunet!ingr!b30!catbyte!dtmedin
+        dave medin			phone:	(205) 730-3169 (w)
+     ssd--networking				(205) 837-1174 (h)
+     intergraph corp.
+        m/s gd3004 		internet: dtmedin@catbyte.b30.ingr.com
+   huntsville, al 35894		uucp:  ...uunet!ingr!b30!catbyte!dtmedin
  
-    ******* Everywhere You Look (at least around my office) *******
+    ******* everywhere you look (at least around my office) *******
  
-  * The opinions expressed here are mine (or those of my machine)
+  * the opinions expressed here are mine (or those of my machine)
  

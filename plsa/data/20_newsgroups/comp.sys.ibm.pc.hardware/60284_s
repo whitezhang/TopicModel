@@ -1,43 +1,43 @@
 
  > ben elliston writes:
  >
- > Msg-ID: <734606726.AA00887@f262.n620.z3.fidonet.org>
- > Posted: Mon, 12 Apr 1993 10:41:0
+ > msg-id: <734606726.aa00887@f262.n620.z3.fidonet.org>
+ > posted: mon, 12 apr 1993 10:41:0
  >
- > Organization: Compact Solutions, Canberra ACT Australia
+ > organization: compact solutions, canberra act australia
  >
- >  > 64k of 25ns SRAM
+ >  > 64k of 25ns sram
  >
- > By my way of thinking, Michael, how could this memory be static RAM if it
- > has a speed rating?  I didn't think SRAM needed a refresh time.
+ > by my way of thinking, michael, how could this memory be static ram if it
+ > has a speed rating?  i didn't think sram needed a refresh time.
  >
- > Doesn't that make it fast DRAM?
+ > doesn't that make it fast dram?
  
- This chip would take 25ns to return valid data after being issued an address.
+ this chip would take 25ns to return valid data after being issued an address.
  
- Refresh time (none for SRAM, as you pointed out) is a different parameter,
+ refresh time (none for sram, as you pointed out) is a different parameter,
  and is not generally referred to except by motherboard designers.
  >
- > Cheers,
- > Ben
+ > cheers,
+ > ben
  > ----------------------------------------------------------------------------
  > --
- > Ben Elliston
- > Bachelor of Engineering (Computer Engineering)
- > University of Canberra
+ > ben elliston
+ > bachelor of engineering (computer engineering)
+ > university of canberra
  >
- > Email:      tp923021@jarrah.canberra.edu.au
- > UUCP:       ..!uunet!munnari!sserve.adfa.oz.au!compsol!root
- > FidoNet:    3:620/262
+ > email:      tp923021@jarrah.canberra.edu.au
+ > uucp:       ..!uunet!munnari!sserve.adfa.oz.au!compsol!root
+ > fidonet:    3:620/262
  > ----------------------------------------------------------------------------
  > --
- > If a train station is where the train stops, what's a workstation?!
+ > if a train station is where the train stops, what's a workstation?!
  > ----------------------------------------------------------------------------
  > --
  >
- >  * Origin: % Compact Solutions % Canberra ACT Australia % (3:620/262)
+ >  * origin: % compact solutions % canberra act australia % (3:620/262)
  
  
  --
- Doug Oke - Vancouver, Canada                  Doug_Oke@mindlink.bc.ca
+ doug oke - vancouver, canada                  doug_oke@mindlink.bc.ca
  

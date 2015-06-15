@@ -1,39 +1,39 @@
 
- Here is the latest on relocating your help files to a server.  
- The WinHelp() function, as I am told by MS, does search your path so 
- relocating MS windows helpfiles won't be a problem as long as you include
+ here is the latest on relocating your help files to a server.  
+ the winhelp() function, as i am told by ms, does search your path so 
+ relocating ms windows helpfiles won't be a problem as long as you include
  the path to where you move them to, however, if an application has 
- hardcoded the path into their code so that when WinHelp is invoked it
- searches the given path (i.e. WinHelp(hwnd, c:\amipro) for example) then
- WinHelp does not search your path and instead looks only to that directory
+ hardcoded the path into their code so that when winhelp is invoked it
+ searches the given path (i.e. winhelp(hwnd, c:\amipro) for example) then
+ winhelp does not search your path and instead looks only to that directory
  where you have installed your software.
  
- I tested this out on a variety of software packages.  I moved all my 
+ i tested this out on a variety of software packages.  i moved all my 
  helpfiles to the drive z:\ and included this in the path statement.
- Here is the results for different software packages:
+ here is the results for different software packages:
  
  
- Norton Desktop			Found Helpfiles
- Windows V3.1 for WorkGroups	Found Helpfiles
- Windows V3.1			Found Helpfiles
- MS Powerpoint V3.0		Found Helpfiles
- MS Word				Found Helpfiles
- MS Excel V4.0a			Did Not Find Helpfiles (strange)
- MS Foxpro V2.5 for Windows	Found Helpfiles
- Lotus Amipro V3.0		Did Not Find Helpfiles
- Procomm Plus for Windows	Did Not Find Helpfiles
+ norton desktop			found helpfiles
+ windows v3.1 for workgroups	found helpfiles
+ windows v3.1			found helpfiles
+ ms powerpoint v3.0		found helpfiles
+ ms word				found helpfiles
+ ms excel v4.0a			did not find helpfiles (strange)
+ ms foxpro v2.5 for windows	found helpfiles
+ lotus amipro v3.0		did not find helpfiles
+ procomm plus for windows	did not find helpfiles
  
  
- I guess this is better than nothing but it would make sense to be able to 
+ i guess this is better than nothing but it would make sense to be able to 
  specify a global path for helpfiles.  
  
- If anyone has any comments or If I can help anyone or if I left something
+ if anyone has any comments or if i can help anyone or if i left something
  out please let me know.
  
  		lhighley@gozer.idbsu.edu
  
  thanks for the help from everyone especially jagrant@emr1.emr.ca
  
- More info on this topic as it develops
+ more info on this topic as it develops
  
  

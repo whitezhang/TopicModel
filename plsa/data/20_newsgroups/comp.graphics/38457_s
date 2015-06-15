@@ -1,25 +1,25 @@
 
- bryanw@rahul.net (Bryan Woodworth) writes:
- : In <1993Apr16.114158.2246@whiting.mcs.com> sean@whiting.mcs.com (Sean Gum) writes:
+ bryanw@rahul.net (bryan woodworth) writes:
+ : in <1993apr16.114158.2246@whiting.mcs.com> sean@whiting.mcs.com (sean gum) writes:
  : 
- : >A stupid question, but what will CView run on and where can I get it? I
- : >am still in need of a GIF viewer for Linux. (Without X-Windows.)
- : >Thanks!
+ : >a stupid question, but what will cview run on and where can i get it? i
+ : >am still in need of a gif viewer for linux. (without x-windows.)
+ : >thanks!
  : > 
  : 
- : Ho boy. There is no way in HELL you are going to be able to view GIFs or do
- : any other graphics in Linux without X windows!  I love Linux because it is
- : so easy to learn..  You want text?  Okay.   Use Linux. You want text AND
- : graphics?  Use Linux with X windows.  Simple.  Painless.  REQUIRED to have
- : X Windows if you want graphics!  This includes fancy word processors like
+ : ho boy. there is no way in hell you are going to be able to view gifs or do
+ : any other graphics in linux without x windows!  i love linux because it is
+ : so easy to learn..  you want text?  okay.   use linux. you want text and
+ : graphics?  use linux with x windows.  simple.  painless.  required to have
+ : x windows if you want graphics!  this includes fancy word processors like
  : doc, image viewers like xv, etc.
  :
- Ummm, I beg to differ. A kind soul sent me a program called DPG-VIEW that
- will do exactly what I want, view GIF images under Linux without X-Windows.
- And, it does support all the way up to 1024x768. The biggest complaint I
- have is it is painfully SLOW. It takes about 1 minute to display an image.
- I am use to CSHOW under DOS which takes a split second. Any idea why it
- is so slow under Linux? Anybody have anything better? Plus, anybody have
- the docs to DPG-View? Thanks!
+ ummm, i beg to differ. a kind soul sent me a program called dpg-view that
+ will do exactly what i want, view gif images under linux without x-windows.
+ and, it does support all the way up to 1024x768. the biggest complaint i
+ have is it is painfully slow. it takes about 1 minute to display an image.
+ i am use to cshow under dos which takes a split second. any idea why it
+ is so slow under linux? anybody have anything better? plus, anybody have
+ the docs to dpg-view? thanks!
   
  

@@ -1,14 +1,14 @@
 
- In article <1993Apr15.182206.12714@reed.edu> especkma@reed.edu (Erik. A Speckman) writes:
+ in article <1993apr15.182206.12714@reed.edu> especkma@reed.edu (erik. a speckman) writes:
  
- >In the MacUser article on the new centris and quadra machines mentioned
- >that the C650 and the Q800, and not the C610, had ROM accelerated video.
+ >in the macuser article on the new centris and quadra machines mentioned
+ >that the c650 and the q800, and not the c610, had rom accelerated video.
  >
- >What is it?  I don't recall seeing it in Dale Adams post.
+ >what is it?  i don't recall seeing it in dale adams post.
  
- of course it was in Dale's post, just not in the words that MacUser 
- used.  ROM accelerated video just means that some quickdraw commands
- has been rewritten (inside the ROM) to take advantage of the 68040
+ of course it was in dale's post, just not in the words that macuser 
+ used.  rom accelerated video just means that some quickdraw commands
+ has been rewritten (inside the rom) to take advantage of the 68040
  addressing modes.  commands that do fills should be slightly faster
  since the new instructions fetch 2 bytes at a time versus one.
  

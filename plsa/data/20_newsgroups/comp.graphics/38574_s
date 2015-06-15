@@ -1,17 +1,17 @@
 
- Cyberspace Buddha (cb@wixer.bga.com) wrote:
- : renew@blade.stack.urc.tue.nl (Rene Walter) writes:
+ cyberspace buddha (cb@wixer.bga.com) wrote:
+ : renew@blade.stack.urc.tue.nl (rene walter) writes:
  : >over where it places its temp files: it just places them in its
  : >"current directory".
  
- : I have to beg to differ on this point, as the batch file I use
+ : i have to beg to differ on this point, as the batch file i use
  : to launch cview cd's to the dir where cview resides and then
- : invokes it.  every time I crash cview, the 0-byte temp file
+ : invokes it.  every time i crash cview, the 0-byte temp file
  : is found in the root dir of the drive cview is on.
  
- I posted this as well before the cview "expert".  Apparently, he thought he
+ i posted this as well before the cview "expert".  apparently, he thought he
  knew better.
  
- Matthew Zenkar
+ matthew zenkar
  mz@moscom.com
  

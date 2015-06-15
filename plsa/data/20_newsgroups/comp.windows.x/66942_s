@@ -1,22 +1,22 @@
 
- Could some one please send me (or tell me where to ftp from) the patches required
-  for xrolo so that  I can compile-in the SPARCStation phone-dialing feature?
+ could some one please send me (or tell me where to ftp from) the patches required
+  for xrolo so that  i can compile-in the sparcstation phone-dialing feature?
  
- I am using SunOS  4.1.1, and therefore don't have "multimedia/libaudio.h" or 
+ i am using sunos  4.1.1, and therefore don't have "multimedia/libaudio.h" or 
  "multimedia/audio_device.h" and associated functions.
  
- Just in case, our mail gateway only accepts msgs < 45Kb.
+ just in case, our mail gateway only accepts msgs < 45kb.
  
- Thanks in advance,
- Shash.
+ thanks in advance,
+ shash.
  
  
  +-----------------------------------------------------------------------------+
- + Shash Chatterjee                           EMAIL:  fwr8bv@fin.af.mil        +
- + EC Software                                PHONE:  (817) 763-1495           +
- + Lockheed Fort Worth Company                FAX:    (817) 777-2115           +
- + P.O. Box 748, MZ1719                                                        +
- + Ft. Worth, TX 76101                                                         +
+ + shash chatterjee                           email:  fwr8bv@fin.af.mil        +
+ + ec software                                phone:  (817) 763-1495           +
+ + lockheed fort worth company                fax:    (817) 777-2115           +
+ + p.o. box 748, mz1719                                                        +
+ + ft. worth, tx 76101                                                         +
  +-----------------------------------------------------------------------------+
  
  

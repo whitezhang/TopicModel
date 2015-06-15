@@ -1,40 +1,40 @@
 
  hi,
-   Have you used Mac system 6.x or 7.x? If the answer is positive, you would
- know if ms-windows is a "mature" OS.
+   have you used mac system 6.x or 7.x? if the answer is positive, you would
+ know if ms-windows is a "mature" os.
  
-   Days ago people doubted that ms-windows is not a real OS. I can see why
- they have such question. Ms-windows confuses many people. Microsoft
- simulated Mac, but it did a lousy job.  For example:
+   days ago people doubted that ms-windows is not a real os. i can see why
+ they have such question. ms-windows confuses many people. microsoft
+ simulated mac, but it did a lousy job.  for example:
  
- (1) You can not create hierarchy groups. There is no way to create a group
-     in a group. (If you know how, please tell me.)
- (2) Too many system parameters to take care of. 
- (3) uncomplete documentation. It's not easy to find the reason why causes
+ (1) you can not create hierarchy groups. there is no way to create a group
+     in a group. (if you know how, please tell me.)
+ (2) too many system parameters to take care of. 
+ (3) uncomplete documentation. it's not easy to find the reason why causes
      an unpredictable error.
- (4) Group deleting/file deleting
-     After deleting a group, users have to use file manager to delete files.
-     But if users forget to delete some related files, the disk will be full
+ (4) group deleting/file deleting
+     after deleting a group, users have to use file manager to delete files.
+     but if users forget to delete some related files, the disk will be full
      of nonsense files.
  (5) share problem
-     Once you create two windows doing compilation and editing in some
-     language (w/o good editor), there will be a sharing problem. You just
-     can not open or save the program if it is loaded. It makes sense to
+     once you create two windows doing compilation and editing in some
+     language (w/o good editor), there will be a sharing problem. you just
+     can not open or save the program if it is loaded. it makes sense to
      prevent from saving, but not opening.
  
- Microsoft try to compromise between DOS and windows, but they just make 
- ms-windows a graphical DOS with capacity doing mutiple DOS jobs; 
- the worst thing is they complicate the environment. The orginal purpose
- of ms-windows should be to simplify the environment, and make PC easier 
+ microsoft try to compromise between dos and windows, but they just make 
+ ms-windows a graphical dos with capacity doing mutiple dos jobs; 
+ the worst thing is they complicate the environment. the orginal purpose
+ of ms-windows should be to simplify the environment, and make pc easier 
  to use.
    
-   It's by no means easy to satisfy everybody, but if Microsoft want to
+   it's by no means easy to satisfy everybody, but if microsoft want to
  keep their reputations, they should evaluate the user interface more
  carefully before products distribute.
  
-   No flame, please.
+   no flame, please.
  
- Jesse
+ jesse
  e-mail:cyen@cs.unt.edu/ic43@sol.acs.unt.edu
  
  

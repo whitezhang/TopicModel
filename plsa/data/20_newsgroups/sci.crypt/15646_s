@@ -1,54 +1,54 @@
 
  
- In article <1993Apr21.150815.6657@chpc.org> rboudrie@chpc.org (Rob Boudrie) writes:
- >In article <C5so84.Hxv@demon.co.uk> Graham Toal <gtoal@gtoal.com> writes:
- >>In article <2073@rwing.UUCP> pat@rwing.UUCP (Pat Myrto) writes:
- >>:If the Clinton Clipper is so very good, why not make its algrithm public
+ in article <1993apr21.150815.6657@chpc.org> rboudrie@chpc.org (rob boudrie) writes:
+ >in article <c5so84.hxv@demon.co.uk> graham toal <gtoal@gtoal.com> writes:
+ >>in article <2073@rwing.uucp> pat@rwing.uucp (pat myrto) writes:
+ >>:if the clinton clipper is so very good, why not make its algrithm public
  >>:so many people can exchange ideas and examine it, rather than a few
- >>:isolated 'respected experts' (respected by whom?  for what?  Perhaps a
+ >>:isolated 'respected experts' (respected by whom?  for what?  perhaps a
  >
- >One more time...
+ >one more time...
  >
- >    If they released the algorithm, it would be possible for someone
+ >    if they released the algorithm, it would be possible for someone
  >    to come up with an implementation which was identical, but
  >    lacking an escrowed key.
  >
- >    Note that the press announcement mentioned that the algorithm was
- >    being kept secret for security of the key escrow system.  In this
- >    case security means "an escrowed key for EVERY clipper chip".
+ >    note that the press announcement mentioned that the algorithm was
+ >    being kept secret for security of the key escrow system.  in this
+ >    case security means "an escrowed key for every clipper chip".
  >
  >
- >    Assuming you believed all that is said about the effective of
+ >    assuming you believed all that is said about the effective of
  >    the algorithm, and the escrow system, which would you buy :
  >
- >     (a)  Chip from firm A with the escrowed key
- >     (b)  Second source chip from reputable firm B with no key
+ >     (a)  chip from firm a with the escrowed key
+ >     (b)  second source chip from reputable firm b with no key
  >          in government escrow.
  >
- >    There would obviously be powerful economic incentives for a second
+ >    there would obviously be powerful economic incentives for a second
  >    source, non escrowed, vendor.
  
- But what about second sources for pin-compatible non-Clipper algorithm
- chips that also have escrowed keys?  If a "reputable firm" produces a
- chip (with escrowed key) that is a pop-in replacement for the Clipper
+ but what about second sources for pin-compatible non-clipper algorithm
+ chips that also have escrowed keys?  if a "reputable firm" produces a
+ chip (with escrowed key) that is a pop-in replacement for the clipper
  chip in my phone, and uses an algorithm that is widely known and evaluated
  and "trusted," then what's the problem?
  
- The Clipper is going to be reverse engineered anyway by any organization
+ the clipper is going to be reverse engineered anyway by any organization
  with sufficient resources (can you say "billions of cocaine dollars?") so
  those drug dealers they're so worried about will be slipping through the
- cracks.  We law-abiding (non-incredibly-wealthy) citizens, naturally, will
- not have this recourse.  But claiming that the algorithm can't be
+ cracks.  we law-abiding (non-incredibly-wealthy) citizens, naturally, will
+ not have this recourse.  but claiming that the algorithm can't be
  released to prevent people from using non-key-escrowed chips is plain
  deceitful... analysis of the chip output will provide information on
  the necessary headers and whatnot, so the "bad guys" could build chips
  using a *different* algorithm and still not escrow their keys.
  
- Or, they could just buy bunches of cheap phones at K-mart every week,
- and play Swap-the-Clipper-Chip with their cellular phone every day.
+ or, they could just buy bunches of cheap phones at k-mart every week,
+ and play swap-the-clipper-chip with their cellular phone every day.
  
  
- Michael T. Palmer         |  "A man is crazy who writes a secret in any
+ michael t. palmer         |  "a man is crazy who writes a secret in any
  m.t.palmer@larc.nasa.gov  |   other way than one which will conceal it
- RIPEM key on server       |   from the vulgar." - Roger Bacon, 1220-1292
+ ripem key on server       |   from the vulgar." - roger bacon, 1220-1292
  

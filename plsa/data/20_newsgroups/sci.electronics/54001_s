@@ -1,50 +1,50 @@
 
- In article <wb9omc.735430855@dynamo.ecn.purdue.edu> wb9omc@dynamo.ecn.purdue.edu (Duane P Mantick) writes:
- >Duane
- >	Yeesh, you WILL be nailing those IRLEDs.  May I suggest getting your
- >mitts on the Siemens SFH484-2 IRLED?  This unit is designed to take some big
- >current pulses if you can get your duty cycle down a bit.  It will output
- >nearly a watt (975 mW) with REAL short duty cycle times.
+ in article <wb9omc.735430855@dynamo.ecn.purdue.edu> wb9omc@dynamo.ecn.purdue.edu (duane p mantick) writes:
+ >duane
+ >	yeesh, you will be nailing those irleds.  may i suggest getting your
+ >mitts on the siemens sfh484-2 irled?  this unit is designed to take some big
+ >current pulses if you can get your duty cycle down a bit.  it will output
+ >nearly a watt (975 mw) with real short duty cycle times.
  >
- >(nice thing about the SFH484-2 is that it is CHEAP.  I got mine for about
- >50 cents a piece, even though I had to buy 100 of them....)
+ >(nice thing about the sfh484-2 is that it is cheap.  i got mine for about
+ >50 cents a piece, even though i had to buy 100 of them....)
  
- Are you saying that you have some extras that you would like to do some cost
- recovery on?  I may be interested.  I think for practical and cost reasons I
+ are you saying that you have some extras that you would like to do some cost
+ recovery on?  i may be interested.  i think for practical and cost reasons i
  am limited to envelope detection so that leaves me with only increasing the
  output power and increasing the optical gain at the receiver as methods to
  extend range.
  
- >	BTW, I have seen IRLEDs with outputs up to 6 watts...honest,
- >6 WATTS.  I don't have the book here at work so I can't recall the company
- >name.  The 6 watter ain't cheap, around $108 but if you want some power,
- >mamamia, that's pretty hot.  They also have a 4 watt, a 2 watt and a
+ >	btw, i have seen irleds with outputs up to 6 watts...honest,
+ >6 watts.  i don't have the book here at work so i can't recall the company
+ >name.  the 6 watter ain't cheap, around $108 but if you want some power,
+ >mamamia, that's pretty hot.  they also have a 4 watt, a 2 watt and a
  >1 watt device in their line, and will sell small quan. to individuals.
- >If you are interested, I can find the book at home and get the
+ >if you are interested, i can find the book at home and get the
  >pertinent info.
  
- Yes I'm interested in the company name.  I have access to an extensive data
- book collection.  With that kind of power, are we getting into an area where
+ yes i'm interested in the company name.  i have access to an extensive data
+ book collection.  with that kind of power, are we getting into an area where
  eye safety is getting to be a problem.
  
- >	Now, as for the position detector, you might try ELTEC in Florida.
- >Phone number listed in the 92/93 ETID is 904-253-5328.  They seem like
- >nice people.  Their specialty is passive infrared detection devices,
+ >	now, as for the position detector, you might try eltec in florida.
+ >phone number listed in the 92/93 etid is 904-253-5328.  they seem like
+ >nice people.  their specialty is passive infrared detection devices,
  >so they might be able to help you out.
  
- They are a long way from me but they might be a better source than I can find
+ they are a long way from me but they might be a better source than i can find
  around here.
  
- >	I'm curious about your applications if you don't mind saying.
- >The device sounds like it could be useful in a lasertag game, although you'd
- >need to up your carrier signal concept to 58.8 KHz......
+ >	i'm curious about your applications if you don't mind saying.
+ >the device sounds like it could be useful in a lasertag game, although you'd
+ >need to up your carrier signal concept to 58.8 khz......
  
- I'm keeping my application confidential for now.  Raising the frequency should
- be no problem, in fact one respondent to my question said that I may not have
- to mimic the 50% duty cycle normally used by IR detector chips.
+ i'm keeping my application confidential for now.  raising the frequency should
+ be no problem, in fact one respondent to my question said that i may not have
+ to mimic the 50% duty cycle normally used by ir detector chips.
  
  --
  
- Stan Burton (DND/CRAD/DRES/DTD/MSS/AGCG)                 sburton@dres.dnd.ca
- (403) 544-4737     DRE Suffield, Box 4000, Medicine Hat, AB, Canada, T1A 8K6
+ stan burton (dnd/crad/dres/dtd/mss/agcg)                 sburton@dres.dnd.ca
+ (403) 544-4737     dre suffield, box 4000, medicine hat, ab, canada, t1a 8k6
  

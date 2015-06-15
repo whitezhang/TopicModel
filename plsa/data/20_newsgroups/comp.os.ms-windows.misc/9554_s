@@ -1,20 +1,20 @@
 
- I just installed a new TrueType font under MS-Windows 3.1
+ i just installed a new truetype font under ms-windows 3.1
  but though all the applications display the font correctly on the
  screen, quite a few of them fail to print out the document correctly
- (on a LaserJet 4 - non-PostScript printer).
+ (on a laserjet 4 - non-postscript printer).
  
- When I use the font in CorelDRAW, the document prints correctly, so I assume
- CorelDRAW knows that the font has to be downloaded to the printer.
+ when i use the font in coreldraw, the document prints correctly, so i assume
+ coreldraw knows that the font has to be downloaded to the printer.
  
- But when I use the Windows accessory Write, the printer prints square
- boxes in place of the characters of the new font. Yet, Write does
+ but when i use the windows accessory write, the printer prints square
+ boxes in place of the characters of the new font. yet, write does
  display the font correctly on the screen.
  
- I looked through all the Windows and LaserJet manuals, but got nowhere.
- All of them just make the statement that TrueType fonts will print
- exactly as you see them on the screen---so I assume Windows knows that a font
+ i looked through all the windows and laserjet manuals, but got nowhere.
+ all of them just make the statement that truetype fonts will print
+ exactly as you see them on the screen---so i assume windows knows that a font
  has to be downloaded automatically---but, how to make it do that????
  
- Appreciate any help....
+ appreciate any help....
  

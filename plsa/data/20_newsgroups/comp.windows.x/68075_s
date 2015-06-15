@@ -1,21 +1,21 @@
 
- In article <C6wLIJ.L5K@bailgate.gpsemi.com> wilkinson_m@roborough.gpsemi.com writes:
- > Hi All,
- >        This is the first time I've posted to the net, so I hope this is
+ in article <c6wlij.l5k@bailgate.gpsemi.com> wilkinson_m@roborough.gpsemi.com writes:
+ > hi all,
+ >        this is the first time i've posted to the net, so i hope this is
  > going to the right people.
- >   I'm looking for software packages that run on an IBM PC clone that
- > allows me to display Openlook and motif windows on the PC. 
+ >   i'm looking for software packages that run on an ibm pc clone that
+ > allows me to display openlook and motif windows on the pc. 
  
  
- I highly recommend Starnet's Micro-X.  They have versions for DOS and Windows,
- with support for PC/TCP, or the Clarkson packet drivers.  I have used it
- successfully with twm, mwm, and olwm, over both ethernet and SLIP.
- And their tech support is top notch.  They really impressed me.  
+ i highly recommend starnet's micro-x.  they have versions for dos and windows,
+ with support for pc/tcp, or the clarkson packet drivers.  i have used it
+ successfully with twm, mwm, and olwm, over both ethernet and slip.
+ and their tech support is top notch.  they really impressed me.  
  
- Kevin
+ kevin
  -- 
- Kevin J. Jarnot (jarnot@kin.lap.upenn.edu)      | "The monkey-boys are evil - 
- Lead Programmer/Analyst/Keyboardist             | Lord Whorfin is supreme..."
- Univ. of Pennsylvania Language Analysis Center  |  
- 3700 Market St, Suite 202  Phila, PA 19104      |       "Vita Non Jerk"
+ kevin j. jarnot (jarnot@kin.lap.upenn.edu)      | "the monkey-boys are evil - 
+ lead programmer/analyst/keyboardist             | lord whorfin is supreme..."
+ univ. of pennsylvania language analysis center  |  
+ 3700 market st, suite 202  phila, pa 19104      |       "vita non jerk"
  

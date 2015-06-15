@@ -1,19 +1,19 @@
 
- Ik Su Yoo <ik@mobydick.leis.bellcore.com> writes:
+ ik su yoo <ik@mobydick.leis.bellcore.com> writes:
  >
- >Another important difference is that MSW doesn't have any window that
- >handle sophisticated geometry management (like XmForm).
+ >another important difference is that msw doesn't have any window that
+ >handle sophisticated geometry management (like xmform).
  
- Is this an advantage to MS Windows or to Xt?  I used to think it
- was a big advantage for Xt, but I am not at all sure anymore...
+ is this an advantage to ms windows or to xt?  i used to think it
+ was a big advantage for xt, but i am not at all sure anymore...
  
  -------------------------------------------------------------------------
- David Smyth				david@jpl-devvax.jpl.nasa.gov
- Senior Software Engineer,		(818)306-6463 (temp! do NOT use v-mail)
- X and Object Guru.			tempory office: 525/B70
- Jet Propulsion Lab, M/S 525-3660 4800 Oak Grove Drive, Pasadena, CA 91109
+ david smyth				david@jpl-devvax.jpl.nasa.gov
+ senior software engineer,		(818)306-6463 (temp! do not use v-mail)
+ x and object guru.			tempory office: 525/b70
+ jet propulsion lab, m/s 525-3660 4800 oak grove drive, pasadena, ca 91109
  ------------------------------------------------------------------------- 
-  What's the earliest possible date you can't prove it won't be done by?
- 					- Tom DeMarco
+  what's the earliest possible date you can't prove it won't be done by?
+ 					- tom demarco
  -------------------------------------------------------------------------
  

@@ -1,42 +1,42 @@
 
- -----BEGIN PGP SIGNED MESSAGE-----
+ -----begin pgp signed message-----
  
- In article <1qn1ic$hp6@access.digex.net> pcw@access.digex.com (Peter Wayner) writes:
+ in article <1qn1ic$hp6@access.digex.net> pcw@access.digex.com (peter wayner) writes:
  
-    2) The system is vulnerable to simple phone swapping attacks
-    like this. Criminals will quickly figure this out and go to
+    2) the system is vulnerable to simple phone swapping attacks
+    like this. criminals will quickly figure this out and go to
     town.
  
- Depends..  Its possible that the phone sends its serial number in the
- clear at some specified interval... So all a listener needs to do is
- get that SN, and then get the key for it...  So swapping phones isn't
- a problem (for the gov't, that is).  They still know that this line
- belongs to you, so they just watch the line and see the SN, and then
- they get the key for that SN...
+ depends..  its possible that the phone sends its serial number in the
+ clear at some specified interval... so all a listener needs to do is
+ get that sn, and then get the key for it...  so swapping phones isn't
+ a problem (for the gov't, that is).  they still know that this line
+ belongs to you, so they just watch the line and see the sn, and then
+ they get the key for that sn...
  
-    In either case, I think we need to look at this a bit deeper."'jbl)mW:wxlD2
+    in either case, i think we need to look at this a bit deeper."'jbl)mw:wxld2
  
- Well, I think this is understood.  The major problem is that a lot of
+ well, i think this is understood.  the major problem is that a lot of
  people just don't trust this key escrow stuff, and the fact that the
- algorithms are classified...  So, yes, a lot of this needs to be looked
+ algorithms are classified...  so, yes, a lot of this needs to be looked
  at closer!
  
  - -derek
  
- PGP 2 key available upon request on the key-server:
+ pgp 2 key available upon request on the key-server:
  	pgp-public-keys@toxicwaste.mit.edu
  
- -----BEGIN PGP SIGNATURE-----
- Version: 2.2
+ -----begin pgp signature-----
+ version: 2.2
  
- iQBuAgUBK9EbXDh0K1zBsGrxAQHzcALCAlvWtnvi7aySWf565id1MN++nsybTwQI
- jQLgPKX/4tx6qjGC69BUQRZAtMQutkoVnvx/MqT5EZFM7uundRWD4cOwbb7CC4Gy
- gT7JtLRqU0aF9VSf4SGNQqg=
- =fGRj
- -----END PGP SIGNATURE-----
+ iqbuagubk9ebxdh0k1zbsgrxaqhzcalcalvwtnvi7ayswf565id1mn++nsybtwqi
+ jqlgpkx/4tx6qjgc69buqrzatmqutkovnvx/mqt5ezfm7uundrwd4cowbb7cc4gy
+ gt7jtlrqu0af9vsf4sgnqqg=
+ =fgrj
+ -----end pgp signature-----
  --
-   Derek Atkins, MIT '93, Electrical Engineering and Computer Science
-      Secretary, MIT Student Information Processing Board (SIPB)
-            MIT Media Laboratory, Speech Research Group
-            warlord@MIT.EDU       PP-ASEL        N1NWH
+   derek atkins, mit '93, electrical engineering and computer science
+      secretary, mit student information processing board (sipb)
+            mit media laboratory, speech research group
+            warlord@mit.edu       pp-asel        n1nwh
  

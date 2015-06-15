@@ -1,19 +1,19 @@
 
- barr@pop.psu.edu (David Barr) writes:
+ barr@pop.psu.edu (david barr) writes:
  
- >Did you install the sunkbd patch?  It's in the contrib directory on export.
- >All the keys on my keyboard send events properly, except the following:
- >The End, PageUp, PageDown on the 6-key cluster aren't recognized.
- >Even the compose key works.  (Though I can't seem to get the composed
+ >did you install the sunkbd patch?  it's in the contrib directory on export.
+ >all the keys on my keyboard send events properly, except the following:
+ >the end, pageup, pagedown on the 6-key cluster aren't recognized.
+ >even the compose key works.  (though i can't seem to get the composed
  >characters in an xterm to get passed.)
  
- >Anyone have a fix for the last two?
+ >anyone have a fix for the last two?
  
- fix the table in .../X11R5/mit/server/ddx/sun/ or
+ fix the table in .../x11r5/mit/server/ddx/sun/ or
  use xmodmap(1).
  
  put
-   stty pass8; setenv LC_CTYPE iso_8859_1; setenv LESSCHARSET latin1
+   stty pass8; setenv lc_ctype iso_8859_1; setenv lesscharset latin1
  in your .login. the first prevents the stripping of bit 7.
  the second sets the locale. the third makes less(1) show the character
  instead of the octal representation.
@@ -22,7 +22,7 @@
  
  -- 
  __________________________________________________
- Robert Joop
+ robert joop
    rj@{rainbow.in-berlin,fokus.gmd,cs.tu-berlin}.de
    s=joop;ou=fokus;ou=berlin;p=gmd;a=dbp;c=de
  

@@ -1,26 +1,26 @@
 
- hurley@epcot.spdc.ti.com writes in article <1993Apr14.090534.6892@spdc.ti.com>:
+ hurley@epcot.spdc.ti.com writes in article <1993apr14.090534.6892@spdc.ti.com>:
  > 
- > What about VLB and a 486dx50.   Does the local bus still run at 33Mhz or does
- > it try to run at 50Mhz???
- > 
- > 
- > Brian
+ > what about vlb and a 486dx50.   does the local bus still run at 33mhz or does
+ > it try to run at 50mhz???
  > 
  > 
- Hi,
- VLB is defined for 3 cards by 33MHz
- and 2 cards by 40MHz
+ > brian
+ > 
+ > 
+ hi,
+ vlb is defined for 3 cards by 33mhz
+ and 2 cards by 40mhz
  
- there are designs with 50MHz and 2 VLB-Slots.
- (s. C't 9.92, 10.92, 11.92)
+ there are designs with 50mhz and 2 vlb-slots.
+ (s. c't 9.92, 10.92, 11.92)
  
- 50MHz and 2 Slots are realy difficult to design.
+ 50mhz and 2 slots are realy difficult to design.
  
- Better OSs (OS/2 & iX) are able to handle more than 16MB of DRAM,
- if you use EISA-Bus.
- Has someone experience with VLB ??
- I think of SCSI-VLB-Busmaster. The problem is the 16bit Floppy DMA
- controller, which is unable to reach more than 16MB.
- Joerg
+ better oss (os/2 & ix) are able to handle more than 16mb of dram,
+ if you use eisa-bus.
+ has someone experience with vlb ??
+ i think of scsi-vlb-busmaster. the problem is the 16bit floppy dma
+ controller, which is unable to reach more than 16mb.
+ joerg
  

@@ -1,56 +1,56 @@
 
- In article 16598@rz.uni-jena.de, hahm@fossi.hab-weimar.de (peter hahm) writes:
+ in article 16598@rz.uni-jena.de, hahm@fossi.hab-weimar.de (peter hahm) writes:
  >
  >
- >RADIOSITY SOURCES WANTED !!!
+ >radiosity sources wanted !!!
  >============================
  >
- >When I read the comp.graphics group, I never found something about 
- >radiosity. Is there anybody interested in out there? I would be glad 
+ >when i read the comp.graphics group, i never found something about 
+ >radiosity. is there anybody interested in out there? i would be glad 
  >to hear from somebody.
- >I am looking for source-code for the radiosity-method. I have already
- >read common literature, e. g.Foley ... . I think little examples could 
- >help me to understand how radiosity works. Common languages ( C, C++, 
- >Pascal) prefered.
- >I hope you will help me!
+ >i am looking for source-code for the radiosity-method. i have already
+ >read common literature, e. g.foley ... . i think little examples could 
+ >help me to understand how radiosity works. common languages ( c, c++, 
+ >pascal) prefered.
+ >i hope you will help me!
  >
- >Yours
- >Peter 
+ >yours
+ >peter 
  >
  
  
- Peter,  there's a radiosity package ahead. The only problem is: there 
+ peter,  there's a radiosity package ahead. the only problem is: there 
  are a few miles to sail ... ;-^
  
- Let's be serious... I'm working on a radiosity package, written in C++.
- I would like to make it public domain.  I'll announce it in c.g. the minute
- I finished it. 
+ let's be serious... i'm working on a radiosity package, written in c++.
+ i would like to make it public domain.  i'll announce it in c.g. the minute
+ i finished it. 
  
- That were the good news. The bad news: It'll take another 2 months (at least) 
+ that were the good news. the bad news: it'll take another 2 months (at least) 
  to finish it. 
  
- In the meantime you may have a look at the file
-   Radiosity_code.tar.Z
+ in the meantime you may have a look at the file
+   radiosity_code.tar.z
  located at
    compute1.cc.ncsu.edu
  
  (there are some other locations; have a look at archie to get the nearest)
  
- Hope that'll help.
+ hope that'll help.
  
- Yours
+ yours
  
- Stephan
+ stephan
  
  
  
  ----------------------------------------------------------------------------
  
-  Stephan Amann     SIG Computer Graphics, University of Berne, Switzerland
+  stephan amann     sig computer graphics, university of berne, switzerland
             amann@iam.unibe.ch
- 	   Tel +41 31 65 46 79	   Fax +41 31 65 39 65
+ 	   tel +41 31 65 46 79	   fax +41 31 65 39 65
  
-  Projects: Radiosity, Raytracing, Computer Graphics
+  projects: radiosity, raytracing, computer graphics
  
  ----------------------------------------------------------------------------
  

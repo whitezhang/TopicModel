@@ -1,28 +1,28 @@
 
- servis@author.ecn.purdue.edu (Brian K Servis) writes:
- That's me....
- >I just downloaded the Windows Ghostscript package(gswin252.zip,gs252ini.zip) 
- >from ftp.  When I load a PS file it says it cant find font and substitutes a
- >font called Ugly. It is substituting for basic fonts such as Helv, and Cour.
- >I would imagine that these fonts are included in its font library. Is there
- >something I am doing wrong or am missing?  These Ugly fonts are not very clear
- >and well defined, as in sharpness, etc, basically they are ugly!  Any advice
+ servis@author.ecn.purdue.edu (brian k servis) writes:
+ that's me....
+ >i just downloaded the windows ghostscript package(gswin252.zip,gs252ini.zip) 
+ >from ftp.  when i load a ps file it says it cant find font and substitutes a
+ >font called ugly. it is substituting for basic fonts such as helv, and cour.
+ >i would imagine that these fonts are included in its font library. is there
+ >something i am doing wrong or am missing?  these ugly fonts are not very clear
+ >and well defined, as in sharpness, etc, basically they are ugly!  any advice
  >is welcome.
  
  
- Ok, I realize I have to get the font files from some ftp site.  I found them
- at cica but I now have another question.....
+ ok, i realize i have to get the font files from some ftp site.  i found them
+ at cica but i now have another question.....
  
- Are the 24*.zip fonts compatible with gswin252??
+ are the 24*.zip fonts compatible with gswin252??
  
- >Please email
+ >please email
  
- Brian Servis
+ brian servis
  ===========================================================================
- ||  servis@author.ecn.purdue.edu   ||         "It Happened This Way"     ||
+ ||  servis@author.ecn.purdue.edu   ||         "it happened this way"     ||
  ===================================|| actual quotes from insurance claims||
- ||  What I say may not be what I   ||                                    ||
- ||  think. What I say may not be   ||  "The pedestrian had no idea which ||
- ||  what Purdue thinks.            ||   way to go, so I ran him over."   ||
+ ||  what i say may not be what i   ||                                    ||
+ ||  think. what i say may not be   ||  "the pedestrian had no idea which ||
+ ||  what purdue thinks.            ||   way to go, so i ran him over."   ||
  ===========================================================================
  

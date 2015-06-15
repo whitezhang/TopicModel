@@ -1,10 +1,10 @@
 
  
- 	Has anyone used DCE threads with an X Client?
- 	Is it possible to have one thread listening for incoming RPCs
- 	while another processes X Events? How do you set something
+ 	has anyone used dce threads with an x client?
+ 	is it possible to have one thread listening for incoming rpcs
+ 	while another processes x events? how do you set something
  	like this up?
- 					_ Atul
+ 					_ atul
  					(apara@ctp.com)
  
  				

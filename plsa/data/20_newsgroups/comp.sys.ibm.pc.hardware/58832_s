@@ -1,35 +1,35 @@
 
- In article <1pm61pINNp45@geraldo.cc.utexas.edu> jbodnar@ccwf.cc.utexas.edu (John Bodnar) writes:
- >According to e_p@unl.edu (edgar pearlstein):
- >>        Here's another one:
+ in article <1pm61pinnp45@geraldo.cc.utexas.edu> jbodnar@ccwf.cc.utexas.edu (john bodnar) writes:
+ >according to e_p@unl.edu (edgar pearlstein):
+ >>        here's another one:
  >>
- >>        5.  My computer arrived with the following statement in its
- >>            config.sys file:  STACKS = 9,256.  I changed it to
- >>            STACKS = 8,128 and saved 1296 bytes.  Maybe it could be
- >>            lowered even more, but I haven't tried it. 
+ >>        5.  my computer arrived with the following statement in its
+ >>            config.sys file:  stacks = 9,256.  i changed it to
+ >>            stacks = 8,128 and saved 1296 bytes.  maybe it could be
+ >>            lowered even more, but i haven't tried it. 
  >
- >Exactly.
+ >exactly.
  >
- >Regardless of what Microsoft says, I have set STACKS=0,0 on every single
- >computer I have installed Windows on from a simple 386SX-16 up to 486DX-50
- >with EISA motherboards, NDI Volante TIGA adapters, Intel Ethernet Express
- >cards, and caching SCSI controllers from DPT and DTC.
+ >regardless of what microsoft says, i have set stacks=0,0 on every single
+ >computer i have installed windows on from a simple 386sx-16 up to 486dx-50
+ >with eisa motherboards, ndi volante tiga adapters, intel ethernet express
+ >cards, and caching scsi controllers from dpt and dtc.
  >
- >Not a problem yet, and the extra 2K+ gained means a lot with conventional
- >memory gobbling programs like OrCAD and Tango PCB.
+ >not a problem yet, and the extra 2k+ gained means a lot with conventional
+ >memory gobbling programs like orcad and tango pcb.
  >-- 
- >John Bodnar                          : "While we liked developing Windows
- >The University of Texas at Austin    :  applications, we never inhaled."
- >Internet: jbodnar@ccwf.cc.utexas.edu : 
- >UUCP: ....!cs.utexas!ut-ccwf!jbodnar :       -- Borland CEO Philippe Kahn
+ >john bodnar                          : "while we liked developing windows
+ >the university of texas at austin    :  applications, we never inhaled."
+ >internet: jbodnar@ccwf.cc.utexas.edu : 
+ >uucp: ....!cs.utexas!ut-ccwf!jbodnar :       -- borland ceo philippe kahn
  
  
  
- I remember reading somewhere (QEMM manual, I think) that 
- STACK=9,256 is needed only for the Windows SETUP program.  
- Otherwise, use STACK=0,0.
+ i remember reading somewhere (qemm manual, i think) that 
+ stack=9,256 is needed only for the windows setup program.  
+ otherwise, use stack=0,0.
  
- 	Rich
+ 	rich
  
  
  

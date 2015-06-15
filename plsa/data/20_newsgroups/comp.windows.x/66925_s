@@ -1,20 +1,20 @@
 
  
- The following problem is really bugging me,
- and I would appreciate any help.
+ the following problem is really bugging me,
+ and i would appreciate any help.
  
- I create two windows:
+ i create two windows:
  
- w1 (child to root) with event_mask = ButtonPressMask|KeyPressMask;
- w2 (child to w1) with do_not_propagate_mask = ButtonPressMask|KeyPressMask;
+ w1 (child to root) with event_mask = buttonpressmask|keypressmask;
+ w2 (child to w1) with do_not_propagate_mask = buttonpressmask|keypressmask;
  
  
- Keypress events in w2 are discarded, but ButtonPress events fall through
+ keypress events in w2 are discarded, but buttonpress events fall through
  to w1, with subwindow set to w2.
  
- FYI, I'm using xnews/olvwm.
+ fyi, i'm using xnews/olvwm.
  
- Am I doing something fundamentally wrong here?
+ am i doing something fundamentally wrong here?
  
  				n
  

@@ -1,209 +1,209 @@
- Private-key systems. Types of attacks (brute-force, cyphertext, 
-  plaintext, etc.). Mathematical formulation of cryptography. Security 
+ private-key systems. types of attacks (brute-force, cyphertext, 
+  plaintext, etc.). mathematical formulation of cryptography. security 
   of one-time pads.
- X-Last-Updated: 1993/04/16
+ x-last-updated: 1993/04/16
  
- Archive-name: cryptography-faq/part04
- Last-modified: 1993/4/15
+ archive-name: cryptography-faq/part04
+ last-modified: 1993/4/15
  
  
- FAQ for sci.crypt, part 4: Mathematical Cryptology
+ faq for sci.crypt, part 4: mathematical cryptology
  
- This is the fourth of ten parts of the sci.crypt FAQ. The parts are
+ this is the fourth of ten parts of the sci.crypt faq. the parts are
  mostly independent, but you should read the first part before the rest.
- We don't have the time to send out missing parts by mail, so don't ask.
- Notes such as ``[KAH67]'' refer to the reference list in the last part.
+ we don't have the time to send out missing parts by mail, so don't ask.
+ notes such as ``[kah67]'' refer to the reference list in the last part.
  
- The sections of this FAQ are available via anonymous FTP to rtfm.mit.edu 
- as /pub/usenet/news.answers/cryptography-faq/part[xx].  The Cryptography 
- FAQ is posted to the newsgroups sci.crypt, sci.answers, and news.answers
+ the sections of this faq are available via anonymous ftp to rtfm.mit.edu 
+ as /pub/usenet/news.answers/cryptography-faq/part[xx].  the cryptography 
+ faq is posted to the newsgroups sci.crypt, sci.answers, and news.answers
  every 21 days.
  
  
- Contents:
+ contents:
  
- * In mathematical terms, what is a private-key cryptosystem?
- * What is an attack?
- * What's the advantage of formulating all this mathematically?
- * Why is the one-time pad secure?
- * What's a ciphertext-only attack?
- * What's a known-plaintext attack?
- * What's a chosen-plaintext attack?
- * In mathematical terms, what can you say about brute-force attacks?
- * What's a key-guessing attack? What's entropy?
+ * in mathematical terms, what is a private-key cryptosystem?
+ * what is an attack?
+ * what's the advantage of formulating all this mathematically?
+ * why is the one-time pad secure?
+ * what's a ciphertext-only attack?
+ * what's a known-plaintext attack?
+ * what's a chosen-plaintext attack?
+ * in mathematical terms, what can you say about brute-force attacks?
+ * what's a key-guessing attack? what's entropy?
  
  
- * In mathematical terms, what is a private-key cryptosystem?
+ * in mathematical terms, what is a private-key cryptosystem?
  
-   A private-key cryptosystem consists of an encryption system E and a
-   decryption system D. The encryption system E is a collection of
-   functions E_K, indexed by ``keys'' K, mapping some set of
-   ``plaintexts'' P to some set of ``ciphertexts'' C. Similarly the
-   decryption system D is a collection of functions D_K such that
-   D_K(E_K(P)) = P for every plaintext P.  That is, succesful decryption
+   a private-key cryptosystem consists of an encryption system e and a
+   decryption system d. the encryption system e is a collection of
+   functions e_k, indexed by ``keys'' k, mapping some set of
+   ``plaintexts'' p to some set of ``ciphertexts'' c. similarly the
+   decryption system d is a collection of functions d_k such that
+   d_k(e_k(p)) = p for every plaintext p.  that is, succesful decryption
    of ciphertext into plaintext is accomplished using the same key
    (index) as was used for the corresponding encryption of plaintext
-   into ciphertext.  Such systems, wherein the same key value is used to
+   into ciphertext.  such systems, wherein the same key value is used to
    encrypt and decrypt, are also known as ``symmetric'' cryptoystems.
  
- * What is an attack?
+ * what is an attack?
  
-   In intuitive terms a (passive) attack on a cryptosystem is any method
+   in intuitive terms a (passive) attack on a cryptosystem is any method
    of starting with some information about plaintexts and their
    corresponding ciphertexts under some (unknown) key, and figuring out
-   more information about the plaintexts. It's possible to state
-   mathematically what this means. Here we go.
+   more information about the plaintexts. it's possible to state
+   mathematically what this means. here we go.
  
-   Fix functions F, G, and H of n variables. Fix an encryption system E,
+   fix functions f, g, and h of n variables. fix an encryption system e,
    and fix a distribution of plaintexts and keys.
  
-   An attack on E using G assuming F giving H with probability p is an
-   algorithm A with a pair f, g of inputs and one output h, such that
-   there is probability p of computing h = H(P_1,...,P_n), if we have
-   f = F(P_1,...,P_n) and g = G(E_K(P_1),...,E_K(P_n)). Note that this
-   probability depends on the distribution of the vector (K,P_1,...,P_n).
+   an attack on e using g assuming f giving h with probability p is an
+   algorithm a with a pair f, g of inputs and one output h, such that
+   there is probability p of computing h = h(p_1,...,p_n), if we have
+   f = f(p_1,...,p_n) and g = g(e_k(p_1),...,e_k(p_n)). note that this
+   probability depends on the distribution of the vector (k,p_1,...,p_n).
  
-   The attack is trivial (or ``pointless'') if there is probability at
-   least p of computing h = H(P_1,...,P_n) if f = F(P_1,...,P_n) and
-   g = G(C_1,...,C_n). Here C_1,...,C_n range uniformly over the possible
-   ciphertexts, and have no particular relation to P_1,...,P_n. In other
+   the attack is trivial (or ``pointless'') if there is probability at
+   least p of computing h = h(p_1,...,p_n) if f = f(p_1,...,p_n) and
+   g = g(c_1,...,c_n). here c_1,...,c_n range uniformly over the possible
+   ciphertexts, and have no particular relation to p_1,...,p_n. in other
    words, an attack is trivial if it doesn't actually use the encryptions
-   E_K(P_1),...,E_K(P_n).
+   e_k(p_1),...,e_k(p_n).
  
-   An attack is called ``one-ciphertext'' if n = 1, ``two-ciphertext'' if
+   an attack is called ``one-ciphertext'' if n = 1, ``two-ciphertext'' if
    n = 2, and so on.
  
- * What's the advantage of formulating all this mathematically?
+ * what's the advantage of formulating all this mathematically?
  
-   In basic cryptology you can never prove that a cryptosystem is secure.
-   Read part 3: we keep saying ``a strong cryptosystem must have this
+   in basic cryptology you can never prove that a cryptosystem is secure.
+   read part 3: we keep saying ``a strong cryptosystem must have this
    property, but having this property is no guarantee that a cryptosystem
    is strong!''
  
-   In contrast, the purpose of mathematical cryptology is to precisely
+   in contrast, the purpose of mathematical cryptology is to precisely
    formulate and, if possible, prove the statement that a cryptosystem is
-   strong. We say, for example, that a cryptosystem is secure against
+   strong. we say, for example, that a cryptosystem is secure against
    all (passive) attacks if any nontrivial attack against the system (as
-   defined above) is too slow to be practical. If we can prove this
+   defined above) is too slow to be practical. if we can prove this
    statement then we have confidence that our cryptosystem will resist
-   any (passive) cryptanalytic technique. If we can reduce this statement
+   any (passive) cryptanalytic technique. if we can reduce this statement
    to some well-known unsolved problem then we still have confidence that
    the cryptosystem isn't easy to break.
  
-   Other parts of cryptology are also amenable to mathematical
-   definition. Again the point is to explicitly identify what assumptions
-   we're making and prove that they produce the desired results. We can
+   other parts of cryptology are also amenable to mathematical
+   definition. again the point is to explicitly identify what assumptions
+   we're making and prove that they produce the desired results. we can
    figure out what it means for a particular cryptosystem to be used
    properly: it just means that the assumptions are valid.
  
-   The same methodology is useful for cryptanalysis too. The cryptanalyst
-   can take advantage of incorrect assumptions. Often he can try to
+   the same methodology is useful for cryptanalysis too. the cryptanalyst
+   can take advantage of incorrect assumptions. often he can try to
    construct a proof of security for a system, see where the proof fails,
    and use these failures as the starting points for his analysis.
    
- * Why is the one-time pad secure?
+ * why is the one-time pad secure?
  
-   By definition, the one-time pad is a cryptosystem where the
+   by definition, the one-time pad is a cryptosystem where the
    plaintexts, ciphertexts, and keys are all strings (say byte strings)
-   of some length m, and E_K(P) is just the sum (let's say the exclusive
-   or) of K and P.
+   of some length m, and e_k(p) is just the sum (let's say the exclusive
+   or) of k and p.
  
-   It is easy to prove mathematically that there are _no_ nontrivial
+   it is easy to prove mathematically that there are _no_ nontrivial
    single-ciphertext attacks on the one-time pad, assuming a uniform
-   distribution of keys. Note that we don't have to assume a uniform
-   distribution of plaintexts. (Here's the proof: Let A be an attack,
+   distribution of keys. note that we don't have to assume a uniform
+   distribution of plaintexts. (here's the proof: let a be an attack,
    i.e., an algorithm taking two inputs f, g and producing one output h,
-   with some probability p that h = H(P) whenever f = F(P) and
-   g = G(E_K(P)) (i.e., g = G(K + P)). Then, because the distribution of
-   K is uniform and independent of P, the distribution of K + P must also
-   be uniform and independent of P. But also the distribution of C is
-   uniform and independent of P. Hence there is probability exactly p
-   that h = H(P) whenever f = F(P) and g = G(C), over all P and C. Thus
-   a fortiori A is trivial.)
+   with some probability p that h = h(p) whenever f = f(p) and
+   g = g(e_k(p)) (i.e., g = g(k + p)). then, because the distribution of
+   k is uniform and independent of p, the distribution of k + p must also
+   be uniform and independent of p. but also the distribution of c is
+   uniform and independent of p. hence there is probability exactly p
+   that h = h(p) whenever f = f(p) and g = g(c), over all p and c. thus
+   a fortiori a is trivial.)
  
-   On the other hand the one-time pad is _not_ secure if a key K is used
+   on the other hand the one-time pad is _not_ secure if a key k is used
    for more than one plaintext: i.e., there are nontrivial
-   multiple-ciphertext attacks. So to be properly used a key K must be
-   thrown away after one encryption. The key is also called a ``pad'';
+   multiple-ciphertext attacks. so to be properly used a key k must be
+   thrown away after one encryption. the key is also called a ``pad'';
    this explains the name ``one-time pad.''
  
- * What's a ciphertext-only attack?
+ * what's a ciphertext-only attack?
  
-   In the notation above, a ciphertext-only attack is one where F is
-   constant. Given only some information G(E_K(P_1),...,E_K(P_n)) about
+   in the notation above, a ciphertext-only attack is one where f is
+   constant. given only some information g(e_k(p_1),...,e_k(p_n)) about
    n ciphertexts, the attack has to have some chance of producing some
-   information H(P_1,...,P_n) about the plaintexts. The attack is trivial
-   if it has just as good a chance of producing H(P_1,...,P_n) when given
-   G(C_1,...,C_n) for random C_1,...,C_n.
+   information h(p_1,...,p_n) about the plaintexts. the attack is trivial
+   if it has just as good a chance of producing h(p_1,...,p_n) when given
+   g(c_1,...,c_n) for random c_1,...,c_n.
  
-   For example, say G(C) = C, and say H(P) is the first bit of P. We can
+   for example, say g(c) = c, and say h(p) is the first bit of p. we can
    easily write down an attack---the ``guessing attack,'' which simply
-   guesses that H(P) is 1. This attack is trivial because it doesn't use
+   guesses that h(p) is 1. this attack is trivial because it doesn't use
    the ciphertext: it has a fifty-fifty chance of guessing correctly no
-   matter what. On the other hand there is an attack on RSA which
-   produces one bit of information about P, with 100% success, using C.
-   If it is fed a random C then the success rate drops to 50%. So this is
+   matter what. on the other hand there is an attack on rsa which
+   produces one bit of information about p, with 100% success, using c.
+   if it is fed a random c then the success rate drops to 50%. so this is
    a nontrivial attack.
  
- * What's a known-plaintext attack?
+ * what's a known-plaintext attack?
  
-   The classic known-plaintext attack has F(P_1,P_2) = P_1,
-   G(C_1,C_2) = (C_1,C_2), and H(P_1,P_2) depending only on P_2.
-   In other words, given two ciphertexts C_1 and C_2 and one decryption
-   P_1, the known-plaintext attack should produce information about the
-   other decryption P_2.
+   the classic known-plaintext attack has f(p_1,p_2) = p_1,
+   g(c_1,c_2) = (c_1,c_2), and h(p_1,p_2) depending only on p_2.
+   in other words, given two ciphertexts c_1 and c_2 and one decryption
+   p_1, the known-plaintext attack should produce information about the
+   other decryption p_2.
  
-   Note that known-plaintext attacks are often defined in the literature
+   note that known-plaintext attacks are often defined in the literature
    as producing information about the key, but this is pointless: the
    cryptanalyst generally cares about the key only insofar as it lets him
    decrypt further messages.
  
- * What's a chosen-plaintext attack?
+ * what's a chosen-plaintext attack?
  
-   A chosen-plaintext attack is the first of an increasingly impractical
+   a chosen-plaintext attack is the first of an increasingly impractical
    series of _active_ attacks on a cryptosystem: attacks where the
-   cryptanalyst feeds data to the encryptor. These attacks don't fit into
-   our model of passive attacks explained above. Anyway, a
+   cryptanalyst feeds data to the encryptor. these attacks don't fit into
+   our model of passive attacks explained above. anyway, a
    chosen-plaintext attack lets the cryptanalyst choose a plaintext and
    look at the corresponding ciphertext, then repeat until he has figured
-   out how to decrypt any message. More absurd examples of this sort of
+   out how to decrypt any message. more absurd examples of this sort of
    attack are the ``chosen-key attack'' and ``chosen-system attack.''
  
-   A much more important form of active attack is a message corruption
+   a much more important form of active attack is a message corruption
    attack, where the attacker tries to change the ciphertext in such a
    way as to make a useful change in the plaintext.
  
-   There are many easy ways to throw kinks into all of these attacks:
-   for instance, automatically encrypting any plaintext P as
-   T,E_K(h(T+R+P),R,P), where T is a time-key (sequence number) chosen anew
-   for each message, R is a random number, and h is a one-way hash
-   function. Here comma means concatenation and plus means exclusive-or.
+   there are many easy ways to throw kinks into all of these attacks:
+   for instance, automatically encrypting any plaintext p as
+   t,e_k(h(t+r+p),r,p), where t is a time-key (sequence number) chosen anew
+   for each message, r is a random number, and h is a one-way hash
+   function. here comma means concatenation and plus means exclusive-or.
  
- * In mathematical terms, what can you say about brute-force attacks?
+ * in mathematical terms, what can you say about brute-force attacks?
  
-   Consider the following known-plaintext attack. We are given some
-   plaintexts P_1,...,P_{n-1} and ciphertexts C_1,...,C_{n-1}. We're
-   also given a ciphertext C_n. We run through every key K. When we find
-   K such that E_K(P_i) = C_i for every i < n, we print D_K(C_n).
+   consider the following known-plaintext attack. we are given some
+   plaintexts p_1,...,p_{n-1} and ciphertexts c_1,...,c_{n-1}. we're
+   also given a ciphertext c_n. we run through every key k. when we find
+   k such that e_k(p_i) = c_i for every i < n, we print d_k(c_n).
  
-   If n is big enough that only one key works, this attack will succeed
+   if n is big enough that only one key works, this attack will succeed
    on valid inputs all the time, while it will produce correct results
-   only once in a blue moon for random inputs. Thus this is a nontrivial
-   attack. Its only problem is that it is very slow if there are many
+   only once in a blue moon for random inputs. thus this is a nontrivial
+   attack. its only problem is that it is very slow if there are many
    possible keys.
  
- * What's a key-guessing attack? What's entropy?
+ * what's a key-guessing attack? what's entropy?
  
-   Say somebody is using the one-time pad---but isn't choosing keys
+   say somebody is using the one-time pad---but isn't choosing keys
    randomly and uniformly from all m-bit messages, as he was supposed to
-   for our security proof. In fact say he's known to prefer keys which
-   are English words. Then a cryptanalyst can run through all English
-   words as possible keys. This attack will often succeed, and it's much
+   for our security proof. in fact say he's known to prefer keys which
+   are english words. then a cryptanalyst can run through all english
+   words as possible keys. this attack will often succeed, and it's much
    faster than a brute-force search of the entire keyspace.
  
-   We can measure how bad a key distribution is by calculating its
-   entropy. This number E is the number of ``real bits of information''
+   we can measure how bad a key distribution is by calculating its
+   entropy. this number e is the number of ``real bits of information''
    of the key: a cryptanalyst will typically happen across the key within
-   2^E guesses. E is defined as the sum of -p_K log_2 p_K, where p_K is
-   the probability of key K.
+   2^e guesses. e is defined as the sum of -p_k log_2 p_k, where p_k is
+   the probability of key k.
  

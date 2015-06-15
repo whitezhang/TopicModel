@@ -1,14 +1,14 @@
 
  
-    I have tested this on a 230 and it does work there.  So it would
- seem that the 140 and 170 are out though.  One way to tell is to
- go and open the PowerBook control panel(7.1).  There is a setting
- there that allows you to set the time to wake up the Mac.  If it
+    i have tested this on a 230 and it does work there.  so it would
+ seem that the 140 and 170 are out though.  one way to tell is to
+ go and open the powerbook control panel(7.1).  there is a setting
+ there that allows you to set the time to wake up the mac.  if it
  is present when you open the control panel, then you can assume that
- SetWUTime will work.  
+ setwutime will work.  
  
  -- 
- Andrew E. Page   (Warrior Poet) |   Decision and Effort The Archer and Arrow
- Mac Consultant                  |     The difference between what we are
- Macintosh and DSP Technology    |           and what we want to be.
+ andrew e. page   (warrior poet) |   decision and effort the archer and arrow
+ mac consultant                  |     the difference between what we are
+ macintosh and dsp technology    |           and what we want to be.
  

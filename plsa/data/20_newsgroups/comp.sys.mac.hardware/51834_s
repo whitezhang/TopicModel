@@ -1,28 +1,28 @@
 
- In article <1qt3vd$802@morrow.stanford.edu> HK.MLR@forsythe.stanford.edu (Mark Rogowsky) writes:
+ in article <1qt3vd$802@morrow.stanford.edu> hk.mlr@forsythe.stanford.edu (mark rogowsky) writes:
  
- >Second Wave makes NuBus card cages that work on the PDS slots of at
- >least three Macs: the SE/30, IIsi and Centris 610. They have not, to
- >my knowledge, announced such a device for the LCII, but they could
+ >second wave makes nubus card cages that work on the pds slots of at
+ >least three macs: the se/30, iisi and centris 610. they have not, to
+ >my knowledge, announced such a device for the lcii, but they could
  >make one, technologically.
  >
- >The PDS card that goes to the cage simply needs the NuBus controller
- >circuitry present on NuBus Macs.
+ >the pds card that goes to the cage simply needs the nubus controller
+ >circuitry present on nubus macs.
  >
- >Why, though, does anyone care about this? dgr has a three-PDS
- >adapter for the LC/LCII. They will soon have one for the LCIII. PDS
- >is better than NuBus for most people in most applications. Granted,
- >there are more NuBus cards. But, most applications that require a
- >NuBus card (like full-motion video capture) shouldn't be done on an
- >LC/LCII/LCIII anyway.
+ >why, though, does anyone care about this? dgr has a three-pds
+ >adapter for the lc/lcii. they will soon have one for the lciii. pds
+ >is better than nubus for most people in most applications. granted,
+ >there are more nubus cards. but, most applications that require a
+ >nubus card (like full-motion video capture) shouldn't be done on an
+ >lc/lcii/lciii anyway.
  >
- >Mark
+ >mark
  
  
- NuBus is a much more robust system for system for installing multiple
- cards without configuration problems.  I know that when I was checking
- into expasion options for an SI there were a number of PDS video cards
- that would not work with certian Dual slot cache adapters.
+ nubus is a much more robust system for system for installing multiple
+ cards without configuration problems.  i know that when i was checking
+ into expasion options for an si there were a number of pds video cards
+ that would not work with certian dual slot cache adapters.
  
- _Erik Speckman
+ _erik speckman
  

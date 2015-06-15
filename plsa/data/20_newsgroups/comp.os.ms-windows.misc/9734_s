@@ -1,27 +1,27 @@
 
- Hi.  I am having some interesting problems with my Boca graphics card, which 
- is based on the Cirrus Logic chipset (I am not sure exactly which one).  The
+ hi.  i am having some interesting problems with my boca graphics card, which 
+ is based on the cirrus logic chipset (i am not sure exactly which one).  the
  problem is as follows:
  
- If I use any Windows driver at 800x600 except for the 64K-colour driver (ie
+ if i use any windows driver at 800x600 except for the 64k-colour driver (ie
  16 colour or 256 colour), the image on screen becomes too tall - no amount of
- resizing on the monitor will make it fit.  And if I use Excel with the 64K-
- colour driver, it hangs as soon as it loads.  Anyone out there used this
+ resizing on the monitor will make it fit.  and if i use excel with the 64k-
+ colour driver, it hangs as soon as it loads.  anyone out there used this
  card/experienced anything similar.
  
- Please reply by mail, and I will post any solutions here.
+ please reply by mail, and i will post any solutions here.
  
- Regards
+ regards
  
-   - Simon
+   - simon
  
  
  --
  
  
  +-------------------------------+--------------------------------------------+
- |  Simon Bernstein              |    "Man is condemned to be free" (Sartre)  |
- |  University of Natal, Durban  +--------------------------------------------+
- |  bernstei@shrike.und.ac.za    |              Simonfish on IRC              |
+ |  simon bernstein              |    "man is condemned to be free" (sartre)  |
+ |  university of natal, durban  +--------------------------------------------+
+ |  bernstei@shrike.und.ac.za    |              simonfish on irc              |
  +-------------------------------+--------------------------------------------+
  

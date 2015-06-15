@@ -1,149 +1,149 @@
 
  
- I have been posting monthly "how-to-setup a SLIP client on a PC" posts for a 
- few months.  Lots of work, and imminent graduation have come in the way of 
- posting one of these for March or earlier this month -- for which I apologize.
+ i have been posting monthly "how-to-setup a slip client on a pc" posts for a 
+ few months.  lots of work, and imminent graduation have come in the way of 
+ posting one of these for march or earlier this month -- for which i apologize.
  
- This file includes information on writing a script for University of Minnesota
- PHONE, and also a batch file hack that lets you use other packet drivers with 
- PHONE. 
+ this file includes information on writing a script for university of minnesota
+ phone, and also a batch file hack that lets you use other packet drivers with 
+ phone. 
  
- For additions, modifications and corrections, I can be reached at
+ for additions, modifications and corrections, i can be reached at
  <ashok@biochemistry.cwru.edu>
  
- Best wishes,
- Ashok
+ best wishes,
+ ashok
  
- -- begin SLIP.TXT --
- Based on my experiences on setting up SLIP under DOS and Windows,  here
- are my comments on setting up SLIP in this environment.  I thank the
- Trumpet beta testers and the CWRU SLIP beta testers for their comments.
+ -- begin slip.txt --
+ based on my experiences on setting up slip under dos and windows,  here
+ are my comments on setting up slip in this environment.  i thank the
+ trumpet beta testers and the cwru slip beta testers for their comments.
  
  ----------------------------------------------------------------------
- Configuring your Modem:
+ configuring your modem:
  
- a) Turn off DTR (AT&D0&W)
-    I have to disable DTR because the communication program that I use
-    to dial my SLIP server (QMODEM) drops DTR when I exit the program
-    and therefore hangs up the line.  If you use a program like Kermit
-    or Conex to establish the SLIP connection, then this need not be done.
-    These programs do not necessarily hangup the line when you exit.
+ a) turn off dtr (at&d0&w)
+    i have to disable dtr because the communication program that i use
+    to dial my slip server (qmodem) drops dtr when i exit the program
+    and therefore hangs up the line.  if you use a program like kermit
+    or conex to establish the slip connection, then this need not be done.
+    these programs do not necessarily hangup the line when you exit.
  
-    NOTE: If you use Univ. of Minn. PHONE to dial and establish a
-          SLIP connection, you do not need to turn off DTR.
+    note: if you use univ. of minn. phone to dial and establish a
+          slip connection, you do not need to turn off dtr.
  
- b) Dial and establish the SLIP connection first.  This can be done
-    automatically if you use a program like PHONE (from the University of
-    Minnesota) which will dial and establish a SLIP connection then load the
-    SLIP packet driver.  The PHONE scripting language is simple and
-    phone scripts can be easily written to configure PHONE to work with
-    other SLIP server.  In addition, while the only packet driver
-    that PHONE works with is UMSLIP (currently), it is easy to write a
-    batch file hack that lets PHONE work with other packet drivers.
-    There is a section on PHONE in the document with both script and
+ b) dial and establish the slip connection first.  this can be done
+    automatically if you use a program like phone (from the university of
+    minnesota) which will dial and establish a slip connection then load the
+    slip packet driver.  the phone scripting language is simple and
+    phone scripts can be easily written to configure phone to work with
+    other slip server.  in addition, while the only packet driver
+    that phone works with is umslip (currently), it is easy to write a
+    batch file hack that lets phone work with other packet drivers.
+    there is a section on phone in the document with both script and
     batch file examples.
  
  ----------------------------------------------------------------------
- Configuring the SLIP drivers:
+ configuring the slip drivers:
  
- There are five SLIP packet drivers commonly available
- CSLIPPER.EXE    Peter Tattam's compressed SLIP driver
- SLIPPER.EXE     Peter Tattam's SLIP driver
- SLIP8250.COM    Crynwr driver (I like Phil Burn's modified driver)
- ETHERSL.COM     Crynwr driver (ethernet simulation over SLIP)
- UMSLIP.COM      Univ. of Minnesota driver (based on SLIP8250)
+ there are five slip packet drivers commonly available
+ cslipper.exe    peter tattam's compressed slip driver
+ slipper.exe     peter tattam's slip driver
+ slip8250.com    crynwr driver (i like phil burn's modified driver)
+ ethersl.com     crynwr driver (ethernet simulation over slip)
+ umslip.com      univ. of minnesota driver (based on slip8250)
  
- Of these four, I vastly prefer C/SLIPPER.EXE over SLIP8250.COM or
- ETHERSL.COM for the following reasons:
+ of these four, i vastly prefer c/slipper.exe over slip8250.com or
+ ethersl.com for the following reasons:
  
- a) It is much faster even though my modem has just a 16450 UART
- b) While using EtherSLIP/SLIP8250/UMSLIP, myself and several others
-    have noticed that the PC clock gets messed up after performing a
-    long FTP transfer.
- c) It supports PKTMUX when used in ethernet simulation mode
- d) When used in Ethernet simulation mode C/SLIPPER seem to work with
-    every TCP/IP application that I have tested it with.
+ a) it is much faster even though my modem has just a 16450 uart
+ b) while using etherslip/slip8250/umslip, myself and several others
+    have noticed that the pc clock gets messed up after performing a
+    long ftp transfer.
+ c) it supports pktmux when used in ethernet simulation mode
+ d) when used in ethernet simulation mode c/slipper seem to work with
+    every tcp/ip application that i have tested it with.
  
- Instructions for C/SLIPPER.EXE (and you do not use PHONE)
- a) Load SLIPPER in your AUTOEXEC.BAT file according to instructions:
-    For instance if you have a v.32bis modem on COM1
+ instructions for c/slipper.exe (and you do not use phone)
+ a) load slipper in your autoexec.bat file according to instructions:
+    for instance if you have a v.32bis modem on com1
     slipper com1 vec=62 baud=57600
- b) If you use DOS TCP/IP applications in Win 3.1 DOS boxes, then use the
-    double-ended packet driver shim WinPKT.COM -- this creates a virtual
-    packet driver at 0x60.  DOS applications in native mode, DOS
-    applications in Windows 3.1 DOS boxes and Windows applications can all
+ b) if you use dos tcp/ip applications in win 3.1 dos boxes, then use the
+    double-ended packet driver shim winpkt.com -- this creates a virtual
+    packet driver at 0x60.  dos applications in native mode, dos
+    applications in windows 3.1 dos boxes and windows applications can all
     use this virtual driver at 0x60.
     winpkt.com 0x60 0x62
- c) If you use QVT/Net, load PKTINT.COM next.  QVT/net is configured in
-    QVTNET.INI to use the interrupt at 0x60.
+ c) if you use qvt/net, load pktint.com next.  qvt/net is configured in
+    qvtnet.ini to use the interrupt at 0x60.
     pktint.com
  
- Instructions for SLIP8250.COM:
- a) Try getting a version 10 SLIP driver.  Philip Burns of Northwestern
-    University has a modified SLIP8250.COM driver that is better at hardware
-    handshaking.  This driver is distributed along with NuPOP.
- b) Load the driver AFTER establishing the SLIP connection.  My modem is a
-    V.32bis modem on COM1, so here is how I would load the driver.
-    slip8250 -w 0x62 -h 4 SLIP 0x03f8 57600
- c) As discussed above if you use DOS TCP/IP applications in Windows 3.x
-    DOS boxes, you probably want to use WINPKT.COM
+ instructions for slip8250.com:
+ a) try getting a version 10 slip driver.  philip burns of northwestern
+    university has a modified slip8250.com driver that is better at hardware
+    handshaking.  this driver is distributed along with nupop.
+ b) load the driver after establishing the slip connection.  my modem is a
+    v.32bis modem on com1, so here is how i would load the driver.
+    slip8250 -w 0x62 -h 4 slip 0x03f8 57600
+ c) as discussed above if you use dos tcp/ip applications in windows 3.x
+    dos boxes, you probably want to use winpkt.com
     winpkt.com 0x60 0x62
- d) If you use WinQVT/net, load PKTINT.COM
+ d) if you use winqvt/net, load pktint.com
     pktint.com
  
- Instructions for ETHERSL.COM:
- If you choose to use ETHERSL.COM instead of SLIP8250.COM, the
- instructions are exactly the same with one crucial difference.  You
- will have to DELETE the line "device=*vcd" from the [386Enh] section
- of SYSTEM.INI.  This will interfere with running regular Windows Comm
- applications (such as Crosstalk), and you will get lots of dropped
- characters etc. in these applications.  This is therefore not
- recommended.  ETHERSLIP would be loaded as:
+ instructions for ethersl.com:
+ if you choose to use ethersl.com instead of slip8250.com, the
+ instructions are exactly the same with one crucial difference.  you
+ will have to delete the line "device=*vcd" from the [386enh] section
+ of system.ini.  this will interfere with running regular windows comm
+ applications (such as crosstalk), and you will get lots of dropped
+ characters etc. in these applications.  this is therefore not
+ recommended.  etherslip would be loaded as:
     ethersl -w 0x62 -h 4 0x03f8 57600
  ----------------------------------------------------------------------
- Configuring Windows 3.1:
+ configuring windows 3.1:
  
- a) Make the following modifications to the SYSTEM.INI file [386Enh]
+ a) make the following modifications to the system.ini file [386enh]
     section.
-    i) List all your COM ports, with their addresses and interrupts.
-        COM1Base=03F8
-        COM1Irq=4
-        COM2Base=02F8
-        COM2Irq=3
-        COM3Base=03E8
-        COM3Irq=5
-        This can also be done from within Windows - Control Panel,
-        but double-clicking on the "Ports" icon.
-    ii) Give the port to which your modem is attached a generous COM buffer
-        COM1Buffer=10000
-    iii) Change the COM port AutoAssign value for the COM port that you wish
-        to use for your modem to ZERO.  This is the amount of time that
-        Windows waits in seconds before handing control of that COM port to
-        another application.  If you use WinQVT/net and then want to switch
+    i) list all your com ports, with their addresses and interrupts.
+        com1base=03f8
+        com1irq=4
+        com2base=02f8
+        com2irq=3
+        com3base=03e8
+        com3irq=5
+        this can also be done from within windows - control panel,
+        but double-clicking on the "ports" icon.
+    ii) give the port to which your modem is attached a generous com buffer
+        com1buffer=10000
+    iii) change the com port autoassign value for the com port that you wish
+        to use for your modem to zero.  this is the amount of time that
+        windows waits in seconds before handing control of that com port to
+        another application.  if you use winqvt/net and then want to switch
         from one session to another, and this value is at the default value
-        of 2 seconds, you are will get a GPF and Windows will crash.
-        COM1AutoAssign=0
-        This can also be done from within Windows - Control Panel.
-        Double-click on 386 Enhanced, and under "Device Contention", set
-        the device contention for the COM port your modem is on to
-        "Never Warn"
+        of 2 seconds, you are will get a gpf and windows will crash.
+        com1autoassign=0
+        this can also be done from within windows - control panel.
+        double-click on 386 enhanced, and under "device contention", set
+        the device contention for the com port your modem is on to
+        "never warn"
  ----------------------------------------------------------------------
- Additional notes:
+ additional notes:
  ----------------------------------------------------------------------
- What to do if you are assigned a different IP address for each
- SLIP session?
+ what to do if you are assigned a different ip address for each
+ slip session?
  
- I am fortunate in that our campus SLIP server assigns each user
- a permanent IP address, so I do not have worry about editing QVTNET.INI
- each time that I establish a SLIP connection.
+ i am fortunate in that our campus slip server assigns each user
+ a permanent ip address, so i do not have worry about editing qvtnet.ini
+ each time that i establish a slip connection.
  
- If you are assigned a new IP address on every occasion that you dial in,
- please try to use BOOTP aware software, and let BOOTP do the
- configuration for you.  However, QVTnet is not BOOTP aware and RARP
- will not work over a SLIP connection.  To get QVTNet working in a
+ if you are assigned a new ip address on every occasion that you dial in,
+ please try to use bootp aware software, and let bootp do the
+ configuration for you.  however, qvtnet is not bootp aware and rarp
+ will not work over a slip connection.  to get qvtnet working in a
  situation such as this, you must do the following:
  
- Edit the QVTNET.INI file.  Let the [net] section look like this:
+ edit the qvtnet.ini file.  let the [net] section look like this:
  
  [net]
  name=
@@ -152,63 +152,63 @@
  arptime=20
  packet_vector=60 (or whatever is appropriate)
  
- Save the changes, and then *write-protect* this file
+ save the changes, and then *write-protect* this file
  "attrib +r qvtnet.ini"
  
- Start your slip connection, and *remember* the name and IP address
- that you are assigned.  Each time you start QVT/net 3.1x, the
- general configuration dialog box will open.  Enter the name and
- IP address and you were assigned for that session, click on [OK],
- and you should be up and running.  The changes you make will not
- be saved, as QVTNET.INI is write-protected.
+ start your slip connection, and *remember* the name and ip address
+ that you are assigned.  each time you start qvt/net 3.1x, the
+ general configuration dialog box will open.  enter the name and
+ ip address and you were assigned for that session, click on [ok],
+ and you should be up and running.  the changes you make will not
+ be saved, as qvtnet.ini is write-protected.
  
- A more elegant solution to the problem of dynamic SLIP IP address
- assignment is provided by Victor Menayang (victor@ccwf.cc.utexas.edu)
- Victor uses the program bootpq to semi-automate qvtnet preparation.
- Bootpq is used to inquire the assigned IP, which is then saved to a
- file called "myip".  Another file "noip" is essentially a complete
- QVTNET.INI file that lacks the IP address.  In the final step "myip"
- and "noip" are copied into a single QVTNET.INI file.  An example of
- Victor's batch file is provided below:
+ a more elegant solution to the problem of dynamic slip ip address
+ assignment is provided by victor menayang (victor@ccwf.cc.utexas.edu)
+ victor uses the program bootpq to semi-automate qvtnet preparation.
+ bootpq is used to inquire the assigned ip, which is then saved to a
+ file called "myip".  another file "noip" is essentially a complete
+ qvtnet.ini file that lacks the ip address.  in the final step "myip"
+ and "noip" are copied into a single qvtnet.ini file.  an example of
+ victor's batch file is provided below:
  =====================================================
  slipper com2
  pktint.com
  bootpq -i "ip=\"%%s\""  >> myip
- bootpq -i "My IP# is: %s"
+ bootpq -i "my ip# is: %s"
  copy /q net + myip + noip e:\com\qvtnet\qvtnet.ini
  del /q myip
  @echo off
  echo .
- echo Ready to run WinQVTnet
+ echo ready to run winqvtnet
  =====================================================
- For questions and more details about bootpq, please contact Victor
- Menayang (victor@ccwf.cc.utexas.edu)
+ for questions and more details about bootpq, please contact victor
+ menayang (victor@ccwf.cc.utexas.edu)
  
- QPC Software is attempting to add BOOTP capability to WinQVT/net.
+ qpc software is attempting to add bootp capability to winqvt/net.
  ----------------------------------------------------------------------
- How do you use PKTMUX over SLIP?
+ how do you use pktmux over slip?
  
- PKTMUX will not work over the SLIP8250.COM packet driver, and crashes
- immediately if used with ETHERSL.COM
+ pktmux will not work over the slip8250.com packet driver, and crashes
+ immediately if used with ethersl.com
  
- PKTMUX will work with C/SLIPPER.EXE, when C/SLIPPER is used in ethernet
- simulation mode.  An example of this configuration is shown below:
+ pktmux will work with c/slipper.exe, when c/slipper is used in ethernet
+ simulation mode.  an example of this configuration is shown below:
  
- The latest release of PKTMUX is 1.2c; and it is important that you
+ the latest release of pktmux is 1.2c; and it is important that you
  use this version, if you want to use virtual packet drivers with
- applications like Trumpet for Windows (to be released very shortly).
+ applications like trumpet for windows (to be released very shortly).
  
- [from AUTOEXEC.BAT]
+ [from autoexec.bat]
  
  lh c/slipper com1 vec=65 baud=57600 ether         (packet driver)
  lh pktmux 5 65 /5       (pktmux loaded for 5 virtual packet drivers)
- lh pktdrv 7f 65         (first virtual packet driver used for QVT/net)
- lh pktint.com           (QVT/net pktint.com)
- pktdrv 63 65            (PKTDRV for use in native DOS or WinTrumpet)
+ lh pktdrv 7f 65         (first virtual packet driver used for qvt/net)
+ lh pktint.com           (qvt/net pktint.com)
+ pktdrv 63 65            (pktdrv for use in native dos or wintrumpet)
  
- Additional virtual packet drivers can be loaded directly from within
- Windows 3.1 DOS boxes.  For example, my PIF file to load POPmail is
- directed to the file "popmail.bat".  This is what popmail.bat reads
+ additional virtual packet drivers can be loaded directly from within
+ windows 3.1 dos boxes.  for example, my pif file to load popmail is
+ directed to the file "popmail.bat".  this is what popmail.bat reads
  like:
  
  pktdrv 60 65            loads a virtual packet driver at 0x60
@@ -216,166 +216,166 @@
  popmail
  cd \
  pktdrv 60 /u            unloads the packet driver at 0x60
- exit                    causes the DOS window to close
+ exit                    causes the dos window to close
  
- I have similar batch files that load other DOS TCP/IP applications
- like PC Gopher.  It is my experience that PKTMUX works fine
- even if the virtual packet drivers in two independent virtual DOS
- sessions, are loaded at the same software interrupt.  For example
- within two different DOS boxes -- one for POPmail and the other for
- Gopher, the virtual packet driver (pktdrv) is loaded at 0x60 in each
+ i have similar batch files that load other dos tcp/ip applications
+ like pc gopher.  it is my experience that pktmux works fine
+ even if the virtual packet drivers in two independent virtual dos
+ sessions, are loaded at the same software interrupt.  for example
+ within two different dos boxes -- one for popmail and the other for
+ gopher, the virtual packet driver (pktdrv) is loaded at 0x60 in each
  instance.
  ----------------------------------------------------------------------
- How much does PKTMUX degrade the performance of C/SLIPPER?
+ how much does pktmux degrade the performance of c/slipper?
  
- I have a V.32bis/V.42bis modem in a 386-33 running Windows 3.1 with
- a reasonably fast video card (ATI Graphics Ultra).  Under these
- conditions, when I have three virtual packet drivers loaded and
+ i have a v.32bis/v.42bis modem in a 386-33 running windows 3.1 with
+ a reasonably fast video card (ati graphics ultra).  under these
+ conditions, when i have three virtual packet drivers loaded and
  being used as follows:
- a) Driver at 0x7f -- QVTNet FTP client session
- b) Driver at 0x60 in one DOS Window -- CUTCP tn3270 session
- c) Driver at 0x60 in another DOS Window -- Trumpet for DOS
+ a) driver at 0x7f -- qvtnet ftp client session
+ b) driver at 0x60 in one dos window -- cutcp tn3270 session
+ c) driver at 0x60 in another dos window -- trumpet for dos
  
- I get FTP transfer rates of 0.8 - 1.0 kb/sec while transferring
- compressed files.  This rate is comparable to that which I get with
- SLIP8250 loaded as a packet driver, and where a single TCP/IP session
- is active.  If CSLIPPER is used a packet driver and a single session
- is active, I get transfer rates of 1.3 - 1.4 kb/sec on the same
+ i get ftp transfer rates of 0.8 - 1.0 kb/sec while transferring
+ compressed files.  this rate is comparable to that which i get with
+ slip8250 loaded as a packet driver, and where a single tcp/ip session
+ is active.  if cslipper is used a packet driver and a single session
+ is active, i get transfer rates of 1.3 - 1.4 kb/sec on the same
  files.
  
- While there is about 40% degradation in the performance of SLIPPER,
- for me the benefits of being able to use PKTMUX outweigh the
+ while there is about 40% degradation in the performance of slipper,
+ for me the benefits of being able to use pktmux outweigh the
  performance hit.
  ----------------------------------------------------------------------
- C/SLIPPER and ethernet simulation mode
+ c/slipper and ethernet simulation mode
  
- In ethernet simulation mode, C/SLIPPER ver 1.3 works with all the
- applications that I have tested it with.  One or two applications
- that required ethernet simulation balked at C/SLIPPER 1.2, but even
+ in ethernet simulation mode, c/slipper ver 1.3 works with all the
+ applications that i have tested it with.  one or two applications
+ that required ethernet simulation balked at c/slipper 1.2, but even
  these rare problems have been resolved with ver 1.3
  
- When SLIPPER is used in ethernet simulation mode, and used with PKTMUX,
- I get some an error message in the QVTNet Console window that reads
- "IP:incorrect packet type" or "IP:bad version number".  This does not
- seem to prevent QVTnet from functioning, although I cannot comment on
+ when slipper is used in ethernet simulation mode, and used with pktmux,
+ i get some an error message in the qvtnet console window that reads
+ "ip:incorrect packet type" or "ip:bad version number".  this does not
+ seem to prevent qvtnet from functioning, although i cannot comment on
  loss of performance.
  ----------------------------------------------------------------------
- What can you do if your DOS TCP/IP application does not work with
- C/SLIPPER in ethernet simulation mode?
+ what can you do if your dos tcp/ip application does not work with
+ c/slipper in ethernet simulation mode?
  
- In the rare event that you find a package that does not work with
- C/SLIPPER in ethernet simulation mode, first contact the author --
- Peter Tattam -- PETER@psychnet.psychol.utas.edu.au, and let him
- know.  Chances are that he can fix it.
+ in the rare event that you find a package that does not work with
+ c/slipper in ethernet simulation mode, first contact the author --
+ peter tattam -- peter@psychnet.psychol.utas.edu.au, and let him
+ know.  chances are that he can fix it.
  
- In the meanwhile, you can try the following.  I do not know if it is
- kosher, but it worked when I had problems with C/SLIPPER ver 1.2
+ in the meanwhile, you can try the following.  i do not know if it is
+ kosher, but it worked when i had problems with c/slipper ver 1.2
  
- (C/SLIPPER is loaded at 0x62 as described above under the PKTMUX section)
+ (c/slipper is loaded at 0x62 as described above under the pktmux section)
  
- I load ETHERSL.COM at 0x60, run the application and then terminate
- ETHERSL.COM
+ i load ethersl.com at 0x60, run the application and then terminate
+ ethersl.com
  
- This also works within Windows 3.1 virtual DOS boxes.  However a
- packet driver like ETHERSL can be used in only one virtual DOS box
+ this also works within windows 3.1 virtual dos boxes.  however a
+ packet driver like ethersl can be used in only one virtual dos box
  at a time.
  
- So for example, here is my batch file to run Grateful Med (a
- medical reference retrieval program developed at the National Library
- of Medicine).
+ so for example, here is my batch file to run grateful med (a
+ medical reference retrieval program developed at the national library
+ of medicine).
  
- ethersl -w 0x60 -h 4 0x03f8 57600       loads ETHERSLIP
+ ethersl -w 0x60 -h 4 0x03f8 57600       loads etherslip
  cd \gm6
  search
  cd \
- termin 0x60                             terminates ETHERSLIP
- exit            closes the DOS box and returns me to Windows
+ termin 0x60                             terminates etherslip
+ exit            closes the dos box and returns me to windows
  
- If you use this method, be cautious about one thing -- don't have
- any active PKTMUX DOS sessions open at the same time.  After closing
- the ETHERSL window, you can run your PKTMUX DOS sessions with no
- problem.  BTW, the example above -- Grateful Med, works with no
- problems with C/SLIPPER ver 1.3
+ if you use this method, be cautious about one thing -- don't have
+ any active pktmux dos sessions open at the same time.  after closing
+ the ethersl window, you can run your pktmux dos sessions with no
+ problem.  btw, the example above -- grateful med, works with no
+ problems with c/slipper ver 1.3
  ----------------------------------------------------------------------
- PHONE Script Files:
+ phone script files:
  
- The documentation that accompany PHONE, provide good instructions on
- writing script files to get PHONE to dial SLIP servers other than
- the University of Minnesota server.  For example here is a script
- that I use to dial a CISCO server at the University that I attend.
+ the documentation that accompany phone, provide good instructions on
+ writing script files to get phone to dial slip servers other than
+ the university of minnesota server.  for example here is a script
+ that i use to dial a cisco server at the university that i attend.
  
- Background:  To start a SLIP connection, I dial our terminal server,
- and login with a username and password.  After doing so, I start a SLIP
+ background:  to start a slip connection, i dial our terminal server,
+ and login with a username and password.  after doing so, i start a slip
  session with the following command "slip username-slip.dialin.cwru.edu",
  followed by my password -- again.
  
- Here then is the relevant portion of the PHONE.CMD script file -
+ here then is the relevant portion of the phone.cmd script file -
  #
- # CWRU-TS2 SLIP login script by Ashok Aiyar 3/26/93
- # Last revised 3/28/93
- Procedure    Host.CWRU.Login
- TimeOut 60      'CWRU-TS2 terminal server is not responding'
- Message         "CWRU-TS2 SLIP login script -- Version 1.1"
- Message         'Waiting for SLIP server to respond'
- Quiet ON
- Expect 'Verification'
- Message         'Request for User Verification Received from CWRU-TS2'
- Message         'Sending your user name and password'
- Quiet OFF
- Expect   'Username:'
- Send '%u<'
- Expect   'Password:'
- Private
- Send '%p<'
- Reject    'Access denied'   'Your user name or password was not accepted'
- TimeOut 30    'SLIP server did not respond to your validation request'
- Expect 'CWRU-TS2>'
- Send 'SLIP<'
- TimeOut 10    'SLIP server did not respond to SLIP command'
- Expect 'IP hostname or address:'
- Send '%u-slip.dialin.cwru.edu<'
- TimeOut 10 'SLIP server did not respond to hostname'
- Reject    'Bad IP address'   'Incorrect Hostname'
- Expect 'Password:'
- Send '%p<'
- Reject    'Access denied'    'Password not accepted.'
- TimeOut 10
- Expect 'Header Compression will match your system'
- Message 'Login to CWRU SLIP server successful'
- Wait 1.0
- EndProcedure   Host.CWRU.Login
+ # cwru-ts2 slip login script by ashok aiyar 3/26/93
+ # last revised 3/28/93
+ procedure    host.cwru.login
+ timeout 60      'cwru-ts2 terminal server is not responding'
+ message         "cwru-ts2 slip login script -- version 1.1"
+ message         'waiting for slip server to respond'
+ quiet on
+ expect 'verification'
+ message         'request for user verification received from cwru-ts2'
+ message         'sending your user name and password'
+ quiet off
+ expect   'username:'
+ send '%u<'
+ expect   'password:'
+ private
+ send '%p<'
+ reject    'access denied'   'your user name or password was not accepted'
+ timeout 30    'slip server did not respond to your validation request'
+ expect 'cwru-ts2>'
+ send 'slip<'
+ timeout 10    'slip server did not respond to slip command'
+ expect 'ip hostname or address:'
+ send '%u-slip.dialin.cwru.edu<'
+ timeout 10 'slip server did not respond to hostname'
+ reject    'bad ip address'   'incorrect hostname'
+ expect 'password:'
+ send '%p<'
+ reject    'access denied'    'password not accepted.'
+ timeout 10
+ expect 'header compression will match your system'
+ message 'login to cwru slip server successful'
+ wait 1.0
+ endprocedure   host.cwru.login
  #
  #
- Procedure      Host.CWRU.LogOut
- # Nothing special needs to be done to logout
- EndProcedure   Host.CWRU.LogOut
+ procedure      host.cwru.logout
+ # nothing special needs to be done to logout
+ endprocedure   host.cwru.logout
  #
- #   End of Script file
+ #   end of script file
  #
  ----------------------------------------------------------------------
- How to use packet drivers other than UMSLIP with PHONE?
+ how to use packet drivers other than umslip with phone?
  
- The quick answer -- there is no "clean" way.  Below is a batch file
- hack that I wrote to use PHONE with other packet drivers.  In this
- example, the packet driver is Peter Tattam's CSLIPPER.  To use a
+ the quick answer -- there is no "clean" way.  below is a batch file
+ hack that i wrote to use phone with other packet drivers.  in this
+ example, the packet driver is peter tattam's cslipper.  to use a
  batch file like this, you must know the parameters with which you
  plan to use the packet driver -- i.e interrupt vector, baud rate,
- port address, and IRQ.  This batch file requires UMSLIP.COM,
- CSLIPPER.EXE, and TERMIN.COM to be in the same directory
+ port address, and irq.  this batch file requires umslip.com,
+ cslipper.exe, and termin.com to be in the same directory
  or in your path ...
  
- All that the BATCH file does is to let you dial the SLIP connection
- using PHONE, load the appropriate packet driver, hangup the
+ all that the batch file does is to let you dial the slip connection
+ using phone, load the appropriate packet driver, hangup the
  connection, and unload the driver when you are done ...
  
- -- being CWRUSLIP.BAT --
+ -- being cwruslip.bat --
  @echo off
- rem   this batch file is an ugly hack of U. of Minn. "SLIP.BAT"
- rem   awaiting a version of C/SLIPPER that can directly interact
- rem   with PHONE
- rem   CWRUSLIP.BAT file is used with PHONE.EXE to start a SLIP
- rem   connection on CWRU-TS2
- rem   last modified 3/28/93 -- Ashok Aiyar
+ rem   this batch file is an ugly hack of u. of minn. "slip.bat"
+ rem   awaiting a version of c/slipper that can directly interact
+ rem   with phone
+ rem   cwruslip.bat file is used with phone.exe to start a slip
+ rem   connection on cwru-ts2
+ rem   last modified 3/28/93 -- ashok aiyar
  
  @echo off
  cls
@@ -385,17 +385,17 @@
  if %1. == ?.         goto help
  if %1. == help.      goto help
  if %1. == setup.     goto setup
- if %1. == dial.      goto forceD
- if %1. == hangup.    goto forceH
- if %1. == quit.      goto forceH
- if %1. == HELP.      goto help
- if %1. == SETUP.     goto setup
- if %1. == DIAL.      goto forceD
- if %1. == QUIT.      goto forceH
+ if %1. == dial.      goto forced
+ if %1. == hangup.    goto forceh
+ if %1. == quit.      goto forceh
+ if %1. == help.      goto help
+ if %1. == setup.     goto setup
+ if %1. == dial.      goto forced
+ if %1. == quit.      goto forceh
  goto bogus
  goto unload
  
- :forceH
+ :forceh
  termin 0x60
  umslip >nul
  phone force hangup
@@ -403,12 +403,12 @@
  
  :slipper
  termin 0x60
- REM  the following line must be changed to reflect the COM port,
- REM  IRQ, baud rate, and software interrupt
+ rem  the following line must be changed to reflect the com port,
+ rem  irq, baud rate, and software interrupt
  lh c:\packet\cslipper com1 vec=60 baud=57600 ether
  goto end
  
- :forceD
+ :forced
  termin 0x60
  umslip >nul
  phone force dial
@@ -426,45 +426,45 @@
  
  :bogus
  echo %1 is not a valid command.
- echo Try "cwruslip help" for a list of valid commands
+ echo try "cwruslip help" for a list of valid commands
  echo.
  
  :help
  echo --------------------------------------------------------------
- echo           Case Western Reserve University SLIP Setup
- echo                  using Univ. of Minnesota PHONE
+ echo           case western reserve university slip setup
+ echo                  using univ. of minnesota phone
  echo --------------------------------------------------------------
  echo cwruslip setup     modem settings, phone number, username etc.
  echo.
- echo cwruslip dial      DIAL and establish the SLIP connection
- echo cwruslip quit      HANGUP the phone and unload the driver
+ echo cwruslip dial      dial and establish the slip connection
+ echo cwruslip quit      hangup the phone and unload the driver
  echo cwruslip help      this screen
  echo.
  
  :end
- -- end CWRUSLIP.BAT --
+ -- end cwruslip.bat --
  ----------------------------------------------------------------------
- Where to Get What.....
+ where to get what.....
  
- Peter Tattam's programs are archived at ftp.utas.edu.au (C/SLIPPER,
- and the Trumpet set of programs).
+ peter tattam's programs are archived at ftp.utas.edu.au (c/slipper,
+ and the trumpet set of programs).
  
- WinQVT/net is generally archived at most Windows FTP sites,
+ winqvt/net is generally archived at most windows ftp sites,
  including ftp.cica.indiana.edu
  
- NCSA Telnet is archived at ftp.ncsa.uiuc.edu
+ ncsa telnet is archived at ftp.ncsa.uiuc.edu
  
- NuPOP is archived at ftp.acns.nwu.edu
+ nupop is archived at ftp.acns.nwu.edu
  
- POPmail/PC, SLIPDISK, PHONE, and PC Gopher are archived at
+ popmail/pc, slipdisk, phone, and pc gopher are archived at
  boombox.micro.umn.edu
  ----------------------------------------------------------------------
- -- end SLIP.TXT --
+ -- end slip.txt --
  
  
  
  --
- Ashok Aiyar                        Mail: ashok@biochemistry.cwru.edu
- Department of Biochemistry                       Tel: (216) 368-3300
- CWRU School of Medicine, Cleveland, Ohio         Fax: (216) 368-4544
+ ashok aiyar                        mail: ashok@biochemistry.cwru.edu
+ department of biochemistry                       tel: (216) 368-3300
+ cwru school of medicine, cleveland, ohio         fax: (216) 368-4544
  

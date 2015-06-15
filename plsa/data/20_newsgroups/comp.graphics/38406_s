@@ -1,5 +1,5 @@
 
- Looking for a graphics/CAD/or-whatever package on a X-Unix box that will
+ looking for a graphics/cad/or-whatever package on a x-unix box that will
  take a file with records like:
  
  n  a  b  p
@@ -11,19 +11,19 @@
  
  and produce a networked graph with nodes represented with boxes or circles
  and the vertices represented by lines and the width of the line determined by
- n.  There would be a different line type for each type of vertice. The boxes
- need to be identified with the entity's name.  The number of entities < 1000
- and vertices < 100000.  It would be nice if the tool minimized line
+ n.  there would be a different line type for each type of vertice. the boxes
+ need to be identified with the entity's name.  the number of entities < 1000
+ and vertices < 100000.  it would be nice if the tool minimized line
  cross-overs and did a good job of layout.  ;-)
  
-   I have looked in the FAQ for comp.graphics and gnuplot without success. Any
+   i have looked in the faq for comp.graphics and gnuplot without success. any
  ideas would be appreciated?
  
- Thanks,
+ thanks,
  --
- Glen Fullmer,          glen_fullmer@pts.mot.com,                  (407)364-3296
+ glen fullmer,          glen_fullmer@pts.mot.com,                  (407)364-3296
  *******************************************************************************
- *  "For a successful technology, reality must take precedence                 *
- *   over public relations, for Nature cannot be fooled." - Richard P. Feynman *
+ *  "for a successful technology, reality must take precedence                 *
+ *   over public relations, for nature cannot be fooled." - richard p. feynman *
  *******************************************************************************
  

@@ -1,32 +1,32 @@
 
- Thanks to Bruce Barnett, who recommended xvttool, and Bernward Averwald and
- Liam Quin, who recommended modifying .Xdefaults to get the desired behavior
+ thanks to bruce barnett, who recommended xvttool, and bernward averwald and
+ liam quin, who recommended modifying .xdefaults to get the desired behavior
  for a *class* of xterms.
  
- In xvttool, simply create a key file that looks like:
- "a"	"A"
- "b"	"B"
- "c"	"C"
+ in xvttool, simply create a key file that looks like:
+ "a"	"a"
+ "b"	"b"
+ "c"	"c"
  ...
- and specify said key file on the command line.  This will translate
- any input into any other (in my case, lo-case to up-case).  Works great, and
+ and specify said key file on the command line.  this will translate
+ any input into any other (in my case, lo-case to up-case).  works great, and
  you get a customizable button-pad on the right or left side.
  
- To use an xterm solution, add to your .Xdefaults:
- capxterm*VT100.Translations: #override \
-    <Key>a: string("A")\n\
+ to use an xterm solution, add to your .xdefaults:
+ capxterm*vt100.translations: #override \
+    <key>a: string("a")\n\
     ...
  
  or:
  capxterm.vt100.translations: #override \n\
-         <Key>a: insert-string(A) \n\
-         <Key>b: insert-string(B) \n\
+         <key>a: insert-string(a) \n\
+         <key>b: insert-string(b) \n\
          ...
  
  and invoke as: xterm -name capxterm
  
- Thanks loads!
+ thanks loads!
  -- 
- Kevin Weinrich     Computer Sciences Corp.
+ kevin weinrich     computer sciences corp.
  kbw@helios.ath.epa.gov
  

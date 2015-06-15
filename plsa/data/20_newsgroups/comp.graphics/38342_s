@@ -1,23 +1,23 @@
 
  
- Hi.  I'm writing a program to convert .dxf files to a database
- format used by a 3D graphics program I've written.  My program stores
- the points of a polygon in CCW order.  I've used 3D Concepts a 
+ hi.  i'm writing a program to convert .dxf files to a database
+ format used by a 3d graphics program i've written.  my program stores
+ the points of a polygon in ccw order.  i've used 3d concepts a 
  little and it seems that the points are stored in the order
  they are drawn.
  
- Does the DXF format have a way of indicating which order the 
- points are stored in, CW or CCW?  Its easy enough to convert,
- but if I don't know which way they are stored, I dont know 
+ does the dxf format have a way of indicating which order the 
+ points are stored in, cw or ccw?  its easy enough to convert,
+ but if i don't know which way they are stored, i dont know 
  which direction the polygon should be visible from.
  
- If DXF doesn't handle this, can anyone recommend a workaround?
- The best I can think of is to create two polygons for each one
- in the DXF file, one stored CW and the other CCW.  But that
+ if dxf doesn't handle this, can anyone recommend a workaround?
+ the best i can think of is to create two polygons for each one
+ in the dxf file, one stored cw and the other ccw.  but that
  doubles the number of polygons and decreases speed...
  
- Thanks in advance for any help,
+ thanks in advance for any help,
  
- Patrice
+ patrice
  hugo@hydra.unm.edu 
  

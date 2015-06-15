@@ -1,31 +1,31 @@
 
- marka@SSD.CSD.HARRIS.COM (Mark Ashley) writes:
+ marka@ssd.csd.harris.com (mark ashley) writes:
  
- >In the latest PC Magazine (Pentium isssue), there 
+ >in the latest pc magazine (pentium isssue), there 
  >is an editorial on the
- >advantages of a PC using EISE/VESA-LB rather
- >than just plain ISA/VESA-LB. Supposedly users
- >will eventually want more than 16Mb of RAM.
- >However since the ISA bus has only 24 bits, 
- >then anything on the bus can access only 16Mb
- >even if I have 32Mb on the motherboard.
- >So far I agree with the arguments.
+ >advantages of a pc using eise/vesa-lb rather
+ >than just plain isa/vesa-lb. supposedly users
+ >will eventually want more than 16mb of ram.
+ >however since the isa bus has only 24 bits, 
+ >then anything on the bus can access only 16mb
+ >even if i have 32mb on the motherboard.
+ >so far i agree with the arguments.
  
- >Then the writer claims that glitches can
- >occur in systems with over 16Mb because 
- >of that limit. That part I don't understand
- >because the RAM is right on the motherboard.
- >So the cpu should have no problems talking
- >with the RAM. Can anybody explain this ?
+ >then the writer claims that glitches can
+ >occur in systems with over 16mb because 
+ >of that limit. that part i don't understand
+ >because the ram is right on the motherboard.
+ >so the cpu should have no problems talking
+ >with the ram. can anybody explain this ?
  
- The problem is with ISA bus-masters which
- can only address the first 16MBs of system
- memory.  Bus-masters do not use the CPU
- nor the system DMA to do the actual data
+ the problem is with isa bus-masters which
+ can only address the first 16mbs of system
+ memory.  bus-masters do not use the cpu
+ nor the system dma to do the actual data
  transfer but transfer their data directly
- to the system RAM.
+ to the system ram.
  
  rp93
  -- 
- Roger C. Pao  {gordius,bagdad,pride386}!mts!rpao, rpao@mts.mivj.ca.us
+ roger c. pao  {gordius,bagdad,pride386}!mts!rpao, rpao@mts.mivj.ca.us
  

@@ -1,39 +1,39 @@
-	of Denver for the Denver community.  The University has neither
+	of denver for the denver community.  the university has neither
  	control over nor responsibility for the opinions of users.
- Sender: usenet@mnemosyne.cs.du.edu (netnews admin account)
- Organization: Nyx, Public Access Unix at U. of Denver Math/CS dept.
- References: <cosmosC6BCz0.KEE@netcom.com>
- Distribution: usa
- Date: Sat, 1 May 93 23:02:51 GMT
- Lines: 29
+ sender: usenet@mnemosyne.cs.du.edu (netnews admin account)
+ organization: nyx, public access unix at u. of denver math/cs dept.
+ references: <cosmosc6bcz0.kee@netcom.com>
+ distribution: usa
+ date: sat, 1 may 93 23:02:51 gmt
+ lines: 29
  
- In article <cosmosC6BCz0.KEE@netcom.com> cosmos@netcom.com (cosmos) writes:
- >Hi ! I am trying to develop a utility to view WORD for window file. But 
- >to do that I need to know the format of the DOC ( word for window file 
- >format ) files.Can anybody  tell me what is the format of DOC file or 
- >direct me where can I get it. Or is it proprietory format ?
- >Your help is greatly appriciated.
+ in article <cosmosc6bcz0.kee@netcom.com> cosmos@netcom.com (cosmos) writes:
+ >hi ! i am trying to develop a utility to view word for window file. but 
+ >to do that i need to know the format of the doc ( word for window file 
+ >format ) files.can anybody  tell me what is the format of doc file or 
+ >direct me where can i get it. or is it proprietory format ?
+ >your help is greatly appriciated.
  >
- >Thanks,
+ >thanks,
  
- The format for Word for Windows doc files is available from Microsoft.
- Call their Developer Support Services number (sorry, don't have it handy)
- and ask for the Word for Windows binary file format spec.
+ the format for word for windows doc files is available from microsoft.
+ call their developer support services number (sorry, don't have it handy)
+ and ask for the word for windows binary file format spec.
  
- Warning:  It is not terribly useful, and you will need to do a *lot* of
+ warning:  it is not terribly useful, and you will need to do a *lot* of
  looking before you can figure out how the stuff is stored.
  
- General primer:
+ general primer:
  
- Word for Windows stores its data in two chunks.  The first chunk is the
- actual text in the file.  This is all stored together and has nothing
- but text and graphics.  The second chunk is the formatting information.
+ word for windows stores its data in two chunks.  the first chunk is the
+ actual text in the file.  this is all stored together and has nothing
+ but text and graphics.  the second chunk is the formatting information.
  
- For general use, to read a Word for Windows file, skip the first 384 bytes
- of the file (its a general header).  Then read the remaining text until you
+ for general use, to read a word for windows file, skip the first 384 bytes
+ of the file (its a general header).  then read the remaining text until you
  hit binary data.
  
- Matt
+ matt
  
  
  

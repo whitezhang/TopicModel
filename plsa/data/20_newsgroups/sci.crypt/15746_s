@@ -1,93 +1,93 @@
 
  
- I have an idea as to why the encryption algorithm needs to be keep secret,
- and some things that i think it implies. (Of course these could all be
+ i have an idea as to why the encryption algorithm needs to be keep secret,
+ and some things that i think it implies. (of course these could all be
  wrong.....) 
  
  from 
  
-                      THE CLIPPER CHIP: A TECHNICAL SUMMARY
-                                Dorothy Denning
-                            Revised, April 21, 1993
+                      the clipper chip: a technical summary
+                                dorothy denning
+                            revised, april 21, 1993
  
  .
  .
  .
  
- The Clipper Chip contains a classified single-key 64-bit block
- encryption algorithm called "Skipjack."  The algorithm uses 80 bit keys
- (compared with 56 for the DES) and has 32 rounds of scrambling
- (compared with 16 for the DES).  It supports all 4 DES modes of
- operation.  The algorithm takes 32 clock ticks, and in Electronic
- Codebook (ECB) mode runs at 12 Mbits per second.
+ the clipper chip contains a classified single-key 64-bit block
+ encryption algorithm called "skipjack."  the algorithm uses 80 bit keys
+ (compared with 56 for the des) and has 32 rounds of scrambling
+ (compared with 16 for the des).  it supports all 4 des modes of
+ operation.  the algorithm takes 32 clock ticks, and in electronic
+ codebook (ecb) mode runs at 12 mbits per second.
  
- Each chip includes the following components:
+ each chip includes the following components:
  
-    the Skipjack encryption algorithm
-    F, an 80-bit family key that is common to all chips
-    N, a 30-bit serial number (this length is subject to change)
-    U, an 80-bit secret key that unlocks all messages encrypted with the chip
+    the skipjack encryption algorithm
+    f, an 80-bit family key that is common to all chips
+    n, a 30-bit serial number (this length is subject to change)
+    u, an 80-bit secret key that unlocks all messages encrypted with the chip
  
  .
  .
  .
  
- ENCRYPTING WITH THE CHIP
+ encrypting with the chip
  
- To see how the chip is used, imagine that it is embedded in the AT&T
- telephone security device (as it will be).  Suppose I call someone and
- we both have such a device.  After pushing a button to start a secure
- conversation, my security device will negotiate an 80-bit session key K
- with the device at the other end.  This key negotiation takes place
- without the Clipper Chip.  In general, any method of key exchange can
- be used such as the Diffie-Hellman public-key distribution method.
+ to see how the chip is used, imagine that it is embedded in the at&t
+ telephone security device (as it will be).  suppose i call someone and
+ we both have such a device.  after pushing a button to start a secure
+ conversation, my security device will negotiate an 80-bit session key k
+ with the device at the other end.  this key negotiation takes place
+ without the clipper chip.  in general, any method of key exchange can
+ be used such as the diffie-hellman public-key distribution method.
  
- Once the session key K is established, the Clipper Chip is used to
- encrypt the conversation or message stream M (digitized voice).  The
- telephone security device feeds K and M into the chip to produce two
+ once the session key k is established, the clipper chip is used to
+ encrypt the conversation or message stream m (digitized voice).  the
+ telephone security device feeds k and m into the chip to produce two
  values:
  
-    E[M; K], the encrypted message stream, and 
-    E[E[K; U] + N; F], a law enforcement field , 
+    e[m; k], the encrypted message stream, and 
+    e[e[k; u] + n; f], a law enforcement field , 
  
- which are transmitted over the telephone line.  The law enforcement
- field thus contains the session key K encrypted under the unit key U
- concatenated with the serial number N, all encrypted under the family
- key F.  The law enforcement field is decrypted by law enforcement after
+ which are transmitted over the telephone line.  the law enforcement
+ field thus contains the session key k encrypted under the unit key u
+ concatenated with the serial number n, all encrypted under the family
+ key f.  the law enforcement field is decrypted by law enforcement after
  an authorized wiretap has been installed.
  
  ------------------
  
- suppose i knew how the algorithm worked and knew the N for my chip, but
- did not know F, then by cryptanalysis i might be able to determine F from
+ suppose i knew how the algorithm worked and knew the n for my chip, but
+ did not know f, then by cryptanalysis i might be able to determine f from
  if law enforcement field 
-    E[E[K; U] + N; F]
- not knowing N would might make this much harder.
+    e[e[k; u] + n; f]
+ not knowing n would might make this much harder.
  
- Now suppose that I know F, (either legitimately or not),
- If I know K (either because I am involved in the conversation, or I know U
- for a party in the conversation), I may now be able to determine U for the
+ now suppose that i know f, (either legitimately or not),
+ if i know k (either because i am involved in the conversation, or i know u
+ for a party in the conversation), i may now be able to determine u for the
  other party.
  
- If I know F I can also defeat the law enforcement field, since I could
- make my own, with a different K then the one I am using. Knowing F also
- allows traffic analysis to be performed. So I might not know what you are
- saying but I could know who you are saying it too.
+ if i know f i can also defeat the law enforcement field, since i could
+ make my own, with a different k then the one i am using. knowing f also
+ allows traffic analysis to be performed. so i might not know what you are
+ saying but i could know who you are saying it too.
  
- Now I admit that someone trying to compute U will not have lots of
+ now i admit that someone trying to compute u will not have lots of
  messages to work from, but since we have no way of knowing that the key
  generation method does not (deliberately?) generate weak keys, or for that
- matter that the published method is in fact used, perhaps the U's will be
+ matter that the published method is in fact used, perhaps the u's will be
  chosen from know weak keys for the system.
  
- Obviously the compromise of F would be a disaster, both to law enforcement
+ obviously the compromise of f would be a disaster, both to law enforcement
  for whom this whole thing is designed, and for the people who believe that
- it is giving them security. F is but one number, and I sure that alot of
+ it is giving them security. f is but one number, and i sure that alot of
  people (more then 1) know what it is (and if some "panel of experts" is
- going to check it over for flaws then many more will know F, forget
+ going to check it over for flaws then many more will know f, forget
  grinding chips, bribery and blackmail work just fine.
  
- So, am I wrong? Or are these problems.
+ so, am i wrong? or are these problems.
  
  jon
  

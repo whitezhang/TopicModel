@@ -1,34 +1,34 @@
 
   
-    The clipper chip's User key is formed by:
+    the clipper chip's user key is formed by:
   
-            R1 = E[D[E[N1;S1];S2];S1]
-            R2 = E[D[E[N2;S1];S2];S1]
-            R3 = E[D[E[N3;S1];S2];S1]
+            r1 = e[d[e[n1;s1];s2];s1]
+            r2 = e[d[e[n2;s1];s2];s1]
+            r3 = e[d[e[n3;s1];s2];s1]
   
-    Why is the triple-encrytion used?  Is it just to gain an effective
- increase in keyspace to defeat a potential keysearch?  (If so, why use
- 80 bit keys?)  Not knowing anything about the Skipjack algorithm, it's
+    why is the triple-encrytion used?  is it just to gain an effective
+ increase in keyspace to defeat a potential keysearch?  (if so, why use
+ 80 bit keys?)  not knowing anything about the skipjack algorithm, it's
  not really possible to guess whether this makes it harder or easier to
- guess S1,S2.
+ guess s1,s2.
   
-    Why are N1, N2, and N3 formed as they are?  It would be facinating to
- see the Skipjack algorithm, to look for ways of attacking it that require
+    why are n1, n2, and n3 formed as they are?  it would be facinating to
+ see the skipjack algorithm, to look for ways of attacking it that require
  three ciphertext blocks formed in that odd way.
   
-    Where do the 34-bit constant values that are concatenated with the
- serial number to form N1,N2,N3 come from?  Are they changed from chip to
- chip, or session to session?  (Even if they're published in the NY Times,
- if SkipJack is resistant to known-plaintext attacks, when using triple-
- encryption, then there's no break in security.  But why allow that kind
- of weird format?  If those three 34-bit values are truly-random bits, then
- maybe it's used to ensure that a known-plaintext attack on SkipJack, if
- it exists, can't be easily used to derive S1 and S2 for a whole production
+    where do the 34-bit constant values that are concatenated with the
+ serial number to form n1,n2,n3 come from?  are they changed from chip to
+ chip, or session to session?  (even if they're published in the ny times,
+ if skipjack is resistant to known-plaintext attacks, when using triple-
+ encryption, then there's no break in security.  but why allow that kind
+ of weird format?  if those three 34-bit values are truly-random bits, then
+ maybe it's used to ensure that a known-plaintext attack on skipjack, if
+ it exists, can't be easily used to derive s1 and s2 for a whole production
  run of these chips....)
   
-    Does Dorothy Denning read this group?  If not, is someone on the group
- forwarding questions like these to her, or Martin Hellman, or anyone else
+    does dorothy denning read this group?  if not, is someone on the group
+ forwarding questions like these to her, or martin hellman, or anyone else
  who's seen more details about the chip?
   
-    --John Kelsey
+    --john kelsey
  

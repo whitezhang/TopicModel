@@ -1,21 +1,21 @@
 
- In article <1qkmb2$n0d@jethro.Corp.Sun.COM> khc@marantz.Corp.Sun.COM writes:
+ in article <1qkmb2$n0d@jethro.corp.sun.com> khc@marantz.corp.sun.com writes:
  
- >1. The Mac II is supposed to have a socket for the MC68851 PMMU chip. Could
- >anyone let me know where that socket is on the motherboard. I have obtained
- >a PMMU chip (16 Mhz) from a surplus store, and would like to install it onto
- >my Mac II (circa 1987). But I cannot see the socket myself when I tried to
+ >1. the mac ii is supposed to have a socket for the mc68851 pmmu chip. could
+ >anyone let me know where that socket is on the motherboard. i have obtained
+ >a pmmu chip (16 mhz) from a surplus store, and would like to install it onto
+ >my mac ii (circa 1987). but i cannot see the socket myself when i tried to
  >install it.
  
- The original Mac II had an Apple MMU chip installed which performs a subset
- of the 68851's functions.  If you look underneath your front left floppy
- bay you will find three chips, all approximately the same size.  One will
+ the original mac ii had an apple mmu chip installed which performs a subset
+ of the 68851's functions.  if you look underneath your front left floppy
+ bay you will find three chips, all approximately the same size.  one will
  be the 68020, the next the 68881, and the third, approximately the same
- size, will be the Apple chip.  It is easy to spot because it has a 'hump'
+ size, will be the apple chip.  it is easy to spot because it has a 'hump'
  in the middle of it.
  
  
- Example:
+ example:
  
  
                           -----------
@@ -24,8 +24,8 @@
           |                                         |
           |                                         |
  
- That and the Apple logo should make it easy to find.
+ that and the apple logo should make it easy to find.
  
- Ben
+ ben
  mpretzel@cs.utexas.edu
  

@@ -1,18 +1,18 @@
 
- Does anybody have a data-sheet handly for the above-mentioned card?  I
+ does anybody have a data-sheet handly for the above-mentioned card?  i
  bought one, sans manual at a local surplus shop, and want to try it out
- with the Crywyr packet driver suite.  
+ with the crywyr packet driver suite.  
  
- The IRQ and interface-select jumpers are pretty straightforward, but I
- don't grok the settings of W10-W18 (also labelled A15 through A18).
- Could somebody tell me which settings of these four jumpers correspond
- to what I/O addresses?
+ the irq and interface-select jumpers are pretty straightforward, but i
+ don't grok the settings of w10-w18 (also labelled a15 through a18).
+ could somebody tell me which settings of these four jumpers correspond
+ to what i/o addresses?
  
- Is there anything else about this card I should know, before I
+ is there anything else about this card i should know, before i
  plug&play?
  
  -- 
- Dave Platt                                                VOICE: (415) 813-8917
-               Domain: dplatt@ntg.com      UUCP: ...netcomsv!ntg!dplatt
-  USNAIL: New Technologies Group Inc. 2470 Embarcardero Way, Palo Alto CA 94303
+ dave platt                                                voice: (415) 813-8917
+               domain: dplatt@ntg.com      uucp: ...netcomsv!ntg!dplatt
+  usnail: new technologies group inc. 2470 embarcardero way, palo alto ca 94303
  

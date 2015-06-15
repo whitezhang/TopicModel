@@ -1,19 +1,19 @@
 
- In article <7208@pdxgate.UUCP> idr@rigel.cs.pdx.edu (Ian D Romanick) writes:
- > They talked about another routine that could yield up to 150 to 1
- > compress with no image loss that *I* could notice.  The draw back is that it
- > takes a hell of a long time to compress something.  I'll have to see if I can
- > find the book so that I can give more exact numbers.  TTYL.
+ in article <7208@pdxgate.uucp> idr@rigel.cs.pdx.edu (ian d romanick) writes:
+ > they talked about another routine that could yield up to 150 to 1
+ > compress with no image loss that *i* could notice.  the draw back is that it
+ > takes a hell of a long time to compress something.  i'll have to see if i can
+ > find the book so that i can give more exact numbers.  ttyl.
  
- That's a typical claim, though they say they've improved
- compression speed considerably.  Did you find out anything else
- about the book?  I'd be interested in looking at it if you could give me
+ that's a typical claim, though they say they've improved
+ compression speed considerably.  did you find out anything else
+ about the book?  i'd be interested in looking at it if you could give me
  any pointers.
  
- Reportedly, early fractal compression times of 24-100 hours used
+ reportedly, early fractal compression times of 24-100 hours used
  that marvelous piece of hardware called "grad students" to do the
- work.  Supposedly it's been automated since about 1988, but I'm still
+ work.  supposedly it's been automated since about 1988, but i'm still
  waiting to be impressed.
  
- Allen B (Sign me "Cynical")
+ allen b (sign me "cynical")
  

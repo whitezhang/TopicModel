@@ -1,25 +1,25 @@
 
- cuffell@spot.Colorado.EDU (Tim Cuffel) writes:
+ cuffell@spot.colorado.edu (tim cuffel) writes:
  
- > There is no guarantee that the deleted space would be overwritten during
- > optimization.  Likely, but no guarantee.  A quicker and more secure method
- > would be a batch file that overwrote all of your free space.  For example
+ > there is no guarantee that the deleted space would be overwritten during
+ > optimization.  likely, but no guarantee.  a quicker and more secure method
+ > would be a batch file that overwrote all of your free space.  for example
  > fill.bat:
  > 	echo %1 >> out
  > 	fill.bat
- > (This is off the top of my head.  #include <std_disclaimer.h>)
+ > (this is off the top of my head.  #include <std_disclaimer.h>)
  
- It is MUCH easier, faster, and probably even more secure to use Norton
- Utilties 6.0 (I'm talking IBM PC here) and to tell WipeInfo to (a)
+ it is much easier, faster, and probably even more secure to use norton
+ utilties 6.0 (i'm talking ibm pc here) and to tell wipeinfo to (a)
  clean the free disk space and (b) clean the slack space at the end of
- the files. Use to Government standard option for more careful
+ the files. use to government standard option for more careful
  overwriting...
  
- Regards,
- Vesselin
+ regards,
+ vesselin
  -- 
- Vesselin Vladimirov Bontchev          Virus Test Center, University of Hamburg
- Tel.:+49-40-54715-224, Fax: +49-40-54715-226      Fachbereich Informatik - AGN
- < PGP 2.2 public key available on request. > Vogt-Koelln-Strasse 30, rm. 107 C
- e-mail: bontchev@fbihh.informatik.uni-hamburg.de    D-2000 Hamburg 54, Germany
+ vesselin vladimirov bontchev          virus test center, university of hamburg
+ tel.:+49-40-54715-224, fax: +49-40-54715-226      fachbereich informatik - agn
+ < pgp 2.2 public key available on request. > vogt-koelln-strasse 30, rm. 107 c
+ e-mail: bontchev@fbihh.informatik.uni-hamburg.de    d-2000 hamburg 54, germany
  

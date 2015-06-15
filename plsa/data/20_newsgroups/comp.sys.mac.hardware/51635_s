@@ -1,33 +1,33 @@
 
- In article <C5JFnp.FCx@world.std.com>, jbailey@world.std.com (jim bailey)
+ in article <c5jfnp.fcx@world.std.com>, jbailey@world.std.com (jim bailey)
  wrote:
  > 
- > hades@coos.dartmouth.edu (Brian V. Hughes) writes:
- > >tzs@stein2.u.washington.edu (Tim Smith) writes:
+ > hades@coos.dartmouth.edu (brian v. hughes) writes:
+ > >tzs@stein2.u.washington.edu (tim smith) writes:
  > >>jbailey@world.std.com (jim bailey) writes:
- > >>>Yes, you get internal mixing of the analog CD-Audio outputs with
- > >>>the Mac generated audio on the Mac motherboard.  Also you can sample
- > >>>the CD-Audio using the sound control panel by clicking on the Options
+ > >>>yes, you get internal mixing of the analog cd-audio outputs with
+ > >>>the mac generated audio on the mac motherboard.  also you can sample
+ > >>>the cd-audio using the sound control panel by clicking on the options
  > >>>button next to the microphone icon.
- > >>How do you click on the Options button?  I've never seen it undimmed.
+ > >>how do you click on the options button?  i've never seen it undimmed.
  > 
- > >    The latest word on this is you have to disconnect the Microphone
- > >cable on the motherboard. Then the button is supposed to un-dim.
+ > >    the latest word on this is you have to disconnect the microphone
+ > >cable on the motherboard. then the button is supposed to un-dim.
  
- The audio will simply select the CD audio when the microphone is removed. 
- I don't believe the button un-dims, since there's nothing to select.  I
- haven't tracked down a Centris to check this on though.
+ the audio will simply select the cd audio when the microphone is removed. 
+ i don't believe the button un-dims, since there's nothing to select.  i
+ haven't tracked down a centris to check this on though.
  
- > Sorry, I assumed that the the various new machines with the internal
- > CD-ROM bay worked the same as the Quadra 900.  Obviously they don't.
+ > sorry, i assumed that the the various new machines with the internal
+ > cd-rom bay worked the same as the quadra 900.  obviously they don't.
  
- Yup, I made the same mistake several months ago when this issue came up
+ yup, i made the same mistake several months ago when this issue came up
  before :-)
  
  
  noah
  
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- noah@apple.com                                 Macintosh Hardware Design
- ...!{sun,decwrl}!apple!noah   (not the opinions of) Apple Computer, Inc.
+ noah@apple.com                                 macintosh hardware design
+ ...!{sun,decwrl}!apple!noah   (not the opinions of) apple computer, inc.
  

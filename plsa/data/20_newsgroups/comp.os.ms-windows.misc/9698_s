@@ -1,41 +1,41 @@
 
- In article <15APR199321275870@cvdv99.mayo.edu>, fisk@cvdv99.mayo.edu (Tom Fisk | 2D-337 STM | 5-4341) writes:
- |> In article <C5JLDC.HL9@news.cso.uiuc.edu>, jroberts@ux4.cso.uiuc.edu (Robertson) writes...
- |> >Does anybody know the FTP site with the latest Windows drivers for the ATI
- |> >GUP?
- |> >Thanks
+ in article <15apr199321275870@cvdv99.mayo.edu>, fisk@cvdv99.mayo.edu (tom fisk | 2d-337 stm | 5-4341) writes:
+ |> in article <c5jldc.hl9@news.cso.uiuc.edu>, jroberts@ux4.cso.uiuc.edu (robertson) writes...
+ |> >does anybody know the ftp site with the latest windows drivers for the ati
+ |> >gup?
+ |> >thanks
  |> > 
- |> The latest driver release is 59 and can be found at ftp.cica.indiana.edu
- |> in the pub/pc/win3/... directory structure as pro59.zip.  I checked with ATI's
- |> BBS last nite and there were no releases past 59.
+ |> the latest driver release is 59 and can be found at ftp.cica.indiana.edu
+ |> in the pub/pc/win3/... directory structure as pro59.zip.  i checked with ati's
+ |> bbs last nite and there were no releases past 59.
  |> 
- |> We have the ATI Local Bus card and I noticed that I get garbage around the
- |> edges of a window when I move it.  Has anybody else noticed this also?
- I have the local bus card also, and don't have any such problems with it
- now, but this is the second card I've gotten - the first card didn't work
- in VGA mode correctly.  Maybe they still have some quality control problems.
- I would suggest checking with ATI (I went through the vendor I bought the
- card from since the problem showed up immediately).  I never was able to
- get through to ATI's technical support number.  
+ |> we have the ati local bus card and i noticed that i get garbage around the
+ |> edges of a window when i move it.  has anybody else noticed this also?
+ i have the local bus card also, and don't have any such problems with it
+ now, but this is the second card i've gotten - the first card didn't work
+ in vga mode correctly.  maybe they still have some quality control problems.
+ i would suggest checking with ati (i went through the vendor i bought the
+ card from since the problem showed up immediately).  i never was able to
+ get through to ati's technical support number.  
  
- I sure like the way the card performs though.  I have the 2MB ATI ultra
+ i sure like the way the card performs though.  i have the 2mb ati ultra
  pro - local bus, and it is fast even in 1024x768x16bpp mode.
  
  
- Cheers,
- Phil
+ cheers,
+ phil
  |> 
- |> Tom.
+ |> tom.
  |> -------------------------------------------------------------------------------
- |> Thomas B. Fisk          +----------------------------+  Internet: fisk@mayo.edu
- |> Mayo Clinic             |   If you don't know where  |  Voice: (507) 255-4341
- |> 200 First Street SW     |  you're going you'll never |  FAX: (507) 255-5484
- |> Mail Stop 2D-337 STM    |         get there.         |
- |> Rochester, MN  55905    +----------------------------+
+ |> thomas b. fisk          +----------------------------+  internet: fisk@mayo.edu
+ |> mayo clinic             |   if you don't know where  |  voice: (507) 255-4341
+ |> 200 first street sw     |  you're going you'll never |  fax: (507) 255-5484
+ |> mail stop 2d-337 stm    |         get there.         |
+ |> rochester, mn  55905    +----------------------------+
  |> -------------------------------------------------------------------------------
  
  
  -- 
- Philip Carmack				| pcarmack@kpc.com	(408)987-3336
- Kubota Pacific Computers, Inc.		|
+ philip carmack				| pcarmack@kpc.com	(408)987-3336
+ kubota pacific computers, inc.		|
  

@@ -1,11 +1,11 @@
 
- I'm writing a driver that needs to remap some I/O ports.  This means
- virtual mode.  Unfortunately virtual mode means it won't get along
- with expanded memory managers, so I need make it an EMM driver too.
+ i'm writing a driver that needs to remap some i/o ports.  this means
+ virtual mode.  unfortunately virtual mode means it won't get along
+ with expanded memory managers, so i need make it an emm driver too.
  
- Does anyone out there have EMM code.  Can any point me to an EMM code source?
+ does anyone out there have emm code.  can any point me to an emm code source?
  
- -Thanks, Morgan
+ -thanks, morgan
  --
- <morgan@DL5000.bc.edu>
+ <morgan@dl5000.bc.edu>
  

@@ -1,35 +1,35 @@
 
- CBW790S@vma.smsu.edu.Ext (Corey Webb) writes:
+ cbw790s@vma.smsu.edu.ext (corey webb) writes:
  
- >In article <1993Apr19.160944.20236W@baron.edb.tih.no>
- >havardn@edb.tih.no (Haavard Nesse,o92a) writes:
+ >in article <1993apr19.160944.20236w@baron.edb.tih.no>
+ >havardn@edb.tih.no (haavard nesse,o92a) writes:
  >>
- >>Could anyone tell me if it's possible to save each frame
+ >>could anyone tell me if it's possible to save each frame
  >>of a .gl (grasp) animation to .gif, .jpg, .iff or any other
  >>picture formats.
  >>
  > 
- >     If you have the GRASP animation system, then yes, it's quite easy.
- >You simply use GLIB to extract the image (each "frame" in a .GL is
- >actually a complete .PCX or .CLP file), then use one of MANY available
- >utilities to convert it.  If you don't have the GRASP package, I'm afraid
- >I can't help you.  Sorry.
- >     By the way, before you ask, GRASP (GRaphics Animation System for
- >Professionals) is a commercial product that sells for just over US$300
- >from most mail-order companies I've seen.  And no, I don't have it.  :)
+ >     if you have the grasp animation system, then yes, it's quite easy.
+ >you simply use glib to extract the image (each "frame" in a .gl is
+ >actually a complete .pcx or .clp file), then use one of many available
+ >utilities to convert it.  if you don't have the grasp package, i'm afraid
+ >i can't help you.  sorry.
+ >     by the way, before you ask, grasp (graphics animation system for
+ >professionals) is a commercial product that sells for just over us$300
+ >from most mail-order companies i've seen.  and no, i don't have it.  :)
  > 
  > 
- >                                               Corey Webb
+ >                                               corey webb
  > 
  
- There are several public domain utilities available at your usual
+ there are several public domain utilities available at your usual
  archive site that allow 'extraction' of single frames from a .gl
- file, check in the 'graphics' directories under *grasp.  The problem 
+ file, check in the 'graphics' directories under *grasp.  the problem 
  is that the .clp files you generate cannot be decoded by any of 
- the many pd format converters I have used. Any hint welcome!
- Let me know if you have problems locating the utilities.
- Hope it helps.
+ the many pd format converters i have used. any hint welcome!
+ let me know if you have problems locating the utilities.
+ hope it helps.
  
  -- 
- Jacques Oberto  <oberto@genes.icgeb.trieste.it>
+ jacques oberto  <oberto@genes.icgeb.trieste.it>
  

@@ -1,27 +1,27 @@
 
- In article <1993Apr20.102756.1709@mala.bc.ca> wagner@mala.bc.ca (TOM WAGNER, Wizzard of old Audio/Visual Equipment........Nanaimo Campus) writes:
- >In article <C5r60r.4ID@megatest.com>, alung@megatest.com (Aaron Lung) writes:
- >> In article <C5qsBF.IEK@ms.uky.edu> billq@ms.uky.edu (Billy Quinn) writes:
- >>>I built a little project using the radio shack 5vdc relays to switch
- >>>audio.  I got pretty bad 'clicks' when the thing switched.  I was doing
- >>>My question is:
- >>>	Is there a good relay/relay circuit that I can use for switching
- >>>audio, so that there will be *NO* noise of any kind on the audio lines.
+ in article <1993apr20.102756.1709@mala.bc.ca> wagner@mala.bc.ca (tom wagner, wizzard of old audio/visual equipment........nanaimo campus) writes:
+ >in article <c5r60r.4id@megatest.com>, alung@megatest.com (aaron lung) writes:
+ >> in article <c5qsbf.iek@ms.uky.edu> billq@ms.uky.edu (billy quinn) writes:
+ >>>i built a little project using the radio shack 5vdc relays to switch
+ >>>audio.  i got pretty bad 'clicks' when the thing switched.  i was doing
+ >>>my question is:
+ >>>	is there a good relay/relay circuit that i can use for switching
+ >>>audio, so that there will be *no* noise of any kind on the audio lines.
  >> 
- >> Are you switching high level signals or low level signals like pre-amp
- >A novel circuit I used to build was a primitive "optical isolator".. It consists
- >of a resistive photocell and a lamp, all packaged in a tube.  When the lamp is
- >off the cell is high resistance.  Turn the lamp on and the resistance lowers
+ >> are you switching high level signals or low level signals like pre-amp
+ >a novel circuit i used to build was a primitive "optical isolator".. it consists
+ >of a resistive photocell and a lamp, all packaged in a tube.  when the lamp is
+ >off the cell is high resistance.  turn the lamp on and the resistance lowers
  
- I use an H11F1   FET optoisolater to switch microphone level signals.
- There is no click, since I put a .1uF cap across the LED.  Distortion
+ i use an h11f1   fet optoisolater to switch microphone level signals.
+ there is no click, since i put a .1uf cap across the led.  distortion
  measurement are very low with mic level, and they went up to 0.03% at a
- + 14 dB line level.  All I did was put the FET in series with one leg
- of the balanced line.  No hums, pops, just audio jumping out of silence.
- The FET runs about 100 million ohms with the LED dark and drops to 150-200
+ + 14 db line level.  all i did was put the fet in series with one leg
+ of the balanced line.  no hums, pops, just audio jumping out of silence.
+ the fet runs about 100 million ohms with the led dark and drops to 150-200
  ohms with it on.
  
- Hey, it works, and works well.
- Galen Watts, KF0YJ
+ hey, it works, and works well.
+ galen watts, kf0yj
  
  

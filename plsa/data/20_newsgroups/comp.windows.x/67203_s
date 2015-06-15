@@ -1,32 +1,32 @@
 
  
- > Let's say I have two rectangles on the canvas(see above) 
+ > let's say i have two rectangles on the canvas(see above) 
  > one intersecting the other...
- > Now, I would like to delete one of the rectangles.
- > The way I do it is to create another GC wherein I use the
- > GXxor logical function and simply redraw the rectangle using the
+ > now, i would like to delete one of the rectangles.
+ > the way i do it is to create another gc wherein i use the
+ > gxxor logical function and simply redraw the rectangle using the
  newly
  > created graphics context thus deleting it for all apparent purposes.
- > A problem with this approach is that at the points of intersection
+ > a problem with this approach is that at the points of intersection
  the pixel 
  > locations belonging to the other rectangle also become white, which
  is 
  > something that should be avoided.
  
- You could set up a bitmap with a mask in it.  Clear the
- bitmap, draw the rectangle to be deleted with GXor.  Draw the one
- that is to stay with GXclear.  Then GXxor the entire pixmap with
+ you could set up a bitmap with a mask in it.  clear the
+ bitmap, draw the rectangle to be deleted with gxor.  draw the one
+ that is to stay with gxclear.  then gxxor the entire pixmap with
  the screen.  
  
- Note that this is a pretty effective way of animation, if you ever
- need to do that (replace the GXclear with a GXxor).
+ note that this is a pretty effective way of animation, if you ever
+ need to do that (replace the gxclear with a gxxor).
  
  ----------
- Joe Hildebrand
+ joe hildebrand
  hildjj@fuentez.com
- Software Engineer
- Fuentez Systems Concepts
+ software engineer
+ fuentez systems concepts
  (703)273-1447
  
- Standard disclaimers apply
+ standard disclaimers apply
  

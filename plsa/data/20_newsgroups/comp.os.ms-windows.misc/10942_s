@@ -1,23 +1,23 @@
 
- I have the following problem on a Dell 450SE with the ATI Graphics Ultra Pro 
- EISA:
+ i have the following problem on a dell 450se with the ati graphics ultra pro 
+ eisa:
  
- When I start Windows, the first 5 times I try to run an application, it does
- not start. Windows will show the following error message:
+ when i start windows, the first 5 times i try to run an application, it does
+ not start. windows will show the following error message:
  
-    Error Executing application. There is not enough memory to run the    
+    error executing application. there is not enough memory to run the    
     application.
  
- After the first 5 tries, the application I want to run will start, and 
- afterwards there are no more problems. When I change the Video driver from 
- Mach 32 to 8514/a, this problem does not occur, so I suspect the ATI 
- drivers (I tried both the build 55 and build 59 driver).
+ after the first 5 tries, the application i want to run will start, and 
+ afterwards there are no more problems. when i change the video driver from 
+ mach 32 to 8514/a, this problem does not occur, so i suspect the ati 
+ drivers (i tried both the build 55 and build 59 driver).
  
- Does anyone have a clue?
+ does anyone have a clue?
  
  ------------------------------------------------------------------ 
- P.R. van Harten                      Philips Research Laboratories
- tel. +31 40 742209                   Prof. Holstlaan 4
- fax. +31 40 744810                   5656 AA  Eindhoven
- email: vharten@prl.philips.nl        The Netherlands
+ p.r. van harten                      philips research laboratories
+ tel. +31 40 742209                   prof. holstlaan 4
+ fax. +31 40 744810                   5656 aa  eindhoven
+ email: vharten@prl.philips.nl        the netherlands
  

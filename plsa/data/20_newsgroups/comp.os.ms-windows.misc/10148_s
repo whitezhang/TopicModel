@@ -1,30 +1,30 @@
 
- In article <C6Aw83.H7v@csn.org> richardf@teal.csn.org (IrieMon) writes:
+ in article <c6aw83.h7v@csn.org> richardf@teal.csn.org (iriemon) writes:
  
- >dmittleman@bpavms.bpa.arizona.edu (Daniel Mittleman) writes:
- >:     I am running Win 3.1 with NDW 2.2 on a 486sx with 8 meg of memory and a
+ >dmittleman@bpavms.bpa.arizona.edu (daniel mittleman) writes:
+ >:     i am running win 3.1 with ndw 2.2 on a 486sx with 8 meg of memory and a
  >:     6 meg perm swap file and am getting exceedingly frustrated that my
- >:     applications are not giving back system resources when I close them.
+ >:     applications are not giving back system resources when i close them.
  >:
- >I've noticed this also.  The way it was explained to me is that Windows
- >does not clear the upper memory blocks after a program is done.  Anyone
+ >i've noticed this also.  the way it was explained to me is that windows
+ >does not clear the upper memory blocks after a program is done.  anyone
  >out there know if this is why?
  > 
  
- There was a post about something similar a while back.  It seems windows
+ there was a post about something similar a while back.  it seems windows
  does *not* take it upon itself to free up any sys. resources an
- applllication is using when that application is done.  That job is left
+ applllication is using when that application is done.  that job is left
  entirely to the application.  that is, the application has to clean up
  after itself when it quits.
  
- Anyone out there know if there is a utility for windows which  will
+ anyone out there know if there is a utility for windows which  will
  clean up sys. resources when an application quits (mother.zip???).
  
  peace,
- Mickey
+ mickey
  -- 
- pe-|| ||  MICHAEL PANAYIOTAKIS: louray@seas.gwu.edu 
+ pe-|| ||  michael panayiotakis: louray@seas.gwu.edu 
  ace|| ||                                   ...!uunet!seas.gwu.edu!louray
- |||| \/|  *how do make a ms-windows .grp file reflect a HD directory??*
- \\\\   |  "well I ain't always right, but I've never been wrong.."(gd)
+ |||| \/|  *how do make a ms-windows .grp file reflect a hd directory??*
+ \\\\   |  "well i ain't always right, but i've never been wrong.."(gd)
  

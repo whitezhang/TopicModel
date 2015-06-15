@@ -1,36 +1,36 @@
 
  
- 	Are there any widgets, function 
+ 	are there any widgets, function 
  	librarys for drawing networks, 
- 	graphs etc ? (Not tree views) 
- 	Freeware, shareware, comercial...
- 	Like this, for instance:
+ 	graphs etc ? (not tree views) 
+ 	freeware, shareware, comercial...
+ 	like this, for instance:
                                                                 
-                           O
+                           o
                            |
                            |
-                 O---------O=======>O
+                 o---------o=======>o
                 / \        |
                /   \       |
-         O----O.....O      O
+         o----o.....o      o
              / \
             /   \ 
-           O     O
+           o     o
  
- 	* Just by giving the associations 
- 	  between the nodes. Automatic
+ 	* just by giving the associations 
+ 	  between the nodes. automatic
  	  layout generation.
  
- 	* It would be nice if any node 
- 	  symbols could be used. Maybe 
+ 	* it would be nice if any node 
+ 	  symbols could be used. maybe 
  	  even to insert widgets as nodes.
  
- 	* Using different line styles etc.
+ 	* using different line styles etc.
  	  for describing associations.
  
- 	Any information would be appreciated,
+ 	any information would be appreciated,
  	thanks in advance,
  
- 			Jorgen (Jorgen.Eriksson@eua.ericsson.se)
+ 			jorgen (jorgen.eriksson@eua.ericsson.se)
  
  

@@ -1,17 +1,17 @@
 
- An application we *must* use requires upper-case input.  I'd like to be
+ an application we *must* use requires upper-case input.  i'd like to be
  able to simply move my cursor into the window where that application is running
- (just a text window, xterm or some such) and have everything I type be entered
- as ALL CAPS.  When the cursor is in any of my many other windows, I want to
- automatically return to normal functionality.  I have point-to-type set.
+ (just a text window, xterm or some such) and have everything i type be entered
+ as all caps.  when the cursor is in any of my many other windows, i want to
+ automatically return to normal functionality.  i have point-to-type set.
  
- Is there a way to do this in X (specifically OW 3.0 on SPARCs)?  Is there a
- way to mess with .Xdefaults to make a category of window do this?  Any
- hints would be most appreciated.  I program in C but not X, although I can
+ is there a way to do this in x (specifically ow 3.0 on sparcs)?  is there a
+ way to mess with .xdefaults to make a category of window do this?  any
+ hints would be most appreciated.  i program in c but not x, although i can
  pick up somthing that's not too involved.
  
- Thanks kindly.
+ thanks kindly.
  -- 
- Kevin Weinrich     Computer Sciences Corp.
+ kevin weinrich     computer sciences corp.
  kbw@helios.ath.epa.gov
  

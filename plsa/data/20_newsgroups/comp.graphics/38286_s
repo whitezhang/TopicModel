@@ -1,21 +1,21 @@
 
- On sunsite.unc.edu in pub/multimedia/utilities/unix find 
-  mpeg_play-2.0.tar.Z.
+ on sunsite.unc.edu in pub/multimedia/utilities/unix find 
+  mpeg_play-2.0.tar.z.
  
- I find for mono it works best as mpeg_play -dither threshold 
+ i find for mono it works best as mpeg_play -dither threshold 
     though you can use            mpeg_play -dither mono
  
- Face it, this is not be the best viewing situation.
+ face it, this is not be the best viewing situation.
  
- Also someone has made a patch for mpeg_play that gives two more mono
+ also someone has made a patch for mpeg_play that gives two more mono
  modes  (mono2 and halftone).
  
- They are by jan@pandonia.canberra.edu.au (Jan Newmarch).
- And the patch can be found on csc.canberra.edu.au (137.92.1.1) under
+ they are by jan@pandonia.canberra.edu.au (jan newmarch).
+ and the patch can be found on csc.canberra.edu.au (137.92.1.1) under
  /pub/motif/mpeg2.0.mono.patch.
  
  
- Leon Dent
+ leon dent
  lcd@umcc.umich.edu
   
  

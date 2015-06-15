@@ -1,57 +1,57 @@
 
- In article <C5t7Gs.7v3@news.iastate.edu> schauf@iastate.edu (Brian J Schaufenbuel) writes:
- >In article <id.XNFZ.VJ8@nmti.com> korenek@nmti.com (gary korenek) writes:
+ in article <c5t7gs.7v3@news.iastate.edu> schauf@iastate.edu (brian j schaufenbuel) writes:
+ >in article <id.xnfz.vj8@nmti.com> korenek@nmti.com (gary korenek) writes:
  >>
- >>I believe that any VL/EISA/ISA motherboard that uses the HINT chipset
- >>is limited to 24-bit EISA DMA (where 'real' EISA DMA is 32-bit).  The
- >>HINT EISA DMA has the 16 mb ram addressing limitation of ISA.  For this
- >>reason I would pass.  I own one of these (HAWK VL/EISA/ISA) and am look-
+ >>i believe that any vl/eisa/isa motherboard that uses the hint chipset
+ >>is limited to 24-bit eisa dma (where 'real' eisa dma is 32-bit).  the
+ >>hint eisa dma has the 16 mb ram addressing limitation of isa.  for this
+ >>reason i would pass.  i own one of these (hawk vl/eisa/isa) and am look-
  >>ing to replace it for exactly this reason.
- >>Please double-check me on this.  In other words, call the motherboard
- >>manufacturer and ask them if the motherboard supports true 32-bit EISA
- >>DMA.
- >>Other than this limitation, the motherboard works quite well (I am using
- >>mine with DOS 5, Windows 3.1, and UNIX S5R3.2).  Also with Adaptec 1742a
- >>EISA SCSI host adapter.
- >>Gary Korenek   (korenek@nmti.com)
+ >>please double-check me on this.  in other words, call the motherboard
+ >>manufacturer and ask them if the motherboard supports true 32-bit eisa
+ >>dma.
+ >>other than this limitation, the motherboard works quite well (i am using
+ >>mine with dos 5, windows 3.1, and unix s5r3.2).  also with adaptec 1742a
+ >>eisa scsi host adapter.
+ >>gary korenek   (korenek@nmti.com)
  >
  >
- >You are correct!  The motherboard manufacturer where I usually buy boards says
+ >you are correct!  the motherboard manufacturer where i usually buy boards says
  >that they will have this problem fixed in about two weeks...
- >| Brian J Schaufenbuel
+ >| brian j schaufenbuel
  
- I don't see this as a problem with the chip-set (a mistake), I see this
+ i don't see this as a problem with the chip-set (a mistake), i see this
  as something that was designed-in intentionally.
  
- So it would seem that to enhance the design (from 24 to 32-bit EISA DMA)
- would require an update to the chipset.  An update to the chipset may 
+ so it would seem that to enhance the design (from 24 to 32-bit eisa dma)
+ would require an update to the chipset.  an update to the chipset may 
  begat an update to the motherboard board design.
  
- What I'm saing is:  The motherboard manufacturer seems to be passing this
- off as a simple fix.  In my mind the fix is a updated chipset from HINT 
- along with a possible motherboard layout update.  This is not simple.
- If I were you I would be cautious about this.
+ what i'm saing is:  the motherboard manufacturer seems to be passing this
+ off as a simple fix.  in my mind the fix is a updated chipset from hint 
+ along with a possible motherboard layout update.  this is not simple.
+ if i were you i would be cautious about this.
  
- You might look into the Advanced Integration Research (AIR) VL/EISA
- motherboard.  All slots are EISA/ISA capable.  2 (or 3) of the slots are
- VL-bus capable.  The AIR people confirmed this board supports 'real'
- 32-bit EISA DMA (I called them).  Pentium/P5 (?) capable.  Less expensive
- than equivalent AMI or Micronics VL/EISA board.
+ you might look into the advanced integration research (air) vl/eisa
+ motherboard.  all slots are eisa/isa capable.  2 (or 3) of the slots are
+ vl-bus capable.  the air people confirmed this board supports 'real'
+ 32-bit eisa dma (i called them).  pentium/p5 (?) capable.  less expensive
+ than equivalent ami or micronics vl/eisa board.
  
- Look in Computer Shopper (April '93).  The ZENON ads show the AIR mother-
- board.  A associate bought the AIR board and is pleased with it.  I'm
- attempting to get the local dealer to trade out the HAWK board for the
- AIR board.
+ look in computer shopper (april '93).  the zenon ads show the air mother-
+ board.  a associate bought the air board and is pleased with it.  i'm
+ attempting to get the local dealer to trade out the hawk board for the
+ air board.
  
- Model number of AIR board (with 486-33DX) is B433EI2.  You can call
- Motherboard Warehouse (for example) for a price.  Phone #'s included
+ model number of air board (with 486-33dx) is b433ei2.  you can call
+ motherboard warehouse (for example) for a price.  phone #'s included
  below.
  
- AIR                    (408)-428-0800
- Motherboard Warehouse  (800)-486-9975
+ air                    (408)-428-0800
+ motherboard warehouse  (800)-486-9975
  
  -- 
- Gary Korenek   (korenek@nmti.com)
- Network Management Technology Incorporated
- Sugar Land, Texas       (713) 274-5357
+ gary korenek   (korenek@nmti.com)
+ network management technology incorporated
+ sugar land, texas       (713) 274-5357
  

@@ -1,96 +1,96 @@
-	<1993Apr29.102341.13820@comp.lancs.ac.uk>
- Organization: Purdue University
- Lines: 89
- NNTP-Posting-Host: denali.cs.purdue.edu
- In-reply-to: julian@comp.lancs.ac.uk's message of Thu, 29 Apr 1993 10:23:41 GMT
+	<1993apr29.102341.13820@comp.lancs.ac.uk>
+ organization: purdue university
+ lines: 89
+ nntp-posting-host: denali.cs.purdue.edu
+ in-reply-to: julian@comp.lancs.ac.uk's message of thu, 29 apr 1993 10:23:41 gmt
  
- In article <1993Apr29.102341.13820@comp.lancs.ac.uk> julian@comp.lancs.ac.uk (Julian G. Self) writes:
+ in article <1993apr29.102341.13820@comp.lancs.ac.uk> julian@comp.lancs.ac.uk (julian g. self) writes:
  
-    Wasn't the shareware fee a "suggestion" by John?
-    Is so then it's up to the individual to make the choice whether or not to
-    honour it and part with money.  Personally if I was in his position I would
-    do exactly the same thing, John has obviously put in lot of time and effort
+    wasn't the shareware fee a "suggestion" by john?
+    is so then it's up to the individual to make the choice whether or not to
+    honour it and part with money.  personally if i was in his position i would
+    do exactly the same thing, john has obviously put in lot of time and effort
     into xv and why shouldn't he receive some money for it.
  
- It is interesting to look at the change(s) of mind that John has had.
+ it is interesting to look at the change(s) of mind that john has had.
  
- The AUTHOR file for xgif (an early incarnation of xv) reads (in part) 
+ the author file for xgif (an early incarnation of xv) reads (in part) 
  as follows...
  
-   Do whatever you want with this program, though it *would* be nice if my name
-   remained on it somewhere...  Other than that, it may be freely modified,
+   do whatever you want with this program, though it *would* be nice if my name
+   remained on it somewhere...  other than that, it may be freely modified,
    distributed, and used to fill up disk space.
  
- The README file for xv 1.00 (?) reads (in part) as follows...
+ the readme file for xv 1.00 (?) reads (in part) as follows...
  
-   NOTE:  If you like the program and decide to use it, *please* send me a short
-   email message to that effect.  Be sure to mention the full name of your
-   organization.  When our sponsors ask us 'what have you been doing', it would
+   note:  if you like the program and decide to use it, *please* send me a short
+   email message to that effect.  be sure to mention the full name of your
+   organization.  when our sponsors ask us 'what have you been doing', it would
    be most handy to be able to come up with a nice long list of organizations
-   that are using code developed in the GRASP Lab.  Brownie points, as
+   that are using code developed in the grasp lab.  brownie points, as
    it were.
  
- The copyright notices as it appeared then was...
+ the copyright notices as it appeared then was...
  
    /*
-    * Copyright 1989, 1990 by the University of Pennsylvania
+    * copyright 1989, 1990 by the university of pennsylvania
     *
-    * Permission to use, copy, and distribute for non-commercial purposes,
+    * permission to use, copy, and distribute for non-commercial purposes,
     * is hereby granted without fee, providing that the above copyright
     * notice appear in all copies and that both the copyright notice and this
     * permission notice appear in supporting documentation.
     *
-    * The software may be modified for your own purposes, but modified versions
+    * the software may be modified for your own purposes, but modified versions
     * may not be distributed.
     *
-    * This software is provided "as is" without any express or implied warranty.
+    * this software is provided "as is" without any express or implied warranty.
     */
  
- The README file for xv 2.00 reads (in part) as follows...
+ the readme file for xv 2.00 reads (in part) as follows...
  
-   Also, if you find XV to be nifty, useful, generally 'cool', and of
+   also, if you find xv to be nifty, useful, generally 'cool', and of
    some value to you, your donation (not tax-deductable) would be greatly
-   appreciated.  $10 (U.S.) is probably a fine amount to donate.
-   Folks who donate $25 and up will receive a nice, bound copy of the XV Manual
-   printed on a spiffo 600-dpi laser printer.  It'll look lovely mounted over
+   appreciated.  $10 (u.s.) is probably a fine amount to donate.
+   folks who donate $25 and up will receive a nice, bound copy of the xv manual
+   printed on a spiffo 600-dpi laser printer.  it'll look lovely mounted over
    your fireplace.
  
- Which looks to me as a suggestion (see Julian's comment above).
+ which looks to me as a suggestion (see julian's comment above).
  
- The copyright notices as it appeared then was...
+ the copyright notices as it appeared then was...
  
-   * Copyright 1989, 1990, 1991, 1992 by John Bradley and
-   *                       The University of Pennsylvania
+   * copyright 1989, 1990, 1991, 1992 by john bradley and
+   *                       the university of pennsylvania
  
- The README for xv 3.00 reads (in part) as follows...
+ the readme for xv 3.00 reads (in part) as follows...
  
-   XV is shareware for PERSONAL USE only.  You may use XV for your own
+   xv is shareware for personal use only.  you may use xv for your own
    amusement, and if you find it nifty, useful, generally cool, or of
    some value to you, your non-deductable donation would be greatly
    appreciated.  $25 is the suggested donation, though, of course,
-   larger donations are quite welcome.  Folks who donate $25 or more
-   can receive a printed, bound copy of the XV manual for no extra
-   charge.  If you want one, just ask.  BE SURE TO SPECIFY THE VERSION
-   OF XV THAT YOU ARE USING!
+   larger donations are quite welcome.  folks who donate $25 or more
+   can receive a printed, bound copy of the xv manual for no extra
+   charge.  if you want one, just ask.  be sure to specify the version
+   of xv that you are using!
  
-   Commercial, government, and institutional users MUST register their
-   copies of XV, for the exceedingly REASONABLE price of just $25 per
-   workstation/X terminal.  Site licenses are available for those who
-   wish to run XV on a large number of machines.  Contact the author
+   commercial, government, and institutional users must register their
+   copies of xv, for the exceedingly reasonable price of just $25 per
+   workstation/x terminal.  site licenses are available for those who
+   wish to run xv on a large number of machines.  contact the author
    for more details.
  
- The second paragraph to me says that universities MUST register and
+ the second paragraph to me says that universities must register and
  pay (a potentially) large sum of money.
  
- The copyright notices now read...
+ the copyright notices now read...
  
-   * Copyright 1989, 1990, 1991, 1992, 1993 by John Bradley
+   * copyright 1989, 1990, 1991, 1992, 1993 by john bradley
  
- Was this developed on upenn's time/equipment?  What do they, and the
- GRASP lab mentioned above, have to say about all this?
+ was this developed on upenn's time/equipment?  what do they, and the
+ grasp lab mentioned above, have to say about all this?
  
- Richard Bingle                                             bingle@cs.purdue.edu
- Dept. of Computer Sciences                             {backbone}!purdue!bingle
- Purdue University                                                (317) 494-0893
- West Lafayette, IN 47907-1398
+ richard bingle                                             bingle@cs.purdue.edu
+ dept. of computer sciences                             {backbone}!purdue!bingle
+ purdue university                                                (317) 494-0893
+ west lafayette, in 47907-1398
  

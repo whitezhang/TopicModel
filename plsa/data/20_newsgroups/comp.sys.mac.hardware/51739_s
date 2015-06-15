@@ -1,18 +1,18 @@
 
- I also suffer from these video "artefacts". My configuration is a
- Centris 610, 4/160, 1MB VRAM with a NEC 4FG. It only happens at
- 832x624, in 8bit colour with virtual memory off during scrolling. This
- occurs when the VRAM SIMMS are installed as well as removed.
- It seems that the 610 does not like 832x624.
+ i also suffer from these video "artefacts". my configuration is a
+ centris 610, 4/160, 1mb vram with a nec 4fg. it only happens at
+ 832x624, in 8bit colour with virtual memory off during scrolling. this
+ occurs when the vram simms are installed as well as removed.
+ it seems that the 610 does not like 832x624.
  
- Does anyone *not* have these problems in the above mentioned
+ does anyone *not* have these problems in the above mentioned
  conditions?
  
- -Gersham Meharg
- SFU Canada.
+ -gersham meharg
+ sfu canada.
  
  -- 
- Gersham Meharg :  meharg@sfu.ca : SFU-Vancouver-Canada
+ gersham meharg :  meharg@sfu.ca : sfu-vancouver-canada
  
    
  

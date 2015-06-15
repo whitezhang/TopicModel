@@ -1,37 +1,37 @@
 
- I just joined this group recently and really do not know much about
+ i just joined this group recently and really do not know much about
  cryptography, but a couple things came to mind while reading through
  the posts.
  
- 1.  Is the Clipper chip going to be exported?  If not, how will
- people communicate with other countries?  Will they have to do
- that in un-crypt-mode.  Will other encryption techniques be
+ 1.  is the clipper chip going to be exported?  if not, how will
+ people communicate with other countries?  will they have to do
+ that in un-crypt-mode.  will other encryption techniques be
  legal (assuming the government cracks down on using others) when
  going overseas, but not within the states?
  
- 2.  I've read about authentication systems that use an electronic  
+ 2.  i've read about authentication systems that use an electronic  
  security card that looks like a calculator to create an encrypted
- PIN based on the time/date.  The host system has the algorithm
+ pin based on the time/date.  the host system has the algorithm
  built into it as well so that it can authenticate a user.
- Is there some form of encryption technology that would create
- keys that are only valid at a certain instant in time?  The 
+ is there some form of encryption technology that would create
+ keys that are only valid at a certain instant in time?  the 
  systems would then allow a "window" of time around this instant
  where the key would work.
- I realize that this technique would increase the amount of information
+ i realize that this technique would increase the amount of information
  needing to be stored because you would need entire algorithms rather
- than just keys.  But for smaller scale things it might work.
- Could some similar method be used to make the two 80-bit keys that
- are issued to police/FBI/etc to tap a phone only usable for one-week
- (for instance).  If further surveilance was needed, they would have
- to go back to the escrow service to get another key.  This would
+ than just keys.  but for smaller scale things it might work.
+ could some similar method be used to make the two 80-bit keys that
+ are issued to police/fbi/etc to tap a phone only usable for one-week
+ (for instance).  if further surveilance was needed, they would have
+ to go back to the escrow service to get another key.  this would
  make it useless for local police to database keys they have used.
  
- I assume this is not possible because the receiving phone would need
- to be able to decypher the message.  But any thoughts on the subject?
+ i assume this is not possible because the receiving phone would need
+ to be able to decypher the message.  but any thoughts on the subject?
  
- Thanks,
- Tauren Mills
+ thanks,
+ tauren mills
  
- Tauren Mills
+ tauren mills
  tauren@rigel.cs.pdx.edu
  

@@ -1,12 +1,12 @@
 
  
- What 4 or more com port boards are available for PCs?  
- We want standard com ports, so no need to mention the expensive
+ what 4 or more com port boards are available for pcs?  
+ we want standard com ports, so no need to mention the expensive
  coprocessed ones.
  
- They should either be able to share IRQs or be able to use IRQs 8-15.
+ they should either be able to share irqs or be able to use irqs 8-15.
  
- Thanks for any info...
+ thanks for any info...
  
  
  

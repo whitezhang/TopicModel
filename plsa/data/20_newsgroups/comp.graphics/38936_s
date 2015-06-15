@@ -1,23 +1,23 @@
 
- In article <1993Apr28.094739.25200@htsa.aha.nl> remcoha@htsa.aha.nl (Remco Hartog) writes:
- >I have a little question:
+ in article <1993apr28.094739.25200@htsa.aha.nl> remcoha@htsa.aha.nl (remco hartog) writes:
+ >i have a little question:
  >
- >I need to convert RGB-coded (Red-Green-Blue) colors into HVS-coded
- >(Hue-Value-Saturnation) colors. Does anyone know which formulas to
+ >i need to convert rgb-coded (red-green-blue) colors into hvs-coded
+ >(hue-value-saturnation) colors. does anyone know which formulas to
  >use?
  
- I have a little answer:
+ i have a little answer:
  
- See Foley, van Dam, Feiner, and Hughes, _Computer Graphics: Principles
- and Practice, Second Edition_.
+ see foley, van dam, feiner, and hughes, _computer graphics: principles
+ and practice, second edition_.
  
- [If people would *read* this book, 75 percent of the questions in this
+ [if people would *read* this book, 75 percent of the questions in this
  froup would disappear overnight...]
  
  							spl
  -- 
- Steve Lamont, SciViGuy -- (619) 534-7968 -- spl@szechuan.ucsd.edu
- San Diego Microscopy and Imaging Resource/UC San Diego/La Jolla, CA 92093-0608
- "My other car is a car, too."
-                  - Bumper strip seen on I-805
+ steve lamont, sciviguy -- (619) 534-7968 -- spl@szechuan.ucsd.edu
+ san diego microscopy and imaging resource/uc san diego/la jolla, ca 92093-0608
+ "my other car is a car, too."
+                  - bumper strip seen on i-805
  

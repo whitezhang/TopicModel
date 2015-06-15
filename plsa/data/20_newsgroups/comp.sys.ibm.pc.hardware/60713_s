@@ -1,13 +1,13 @@
 
- I've been troubleshooting the existence of way too many General Protection
- Faults on a 486-33, Eisa-VLB, system.  At this point I think I've narrowed
- the problem down to the video drivers for the Volante Warp-10 adapter by
- National Design, INc.
+ i've been troubleshooting the existence of way too many general protection
+ faults on a 486-33, eisa-vlb, system.  at this point i think i've narrowed
+ the problem down to the video drivers for the volante warp-10 adapter by
+ national design, inc.
  
- Yet somehow I find this hard to believe.  Does anyone else have any
+ yet somehow i find this hard to believe.  does anyone else have any
  experiences with this board.
  
- Thanx,
- Robert Moskal
- Brooklyn, USA
+ thanx,
+ robert moskal
+ brooklyn, usa
  

@@ -1,32 +1,32 @@
 
- David Reeve Sward <sward+@CMU.EDU> writes:
- > We don't know this, do we?  The algorithm is classified. 
+ david reeve sward <sward+@cmu.edu> writes:
+ > we don't know this, do we?  the algorithm is classified. 
  
- I speculate, from the MykoTronx data sheet on the MYK-78, that the algorithm 
- is a classified cryptosystem, similar in application to DES but cleared by 
- the NSA for classified traffic, that has been in use for a number of years.  
- Myktotronx refers to it as "Government Type II encryption", which matches the 
- designation of one of the types of encryption available on STU-III phones, 
- and may be the same as a cryptosystem I have heard called "CIPHER2".
+ i speculate, from the mykotronx data sheet on the myk-78, that the algorithm 
+ is a classified cryptosystem, similar in application to des but cleared by 
+ the nsa for classified traffic, that has been in use for a number of years.  
+ myktotronx refers to it as "government type ii encryption", which matches the 
+ designation of one of the types of encryption available on stu-iii phones, 
+ and may be the same as a cryptosystem i have heard called "cipher2".
  
- This would make sense, since this is evidently a field-proven cryptosystem 
- which can act as a "pin-compatible" substitute for DES.  Combined with a 
+ this would make sense, since this is evidently a field-proven cryptosystem 
+ which can act as a "pin-compatible" substitute for des.  combined with a 
  tappable key exchange protocol, this would offer exactly what is claimed for 
- Clipper: secure encryption with access via a key escrow.  If this is fact the 
+ clipper: secure encryption with access via a key escrow.  if this is fact the 
  case, it would make me quite confident of the encipherment algorithm itself.
  
- Now, I do not know if these are in fact the same cryptosystem; my knowledge 
- of classified cryptography isn't even fuzzy :), it's nonexistent.  However, 
+ now, i do not know if these are in fact the same cryptosystem; my knowledge 
+ of classified cryptography isn't even fuzzy :), it's nonexistent.  however, 
  it would certainly have been the least-effort approach on the part of the 
- government: take an old military cipher that people can drop in place of DES 
+ government: take an old military cipher that people can drop in place of des 
  (and which is at least as secure), set up a key escrow scheme for law 
- enforcement, and promote it for public use.  This also fits with Mykotronx, 
+ enforcement, and promote it for public use.  this also fits with mykotronx, 
  who's been around but almost invisible for years.
  
- Has anyone else made this sort of connection, or am I just hallucinating pink 
- elephants here? :).  My curiousity has been piqued...
+ has anyone else made this sort of connection, or am i just hallucinating pink 
+ elephants here? :).  my curiousity has been piqued...
  
  
- Amanda Walker
- InterCon Systems Corporation
+ amanda walker
+ intercon systems corporation
  

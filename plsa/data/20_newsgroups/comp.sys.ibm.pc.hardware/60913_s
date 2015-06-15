@@ -1,23 +1,23 @@
 
- kdq@quest.UUCP (Kevin D. Quitt) writes:
+ kdq@quest.uucp (kevin d. quitt) writes:
  
- >I have a system with a SCSI drive.  I want to get a QIC-150 tape unit to
+ >i have a system with a scsi drive.  i want to get a qic-150 tape unit to
  >attach to it, and then run software that will read (and maybe even write)
- >UNIX TAR tapes.  (Or at least just read a stream and dump it to file - I'll
+ >unix tar tapes.  (or at least just read a stream and dump it to file - i'll
  >take it from there).
  
- >Why is this impossible?
+ >why is this impossible?
  
- It isn't.  ;-)
+ it isn't.  ;-)
  
- Use tar on the Un*x box and gtak110.zip on the DOS box. Needs ASPI driver.
+ use tar on the un*x box and gtak110.zip on the dos box. needs aspi driver.
  
  
- Ralf
+ ralf
  
  -- 
- Ralf G. R. Bergs, Aachen University of Technology EE (comp. eng.) student 
- snail: H"uckeswagener Str. 42, D-W5270 Gummersbach, Fed. Rep. of Germany
- phone: (+49) 22 61-2 19 68 (answ. mach.) / Note: new zip (51647) as of July 1st
+ ralf g. r. bergs, aachen university of technology ee (comp. eng.) student 
+ snail: h"uckeswagener str. 42, d-w5270 gummersbach, fed. rep. of germany
+ phone: (+49) 22 61-2 19 68 (answ. mach.) / note: new zip (51647) as of july 1st
  email: rabe@pool.informatik.rwth-aachen.de
  

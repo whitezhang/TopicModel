@@ -1,79 +1,79 @@
 
  
  
- ANNOUNCEMENT:	The "HyperKnowledge" PROJECT for NeXTSTEP
+ announcement:	the "hyperknowledge" project for nextstep
  
- Motivation
+ motivation
  
- We are a heterogeneous group of scientists and students who feel that our  
+ we are a heterogeneous group of scientists and students who feel that our  
  work is continuously hindered by computer environments dominated by  
  incompatible scientific tools and monstrous software packages (too often  
- claiming to do everything).  Rather than being able to use different tools  
+ claiming to do everything).  rather than being able to use different tools  
  together in a flexible, interactive system, we find ourselves spending too  
  much time converting between different data formats, writing throw-away  
- tools and I/O parsers, and worrying about how to get to a particular goal  
+ tools and i/o parsers, and worrying about how to get to a particular goal  
  rather than what it means to have attained it.
  
- What we need is an object-oriented scientific environment where the tools  
+ what we need is an object-oriented scientific environment where the tools  
  we choose to use are integrated without being parts of a closed system,  
  highly interactive, and extendable (both by the addition of our own  
  specialized objects and by combining the available tools - graphically).   
- The use of such an environment should be a natural extension of our work,  
+ the use of such an environment should be a natural extension of our work,  
  requiring a very short learning phase and practically no  
- user-documentation.  The user should feel encouraged to explore different  
+ user-documentation.  the user should feel encouraged to explore different  
  possibilities, testing his/her own scientific ideas without worrying too  
  much about whether the system is able to cope (within reason, of course).   
- By building an open and object-oriented system, each user should be able  
+ by building an open and object-oriented system, each user should be able  
  to draw upon and combine those tools necessary or conducive to a  
  particular task: we all need to organize and archive our data, display  
  results, and combine information from many different sources.
  
- Currently, the group consists of people from very different fields:  
- Molecular Biology, Computer Science, Physics and Astronomy, and Geography.   
- While many of our needs for such an environment diverge, the underlying  
+ currently, the group consists of people from very different fields:  
+ molecular biology, computer science, physics and astronomy, and geography.   
+ while many of our needs for such an environment diverge, the underlying  
  motivation is the same: no matter what you want to call it, we need a  
  system which helps rather than hinders the organization of our scientific  
  data and daily work.
  
  
- Why NeXTSTEP?
+ why nextstep?
  
- What else is there?  No other system offers the same power, a totally  
- object-oriented developers environment, UNIX-compatibility,  
- highly-interactive and standardized user-interface.  With the advent of  
- NS486 and the expectation that NeXTSTEP will soon appear on a broad range  
+ what else is there?  no other system offers the same power, a totally  
+ object-oriented developers environment, unix-compatibility,  
+ highly-interactive and standardized user-interface.  with the advent of  
+ ns486 and the expectation that nextstep will soon appear on a broad range  
  of hardware platforms, such a system will soon be nearly universally  
- available.  Classical workstation vendors (SUN, IBM, HP, and the rest) now  
- have little to offer, no similar tools exist for the standard X-Windows  
- GUI, if Apple had a system it would only run on their hardware, and the  
- mass-market Windows/DOS world is a developer's nightmare (either despite,  
- or more probably because of, OLE).
+ available.  classical workstation vendors (sun, ibm, hp, and the rest) now  
+ have little to offer, no similar tools exist for the standard x-windows  
+ gui, if apple had a system it would only run on their hardware, and the  
+ mass-market windows/dos world is a developer's nightmare (either despite,  
+ or more probably because of, ole).
  
- In order to progress, we need an open discussion of how best to develop  
- such an environment.  In NeXTSTEP parlance, do we simply have to put  
- together a set of scientific protocols and a common API for our  
- "Hyper-knowledge" servers? Should be use distributed objects?  What  
+ in order to progress, we need an open discussion of how best to develop  
+ such an environment.  in nextstep parlance, do we simply have to put  
+ together a set of scientific protocols and a common api for our  
+ "hyper-knowledge" servers? should be use distributed objects?  what  
  minimum set of tools do we need in order to start working with the  
- environment?  What tool-needs do we all have in common and which ones are  
- best developed by specialized sub-groups?  How many already existing tools  
- can/should be integrated into the system (e.g. Mathematica)?  Do we need  
- an "AVS"-like tool for data-flow manipulation?
+ environment?  what tool-needs do we all have in common and which ones are  
+ best developed by specialized sub-groups?  how many already existing tools  
+ can/should be integrated into the system (e.g. mathematica)?  do we need  
+ an "avs"-like tool for data-flow manipulation?
  
  
- Mailing list and Anonymous ftp
+ mailing list and anonymous ftp
  
- In order to take part to the project or to push the discussion forewords,  
+ in order to take part to the project or to push the discussion forewords,  
  you are invited to subscribe to: sci-tools@embl-heidelberg.de
- All (interesting) suggestions, projects and sources will be archive and  
+ all (interesting) suggestions, projects and sources will be archive and  
  soon available (anonymous ftp).
- For questions send mail to sci-tools-help@embl-heidelberg.de
+ for questions send mail to sci-tools-help@embl-heidelberg.de
  
- Acknowledgments
+ acknowledgments
  
- The European Molecular Biology Laboratory (Heidelberg, Germany) has  
+ the european molecular biology laboratory (heidelberg, germany) has  
  consented to provide the computer resources for a mailing list and  
  anonymous ftp services.
  
- Rick Hessman    <hessman@eden.uni-sw.gwdg.de>
- Georg Tuparev   <tuparev@embl-heidelberg.de>
+ rick hessman    <hessman@eden.uni-sw.gwdg.de>
+ georg tuparev   <tuparev@embl-heidelberg.de>
  

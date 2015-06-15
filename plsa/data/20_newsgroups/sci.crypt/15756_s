@@ -1,22 +1,22 @@
 
- Victor Iseli (victori@xetron.com) wrote:
+ victor iseli (victori@xetron.com) wrote:
  : 
  : 
- : "Numerical Recipes in C"..Fortran..Pascal  has a nice section on
- : encryption and decryption based on the DES algorithm.  There is
- : also source code provided (I think some versions of this book are 
+ : "numerical recipes in c"..fortran..pascal  has a nice section on
+ : encryption and decryption based on the des algorithm.  there is
+ : also source code provided (i think some versions of this book are 
  : distributed with the source code on disk; the source code can
  : also be ordered from the publisher).
  : 
- : --Victor Iseli
+ : --victor iseli
  : victori@xetron.com
  
- Yes I benchmarked the DES implementation in the Recipes in C
- book.. it is about 1 1/2 orders of magnitude SLOWER than the
- Outerbridge/Karn/Gillogly/et al implementation.
+ yes i benchmarked the des implementation in the recipes in c
+ book.. it is about 1 1/2 orders of magnitude slower than the
+ outerbridge/karn/gillogly/et al implementation.
  
- It may be instructional, but it isn't very fast.
+ it may be instructional, but it isn't very fast.
  -- 
- grady@netcom.com  2EF221 / 15 E2 AD D3 D1 C6 F3 FC  58 AC F7 3D 4F 01 1E 2F
+ grady@netcom.com  2ef221 / 15 e2 ad d3 d1 c6 f3 fc  58 ac f7 3d 4f 01 1e 2f
  
  

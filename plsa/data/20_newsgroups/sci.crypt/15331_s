@@ -1,20 +1,20 @@
 
- Bennett Todd @ Salomon Brothers Inc., NY (bet@sbi.com) wrote:
- : However, unless I
- : missed something, the only source they suggested (aside from a hardware RNG)
- : that seems available, and unguessable by an intruder, when a Unix is
- : fresh-booted, is I/O buffers related to network traffic. I believe my
+ bennett todd @ salomon brothers inc., ny (bet@sbi.com) wrote:
+ : however, unless i
+ : missed something, the only source they suggested (aside from a hardware rng)
+ : that seems available, and unguessable by an intruder, when a unix is
+ : fresh-booted, is i/o buffers related to network traffic. i believe my
  : solution basically uses that strategy, without requiring me to reach into
  : the kernel.
  
- A few more sources are statistics on your filesystems (easily
+ a few more sources are statistics on your filesystems (easily
  and quickly obtained) and the output from the "rusage" system
  call.  
  
- You can also exec a finger to one or more favorite heavily-used
+ you can also exec a finger to one or more favorite heavily-used
  systems, though this can take several seconds.
  
- cf. the source code to RIPEM on ripem.msu.edu.
+ cf. the source code to ripem on ripem.msu.edu.
  
- Mark R.
+ mark r.
  

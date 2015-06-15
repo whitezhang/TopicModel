@@ -1,32 +1,32 @@
 
- In article <1993Apr20.105725@narya.gsfc.nasa.gov> 
-    dealy@narya.gsfc.nasa.gov (Brian Dealy - CSC) writes:
+ in article <1993apr20.105725@narya.gsfc.nasa.gov> 
+    dealy@narya.gsfc.nasa.gov (brian dealy - csc) writes:
  >
- >Anyone know how an application can retrieve the name of the font from
- >an application given an XFontStruct *? 
- >Would XGetFontProperty work if I passed XA_FONT_NAME? 
- >anyone know details of this?  Thanks in advance.
- >Brian
+ >anyone know how an application can retrieve the name of the font from
+ >an application given an xfontstruct *? 
+ >would xgetfontproperty work if i passed xa_font_name? 
+ >anyone know details of this?  thanks in advance.
+ >brian
  >
  >-- 
- >Brian Dealy                |301-572-8267| It not knowing where it's at  
+ >brian dealy                |301-572-8267| it not knowing where it's at  
  >dealy@kong.gsfc.nasa.gov   |            | that's important,it's knowing
- >!uunet!dftsrv!kong!dealy   |            | where it's not at...  B.Dylan
+ >!uunet!dftsrv!kong!dealy   |            | where it's not at...  b.dylan
  
  
- Try this:
+ try this:
  
- char *name=NULL;
+ char *name=null;
  unsigned long value;
  
- if(XGetFontProperty(font, XA_FONT, value)) 
-     name=XGetAtomName(dpy, value);
+ if(xgetfontproperty(font, xa_font, value)) 
+     name=xgetatomname(dpy, value);
  
- where dpy is your Display connection and font your XFontStruct pointer.
+ where dpy is your display connection and font your xfontstruct pointer.
  
  -- 
- Alan Richardson,                             * "You don't have to be *
- School of Maths & Physical Sciences,         *  old to be wise"      *
- Univ. of Sussex, Brighton BN1 9QH, ENGLAND   * ******Judas Priest*****
- UK: mppa3@uk.ac.sussex.syma         elsewhere: mppa3@syma.sussex.ac.uk
+ alan richardson,                             * "you don't have to be *
+ school of maths & physical sciences,         *  old to be wise"      *
+ univ. of sussex, brighton bn1 9qh, england   * ******judas priest*****
+ uk: mppa3@uk.ac.sussex.syma         elsewhere: mppa3@syma.sussex.ac.uk
  

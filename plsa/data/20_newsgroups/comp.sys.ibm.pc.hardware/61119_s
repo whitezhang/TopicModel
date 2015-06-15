@@ -1,31 +1,31 @@
 
- In article <10006.24.uupcb@ozonehole.com> chris.crayton@ozonehole.com (Chris Crayton)  writes:
- >*** On 04-20-93  21:25, Larry Henson had the unmitigated gall to say this:
+ in article <10006.24.uupcb@ozonehole.com> chris.crayton@ozonehole.com (chris crayton)  writes:
+ >*** on 04-20-93  21:25, larry henson had the unmitigated gall to say this:
  >
- > LH> Hello, I am trying to hook an Apple Imagewriter to my IBM Clone.
- > LH> I seem to have a problem configuring my lpt port to accept this.  How
- > LH> can you adjust baud, parity, etc. to fit the system?  I tried MODE, but
- > LH> it did not work.  If anyone can help, post of e-mail.  Thanx.
+ > lh> hello, i am trying to hook an apple imagewriter to my ibm clone.
+ > lh> i seem to have a problem configuring my lpt port to accept this.  how
+ > lh> can you adjust baud, parity, etc. to fit the system?  i tried mode, but
+ > lh> it did not work.  if anyone can help, post of e-mail.  thanx.
  >
- >LPT ports don't recognize baud, parity, etc. settings.  You might be tring
- >to connect a serial printer to a parallel port.  Try this: attach the serial
- >port of the printer to a serial port on the PC.  Use the mode command to set
- >the COM port settings.  Try
+ >lpt ports don't recognize baud, parity, etc. settings.  you might be tring
+ >to connect a serial printer to a parallel port.  try this: attach the serial
+ >port of the printer to a serial port on the pc.  use the mode command to set
+ >the com port settings.  try
  >
- >C>MODE COM1,9600,N,8,1
+ >c>mode com1,9600,n,8,1
  >
- >to set the port parameters.  Then use the MODE command to redirect the
- >printer port LPT1 like this:
+ >to set the port parameters.  then use the mode command to redirect the
+ >printer port lpt1 like this:
  >
- >C>MODE LPT1=COM1
+ >c>mode lpt1=com1
  >
- >This should work.  Good luck!
+ >this should work.  good luck!
  >
- 	First you need to connect them with a null modem cable.
+ 	first you need to connect them with a null modem cable.
  
- Atleast thats what I've heard.
+ atleast thats what i've heard.
  
- Dave.
+ dave.
  
  
  

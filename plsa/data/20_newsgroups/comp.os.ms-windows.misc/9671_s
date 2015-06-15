@@ -1,25 +1,25 @@
 
  
- I just got off the phone with Mathsoft technical service. They
- are now admitting a problem of unknown nature with Maple and
- Norton Desktop for Windows. They have no clue at this time
+ i just got off the phone with mathsoft technical service. they
+ are now admitting a problem of unknown nature with maple and
+ norton desktop for windows. they have no clue at this time
  and are collecting configuration information on the systems
- which exhibit the problem. Anyone having problems loading the
- Maple solver in MathCad 4.0 under NDW shoud call technical
- support at 617-577-1017. They made no schedule promices,
+ which exhibit the problem. anyone having problems loading the
+ maple solver in mathcad 4.0 under ndw shoud call technical
+ support at 617-577-1017. they made no schedule promices,
  but are actively working on the problem.
  
- In the meantime, the workaround is to provide a configuration
- selection in autoexec.bat to use PROGMAN (yuk, pew) whenever
- you plan to use the Maple solver and NDW otherwise. I am using
- Norton BE to place a little menu on the screen with a 5 second
- timeout to auto boot NDW.
+ in the meantime, the workaround is to provide a configuration
+ selection in autoexec.bat to use progman (yuk, pew) whenever
+ you plan to use the maple solver and ndw otherwise. i am using
+ norton be to place a little menu on the screen with a 5 second
+ timeout to auto boot ndw.
  
  +---------------------------------+----------------------+
- |    _/      _/     _/    _/  _/  | David A. Fuess       |
- |   _/      _/     _/_/  _/  _/   | Dir, Center for EECS |
- |  _/      _/     _/  _/_/  _/    | Phone: (510)423-2436 |
- | _/_/_/  _/_/_/ _/    _/  _/_/_/ | Fax:   (510)422-9343 |
- +-------- Lawrence Livermore National Laboratory --------+
+ |    _/      _/     _/    _/  _/  | david a. fuess       |
+ |   _/      _/     _/_/  _/  _/   | dir, center for eecs |
+ |  _/      _/     _/  _/_/  _/    | phone: (510)423-2436 |
+ | _/_/_/  _/_/_/ _/    _/  _/_/_/ | fax:   (510)422-9343 |
+ +-------- lawrence livermore national laboratory --------+
  
  

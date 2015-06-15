@@ -1,8 +1,8 @@
 
- In <1993Apr19.185326.9830@Princeton.EDU> mg@cs.princeton.edu (Michael Golan) writes:
+ in <1993apr19.185326.9830@princeton.edu> mg@cs.princeton.edu (michael golan) writes:
  
- >I was looking at the amps diagram for Sony 1090/2090 receivers, and I
- >was amazed to find a difference between the US and Canadian model
+ >i was looking at the amps diagram for sony 1090/2090 receivers, and i
+ >was amazed to find a difference between the us and canadian model
  >on the capacitor(s) that hangs off the output to the speakers:
  
  >                         ------\/\/\----- to speaker (identical both models
@@ -13,33 +13,33 @@
  >                        |
  >                       -----                        
  >                      |     |                        
- >        0.022        ---   ---        Canadian model only!
- >     US model        ---   --- 0.047 
+ >        0.022        ---   ---        canadian model only!
+ >     us model        ---   --- 0.047 
  >     and world-wide   |     |
- >     model only.      |    ---        Candian model only!
+ >     model only.      |    ---        candian model only!
  >                      |    ---  0.047
  >                      |     |
  >                       ----------- gound
  
- >The board itself is also identical, with room for all three caps. The
- >US/Can versions is clearly indicated in both places.
+ >the board itself is also identical, with room for all three caps. the
+ >us/can versions is clearly indicated in both places.
  
- >How does that make sense? 0.047/2 is 0.0235, essentially 0.022 for caps
- >(there are just standard caps, no special W/type/precision). 
+ >how does that make sense? 0.047/2 is 0.0235, essentially 0.022 for caps
+ >(there are just standard caps, no special w/type/precision). 
  
- >Please explain this
- > Michael Golan
+ >please explain this
+ > michael golan
  > mg@cs.princeton.edu
  
- The only explanation I can think of is that two capacitors in series
- can handle twice the output voltage. Sometimes two elco's in antiseries
+ the only explanation i can think of is that two capacitors in series
+ can handle twice the output voltage. sometimes two elco's in antiseries
  (you know, positive sides facing eachother) are used to obtain a large
  capacitor that can handle positive and negative voltages as well.
  
- So there probably is no design-philosophical reason, but a production-cost
+ so there probably is no design-philosophical reason, but a production-cost
  one.
  
- Best 73's
+ best 73's
  
- Wouter
+ wouter
  

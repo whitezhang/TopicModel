@@ -1,48 +1,48 @@
 
- I am having trouble with SCSI on a Mac IIfx. The machine is 3 years old
- and I have been using the same hard drive (internal Maxtor LXT-200S) for
- two and a half years. The disk recently crashed. I reformatted (Silverlining
- 5.42), but during the reformat I received random write errors during testing.
- The error message reported was like:
+ i am having trouble with scsi on a mac iifx. the machine is 3 years old
+ and i have been using the same hard drive (internal maxtor lxt-200s) for
+ two and a half years. the disk recently crashed. i reformatted (silverlining
+ 5.42), but during the reformat i received random write errors during testing.
+ the error message reported was like:
  
- Sector 0: Write error detected after testing good - sector not mapped out.
+ sector 0: write error detected after testing good - sector not mapped out.
  
- This occurred randomly all over the hard disk (which makes me suspect the
- diagnostic's reference to Sector 0 ??? ). On the third reformat and after
- reinstalling the SCSI read/write loops I was able to get through passes
- 2,3, and 4 with no errors. (Pass 1 for some reason reported a lot of errors,
- but still mapped out no sectors.) I decided to go ahead and try to resinstall
- System 7 and reload my data from a backup. This proceded normally; however,
- I now have sub-optimal performance. Symptoms include:
+ this occurred randomly all over the hard disk (which makes me suspect the
+ diagnostic's reference to sector 0 ??? ). on the third reformat and after
+ reinstalling the scsi read/write loops i was able to get through passes
+ 2,3, and 4 with no errors. (pass 1 for some reason reported a lot of errors,
+ but still mapped out no sectors.) i decided to go ahead and try to resinstall
+ system 7 and reload my data from a backup. this proceded normally; however,
+ i now have sub-optimal performance. symptoms include:
  
-    o Frequent crashes
-    o Instances of extremely sluggish disk access requiring a reboot to
+    o frequent crashes
+    o instances of extremely sluggish disk access requiring a reboot to
         correct.
-    o Instances of not finding the disk on the SCSI chain on reboot.
-        - If I boot from Norton Utl. after this occurs, it cannot find the
+    o instances of not finding the disk on the scsi chain on reboot.
+        - if i boot from norton utl. after this occurs, it cannot find the
           disk either.
-        - The only thing that fixes this is recycling the power. It sometimes
+        - the only thing that fixes this is recycling the power. it sometimes
           requires several attempts.
  
- QUESTIONS:
+ questions:
  
-    1) Has anyone had this type of problem before?
-    2) Is the problem with the fx motherboard (And its non-standard
-       SCSI implementation) or with my Maxtor Disk? Is there some
+    1) has anyone had this type of problem before?
+    2) is the problem with the fx motherboard (and its non-standard
+       scsi implementation) or with my maxtor disk? is there some
        diagnostic software that would help me make this determination?
-    3) Is it a termination problem? I currently have external Syquest
-       and an external DataFrame XP60 on the chain. The XP60 is at the
-       end, and has internal termination; so I am not using the IIfx
-       terminator. I do have the SCSI filter installed on the internal
-       drive. I have run with this exact steup for 2 1/2 years with
+    3) is it a termination problem? i currently have external syquest
+       and an external dataframe xp60 on the chain. the xp60 is at the
+       end, and has internal termination; so i am not using the iifx
+       terminator. i do have the scsi filter installed on the internal
+       drive. i have run with this exact steup for 2 1/2 years with
        one previous disk crash requiring a reformat (about a year ago).
-       I also have symptoms if I disconnect the external devices;
-       so I don't see how SCSI termination would now be an issue. Of
+       i also have symptoms if i disconnect the external devices;
+       so i don't see how scsi termination would now be an issue. of
        course who knows :-<
  
- Help would be much appreciated.
+ help would be much appreciated.
  
- Forrest E. Lumpkin III
- NASA Ames Research Center
+ forrest e. lumpkin iii
+ nasa ames research center
  lumpkin@corvus.arc.nasa.gov
  

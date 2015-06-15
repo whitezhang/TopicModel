@@ -1,14 +1,14 @@
 
  
- In article <9304280923.AA26702@sun4nl.nluug.nl>, bultman@dgw.rws.nl (G.W.Bultman) writes:
- |> Hi,
+ in article <9304280923.aa26702@sun4nl.nluug.nl>, bultman@dgw.rws.nl (g.w.bultman) writes:
+ |> hi,
  |> 
- |> I'm looking for RGB (cube) --> HLS (double hexcone) --> HSV (cylinder) 
- |> conversion routines. I have RGB <--> HSV, but miss the HLS <--> RGB/HSV.
+ |> i'm looking for rgb (cube) --> hls (double hexcone) --> hsv (cylinder) 
+ |> conversion routines. i have rgb <--> hsv, but miss the hls <--> rgb/hsv.
  |> 
- 	Have you checked Foley's book? The solutions are in chapter 13.
+ 	have you checked foley's book? the solutions are in chapter 13.
  
- 	Yeh
- 	USC
+ 	yeh
+ 	usc
  
  

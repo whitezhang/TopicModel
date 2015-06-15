@@ -1,37 +1,37 @@
 
- To all hardware and firmware gurus:
+ to all hardware and firmware gurus:
  
- My current home project is to build a huge paddle keyboard for a 
- physically handicapped relative of mine.  My goal is for this keyboard
- to look exactly like an AT sytle keyboard to its host system.
- This will be a highly endowed keyboard with a Little PCL from Z World
- at its heart.  The only thing I lack is detailed information on the
- hardware signaling that the 486 (with  Windows 3.1  and DOS 5.0) will be 
- expecting.  My project is independant of Windows, my hope is that some of
- you fellow Window's users/programmers will recognize what I need and be 
+ my current home project is to build a huge paddle keyboard for a 
+ physically handicapped relative of mine.  my goal is for this keyboard
+ to look exactly like an at sytle keyboard to its host system.
+ this will be a highly endowed keyboard with a little pcl from z world
+ at its heart.  the only thing i lack is detailed information on the
+ hardware signaling that the 486 (with  windows 3.1  and dos 5.0) will be 
+ expecting.  my project is independant of windows, my hope is that some of
+ you fellow window's users/programmers will recognize what i need and be 
  willing to point me in the right direction. 
  
- I have The Winn L. Rosch Hardware Bible (2nd edition).  The HB gives
- most (if not all) of the information I will need concerning scan codes 
- and even a wire diagram for the PS/2 style connector I will need, but it 
+ i have the winn l. rosch hardware bible (2nd edition).  the hb gives
+ most (if not all) of the information i will need concerning scan codes 
+ and even a wire diagram for the ps/2 style connector i will need, but it 
  leaves a number of important questions unanswered.
- 1.  Is it synchronous or asynchronous serial communication?  I'm
-     guessing synchronous since the host is providing a clock.  In either
+ 1.  is it synchronous or asynchronous serial communication?  i'm
+     guessing synchronous since the host is providing a clock.  in either
      event, how is the data framed?
- 2.  Is it half-duplex or truly one way?  I'm guessing half-duplex
-     since the host can turn LEDs on and off.
- 3.  Are there any chipsets available for communicating with the "AT
+ 2.  is it half-duplex or truly one way?  i'm guessing half-duplex
+     since the host can turn leds on and off.
+ 3.  are there any chipsets available for communicating with the "at
      keyboard standard" (other than by cannibalizing a real keyboard)?
  
- If anyone knows of a book or article (or any other written source of
+ if anyone knows of a book or article (or any other written source of
  information) on the above, please advise me at gamet@erg.sri.com.
- Whatever I do it must be safe for I cannot afford to replace the 486 in
+ whatever i do it must be safe for i cannot afford to replace the 486 in
  the event of a booboo.
  
- Thank you for your time.
- Danke fuer Ihre Zeit.
+ thank you for your time.
+ danke fuer ihre zeit.
  
- Thomas Gamet (gamet@erg.sri.com)
- Software Engineer
- SRI International
+ thomas gamet (gamet@erg.sri.com)
+ software engineer
+ sri international
  

@@ -1,21 +1,21 @@
 
- In article 54297@slate.mines.colorado.edu, agallagh@slate.mines.colorado.edu (GALLAGHER ANDREA J ) writes:
+ in article 54297@slate.mines.colorado.edu, agallagh@slate.mines.colorado.edu (gallagher andrea j ) writes:
  >[posted for a friend]
  >
- >Okay, I looked through the FAQs and didn't see this, but I know its
+ >okay, i looked through the faqs and didn't see this, but i know its
  >come up before...
  >
- >XAllocColor is supposed to do the following in order:
- >    Try to find an exact match read-only color cell. (within hardware limits)
- >    Try to allocate a read-only colorcell and set it to match.
+ >xalloccolor is supposed to do the following in order:
+ >    try to find an exact match read-only color cell. (within hardware limits)
+ >    try to allocate a read-only colorcell and set it to match.
  >	and when all else fails, 
- >    Return the colorcell with the best match from the read-only colors 
+ >    return the colorcell with the best match from the read-only colors 
  >    already allocated in the colormap.
  
- Where did you hear this?  If it is printed in a book somewhere,
- throw away the book.  According to the MIT specs, only the first
+ where did you hear this?  if it is printed in a book somewhere,
+ throw away the book.  according to the mit specs, only the first
  2 are true.
  
  ---
- Ken Lee, klee@synoptics.com
+ ken lee, klee@synoptics.com
  

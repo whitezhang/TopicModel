@@ -1,6 +1,6 @@
 
- I've turned my monitor on and off with the cpu running many times. Each time
- I wonder what I am doing to my CPU by directly hooking in such a high current
- draw on its lines while it is running. Does this put a substantial spike on
- the power line? Could one possibly lose data or damage equipment?
+ i've turned my monitor on and off with the cpu running many times. each time
+ i wonder what i am doing to my cpu by directly hooking in such a high current
+ draw on its lines while it is running. does this put a substantial spike on
+ the power line? could one possibly lose data or damage equipment?
  

@@ -1,14 +1,14 @@
 
- In article <1993Apr16.205724.26258@mnemosyne.cs.du.edu> smace@nyx.cs.du.edu (Scott Mace) writes:
+ in article <1993apr16.205724.26258@mnemosyne.cs.du.edu> smace@nyx.cs.du.edu (scott mace) writes:
  >
- >Have you ever seen what happens when you hook a busmaster controller to
- >a vesa local bus.  It actually  slows down your system.....
+ >have you ever seen what happens when you hook a busmaster controller to
+ >a vesa local bus.  it actually  slows down your system.....
  >
- >If you don't belive what I said about busmastering and vlbus then pick
- >up a back issue of PC-week in whihc they tested vlbus, eisa and isa
+ >if you don't belive what i said about busmastering and vlbus then pick
+ >up a back issue of pc-week in whihc they tested vlbus, eisa and isa
  >busmastering cards.
  
- Is VLB busmastering bad because it stops the processor fetching from
- external cache as well as main memory while the VLB card has the bus?
- How significant is the slowing effect?
+ is vlb busmastering bad because it stops the processor fetching from
+ external cache as well as main memory while the vlb card has the bus?
+ how significant is the slowing effect?
  

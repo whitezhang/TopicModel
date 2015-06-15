@@ -1,30 +1,30 @@
 
  
- In article <1993Apr14.102007.20664@uk03.bull.co.uk>, scrowe@hemel.bull.co.uk (Simon Crowe) writes:
- |> I am looking for an algorithm to determine if a given point is bound by a 
- |> polygon. Does anyone have any such code or a reference to book containing
+ in article <1993apr14.102007.20664@uk03.bull.co.uk>, scrowe@hemel.bull.co.uk (simon crowe) writes:
+ |> i am looking for an algorithm to determine if a given point is bound by a 
+ |> polygon. does anyone have any such code or a reference to book containing
  |> information on the subject ?
  |> 
- |> 		Regards
+ |> 		regards
  |> 
- |> 			Simon
+ |> 			simon
  
- Basically, there are two algorithms determining whether a point is inside,
- outside or on the polygon. The first one is Ray (or half line) method. In
+ basically, there are two algorithms determining whether a point is inside,
+ outside or on the polygon. the first one is ray (or half line) method. in
  this method, you can draw any ray, if the number of the intersection point
- of the ray and the polygon is even, then it is outside. If the number is odd,
- then it is inside. Of cause, you have to deal with the special cases which
+ of the ray and the polygon is even, then it is outside. if the number is odd,
+ then it is inside. of cause, you have to deal with the special cases which
  may make you headache.
  
- The second method is PI algorithm. Draw the lines between the point and
- all the vertices on the polygon. Calculate and sum the angles of the
- successive lines. If the result is 2*PI, then it is inside. If PI, then
- it is on the polygon. Otherwise it is outside.
+ the second method is pi algorithm. draw the lines between the point and
+ all the vertices on the polygon. calculate and sum the angles of the
+ successive lines. if the result is 2*pi, then it is inside. if pi, then
+ it is on the polygon. otherwise it is outside.
  
- My experience tells the second method is relible.
+ my experience tells the second method is relible.
  
- Hope this helps.
+ hope this helps.
  
- Yeh
- USC
+ yeh
+ usc
  

@@ -1,24 +1,24 @@
 
- osprey@ux4.cso.uiuc.edu (Lucas Adamski) writes:
+ osprey@ux4.cso.uiuc.edu (lucas adamski) writes:
  
- >In article <1993Apr17.192947.11230@sophia.smith.edu> orourke@sophia.smith.edu (Joseph O'Rourke) writes:
- >>In article <C5n3x0.B5L@news.cso.uiuc.edu> osprey@ux4.cso.uiuc.edu (Lucas Adamski) writes:
- >>>[...], but I'm looking for a fast polygon routine to be used in a 3D game.
- >>A fast polygon routine to do WHAT?
- >To draw polygons of course.  Its a VGA mode 13h (320x200) game, [...]
+ >in article <1993apr17.192947.11230@sophia.smith.edu> orourke@sophia.smith.edu (joseph o'rourke) writes:
+ >>in article <c5n3x0.b5l@news.cso.uiuc.edu> osprey@ux4.cso.uiuc.edu (lucas adamski) writes:
+ >>>[...], but i'm looking for a fast polygon routine to be used in a 3d game.
+ >>a fast polygon routine to do what?
+ >to draw polygons of course.  its a vga mode 13h (320x200) game, [...]
  
- Hi, I've come across a fast triangle fill-draw routine for mode 13h.  By
+ hi, i've come across a fast triangle fill-draw routine for mode 13h.  by
  calling this routine enough times, you have a fast polygon drawing routine.
  
- I think I ftp'ed from wuarchive.wustl.edu:/pub/MSDOS_UPLOADS/programming.
- I have a copy of it so I reupload it there.  The triangle.txt file has this
+ i think i ftp'ed from wuarchive.wustl.edu:/pub/msdos_uploads/programming.
+ i have a copy of it so i reupload it there.  the triangle.txt file has this
  to say :
  
- >  C and inline assembly source for a VGA mode 13h triangle drawer.
+ >  c and inline assembly source for a vga mode 13h triangle drawer.
  
  --
- Stephen Quan (quan@sol.surv.utas.edu.au)      Tel : 002 202844 (local)
- Research Fellow, Computer Scientist,          Fax : 002 240282 (local)
- Centre for Spatial Information Systems,       Tel : 61 02 202844
- University of Tasmania, Australia.            Fax : 61 02 240282
+ stephen quan (quan@sol.surv.utas.edu.au)      tel : 002 202844 (local)
+ research fellow, computer scientist,          fax : 002 240282 (local)
+ centre for spatial information systems,       tel : 61 02 202844
+ university of tasmania, australia.            fax : 61 02 240282
  

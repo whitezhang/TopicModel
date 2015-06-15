@@ -1,33 +1,33 @@
 
  
- Dear Reader,
+ dear reader,
  
  
- I'am searching for an implementation of a polygon reduction algorithm
- for marching cubes surfaces. I think the best one is the reduction algorithm
- from Schroeder et al., SIGGRAPH '92. So, is there any implementation of this 
+ i'am searching for an implementation of a polygon reduction algorithm
+ for marching cubes surfaces. i think the best one is the reduction algorithm
+ from schroeder et al., siggraph '92. so, is there any implementation of this 
  algorithm, it would be very nice if you could leave it to me.
  
- Also I'am looking for a fast !!! connectivity
+ also i'am looking for a fast !!! connectivity
  test for marching cubes surfaces.
  
- Any help or hints will be very useful.
- Thanks a lot
+ any help or hints will be very useful.
+ thanks a lot
  
  
                                                   ,,,
                                                  (o o)
-  ___________________________________________oOO__(-)__OOo_____________
+  ___________________________________________ooo__(-)__ooo_____________
  |___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|_|
  |_|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
  |                               |                                     |
- | Erwin Keeve                   | adress:  Peter-Welter-Platz 2       |
- |                               |          W-5000 Cologne 1, Germany  |
+ | erwin keeve                   | adress:  peter-welter-platz 2       |
+ |                               |          w-5000 cologne 1, germany  |
  |                               |                                     |
- | Dept. of Computergraphics &   | phone:   +49-221-20189-132 (-192)   |
- |          Computeranimation    | FAX:     +49-221-20189-17           |
+ | dept. of computergraphics &   | phone:   +49-221-20189-132 (-192)   |
+ |          computeranimation    | fax:     +49-221-20189-17           |
  |                               |                                     |
- | Academy of Media Arts Cologne | Email:   keeve@khm.uni-koeln.de     |
+ | academy of media arts cologne | email:   keeve@khm.uni-koeln.de     |
  |_______________________________|_____________________________________|
  
  

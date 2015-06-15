@@ -1,26 +1,26 @@
 
  
- Howdy,
+ howdy,
  
- Sorry if this has been covered before:
+ sorry if this has been covered before:
  
- One of my PC illiterate friends asked me to help him install DRDOS 6.0 on his
- NEC Powermate SX (386SX 16).  Of course, I said "No problem" and went to work.
- Unfortunately, the DRDOS refuses to recognize the hard drive during 
- installation, even though I am still able to boot off of the hard drive using
- the old DOS.  After openning it up I discovered it was using an 8-bit 
- Seagate SCSI controller on a ST-157N SCSI 40Mbtye drive.  I then booted 
- with DRDOS 6.0 off of the floppy a second time and ran fdisk to see if 
- I could access the drive.  Lo and behold the primary 46.5 Mbyte partition 
- was intact (created by DOS 3.1 no less, I didn't think you could go over a
- 32Mbyte partition in the older DOSes. I could be wrong...).  I then tried 
- to remove the primary partition, which it wouldn't allow me to do.  I am 
- unaware of anything special that has to be done with a SCSI drive (I 
- kinda expected it to work just like an IDE/MFM/RLL drive for DOS 
- installations).  Any suggestions would be greatly appreciated (except for 
- "Throw it in the garbage and buy a new PC")...
+ one of my pc illiterate friends asked me to help him install drdos 6.0 on his
+ nec powermate sx (386sx 16).  of course, i said "no problem" and went to work.
+ unfortunately, the drdos refuses to recognize the hard drive during 
+ installation, even though i am still able to boot off of the hard drive using
+ the old dos.  after openning it up i discovered it was using an 8-bit 
+ seagate scsi controller on a st-157n scsi 40mbtye drive.  i then booted 
+ with drdos 6.0 off of the floppy a second time and ran fdisk to see if 
+ i could access the drive.  lo and behold the primary 46.5 mbyte partition 
+ was intact (created by dos 3.1 no less, i didn't think you could go over a
+ 32mbyte partition in the older doses. i could be wrong...).  i then tried 
+ to remove the primary partition, which it wouldn't allow me to do.  i am 
+ unaware of anything special that has to be done with a scsi drive (i 
+ kinda expected it to work just like an ide/mfm/rll drive for dos 
+ installations).  any suggestions would be greatly appreciated (except for 
+ "throw it in the garbage and buy a new pc")...
  
- Thanks in advance,
+ thanks in advance,
  
- Paul "Mr. SCSI... NOT!" Fincke
+ paul "mr. scsi... not!" fincke
  

@@ -1,139 +1,139 @@
 
- Sorry I missed you Raymond, I was just out in Dahlgren last month...
+ sorry i missed you raymond, i was just out in dahlgren last month...
  
- I'm the Virtual Reality market manager for Silicon Graphics, so perhaps I
+ i'm the virtual reality market manager for silicon graphics, so perhaps i
  can help a little.
  
- In article <1993Mar17.185725.13487@relay.nswc.navy.mil>,
- rchui@nswc-wo.nswc.navy.mil (Raymond Chui) writes:
- |> Hello, the real reality. Our agency started to express interest in
- |> virtual reality(VR).  So far, we do not know much about VR.  All we
- |> know about are the Hollywood movies "The Terminater 2" and "Lawnmover
- |> Man".  We also know something about VR from ABC news magazine and
- |> Computer Graphics World magazine.
+ in article <1993mar17.185725.13487@relay.nswc.navy.mil>,
+ rchui@nswc-wo.nswc.navy.mil (raymond chui) writes:
+ |> hello, the real reality. our agency started to express interest in
+ |> virtual reality(vr).  so far, we do not know much about vr.  all we
+ |> know about are the hollywood movies "the terminater 2" and "lawnmover
+ |> man".  we also know something about vr from abc news magazine and
+ |> computer graphics world magazine.
  
  
- Unfortunately, while SGI systems were used to create the special effects
- for both Terminator 2 and Lawnmower Man, those are film-quality computer
- graphics, rendered in software and written to film a frame at a time.  Each
+ unfortunately, while sgi systems were used to create the special effects
+ for both terminator 2 and lawnmower man, those are film-quality computer
+ graphics, rendered in software and written to film a frame at a time.  each
  frame of computer animation for those films took hours to render on
- high-end parallel processing computer systems. Thus, that level of graphics
+ high-end parallel processing computer systems. thus, that level of graphics
  would be difficult, if not impossible, to acheive in real time (30 frames
  per second).
  
  
  |> 
- |> We certainly want to know more about VR.  Who are the leading
+ |> we certainly want to know more about vr.  who are the leading
  |> companies,
- |> agencies, universities?  What machines support VR (i.e. SGI, Sun4,
- |> HP-9000, BIM-6000, etc.)?
+ |> agencies, universities?  what machines support vr (i.e. sgi, sun4,
+ |> hp-9000, bim-6000, etc.)?
  
  
- It depends upon how serious you are and how advanced your application is.
- True immersive visualization (VR), requires the rendering of complex visual
- databases at anywhere from 20 to 60 newly rendered frames per second.  This
+ it depends upon how serious you are and how advanced your application is.
+ true immersive visualization (vr), requires the rendering of complex visual
+ databases at anywhere from 20 to 60 newly rendered frames per second.  this
  is a similar requirement to that of traditional flight simulators for pilot
- training. If the frame rate is too low, the user notices the stepping of
+ training. if the frame rate is too low, the user notices the stepping of
  the frames as they move their head rapidly around the scene, so the motion
- of the graphics is not smooth and contiguous.  Thus the graphics system
+ of the graphics is not smooth and contiguous.  thus the graphics system
  must be powerful enough to sustain high frame rates while rendering complex
  data representations.
  
- Additionally, the frame rate must be constant.  If the system renders 15
+ additionally, the frame rate must be constant.  if the system renders 15
  frames per second at one point, then 60 frames per second the next (perhaps
  due to the scene in the new viewing direction being simpler than what was
  visible before), the user can get heavily distracted by the medium (the
- graphics computer) rather than focusing on the data. To maintain a constant
- frame rate, the system must be able to run in real-time.  UNIX in general
- does not support real-time operation, but Silicon Graphics has modified the
- UNIX kernel for its multi-processor systems to be able to support real-time
- operation, bypassing the usual UNIX process priority-management schemes. 
- Uniprocessor systems running UNIX cannot fundamentally support real-time
- operation (not Sun SPARC10, not HP 700 Series systems, not IBM RS-6000, not
- even SGI's uniprocessor systems like Indigo or Crimson). Only our
- multiprocessor Onyx and Challenge systems support real-time operation due
- to their Symmetric Multi-Processing (SMP) shared-memory architecture.
+ graphics computer) rather than focusing on the data. to maintain a constant
+ frame rate, the system must be able to run in real-time.  unix in general
+ does not support real-time operation, but silicon graphics has modified the
+ unix kernel for its multi-processor systems to be able to support real-time
+ operation, bypassing the usual unix process priority-management schemes. 
+ uniprocessor systems running unix cannot fundamentally support real-time
+ operation (not sun sparc10, not hp 700 series systems, not ibm rs-6000, not
+ even sgi's uniprocessor systems like indigo or crimson). only our
+ multiprocessor onyx and challenge systems support real-time operation due
+ to their symmetric multi-processing (smp) shared-memory architecture.
  
- From a graphics perspective, rendering complex virtual environments
+ from a graphics perspective, rendering complex virtual environments
  requires advanced rendering techniques like texture mapping and real-time
- multi-sample anti-aliasing.  Of all of the general purpose graphics systems
- on the market today, only Crimson RealityEngine and Onyx RealityEngine2
- systems fully support these capabilities. The anti-aliasing is particularly
+ multi-sample anti-aliasing.  of all of the general purpose graphics systems
+ on the market today, only crimson realityengine and onyx realityengine2
+ systems fully support these capabilities. the anti-aliasing is particularly
  important, as the crawling jagged edges of aliased polygons is an
  unfortunate distraction when immersed in a virtual environment.
  
  
- |>  What kind of graphics languages are used with VR
- |> (GL, opengl, Phigs, PEX, GKS, etc.)?
+ |>  what kind of graphics languages are used with vr
+ |> (gl, opengl, phigs, pex, gks, etc.)?
  
- You can use the general purpose graphics libraries listed above to develop
- VR applications, but that is starting at a pretty low level. There are
+ you can use the general purpose graphics libraries listed above to develop
+ vr applications, but that is starting at a pretty low level. there are
  off-the- shelf software packages available to get you going much faster,
- being targeted directly at the VR application developer. Some of the most
+ being targeted directly at the vr application developer. some of the most
  popular are (in no particular order):
  
- 	- Division Inc.		    (Redwood City, CA) - dVS
- 	- Sens8 Inc.		    (Sausalito, CA)    - WorldToolKit
- 	- Naval Postgraduate School (Monterey, CA)     - NPSnet (FREE!)
- 	- Gemini Technology Corp    (Irvine, CA)       - GVS Simation Series
- 	- Paradigm Simulation Inc.  (Dallas, TX)       - VisionWorks, AudioWorks
- 	- Silicon Graphics Inc.	    (Mountain View,CA) - IRIS Performer
+ 	- division inc.		    (redwood city, ca) - dvs
+ 	- sens8 inc.		    (sausalito, ca)    - worldtoolkit
+ 	- naval postgraduate school (monterey, ca)     - npsnet (free!)
+ 	- gemini technology corp    (irvine, ca)       - gvs simation series
+ 	- paradigm simulation inc.  (dallas, tx)       - visionworks, audioworks
+ 	- silicon graphics inc.	    (mountain view,ca) - iris performer
  
- There are some others, but not off the top of my head...
+ there are some others, but not off the top of my head...
  
  	
- |> What companies are making
- |> interface devices for VR (goggles or BOOM (Binocular Omni-Orientational
- |> Monitor), hamlets, gloves, arms, etc.)?
+ |> what companies are making
+ |> interface devices for vr (goggles or boom (binocular omni-orientational
+ |> monitor), hamlets, gloves, arms, etc.)?
  
- There are too many to list here, but here is a smattering:
+ there are too many to list here, but here is a smattering:
  
- 	- Fake Space Labs	    (Menlo Park,CA)    - BOOM
- 	- Virtual Technologies Inc. (Stanford, CA)     - CyberGlove
- 	- Digital Image Design	    (New York, NY)     - The Cricket (3D input)
- 	- Kaiser Electro Optics	    (Carlsbad, CA)     - Sim Eye Helmet Displays
- 	- Virtual Research	    (Sunnyvale, CA)    - Flight Helmet display
- 	- Virtual Reality Inc.	    (Pleasantville,NY) - Head Mtd Displays, s/w
- 	- Software Systems	    (San Jose, CA)     - 3D Modeling software
+ 	- fake space labs	    (menlo park,ca)    - boom
+ 	- virtual technologies inc. (stanford, ca)     - cyberglove
+ 	- digital image design	    (new york, ny)     - the cricket (3d input)
+ 	- kaiser electro optics	    (carlsbad, ca)     - sim eye helmet displays
+ 	- virtual research	    (sunnyvale, ca)    - flight helmet display
+ 	- virtual reality inc.	    (pleasantville,ny) - head mtd displays, s/w
+ 	- software systems	    (san jose, ca)     - 3d modeling software
  	- etc., etc., etc.
  
  
- |> What are those company's
- |> addresses and phone numbers?  Where we can get a list name of VR
+ |> what are those company's
+ |> addresses and phone numbers?  where we can get a list name of vr
  |> experts
- |> and their phone numbers and Email addresses?
+ |> and their phone numbers and email addresses?
  
  
- Read some of the VR books on the market:
+ read some of the vr books on the market:
  
- 	- Virtual Reality - Ken Pimental and Ken Texiera (sp?)
- 	- Virtual Mirage
- 	- Artificial Reality - Myron Kreuger
+ 	- virtual reality - ken pimental and ken texiera (sp?)
+ 	- virtual mirage
+ 	- artificial reality - myron kreuger
  	- etc.
  
- Or check out the newsgroup sci.virtual_worlds
+ or check out the newsgroup sci.virtual_worlds
  
- Feel free to contact me for more info.
+ feel free to contact me for more info.
  
- Regards,
+ regards,
  
- Josh
+ josh
  
  -- 
  
  
  **************************************************************************
  **				     **					**
- **	Joshua Mogal		     **	Product Manager			**
- **	Advanced Graphics Division   **	  Advanced Graphics Systems	**
- **	Silicon Graphics Inc.	     **	Market Manager			**
- **	2011 North Shoreline Blvd.   **	  Virtual Reality		**
- **	Mountain View, CA 94039-7311 **	  Interactive Entertainment	**
- **	M/S 9L-580		     **					**
+ **	joshua mogal		     **	product manager			**
+ **	advanced graphics division   **	  advanced graphics systems	**
+ **	silicon graphics inc.	     **	market manager			**
+ **	2011 north shoreline blvd.   **	  virtual reality		**
+ **	mountain view, ca 94039-7311 **	  interactive entertainment	**
+ **	m/s 9l-580		     **					**
  **				     *************************************
- **	Tel:	(415) 390-1460						**
- **	Fax:	(415) 964-8671						**
- **	E-mail:	mogal@sgi.com						**
+ **	tel:	(415) 390-1460						**
+ **	fax:	(415) 964-8671						**
+ **	e-mail:	mogal@sgi.com						**
  **									**
  **************************************************************************
  

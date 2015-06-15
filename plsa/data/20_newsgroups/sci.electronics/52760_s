@@ -1,25 +1,25 @@
 
- In <3889@ncr-mpd.FtCollinsCO.NCR.COM> Brad Wright writes:
+ in <3889@ncr-mpd.ftcollinsco.ncr.com> brad wright writes:
  
- >	If you know much about PC's (IBM comp) you might try the joystick
- >port.  Though I haven't tried this myself, I've been told that the port
- >has built in A-D converters.  This would allow the joystick to be a couple of 
- >pots.  If you could find the specs this might just work for you...
+ >	if you know much about pc's (ibm comp) you might try the joystick
+ >port.  though i haven't tried this myself, i've been told that the port
+ >has built in a-d converters.  this would allow the joystick to be a couple of 
+ >pots.  if you could find the specs this might just work for you...
  
- I guess 100k, connecting pins 1-3 (1x), 1-6 (1y), 9-11 (2x), and 9-13 (2y).
+ i guess 100k, connecting pins 1-3 (1x), 1-6 (1y), 9-11 (2x), and 9-13 (2y).
  
- Or: Get an 8-bit DA-Converter (merely a couple of transistors and
- Resistors) and an OpAmp to compare its output to the voltage you want to
+ or: get an 8-bit da-converter (merely a couple of transistors and
+ resistors) and an opamp to compare its output to the voltage you want to
  measure, connect them to a spared printer port (if you have one), and do
- the rest by software (stepwise refinement). The port addresses for your
- printer ports are probably: &H378 (LPT1), &H278 (LPT2). This should work
+ the rest by software (stepwise refinement). the port addresses for your
+ printer ports are probably: &h378 (lpt1), &h278 (lpt2). this should work
  well enough for your purposes.
  
- Hope this helps
+ hope this helps
  
  --
- GMD,  Schloss Birlinghoven,  Postfach 1316,  D-5205 St. Augustin 1,  FRG
+ gmd,  schloss birlinghoven,  postfach 1316,  d-5205 st. augustin 1,  frg
  
- e-mail:  Peter.Hendricks@gmd.de			ph@zi.gmd.dbp.de
+ e-mail:  peter.hendricks@gmd.de			ph@zi.gmd.dbp.de
  	 ph@gmd.de
  

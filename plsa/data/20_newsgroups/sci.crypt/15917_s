@@ -1,46 +1,46 @@
 
- > In article <1993Apr21.192615.3465@guvax.acc.georgetown.edu>, denning@guvax.acc.georgetown.edu writes:
+ > in article <1993apr21.192615.3465@guvax.acc.georgetown.edu>, denning@guvax.acc.georgetown.edu writes:
  > 
- > > Each chip includes the following components:
+ > > each chip includes the following components:
  > 
- > >    the Skipjack encryption algorithm
- > >    F, an 80-bit family key that is common to all chips
- > >    N, a 30-bit serial number (this length is subject to change)
- > >    U, an 80-bit secret key that unlocks all messages encrypted with the chip
+ > >    the skipjack encryption algorithm
+ > >    f, an 80-bit family key that is common to all chips
+ > >    n, a 30-bit serial number (this length is subject to change)
+ > >    u, an 80-bit secret key that unlocks all messages encrypted with the chip
  > [ ... ]
  > 
- > > To see how the chip is used, imagine that it is embedded in the AT&T
- > > telephone security device (as it will be).  Suppose I call someone and
- > > we both have such a device.  After pushing a button to start a secure
- > > conversation, my security device will negotiate an 80-bit session key K
- > > with the device at the other end.  This key negotiation takes place
- > > without the Clipper Chip.  In general, any method of key exchange can
- > > be used such as the Diffie-Hellman public-key distribution method.
+ > > to see how the chip is used, imagine that it is embedded in the at&t
+ > > telephone security device (as it will be).  suppose i call someone and
+ > > we both have such a device.  after pushing a button to start a secure
+ > > conversation, my security device will negotiate an 80-bit session key k
+ > > with the device at the other end.  this key negotiation takes place
+ > > without the clipper chip.  in general, any method of key exchange can
+ > > be used such as the diffie-hellman public-key distribution method.
  > 
- > > Once the session key K is established, the Clipper Chip is used to
- > > encrypt the conversation or message stream M (digitized voice).  The
- > > telephone security device feeds K and M into the chip to produce two
+ > > once the session key k is established, the clipper chip is used to
+ > > encrypt the conversation or message stream m (digitized voice).  the
+ > > telephone security device feeds k and m into the chip to produce two
  > > values:
  > 
- > >    E[M; K], the encrypted message stream, and 
- > >    E[E[K; U] + N; F], a law enforcement field , 
+ > >    e[m; k], the encrypted message stream, and 
+ > >    e[e[k; u] + n; f], a law enforcement field , 
  > [ ... ]
  > 
- > > which are transmitted over the telephone line.  The law enforcement
- > > field thus contains the session key K encrypted under the unit key U
- > > concatenated with the serial number N, all encrypted under the family
- > > key F.  The law enforcement field is decrypted by law enforcement after
+ > > which are transmitted over the telephone line.  the law enforcement
+ > > field thus contains the session key k encrypted under the unit key u
+ > > concatenated with the serial number n, all encrypted under the family
+ > > key f.  the law enforcement field is decrypted by law enforcement after
  > > an authorized wiretap has been installed.
  
- Is the U used in the law enforcement field from the phone which placed the
+ is the u used in the law enforcement field from the phone which placed the
  call, from the unit whose 'start secure session' button was pressed first,
- or does each phone transmit its own law enforcement field?  Even assuming
- one of the first two choices, the FBI is going to get a fresh N,U for its
+ or does each phone transmit its own law enforcement field?  even assuming
+ one of the first two choices, the fbi is going to get a fresh n,u for its
  own database about every other phone call, eventually accumulating keys for
  all the phones used to connect to the line they are monitoring, not just
- the 'suspects' key.  (Assuming the ever-thrifty FBI doesn't forget each key
- after its wiretap permission has expired.)  Not quite a pyramid, but not
+ the 'suspects' key.  (assuming the ever-thrifty fbi doesn't forget each key
+ after its wiretap permission has expired.)  not quite a pyramid, but not
  bad, either.
  
- Carl Ijames     ijames@helix.nih.gov        More worried every day.
+ carl ijames     ijames@helix.nih.gov        more worried every day.
  

@@ -1,40 +1,40 @@
 
- From x51948b1@usma1.USMA.EDU Tue Apr 20 10:28:47 1993
- Received: from usma1.usma.edu by trotter.usma.edu (4.1/SMI-4.1-eef)
- 	id AA01628; Tue, 20 Apr 93 11:27:50 EDT
- Received:  by usma1.usma.edu (5.51/25-eef)
- 	id AA03219; Tue, 20 Apr 93 11:20:18 EDT
- Message-Id: <9304201520.AA03219@usma1.usma.edu>
- Date: Tue, 20 Apr 93 11:20:17 EDT
- From: x51948b1@usma1.USMA.EDU (Peckham David CDT)
- To: cs1442au@decster.uta.edu
- Subject: Problem.
- Status: OR
+ from x51948b1@usma1.usma.edu tue apr 20 10:28:47 1993
+ received: from usma1.usma.edu by trotter.usma.edu (4.1/smi-4.1-eef)
+ 	id aa01628; tue, 20 apr 93 11:27:50 edt
+ received:  by usma1.usma.edu (5.51/25-eef)
+ 	id aa03219; tue, 20 apr 93 11:20:18 edt
+ message-id: <9304201520.aa03219@usma1.usma.edu>
+ date: tue, 20 apr 93 11:20:17 edt
+ from: x51948b1@usma1.usma.edu (peckham david cdt)
+ to: cs1442au@decster.uta.edu
+ subject: problem.
+ status: or
  
  --------------------
  
- I am running a Unisys PW2 386SX20 with DOS 6.  My problem, even when I had DOS
- 5.0, is that when I have EMM386 loaded I can't CTL-ALT-DEL.  If I do, the
- computer beeps a few times rapidly and hangs.  Then I have to use the obscure
- reset (requires a screwdriver or pencil) or the power switch to reboot.  Does
+ i am running a unisys pw2 386sx20 with dos 6.  my problem, even when i had dos
+ 5.0, is that when i have emm386 loaded i can't ctl-alt-del.  if i do, the
+ computer beeps a few times rapidly and hangs.  then i have to use the obscure
+ reset (requires a screwdriver or pencil) or the power switch to reboot.  does
  anyone have a solution to this problem?
  
- E-mail me at x51948b1@usma1.usma.edu
+ e-mail me at x51948b1@usma1.usma.edu
  
- Dave
+ dave
  ---------------------
  
- Thanks,
+ thanks,
  
  dave
  -------------------------------------------------------------------------
- David S. Peckham                   |  Internet : x51948b1@usma1.usma.edu
- U.S. Military Academy              |
+ david s. peckham                   |  internet : x51948b1@usma1.usma.edu
+ u.s. military academy              |
  -------------------------------------------------------------------------
  
  -- 
-  Jason Brown
+  jason brown
  cs1442au@decster.uta.edu
  ------------------------------------------------------------------------
- Fav player Ruben Sierra
+ fav player ruben sierra
  

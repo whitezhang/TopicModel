@@ -1,312 +1,312 @@
 
- Archive-name: space/intro
- Last-modified: $Date: 93/04/01 14:39:10 $
+ archive-name: space/intro
+ last-modified: $date: 93/04/01 14:39:10 $
  
-     FREQUENTLY ASKED QUESTIONS ON SCI.SPACE/SCI.ASTRO
+     frequently asked questions on sci.space/sci.astro
  
-     INTRODUCTION
+     introduction
  
-     This series of linked messages is periodically posted to the Usenet
+     this series of linked messages is periodically posted to the usenet
  groups sci.space and sci.astro in an attempt to provide good answers to
  frequently asked questions and other reference material which is worth
- preserving. If you have corrections or answers to other frequently asked
+ preserving. if you have corrections or answers to other frequently asked
  questions that you would like included in this posting, send email to
- leech@cs.unc.edu (Jon Leech).
+ leech@cs.unc.edu (jon leech).
  
-     If you don't want to see the FAQ, add 'Frequently Asked Questions' to
- your KILL file for this group (if you're not reading this with a newsreader
+     if you don't want to see the faq, add 'frequently asked questions' to
+ your kill file for this group (if you're not reading this with a newsreader
  that can kill articles by subject, you're out of luck).
  
-     The FAQ volume is excessive right now and will hopefully be trimmed down
- by rewriting and condensing over time. The FAQ postings are available in
- the Ames SPACE archive in FAQ/faq<#>.
+     the faq volume is excessive right now and will hopefully be trimmed down
+ by rewriting and condensing over time. the faq postings are available in
+ the ames space archive in faq/faq<#>.
  
-     Good summaries will be accepted in place of the answers given here. The
+     good summaries will be accepted in place of the answers given here. the
  point of this is to circulate existing information, and avoid rehashing old
- answers. Better to build on top than start again. Nothing more depressing
- than rehashing old topics for the 100th time. References are provided
+ answers. better to build on top than start again. nothing more depressing
+ than rehashing old topics for the 100th time. references are provided
  because they give more complete information than any short generalization.
  
-     Questions fall into three basic types:
+     questions fall into three basic types:
  
-     1) Where do I find some information about space?
+     1) where do i find some information about space?
  
-     Try your local public library first. The net is not a good place to ask
-     for general information. Ask INDIVIDUALS (by email) if you must. There
-     are other sources, use them, too. The net is a place for open ended
+     try your local public library first. the net is not a good place to ask
+     for general information. ask individuals (by email) if you must. there
+     are other sources, use them, too. the net is a place for open ended
      discussion.
  
-     2) I have an idea which would improve space flight?
+     2) i have an idea which would improve space flight?
  
-     Hope you aren't surprised, but 9,999 out of 10,000 have usually been
-     thought of before. Again, contact a direct individual source for
-     evaluation. NASA fields thousands of these each day.
+     hope you aren't surprised, but 9,999 out of 10,000 have usually been
+     thought of before. again, contact a direct individual source for
+     evaluation. nasa fields thousands of these each day.
  
-     3) Miscellanous queries.
+     3) miscellanous queries.
  
-     These are addressed on a case-by-case basis in the following series of
-     FAQ postings.
+     these are addressed on a case-by-case basis in the following series of
+     faq postings.
  
  
-     SUGGESTIONS FOR BETTER NETIQUETTE
+     suggestions for better netiquette
  
-     Read news.announce.newusers if you're on Usenet.
-     Minimize cross references, [Do you REALLY NEED to?]
-     Edit "Subject:" lines, especially if you're taking a tangent.
-     Send mail instead, avoid posting follow ups. (1 mail message worth
+     read news.announce.newusers if you're on usenet.
+     minimize cross references, [do you really need to?]
+     edit "subject:" lines, especially if you're taking a tangent.
+     send mail instead, avoid posting follow ups. (1 mail message worth
  	100 posts).
-     Internet mail readers: send requests to add/drop to SPACE-REQUEST
- 	not SPACE.
-     Read all available articles before posting a follow-up. (Check all
+     internet mail readers: send requests to add/drop to space-request
+ 	not space.
+     read all available articles before posting a follow-up. (check all
  	references.)
-     Cut down attributed articles (leave only the points you're
- 	responding to; remove signatures and headers). Summarize!
-     Put a return address in the body (signature) of your message (mail
- 	or article), state your institution, etc. Don't assume the
+     cut down attributed articles (leave only the points you're
+ 	responding to; remove signatures and headers). summarize!
+     put a return address in the body (signature) of your message (mail
+ 	or article), state your institution, etc. don't assume the
  	'reply' function of mailers will work.
-     Use absolute dates. Post in a timely way. Don't post what everyone
- 	will get on TV anyway.
-     Some editors and window systems do character count line wrapping:
- 	keep lines under 80 characters for those using ASCII terminals
+     use absolute dates. post in a timely way. don't post what everyone
+ 	will get on tv anyway.
+     some editors and window systems do character count line wrapping:
+ 	keep lines under 80 characters for those using ascii terminals
  	(use carriage returns).
  
  
-     INDEX TO LINKED POSTINGS
+     index to linked postings
  
-     I've attempted to break the postings up into related areas. There isn't
+     i've attempted to break the postings up into related areas. there isn't
      a keyword index yet; the following lists the major subject areas in each
-     posting. Only those containing astronomy-related material are posted to
+     posting. only those containing astronomy-related material are posted to
      sci.astro (indicated by '*' following the posting number).
  
-     #	Contents
+     #	contents
  
-     1*	Introduction
- 	    Suggestions for better netiquette
- 	    Index to linked postings
- 	    Notes on addresses, phone numbers, etc.
- 	    Contributors
+     1*	introduction
+ 	    suggestions for better netiquette
+ 	    index to linked postings
+ 	    notes on addresses, phone numbers, etc.
+ 	    contributors
  
-     2*	Network resources
- 	    Overview
- 	    Mailing lists
- 	    Periodically updated information
- 	    Warning about non-public networks
+     2*	network resources
+ 	    overview
+ 	    mailing lists
+ 	    periodically updated information
+ 	    warning about non-public networks
  
-     3*	Online (and some offline) sources of images, data, etc.
- 	    Introduction
- 	    Viewing Images
- 	    Online Archives
- 		NASA Ames
- 		NASA Astrophysics Data System
- 		NASA Jet Propulsion Lab (Mission Information and Images)
- 		NASA Langley (Technical Reports)
- 		NASA Spacelink
- 		National Space Science Data Center
- 		Space Telescope Science Institute Electronic Info. Service
- 		Starcat
- 		Astronomical Databases
- 		Astronomy Programs
- 		Orbital Element Sets
- 		SPACE Digest
- 	    Landsat & NASA Photos
- 	    Planetary Maps
- 	    Cometary Orbits
+     3*	online (and some offline) sources of images, data, etc.
+ 	    introduction
+ 	    viewing images
+ 	    online archives
+ 		nasa ames
+ 		nasa astrophysics data system
+ 		nasa jet propulsion lab (mission information and images)
+ 		nasa langley (technical reports)
+ 		nasa spacelink
+ 		national space science data center
+ 		space telescope science institute electronic info. service
+ 		starcat
+ 		astronomical databases
+ 		astronomy programs
+ 		orbital element sets
+ 		space digest
+ 	    landsat & nasa photos
+ 	    planetary maps
+ 	    cometary orbits
  
-     4*	Performing calculations and interpreting data formats
- 	    Computing spacecraft orbits and trajectories
- 	    Computing planetary positions
- 	    Computing crater diameters from Earth-impacting asteroids
- 	    Map projections and spherical trignometry
- 	    Performing N-body simulations efficiently
- 	    Interpreting the FITS image format
- 	    Sky (Unix ephemeris program)
- 	    Three-dimensional star/galaxy coordinates
+     4*	performing calculations and interpreting data formats
+ 	    computing spacecraft orbits and trajectories
+ 	    computing planetary positions
+ 	    computing crater diameters from earth-impacting asteroids
+ 	    map projections and spherical trignometry
+ 	    performing n-body simulations efficiently
+ 	    interpreting the fits image format
+ 	    sky (unix ephemeris program)
+ 	    three-dimensional star/galaxy coordinates
  
-     5*	References on specific areas
- 	    Publishers of space/astronomy material
- 	    Careers in the space industry
- 	    DC-X single-stage to orbit (SSTO) program
- 	    How to name a star after a person
- 	    LLNL "great exploration"
- 	    Lunar Prospector
- 	    Lunar science and activities
- 	    Orbiting Earth satellite histories
- 	    Spacecraft models
- 	    Rocket propulsion
- 	    Spacecraft design
- 	    Esoteric propulsion schemes (solar sails, lasers, fusion...)
- 	    Spy satellites
- 	    Space shuttle computer systems
- 	    SETI computation (signal processing)
- 	    Amateur satellies & weather satellites
- 	    Tides
+     5*	references on specific areas
+ 	    publishers of space/astronomy material
+ 	    careers in the space industry
+ 	    dc-x single-stage to orbit (ssto) program
+ 	    how to name a star after a person
+ 	    llnl "great exploration"
+ 	    lunar prospector
+ 	    lunar science and activities
+ 	    orbiting earth satellite histories
+ 	    spacecraft models
+ 	    rocket propulsion
+ 	    spacecraft design
+ 	    esoteric propulsion schemes (solar sails, lasers, fusion...)
+ 	    spy satellites
+ 	    space shuttle computer systems
+ 	    seti computation (signal processing)
+ 	    amateur satellies & weather satellites
+ 	    tides
  
-     6*	Constants and equations for calculations
+     6*	constants and equations for calculations
  
-     7*	Astronomical Mnemonics
+     7*	astronomical mnemonics
  
-     8	Contacting NASA, ESA, and other space agencies/companies
- 	    NASA Centers / Arianespace / ESA / NASDA / Soyuzkarta / Space
- 		Camp / Space Commerce Corporation / Spacehab / SPOT Image
- 	    Other commercial space businesses
+     8	contacting nasa, esa, and other space agencies/companies
+ 	    nasa centers / arianespace / esa / nasda / soyuzkarta / space
+ 		camp / space commerce corporation / spacehab / spot image
+ 	    other commercial space businesses
  
-     9	Space shuttle answers, launch schedules, TV coverage
- 	    Shuttle launchings and landings; schedules and how to see them
- 	    Why does the shuttle roll just after liftoff?
- 	    How to receive the NASA TV channel, NASA SELECT
- 	    Amateur radio frequencies for shuttle missions
- 	    Solid Rocket Booster fuel composition
+     9	space shuttle answers, launch schedules, tv coverage
+ 	    shuttle launchings and landings; schedules and how to see them
+ 	    why does the shuttle roll just after liftoff?
+ 	    how to receive the nasa tv channel, nasa select
+ 	    amateur radio frequencies for shuttle missions
+ 	    solid rocket booster fuel composition
  
-     10	Planetary probes - Historical Missions
- 	    US planetary missions
- 	    Mariner (Venus, Mars, & Mercury flybys and orbiters)
- 	    Pioneer (Moon, Sun, Venus, Jupiter, and Saturn flybys and orbiters)
- 	    Ranger (Lunar lander and impact missions)
- 	    Lunar Orbiter (Lunar surface photography)
- 	    Surveyor (Lunar soft landers)
- 	    Viking (Mars orbiters and landers)
- 	    Voyager (Outer planet flybys)
- 	    Soviet planetary missions
- 	    Soviet Lunar probes
- 	    Soviet Venus probes
- 	    Soviet Mars probes
- 	    Japanese planetary missions
- 	    Planetary mission references
+     10	planetary probes - historical missions
+ 	    us planetary missions
+ 	    mariner (venus, mars, & mercury flybys and orbiters)
+ 	    pioneer (moon, sun, venus, jupiter, and saturn flybys and orbiters)
+ 	    ranger (lunar lander and impact missions)
+ 	    lunar orbiter (lunar surface photography)
+ 	    surveyor (lunar soft landers)
+ 	    viking (mars orbiters and landers)
+ 	    voyager (outer planet flybys)
+ 	    soviet planetary missions
+ 	    soviet lunar probes
+ 	    soviet venus probes
+ 	    soviet mars probes
+ 	    japanese planetary missions
+ 	    planetary mission references
  
-     11	Upcoming planetary probes - missions and schedules
- 	    Cassini
- 	    Galileo
- 	    Magellan
- 	    Mars Observer
- 	    TOPEX/Poseidon
- 	    Ulysses
- 	    Other space science missions
- 	    Proposed missions
+     11	upcoming planetary probes - missions and schedules
+ 	    cassini
+ 	    galileo
+ 	    magellan
+ 	    mars observer
+ 	    topex/poseidon
+ 	    ulysses
+ 	    other space science missions
+ 	    proposed missions
  
-     12	Controversial questions
- 	    What happened to the Saturn V plans
- 	    Why data from space missions isn't immediately available
- 	    Risks of nuclear (RTG) power sources for space probes
- 	    Impact of the space shuttle on the ozone layer
- 	    How long can a human live unprotected in space
- 	    How the Challenger astronauts died
- 	    Using the shuttle beyond Low Earth Orbit
- 	    The "Face on Mars"
+     12	controversial questions
+ 	    what happened to the saturn v plans
+ 	    why data from space missions isn't immediately available
+ 	    risks of nuclear (rtg) power sources for space probes
+ 	    impact of the space shuttle on the ozone layer
+ 	    how long can a human live unprotected in space
+ 	    how the challenger astronauts died
+ 	    using the shuttle beyond low earth orbit
+ 	    the "face on mars"
  
-     13	Space activist/interest/research groups and space publications
- 	    Groups
- 	    Publications
- 	    Undocumented Groups
+     13	space activist/interest/research groups and space publications
+ 	    groups
+ 	    publications
+ 	    undocumented groups
  
-     14	How to become an astronaut
+     14	how to become an astronaut
  
-     15	Orbital and Planetary Launch Services
+     15	orbital and planetary launch services
  
  
-     NOTES ON ADDRESSES, PHONE NUMBERS, ETC.
+     notes on addresses, phone numbers, etc.
  
-     Unless otherwise specified, telephone numbers, addresses, and so on are
-     for the United States of America. Non-US readers should remember to add
+     unless otherwise specified, telephone numbers, addresses, and so on are
+     for the united states of america. non-us readers should remember to add
      the country code for telephone calls, etc.
  
  
-     CREDITS
+     credits
  
-     Eugene Miya started a series of linked FAQ postings some years ago which
+     eugene miya started a series of linked faq postings some years ago which
      inspired (and was largely absorbed into) this set.
  
-     Peter Yee and Ron Baalke have and continue to spend a lot of their own
-     time setting up the SPACE archives at NASA Ames and forwarding official
-     NASA announcements.
+     peter yee and ron baalke have and continue to spend a lot of their own
+     time setting up the space archives at nasa ames and forwarding official
+     nasa announcements.
  
-     Many other people have contributed material to this list in the form of
-     old postings to sci.space and sci.astro which I've edited. Please let me
-     know if corrections need to be made. Contributors I've managed to keep
+     many other people have contributed material to this list in the form of
+     old postings to sci.space and sci.astro which i've edited. please let me
+     know if corrections need to be made. contributors i've managed to keep
      track of are:
  
-     0004847546@mcimail.com (Francis Reddy)	- map projections
-     ad038@yfn.ysu.edu (Steven Fisk)		- publication refs.
-     akerman@bill.phy.queensu.CA (Richard Akerman)   - crater diameters
-     alweigel@athena.mit.edu (Lisa Weigel)	- SEDS info
-     aoab314@emx.utexas.edu (Srinivas Bettadpur) - tides
-     awpaeth@watcgl.waterloo.edu (Alan Wm Paeth) - map projections
-     aws@iti.org (Allen W. Sherzer)		- Great Exploration
-     baalke@kelvin.jpl.nasa.gov (Ron Baalke)	- planetary probe schedules
-     bankst@rata.vuw.ac.nz (Timothy Banks)	- map projections,
+     0004847546@mcimail.com (francis reddy)	- map projections
+     ad038@yfn.ysu.edu (steven fisk)		- publication refs.
+     akerman@bill.phy.queensu.ca (richard akerman)   - crater diameters
+     alweigel@athena.mit.edu (lisa weigel)	- seds info
+     aoab314@emx.utexas.edu (srinivas bettadpur) - tides
+     awpaeth@watcgl.waterloo.edu (alan wm paeth) - map projections
+     aws@iti.org (allen w. sherzer)		- great exploration
+     baalke@kelvin.jpl.nasa.gov (ron baalke)	- planetary probe schedules
+     bankst@rata.vuw.ac.nz (timothy banks)	- map projections,
  	variable star analysis archive
-     bern@uni-trier.de (Jochen Bern)		- German mnemonic translation
-     brosen@pioneer.arc.nasa.gov (Bernie Rosen)	- Space Camp
-     bschlesinger@nssdca.gsfc.nasa.gov (Barry Schlesinger)   - FITS format
-     cew@venera.isi.edu (Craig E. Ward)		- space group contact info
-     chapin@cbnewsc.att.com (Tom Chapin)		- planetary positions
-     cunnida@tenet.edu (D. Alan Cunningham)	- NASA Spacelink
-     cyamamot@kilroy.Jpl.Nasa.Gov (Cliff Yamamoto) - orbital elements
-     datri@convex.com (Anthony Datri)		- PDS/VICAR viewing software
-     daver@sjc.mentorg.com (Dave Rickel)		- orbit formulae
-     dlbres10@pc.usl.edu (Phil Fraering)		- propulsion
-     eder@hsvaic.boeing.com (Dani Eder)		- Saturn V plans, SRBs
-     eugene@eos.arc.nasa.gov (Eugene N. Miya)	- introduction,
- 	NASA contact info, started FAQ postings
-     french@isu.isunet.edu (Patrick M. French)	- space group contact info
-     g@telesoft.com (Gary Morris)		- amateur radio info
-     gaetz@cfa.harvard.edu (Terry Gaetz)		- N-body calculations,
+     bern@uni-trier.de (jochen bern)		- german mnemonic translation
+     brosen@pioneer.arc.nasa.gov (bernie rosen)	- space camp
+     bschlesinger@nssdca.gsfc.nasa.gov (barry schlesinger)   - fits format
+     cew@venera.isi.edu (craig e. ward)		- space group contact info
+     chapin@cbnewsc.att.com (tom chapin)		- planetary positions
+     cunnida@tenet.edu (d. alan cunningham)	- nasa spacelink
+     cyamamot@kilroy.jpl.nasa.gov (cliff yamamoto) - orbital elements
+     datri@convex.com (anthony datri)		- pds/vicar viewing software
+     daver@sjc.mentorg.com (dave rickel)		- orbit formulae
+     dlbres10@pc.usl.edu (phil fraering)		- propulsion
+     eder@hsvaic.boeing.com (dani eder)		- saturn v plans, srbs
+     eugene@eos.arc.nasa.gov (eugene n. miya)	- introduction,
+ 	nasa contact info, started faq postings
+     french@isu.isunet.edu (patrick m. french)	- space group contact info
+     g@telesoft.com (gary morris)		- amateur radio info
+     gaetz@cfa.harvard.edu (terry gaetz)		- n-body calculations,
  	orbital dynamics
-     grandi@noao.edu (Steve Grandi)		- planetary positions
-     greer%utd201.dnet%utadnx@utspan.span.nasa.gov (Dale M. Greer)   - constants
-     henry@zoo.toronto.edu (Henry Spencer)	- survival in vacuum,
- 	astronaut how-to, Challenger disaster, publication refs, DC-X
-     higgins@fnal.bitnet (William Higgins)	- RTGs, publishers,
- 	shuttle landings, spysats, propulsion, "Face on Mars"
-     hmueller@cssun.tamu.edu (Hal Mueller)	- map projections,
+     grandi@noao.edu (steve grandi)		- planetary positions
+     greer%utd201.dnet%utadnx@utspan.span.nasa.gov (dale m. greer)   - constants
+     henry@zoo.toronto.edu (henry spencer)	- survival in vacuum,
+ 	astronaut how-to, challenger disaster, publication refs, dc-x
+     higgins@fnal.bitnet (william higgins)	- rtgs, publishers,
+ 	shuttle landings, spysats, propulsion, "face on mars"
+     hmueller@cssun.tamu.edu (hal mueller)	- map projections,
  	orbital dynamics
-     jbh55289@uxa.cso.uiuc.edu (Josh Hopkins)	- launch services
-     jim@pnet01.cts.com (Jim Bowery)		- propulsion, launch services
-     jnhead@pirl.lpl.arizona.edu (James N. Head) - atmospheric scale heights
-     jscotti@lpl.arizona.edu (Jim Scotti)	- planetary positions
-     kcarroll@zoo.toronto.edu (Kieran A. Carroll)- refs for spacecraft design
-     ken@orion.bitnet (Kenneth Ng)		- RTGs
-     kjenks@gothamcity.jsc.nasa.gov (Ken Jenks)	- shuttle roll manuever
-     klaes@verga.enet.dec.com (Larry Klaes)	- planetary probe history
-     leech@cs.unc.edu (Jon Leech)		- crater diameters
-     lfa@ssi.com (Lou Adornato)			- orbital dynamics
-     maury.markowitz@egsgate.fidonet.org (Maury Markowitz)   - propulsion
-     max@west.darkside.com (Erik Max Francis)	- equations
-     mbellon@mcdurb.Urbana.Gould.COM		- N-body calculations
-     mcconley@phoenix.Princeton.edu (Marc Wayne Mcconley)    - space careers
-     msb@sq.com (Mark Brader)			- Mariner 1 info.
-     mwm@cmu.edu (Mark Maimone)			- SPACE Digest
-     nickw@syma.sussex.ac.uk (Dr. Nick Watkins)	- models, spysats
-     ohainaut@eso.org (Olivier R. Hainaut)	- publishers, STARCAT
-     oneil@aio.jsc.nasa.gov (Graham O'Neil)	- Lunar Prospector
-     panama@cup.portal.com (Kenneth W Durham)	- cometary orbits, IAU
-     paul.blase@nss.fidonet.org (Paul Blase)	- propulsion
-     pjs@plato.jpl.nasa.gov (Peter Scott)	- RTGs
-     pschleck@unomaha.edu (Paul W. Schleck)	- AMSAT, ARRL contact info
-     rdb@mel.cocam.oz.au (Rodney Brown)		- propulsion refs
-     rja7m@phil.cs.virginia.edu (Ran Atkinson)	- FTPable astro. programs
-     rjungcla@ihlpb.att.com (R. Michael Jungclas)- models
-     roelle@sigi.jhuapl.edu (Curt Roelle)	- German mnemonic translation
-     seal@leonardo.jpl.nasa.gov (David Seal)	- Cassini mission schedule
-     shafer@skipper.dfrf.nasa.gov (Mary Shafer)	- photos, shuttle landings
-     smith@sndpit.enet.dec.com (Willie Smith)	- photos
-     stephen@gpwd.gp.co.nz (Stephen Dixon)	- shuttle audio frequencies
-     sterner@warper.jhuapl.edu (Ray Sterner)	- planetary positions
-     stooke@vaxr.sscl.uwo.ca (Phil Stooke)	- planetary maps
-     ted_anderson@transarc.com (Ted Anderson)	- propulsion
-     terry@astro.as.utexas.edu (Terry Hancock)	- NASA center info
-     thorson@typhoon.atmos.coloState.edu (Bill Thorson) - FITS info
-     tm2b+@andrew.cmu.edu (Todd L. Masco)	- SPACE Digest
-     tom@ssd.csd.harris.com (Tom Horsley)	- refs for algorithms
-     veikko.makela@helsinki.fi (Veikko Makela)	- orbital element sets
-     Wales.Larrison@ofa123.fidonet.org (Wales Larrison) - groups & publications
-     wayne@csri.utoronto.ca (Wayne Hayes)	- constants
-     weemba@libra.wistar.upenn.edu (Matthew P Wiener) - Voyager history
-     yamada@yscvax.ysc.go.jp (Yoshiro Yamada)	- ISAS/NASDA missions
-     yee@ames.arc.nasa.gov (Peter Yee)		- AMES archive server,
+     jbh55289@uxa.cso.uiuc.edu (josh hopkins)	- launch services
+     jim@pnet01.cts.com (jim bowery)		- propulsion, launch services
+     jnhead@pirl.lpl.arizona.edu (james n. head) - atmospheric scale heights
+     jscotti@lpl.arizona.edu (jim scotti)	- planetary positions
+     kcarroll@zoo.toronto.edu (kieran a. carroll)- refs for spacecraft design
+     ken@orion.bitnet (kenneth ng)		- rtgs
+     kjenks@gothamcity.jsc.nasa.gov (ken jenks)	- shuttle roll manuever
+     klaes@verga.enet.dec.com (larry klaes)	- planetary probe history
+     leech@cs.unc.edu (jon leech)		- crater diameters
+     lfa@ssi.com (lou adornato)			- orbital dynamics
+     maury.markowitz@egsgate.fidonet.org (maury markowitz)   - propulsion
+     max@west.darkside.com (erik max francis)	- equations
+     mbellon@mcdurb.urbana.gould.com		- n-body calculations
+     mcconley@phoenix.princeton.edu (marc wayne mcconley)    - space careers
+     msb@sq.com (mark brader)			- mariner 1 info.
+     mwm@cmu.edu (mark maimone)			- space digest
+     nickw@syma.sussex.ac.uk (dr. nick watkins)	- models, spysats
+     ohainaut@eso.org (olivier r. hainaut)	- publishers, starcat
+     oneil@aio.jsc.nasa.gov (graham o'neil)	- lunar prospector
+     panama@cup.portal.com (kenneth w durham)	- cometary orbits, iau
+     paul.blase@nss.fidonet.org (paul blase)	- propulsion
+     pjs@plato.jpl.nasa.gov (peter scott)	- rtgs
+     pschleck@unomaha.edu (paul w. schleck)	- amsat, arrl contact info
+     rdb@mel.cocam.oz.au (rodney brown)		- propulsion refs
+     rja7m@phil.cs.virginia.edu (ran atkinson)	- ftpable astro. programs
+     rjungcla@ihlpb.att.com (r. michael jungclas)- models
+     roelle@sigi.jhuapl.edu (curt roelle)	- german mnemonic translation
+     seal@leonardo.jpl.nasa.gov (david seal)	- cassini mission schedule
+     shafer@skipper.dfrf.nasa.gov (mary shafer)	- photos, shuttle landings
+     smith@sndpit.enet.dec.com (willie smith)	- photos
+     stephen@gpwd.gp.co.nz (stephen dixon)	- shuttle audio frequencies
+     sterner@warper.jhuapl.edu (ray sterner)	- planetary positions
+     stooke@vaxr.sscl.uwo.ca (phil stooke)	- planetary maps
+     ted_anderson@transarc.com (ted anderson)	- propulsion
+     terry@astro.as.utexas.edu (terry hancock)	- nasa center info
+     thorson@typhoon.atmos.colostate.edu (bill thorson) - fits info
+     tm2b+@andrew.cmu.edu (todd l. masco)	- space digest
+     tom@ssd.csd.harris.com (tom horsley)	- refs for algorithms
+     veikko.makela@helsinki.fi (veikko makela)	- orbital element sets
+     wales.larrison@ofa123.fidonet.org (wales larrison) - groups & publications
+     wayne@csri.utoronto.ca (wayne hayes)	- constants
+     weemba@libra.wistar.upenn.edu (matthew p wiener) - voyager history
+     yamada@yscvax.ysc.go.jp (yoshiro yamada)	- isas/nasda missions
+     yee@ames.arc.nasa.gov (peter yee)		- ames archive server,
  	propulsion
  
-     In Net memoriam:
- 	Ted Flinn
+     in net memoriam:
+ 	ted flinn
  
- NEXT: FAQ #2/15 - Network Resources
+ next: faq #2/15 - network resources
  
