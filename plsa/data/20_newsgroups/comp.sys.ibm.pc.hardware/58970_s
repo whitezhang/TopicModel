@@ -1,91 +1,91 @@
 
- Hello.  I hope somebody out here can help me.  I am currently working
- on a project where I am trying to communicate from an IBM 386 with
- Phoenix BIOS, using C++, to a board that I made with an Intel 8085 CPU
- with UART chip.  The board works fine with the TRANSMIT command and 
- Terminal Emulation mode of Kermit, but there seems to be something wrong
- with the initialization or protocol used when I try C++.  I need to
- access the unit I built using C, because I have a sizable chunk of C
- code that I will be using to perform calculations and operations that
+ hello.  i hope somebody out here can help me.  i am currently working
+ on a project where i am trying to communicate from an ibm 386 with
+ phoenix bios, using c++, to a board that i made with an intel 8085 cpu
+ with uart chip.  the board works fine with the transmit command and 
+ terminal emulation mode of kermit, but there seems to be something wrong
+ with the initialization or protocol used when i try c++.  i need to
+ access the unit i built using c, because i have a sizable chunk of c
+ code that i will be using to perform calculations and operations that
  will be very difficult to code in assembly language for the 8085.
  
- I have included the assembly code that I am running and the C++ code
- that I am trying to use.  If anyone can show me something that I
- am doing blatantly incorrectly or that I am missing because of my lack
- of knowledge about RS-232 serial communications, please e-mail me.
- I wrote the assembly language to wait for a character to be received and
+ i have included the assembly code that i am running and the c++ code
+ that i am trying to use.  if anyone can show me something that i
+ am doing blatantly incorrectly or that i am missing because of my lack
+ of knowledge about rs-232 serial communications, please e-mail me.
+ i wrote the assembly language to wait for a character to be received and
  then to check it against the 0x20 character, if a 0x20 is received, 
- the LEDs will indicate this.  Two C++ programs that I have written do
- nothing, but set up COM port 2 and send the 0x20 character.  One uses
+ the leds will indicate this.  two c++ programs that i have written do
+ nothing, but set up com port 2 and send the 0x20 character.  one uses
  the bioscom() function in bios.h the other uses the software interrupt
- int86() function in dos.h.  I have triple checked the baud rate ( 2400 )
+ int86() function in dos.h.  i have triple checked the baud rate ( 2400 )
  the parity ( none ) the stop bits ( 1 ) the character length ( 8 bits )
- and the interrupt calls for ( 0x14 ).  Currently, I am at a loss as
- to what may be wrong.  Any hardware gurus out there want to comment?
+ and the interrupt calls for ( 0x14 ).  currently, i am at a loss as
+ to what may be wrong.  any hardware gurus out there want to comment?
  
  
- 						Thanks alot,
- 						Hubert De Jesus
+ 						thanks alot,
+ 						hubert de jesus
  						dejesus@eniac.seas.upenn.edu
  
  
-   				INTEL ASM
+   				intel asm
  
- COMMAND     EQU     3000H                ;Command Register on 8155
- PORTA       EQU     3001H                ;Port A on 8155
- TIMERLO     EQU     3004H                ;High 8 bits of 8155 Timer
- TIMERHI     EQU     3005H                ;Low 8 bits of 8155 Timer
- UARTDATA    EQU     E000H                ;UART Data Register
- UARTCMD     EQU     E001H                ;UART Command Register
+ command     equ     3000h                ;command register on 8155
+ porta       equ     3001h                ;port a on 8155
+ timerlo     equ     3004h                ;high 8 bits of 8155 timer
+ timerhi     equ     3005h                ;low 8 bits of 8155 timer
+ uartdata    equ     e000h                ;uart data register
+ uartcmd     equ     e001h                ;uart command register
  
-             ORG     4000H                ;SRAM location
- 	    MVI     A,08H		 ;Set Low Timer Bits
-             STA     TIMERLO
-             MVI     A,40H		 ;Set High Timer Bits
-             STA     TIMERHI
-             MVI     A,11111101B          ;Start Timer & Enable Port A
-             STA     COMMAND
+             org     4000h                ;sram location
+ 	    mvi     a,08h		 ;set low timer bits
+             sta     timerlo
+             mvi     a,40h		 ;set high timer bits
+             sta     timerhi
+             mvi     a,11111101b          ;start timer & enable port a
+             sta     command
  
-             MVI     A,11H                ;Display 11 on 7-segment LEDs
-             STA     PORTA
+             mvi     a,11h                ;display 11 on 7-segment leds
+             sta     porta
  
-             MVI     A,00H		 ;Clear UART Command
-             STA     UARTCMD
-             STA     UARTCMD
-             STA     UARTCMD
-             MVI     A,01000000B		 ;Internally reset UART 
-             STA     UARTCMD
- 	    LDA     UARTDATA             ;Remove extraneous data
-  	    MVI     A,01001111B          ;Init UART for 8 data bits,
-             STA     UARTCMD              ;  no parity, 1 stop bit, 64x async
-             MVI     A,00100111B          ;Enable Transmit and Receive
-             STA     UARTCMD
+             mvi     a,00h		 ;clear uart command
+             sta     uartcmd
+             sta     uartcmd
+             sta     uartcmd
+             mvi     a,01000000b		 ;internally reset uart 
+             sta     uartcmd
+ 	    lda     uartdata             ;remove extraneous data
+  	    mvi     a,01001111b          ;init uart for 8 data bits,
+             sta     uartcmd              ;  no parity, 1 stop bit, 64x async
+             mvi     a,00100111b          ;enable transmit and receive
+             sta     uartcmd
  
- INIT:       LDA     UARTCMD		 ;Read Status Register
-             ANI     02H                  ;Is RxRDY?
-             JZ      INIT                 ;No, loop
+ init:       lda     uartcmd		 ;read status register
+             ani     02h                  ;is rxrdy?
+             jz      init                 ;no, loop
  
-             LDA     UARTDATA             ;Read Data Character
-             CPI     ' '                  ;Is Character = 0x20?
-             JNZ     INIT                 ;No, loop
+             lda     uartdata             ;read data character
+             cpi     ' '                  ;is character = 0x20?
+             jnz     init                 ;no, loop
       
-             MVI     A,22H                ;Character received, 
-             STA     PORTA                ;  Display 22 on 7-segment LEDs
-             HLT
-             END
+             mvi     a,22h                ;character received, 
+             sta     porta                ;  display 22 on 7-segment leds
+             hlt
+             end
  
-                               C++ using BIOSCOM()
+                               c++ using bioscom()
  
  #include <stdio.h>
  #include <stdlib.h>
  #include <bios.h>
  
- #define INIT          0
- #define SEND          1
- #define RECEIVE       2
- #define STATUS        3
+ #define init          0
+ #define send          1
+ #define receive       2
+ #define status        3
  
- #define COM2          1
+ #define com2          1
  
  void
  main()
@@ -93,18 +93,18 @@
     char abyte;
  
     abyte = 0xa3;
-    bioscom( INIT, abyte, COM2 );
-    printf( "Initialized COMM PORT 2\n" );
+    bioscom( init, abyte, com2 );
+    printf( "initialized comm port 2\n" );
  
-    while( !( bioscom( STATUS, 0, COM2 ) & 0x4000 ) )
+    while( !( bioscom( status, 0, com2 ) & 0x4000 ) )
       ;
     abyte = ' ';
-    bioscom( SEND, abyte, COM2 );
-    printf( "Sent start character\n" );
+    bioscom( send, abyte, com2 );
+    printf( "sent start character\n" );
  }
  
  
-         			C++ using INT86()
+         			c++ using int86()
  
  #include <stdio.h>
  #include <stdlib.h>
@@ -113,18 +113,18 @@
  
  main()
  {
-    union REGS registers;
+    union regs registers;
    
     registers.h.ah = 0x00;
     registers.h.al = 0xa7; 
     registers.x.dx = 0x01;
     int86( 0x14, &registers, &registers );
-    printf( "COM2 Initialized\n" );
+    printf( "com2 initialized\n" );
   
     registers.h.ah = 0x01;
     registers.h.al = 0x20;
     registers.x.dx = 0x01;
     int86( 0x14, &registers, &registers );
-    printf( "Sent start character\n" );
+    printf( "sent start character\n" );
   }
  

@@ -1,42 +1,42 @@
 
- In article <1qihcl$9ri@usenet.INS.CWRU.Edu> ae454@cleveland.Freenet.Edu (Paul Simundza) writes:
+ in article <1qihcl$9ri@usenet.ins.cwru.edu> ae454@cleveland.freenet.edu (paul simundza) writes:
  >
  >
  >anyone know of any good supplier's of chips, one that could have almost
- >any chip i need? I don't want to hunt down all the chips I may need so
+ >any chip i need? i don't want to hunt down all the chips i may need so
  >it would be greatly appreciated if anyone knows of a good distributor
  >..
  >thankyou
  >
  
- Paul,
+ paul,
  
- Unfortunately, there are not too many retail outlets that'll stock
- just about every chip made.  The stuff they will stock are the ones
- that'll sell, like standard DRAM's, 80386's, 68000's, etc,etc.
- i.e.  I cna't think of any 'one-stop-shopping' store.
+ unfortunately, there are not too many retail outlets that'll stock
+ just about every chip made.  the stuff they will stock are the ones
+ that'll sell, like standard dram's, 80386's, 68000's, etc,etc.
+ i.e.  i cna't think of any 'one-stop-shopping' store.
  
- The closest you can get is to pick up a copy of Byte magazine or
- the Circuit Cellar, Popular Electronics, and the like and flip
+ the closest you can get is to pick up a copy of byte magazine or
+ the circuit cellar, popular electronics, and the like and flip
  through them.
  
- Distributors like Wyle Electronics, Hamilton Avnet, Pioneer Electronics,
+ distributors like wyle electronics, hamilton avnet, pioneer electronics,
  etc, etc, don't normally deal with end-users like ourselves where
  we only a couple of everything...they only deal with people who buy
- by the hundreds or more.  Each distributor represents and sells a variety of
- different non-competing manufacturers.  What do I mean by this?
- Suppose ABC Electronics sells Intel 80386's.  It's a pretty good
- bet that they won't be selling any of AMD's 386's, or vice-versa.
- They also can obtain just about *any* chip you want from a manufacturer
+ by the hundreds or more.  each distributor represents and sells a variety of
+ different non-competing manufacturers.  what do i mean by this?
+ suppose abc electronics sells intel 80386's.  it's a pretty good
+ bet that they won't be selling any of amd's 386's, or vice-versa.
+ they also can obtain just about *any* chip you want from a manufacturer
  they represent.
  
- Who knows?  You might be lucky to be able to buy from one of them.
- But I'd be suprised if you do.  ALso bear in mind that the 1 or 2
+ who knows?  you might be lucky to be able to buy from one of them.
+ but i'd be suprised if you do.  also bear in mind that the 1 or 2
  qty prices they will charge you will be *much* greater than what
  a mail order outlet will charge.
  
- My advice?  If you're gonna be designing anything, try to stick
- with off-the-shelf stuff.  You're going to get stuck if you use
+ my advice?  if you're gonna be designing anything, try to stick
+ with off-the-shelf stuff.  you're going to get stuck if you use
  too many esoteric parts sooner or later.
  
  good luck,

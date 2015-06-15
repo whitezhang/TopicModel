@@ -1,62 +1,62 @@
 
- wlsmith@valve.heart.rri.uwo.ca (Wayne Smith) writes:
- >This doesn't answer the original question.  IS OS/2 a multi-user OS?
- >And no mention was made of an ether card either.  But from a disk/data
- >point of view, why does SCSI have an advantage when it comes to multi-
- >tasking?  Data is data, and it could be anywhere on the drive.  Can
- >SCSI find it faster?  can it get it off the drive and into the computer
- >faster?  Does it have a better cache system?  I thought SCSI was good at
- >managing a data bus when multiple devices are attached.  If we are
- >only talking about a single drive, explain why SCSI is inherently
+ wlsmith@valve.heart.rri.uwo.ca (wayne smith) writes:
+ >this doesn't answer the original question.  is os/2 a multi-user os?
+ >and no mention was made of an ether card either.  but from a disk/data
+ >point of view, why does scsi have an advantage when it comes to multi-
+ >tasking?  data is data, and it could be anywhere on the drive.  can
+ >scsi find it faster?  can it get it off the drive and into the computer
+ >faster?  does it have a better cache system?  i thought scsi was good at
+ >managing a data bus when multiple devices are attached.  if we are
+ >only talking about a single drive, explain why scsi is inherently
  >faster at managing data from a hard drive.
- You are making the same mistake I did: you are confusing the DRIVE
- interface to the DATA THROUGHPUT interface.  Again from my Mac & IBM info
- sheet {available by FTP on sumex-aim.stanford.edu (36.44.0.6) in the
+ you are making the same mistake i did: you are confusing the drive
+ interface to the data throughput interface.  again from my mac & ibm info
+ sheet {available by ftp on sumex-aim.stanford.edu (36.44.0.6) in the
  info-mac/report as mac-ibm-compare173.txt}:
- Expansion
- Both Mac & IBM
- SCSI: only external device expansion interface common to both Mac and IBM.
-  Allows the use of any device: hard drive, printer, scanner, Nubus card 
-  expansion {Mac Plus only}, some monitors, and CD-ROM.  Apple developed some 
-  specifications for SCSI controlers while IBM has no exact controller 
-  specifications {which results in added incompatibilities on IBM machines}.  
-  Main problem:  there are a lot of external devices which are internal 
-  terminated which causes problems for more then two devises off the SCSI port 
-  {A SCSI chain is supposed to be terminated ONLY at the begining and at the 
-  end.  Any other set up causes problems for either Mac or IBM}. 
- SCSI-1:  7 devices per SCSI controller.  8-bit asynchronous {~1.5MB/s ave}
-  and synchronous {5MB/s max} transfer base.  16-bit SCSI-1 requires a
-  SCSI-2 controler chip and can provide only fast SCSI-2 not wide SCSI-2
-  which are both 16-bit interfaces {see SCSI-2}.
- SCSI-2: 10 devices per SCSI controller in SCSI-2 mode.  SCSI-2 is fully
-  SCSI-1 complient and tends to be implimented as a very fast SCSI-1 since it 
+ expansion
+ both mac & ibm
+ scsi: only external device expansion interface common to both mac and ibm.
+  allows the use of any device: hard drive, printer, scanner, nubus card 
+  expansion {mac plus only}, some monitors, and cd-rom.  apple developed some 
+  specifications for scsi controlers while ibm has no exact controller 
+  specifications {which results in added incompatibilities on ibm machines}.  
+  main problem:  there are a lot of external devices which are internal 
+  terminated which causes problems for more then two devises off the scsi port 
+  {a scsi chain is supposed to be terminated only at the begining and at the 
+  end.  any other set up causes problems for either mac or ibm}. 
+ scsi-1:  7 devices per scsi controller.  8-bit asynchronous {~1.5mb/s ave}
+  and synchronous {5mb/s max} transfer base.  16-bit scsi-1 requires a
+  scsi-2 controler chip and can provide only fast scsi-2 not wide scsi-2
+  which are both 16-bit interfaces {see scsi-2}.
+ scsi-2: 10 devices per scsi controller in scsi-2 mode.  scsi-2 is fully
+  scsi-1 complient and tends to be implimented as a very fast scsi-1 since it 
   needs a different controller interface in both hardware {which tends to be 
-  very expendsive} and software.  Transfer speeds are 4-6MB/s with 10MB/s burst 
-  {8-bit}, 8-12MB/s with 20MB/s burst {16-bit}, and 15-20MB/s with 40MB/s burst
-  {32-bit/wide and fast}.  SCSI-2 in SCSI-1 mode is limited to 7 devices and
+  very expendsive} and software.  transfer speeds are 4-6mb/s with 10mb/s burst 
+  {8-bit}, 8-12mb/s with 20mb/s burst {16-bit}, and 15-20mb/s with 40mb/s burst
+  {32-bit/wide and fast}.  scsi-2 in scsi-1 mode is limited to 7 devices and
   reduced 8-bit or 16-bit {fast only} throughput due to the difference between
-  SCSI-1 and wide SCSI-2 ports.
+  scsi-1 and wide scsi-2 ports.
  
- IBM
- HD Interfaces {limited to hard drives by design or lack of development}:
+ ibm
+ hd interfaces {limited to hard drives by design or lack of development}:
  [...]
- IDE:  Integrated Device Electronics 
+ ide:  integrated device electronics 
   currently the most common standard, and is mainly used for medium sized 
-  drives. Can have more than one hard drive. Asynchronous Transfer: ~5MB/s max.
+  drives. can have more than one hard drive. asynchronous transfer: ~5mb/s max.
  
- So at its LOWEST setting SCSI-2 interface in Asynchronous SCSI-1 mode AVERAGES 
- the through put MAXIMUM of IDE in asynchronous mode.  In full SCSI-2 mode
- it blows poor IDE out the window, down the street, and into the garbage can.
- The problem becomes can the drive mechanisim keep up with those through put
- rates and THAT is where the bottleneck and cost of SCSI-2 comes from.  NOT
+ so at its lowest setting scsi-2 interface in asynchronous scsi-1 mode averages 
+ the through put maximum of ide in asynchronous mode.  in full scsi-2 mode
+ it blows poor ide out the window, down the street, and into the garbage can.
+ the problem becomes can the drive mechanisim keep up with those through put
+ rates and that is where the bottleneck and cost of scsi-2 comes from.  not
  the interface itself but more and more from drive mechanisims to use the
- SCSI-2 through put.  The cost of SCSI interface is a self fulliling
- prophisy: few people buy SCSI because it is so expencive for the PC, which
- in turn convices makes that mass producing SCSI {which would reduce its
- cost} is unwarented, and so SCSI is expencive. {That is the effect of the
- Rule of Scale: the more items sold the less EACH item has to bare the brunt
+ scsi-2 through put.  the cost of scsi interface is a self fulliling
+ prophisy: few people buy scsi because it is so expencive for the pc, which
+ in turn convices makes that mass producing scsi {which would reduce its
+ cost} is unwarented, and so scsi is expencive. {that is the effect of the
+ rule of scale: the more items sold the less each item has to bare the brunt
  the cost of manufacture and so the less each item has to cost}
  
- SCSI-2 allows a drive mechanisims through put to be limited by the DRIVE while
- IDE itself limits the through put.
+ scsi-2 allows a drive mechanisims through put to be limited by the drive while
+ ide itself limits the through put.
  

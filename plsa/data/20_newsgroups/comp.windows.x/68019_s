@@ -1,39 +1,39 @@
 
- Hi,
- I have a lots of problems using XView (libraries Release 3.2) in order to
+ hi,
+ i have a lots of problems using xview (libraries release 3.2) in order to
  do the following:
- + I want to create a MODAL Dialog which block the program flow
-   (a syncronous dialog, ala Macintosh) , as the Notice Panel
-   does, but with Text Item, List Item, and other XView objects.
- + The MODAL Dialog also must allows the Timer to be called (why
-   Notice doesn't do that?).
+ + i want to create a modal dialog which block the program flow
+   (a syncronous dialog, ala macintosh) , as the notice panel
+   does, but with text item, list item, and other xview objects.
+ + the modal dialog also must allows the timer to be called (why
+   notice doesn't do that?).
   
- The problems are:
- - Using the "xv_window_loop" functions most XView objects dont work
-   (as the List Item), and the timers aren't called.
+ the problems are:
+ - using the "xv_window_loop" functions most xview objects dont work
+   (as the list item), and the timers aren't called.
   
- - With the "notify_dispatch" explicit I have problem because:
+ - with the "notify_dispatch" explicit i have problem because:
    "...never attempt to do direct dispaching from within a callback
-   routine..." as say the "XView Programming Manual (Third Edition)"
-   on page 486 (uhm... I know this number!!! :->).
-   But I need to do dispatching just inside a callback routine!
+   routine..." as say the "xview programming manual (third edition)"
+   on page 486 (uhm... i know this number!!! :->).
+   but i need to do dispatching just inside a callback routine!
   
- Help me, please!!!
+ help me, please!!!
   
- Thanks in advance,
- --- Giovanni
+ thanks in advance,
+ --- giovanni
   
- P.S. Please, send replay directly to my address belove (I haven't
- direct access to Internet).
+ p.s. please, send replay directly to my address belove (i haven't
+ direct access to internet).
   
- Giovanni Beani
- LIST S.p.A. P.za Dei Facchini, 10 - 56125 PISA
- FAX  (050) 500697
+ giovanni beani
+ list s.p.a. p.za dei facchini, 10 - 56125 pisa
+ fax  (050) 500697
  _______________________________________________
- My email address is: LIST@AppleLink.apple.com
- BEWARE: This address is shared by many users,
- so put the word "GBeani:" at the start of SUBJECT
- field and follow it by the real subject. Thanks.
+ my email address is: list@applelink.apple.com
+ beware: this address is shared by many users,
+ so put the word "gbeani:" at the start of subject
+ field and follow it by the real subject. thanks.
   
  
  

@@ -1,24 +1,24 @@
 
- In article <C5JBKF.9B8@usenet.ucs.indiana.edu> ntaib@silver.ucs.indiana.edu (Iskandar Taib) writes:
- >In article <1993Apr06.185638.12139@metrics.com> tomh@metrics.com (Tom Haapanen) writes:
+ in article <c5jbkf.9b8@usenet.ucs.indiana.edu> ntaib@silver.ucs.indiana.edu (iskandar taib) writes:
+ >in article <1993apr06.185638.12139@metrics.com> tomh@metrics.com (tom haapanen) writes:
  >
- >>Has anyone used a Hercules Graphite adapter?  It looks good on paper, and
- >>Steve Gibson gave it a very good review in Infoworld.  I'd love to get a
- >>real-world impression, though -- how is the speed?  Drivers?  Support?
+ >>has anyone used a hercules graphite adapter?  it looks good on paper, and
+ >>steve gibson gave it a very good review in infoworld.  i'd love to get a
+ >>real-world impression, though -- how is the speed?  drivers?  support?
  >
- >The PC World reviewers found out that the Herc people had hard-coded
- >Winbench text into the driver. Clever, no? In any case, the Winbench
+ >the pc world reviewers found out that the herc people had hard-coded
+ >winbench text into the driver. clever, no? in any case, the winbench
  >results are pretty much inflated.
  
- But the impressive performance of the Graphite was
- not its Winmark, it was its Wintach result (esp. the paint
- performance). Judging from the Wintach tests, I can hardly
+ but the impressive performance of the graphite was
+ not its winmark, it was its wintach result (esp. the paint
+ performance). judging from the wintach tests, i can hardly
  imagine that there is a cheat driver for it.
  
  +---------------------------------------------------+
- | Agus Budy Wuysang                                 |
- | Digitech Student                                  |
- | Monash University (Clayton)                       |
- | Melbourne, Australia                              |
+ | agus budy wuysang                                 |
+ | digitech student                                  |
+ | monash university (clayton)                       |
+ | melbourne, australia                              |
  +---------------------------------------------------+
  

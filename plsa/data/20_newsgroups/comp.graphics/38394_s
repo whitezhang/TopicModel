@@ -1,34 +1,34 @@
 
- In article <C5Mv2n.49t@rahul.net> bryanw@rahul.net (Bryan Woodworth) writes:
- >In <1993Apr17.113223.12092@imag.fr> schaefer@imag.imag.fr (Arno Schaefer) writes:
+ in article <c5mv2n.49t@rahul.net> bryanw@rahul.net (bryan woodworth) writes:
+ >in <1993apr17.113223.12092@imag.fr> schaefer@imag.imag.fr (arno schaefer) writes:
  >
- >>Sorry, Bryan, this is not quite correct. Remember the VGALIB package that comes
- >>with Linux/SLS? It will switch to VGA 320x200x256 mode *without* Xwindows.
- >>So at least it is *possible* to write a GIF viewer under Linux. However I don't
- >>think that there exists a similar SVGA package, and viewing GIFs in 320x200 is
+ >>sorry, bryan, this is not quite correct. remember the vgalib package that comes
+ >>with linux/sls? it will switch to vga 320x200x256 mode *without* xwindows.
+ >>so at least it is *possible* to write a gif viewer under linux. however i don't
+ >>think that there exists a similar svga package, and viewing gifs in 320x200 is
  >>not very nice.
  >
- >No, VGALIB?  Amazing..  I guess it was lost in all those subdirs :-)
- >Thanks for correcting me.  It doesn't sound very appealing though, only
- >320x200?  I'm glad it wasn't something major I missed.
+ >no, vgalib?  amazing..  i guess it was lost in all those subdirs :-)
+ >thanks for correcting me.  it doesn't sound very appealing though, only
+ >320x200?  i'm glad it wasn't something major i missed.
  
- Tommy Frandsen's VGAlib (which is probably what you're talking about)
- will do the standard VGA modes, some tweaked modes and then the Tseng
- ET4000 Super VGA modes. I have an ET4000 and I'm viewing GIF's at
- 640x480/256 (I have a lousy/small monitor) with dpg-view on Linux. I
- think I had to change some constants in the dpg-view sources to make it
- use the ET4k modes.
+ tommy frandsen's vgalib (which is probably what you're talking about)
+ will do the standard vga modes, some tweaked modes and then the tseng
+ et4000 super vga modes. i have an et4000 and i'm viewing gif's at
+ 640x480/256 (i have a lousy/small monitor) with dpg-view on linux. i
+ think i had to change some constants in the dpg-view sources to make it
+ use the et4k modes.
  
- VGAlib's sources seem to be designed for easy addition of new Super VGA
+ vgalib's sources seem to be designed for easy addition of new super vga
  support; each mode is an array of register values and there's a program
  that dumps an array declaration of this kind describing the current
- mode. Haven't tried it though...
+ mode. haven't tried it though...
  
- (Btw, my version of VGAlib is 1.2.)
+ (btw, my version of vgalib is 1.2.)
  
  -- 
  kennu@mits.mdata.fi
- Try Linux, a free UNIX by Linus Torvalds for 386+'s. Read comp.os.linux
- (or ask me by email if you like) for more information. You can run X11,
- TeX, GNU EMACS and much more on top of a nice POSIX environment.
+ try linux, a free unix by linus torvalds for 386+'s. read comp.os.linux
+ (or ask me by email if you like) for more information. you can run x11,
+ tex, gnu emacs and much more on top of a nice posix environment.
  

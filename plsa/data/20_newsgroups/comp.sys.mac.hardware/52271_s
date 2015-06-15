@@ -1,34 +1,34 @@
 
- kmradke@iastate.edu (Kevin M Radke) writes:
+ kmradke@iastate.edu (kevin m radke) writes:
  
- >I need help identifying this board that I found stuffed away in a corner.
+ >i need help identifying this board that i found stuffed away in a corner.
  
- >As the title says, all that is printed on it is NATIONAL INSTRUMENTS NB-DMA-8.
- >It fits fine in my Mac IIci and snooper gives the very same name for the
- >board.  It looks like it has an HP-IB connector on the back of it and
- >another connector on the top (2 rows by 25 pins).  It also looks like
- >it has an Intel processor on it (#A82380-16 Intel '86)
+ >as the title says, all that is printed on it is national instruments nb-dma-8.
+ >it fits fine in my mac iici and snooper gives the very same name for the
+ >board.  it looks like it has an hp-ib connector on the back of it and
+ >another connector on the top (2 rows by 25 pins).  it also looks like
+ >it has an intel processor on it (#a82380-16 intel '86)
  
- >On an EEPROM there is a sticker with the P/N 700584-01.
+ >on an eeprom there is a sticker with the p/n 700584-01.
  
- >Anybody ever seen or heard of one?  Or better yet, do you know what it does?
- >We are all clueless here.  Our last option is to hook it up to our HP
+ >anybody ever seen or heard of one?  or better yet, do you know what it does?
+ >we are all clueless here.  our last option is to hook it up to our hp
  >workstations and see if any smoke comes out.
  
- >Thanks a lot!
+ >thanks a lot!
  
- >Kevin
+ >kevin
  >-- 
- It is a data aquisition board for the Mac II series.  It is called
- the DMA Board with GPIB Interface.  You may call NI at 800-IEEE-488
+ it is a data aquisition board for the mac ii series.  it is called
+ the dma board with gpib interface.  you may call ni at 800-ieee-488
  to find out more about it.
  
- Hope this helps.
+ hope this helps.
  
- Saiid Paryavi
+ saiid paryavi
  
  -- 
  *************************************************************************
- Saiid Paryavi 		paryavi@matt.ksu.ksu.edu 	saiid@cis.ksu.edu
+ saiid paryavi 		paryavi@matt.ksu.ksu.edu 	saiid@cis.ksu.edu
  *************************************************************************
  

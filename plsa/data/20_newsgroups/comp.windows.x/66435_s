@@ -1,36 +1,36 @@
 
  
- Try this:
+ try this:
  -------------------------------------------------------------------------------
  #include <stdio.h>
- #include <X11/Xlib.h>
- #include <X11/Xutil.h>
+ #include <x11/xlib.h>
+ #include <x11/xutil.h>
  
- Display *dpy;
+ display *dpy;
  int	screen;
- XColor	*xclrs,*xclrp;
- XID	cmap;
+ xcolor	*xclrs,*xclrp;
+ xid	cmap;
  int	cells,i,j,red,green,blue,got;
  
  
  
  main()
  {
-  dpy = XOpenDisplay(NULL);
-  screen = DefaultScreen(dpy);
-  cells = DisplayCells(dpy,screen);
+  dpy = xopendisplay(null);
+  screen = defaultscreen(dpy);
+  cells = displaycells(dpy,screen);
  
-  cmap = XCreateColormap(dpy,RootWindow(dpy,screen),DefaultVisual(dpy,screen),1);
+  cmap = xcreatecolormap(dpy,rootwindow(dpy,screen),defaultvisual(dpy,screen),1);
  
-  xclrs = (XColor *)malloc(cells * sizeof(*xclrs));
+  xclrs = (xcolor *)malloc(cells * sizeof(*xclrs));
  
  
   xclrp = xclrs; 
   for (i=0; i<cells; i++) { xclrp->pixel = i; xclrp->flags = 7; xclrp++; };
  
-  XQueryColors(dpy,DefaultColormap(dpy,screen),xclrs,cells);
-  XStoreColors(dpy,cmap,xclrs,cells);
-  XInstallColormap(dpy,cmap);
+  xquerycolors(dpy,defaultcolormap(dpy,screen),xclrs,cells);
+  xstorecolors(dpy,cmap,xclrs,cells);
+  xinstallcolormap(dpy,cmap);
   got = 1;
  
   while(got) {
@@ -42,8 +42,8 @@
     if(xclrp->blue < 65000) {xclrp->blue +=256; got=1;};
     xclrp ++;
    }
-   XStoreColors(dpy,cmap,xclrs,cells);
- /*  XInstallColormap(dpy,cmap); */
+   xstorecolors(dpy,cmap,xclrs,cells);
+ /*  xinstallcolormap(dpy,cmap); */
   }
   got = 1;
   while(got) {
@@ -55,17 +55,17 @@
     if(xclrp->blue > 256) {xclrp->blue -=256; got=1;};
     xclrp ++;
    }
-   XStoreColors(dpy,cmap,xclrs,cells);
- /*  XInstallColormap(dpy,cmap); */
+   xstorecolors(dpy,cmap,xclrs,cells);
+ /*  xinstallcolormap(dpy,cmap); */
   }
  }
  --------------------------------------------------------------------------
- It will work on any PseudoColor XServer. (hopefully :)
+ it will work on any pseudocolor xserver. (hopefully :)
  
  --
  +-o-+--------------------------------------------------------------+-o-+
- | o |                \\\-  Brain Inside -///                       | o |
+ | o |                \\\-  brain inside -///                       | o |
  | o |                    ^^^^^^^^^^^^^^^                           | o |
- | o | Andre' Beck (ABPSoft) mehl: Andre_Beck@IRS.Inf.TU-Dresden.de | o |
+ | o | andre' beck (abpsoft) mehl: andre_beck@irs.inf.tu-dresden.de | o |
  +-o-+--------------------------------------------------------------+-o-+
  

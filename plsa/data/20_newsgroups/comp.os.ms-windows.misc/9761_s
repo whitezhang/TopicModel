@@ -1,25 +1,25 @@
 
- wnkretz@ikesg1.energietechnik.uni-stuttgart.de (Oliver Kretzschmar) writes:
+ wnkretz@ikesg1.energietechnik.uni-stuttgart.de (oliver kretzschmar) writes:
  
  
  
- >   Hey,
+ >   hey,
  
  >   could somebody tell me, how it is possible to work with the mouse
- >   in a NON-Windows application, which runs in an window. We use
- >   MS-WINDOWS 3.1 and have CLIPPER applications. Exists there any
- >   routines or something else ? Please mail me your informations.
+ >   in a non-windows application, which runs in an window. we use
+ >   ms-windows 3.1 and have clipper applications. exists there any
+ >   routines or something else ? please mail me your informations.
  
- >   Thanks for your efforts,
+ >   thanks for your efforts,
  
- >     Oliver
+ >     oliver
  >-- 
- > NAME : O.Kretzschmar                      Inst.IKE / University Stuttgart
- > PHONE: +49 711 685 2130                           Pfaffenwaldring 31
- > FAX  : +49 711 685 2010                            7000 Stuttgart 80
- > EMAIL: wnkretz@ikesg1.energietechnik.uni-stuttgart.de
+ > name : o.kretzschmar                      inst.ike / university stuttgart
+ > phone: +49 711 685 2130                           pfaffenwaldring 31
+ > fax  : +49 711 685 2010                            7000 stuttgart 80
+ > email: wnkretz@ikesg1.energietechnik.uni-stuttgart.de
  
- Very simple.  You have to have the MOUSE.COM or MOUSE.SYS loaded in DOS
- before you run Windows.  Note that you don't need to have these files loaded
- to use the mouse in Windows.
+ very simple.  you have to have the mouse.com or mouse.sys loaded in dos
+ before you run windows.  note that you don't need to have these files loaded
+ to use the mouse in windows.
  

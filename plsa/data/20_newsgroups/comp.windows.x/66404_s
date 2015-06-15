@@ -1,24 +1,24 @@
 
- I have looked through the FAQ sections and have not
+ i have looked through the faq sections and have not
  seen a answer for this.
  
- I have an X/Motif application that I have written.
- I have a couple of gif files (or pict) that I have
- scanned in with a color scanner.  Now I would like
+ i have an x/motif application that i have written.
+ i have a couple of gif files (or pict) that i have
+ scanned in with a color scanner.  now i would like
  to be able to convert the gif files into a format
  that could be read into my application and displayed
- on the background of its main window. Preferably with
- pixmaps, or perhaps as an XImage.
+ on the background of its main window. preferably with
+ pixmaps, or perhaps as an ximage.
  
- I have found functions in the pbmplus program suite
+ i have found functions in the pbmplus program suite
  to convert gif to xbm, but that is monochrome, and
- I really do need color.
+ i really do need color.
  
- I have looked at xv, which reads in gif, and writes
+ i have looked at xv, which reads in gif, and writes
  out several formats, but have not found a way to write
  out a file which can be read in as a pixmap.
  
- Is there an easy way to do this?
+ is there an easy way to do this?
  
  email responses preferred.
  
@@ -30,7 +30,7 @@
  
  -- 
  ===============	regards   'mark  =============================================
- Mark Ahlenius 		  voice:(708)-632-5346  email: ahlenius@marble.rtsg.mot.com
- Motorola Inc.		  fax:  (708)-632-2413
- Arlington, Hts. IL, USA	 60004
+ mark ahlenius 		  voice:(708)-632-5346  email: ahlenius@marble.rtsg.mot.com
+ motorola inc.		  fax:  (708)-632-2413
+ arlington, hts. il, usa	 60004
  

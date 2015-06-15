@@ -1,80 +1,80 @@
 
- Hello!
+ hello!
  
- In article <1993Apr17.144246.29806@thunder.mcrcim.mcgill.edu>,
- mouse@mcrcim.mcgill.edu (der Mouse) writes:
- >In article <1965@igd.fhg.de>, pfuetz@igd.fhg.de (Matthias Pfuetzner) writes:
+ in article <1993apr17.144246.29806@thunder.mcrcim.mcgill.edu>,
+ mouse@mcrcim.mcgill.edu (der mouse) writes:
+ >in article <1965@igd.fhg.de>, pfuetz@igd.fhg.de (matthias pfuetzner) writes:
  >
- >> Is there a possibility to determine via X protocol calls the size of
- >> free memory available to the Xserver?
+ >> is there a possibility to determine via x protocol calls the size of
+ >> free memory available to the xserver?
  >
- >No.  Even if you could, the answer could be out of date even before you
+ >no.  even if you could, the answer could be out of date even before you
  >get it (even if you grab the server, it could be taken up by buffering
- >user actions).  You should just try to do whatever you want; a BadAlloc
+ >user actions).  you should just try to do whatever you want; a badalloc
  >error is your indication that insufficient server memory is available.
  >
- >					der Mouse
+ >					der mouse
  
- This isn't of much help! Especially when doing Phigs (PEX) via the libphigs as
- supplied by MIT, I have much trouble together with PEX-terminals that don't
+ this isn't of much help! especially when doing phigs (pex) via the libphigs as
+ supplied by mit, i have much trouble together with pex-terminals that don't
  have enough memory!
  
- Performing the following:
+ performing the following:
  
-    visual.visualid = CopyFromParent;
+    visual.visualid = copyfromparent;
  
-    bg_pix = WhitePixel( grafik_display, DefaultScreen( grafik_display ) );
+    bg_pix = whitepixel( grafik_display, defaultscreen( grafik_display ) );
     
-    xswa.backing_store      = NotUseful;
-    xswa.event_mask         = ExposureMask | StructureNotifyMask;
+    xswa.backing_store      = notuseful;
+    xswa.event_mask         = exposuremask | structurenotifymask;
     xswa.background_pixel   = bg_pix;
  
     graphic_window =
-          XCreateWindow( graphic_display,
-                        RootWindow( graphic_display,
-                                   DefaultScreen( graphic_display ) ),
+          xcreatewindow( graphic_display,
+                        rootwindow( graphic_display,
+                                   defaultscreen( graphic_display ) ),
                         0,
                         0,
-                        DisplayWidth(graphic_display, 
-                                   DefaultScreen( graphic_display ) ),
-                        DisplayHeight(graphic_display, 
-                                   DefaultScreen( graphic_display ) ),
+                        displaywidth(graphic_display, 
+                                   defaultscreen( graphic_display ) ),
+                        displayheight(graphic_display, 
+                                   defaultscreen( graphic_display ) ),
                         (unsigned int)0,
                         8,
-                        InputOutput,
+                        inputoutput,
                         &visual,
-                        CWEventMask | CWBackingStore | CWBackPixel,
+                        cweventmask | cwbackingstore | cwbackpixel,
                         &xswa );
-    XMapWindow( graphic_display, graphic_window );
+    xmapwindow( graphic_display, graphic_window );
     
     /** sync and wait for exposure event **/
-    XSync( graphic_display, False );
-    XWindowEvent( graphic_display, graphic_window, ExposureMask, &exposureEvent );
+    xsync( graphic_display, false );
+    xwindowevent( graphic_display, graphic_window, exposuremask, &exposureevent );
  
     conn.display     = graphic_display;
     conn.drawable_id = graphic_window;
  
     xinfo.display = graphic_display;
-    xinfo.flags.no_monitor = 0;      /* False -> Monitor is running! */
-    xinfo.flags.force_client_SS = 0; /* False! */
+    xinfo.flags.no_monitor = 0;      /* false -> monitor is running! */
+    xinfo.flags.force_client_ss = 0; /* false! */
  
-    popen_xphigs( NULL, 0, PXPHIGS_INFO_FLAGS_NO_MON |
-                           PXPHIGS_INFO_FLAGS_CLIENT_SS |
-                           PXPHIGS_INFO_DISPLAY, &xinfo );
+    popen_xphigs( null, 0, pxphigs_info_flags_no_mon |
+                           pxphigs_info_flags_client_ss |
+                           pxphigs_info_display, &xinfo );
  
-    popen_ws( 1, (Pconnid)(&conn), phigs_ws_type_x_drawable );
+    popen_ws( 1, (pconnid)(&conn), phigs_ws_type_x_drawable );
  
- I get core dumps in the popen_ws call! (No BadAlloc, etc.! Simply a core
- dump!) So I need some way of getting info about the maximal available memory
- to the Xserver!
+ i get core dumps in the popen_ws call! (no badalloc, etc.! simply a core
+ dump!) so i need some way of getting info about the maximal available memory
+ to the xserver!
  
- But thanks!
+ but thanks!
  
- Sincerly,
-         Matthias
+ sincerly,
+         matthias
  -- 
-     Matthias Pfuetzner  |  @work:  +49 6151 155-150  | @home: +49 6151 75717
-     6100 Darmstadt, FRG | ZGDV, Wilhelminenstrasse 7 | Lichtenbergstrasse 73
-       pfuetzner@igd.fhg.de, pfuetzner@zgdvda.UUCP    |  Keith Packard said:
-       R5 is different from R4. That's why we changed the release number :-)
+     matthias pfuetzner  |  @work:  +49 6151 155-150  | @home: +49 6151 75717
+     6100 darmstadt, frg | zgdv, wilhelminenstrasse 7 | lichtenbergstrasse 73
+       pfuetzner@igd.fhg.de, pfuetzner@zgdvda.uucp    |  keith packard said:
+       r5 is different from r4. that's why we changed the release number :-)
  

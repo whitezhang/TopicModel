@@ -1,49 +1,49 @@
 
- In article <186177@pyramid.pyramid.com>, andrem@pyrtech.mis.pyramid.com (Andre Molyneux) writes:
- > In article <1qksuq$1tt8@hal.gnu.ai.mit.edu>, mirsky@hal.gnu.ai.mit.edu
- > (David Joshua Mirsky) writes:
- > |> Hi. I own an LCIII and I recently heard an interesting rumor.
- > |> I heard that the LCIII has a built in slot for a PowerPC chip.
- > |> Is this true? I heard that the slot is not the same as the PDS
- > |> slot.  Is that true?
+ in article <186177@pyramid.pyramid.com>, andrem@pyrtech.mis.pyramid.com (andre molyneux) writes:
+ > in article <1qksuq$1tt8@hal.gnu.ai.mit.edu>, mirsky@hal.gnu.ai.mit.edu
+ > (david joshua mirsky) writes:
+ > |> hi. i own an lciii and i recently heard an interesting rumor.
+ > |> i heard that the lciii has a built in slot for a powerpc chip.
+ > |> is this true? i heard that the slot is not the same as the pds
+ > |> slot.  is that true?
  > |> 
- > |> Thanks
- > |> David Mirsky
+ > |> thanks
+ > |> david mirsky
  > |> mirsky@gnu.ai.mit.edu
  > 
- > Well, I also have an LC III.  Popping the top revealed:
+ > well, i also have an lc iii.  popping the top revealed:
  > 
- > 	One "socket" for an additional VRAM SIMM
+ > 	one "socket" for an additional vram simm
  > 
- > 	One "socket" for a 72-pin RAM SIMM
+ > 	one "socket" for a 72-pin ram simm
  > 
- > 	One socket for a flat-pack FPU
+ > 	one socket for a flat-pack fpu
  > 
- > 	A processor-direct slot (PDS) identical to the LC/LC II, but with
+ > 	a processor-direct slot (pds) identical to the lc/lc ii, but with
  > 	an additional set of connetions to one side (for the full 32-bit
- > 	data path that the LC/LC II lacked
+ > 	data path that the lc/lc ii lacked
  > 
- > That's it.  I guess a board with a PowerPC chip could be made that would fit
- > in the PDS, but that's the only place.
+ > that's it.  i guess a board with a powerpc chip could be made that would fit
+ > in the pds, but that's the only place.
  > 
- So, will it be possible to have a NuBus or PDS PowerPC upgrade, or will it 
- require a logic board swap? It would be interesting for Apple to come out with
- a NuBus PowerPC that allowed use of the CPU's 680x0, like RocketShare. But I 
+ so, will it be possible to have a nubus or pds powerpc upgrade, or will it 
+ require a logic board swap? it would be interesting for apple to come out with
+ a nubus powerpc that allowed use of the cpu's 680x0, like rocketshare. but i 
  guess that's getting a bit fantastic!
  
- I was wondering, since MacWeek reported that developers were 'seeded' with
- PowerPCs on a NuBus card.
+ i was wondering, since macweek reported that developers were 'seeded' with
+ powerpcs on a nubus card.
  
- Also, any word on machine arrivals or estimated speed? Last I heard, the 
- estimates were around 3-4 times the speed of a Quadra in native RISC mode. I
- heard an Apple employee mumble something about the arrival of PowerPC machines
- at a much earlier date that Q1 94, but I doubt it's true.
+ also, any word on machine arrivals or estimated speed? last i heard, the 
+ estimates were around 3-4 times the speed of a quadra in native risc mode. i
+ heard an apple employee mumble something about the arrival of powerpc machines
+ at a much earlier date that q1 94, but i doubt it's true.
  
- Finally, is the PowerPC developer's CD 'mini-course' available? I saw it 
- advertised in the developer's university calendar, and I'd like to know if it's
+ finally, is the powerpc developer's cd 'mini-course' available? i saw it 
+ advertised in the developer's university calendar, and i'd like to know if it's
  at all *interesting*.
  
- Sean
+ sean
  --------------
  seanmcd@ac.dal.ca
  

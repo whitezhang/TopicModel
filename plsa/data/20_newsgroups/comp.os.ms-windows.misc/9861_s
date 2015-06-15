@@ -1,40 +1,40 @@
 
- In article 5802@news.yale.edu, adriene_nazaretian@qm.yale.edu (Adriene Nazaretian) writes:
- > In article <1993Mar26.020427.29119@samba.oit.unc.edu>, tclark@med.unc.edu (Thomas B. Clark) says
+ in article 5802@news.yale.edu, adriene_nazaretian@qm.yale.edu (adriene nazaretian) writes:
+ > in article <1993mar26.020427.29119@samba.oit.unc.edu>, tclark@med.unc.edu (thomas b. clark) says
  
  [...]
  
- > >2.  Is the driver support as seamless as program support?
- > >e.g., Will my Soundblaster, scanner, CD-Rom, tape backup
- > >continue to work even if there are no specific NT drivers?
+ > >2.  is the driver support as seamless as program support?
+ > >e.g., will my soundblaster, scanner, cd-rom, tape backup
+ > >continue to work even if there are no specific nt drivers?
  > >
- > There is a hardware compatibility guide to answer these questions.
- > There are many drivers for CD Rom and there are MIDI and other
+ > there is a hardware compatibility guide to answer these questions.
+ > there are many drivers for cd rom and there are midi and other
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- > sound drivers installed, I dont do a lot with sound digitizing on this
- > platform, but recall seeing items for their configuration in the Control
- > Panel Applet.  There is built in support for tape backup systems as well.
+ > sound drivers installed, i dont do a lot with sound digitizing on this
+ > platform, but recall seeing items for their configuration in the control
+ > panel applet.  there is built in support for tape backup systems as well.
  
  [...]
  
- My Problem: I wasn't aware of the fact that I would need an *SCSI*-CD-ROM for
- Windows NT when ordering the Beta-SDK-Package. So my question: Is there any driver
- available that will allow me to use my Mitsumi (Non-SCSI) CD-ROM for installation ?
- If there is one, from which place (ftp-site) can I get it ?
+ my problem: i wasn't aware of the fact that i would need an *scsi*-cd-rom for
+ windows nt when ordering the beta-sdk-package. so my question: is there any driver
+ available that will allow me to use my mitsumi (non-scsi) cd-rom for installation ?
+ if there is one, from which place (ftp-site) can i get it ?
  
- Many thanks in advance
+ many thanks in advance
  
- 	Stefan Kuehnel
+ 	stefan kuehnel
  ---
  
  ----------------------------------------------------------------------
-    /\  Stefan K"uhnel
+    /\  stefan k"uhnel
    |   
    |/   kuehnel@rvs.uni-hannover.de   
    |\   kuehnel@swl.uni-hannover.de (neu ab. 17.04.1993)
    |  
- \/     Die oben wiedergegebene Meinung ist meine private und nicht die         
-        des RRZN, des LG RVS der UH oder einer anderen Institution.             
+ \/     die oben wiedergegebene meinung ist meine private und nicht die         
+        des rrzn, des lg rvs der uh oder einer anderen institution.             
  ----------------------------------------------------------------------
  
  

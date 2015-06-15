@@ -1,23 +1,23 @@
 
- In <Z2442B4w164w@cellar.org> tsa@cellar.org (The Silent Assassin) writes:
+ in <z2442b4w164w@cellar.org> tsa@cellar.org (the silent assassin) writes:
  
- >> I'm building a CAD package and need a 3D graphics library that can handle
+ >> i'm building a cad package and need a 3d graphics library that can handle
  >> some rudimentry tasks, such as hidden line removal, shading, animation, etc.
  >> 
- >> Can you please offer some recommendations?
+ >> can you please offer some recommendations?
  
- I think APDA has something called MacWireFrame which is a full
+ i think apda has something called macwireframe which is a full
  wire-frame (and supposedly hidden-line removal) library.
- I think it weighs in at $99 (but I've been wrong on an order
+ i think it weighs in at $99 (but i've been wrong on an order
  of magnitude before)
  
- >Libertarian, atheist, semi-anarchal Techno-Rat.
+ >libertarian, atheist, semi-anarchal techno-rat.
  
- I can relate to that
+ i can relate to that
  
  					/h+
  -- 
-  -- Jon W{tte, h+@nada.kth.se, Mac Hacker Deluxe --
+  -- jon w{tte, h+@nada.kth.se, mac hacker deluxe --
  
-   "On a clear disc, you can seek forever."
+   "on a clear disc, you can seek forever."
  

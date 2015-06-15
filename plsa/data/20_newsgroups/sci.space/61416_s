@@ -1,136 +1,136 @@
 
- Forwarded from Neal Ausman, Galileo Mission Director
+ forwarded from neal ausman, galileo mission director
  
-                                  GALILEO
-                      MISSION DIRECTOR STATUS REPORT
-                                POST-LAUNCH
-                            April 23 - 29, 1993
+                                  galileo
+                      mission director status report
+                                post-launch
+                            april 23 - 29, 1993
  
- SPACECRAFT
+ spacecraft
  
- 1.  On April 22 and 23, delta Differenced One-way Range (DOR) passes were
- performed over DSS-14/63 (Goldstone/Madrid 70 meter antennas) and DSS-14/43
- (Goldstone/Canberra 70 meter antennas), respectively.  Initial results 
- indicate the delta DOR pass on April 22 was unsuccessful due to ground
- station hardware problems but the one on April 23 was successfully performed.
+ 1.  on april 22 and 23, delta differenced one-way range (dor) passes were
+ performed over dss-14/63 (goldstone/madrid 70 meter antennas) and dss-14/43
+ (goldstone/canberra 70 meter antennas), respectively.  initial results 
+ indicate the delta dor pass on april 22 was unsuccessful due to ground
+ station hardware problems but the one on april 23 was successfully performed.
  
- 2.  On April 23, a cruise science Memory Readout (MRO) was performed for the
- Magnetometer (MAG) instrument.  Analysis indicates the data was received
+ 2.  on april 23, a cruise science memory readout (mro) was performed for the
+ magnetometer (mag) instrument.  analysis indicates the data was received
  properly.
  
- 3.  On April 23, the spare power relay contacts were commanded closed via the
- spacecraft stored sequence.  These relays were commanded closed by the CDS
- (Command Data Subsystem) prior to launch and were again commanded closed to
- preclude the possibility at Jupiter of the PPS relays/wiring being a
- source of internal electrostatic charge (IESD).
+ 3.  on april 23, the spare power relay contacts were commanded closed via the
+ spacecraft stored sequence.  these relays were commanded closed by the cds
+ (command data subsystem) prior to launch and were again commanded closed to
+ preclude the possibility at jupiter of the pps relays/wiring being a
+ source of internal electrostatic charge (iesd).
  
- 4.  On April 26, cruise science Memory Readouts (MRO) were performed for the
- Extreme Ultraviolet Spectrometer (EUV), Dust Detector (DDS), and Magnetometer
- (MAG) instruments.  Preliminary analysis indicates the data was received
+ 4.  on april 26, cruise science memory readouts (mro) were performed for the
+ extreme ultraviolet spectrometer (euv), dust detector (dds), and magnetometer
+ (mag) instruments.  preliminary analysis indicates the data was received
  properly.
  
- 5.  During the period from April 26 to April 27, a navigation cycle was
- performed.  This navigation cycle provided near-continuous acquisition of
+ 5.  during the period from april 26 to april 27, a navigation cycle was
+ performed.  this navigation cycle provided near-continuous acquisition of
  two-way doppler and ranging data during three consecutive passes of the
- spacecraft over DSS-63, DSS-14, and DSS-43.
+ spacecraft over dss-63, dss-14, and dss-43.
  
- 6.  On April 26, real-time commands were sent to test slew the Radio Relay
- Antenna (RRA) in preparation for the mini-sequence slew test on April 28.
- The RRA was slewed from approximately 3.5 degrees from stow to approximately
- 20.3 degrees.  Preliminary analysis indicated the antenna slewed to about 18
- degrees which was well within the predicted range.  The RRA was commanded back
- to approximately 15.2 degrees from stow.  Preliminary analysis indicated the
- antenna reached about 15.8 degrees also well within the predicted range.  The
- RRA motor temperature was at 1 degree C at the start of the activity and had
- increased to 1.6 degrees C at its completion.
+ 6.  on april 26, real-time commands were sent to test slew the radio relay
+ antenna (rra) in preparation for the mini-sequence slew test on april 28.
+ the rra was slewed from approximately 3.5 degrees from stow to approximately
+ 20.3 degrees.  preliminary analysis indicated the antenna slewed to about 18
+ degrees which was well within the predicted range.  the rra was commanded back
+ to approximately 15.2 degrees from stow.  preliminary analysis indicated the
+ antenna reached about 15.8 degrees also well within the predicted range.  the
+ rra motor temperature was at 1 degree c at the start of the activity and had
+ increased to 1.6 degrees c at its completion.
  
-      After verifying proper RRA slewing, the RRA slew test mini-sequence was
- uplinked to the spacecraft for execution on April 28.  Upon successful uplink,
- a Delayed Action Command (DAC) was sent which will reposition the stator on
- May 4 to its initial pre-test position.  Also, a DAC was sent to turn the
- Two-Way Noncoherent (TWNC) on April 28 prior to the start of the RRA slew test
+      after verifying proper rra slewing, the rra slew test mini-sequence was
+ uplinked to the spacecraft for execution on april 28.  upon successful uplink,
+ a delayed action command (dac) was sent which will reposition the stator on
+ may 4 to its initial pre-test position.  also, a dac was sent to turn the
+ two-way noncoherent (twnc) on april 28 prior to the start of the rra slew test
  mini-sequence.
  
- 7.  On April 27, a NO-OP command was sent to reset the command loss timer to
+ 7.  on april 27, a no-op command was sent to reset the command loss timer to
  264 hours, its planned value during this mission phase.
  
- 8.  On April 28, the RRA slew test executed nominally.  The spacecraft under
- stored sequence control performed six RRA slews starting at about 16 degrees
+ 8.  on april 28, the rra slew test executed nominally.  the spacecraft under
+ stored sequence control performed six rra slews starting at about 16 degrees
  from stow and going to 53 degrees, back to 25 degrees, then to 51 degrees,
- back to 22 degrees, then to 48 degrees and then back to 21 degrees.  All of
- the slews were well within the predicted range.  The RRA motor temperature was
- at 2.3 degrees C at the start of the activity and had increased to 4.4
- degrees C at its completion.  After completion of the RRA slews, real-time
+ back to 22 degrees, then to 48 degrees and then back to 21 degrees.  all of
+ the slews were well within the predicted range.  the rra motor temperature was
+ at 2.3 degrees c at the start of the activity and had increased to 4.4
+ degrees c at its completion.  after completion of the rra slews, real-time
  commands were sent to reconfigure back to the pre-test configuration.
  
- 9.  The AC/DC bus imbalance measurements have not exhibited significant change
- (greater than 25 DN) throughout this period.  The AC measurement reads 17 DN
- (3.9 volts).  The DC measurement reads 134 DN (15.7 volts).  These
- measurements are consistent with the model developed by the AC/DC special
+ 9.  the ac/dc bus imbalance measurements have not exhibited significant change
+ (greater than 25 dn) throughout this period.  the ac measurement reads 17 dn
+ (3.9 volts).  the dc measurement reads 134 dn (15.7 volts).  these
+ measurements are consistent with the model developed by the ac/dc special
  anomaly team.
  
- 10. The Spacecraft status as of April 29, 1993, is as follows:
+ 10. the spacecraft status as of april 29, 1993, is as follows:
  
-        a)  System Power Margin -  75 watts
-        b)  Spin Configuration - Dual-Spin
-        c)  Spin Rate/Sensor - 3.15rpm/Star Scanner
-        d)  Spacecraft Attitude is approximately 23 degrees
+        a)  system power margin -  75 watts
+        b)  spin configuration - dual-spin
+        c)  spin rate/sensor - 3.15rpm/star scanner
+        d)  spacecraft attitude is approximately 23 degrees
             off-sun (lagging) and 4 degrees off-earth (leading)
-        e)  Downlink telemetry rate/antenna- 40bps(coded)/LGA-1
-        f)  General Thermal Control - all temperatures within
+        e)  downlink telemetry rate/antenna- 40bps(coded)/lga-1
+        f)  general thermal control - all temperatures within
             acceptable range
-        g)  RPM Tank Pressures - all within acceptable range
-        h)  Orbiter Science- Instruments powered on are the PWS,
-            EUV, UVS, EPD, MAG, HIC, and DDS
-        i)  Probe/RRH - powered off, temperatures within
+        g)  rpm tank pressures - all within acceptable range
+        h)  orbiter science- instruments powered on are the pws,
+            euv, uvs, epd, mag, hic, and dds
+        i)  probe/rrh - powered off, temperatures within
             acceptable range
-        j)  CMD Loss Timer Setting - 264 hours
-            Time To Initiation - 203 hours
+        j)  cmd loss timer setting - 264 hours
+            time to initiation - 203 hours
  
  
- GDS (Ground Data Systems):
+ gds (ground data systems):
  
- 1.  The first Galileo-GDS test of the MGDS V18.0 Command System (CMD) took
- place April 27, 1993 with DSS-61 (Madrid 34 meter antenna).  The test went
- well and demonstrated that the new command system interfaced with the new DSN
- (Deep Space Network) Group 5 Command Processor Assembly (CPA).  The test was
- successful and the next test for V18.0 CMD is scheduled for May 1, 1993 with
- DSS-15 (Goldstone 34 meter antenna).
+ 1.  the first galileo-gds test of the mgds v18.0 command system (cmd) took
+ place april 27, 1993 with dss-61 (madrid 34 meter antenna).  the test went
+ well and demonstrated that the new command system interfaced with the new dsn
+ (deep space network) group 5 command processor assembly (cpa).  the test was
+ successful and the next test for v18.0 cmd is scheduled for may 1, 1993 with
+ dss-15 (goldstone 34 meter antenna).
  
- 2.  The April System Engineers Monthly Report(SEMR)/Ground System Development
- Office (GSDO) MMR was conducted Thursday, April 29.   A review of current
- Project and Institutional (DSN and MOSO) system status was conducted.  On-going
- cruise development plus the GSDO Phase 1 and 2 delivery schedules, past months
- accomplishments  and potential problem areas were discussed.  No significant
+ 2.  the april system engineers monthly report(semr)/ground system development
+ office (gsdo) mmr was conducted thursday, april 29.   a review of current
+ project and institutional (dsn and moso) system status was conducted.  on-going
+ cruise development plus the gsdo phase 1 and 2 delivery schedules, past months
+ accomplishments  and potential problem areas were discussed.  no significant
  schedule changes or significant problems were reported.
  
  
- TRAJECTORY
+ trajectory
  
-      As of noon Thursday, April 29, 1993, the Galileo Spacecraft trajectory
+      as of noon thursday, april 29, 1993, the galileo spacecraft trajectory
  status was as follows:
  
- 	Distance from Earth         187,745,300 km (1.26 AU)
- 	Distance from Sun           296,335,800 km (1.98 AU)
- 	Heliocentric Speed          89,100 km per hour
- 	Distance from Jupiter       522,015,800 km
- 	Round Trip Light Time       20 minutes, 58 seconds
+ 	distance from earth         187,745,300 km (1.26 au)
+ 	distance from sun           296,335,800 km (1.98 au)
+ 	heliocentric speed          89,100 km per hour
+ 	distance from jupiter       522,015,800 km
+ 	round trip light time       20 minutes, 58 seconds
  
- SPECIAL TOPIC
+ special topic
  
- 1.  As of April 29, 1993, a total of 70259 real-time commands have been
- transmitted to Galileo since Launch.  Of these, 65150  were initiated in the
+ 1.  as of april 29, 1993, a total of 70259 real-time commands have been
+ transmitted to galileo since launch.  of these, 65150  were initiated in the
  sequence design process and 5109 initiated in the real-time command process.
- In the past week, 74 real time commands were transmitted: 73 were initiated
+ in the past week, 74 real time commands were transmitted: 73 were initiated
  in the sequence design process and one initiated in the real time command
- process.  Major command activities included commands to perform the initial
- RRA slew test, uplink the RRA slew test mini-sequence, DACs to reposition the
- stator and turn the TWNC on, reset the command loss timer, and execute the
- RRA slew test.
+ process.  major command activities included commands to perform the initial
+ rra slew test, uplink the rra slew test mini-sequence, dacs to reposition the
+ stator and turn the twnc on, reset the command loss timer, and execute the
+ rra slew test.
       ___    _____     ___
-     /_ /|  /____/ \  /_ /|     Ron Baalke         | baalke@kelvin.jpl.nasa.gov
-     | | | |  __ \ /| | | |     Jet Propulsion Lab |
-  ___| | | | |__) |/  | | |__   M/S 525-3684 Telos | The aweto from New Zealand
- /___| | | |  ___/    | |/__ /| Pasadena, CA 91109 | is part caterpillar and
+     /_ /|  /____/ \  /_ /|     ron baalke         | baalke@kelvin.jpl.nasa.gov
+     | | | |  __ \ /| | | |     jet propulsion lab |
+  ___| | | | |__) |/  | | |__   m/s 525-3684 telos | the aweto from new zealand
+ /___| | | |  ___/    | |/__ /| pasadena, ca 91109 | is part caterpillar and
  |_____|/  |_|/       |_____|/                     | part vegetable.
  

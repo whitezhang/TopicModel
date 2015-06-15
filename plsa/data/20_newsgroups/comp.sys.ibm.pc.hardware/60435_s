@@ -1,41 +1,41 @@
 
- richk@grebyn.com (Richard Krehbiel) writes:
- [Stuff about the connection between IDE and IDA deleated]
- >8MHz clock, 16 bit width, 5MB/sec.
- If IDE speed come from IDA WHERE does the 8.3MB/s sighted for IDE come from?
+ richk@grebyn.com (richard krehbiel) writes:
+ [stuff about the connection between ide and ida deleated]
+ >8mhz clock, 16 bit width, 5mb/sec.
+ if ide speed come from ida where does the 8.3mb/s sighted for ide come from?
  
- SCSI is not complex. It is just the way the industry uses and talks about it.
- There are THREE key differences in SCSI; the controller chip, the port, and
- the software.  THAT IS IT.
- Let us look as SCSi in from THIS stand point.
+ scsi is not complex. it is just the way the industry uses and talks about it.
+ there are three key differences in scsi; the controller chip, the port, and
+ the software.  that is it.
+ let us look as scsi in from this stand point.
  
- SCSI-1: asynchronous and synchronous modes {SOFTWARE SCSI DRIVER ONLY}
-  asynchronous is slower then synchronous mode {only 0-3MB/s vs. 0-5MB/s}
-  synchronous speeds can be reached by most SCSi-1 divices with a
-  rewrite of the software driver {As is the case for the Mac Quadra.}
+ scsi-1: asynchronous and synchronous modes {software scsi driver only}
+  asynchronous is slower then synchronous mode {only 0-3mb/s vs. 0-5mb/s}
+  synchronous speeds can be reached by most scsi-1 divices with a
+  rewrite of the software driver {as is the case for the mac quadra.}
  
- SCSI-2 {8-bit}: THIS is the main source for the confusion. This differs from
-  SCSI-1 ONLY in the controler chip in most machines.  In the Mac and some PCs
-  this is called 'fast SCSI-1' because it uses SCSI-1 ports and software drivers
-  AND can produce SCSI-2 SPEEDS through SCSI-1 INSPITE of this even in the 
-  slower asynchronous mode.  Average speed in asynchronous SCSi-1 mode 
-  4-6MB/s with 8MB/s{See in both Quadras and higher end PCs} Synchronous
-  mode just allows a higher burst rate {10/MB/s}
+ scsi-2 {8-bit}: this is the main source for the confusion. this differs from
+  scsi-1 only in the controler chip in most machines.  in the mac and some pcs
+  this is called 'fast scsi-1' because it uses scsi-1 ports and software drivers
+  and can produce scsi-2 speeds through scsi-1 inspite of this even in the 
+  slower asynchronous mode.  average speed in asynchronous scsi-1 mode 
+  4-6mb/s with 8mb/s{see in both quadras and higher end pcs} synchronous
+  mode just allows a higher burst rate {10/mb/s}
  
- SCSI-2 {16-bit}: TWO versions-Wide/Fast.  Wide SCSI-2 requires TWO things
-  over 8-bit SCSI-2:  a SCSI-2 software driver and a wide SCSI port on the
+ scsi-2 {16-bit}: two versions-wide/fast.  wide scsi-2 requires two things
+  over 8-bit scsi-2:  a scsi-2 software driver and a wide scsi port on the
   machine and the external device.
-  Fast SCSI-2 also requires TWO things over 8-bit SCSI-2: SCSI-2 driver
-  software and that the RECIEVING devise support 16-bit fast SCSI-2.
-  Speed of both is the same: 8-12MB/s with 20MB/s burst.
+  fast scsi-2 also requires two things over 8-bit scsi-2: scsi-2 driver
+  software and that the recieving devise support 16-bit fast scsi-2.
+  speed of both is the same: 8-12mb/s with 20mb/s burst.
  
- SCSI-2 {32-bit}:  Also know as Wide AND Fast SCSI.  Over 8-bit SCSI-2 this
-  requires: SCSI-2 driver software, wide SCSI-2 port, and that the RECIEVING
-  devices ALSO have a 32-bit mode SCSI-2 chip.  As expected this is VERY
-  expencive.  Speed: 15-20MB/s with 40MB/s bursts
+ scsi-2 {32-bit}:  also know as wide and fast scsi.  over 8-bit scsi-2 this
+  requires: scsi-2 driver software, wide scsi-2 port, and that the recieving
+  devices also have a 32-bit mode scsi-2 chip.  as expected this is very
+  expencive.  speed: 15-20mb/s with 40mb/s bursts
   
  
- As I said SIMPLE.  Seven versions of SCSI seperated by software, the 
- controler chip, and the port. Standarize the SOFTWARE and it DROPS to
- only FIVE versions of SCSI seperate by only HARDWARE {the chip and the port}
+ as i said simple.  seven versions of scsi seperated by software, the 
+ controler chip, and the port. standarize the software and it drops to
+ only five versions of scsi seperate by only hardware {the chip and the port}
  

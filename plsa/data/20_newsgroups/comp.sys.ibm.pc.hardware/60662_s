@@ -1,12 +1,12 @@
 
- I have a question regarding sending a NULL character across ethernet
- connection. The actual problem is that emacs (Unix editior) needs
- the NULL character for setting a mark and unfortunately we don't know
- how to sent that from IBM PCs across ethernet. I am wondering if anyboy
- knows the keyboard combination for sending the NULL character. 
- BTW control,shift 2 which Ctrl @ does not work.
+ i have a question regarding sending a null character across ethernet
+ connection. the actual problem is that emacs (unix editior) needs
+ the null character for setting a mark and unfortunately we don't know
+ how to sent that from ibm pcs across ethernet. i am wondering if anyboy
+ knows the keyboard combination for sending the null character. 
+ btw control,shift 2 which ctrl @ does not work.
  
- Thanks
+ thanks
  
- Saeid
+ saeid
  

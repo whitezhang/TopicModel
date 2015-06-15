@@ -1,52 +1,52 @@
 
- In article <1rjdk8INNcnh@senator-bedfellow.MIT.EDU>, jgealow@mtl.mit.edu (Jeffrey C. Gealow) writes:
- > I'm working on an X11R5 application and have concerns regarding 
+ in article <1rjdk8inncnh@senator-bedfellow.mit.edu>, jgealow@mtl.mit.edu (jeffrey c. gealow) writes:
+ > i'm working on an x11r5 application and have concerns regarding 
  > standard colormaps.
  > 
- > The X11R5 documentation says: "Usually, a window manager creates 
- > these colormaps."  I wonder what window manager the writer had 
- > in mind.  Neither twm or mwm seem to create standard colormaps.
+ > the x11r5 documentation says: "usually, a window manager creates 
+ > these colormaps."  i wonder what window manager the writer had 
+ > in mind.  neither twm or mwm seem to create standard colormaps.
  
- Standard colormaps were spec'd with the intention that window managers
- would make them available. This doesn't mean that every window manager
+ standard colormaps were spec'd with the intention that window managers
+ would make them available. this doesn't mean that every window manager
  author in the world immediately dropped everything they were doing and
  implemented this at top priority.
  
- The ESGE server we ship makes the XA_RGB_BEST_MAP available at
- startup. It doesn't wait for window managers to do it.
+ the esge server we ship makes the xa_rgb_best_map available at
+ startup. it doesn't wait for window managers to do it.
  
- > Of course, one can use xstdcmap to create standard colormaps.  
- > However, xstdcmap doesn't seem to try very hard to avoid 
- > conflicts with the default colormap.  When I use standard 
+ > of course, one can use xstdcmap to create standard colormaps.  
+ > however, xstdcmap doesn't seem to try very hard to avoid 
+ > conflicts with the default colormap.  when i use standard 
  > colormaps created by xstdcmap, the rest of my display goes black.  
- > So it seems as if use of standard colormaps causes the very 
- > problem standard colormaps are intended to avoid.  Perhaps 
+ > so it seems as if use of standard colormaps causes the very 
+ > problem standard colormaps are intended to avoid.  perhaps 
  > if every application used standard colormaps, things would 
- > be wonderful.  But not many applications seem to use 
+ > be wonderful.  but not many applications seem to use 
  > standard colormaps.
  
- Does your hardware have only one CLUT? Since standard colormaps
+ does your hardware have only one clut? since standard colormaps
  typically devour all 256 entries, there is no way it can avoid
  displacing the entire default colormap if your hardware has only one
- CLUT.
+ clut.
  
- I don't believe standard colormaps are intended to aboid possible
- colormap flashing between clients using the default coilormap. Rather,
+ i don't believe standard colormaps are intended to aboid possible
+ colormap flashing between clients using the default coilormap. rather,
  colormap flashing will be avoided between two clients that use the
- same standard colormap. An example would be two clients that need a
- full color range would both use XA_RGB_BEST_MAP (or whatever it's
- called under X11R5).
+ same standard colormap. an example would be two clients that need a
+ full color range would both use xa_rgb_best_map (or whatever it's
+ called under x11r5).
  
- If you are trying to avoid colormap flashing with the default
+ if you are trying to avoid colormap flashing with the default
  colormap, your best bet is to try to load all the colors you use into
- that colormap. If you can't do that, then you'll get flashing on a one
- hw CLUT framebuffer.
+ that colormap. if you can't do that, then you'll get flashing on a one
+ hw clut framebuffer.
  
- Now if your window manager used the same standard colormap as your
- client, this flashing could also be avoided. Perhaps some window
+ now if your window manager used the same standard colormap as your
+ client, this flashing could also be avoided. perhaps some window
  managers have command line options for selecting standard colormaps?
  -- 
  
     -paul	pmartz@dsd.es.com
- 		Evans & Sutherland
+ 		evans & sutherland
  

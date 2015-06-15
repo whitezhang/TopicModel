@@ -1,29 +1,29 @@
 
- In article <C5HA0x.11oq@austin.ibm.com> $LOGIN@austin.ibm.com writes:
+ in article <c5ha0x.11oq@austin.ibm.com> $login@austin.ibm.com writes:
  >
- >A while ago I posted a note asking for specs on the Quadra 700, and opinions on
- >the Q700 upgrade of a IIci vs. an accelerator card.  So far no responsed that
- >I've noticed.  Please let me know what you think of these possible upgrade
- >paths:  Cost, efficiency, pros/cons, etc.. Thanks!
+ >a while ago i posted a note asking for specs on the quadra 700, and opinions on
+ >the q700 upgrade of a iici vs. an accelerator card.  so far no responsed that
+ >i've noticed.  please let me know what you think of these possible upgrade
+ >paths:  cost, efficiency, pros/cons, etc.. thanks!
  
-   Complete Q700 are best obtained from your dealer or some recent
- copy of MacWorld or MacUser.  My foggy memory suggests that the most relevant
- comparison factors vis-a-vis a IIci are as follows:
+   complete q700 are best obtained from your dealer or some recent
+ copy of macworld or macuser.  my foggy memory suggests that the most relevant
+ comparison factors vis-a-vis a iici are as follows:
  
-   25 MHz 68040
-   16 Mhz data path (don't recall this for sure, but it's slower
-       than Q 950 style machines for sure).
-   Ethertalk card on-board
-   Audio in/out
-   4 MB RAM on motherboard
-   4 SIMM slots
-   2 NuBus slots.
-   More flexible build-in video than the CI.  Uses VRAM.
+   25 mhz 68040
+   16 mhz data path (don't recall this for sure, but it's slower
+       than q 950 style machines for sure).
+   ethertalk card on-board
+   audio in/out
+   4 mb ram on motherboard
+   4 simm slots
+   2 nubus slots.
+   more flexible build-in video than the ci.  uses vram.
  
- In comparison, a IIci with an accelerator won't give you
+ in comparison, a iici with an accelerator won't give you
    audio or ethernet  or the same video options.
-   With a 68040 accelerator, CPU performance can be comparable but I
+   with a 68040 accelerator, cpu performance can be comparable but i
    think it ends up costing more.
  
- Greg Dudek
+ greg dudek
  

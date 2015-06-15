@@ -1,32 +1,32 @@
 
  om>
  
- In <1993May17.064503.13114@microsoft.com> cliffga@microsoft.com (Clifford Garrett) writes:
- >/Yes, a lot of what OS/2 2.0 has in common with OS/2 1.x was written by you
- >/guys. However, many of the things that made OS/2 2.0 so much more successful
- >/(Win-OS/2, Workplace Shell) than previous versions were IBM work.
+ in <1993may17.064503.13114@microsoft.com> cliffga@microsoft.com (clifford garrett) writes:
+ >/yes, a lot of what os/2 2.0 has in common with os/2 1.x was written by you
+ >/guys. however, many of the things that made os/2 2.0 so much more successful
+ >/(win-os/2, workplace shell) than previous versions were ibm work.
  >
- >Yes, certainly.  It was IBM that wrote the Windows code!!!
+ >yes, certainly.  it was ibm that wrote the windows code!!!
  
- Cliff, do you know the difference between "Windows" and "Win-OS/2"?  Here's
+ cliff, do you know the difference between "windows" and "win-os/2"?  here's
  a helpful hint:
  
- Running "Windows" under OS/2 2.0 is only possible in real mode, in a DOS
- box. Of course, this is only possible with Windows 3.0, since Windows 3.1
+ running "windows" under os/2 2.0 is only possible in real mode, in a dos
+ box. of course, this is only possible with windows 3.0, since windows 3.1
  no longer has a "real mode".
  
- The ability to run standard mode, the ability to have an OS/2 <-> Windows
+ the ability to run standard mode, the ability to have an os/2 <-> windows
  clipboard, the ability to run seamless, and a few other things were all added
- by IBM to "Win-OS/2".
+ by ibm to "win-os/2".
  
- Now, everybody who is running "Windows" in real-mode in a DOS box under OS/2
- 2.x raise your hand. Finally, everybody who is running "Win-OS/2" under OS/2,
- raise YOUR hand.
+ now, everybody who is running "windows" in real-mode in a dos box under os/2
+ 2.x raise your hand. finally, everybody who is running "win-os/2" under os/2,
+ raise your hand.
  
- Get the picture, Cliff?
+ get the picture, cliff?
  
  ----
- Mike Dahmus                 Internet: miked@vnet.ibm.com  Vnet: MDAHMUS at BOCA
- PenPM Development           IBM IPNet: mike@schleppo.bocaraton.ibm.com
- IBM Personal Systems        Disclaimer: Not an official IBM spokesman
+ mike dahmus                 internet: miked@vnet.ibm.com  vnet: mdahmus at boca
+ penpm development           ibm ipnet: mike@schleppo.bocaraton.ibm.com
+ ibm personal systems        disclaimer: not an official ibm spokesman
  

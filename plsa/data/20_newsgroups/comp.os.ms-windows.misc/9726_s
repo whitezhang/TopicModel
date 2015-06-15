@@ -1,25 +1,25 @@
 
- Hi there,
+ hi there,
  
- We are running a 120 node Token ring with Windows 3.1 and Novell 3.11.
+ we are running a 120 node token ring with windows 3.1 and novell 3.11.
  
- Every once in a while, we run into "The Black Screen of Death", a phrase
- coined by Robert X. Cringely in a recent InfoWorld column.  
+ every once in a while, we run into "the black screen of death", a phrase
+ coined by robert x. cringely in a recent infoworld column.  
  
- Basically, sometimes when you quit Windows, the screen goes black and
+ basically, sometimes when you quit windows, the screen goes black and
  you get a nice little flashing cursor in the top left corner of your
- screen.  Also, sometimes when you exit to DOS, the same effect occurs.
- Cringely hints that Microsoft and/or Novell has a patch for Windows'
- virtual interrupt controller that  may solve this.  Neither company
- seems to know what I am talking about when I call them.
+ screen.  also, sometimes when you exit to dos, the same effect occurs.
+ cringely hints that microsoft and/or novell has a patch for windows'
+ virtual interrupt controller that  may solve this.  neither company
+ seems to know what i am talking about when i call them.
  
- Has anyone else noticed this phenomenon?  
+ has anyone else noticed this phenomenon?  
  
- Is there a fix for it?
+ is there a fix for it?
  
- Any response is welcome.
+ any response is welcome.
  
- Peter Sweeney
+ peter sweeney
  psweeney@miavx1.acs.muohio.edu
  
  

@@ -1,10 +1,10 @@
 
- Excerpts from misc: 27-Apr-93 Re: X Toolkits Sivesh Pradhaan@rebels.b (423)
+ excerpts from misc: 27-apr-93 re: x toolkits sivesh pradhaan@rebels.b (423)
  
- > I do not have finger!!! So is there any other way of accessing this service 
+ > i do not have finger!!! so is there any other way of accessing this service 
  > like mail server or telnet or ftp?
  
- You can use telnet:
+ you can use telnet:
  
  % xhost +atk.itc.cmu.edu
  % telnet atk.itc.cmu.edu 79

@@ -1,21 +1,21 @@
 
  
-   Here is an annoying problem. Whenever I save an icon which contains dark
+   here is an annoying problem. whenever i save an icon which contains dark
  colors like dark red or dark purple, these colors are converted to the
- bright colors. This happens with every icon editor including the image
- editor that came with SDK. I don't have this problem with .BMP files
- either; only with .ICO files or icon libraries. The problem is with
- the icon colormap field in the icon file header. Checking the file
- with a binary editor, I can see that the masks are OK. By editing the
- colormap manually (copying from another icon that I didn't edit) I can
- fix the colors. Does anybody know what may be causing this problem? 
+ bright colors. this happens with every icon editor including the image
+ editor that came with sdk. i don't have this problem with .bmp files
+ either; only with .ico files or icon libraries. the problem is with
+ the icon colormap field in the icon file header. checking the file
+ with a binary editor, i can see that the masks are ok. by editing the
+ colormap manually (copying from another icon that i didn't edit) i can
+ fix the colors. does anybody know what may be causing this problem? 
  
- Thanks.
+ thanks.
  
  
  
  --
- Sadun Anik, U of Illinois at Urbana-Champaign
- Center for Reliable and High-performance Computing
+ sadun anik, u of illinois at urbana-champaign
+ center for reliable and high-performance computing
  e-mail: anik@crhc.uiuc.edu
  

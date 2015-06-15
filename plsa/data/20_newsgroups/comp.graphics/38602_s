@@ -1,29 +1,29 @@
 
- In article <19930420.090030.915@almaden.ibm.com> capelli@vnet.IBM.COM (Ron Capelli) writes:
- >In <ia522B1w165w@oeinck.waterland.wlink.nl> Ferdinand Oeinck writes:
- >>I'm looking for any information on detecting and/or calculating a double
+ in article <19930420.090030.915@almaden.ibm.com> capelli@vnet.ibm.com (ron capelli) writes:
+ >in <ia522b1w165w@oeinck.waterland.wlink.nl> ferdinand oeinck writes:
+ >>i'm looking for any information on detecting and/or calculating a double
  >>point and/or cusp in a bezier curve.
  >
- >See:
- >   Maureen Stone and Tony DeRose,
- >   "A Geometric Characterization of Parametric Cubic Curves",
- >   ACM TOG, vol 8, no 3, July 1989, pp. 147-163.
+ >see:
+ >   maureen stone and tony derose,
+ >   "a geometric characterization of parametric cubic curves",
+ >   acm tog, vol 8, no 3, july 1989, pp. 147-163.
  
- I've used that reference, and found that I needed to go to their
+ i've used that reference, and found that i needed to go to their
  original tech report:
  
- 	Maureen Stone and Tony DeRose,
- 	"Characterizing Cubic Bezier Curves"
- 	Xerox  EDL-88-8, December 1988
+ 	maureen stone and tony derose,
+ 	"characterizing cubic bezier curves"
+ 	xerox  edl-88-8, december 1988
  
- This report can be obtained for free from:
- Xerox Corporation
- Palo Alto Research Center
- 3333 Coyote Hill Road
- Palo Alto, California 94303
+ this report can be obtained for free from:
+ xerox corporation
+ palo alto research center
+ 3333 coyote hill road
+ palo alto, california 94303
  +1-415-494-4440
  
- The TOG paper was good, but this tech report had more interesting details ;-)
+ the tog paper was good, but this tech report had more interesting details ;-)
  
  -john
  

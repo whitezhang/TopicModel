@@ -1,21 +1,21 @@
 
- douglas craig holland (holland@CS.ColoState.EDU) writes:
+ douglas craig holland (holland@cs.colostate.edu) writes:
  >
- > With E-Mail, if they can't break your PGP encryption, they'll just
- > call up one of their TEMPEST trucks and read the electromagnetic 
- > emmisions from your computer or terminal.  Note that measures to 
- > protect yourself from TEMPEST surveillance are still classified, as 
- > far as I know.
+ > with e-mail, if they can't break your pgp encryption, they'll just
+ > call up one of their tempest trucks and read the electromagnetic 
+ > emmisions from your computer or terminal.  note that measures to 
+ > protect yourself from tempest surveillance are still classified, as 
+ > far as i know.
  
- steiner@jupiter.cse.utoledo.edu (Jason 'Think!' Steiner) writes:
+ steiner@jupiter.cse.utoledo.edu (jason 'think!' steiner) writes:
  
- > are LCD displays vulnerable to tempest?
+ > are lcd displays vulnerable to tempest?
  
- I can see high-voltage type display devices being vulnerable (CRTs,
- plasma displays, etc.)  But Jason beat me to this question.  What
- about EM radiation from low-voltage items like LCD displays?
+ i can see high-voltage type display devices being vulnerable (crts,
+ plasma displays, etc.)  but jason beat me to this question.  what
+ about em radiation from low-voltage items like lcd displays?
  
- Perhaps the critical element is the driver circuitry?  The cabling?
- What about a portable PC/Mac/etc., where all the "noise" is bunched
+ perhaps the critical element is the driver circuitry?  the cabling?
+ what about a portable pc/mac/etc., where all the "noise" is bunched
  into one tiny area?
  

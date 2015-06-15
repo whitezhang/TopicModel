@@ -1,19 +1,19 @@
 
- Hello everybody !
+ hello everybody !
  
- If you are using PIXAR'S RenderMan 3D scene description language for creating 3D worlds, please, help me. 
+ if you are using pixar's renderman 3d scene description language for creating 3d worlds, please, help me. 
  
- I'm using RenderMan library on my NeXT but there is no documentation about NeXTSTEP version of RenderMan available. I can create very complicated scenes and render them using surface shaders, 
- but I can not bring them to life by applying shadows and reflections.
+ i'm using renderman library on my next but there is no documentation about nextstep version of renderman available. i can create very complicated scenes and render them using surface shaders, 
+ but i can not bring them to life by applying shadows and reflections.
  
- As far as I understand I have to define environmental and shadows maps to produce reflections and shadows, but I do not know how to use them.
+ as far as i understand i have to define environmental and shadows maps to produce reflections and shadows, but i do not know how to use them.
  
- Any advises or simple RIB or C examples will be appreciated.
- Thanks in advance...
+ any advises or simple rib or c examples will be appreciated.
+ thanks in advance...
  
  ---
- Alex Kolesov                             Moscow, Russia.
- Talus Imaging & Communications Corporation
- e-mail: <alex@talus.msk.su> 		(NeXT mail accepted)  			   
+ alex kolesov                             moscow, russia.
+ talus imaging & communications corporation
+ e-mail: <alex@talus.msk.su> 		(next mail accepted)  			   
  .   
  

@@ -1,34 +1,34 @@
 
- I am in the process of installing X11R5 on my Sun Sparcstation 2 and
- have run into a problem.  I imagine it has something to do with a missing
+ i am in the process of installing x11r5 on my sun sparcstation 2 and
+ have run into a problem.  i imagine it has something to do with a missing
  screen driver, or something along those lines, but figured someone out there
- in Internet land might be able to help.
+ in internet land might be able to help.
  
- I am installing it on a machine that already has OpenLook installed, and would
- like to have both installed concurrently.  Thus, I set it up to compile to my
- /usr/X11R5 directory.  I worked out all the kinks in getting it compiled (with
- gcc), so that it compiles without any warnings.  I need it installed for PEX-SI,
- so I set all those appropriate flags.  When I run it, however, I get a message
+ i am installing it on a machine that already has openlook installed, and would
+ like to have both installed concurrently.  thus, i set it up to compile to my
+ /usr/x11r5 directory.  i worked out all the kinks in getting it compiled (with
+ gcc), so that it compiles without any warnings.  i need it installed for pex-si,
+ so i set all those appropriate flags.  when i run it, however, i get a message
  along the lines of:
  
- Getting interface configuration : Operation not supported on socket
+ getting interface configuration : operation not supported on socket
  
- sunOpenFrameBuffer : Inappropriate ioctl for device
+ sunopenframebuffer : inappropriate ioctl for device
  
- Fatal server error : no screens found 
+ fatal server error : no screens found 
  
  
- Any ideas on how I can fix it?  Please respond by e-mail at the below
+ any ideas on how i can fix it?  please respond by e-mail at the below
  address.
  
- Thanks in advance.
+ thanks in advance.
  
- -Dan
+ -dan
  -- 
- "I do not want to be immortalized through my works; I want to be 
- immortalized through not dying."  -Woody Allen
+ "i do not want to be immortalized through my works; i want to be 
+ immortalized through not dying."  -woody allen
  
- Dan Kirkpatrick                 | Dept of Electrical & Computer Engineering
- ~dsk@rice.edu                   | Rice University
- uunet!rice.edu!dsk@uunet.uu.net | Houston, TX
+ dan kirkpatrick                 | dept of electrical & computer engineering
+ ~dsk@rice.edu                   | rice university
+ uunet!rice.edu!dsk@uunet.uu.net | houston, tx
  

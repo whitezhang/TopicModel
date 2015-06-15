@@ -1,18 +1,18 @@
 
- Hi there,
+ hi there,
  
- I'm looking for help on hi-rez CGA modes (hey, i know it sounds crazy but at
- the moment it's got to do). My card's manual says it does something like
- 640 by 400 2 colour and 640 by 200 4 colour (the card has 64k memory). Could 
- anyone give me some help on how to implement these modes (Assembly language 
- is fine). Any other usefull tips on the CGA regs will also help.
+ i'm looking for help on hi-rez cga modes (hey, i know it sounds crazy but at
+ the moment it's got to do). my card's manual says it does something like
+ 640 by 400 2 colour and 640 by 200 4 colour (the card has 64k memory). could 
+ anyone give me some help on how to implement these modes (assembly language 
+ is fine). any other usefull tips on the cga regs will also help.
  
- Thanx in advance...
+ thanx in advance...
  
- Frans.
+ frans.
  
  
- My eMail is
+ my email is
  
  leander@up.ac.za
  

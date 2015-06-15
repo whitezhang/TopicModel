@@ -1,44 +1,44 @@
 
- In <1993Apr20.074018.9336@csu.edu.au> mantolov@golum.riv.csu.edu.au (Michael Antolovich) writes:
+ in <1993apr20.074018.9336@csu.edu.au> mantolov@golum.riv.csu.edu.au (michael antolovich) writes:
  
- >In article <aaron_bratcher-140493082909@fpm-mac-1.uchicago.edu> aaron_bratcher@fpm.uchicago.edu (Aaron Bratcher) writes:
- >>Does anyone know if there is an ethernet card that takes advantage of the
- >>A/Rose extension?
+ >in article <aaron_bratcher-140493082909@fpm-mac-1.uchicago.edu> aaron_bratcher@fpm.uchicago.edu (aaron bratcher) writes:
+ >>does anyone know if there is an ethernet card that takes advantage of the
+ >>a/rose extension?
  
- >	Hey what does the A/Rose extension do anyway ?
+ >	hey what does the a/rose extension do anyway ?
  
- Newsgroups: comp.sys.mac.system
- From: probulf@Informatik.TU-Muenchen.DE (Frank Probul)
- Subject: Re: A/ROSE with Centris and Quadra models
- Organization: Technische Universitaet Muenchen, Germany
- Date: Mon, 19 Apr 1993 14:33:26 GMT
+ newsgroups: comp.sys.mac.system
+ from: probulf@informatik.tu-muenchen.de (frank probul)
+ subject: re: a/rose with centris and quadra models
+ organization: technische universitaet muenchen, germany
+ date: mon, 19 apr 1993 14:33:26 gmt
  
- A/ROSE = Apple Real Time Operating System Environment
+ a/rose = apple real time operating system environment
  
- This is a system extension for these NuBUS cards using the 
- MCP (= Macintosh Coprocessor Platform). The MCP-cards are NuBUS cards with a
- Motorola 68000-Processor and 512 KB RAM (expandable to 1 Meg).
- MCP is a development platform for hardware-designers so they can use a card
+ this is a system extension for these nubus cards using the 
+ mcp (= macintosh coprocessor platform). the mcp-cards are nubus cards with a
+ motorola 68000-processor and 512 kb ram (expandable to 1 meg).
+ mcp is a development platform for hardware-designers so they can use a card
  with an own processor and thus the main processor isn't needed for these cards.
- Currently the only cards I know are
+ currently the only cards i know are
  
- - the Apple TokenRing-Card
- - the new Apple Ethernet-Card
- - the Apple NuBUS serial card
+ - the apple tokenring-card
+ - the new apple ethernet-card
+ - the apple nubus serial card
  
- Perhaps there are some third-party-cards, but I don't know.
+ perhaps there are some third-party-cards, but i don't know.
  
  
  ---------------------------------------------
- Frank Probul
- Emanuelstr. 17, D-8000 Munich 40, Germany
+ frank probul
+ emanuelstr. 17, d-8000 munich 40, germany
  
- AppleLink: Probul.F@AppleLink.Apple.COM
+ applelink: probul.f@applelink.apple.com
  internet:  probulf@informatik.tu-muenchen.de
  
- Munich University of Technology
- Department of Computer Science
- Germany
+ munich university of technology
+ department of computer science
+ germany
  ---------------------------------------------
  
  

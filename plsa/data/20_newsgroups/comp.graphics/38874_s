@@ -1,12 +1,12 @@
 
- In article <5713@seti.inria.fr>, deniaud@cartoon.inria.fr (Gilles Deniaud) writes:
- > Hi,
+ in article <5713@seti.inria.fr>, deniaud@cartoon.inria.fr (gilles deniaud) writes:
+ > hi,
  > 
- > I'm looking for a program which is able to display 24 bits
- > images. We are using a Sun Sparc equipped with Parallax
- > graphics board running X11.
+ > i'm looking for a program which is able to display 24 bits
+ > images. we are using a sun sparc equipped with parallax
+ > graphics board running x11.
  
- 	xli, xloadimage or ImageMagick - export.lcs.mit.edu [18.24.0.12] /contrib
+ 	xli, xloadimage or imagemagick - export.lcs.mit.edu [18.24.0.12] /contrib
  
- 	Graeme Gill
+ 	graeme gill
  

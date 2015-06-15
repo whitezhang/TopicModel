@@ -1,9 +1,9 @@
 
- Hi, netters
+ hi, netters
  
- I am looking for source code that can reads the ascii file
+ i am looking for source code that can reads the ascii file
  or bitmap file and produced the thinned image.
- For example, to preprocess the character image I want to
+ for example, to preprocess the character image i want to
  apply thinning algorithm.
  
  thanks

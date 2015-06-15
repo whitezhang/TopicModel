@@ -1,45 +1,45 @@
 
- In article <1993Apr26.174602.28054@magnus.acs.ohio-state.edu> bqueiser@magnus.acs.ohio-state.edu (Brian J Queiser) writes:
- >None of the configurations are perfectly inherently balanced, which
- >is what I was talking about.  Balance shafts and mass on either
+ in article <1993apr26.174602.28054@magnus.acs.ohio-state.edu> bqueiser@magnus.acs.ohio-state.edu (brian j queiser) writes:
+ >none of the configurations are perfectly inherently balanced, which
+ >is what i was talking about.  balance shafts and mass on either
  >ends of the cranks can eliminate these forces/moments, which is
- >something I also pointed out.
+ >something i also pointed out.
  
  and didn't you also say that it was easier to add masses than to
  add balance shafts?  the sad truth is that some makers don't
  bother to put balance shafts on their big shaky 4's..
  
- >The three cranks I refer to:            i^
+ >the three cranks i refer to:            i^
  >                                         |
- >        ___     i^      ___             1 4      I4:
+ >        ___     i^      ___             1 4      i4:
  >       |   |     |     |   |             |       even-firing (180 deg)
  > <- ___| 1 |    ___    | 4 |___      <-  |
- > k         | 2 |   | 3 |             j   |       Fp=0
- >           |___|   |___|                 |       Mp=0
- >                                        2 3      Fs=4(R/L)Zcos2T
- >                                                 Ms=0
+ > k         | 2 |   | 3 |             j   |       fp=0
+ >           |___|   |___|                 |       mp=0
+ >                                        2 3      fs=4(r/l)zcos2t
+ >                                                 ms=0
  >
  >                                        j^
  >                                         |
- >        ___     j^      ___             1 4      Flat4:
+ >        ___     j^      ___             1 4      flat4:
  > <-    |   |     |     |   |             |       even-firing (180 deg)
  > k  ___| 1 |    ___    | 4 |___          | ->
- >           | 2 |   | 3 |                 |  i    Fp=0
- >           |___|   |___|                 |       Mp=0
- >                                        2 3      Fs=0
- >          a = crank spacing                      Ms=2a(R/L)Zcos2T
+ >           | 2 |   | 3 |                 |  i    fp=0
+ >           |___|   |___|                 |       mp=0
+ >                                        2 3      fs=0
+ >          a = crank spacing                      ms=2a(r/l)zcos2t
  >
  >
  >                j^
  >                 |                      j^
  >               1   3                     |
- >              ___                       1 2      Flat4:
+ >              ___                       1 2      flat4:
  >       <-    |   |                       |       even-firing (180 deg)
  >       k  ___|   |    ___                | ->
- >                 |   |                   |  i    Fp=0
- >                 |___|                   |       Mp=2aZcosT
- >                                        4 3      Fs=0
- >               2   4                             Ms=0
+ >                 |   |                   |  i    fp=0
+ >                 |___|                   |       mp=2azcost
+ >                                        4 3      fs=0
+ >               2   4                             ms=0
  >
  
  how about:
@@ -55,12 +55,12 @@
  if this is ridiculous, kindly explain why.. it's been more than 10 years
  since i studied this stuff.  :-)
  
- >Flat 4s and I4s both have the potential to be nearly vibration
- >free.  Because Subaru does that has nothing to do with I4s in
- >general or Porsche.
+ >flat 4s and i4s both have the potential to be nearly vibration
+ >free.  because subaru does that has nothing to do with i4s in
+ >general or porsche.
  
- >I think Subaru somehow connecting themselves to Porsche is an
- >absurdity, and I'm not a Porsche fan.  Big wing dings.  These
+ >i think subaru somehow connecting themselves to porsche is an
+ >absurdity, and i'm not a porsche fan.  big wing dings.  these
  >configurations, overhead cams, etc, etc, etc, have been around
  >for nearly 100 years. 
  

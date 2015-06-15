@@ -1,30 +1,30 @@
 
- I recently bought an AMD 386/40.  The motherboard booklet says
- the board is a "391 WB/H."  I have 4 1x3 simms on board.  The machine
- also uses a Super IDE I/O Card (model PT-604). (of course niether
- the motherboard or the I/O card booklet clearly state who the manufacurers
- are) I'm also using a Trident 8900C SVGA card.
+ i recently bought an amd 386/40.  the motherboard booklet says
+ the board is a "391 wb/h."  i have 4 1x3 simms on board.  the machine
+ also uses a super ide i/o card (model pt-604). (of course niether
+ the motherboard or the i/o card booklet clearly state who the manufacurers
+ are) i'm also using a trident 8900c svga card.
  
- 	Anyway, that's all of the pertinent info I can think of.
- My problem is that the computer often freezes or displays "Parity Error --
- System Halted" messages depending on whether I set the Memory Parity Error
- Checking to "disabled" or "enabled" in the setup of the bios (makes sense).
- Its AMI bios (so it must be an AMI board?).
+ 	anyway, that's all of the pertinent info i can think of.
+ my problem is that the computer often freezes or displays "parity error --
+ system halted" messages depending on whether i set the memory parity error
+ checking to "disabled" or "enabled" in the setup of the bios (makes sense).
+ its ami bios (so it must be an ami board?).
  
- 	I just took it back to the dealer and they replaced all of the
- SIMMS but I keep getting the same error (more frequently now).  It all
- worked at the dealer and didn't start screwing up 'till I got home (figures).
+ 	i just took it back to the dealer and they replaced all of the
+ simms but i keep getting the same error (more frequently now).  it all
+ worked at the dealer and didn't start screwing up 'till i got home (figures).
  
- 	I've tried to take out all of the SIMMS and even re-inserted them
+ 	i've tried to take out all of the simms and even re-inserted them
  in reverse order, making sure that the connections were solid.
  
- 	My suspicion jumps to this damn all in one HD controller/serial/
- parallel/game-port I/O card, or to the motherboard (God forbid).
+ 	my suspicion jumps to this damn all in one hd controller/serial/
+ parallel/game-port i/o card, or to the motherboard (god forbid).
  
- 	CAN ANYONE HELP?
+ 	can anyone help?
  
- Thanks, Peace,
- David Geller
+ thanks, peace,
+ david geller
  gelldav@elof.acc.iit.edu
  
  

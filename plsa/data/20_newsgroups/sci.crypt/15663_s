@@ -1,31 +1,31 @@
 
  
- In article <1993Apr21.001230.26384@lokkur.dexter.mi.us>, scs@lokkur.dexter.mi.us (Steve Simmons) writes:
- > smb@research.att.com (Steven Bellovin) writes:
+ in article <1993apr21.001230.26384@lokkur.dexter.mi.us>, scs@lokkur.dexter.mi.us (steve simmons) writes:
+ > smb@research.att.com (steven bellovin) writes:
  > 
- > >Thousands?  Tens of thousands?  Do some arithmetic, please...  Skipjack
- > >has 2^80 possible keys.  Let's assume a brute-force engine like that
- > >hypothesized for DES:  1 microsecond per trial, 1 million chips.  That's
- > >10^12 trials per second, or about 38,000 years for 2^80 trials.  Well,
+ > >thousands?  tens of thousands?  do some arithmetic, please...  skipjack
+ > >has 2^80 possible keys.  let's assume a brute-force engine like that
+ > >hypothesized for des:  1 microsecond per trial, 1 million chips.  that's
+ > >10^12 trials per second, or about 38,000 years for 2^80 trials.  well,
  > >maybe they can get chips running at one trial per nanosecond, and build
- > >a machine with 10 million chips.  Sure -- only 3.8 years for each solution.
+ > >a machine with 10 million chips.  sure -- only 3.8 years for each solution.
  > 
- > Normally I'd be the last to argue with Steve . . . but shouldn't that
- > read "3.8 years for *all* solutions".  I mean, if we can imagine the
+ > normally i'd be the last to argue with steve . . . but shouldn't that
+ > read "3.8 years for *all* solutions".  i mean, if we can imagine the
  > machine that does 1 trial/nanosecond, we can imagine the storage medium
  > that could index and archive it.
  
- At the company I worked for previously, I received a file that was des encryped
- and the person that had sent it, went on vaction.  Rather than wait two weeks
- I set up a straight frontal attack with one key at a time.  It only took two(2)
- days to crack the file.  No, I don't have any faith in DES.
+ at the company i worked for previously, i received a file that was des encryped
+ and the person that had sent it, went on vaction.  rather than wait two weeks
+ i set up a straight frontal attack with one key at a time.  it only took two(2)
+ days to crack the file.  no, i don't have any faith in des.
  
- A.G.
+ a.g.
  
  
  
  -- 
- A.G. Russell   Dept A06S  OLTP section of PALS Group   VM ID  SC39093 at AUSVM1
- Email  arussell@austin.ibm.com       Phone 512-838-7953        TieLine 678-7953
- These are my views, on anyone else they would look silly. FREE THE BERKELEY 4.4
+ a.g. russell   dept a06s  oltp section of pals group   vm id  sc39093 at ausvm1
+ email  arussell@austin.ibm.com       phone 512-838-7953        tieline 678-7953
+ these are my views, on anyone else they would look silly. free the berkeley 4.4
  

@@ -1,24 +1,24 @@
 
- >In <3889@ncr-mpd.FtCollinsCO.NCR.COM> Brad Wright writes:
+ >in <3889@ncr-mpd.ftcollinsco.ncr.com> brad wright writes:
  >
- >>	If you know much about PC's (IBM comp) you might try the joystick
- >>port.  Though I haven't tried this myself, I've been told that the port
- >>has built in A-D converters.  This would allow the joystick to be a couple of 
- >>pots.  If you could find the specs this might just work for you...
+ >>	if you know much about pc's (ibm comp) you might try the joystick
+ >>port.  though i haven't tried this myself, i've been told that the port
+ >>has built in a-d converters.  this would allow the joystick to be a couple of 
+ >>pots.  if you could find the specs this might just work for you...
  
- I believe that the "A-D converters" found on a joystick port are really
- timers that tick off how long it takes an R-C circuit (the R being your
- paddle) to charge up to something like 1/2 Vcc.  For games this works
+ i believe that the "a-d converters" found on a joystick port are really
+ timers that tick off how long it takes an r-c circuit (the r being your
+ paddle) to charge up to something like 1/2 vcc.  for games this works
  pretty well, but you certainly wouldn't want to try to take lab
  measurements off something as non-linear as that.
  
- Hmm... I suppose you could linearize it in software, but the real problem
+ hmm... i suppose you could linearize it in software, but the real problem
  is that the precision of your measurement is no longer constant (higher
  voltages would be more precise).
  
- On the other hand, I could be wrong and perhaps the game card designers
+ on the other hand, i could be wrong and perhaps the game card designers
  splurged for the extra $.50 to make a cheap constant current source out of
- an op amp.  But I wouldn't expect that...
+ an op amp.  but i wouldn't expect that...
  
- 					---Joel Kolstad
+ 					---joel kolstad
  

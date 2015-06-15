@@ -1,22 +1,22 @@
 
- TO: rych@festival.ed.ac.uk (R Hawkes)
+ to: rych@festival.ed.ac.uk (r hawkes)
  
- RH>I've noticed that if you only save a model (with all your mapping planes
- RH>positioned carefully) to a .3DS file that when you reload it after restarting
- RH>3DS, they are given a default position and orientation.  But if you save
- RH>to a .PRJ file their positions/orientation are preserved.  Does anyone
- RH>know why this information is not stored in the .3DS file?  Nothing is
+ rh>i've noticed that if you only save a model (with all your mapping planes
+ rh>positioned carefully) to a .3ds file that when you reload it after restarting
+ rh>3ds, they are given a default position and orientation.  but if you save
+ rh>to a .prj file their positions/orientation are preserved.  does anyone
+ rh>know why this information is not stored in the .3ds file?  nothing is
  
-     This is because the PRJ (Project) format saves all of your settings,
+     this is because the prj (project) format saves all of your settings,
      right down to the last render file's name.
  
- RH>I'd like to be able to read the texture rule information, does anyone have
- RH>the format for the .PRJ file?
+ rh>i'd like to be able to read the texture rule information, does anyone have
+ rh>the format for the .prj file?
  
-     Sorry... Don't have anything on that or the CEL format.
+     sorry... don't have anything on that or the cel format.
  
- ....r.c V.t.ell. .r...
+ ....r.c v.t.ell. .r...
  ---
-  . DeLuxe./386 1.25 #959sa . .....Stupid ..... Line ...}. Noise!!
+  . deluxe./386 1.25 #959sa . .....stupid ..... line ...}. noise!!
                                                                                           
  

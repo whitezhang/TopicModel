@@ -1,30 +1,30 @@
 
- >You're right.
+ >you're right.
  
- >You cannot read or write a Mac or Apple II 800K 3.5" disk or Apple II
- >5.25" disk without extra hardware. However, Mac 1.44MB disks can be read
- >and written in a PC 3.5" HD drive with software only. 
+ >you cannot read or write a mac or apple ii 800k 3.5" disk or apple ii
+ >5.25" disk without extra hardware. however, mac 1.44mb disks can be read
+ >and written in a pc 3.5" hd drive with software only. 
  
- >This should probably be added to every PC and Mac FAQ file. It sure gets
+ >this should probably be added to every pc and mac faq file. it sure gets
  >asked enough.
  
- I agree that this should be added to some sort of FAQ list.  But we have
- strayed from the original topic.  Our computer environment is pretty split
- between Mac's and PC's... I am lucky and get to have both on my desk.  But
- there are people who have PC's and need to share data with the Mac users
- here.  The MAC users have no problems because of package called DOS Mounter
- which AUTOMATICALLy lets the MAC read DOS disks natively.  For the PC there
- is no equivilant... that I know of!  Both mac-ette and macsee have been 
+ i agree that this should be added to some sort of faq list.  but we have
+ strayed from the original topic.  our computer environment is pretty split
+ between mac's and pc's... i am lucky and get to have both on my desk.  but
+ there are people who have pc's and need to share data with the mac users
+ here.  the mac users have no problems because of package called dos mounter
+ which automatically lets the mac read dos disks natively.  for the pc there
+ is no equivilant... that i know of!  both mac-ette and macsee have been 
  inconsistant under the dos platform, and requires you to perform the activity
- in a DOS program to selectively transport the files.
+ in a dos program to selectively transport the files.
  
- The question originally posed was if there is such a program that hooks into
- windows like a .DLL that will interpret the reading of a MAC disk when it is 
- in a PC, and allow access to it through the standard file dialogs.  It is quite
- clear that this would only be available for the 1.44MB flopies.
+ the question originally posed was if there is such a program that hooks into
+ windows like a .dll that will interpret the reading of a mac disk when it is 
+ in a pc, and allow access to it through the standard file dialogs.  it is quite
+ clear that this would only be available for the 1.44mb flopies.
  
  
- -- T.J. Fiske
+ -- t.j. fiske
  
  tfiske@qualcomm.com
  

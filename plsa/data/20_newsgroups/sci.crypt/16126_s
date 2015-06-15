@@ -1,62 +1,62 @@
 
- In article <C614BJ.BK6@agora.rain.com> jhart@agora.rain.com (Jim Hart) writes:
- >"The security of the system should depend only on the secrecy of
- >the keys and not on the secrecy of the algorithms" -- Dorothy Denning
+ in article <c614bj.bk6@agora.rain.com> jhart@agora.rain.com (jim hart) writes:
+ >"the security of the system should depend only on the secrecy of
+ >the keys and not on the secrecy of the algorithms" -- dorothy denning
  >
  >jhart@agora.rain.com
  
  
- You're reading far too much into this (aside from the obvious fact
+ you're reading far too much into this (aside from the obvious fact
  that you shouldn't hold anybody to what they wrote in a 10 year old
  book in a rapidly changing field like this.)
  
  
- Quite simply she says that the security should not DEPEND on the
- secrecy of the algorithm.  A secret algorithm can still be secure,
- after all, we just don't know it.  Only our level of trust is
+ quite simply she says that the security should not depend on the
+ secrecy of the algorithm.  a secret algorithm can still be secure,
+ after all, we just don't know it.  only our level of trust is
  affected, not the security of the system.
  
- The algorithm *could* be RSA for all we know, which we believe to
+ the algorithm *could* be rsa for all we know, which we believe to
  be secure.
  
- They have a much better reason to classify the algorithm than to
- protect its security.  They want to protect its market share.
+ they have a much better reason to classify the algorithm than to
+ protect its security.  they want to protect its market share.
  
- If they publish the algorithm, then shortly manufacturers would
+ if they publish the algorithm, then shortly manufacturers would
  make chips that implement the algorithm and standard but do not
- use a key stored in escrow.  And of course, everybody would buy them.
+ use a key stored in escrow.  and of course, everybody would buy them.
  
  
- The whole push of this chip is that by establishing a standard that
+ the whole push of this chip is that by establishing a standard that
  you can only use if you follow their rules, they get us to follow
  their rules without enacting new laws that we would fight tooth and
  nail.
  
- Quite simply, with Clipper established, it would be much harder for
+ quite simply, with clipper established, it would be much harder for
  another encryption maker to define a new standard, to make phones that
- can't talk to the leading phone companies.   The result is tappable
+ can't talk to the leading phone companies.   the result is tappable
  cryptography without laws forbidding other kinds, for 99% of the
  populace.
  
  
- To get untappable crypto, you would have to build a special phone that
+ to get untappable crypto, you would have to build a special phone that
  runs on top of this system, and everybody you talk to would have to
  have an indentical one.
  
- That's the chicken and egg of crypto.  The government is using its
+ that's the chicken and egg of crypto.  the government is using its
  very special ability to solve chicken and egg problems of new
  technologies to control this one in a way they like.
  
  
- It's almost admirably clever.  When the EFF started, I posed the question here
- "What are the police going to do when they wake up and discover they
+ it's almost admirably clever.  when the eff started, i posed the question here
+ "what are the police going to do when they wake up and discover they
  can't wiretap?" and nobody here had an answer (or even thought it was
  much of a question)
  
- Then came the backdoor and Digital Telephony bills, which we fought.
+ then came the backdoor and digital telephony bills, which we fought.
  
- Now we have their real answer, the cleverest of all.
+ now we have their real answer, the cleverest of all.
  
  -- 
- Brad Templeton, ClariNet Communications Corp. -- Sunnyvale, CA 408/296-0366
+ brad templeton, clarinet communications corp. -- sunnyvale, ca 408/296-0366
  

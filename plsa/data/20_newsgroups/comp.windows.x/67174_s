@@ -1,16 +1,16 @@
 
  
-  I have a problem when I'm using PostScript. When I am working local
- on a SUN SPARCstaton IPC the PostScript works good, but when I connect
- to the SUN from a X-terminal I just get error messages that the
- PostScript cannot connect to the news-display.
+  i have a problem when i'm using postscript. when i am working local
+ on a sun sparcstaton ipc the postscript works good, but when i connect
+ to the sun from a x-terminal i just get error messages that the
+ postscript cannot connect to the news-display.
  
-  Why doesn't PostScript work on an X-terminal?
+  why doesn't postscript work on an x-terminal?
  
-  Is there any way to make it work?
+  is there any way to make it work?
  
  
-  Henrik "Henrik Hjort" Hjort
+  henrik "henrik hjort" hjort
  
  
  

@@ -1,17 +1,17 @@
 
- Edward d Nobles (ednobles@sacam.OREN.ORTN.EDU) wrote:
+ edward d nobles (ednobles@sacam.oren.ortn.edu) wrote:
  
- : I've been trying to view .tga files created in POVRAY.  I have the Diamond
- : SpeedStar 24 Video board (not the _24X_).  So far I can convert them to
- : jpeg using cjpeg and view them with CVIEW but that only displays 8 bit color.
+ : i've been trying to view .tga files created in povray.  i have the diamond
+ : speedstar 24 video board (not the _24x_).  so far i can convert them to
+ : jpeg using cjpeg and view them with cview but that only displays 8 bit color.
  ..
- : Just want to see the darn things in real color...
+ : just want to see the darn things in real color...
  
- I have an ATI ultra pro card, and have found that the easiest way to view
+ i have an ati ultra pro card, and have found that the easiest way to view
  true color images is using their windows drivers and something like winjpeg
  or photofinish.  
  
- If anyone has a non-windows solution, I'd love to hear it!
+ if anyone has a non-windows solution, i'd love to hear it!
  
- Dane
+ dane
  

@@ -1,30 +1,30 @@
 
- In article <1993Apr21.154620.16330@infodev.cam.ac.uk>, dcr@mail.ast.cam.ac.uk (Derek C. Richardson) writes:
- > Hi, I'm new to this group so please bear with me!
+ in article <1993apr21.154620.16330@infodev.cam.ac.uk>, dcr@mail.ast.cam.ac.uk (derek c. richardson) writes:
+ > hi, i'm new to this group so please bear with me!
  > 
- > Two years ago I wrote a Sunview application for fast animation
- > of raster files. With Sunview becoming rapidly obselete, I've
- > finally decided to rewrite everything from scratch in XView.
- > I put together a quick test, and I've found that XPutImage()
+ > two years ago i wrote a sunview application for fast animation
+ > of raster files. with sunview becoming rapidly obselete, i've
+ > finally decided to rewrite everything from scratch in xview.
+ > i put together a quick test, and i've found that xputimage()
  > is considerably slower (factor of 2 on average?) than the
- > Sunview command pw_rop() which moves image data from memory
- > pixrects to a canvas. This was on a Sparc IPX. It seems that:
- > (1) the X protocol communication is slowing things down; or
- > (2) XPutImage is inefficient...or both!
+ > sunview command pw_rop() which moves image data from memory
+ > pixrects to a canvas. this was on a sparc ipx. it seems that:
+ > (1) the x protocol communication is slowing things down; or
+ > (2) xputimage is inefficient...or both!
  
- Using XPutImage, your source is maintained by the client and the
+ using xputimage, your source is maintained by the client and the
  destination is maintained by the server, thus you incur the overhead
  of transporting through whatever client-server communications
  mechanism you are using.
  
- Is it possible for you to maintain your source images in pixmaps?
- These are maintained by the server, so copying them into a window is
+ is it possible for you to maintain your source images in pixmaps?
+ these are maintained by the server, so copying them into a window is
  much cheaper.
  
- Also make sure you are not sending any unnecessary XSyncs, or running
- in XSynchonize mode.
+ also make sure you are not sending any unnecessary xsyncs, or running
+ in xsynchonize mode.
  -- 
  
     -paul	pmartz@dsd.es.com
- 		Evans & Sutherland
+ 		evans & sutherland
  

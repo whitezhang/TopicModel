@@ -1,23 +1,23 @@
 
-   How can I draw an object of a specified color over objects of varying colors
+   how can i draw an object of a specified color over objects of varying colors
    and then erase it without having to redraw everything else?
  
-   What's happening is this,
+   what's happening is this,
  
-       If I draw it using GXcopy, it is drawn in the specified color.  If I erase
-       it using GXcopy with foreground and background reversed, it erases 
-       whatever it overlayed.  I then need to redraw
-       all of the items it crossed.  Yuch.
+       if i draw it using gxcopy, it is drawn in the specified color.  if i erase
+       it using gxcopy with foreground and background reversed, it erases 
+       whatever it overlayed.  i then need to redraw
+       all of the items it crossed.  yuch.
  
-       If I draw it using GXinvert it is drawn in a random color - nothing 
-       resembling what I requested.  It properly restores the color of 
+       if i draw it using gxinvert it is drawn in a random color - nothing 
+       resembling what i requested.  it properly restores the color of 
        underlying objects in erase mode.
  
-   What's the solution?
+   what's the solution?
       
  
  -- 
- Scott K. Frost                  UUCP: osu-cis!chemabs!scott.frost
- Same Mbox: BITNET: skf26@cas    INET: scott.frost@cas.org
- Personal: 2753 Shrewsbury Rd, Upper Arlington Oh 43221 
+ scott k. frost                  uucp: osu-cis!chemabs!scott.frost
+ same mbox: bitnet: skf26@cas    inet: scott.frost@cas.org
+ personal: 2753 shrewsbury rd, upper arlington oh 43221 
  

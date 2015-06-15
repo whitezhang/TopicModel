@@ -1,18 +1,18 @@
 
- Here are some cool 3-D background patterns I made.
+ here are some cool 3-d background patterns i made.
  
- Edit your CONTROL.INI and add the following lines to your [Patterns] section.
+ edit your control.ini and add the following lines to your [patterns] section.
  
- Bricks=148 43 86 172 89 182 99 201
- Tile=1 43 85 43 85 43 85 255
- Tile (diagonal)=148 107 54 156 73 182 99 201
- Slats=0 170 85 170 85 170 85 255
+ bricks=148 43 86 172 89 182 99 201
+ tile=1 43 85 43 85 43 85 255
+ tile (diagonal)=148 107 54 156 73 182 99 201
+ slats=0 170 85 170 85 170 85 255
  
- Make sure your desktop color is one of the standard 16 colors or the
- patterns might not work.  I like dark grey the best with these.
+ make sure your desktop color is one of the standard 16 colors or the
+ patterns might not work.  i like dark grey the best with these.
  
- If you have any cool one's of your own, please mail them to me.
+ if you have any cool one's of your own, please mail them to me.
  _______________________________________________________________________________
-                                              Stefan Powell - SPowell@TrentU.CA
-                                                  Peterborough, Ontario, Canada
+                                              stefan powell - spowell@trentu.ca
+                                                  peterborough, ontario, canada
  

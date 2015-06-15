@@ -1,19 +1,19 @@
 
- In article <andreasa.157.735211806@dhhalden.no>, andreasa@dhhalden.no (ANDREAS ARFF) writes:
- |>Hello netters
+ in article <andreasa.157.735211806@dhhalden.no>, andreasa@dhhalden.no (andreas arff) writes:
+ |>hello netters
  |>
- |>Sorry, I don't know if this is the right way of doing this kind of thing,
- |>probably should be a CFV, but since I don't have tha ability to create a 
- |>news group myself, I just want to start the discussion. 
+ |>sorry, i don't know if this is the right way of doing this kind of thing,
+ |>probably should be a cfv, but since i don't have tha ability to create a 
+ |>news group myself, i just want to start the discussion. 
  |>
- |>I enjoy reading c.g very much, but I often find it difficult to sort out what
- |>I'm interested in. Everything from screen-drivers, graphics cards, graphics
- |>programming and graphics programs are discused here. What I'd like is a 
+ |>i enjoy reading c.g very much, but i often find it difficult to sort out what
+ |>i'm interested in. everything from screen-drivers, graphics cards, graphics
+ |>programming and graphics programs are discused here. what i'd like is a 
  |>comp.graphics.programmer news group.
- |>What do you other think.
+ |>what do you other think.
  
- This sounds wonderful, but it seems no one either wants to spend time doing
- this, or they don't have the power to do so.  For example, I would like
+ this sounds wonderful, but it seems no one either wants to spend time doing
+ this, or they don't have the power to do so.  for example, i would like
  to see a comp.graphics architecture like this:
  
  comp.graphics.algorithms.2d
@@ -23,48 +23,48 @@
  comp.graphics.misc
  comp.graphics.software/apps
  
- However, that is almost overkill.  Something more like this would probably
- make EVERYONE a lot happier:
+ however, that is almost overkill.  something more like this would probably
+ make everyone a lot happier:
  
  comp.graphics.programmer
  comp.graphics.hardware
  comp.graphics.apps
  comp.graphics.misc
  
- It would be nice to see specialized groups devote to 2d, 3d, morphing,
+ it would be nice to see specialized groups devote to 2d, 3d, morphing,
  raytracing, image processing, interactive graphics, toolkits, languages,
  object systems, etc. but these could be posted to a relevant group or
  have a mailing list organized.
  
- That way when someone reads news they don't have to see these subject
+ that way when someone reads news they don't have to see these subject
  headings, which are rather disparate:
  
- System specific stuff ( should be under comp.sys or comp.os.???.programmer ):
+ system specific stuff ( should be under comp.sys or comp.os.???.programmer ):
  
- 	"Need help programming GL"
- 	"ModeX programming information?"
- 	"Fast sprites on PC"
+ 	"need help programming gl"
+ 	"modex programming information?"
+ 	"fast sprites on pc"
  
- Hardware technical stuff:
+ hardware technical stuff:
  
- 	"Speed of Weitek P9000"
- 	"Drivers for SpeedStar 24X"
+ 	"speed of weitek p9000"
+ 	"drivers for speedstar 24x"
  
- Applications oriented stuff:
+ applications oriented stuff:
  
- 	"VistaPro 3.0 help"
- 	"How good is 3dStudio?"
- 	"Best image processing program for Amiga"
+ 	"vistapro 3.0 help"
+ 	"how good is 3dstudio?"
+ 	"best image processing program for amiga"
  
- Programming oriented stuff:
+ programming oriented stuff:
  
- 	"Fast polygon routine needed"
- 	"Good morphing alogirhtm wanted"
- 	"Best depth sort for triangles?"
- 	"Which C++ library to get?"
+ 	"fast polygon routine needed"
+ 	"good morphing alogirhtm wanted"
+ 	"best depth sort for triangles?"
+ 	"which c++ library to get?"
  
- I wish someone with the power would get a CFD and then a CFV going on
+ i wish someone with the power would get a cfd and then a cfv going on
  this stuff....this newsgroup needs it.
  
- Brian
+ brian
  

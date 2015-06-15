@@ -1,29 +1,29 @@
 
- In article <1sk97rINNptb@polaris.isi.com> kin@isi.com (Kin Cho) writes:
+ in article <1sk97rinnptb@polaris.isi.com> kin@isi.com (kin cho) writes:
  >
- >I can also live with a utility that converts postscript to plain
- >text, perferably retaining page counts so that I know how many pages
+ >i can also live with a utility that converts postscript to plain
+ >text, perferably retaining page counts so that i know how many pages
  >the original document contains.
  >
  
- 	Well, I know of one hack to sort of do this conversion.  First
+ 	well, i know of one hack to sort of do this conversion.  first
  get ghostscript and check out the gs_2asc.ps file that comes with it.
- It prints out some information about where each text string goes on the
- page, and maintains page counts.  I've written a little C program to
- massage the output of gs -dNODISPLAY gs_2asc.ps somewhat, so that you
- can get all the ascii strings in the document.  No guarantees that it
- won't break up words/sentences, though - I've used it with varying
- degrees of success.  Anyways, try this out, it may do what you want.
+ it prints out some information about where each text string goes on the
+ page, and maintains page counts.  i've written a little c program to
+ massage the output of gs -dnodisplay gs_2asc.ps somewhat, so that you
+ can get all the ascii strings in the document.  no guarantees that it
+ won't break up words/sentences, though - i've used it with varying
+ degrees of success.  anyways, try this out, it may do what you want.
  
  /*
-  * massager: a filter for use with gs; does crude Postscript->ASCII conversion
+  * massager: a filter for use with gs; does crude postscript->ascii conversion
   *
-  * Usage:
-  *	cat file.ps | gs -dNODISPLAY gs_2asc.ps - | massager
+  * usage:
+  *	cat file.ps | gs -dnodisplay gs_2asc.ps - | massager
   *
-  * I print a <Ctrl-L> after each new page.
+  * i print a <ctrl-l> after each new page.
   *
-  * Put the following source into massager.c and compile it:
+  * put the following source into massager.c and compile it:
   */
  
  #include <stdio.h>
@@ -33,14 +33,14 @@
  {
  	char	line[1000], *p;
  
- 	while (fgets(line, sizeof(line), stdin) != NULL)
- 		if (line[0] == 'P')
+ 	while (fgets(line, sizeof(line), stdin) != null)
+ 		if (line[0] == 'p')
  			printf("\f\n");
- 		else if (line[0] == 'S' && line[1] == ' ') {
- 			if ((p = strrchr(line, ')')) == NULL)
+ 		else if (line[0] == 's' && line[1] == ' ') {
+ 			if ((p = strrchr(line, ')')) == null)
  				continue;
  			*p = '\0';
- 			if ((p = strchr(line, '(')) == NULL)
+ 			if ((p = strchr(line, '(')) == null)
  				continue;
  			for (p++; *p; p++)
  				if (*p != '\\' || (p[1] != ')' && p[1] != '('))
@@ -52,5 +52,5 @@
  }
  
  --------------------------------------------------------------------------------
- David Wagner                                              dawagner@princeton.edu
+ david wagner                                              dawagner@princeton.edu
  

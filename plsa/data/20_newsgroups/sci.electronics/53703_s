@@ -1,36 +1,36 @@
 
- In <C57zsC.9FL@news.cso.uiuc.edu> rky57514@uxa.cso.uiuc.edu (Tall Cool One ) writes:
+ in <c57zsc.9fl@news.cso.uiuc.edu> rky57514@uxa.cso.uiuc.edu (tall cool one ) writes:
  
  
  
- >I'm looking for an IC that will convert RS232 voltage levels to TTL voltage 
- >levels.  Something relatively inexpensive would be nice, too.  Anyone have
- >a suggestion??  Thanks.
+ >i'm looking for an ic that will convert rs232 voltage levels to ttl voltage 
+ >levels.  something relatively inexpensive would be nice, too.  anyone have
+ >a suggestion??  thanks.
  
  
- Well it looks as if Digi-Key sells a chip with the number ICL232 that does what
- you want.  They are selling it for about $3.50...
+ well it looks as if digi-key sells a chip with the number icl232 that does what
+ you want.  they are selling it for about $3.50...
  
- Hope this helps...
- Frank
+ hope this helps...
+ frank
  
  -- 
  
  **************************************************************************
- * Customer asked "What's that thing?".                                   *
- * I answered chuckling "Well, it's a highly technical, sensitive         *
- * instrument I use in computer repair! Being a layman, you probably      *
- * cann't grasp exactly what it does. I call it a B.F.H.....              *
- * Frank W. Holden - KA3UWW - "The Radio Doctor"                          *
+ * customer asked "what's that thing?".                                   *
+ * i answered chuckling "well, it's a highly technical, sensitive         *
+ * instrument i use in computer repair! being a layman, you probably      *
+ * cann't grasp exactly what it does. i call it a b.f.h.....              *
+ * frank w. holden - ka3uww - "the radio doctor"                          *
  * - - - - - - - - - - - - - - - - - | - - - - - - - - - - - - - - - - -  *
- * SnailMail:                        | Inter-Net:                         *
- * 685 Addison St.                   | frankh@scraps.pittsburgh.sgi.com   *
- * Washington, Pa. 15301-5601        | Packet:ka3uww@n3idi.#wpa.pa.usa.na *
+ * snailmail:                        | inter-net:                         *
+ * 685 addison st.                   | frankh@scraps.pittsburgh.sgi.com   *
+ * washington, pa. 15301-5601        | packet:ka3uww@n3idi.#wpa.pa.usa.na *
  **************************************************************************
- DISCLAIMER:<disclaimer.h> - I confess, you did it!!!
+ disclaimer:<disclaimer.h> - i confess, you did it!!!
  -- 
  
  **************************************************************************
- * Customer asked "What's that thing?".                                   *
- * I answered chuckling "Well, it's a highly technical, sensitive         *
+ * customer asked "what's that thing?".                                   *
+ * i answered chuckling "well, it's a highly technical, sensitive         *
  

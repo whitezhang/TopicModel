@@ -1,64 +1,64 @@
 
- Hello,
+ hello,
    
-   I'm investigating the purchase of an Object Oriented Application Framework.  I have
+   i'm investigating the purchase of an object oriented application framework.  i have
  come across a few that look good:
  
-   Zapp 1.1 from Inmark
-   Zinc 3.5 from Zinc software
-   C++/Views from Liant
-   Win++ from Blaise
+   zapp 1.1 from inmark
+   zinc 3.5 from zinc software
+   c++/views from liant
+   win++ from blaise
  
- Some considerations I'm using:
+ some considerations i'm using:
  
-   Being new to Windows programming (I'm from the UNIX/X world), the quality and
+   being new to windows programming (i'm from the unix/x world), the quality and
  intuitivness of the abstraction that these class libraries provide is very 
- important.  However, since I'm not adverse to learning the internals of Windows
+ important.  however, since i'm not adverse to learning the internals of windows
  programming, the new programming methodology should be closely aligned with
- the native one.  I don't believe arbitrary levels of abstraction, just for the
- sake of changing the API, are valuable.
+ the native one.  i don't believe arbitrary levels of abstraction, just for the
+ sake of changing the api, are valuable.
  
-   Since we will be developing for the 32bit Windows NT system the
- memory management issues and issues particular to the Windows 3.1 API are less
+   since we will be developing for the 32bit windows nt system the
+ memory management issues and issues particular to the windows 3.1 api are less
  important. 
  
-   We will probably buy another C++ class library (something like Tools.h++ or Booch
- components from Rational) to handle data structures and other miscellaneous stuff
-  (allocators etc...).  So those features are not that important for this toolkit to have.
+   we will probably buy another c++ class library (something like tools.h++ or booch
+ components from rational) to handle data structures and other miscellaneous stuff
+  (allocators etc...).  so those features are not that important for this toolkit to have.
  
- The two that I have narrowed it down to are ZApp and Zinc, they seem to be the two
- toolkits that have received the most attention from the media.  I was wondering if
- anyone had any first-hand experience with any of these toolkits (especially ZApp and Zinc).
+ the two that i have narrowed it down to are zapp and zinc, they seem to be the two
+ toolkits that have received the most attention from the media.  i was wondering if
+ anyone had any first-hand experience with any of these toolkits (especially zapp and zinc).
  
- A couple of observations about these toolkits that seem particularly noteworthy are:
+ a couple of observations about these toolkits that seem particularly noteworthy are:
  
- ZApp
+ zapp
  ----
-   Seems to have the most extensive coverage of Windows functionality and
+   seems to have the most extensive coverage of windows functionality and
      also includes some other miscellaneous useful classes.
-   Has new fancy 3D-style controls available, and support for custom controls.
-   Has a Windows NT version (Essential)
-   Redirectable graphics display/output architecture (useful for printing)
-   Sizer class for automatically managing control layout after resize.
-   Seems to be the newcomer, this could be an advantage in designing a better system.
+   has new fancy 3d-style controls available, and support for custom controls.
+   has a windows nt version (essential)
+   redirectable graphics display/output architecture (useful for printing)
+   sizer class for automatically managing control layout after resize.
+   seems to be the newcomer, this could be an advantage in designing a better system.
   
- Zinc
+ zinc
  ----
-   Has a platform independent resource strategy.  (Not too important for me right now)
-   Comes with a interface builder tool
-   Has a Windows NT version (Essential)
-   Seems to have been around longer (more mature), but grew up out of a DOS version.  
-   Had a better demo :-)
+   has a platform independent resource strategy.  (not too important for me right now)
+   comes with a interface builder tool
+   has a windows nt version (essential)
+   seems to have been around longer (more mature), but grew up out of a dos version.  
+   had a better demo :-)
  
- Both have source code availability options
- Both are lacking OLE support
- Neither seem to have any particular support for multimedia type stuff
+ both have source code availability options
+ both are lacking ole support
+ neither seem to have any particular support for multimedia type stuff
  
  
- Any thoughts anyone has on this would be much appreciated,
+ any thoughts anyone has on this would be much appreciated,
  
- Thanks,
-   Brett Harper
+ thanks,
+   brett harper
  
  
  brett.harper@cimlinc.com

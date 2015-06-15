@@ -1,9 +1,9 @@
 
- I'm making a customized paint program in DOS and need an algorithm
- for reading bitmap files like GIF, PCX, or BMP.  Does anyone have
- such an algorithm?  I've tried copying one out of a book for reading
- .PCX format but it doesn't work.  I will take an algorithm for any
- format that can be created from Windows Paint.  
- Thanks!
- Toni
+ i'm making a customized paint program in dos and need an algorithm
+ for reading bitmap files like gif, pcx, or bmp.  does anyone have
+ such an algorithm?  i've tried copying one out of a book for reading
+ .pcx format but it doesn't work.  i will take an algorithm for any
+ format that can be created from windows paint.  
+ thanks!
+ toni
  

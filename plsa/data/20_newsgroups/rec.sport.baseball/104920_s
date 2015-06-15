@@ -1,39 +1,39 @@
 
- In article <1993Apr16.163712.2466@VFL.Paramax.COM> edd@gvlf4-a.gvl.unisys.com (Ed Dougherty) writes:
+ in article <1993apr16.163712.2466@vfl.paramax.com> edd@gvlf4-a.gvl.unisys.com (ed dougherty) writes:
  >
- >As a Philly fan as as a Penna. baseball fan, I'm anxious to see the
- >Penna. series.  Anyone know when it starts and where the first games
+ >as a philly fan as as a penna. baseball fan, i'm anxious to see the
+ >penna. series.  anyone know when it starts and where the first games
  >will be played?
  >
- >This is (I think) always good baseball (to me); and the Pirates are
+ >this is (i think) always good baseball (to me); and the pirates are
  >also off to a good start.
  >
- >Ed Doc
+ >ed doc
  
- When is it did you say?  Well let me shell out here and run this
+ when is it did you say?  well let me shell out here and run this
  handy dandy program....
  
  $ mlb -m pit phi
  
- And the answer is:
+ and the answer is:
  
-            Monday,  5/10 Pittsburg    at Philadelphia (5:35 pm) 
-           Tuesday,  5/11 Pittsburg    at Philadelphia (5:35 pm) 
-         Wednesday,  5/12 Pittsburg    at Philadelphia (5:35 pm) 
-            Friday,  6/25 Philadelphia at Pittsburg    (5:35 pm) 
-          Saturday,  6/26 Philadelphia at Pittsburg    (5:05 pm) 
-            Sunday,  6/27 Philadelphia at Pittsburg    (11:35 am) 
-            Friday,  7/30 Pittsburg    at Philadelphia (5:35 pm) 
-          Saturday,  7/31 Pittsburg    at Philadelphia (5:05 pm) 
-            Sunday,  8/ 1 Pittsburg    at Philadelphia (11:35 am) 
-            Monday,  9/27 Philadelphia at Pittsburg    (5:35 pm) 
-           Tuesday,  9/28 Philadelphia at Pittsburg    (5:35 pm) 
-         Wednesday,  9/29 Philadelphia at Pittsburg    (5:35 pm) 
-          Thursday,  9/30 Philadelphia at Pittsburg    (5:35 pm) 
+            monday,  5/10 pittsburg    at philadelphia (5:35 pm) 
+           tuesday,  5/11 pittsburg    at philadelphia (5:35 pm) 
+         wednesday,  5/12 pittsburg    at philadelphia (5:35 pm) 
+            friday,  6/25 philadelphia at pittsburg    (5:35 pm) 
+          saturday,  6/26 philadelphia at pittsburg    (5:05 pm) 
+            sunday,  6/27 philadelphia at pittsburg    (11:35 am) 
+            friday,  7/30 pittsburg    at philadelphia (5:35 pm) 
+          saturday,  7/31 pittsburg    at philadelphia (5:05 pm) 
+            sunday,  8/ 1 pittsburg    at philadelphia (11:35 am) 
+            monday,  9/27 philadelphia at pittsburg    (5:35 pm) 
+           tuesday,  9/28 philadelphia at pittsburg    (5:35 pm) 
+         wednesday,  9/29 philadelphia at pittsburg    (5:35 pm) 
+          thursday,  9/30 philadelphia at pittsburg    (5:35 pm) 
  
  
- This is a great little program - its available at an ftp site near 
- you (unfortunatly I don't recall which one).  Any schedule question
- you got is answered with this little gem.  Many thanks to the author
+ this is a great little program - its available at an ftp site near 
+ you (unfortunatly i don't recall which one).  any schedule question
+ you got is answered with this little gem.  many thanks to the author
  for providing this service.
  

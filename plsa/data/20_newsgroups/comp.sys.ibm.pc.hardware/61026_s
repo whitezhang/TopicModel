@@ -1,44 +1,44 @@
 
- Hi,
+ hi,
  
- I bought, on the net here, a mini-tower 386dx25 system.  It works fine, but
- I have no docs on the motherboard.
+ i bought, on the net here, a mini-tower 386dx25 system.  it works fine, but
+ i have no docs on the motherboard.
  
- Does anyone know who a manufacturer named WPI is?  That is the only marking
- on the board that is not related to a chip/connector name.  It says
- (c)1991, WPI
+ does anyone know who a manufacturer named wpi is?  that is the only marking
+ on the board that is not related to a chip/connector name.  it says
+ (c)1991, wpi
  
- Also, this board has a connector at the other end of the motherboard, it looks
+ also, this board has a connector at the other end of the motherboard, it looks
  like this:
  
  
    +---------------------------------+
-   |  Batt                           |
-   |                        387      |  Socket for 387 math coprocessor
+   |  batt                           |
+   |                        387      |  socket for 387 math coprocessor
    |                                 |
    |                     386         |  386 chip is about here
    |                                 |
-   | ========= ====                J |  = signs are the ISA slots
-   | ========= ====                M |
-   | =========                     P |  Jumpers for turbo/kb etc are where
-   | ========= ====         ------ E |  marked
-   | ========= ====         ------ R |
-   | ========= ====         ------ S |  - signs are 8 banks of SIMM sockets
+   | ========= ====                j |  = signs are the isa slots
+   | ========= ====                m |
+   | =========                     p |  jumpers for turbo/kb etc are where
+   | ========= ====         ------ e |  marked
+   | ========= ====         ------ r |
+   | ========= ====         ------ s |  - signs are 8 banks of simm sockets
    | ========= ====                  |
-   | =========          ==== ======= |  <<<These connectors are the mystery
+   | =========          ==== ======= |  <<<these connectors are the mystery
    +---------------------------------+     connectors!!!!
                         ^^^^ ^^^^^^^
-                        What is this connector?
+                        what is this connector?
  
- Is this a place to plug an extra memory board in?  I've seen thatr mentioned
- in some motherboard docs.  Some allow an 8-meg card and 8 meg in simms.  Is
+ is this a place to plug an extra memory board in?  i've seen thatr mentioned
+ in some motherboard docs.  some allow an 8-meg card and 8 meg in simms.  is
  this what it is for?
  
- Phil
+ phil
  
  --------------------------------------------------------------------
- Phil Hunt                          "Wherever you go, there you are!"
- Howtek, Inc.		                   
+ phil hunt                          "wherever you go, there you are!"
+ howtek, inc.		                   
  
- Internet: phil@howtek.MV.COM   uucp: {decvax|harvard}!mv!howtek!phil
+ internet: phil@howtek.mv.com   uucp: {decvax|harvard}!mv!howtek!phil
  

@@ -1,44 +1,44 @@
 
- In article <1r5ep8$67e@usenet.INS.CWRU.Edu> ab245@cleveland.Freenet.Edu (Sam Latonia) writes:
+ in article <1r5ep8$67e@usenet.ins.cwru.edu> ab245@cleveland.freenet.edu (sam latonia) writes:
  >
  >
- >Article #61058 (61121 is last):
- >>Newsgroups: comp.sys.ibm.pc.hardware
- >From: redmond+@cs.cmu.edu (Redmond English)
- >Subject: Diamond Stealth: HELP!
- >Date: Wed Apr 21 16:54:39 1993
+ >article #61058 (61121 is last):
+ >>newsgroups: comp.sys.ibm.pc.hardware
+ >from: redmond+@cs.cmu.edu (redmond english)
+ >subject: diamond stealth: help!
+ >date: wed apr 21 16:54:39 1993
  >
- >Hello,
+ >hello,
  >
- >   I have a Diamond Stealth VRAM card (the older version
- >with the DIP switches on the back).  I have two problems:
+ >   i have a diamond stealth vram card (the older version
+ >with the dip switches on the back).  i have two problems:
  >
- >1 ) I've lost the manual!!!
+ >1 ) i've lost the manual!!!
  >
- >2 ) I have it in a machine with a network card, and
- >    everything works fine until I run windows, when
+ >2 ) i have it in a machine with a network card, and
+ >    everything works fine until i run windows, when
  >    the network connection dies.
  >
- >    (In case it's important, the network card is an
- >     SMC ArcNet 8-Bit compatable card.  It's I/O
- >     address is 02E0 and it's RAM base address is
- >     D000.  It's also using IRQ 2)
+ >    (in case it's important, the network card is an
+ >     smc arcnet 8-bit compatable card.  it's i/o
+ >     address is 02e0 and it's ram base address is
+ >     d000.  it's also using irq 2)
  
- [REMAINDER DELETED]
+ [remainder deleted]
  
- I don't have my copy of the manual with me right now, but I can offer the
+ i don't have my copy of the manual with me right now, but i can offer the
  following in the interim:
  
-    1)  The card uses port addresses 0x2E0 and 0x2E8 (which are NOT
-        configurable).  These addresses, incidentally, were inadvertantly
+    1)  the card uses port addresses 0x2e0 and 0x2e8 (which are not
+        configurable).  these addresses, incidentally, were inadvertantly
         omitted from my version of the manual.
  
-    2)  I believe there is a dip that controls whether or not to enable
-        IRQ 2 (for CGA or EGA support??!?).
+    2)  i believe there is a dip that controls whether or not to enable
+        irq 2 (for cga or ega support??!?).
  
- Lance Hartmann (lance%hartmann.austin.ibm.com@ibmpa.awdpa.ibm.com)
-                Yes, that IS a '%' (percent sign) in my network address.
+ lance hartmann (lance%hartmann.austin.ibm.com@ibmpa.awdpa.ibm.com)
+                yes, that is a '%' (percent sign) in my network address.
  ------------------------------------------------------------------------------
- All statements, comments, opinions, etc. herein reflect those of the author
- and shall NOT be misconstrued as those of IBM or anyone else for that matter.
+ all statements, comments, opinions, etc. herein reflect those of the author
+ and shall not be misconstrued as those of ibm or anyone else for that matter.
  

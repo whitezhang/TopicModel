@@ -1,16 +1,16 @@
 
- Hello,
+ hello,
  
- We are having troubles using the PC/TCP onpredir (printer redirection program
- with lpr support) with the Windows print manager. The onpredir simply waits
- an do only the capture till the end of the Windows session, while after some
+ we are having troubles using the pc/tcp onpredir (printer redirection program
+ with lpr support) with the windows print manager. the onpredir simply waits
+ an do only the capture till the end of the windows session, while after some
  printer inactivity  it should start the printing.
-  Does anybody uses this two programs together?
+  does anybody uses this two programs together?
  
-                                 Thanks,
-                                         Zsolt
- *    Zsolt Bagoly    Dept. of Atomic Physics, Eotvos University             *
- *                    Budapest, Hungary                                      *
- * E-mail: zsolt@hercules.elte.hu    (ELTENET)                               *
- *         bagoly@ludens.elte.hu     (ELTENET, Internet)                     *
+                                 thanks,
+                                         zsolt
+ *    zsolt bagoly    dept. of atomic physics, eotvos university             *
+ *                    budapest, hungary                                      *
+ * e-mail: zsolt@hercules.elte.hu    (eltenet)                               *
+ *         bagoly@ludens.elte.hu     (eltenet, internet)                     *
  

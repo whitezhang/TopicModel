@@ -1,93 +1,93 @@
 
- In article <1993Apr23.184732.1105@aio.jsc.nasa.gov>, kjenks@gothamcity.jsc.nasa.gov writes...
+ in article <1993apr23.184732.1105@aio.jsc.nasa.gov>, kjenks@gothamcity.jsc.nasa.gov writes...
  
-    {Description of "External Tank" option for SSF redesign deleted}
+    {description of "external tank" option for ssf redesign deleted}
  
- >Mark proposed this design at Joe Shea's committee in Crystal City,
- >and he reports that he was warmly received.  However, the rumors
- >I hear say that a design based on a wingless Space Shuttle Orbiter
+ >mark proposed this design at joe shea's committee in crystal city,
+ >and he reports that he was warmly received.  however, the rumors
+ >i hear say that a design based on a wingless space shuttle orbiter
  >seems more likely.
  
- Yo Ken, let's keep on-top of things! Both the "External Tank" and
- "Wingless Orbiter" options have been deleted from the SSF redesign
- options list. Today's (4/23) edition of the New York Times reports
- that O'Connor told the panel that some redesign proposals have
+ yo ken, let's keep on-top of things! both the "external tank" and
+ "wingless orbiter" options have been deleted from the ssf redesign
+ options list. today's (4/23) edition of the new york times reports
+ that o'connor told the panel that some redesign proposals have
  been dropped, such as using the "giant external fuel tanks used
  in launching space shuttles," and building a "station around
  an existing space shuttle with its wings and tail removed."
  
- Currently, there are three options being considered, as presented
+ currently, there are three options being considered, as presented
  to the advisory panel meeting yesterday (and as reported in
- today's Times).
+ today's times).
  
- Option "A" - Low Cost Modular Approach
- This option is being studied by a team from MSFC. {As an aside,
- there are SSF redesign teams at MSFC, JSC, and LaRC supporting
- the SRT (Station Redesign Team) in Crystal City. Both LeRC and
- Reston folks are also on-site at these locations, helping the respective
- teams with their redesign activities.} Key features of this
+ option "a" - low cost modular approach
+ this option is being studied by a team from msfc. {as an aside,
+ there are ssf redesign teams at msfc, jsc, and larc supporting
+ the srt (station redesign team) in crystal city. both lerc and
+ reston folks are also on-site at these locations, helping the respective
+ teams with their redesign activities.} key features of this
  option are:
-   -  Uses "Bus-1", a modular bus developed by Lockheed that's
-      qualified for STS and ELV's. The bus provides propulsion, GN&C
-      Communications, & Data Management. Lockheed developed this
-      for the Air Force.
-   -  A "Power Station Capability" is obtained in 3 Shuttle Flights.
-      SSF Solar arrays are used to provide 20 kW of power. The vehicle
+   -  uses "bus-1", a modular bus developed by lockheed that's
+      qualified for sts and elv's. the bus provides propulsion, gn&c
+      communications, & data management. lockheed developed this
+      for the air force.
+   -  a "power station capability" is obtained in 3 shuttle flights.
+      ssf solar arrays are used to provide 20 kw of power. the vehicle
       flies in an "arrow mode" to optimize the microgravity environment.
-      Shuttle/Spacelab missions would utilize the vehilce as a power
+      shuttle/spacelab missions would utilize the vehilce as a power
       source for 30 day missions.
-   -  Human tended capability (as opposed to the old SSF sexist term
+   -  human tended capability (as opposed to the old ssf sexist term
       of man-tended capability) is achieved by the addition of the
-      US Common module. This is a modified version of the existing
-      SSF Lab module (docking ports are added for the International
-      Partners' labs, taking the place of the nodes on SSF). The
-      Shuttle can be docked to the station for 60 day missions.
-      The Orbiter would provide crew habitability & EVA capability.
-   -  International Human Tended. Add the NASDA & ESA modules, and
-      add another 20 kW of power
-   -  Permanent Human Presence Capability. Add a 3rd power module,
-      the U.S. habitation module, and an ACRV (Assured Crew Return
-      Vehicle).
+      us common module. this is a modified version of the existing
+      ssf lab module (docking ports are added for the international
+      partners' labs, taking the place of the nodes on ssf). the
+      shuttle can be docked to the station for 60 day missions.
+      the orbiter would provide crew habitability & eva capability.
+   -  international human tended. add the nasda & esa modules, and
+      add another 20 kw of power
+   -  permanent human presence capability. add a 3rd power module,
+      the u.s. habitation module, and an acrv (assured crew return
+      vehicle).
  
- Option "B" - Space Station Freedom Derived
- The Option "B" team is based at LaRC, and is lead by Mike Griffin.
- This option looks alot like the existing SSF design, which we
+ option "b" - space station freedom derived
+ the option "b" team is based at larc, and is lead by mike griffin.
+ this option looks alot like the existing ssf design, which we
  have all come to know and love :)
  
- This option assumes a lightweight external tank is available for
- use on all SSF assembly flights (so does option "A"). Also, the 
+ this option assumes a lightweight external tank is available for
+ use on all ssf assembly flights (so does option "a"). also, the 
  number of flights is computed for a 51.6 inclination orbit,
- for both options "A" and "B".
+ for both options "a" and "b".
  
- The build-up occurs in six phases:
-   -  Initial Research Capability reached after 3 flights. Power
-      is transferred from the vehicle to the Orbiter/Spacelab, when
+ the build-up occurs in six phases:
+   -  initial research capability reached after 3 flights. power
+      is transferred from the vehicle to the orbiter/spacelab, when
       it visits.
-   -  Man-Tended Capability (Griffin has not yet adopted non-sexist
-      language) is achieved after 8 flights. The U.S. Lab is
-      deployed, and 1 solar power module provides 20 kW of power.
-   -  Permanent Human Presence Capability occurs after 10 flights, by
-      keeping one Orbiter on-orbit to use as an ACRV (so sometimes
-      there would be two Orbiters on-orbit - the ACRV, and the
-      second one that comes up for Logistics & Re-supply).
-   -  A "Two Fault Tolerance Capability" is achieved after 14 flights,
+   -  man-tended capability (griffin has not yet adopted non-sexist
+      language) is achieved after 8 flights. the u.s. lab is
+      deployed, and 1 solar power module provides 20 kw of power.
+   -  permanent human presence capability occurs after 10 flights, by
+      keeping one orbiter on-orbit to use as an acrv (so sometimes
+      there would be two orbiters on-orbit - the acrv, and the
+      second one that comes up for logistics & re-supply).
+   -  a "two fault tolerance capability" is achieved after 14 flights,
       with the addition of a 2nd power module, another thermal
       control system radiator, and more propulsion modules.
-   -  After 20 flights, the Internationals are on-board. More power,
-      the Habitation module, and an ACRV are added to finish the
+   -  after 20 flights, the internationals are on-board. more power,
+      the habitation module, and an acrv are added to finish the
       assembly in 24 flights.
  
- Most of the systems currently on SSF are used as-is in this option, 
+ most of the systems currently on ssf are used as-is in this option, 
  with the exception of the data management system, which has major
  changes.
  
- Option C - Single Core Launch Station.
- This is the JSC lead option. Basically, you take a 23 ft diameter
- cylinder that's 92 ft long, slap 3 Space Shuttle Main Engines on
+ option c - single core launch station.
+ this is the jsc lead option. basically, you take a 23 ft diameter
+ cylinder that's 92 ft long, slap 3 space shuttle main engines on
  the backside, put a nose cone on the top, attached it to a 
  regular shuttle external tank and a regular set of solid rocket
- motors, and launch the can. Some key features are:
-   - Complete end-to-end ground integration and checkout
+ motors, and launch the can. some key features are:
+   - complete end-to-end ground integration and checkout
    - 4 tangentially mounted fixed solar panels
    - body mounted radiators (which adds protection against
      micrometeroid & orbital debris)
@@ -96,7 +96,7 @@
    - a single pressurized volume, approximately 26,000 cubic feet
      (twice the volume of skylab).
    - 7 floors, center passageway between floors
-   - 10 kW of housekeeping power
+   - 10 kw of housekeeping power
    - graceful degradation with failures (8 power channels, 4 thermal
      loops, dual environmental control & life support system)
    - increased crew time for utilization

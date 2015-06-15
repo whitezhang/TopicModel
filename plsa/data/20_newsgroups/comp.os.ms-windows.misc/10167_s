@@ -1,34 +1,34 @@
 
- In article <messinaC6B7zL.IHo@netcom.com> messina@netcom.com (Tony Porczyk) writes:
- >ajayshah@almaak.usc.edu (Ajay Shah) writes:
+ in article <messinac6b7zl.iho@netcom.com> messina@netcom.com (tony porczyk) writes:
+ >ajayshah@almaak.usc.edu (ajay shah) writes:
  >
- >>"The Preferred Applications Development Platform"
- >>according to 432 of the Fortune 1000 corporations
- >>Survey by Sentry Market Research Survey
+ >>"the preferred applications development platform"
+ >>according to 432 of the fortune 1000 corporations
+ >>survey by sentry market research survey
  >>                1992            1993
- >>Unix              18              28
- >>Mainframe         35              22
- >>DOS & MSW         24              18
+ >>unix              18              28
+ >>mainframe         35              22
+ >>dos & msw         24              18
  >
- >Development of what?  In-house apps?  Maybe, but  certainly not apps
- >to be sold on an open market.  Statistics like that are laughable,
+ >development of what?  in-house apps?  maybe, but  certainly not apps
+ >to be sold on an open market.  statistics like that are laughable,
  >because they may simply mean that there are not enough shrink-wrapped
- >usable apps for UNIX and they have to be developed disproportionately
- >often as compared to the installed UNIX base.
+ >usable apps for unix and they have to be developed disproportionately
+ >often as compared to the installed unix base.
  >
  >t.
  >
- Actually, you might be surprised to find that not everyone who develops
- mainstream DOS and Windows apps develops them under DOS or Windows.  PC
- Week recently printed a rumor that Microsoft's Excel development group
- does its development under OS/2.  Another trade rag did an article
- recently about a group doing Windows development on Sun SPARCstations
- with SoftPC to test out their work.  SCO Unix is and has been a
- reasonably popular development platform for DOS, Windows, and even OS/2
- apps.  DOS and Windows are simply not robust or stable enough for
- development work, IMHO, and apparently others agree.
+ actually, you might be surprised to find that not everyone who develops
+ mainstream dos and windows apps develops them under dos or windows.  pc
+ week recently printed a rumor that microsoft's excel development group
+ does its development under os/2.  another trade rag did an article
+ recently about a group doing windows development on sun sparcstations
+ with softpc to test out their work.  sco unix is and has been a
+ reasonably popular development platform for dos, windows, and even os/2
+ apps.  dos and windows are simply not robust or stable enough for
+ development work, imho, and apparently others agree.
  
  -- 
- Marc Fraioli
- mfraioli@grebyn.com	        	(So I'm a minimalist...)
+ marc fraioli
+ mfraioli@grebyn.com	        	(so i'm a minimalist...)
  

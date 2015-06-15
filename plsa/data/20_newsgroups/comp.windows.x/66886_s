@@ -1,54 +1,54 @@
 
- berry@durian.citr.uq.oz.au (Andrew Berry) writes:
+ berry@durian.citr.uq.oz.au (andrew berry) writes:
  
- >My impression is that most people use Motif because their OS vendor
- >supplies it with X (SunOS users excluded), and because it is similar in
- >"look and feel" to MS-Windows and OS/2 PM.  Personally, I also prefer
- >the "look and feel" of Motif (no flames please -- just an opinion).
+ >my impression is that most people use motif because their os vendor
+ >supplies it with x (sunos users excluded), and because it is similar in
+ >"look and feel" to ms-windows and os/2 pm.  personally, i also prefer
+ >the "look and feel" of motif (no flames please -- just an opinion).
  
- Seeing as Motif has been adopted by Sun, IBM, HP +++ (can't remeber the
- other members in the recent announcement), I'm sure you'll see it on
- virtually every workstation (ie. Sun, IBM, HP and DEC must make up the
- **VAST** majority of all hardware).
+ seeing as motif has been adopted by sun, ibm, hp +++ (can't remeber the
+ other members in the recent announcement), i'm sure you'll see it on
+ virtually every workstation (ie. sun, ibm, hp and dec must make up the
+ **vast** majority of all hardware).
  
  
- >I am also concerned by this prevalence of Motif, particularly from the
- >point of view of writing and obtaining free software.  As the Linux and
- >386BSD communities grow, however, I think that Motif will lose some of
+ >i am also concerned by this prevalence of motif, particularly from the
+ >point of view of writing and obtaining free software.  as the linux and
+ >386bsd communities grow, however, i think that motif will lose some of
  >its grip, at least in the non-commercial marketplace.  
  
  
- Ports of Motif to both 386BSD and Linux are available for a fee of about
- $100.  This is cost recovery for the person who bought the rights to
- redistribute.  The activity in both the BSD and Linux news groups
- pertaining to Motif has been high.
+ ports of motif to both 386bsd and linux are available for a fee of about
+ $100.  this is cost recovery for the person who bought the rights to
+ redistribute.  the activity in both the bsd and linux news groups
+ pertaining to motif has been high.
  
  
- >I just wonder if this will also cause a divergence between commercial
+ >i just wonder if this will also cause a divergence between commercial
  >and non-commercial software (ie. you will only get free software using
- >Athena or OpenLook widget sets, and only get commercial software using
- >the Motif widget sets).  
+ >athena or openlook widget sets, and only get commercial software using
+ >the motif widget sets).  
  
  
- I can't see why.  If just about every workstation will come with Motif
- by default and you can buy it for under $100 for the "free" UNIX
- platforms, I can't see this causing major problems.
+ i can't see why.  if just about every workstation will come with motif
+ by default and you can buy it for under $100 for the "free" unix
+ platforms, i can't see this causing major problems.
  
  
- Side Note :
+ side note :
  ---------
- All the X based code I am writing (and will distribute freely when
- completed) is based on Motif because from a programmatic and also "look
- and feel" point of view I like it the best (no flames on this one
+ all the x based code i am writing (and will distribute freely when
+ completed) is based on motif because from a programmatic and also "look
+ and feel" point of view i like it the best (no flames on this one
  please).
  
  
  
  bambi
  
-    ___                                 David J. Hughes     bambi@bu.oz.au
+    ___                                 david j. hughes     bambi@bu.oz.au
    /   \                /  /    /        
-  /  __/ __   __   ____/  /    / __          Senior Network Programmer
- /    \ /  \ /  \ /   /  /    / /  \  /    Comms Development & Operation
- \____/ \__//   / \__/   \___/ /   / /       AUSTRALIA  (+61 75 951450)
+  /  __/ __   __   ____/  /    / __          senior network programmer
+ /    \ /  \ /  \ /   /  /    / /  \  /    comms development & operation
+ \____/ \__//   / \__/   \___/ /   / /       australia  (+61 75 951450)
  

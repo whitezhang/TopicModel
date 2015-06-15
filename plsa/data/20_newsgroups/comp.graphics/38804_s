@@ -2,18 +2,18 @@
  
  
  
- Due to a number of bugs in GKS4.1 under SUNOS 4.1.3, I installed
- patches 100533-15 and 100755-01. Patch 100533-15 appears to
- work fine and has fixed a number of problems. Patch 100755-01,
+ due to a number of bugs in gks4.1 under sunos 4.1.3, i installed
+ patches 100533-15 and 100755-01. patch 100533-15 appears to
+ work fine and has fixed a number of problems. patch 100755-01,
  however, which is required to fix a number of other annoying
  bugs, breaks with our applications.
  
- Is there a more recent revision of patch 10075?
+ is there a more recent revision of patch 10075?
  
- Any other ideas?
+ any other ideas?
  
- Scott Sloan                      email   cesws@cc.newcastle.edu.au
- University of Newcastle          fax     +61 49 216991
- NSW
- Australia
+ scott sloan                      email   cesws@cc.newcastle.edu.au
+ university of newcastle          fax     +61 49 216991
+ nsw
+ australia
  

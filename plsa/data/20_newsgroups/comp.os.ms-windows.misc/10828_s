@@ -1,19 +1,19 @@
 
- In article <1t6efv$1pj@binkley.cs.mcgill.ca> gel@binkley.cs.mcgill.ca (Gilles KHOUZAM) writes:
- >>Macsee.zip on ftp.cica.indiana.edu is supposed to read and write Mac disks.  
- >>I've never tried it, though.  Good luck
+ in article <1t6efv$1pj@binkley.cs.mcgill.ca> gel@binkley.cs.mcgill.ca (gilles khouzam) writes:
+ >>macsee.zip on ftp.cica.indiana.edu is supposed to read and write mac disks.  
+ >>i've never tried it, though.  good luck
  >
- >I just tried it, but I can't say that it works, 'cause it doesn't read 800K
- >disks, it only reads 1.44Mb. If there a program that does read 800K disks,
+ >i just tried it, but i can't say that it works, 'cause it doesn't read 800k
+ >disks, it only reads 1.44mb. if there a program that does read 800k disks,
  >please let me know.
  
  
- Well, you can't say that it don't work.  The inability to read 800k mac
- disks is not a SW problem.  Rather, it's a HARDWARE limmitation on PCs. 
+ well, you can't say that it don't work.  the inability to read 800k mac
+ disks is not a sw problem.  rather, it's a hardware limmitation on pcs. 
  
- I have seen a post about a program able to read non-1.44Mb Mac disks,
+ i have seen a post about a program able to read non-1.44mb mac disks,
  which comes with a watchamacalit <ma memory's faling> card, which you
- just drop into a com port or something.  Don't remember specifics, tho.
+ just drop into a com port or something.  don't remember specifics, tho.
  peace,
- Mickey
+ mickey
  

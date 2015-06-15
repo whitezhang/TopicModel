@@ -3,24 +3,24 @@
  
  
  
- Hi!
+ hi!
  
- I need a Windows 3.1 driver for the Matrox PG-1281 CV
- SVGA card. 
- At the moment Windows runs only in the 640x480 mode.
- If you have a driver for this card, please send it 
- with the OEMSETUP.INF to 
+ i need a windows 3.1 driver for the matrox pg-1281 cv
+ svga card. 
+ at the moment windows runs only in the 640x480 mode.
+ if you have a driver for this card, please send it 
+ with the oemsetup.inf to 
  
- bockamp@Informatik.TU-Muenchen.DE
+ bockamp@informatik.tu-muenchen.de
  
- Thanks!
+ thanks!
  
  -- 
  +-----------------------------------------------------------------+
- | Florian Bockamp                                  '''            |
+ | florian bockamp                                  '''            |
  | bockamp@informatik.tu-muenchen.de               (o o)           |
- +---------------------------------------------oOO--( )--OOo-------+
+ +---------------------------------------------ooo--( )--ooo-------+
  |                                                   -             |
- |         "It's not a bug, it's an undocumented feature!"         |
+ |         "it's not a bug, it's an undocumented feature!"         |
  +-----------------------------------------------------------------+
  

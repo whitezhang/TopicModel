@@ -1,17 +1,17 @@
 
  
- There is a nice little tool in Lucid emacs. It's called "calendar".
- On request it shows for given longitude/latitude coordinates times for
- sunset and sunrise. The code is written in lisp.
- I don't know if you like the idea that an editor is the right program to
+ there is a nice little tool in lucid emacs. it's called "calendar".
+ on request it shows for given longitude/latitude coordinates times for
+ sunset and sunrise. the code is written in lisp.
+ i don't know if you like the idea that an editor is the right program to
  calculate these things.
  
  
- Theo W.
+ theo w.
  
- Theo Wawers                                  LAHMEYER INTERNATIONAL GMBH
- email : wawers@sunny.lif.de                  Lyonerstr. 22
- phone : +49 69 66 77 639                     D-6000 Frankfurt/Main
- fax   : +49 69 66 77 571                     Germany
+ theo wawers                                  lahmeyer international gmbh
+ email : wawers@sunny.lif.de                  lyonerstr. 22
+ phone : +49 69 66 77 639                     d-6000 frankfurt/main
+ fax   : +49 69 66 77 571                     germany
  
  

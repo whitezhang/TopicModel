@@ -1,73 +1,73 @@
 
  
- Dear SGI and netter GL-X Mixed-Model experts,
- I am writing a mixed model application that creates a couple different
- color maps for different windows, and I've been having trouble getting
- the window manager to reliably honor my requests.  In some environments
- (entry level R3000 Indigo w/ 4.0.5) all windows are getting properly
- connected to their designated color maps, but on others (an IRIS 4D 240/GTX;
- also a different entry level Indigo) the color mapping is unreliable
- and changes behavior when I compile at different times.  The most common
+ dear sgi and netter gl-x mixed-model experts,
+ i am writing a mixed model application that creates a couple different
+ color maps for different windows, and i've been having trouble getting
+ the window manager to reliably honor my requests.  in some environments
+ (entry level r3000 indigo w/ 4.0.5) all windows are getting properly
+ connected to their designated color maps, but on others (an iris 4d 240/gtx;
+ also a different entry level indigo) the color mapping is unreliable
+ and changes behavior when i compile at different times.  the most common
  problem is that all non-top-level windows fail to be displayed according
- to their colormap.  My application starts out by creating three top-level
+ to their colormap.  my application starts out by creating three top-level
  windows; in some cases all but the first of these also fail to be
- displayed by their colormap.  This is spectacularly aggravating.
+ displayed by their colormap.  this is spectacularly aggravating.
  
- I would dearly appreciate
-   1. an explanation of the standard, RIGHT, CORRECT way to give a window
-   a colormap such that the Window Manager will Honor and Obey it;
+ i would dearly appreciate
+   1. an explanation of the standard, right, correct way to give a window
+   a colormap such that the window manager will honor and obey it;
  
    2. any advice about problems that could cause my failure to get my
    desired colormaps.
  
- By now I have exhausted my own attempts on this, having tried everything
+ by now i have exhausted my own attempts on this, having tried everything
  reasonable or imaginable.
  
- Below is example code giving the schematic for how I have been *TRYING*
- to do this.  Please, please, please SOMEBODY tell me what I am doing
+ below is example code giving the schematic for how i have been *trying*
+ to do this.  please, please, please somebody tell me what i am doing
  wrong/how to do it right!!!
  
  
- Yours,
+ yours,
  
- Chris Lee
+ chris lee
  
  /***********************************************************************/
- Display* dpy;  /* DECLARE SOME DATA... */
- Colormap popup_cmap;
- XColor mycolor;
- Window win;
- XSetWindowAttributes cwa;
+ display* dpy;  /* declare some data... */
+ colormap popup_cmap;
+ xcolor mycolor;
+ window win;
+ xsetwindowattributes cwa;
  int nwlist;
- Window *wlist;
+ window *wlist;
  
- /* NB: FOR BREVITY, NOT SHOWING ALL CODE LINES--JUST A SCHEMATIC */
+ /* nb: for brevity, not showing all code lines--just a schematic */
  
- popup_cmap=XCreateColormap(dpy,DefaultRootWindow(dpy),vis->visual,AllocAll);
+ popup_cmap=xcreatecolormap(dpy,defaultrootwindow(dpy),vis->visual,allocall);
  
- /* HERE WE STORE A BUNCH OF COLORS USING
-    XStoreColor(dpy,popup_cmap,&mycolor); ... */
+ /* here we store a bunch of colors using
+    xstorecolor(dpy,popup_cmap,&mycolor); ... */
  
  cwa.colormap = popup_cmap;
- win = XCreateWindow(dpy, parent, x, y, w, h,
-                     borderWidth, vis->depth, InputOutput, vis->visual,
-                     CWColormap|CWBorderPixel, &cwa);
+ win = xcreatewindow(dpy, parent, x, y, w, h,
+                     borderwidth, vis->depth, inputoutput, vis->visual,
+                     cwcolormap|cwborderpixel, &cwa);
  
  
- /* LIST ALL SUB WINDOWS OF my_topwin, PARENT OF win, INTO wlist;
-    nwlist IS COUNTER OF ENTRIES IN wlist.
+ /* list all sub windows of my_topwin, parent of win, into wlist;
+    nwlist is counter of entries in wlist.
  
-    NB: wlist is static storage that can be relied on not to go away
-        or be corrupted.  I thought of that!  Does anyone know if
-        setting WM properties is by data copy, or by reference pointer?
+    nb: wlist is static storage that can be relied on not to go away
+        or be corrupted.  i thought of that!  does anyone know if
+        setting wm properties is by data copy, or by reference pointer?
  
-        ie. is it acceptable to pass data for a Property, then free
+        ie. is it acceptable to pass data for a property, then free
         the data?   */
- XSetWMColormapWindows(dpy,my_topwin,wlist,nwlist);
+ xsetwmcolormapwindows(dpy,my_topwin,wlist,nwlist);
  
- XMapRaised(Display0,win);
+ xmapraised(display0,win);
  
- /* LATER ON WE HANDLE XEvents NORMALLY... TYPICAL EVENTLOOP */
+ /* later on we handle xevents normally... typical eventloop */
  
  
  

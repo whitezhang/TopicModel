@@ -1,36 +1,36 @@
 
- In article <1qksuq$1tt8@hal.gnu.ai.mit.edu>, mirsky@hal.gnu.ai.mit.edu
- (David Joshua Mirsky) writes:
- |> Hi. I own an LCIII and I recently heard an interesting rumor.
- |> I heard that the LCIII has a built in slot for a PowerPC chip.
- |> Is this true? I heard that the slot is not the same as the PDS
- |> slot.  Is that true?
+ in article <1qksuq$1tt8@hal.gnu.ai.mit.edu>, mirsky@hal.gnu.ai.mit.edu
+ (david joshua mirsky) writes:
+ |> hi. i own an lciii and i recently heard an interesting rumor.
+ |> i heard that the lciii has a built in slot for a powerpc chip.
+ |> is this true? i heard that the slot is not the same as the pds
+ |> slot.  is that true?
  |> 
- |> Thanks
- |> David Mirsky
+ |> thanks
+ |> david mirsky
  |> mirsky@gnu.ai.mit.edu
  
- Well, I also have an LC III.  Popping the top revealed:
+ well, i also have an lc iii.  popping the top revealed:
  
- 	One "socket" for an additional VRAM SIMM
+ 	one "socket" for an additional vram simm
  
- 	One "socket" for a 72-pin RAM SIMM
+ 	one "socket" for a 72-pin ram simm
  
- 	One socket for a flat-pack FPU
+ 	one socket for a flat-pack fpu
  
- 	A processor-direct slot (PDS) identical to the LC/LC II, but with
+ 	a processor-direct slot (pds) identical to the lc/lc ii, but with
  	an additional set of connetions to one side (for the full 32-bit
- 	data path that the LC/LC II lacked
+ 	data path that the lc/lc ii lacked
  
- That's it.  I guess a board with a PowerPC chip could be made that would fit
- in the PDS, but that's the only place.
+ that's it.  i guess a board with a powerpc chip could be made that would fit
+ in the pds, but that's the only place.
  
  +--------------------------------------------------------------------------+
- | Andre Molyneux   KA7WVV     "Insert your favorite disclaimer here"       |
+ | andre molyneux   ka7wvv     "insert your favorite disclaimer here"       |
  +-----------------------------------------+--------------------------------+
- |      -=-------- PYRAMID TECHNOLOGY CORP |Internet:                       |
- |    ---===------ 3860 N. First Street    |  andrem@pyramid.com            |
- |  -----=====---- San Jose, CA            |Packet:                         |
+ |      -=-------- pyramid technology corp |internet:                       |
+ |    ---===------ 3860 n. first street    |  andrem@pyramid.com            |
+ |  -----=====---- san jose, ca            |packet:                         |
  |-------=======-- (408) 428-8229          |  ka7wvv@n0ary.#nocal.ca.usa.na |
  +-----------------------------------------+--------------------------------+
  

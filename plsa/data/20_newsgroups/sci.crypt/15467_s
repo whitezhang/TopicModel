@@ -1,20 +1,20 @@
 
- In article <1qs6cg$7cq@msuinfo.cl.msu.edu> mrr@scss3.cl.msu.edu (Mark Riordan) writes:
- >A few more sources are statistics on your filesystems (easily
+ in article <1qs6cg$7cq@msuinfo.cl.msu.edu> mrr@scss3.cl.msu.edu (mark riordan) writes:
+ >a few more sources are statistics on your filesystems (easily
  >and quickly obtained) and the output from the "rusage" system
  >call.  
  >
- >You can also exec a finger to one or more favorite heavily-used
+ >you can also exec a finger to one or more favorite heavily-used
  >systems, though this can take several seconds.
  >
- >cf. the source code to RIPEM on ripem.msu.edu.
+ >cf. the source code to ripem on ripem.msu.edu.
  >
- >Mark R.
+ >mark r.
  
- Other alternatives include output of vmstat, iostat, pstat and friends
+ other alternatives include output of vmstat, iostat, pstat and friends
  with various flags, or even better crash. 
  
- e.g. on an RS/6000 (AIX 3.2) you can get lots of relatively
+ e.g. on an rs/6000 (aix 3.2) you can get lots of relatively
  unpredicatble data out of crash. (the output from the following script 
  usually gives about 600k of goo on a moderately busy system.)
  
@@ -37,8 +37,8 @@
  !
  
  -- 
- Mark Henderson
+ mark henderson
  markh@wimsey.bc.ca
- RIPEM key available by key server/finger/E-mail
-   MD5OfPublicKey: F1F5F0C3984CBEAF3889ADAFA2437433
+ ripem key available by key server/finger/e-mail
+   md5ofpublickey: f1f5f0c3984cbeaf3889adafa2437433
  

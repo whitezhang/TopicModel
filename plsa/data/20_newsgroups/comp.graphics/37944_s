@@ -1,10 +1,10 @@
 
  
- 	WGT is the WordUp Graphics Toolkit, designed by yours truly and my
- co-programmer (and brother) Chris Egerter. It is a Turbo/Borland C++ graphics
- library for programming in 320*200*256 VGA. We are currently producing it as
+ 	wgt is the wordup graphics toolkit, designed by yours truly and my
+ co-programmer (and brother) chris egerter. it is a turbo/borland c++ graphics
+ library for programming in 320*200*256 vga. we are currently producing it as
  shareware, but in a few years it may be a commercial product (excuse typos,
- there's no backspace on this terminal). Features include:
+ there's no backspace on this terminal). features include:
  
  - loading and saving bit-images (called blocks from herein)
  - flipping, resizing and warping blocks
@@ -13,25 +13,25 @@
  - region fill (not the usually useless floodfill)
  - sprites (animated bitmaps), up to 200 onscreen at once
  - joystick/mouse support
- - SB support (VOC and CMF)
+ - sb support (voc and cmf)
  - tile-based game creation using 16*16 pixel tiles to create
-   a 320*200 tile map (or game world) like in Duke Nuke 'Em
+   a 320*200 tile map (or game world) like in duke nuke 'em
  - number of sprites increased to 1000
- - Professional Sprite Creator utility and Map Maker
+ - professional sprite creator utility and map maker
  -  routines to simplify scrolling games using maps, etc
- - FLI playing routines, sprites can be animated over the FLI while playing
- - PCX support, soon GIF
- - EMS/XMS coming soon as well
+ - fli playing routines, sprites can be animated over the fli while playing
+ - pcx support, soon gif
+ - ems/xms coming soon as well
  
- Leave E-mail to Barry Egerter at    egerter@obelix.gaul.csd.uwo.ca
+ leave e-mail to barry egerter at    egerter@obelix.gaul.csd.uwo.ca
  
- Files available on:      (use  mget wgt*.zip)
+ files available on:      (use  mget wgt*.zip)
  
- SIMTEL20 and mirrors                pd1:<msdos.turbo-c>
+ simtel20 and mirrors                pd1:<msdos.turbo-c>
  
  nic.funet.fi                        pub/msdos/games/programming
  
- Some sites may not have recent files, contact me for info regarding the up-to-
+ some sites may not have recent files, contact me for info regarding the up-to-
  date information.
  
  

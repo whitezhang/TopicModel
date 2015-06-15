@@ -1,24 +1,24 @@
 
- In article <1r25nt$oa5@ratatosk.uninett.no> hktth@nho.hydro.com writes:
- >In article <1993Apr20.191255.10115@news.columbia.edu>, imj1@cunixa.cc.columbia.edu (Imad M Jureidini) writes:
- >|> Hi!
- >|> 	I recently purchased the Toshiba 3401 CDROM.  I own an Adaptec 1542B
- >|> SCSI card, and I have so far failed to get the CDROM to work under DOS.  It
+ in article <1r25nt$oa5@ratatosk.uninett.no> hktth@nho.hydro.com writes:
+ >in article <1993apr20.191255.10115@news.columbia.edu>, imj1@cunixa.cc.columbia.edu (imad m jureidini) writes:
+ >|> hi!
+ >|> 	i recently purchased the toshiba 3401 cdrom.  i own an adaptec 1542b
+ >|> scsi card, and i have so far failed to get the cdrom to work under dos.  it
  >
- >One of the ASPI-drivers (I think it's the ASPICD) supports a /NORST
- >paramter, which means to not reset the SCSI bus when it loads. This
+ >one of the aspi-drivers (i think it's the aspicd) supports a /norst
+ >paramter, which means to not reset the scsi bus when it loads. this
  >fixed the problem a friend of mine was having with his adaptec+tosh 
  >3401.
  >
- >Regards,
+ >regards,
  >
- >  -Terje
- It worked!!!
- Thank you very much!
+ >  -terje
+ it worked!!!
+ thank you very much!
  
  
  *******************************************************************************
- * imj1@cunixa.cc.columbia.edu			    Imad "Hexabyte" Jureidini *
- *     The Ultimate Knight, Grand Priest of the Secrets of the Undefined.      *
+ * imj1@cunixa.cc.columbia.edu			    imad "hexabyte" jureidini *
+ *     the ultimate knight, grand priest of the secrets of the undefined.      *
  *******************************************************************************
  

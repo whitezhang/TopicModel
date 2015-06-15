@@ -1,17 +1,17 @@
 
- In article <9304292140.AA29951@haji.haji_sun> fwr8bv@fin.af.MIL writes:
- >Hi,
+ in article <9304292140.aa29951@haji.haji_sun> fwr8bv@fin.af.mil writes:
+ >hi,
  >
- >I am using xdm on X11R5 with OW3 and Xview3 on Sun3s and SPARCs running 
- >SunOS 4.1.1.  Prior to using xdm, I used to set PATH and other environment
- >variables (like MANPATH, HELPPATH, ARCH, etc) in my .login file.  With xdm,
+ >i am using xdm on x11r5 with ow3 and xview3 on sun3s and sparcs running 
+ >sunos 4.1.1.  prior to using xdm, i used to set path and other environment
+ >variables (like manpath, helppath, arch, etc) in my .login file.  with xdm,
  >the .login file doesn't get executed and therefore neither the olwm
  >root-window nor my applications know about these variables.
  
- I always use the following in my .[t]cshrc:
+ i always use the following in my .[t]cshrc:
  
  ...
- f ( $?LOGIN == 0 ) then
+ f ( $?login == 0 ) then
     source $home/.login
  endif
  ...
@@ -19,17 +19,17 @@
  and in .login:
  
  ...
- setenv LOGIN 1
+ setenv login 1
  ...
  
- So I don't need to set all environment variables in my .cshrc, but they get
- set if I login via xdm or xon | xrsh | rx and so on.
+ so i don't need to set all environment variables in my .cshrc, but they get
+ set if i login via xdm or xon | xrsh | rx and so on.
  
- Hope this helps,
+ hope this helps,
  
- Bernward
+ bernward
  -- 
- Bernward Averwald, Heinrichstr. 42, D-4600 Dortmund 1, Voice: +49 231 144048
- FAX: +49 231 144047, e-mail: bernward@moepi.do.open.de            (b@rcc.de)
-                      I think I need a Lear Jet
+ bernward averwald, heinrichstr. 42, d-4600 dortmund 1, voice: +49 231 144048
+ fax: +49 231 144047, e-mail: bernward@moepi.do.open.de            (b@rcc.de)
+                      i think i need a lear jet
  

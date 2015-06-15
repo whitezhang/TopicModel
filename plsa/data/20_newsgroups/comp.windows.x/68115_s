@@ -1,25 +1,25 @@
 
- I need some advice regarding monitor to use with Xfree86. I have an ET4000
- based graphic card with 1 Meg of memory. I know this card is supported in
- Xfree86 because a friend of mine has one of these in his PC. His monitor is
- 17" colour capable of displaying 1280x1024 resolution. I cant afford this kind
- of expensive monitor. I heard from somewhere that Xfree86 requires multisync
- monitor with minimum horizontal scan frequency of 60KHz. Is this true?
- I would only like to use Xfree86 at resolution of 800x600 in 256 colours and
- so was thinking of buying a cheap 14" SVGA monitor. Interlaced (Cheap)14" SVGA 
- monitors only have have maximum horizontal scan frequency of about 38KHz.
- Will this kind of monitor work with Xfree86? 
+ i need some advice regarding monitor to use with xfree86. i have an et4000
+ based graphic card with 1 meg of memory. i know this card is supported in
+ xfree86 because a friend of mine has one of these in his pc. his monitor is
+ 17" colour capable of displaying 1280x1024 resolution. i cant afford this kind
+ of expensive monitor. i heard from somewhere that xfree86 requires multisync
+ monitor with minimum horizontal scan frequency of 60khz. is this true?
+ i would only like to use xfree86 at resolution of 800x600 in 256 colours and
+ so was thinking of buying a cheap 14" svga monitor. interlaced (cheap)14" svga 
+ monitors only have have maximum horizontal scan frequency of about 38khz.
+ will this kind of monitor work with xfree86? 
  
- Please reply by email.
+ please reply by email.
  
- Thaks in advance.
+ thaks in advance.
  
  arshad
  ================================================================================
- Arshad Mahmood                               |  Tel   : 0344 850987
- Siemens Nixdorf Information Systems Limited  |  Fax   : 0344 850096
- Siemens Nixdorf House                        |  email : arshad@sni.co.uk
- Oldbury, Bracknell
- Berkshire RG12 4FZ
- England.
+ arshad mahmood                               |  tel   : 0344 850987
+ siemens nixdorf information systems limited  |  fax   : 0344 850096
+ siemens nixdorf house                        |  email : arshad@sni.co.uk
+ oldbury, bracknell
+ berkshire rg12 4fz
+ england.
  

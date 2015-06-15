@@ -1,27 +1,27 @@
 
- I have just noticed my FileManager doing something strange recently.
- Usually, the line at the bottom of the FileManager (the status bar, I
+ i have just noticed my filemanager doing something strange recently.
+ usually, the line at the bottom of the filemanager (the status bar, i
  guess) displays the total disk space and the total number of bytes for
- the current selection.  If I select a whole bunch of files, I will get
+ the current selection.  if i select a whole bunch of files, i will get
  an exact byte count.
  
- Recently, I notice it incorrectly displays this count; it's truncating!
- If I select a file that is, say, 532 bytes, it correctly displays '532 bytes'.
- If I select select a file that is 23,482 bytes, it displays '23 bytes', 
- not 23 Kbytes, just 23 bytes!  If I select 893,352 it will report only
- 893 bytes in the selection.  If I select over a Meg worth of files, say
- 3,356,345 it reports 3 bytes!  It's as if it's got a problem with displaying
+ recently, i notice it incorrectly displays this count; it's truncating!
+ if i select a file that is, say, 532 bytes, it correctly displays '532 bytes'.
+ if i select select a file that is 23,482 bytes, it displays '23 bytes', 
+ not 23 kbytes, just 23 bytes!  if i select 893,352 it will report only
+ 893 bytes in the selection.  if i select over a meg worth of files, say
+ 3,356,345 it reports 3 bytes!  it's as if it's got a problem with displaying
  more than 3 characters!
  
- My system: 486DX/33, 8M memory, Stacker 3.0, DOS 5, Win 3.1.  I've run
+ my system: 486dx/33, 8m memory, stacker 3.0, dos 5, win 3.1.  i've run
  the latest virus scanners (scan102, f-prot) and they didn't report anything.
- Could I have unknowingly altered something that controls the formatting
- of the status bar in the FileManger?
+ could i have unknowingly altered something that controls the formatting
+ of the status bar in the filemanger?
  -----------------------------------------------------------------------------
-      _/      _/  _/   _/_/_/  _/  _/    Nicholas Masika, masika@bnr.ca
-     _/_/    _/  _/  _/       _/ _/      Bell-Northern Research, Ottawa
+      _/      _/  _/   _/_/_/  _/  _/    nicholas masika, masika@bnr.ca
+     _/_/    _/  _/  _/       _/ _/      bell-northern research, ottawa
     _/  _/  _/  _/  _/       _/_/        (613) 765-4893 / fax:765-4309
    _/    _/_/  _/  _/       _/ _/        
-  _/      _/  _/   _/_/_/  _/   _/       OPC Development Operations
+  _/      _/  _/   _/_/_/  _/   _/       opc development operations
  -----------------------------------------------------------------------------
  

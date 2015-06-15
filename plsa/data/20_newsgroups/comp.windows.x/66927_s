@@ -1,10 +1,10 @@
 
  #
- #No doubt this is an old question, but I didn't find the answer in the
- #FAQs I could find, so - here goes:
+ #no doubt this is an old question, but i didn't find the answer in the
+ #faqs i could find, so - here goes:
  #
- #I have a Sunview application that I want to convert to X (OpenLook,
- #Motiv, whatever). I remember hearing quite some time ago that there
+ #i have a sunview application that i want to convert to x (openlook,
+ #motiv, whatever). i remember hearing quite some time ago that there
  #are tools to accomplish this task.
  #
  #	a) is that so?
@@ -13,16 +13,16 @@
  #	d) advantages over reimplementing the interface myself?
  #
  
- The simple answer is for you to obtain use XView to do this.  XView is a
- one to one replacement for Sunview.  It should already be provided with
- you Sun running OpenWindows.   It is also free available as part of the
- contrib side of the MIT X11R5 release.
+ the simple answer is for you to obtain use xview to do this.  xview is a
+ one to one replacement for sunview.  it should already be provided with
+ you sun running openwindows.   it is also free available as part of the
+ contrib side of the mit x11r5 release.
  
- Patrick L. Mahan
+ patrick l. mahan
  
- --- TGV Window Washer ------------------------------- Mahan@TGV.COM ---------
+ --- tgv window washer ------------------------------- mahan@tgv.com ---------
  
- Waking a person unnecessarily should not be considered  - Lazarus Long
- a capital crime.  For a first offense, that is            From the Notebooks of
- 							  Lazarus Long
+ waking a person unnecessarily should not be considered  - lazarus long
+ a capital crime.  for a first offense, that is            from the notebooks of
+ 							  lazarus long
  

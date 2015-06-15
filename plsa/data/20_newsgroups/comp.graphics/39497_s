@@ -1,28 +1,28 @@
 
- In article <C6vnMv.9G6@rjck.uucp> rob@rjck.uucp (Robert J.C. Kyanko) writes:
+ in article <c6vnmv.9g6@rjck.uucp> rob@rjck.uucp (robert j.c. kyanko) writes:
  
-    I need help in creating my 4x4 perspective matrix.  I'd like to use this for
-    transforming x, y, z, w in some texture mapping code I got from Graphics Gems
-    I.  I have many books which talk about this, but none of them in simple plain
-    english.  If you have Graphics Gems I, I'm talking about page 678.
+    i need help in creating my 4x4 perspective matrix.  i'd like to use this for
+    transforming x, y, z, w in some texture mapping code i got from graphics gems
+    i.  i have many books which talk about this, but none of them in simple plain
+    english.  if you have graphics gems i, i'm talking about page 678.
  
-    I'd like to have a perspective matrix that handles different field-of-views
-    and aspect of course.  Thank's for your help.
+    i'd like to have a perspective matrix that handles different field-of-views
+    and aspect of course.  thank's for your help.
  
- ca2 = cos(alpha / 2) Horizontal
+ ca2 = cos(alpha / 2) horizontal
  sa2 = sin(alpha / 2)
- cb2 = cos(beta / 2) Vertical
+ cb2 = cos(beta / 2) vertical
  sb2 = sin(beta 7 2)
- Zf = Far clipping value
- Zn = Near clipping value
+ zf = far clipping value
+ zn = near clipping value
  
- Matrix:
+ matrix:
  [[ca2/sa2 0 0 0]
  [0 cb2/sb2 0 0]
- [0 0 Zf/(Zf-Zn) 1]
- [0 0 -Zn*Zf/(Zf-Zn) 0]]
+ [0 0 zf/(zf-zn) 1]
+ [0 0 -zn*zf/(zf-zn) 0]]
  --
-  ____     ___   Geir Atle Storhaug
- / ____/\ (__    Geir.A.Storhaug@vm.ffi.no
- \___//  \___)   Phone: +47 63 807658 (office)     +47 63 838987 (home)
+  ____     ___   geir atle storhaug
+ / ____/\ (__    geir.a.storhaug@vm.ffi.no
+ \___//  \___)   phone: +47 63 807658 (office)     +47 63 838987 (home)
  

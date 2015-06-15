@@ -1,22 +1,22 @@
 
- peterbak@microsoft.com (Peter Bako) writes:
+ peterbak@microsoft.com (peter bako) writes:
  : 
- : Where could I find a description of the JPG file format?  Specifically
- : I need to know where in a JPG file I can find the height and width of 
+ : where could i find a description of the jpg file format?  specifically
+ : i need to know where in a jpg file i can find the height and width of 
  : the image, and perhaps even the number of colors being used.
  : 
- : Any suggestions?
+ : any suggestions?
  : 
- : Peter
+ : peter
  
- Try ftp.uu.net, in /graphics/jpeg.
+ try ftp.uu.net, in /graphics/jpeg.
  --
  --------------------------------
  =================================================================
- Chun-Hung Lin ( ªL«T§» )                     
+ chun-hung lin ( ªl«t§» )                     
  r0506048@csie.ntu.edu.tw    
- Communication & Multimedia Lab.
- Dept. of Comp. Sci. & Info. Eng.
- National Taiwan University, Taipei, Taiwan, R.O.C.
+ communication & multimedia lab.
+ dept. of comp. sci. & info. eng.
+ national taiwan university, taipei, taiwan, r.o.c.
  =================================================================
  

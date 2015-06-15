@@ -1,37 +1,37 @@
 
  
- O.K.- if you've read this group for a while, you know all about the
- one-time-pad, but here's a question I haven't seen.
+ o.k.- if you've read this group for a while, you know all about the
+ one-time-pad, but here's a question i haven't seen.
  
- The one-time-pad yeilds ideal security, but has a well-known flaw in
- authentication.  Suppose you use a random bit stream as the pad, and
- exclusive-or as the encryption operation.  If an adversary knows the 
+ the one-time-pad yeilds ideal security, but has a well-known flaw in
+ authentication.  suppose you use a random bit stream as the pad, and
+ exclusive-or as the encryption operation.  if an adversary knows the 
  plaintext of a message, he can change it into any other message.  
- Here's how it works.
+ here's how it works.
  
- Alice is sending Bob a plaintext P, under a key stream S
- Alice computes the ciphertext C = S xor P,  and sends it to Bob.
+ alice is sending bob a plaintext p, under a key stream s
+ alice computes the ciphertext c = s xor p,  and sends it to bob.
  
- Eve knows the plainext P, but wants the message to appear as P'.
- Eve intercepts C, and computes  C' = C xor P xor P' = S xor P'.
- Eve sends C' to Bob.
+ eve knows the plainext p, but wants the message to appear as p'.
+ eve intercepts c, and computes  c' = c xor p xor p' = s xor p'.
+ eve sends c' to bob.
  
- Bob decrypts C' by computing  C'xor S = P',  thus receiving the 
- false message which was substituted by Eve.
+ bob decrypts c' by computing  c'xor s = p',  thus receiving the 
+ false message which was substituted by eve.
  
  
- Now the question is how can this attack be defeated with information
+ now the question is how can this attack be defeated with information
  theoretic security, not just computational security.
- Can we define something like "ideal authentication" which is the
- analog of ideal security.  Can we obtain ideal authentication ?
+ can we define something like "ideal authentication" which is the
+ analog of ideal security.  can we obtain ideal authentication ?
  
- If not, how much can we limit Eve's control over the message ?
+ if not, how much can we limit eve's control over the message ?
  
- If we can achieve ideal authentication, does the solution use more
- key bits or expand the message ?  Can we show the solution to be
+ if we can achieve ideal authentication, does the solution use more
+ key bits or expand the message ?  can we show the solution to be
  optimal in one or more parameters ?
  
- Does anyone know if these questions have been aswered before ?
+ does anyone know if these questions have been aswered before ?
  
  olson@umbc.edu
  

@@ -1,26 +1,26 @@
 
- Hans Bos (hans@xelion.nl) wrote:
- : I have the following problem on X11R5 servers.
+ hans bos (hans@xelion.nl) wrote:
+ : i have the following problem on x11r5 servers.
  : 
- : When a window of my is obscured by a pop up window which has
- : the Save Under attribute set, the subwindows of my window are not restored.
- : Normally, the subwindows are redrawn when the parent window gets an expose
+ : when a window of my is obscured by a pop up window which has
+ : the save under attribute set, the subwindows of my window are not restored.
+ : normally, the subwindows are redrawn when the parent window gets an expose
  : event, but because the save under attribute is used for the pop up window
  : that obscured my window, no expose event is sent.
  
- We had the same problem and on most of our machines it works if we use
- Backing Store instead of Save under.
+ we had the same problem and on most of our machines it works if we use
+ backing store instead of save under.
  
- Marcus
+ marcus
  
  *****************************************************************
- *    Marcus Schnell                         marcus@iiasa.ac.at  *
- *    International Institute for Applied Systems Analysis IIASA *
- *    A-2361 Laxenburg AUSTRIA                                   *
- *    Phone   : (+43 2236) 715 21 *487                           *
- *    FAX     : (+43 2236) 731 48                                *
- *    Vice-Commissioner of the Australian Rules Internet         *
- *      Football League (ARIFL) 1992, 1993, ...                  *
+ *    marcus schnell                         marcus@iiasa.ac.at  *
+ *    international institute for applied systems analysis iiasa *
+ *    a-2361 laxenburg austria                                   *
+ *    phone   : (+43 2236) 715 21 *487                           *
+ *    fax     : (+43 2236) 731 48                                *
+ *    vice-commissioner of the australian rules internet         *
+ *      football league (arifl) 1992, 1993, ...                  *
  *****************************************************************
  
  

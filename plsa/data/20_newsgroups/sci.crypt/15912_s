@@ -1,14 +1,14 @@
 
- 	From: pmetzger@snark.shearson.com (Perry E. Metzger)
+ 	from: pmetzger@snark.shearson.com (perry e. metzger)
  
- 	You obviously haven't read the information about the system. The chips
+ 	you obviously haven't read the information about the system. the chips
  	put out serial number infomation into the cypher stream to allow
- 	themselves to be identified. The system does not rely on registering
+ 	themselves to be identified. the system does not rely on registering
  	people as owning particular phone units.
  
- And probably as a back door to allow re-generation of the secret key.
+ and probably as a back door to allow re-generation of the secret key.
  
- Have we determined yet that S1 and S2 don't ever change?
+ have we determined yet that s1 and s2 don't ever change?
  
- G
+ g
  

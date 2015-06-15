@@ -1,23 +1,23 @@
 
  
- Okay, I'm trying to install NCSA telnet on a couple (okay, a whole bunch)
- of machines.  They're all true blue IBMs with either Fallon Phonenet cards
- or Dastar cards.  (I belive those names are correct.)  Well, the docs for
- telnet say that it'll run over an AppleTalk driver, but I've had little
+ okay, i'm trying to install ncsa telnet on a couple (okay, a whole bunch)
+ of machines.  they're all true blue ibms with either fallon phonenet cards
+ or dastar cards.  (i belive those names are correct.)  well, the docs for
+ telnet say that it'll run over an appletalk driver, but i've had little
  success.
  
- If anyone has succesfully installed Telnet w/ AppleTalk, I'd like some
- help with the config file for Telnet...
+ if anyone has succesfully installed telnet w/ appletalk, i'd like some
+ help with the config file for telnet...
  
- BTW, please reply via E-mail if possible...
+ btw, please reply via e-mail if possible...
  
- Thanks,
+ thanks,
  
- Jeremy
+ jeremy
  
  -- 
- Jeremy Zawodny | Computer Science Undergrad | Bowling Green State University
+ jeremy zawodny | computer science undergrad | bowling green state university
  ------------------------------------------------------------------------------
- jzawodn@andy.bgsu.edu | Student Computer Consultant | *thrilled* OS/2 2.0 user
+ jzawodn@andy.bgsu.edu | student computer consultant | *thrilled* os/2 2.0 user
  
  

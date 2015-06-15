@@ -1,13 +1,13 @@
 
  
  
- > I want to do the equivalent of an "xwininfo -name" via a call or set of calls
- > in Xlib.  I need to map a windows name to its id.
- > It's probably easy, but I've only been programming in X for a little while.
+ > i want to do the equivalent of an "xwininfo -name" via a call or set of calls
+ > in xlib.  i need to map a windows name to its id.
+ > it's probably easy, but i've only been programming in x for a little while.
  
- Do you have the X source code?  Simply look in mit/clients/xwininfo/xwininfo.c and you
+ do you have the x source code?  simply look in mit/clients/xwininfo/xwininfo.c and you
  will find out exactly how to do it.  :-)
  
- Adrian Nye
- O'Reilly and Associates.
+ adrian nye
+ o'reilly and associates.
  

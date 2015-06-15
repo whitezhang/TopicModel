@@ -1,24 +1,24 @@
 
- mancus@sweetpea.jsc.nasa.gov (Keith Mancus) writes:
+ mancus@sweetpea.jsc.nasa.gov (keith mancus) writes:
  
- > <reference to running ATI's Install Program and using
+ > <reference to running ati's install program and using
  >  its functions to position/size images at various
  >  resolutions>
  
- I thought this was a neat feature until I noticed that
+ i thought this was a neat feature until i noticed that
  when an image is re-sized, the scanning frequency is
- necessarily changed.  This causes digital multiscan
- monitors like my MAG MX17F to get confused as to which
+ necessarily changed.  this causes digital multiscan
+ monitors like my mag mx17f to get confused as to which
  mode to use if the frequency gets too far from the
- standard selections.  For this reason, I use the
- "factory defaults" for position/size on the ATI card
+ standard selections.  for this reason, i use the
+ "factory defaults" for position/size on the ati card
  and adjust each mode individually (only the first time)
- at the monitor.  The MAG (and many other multiscan
+ at the monitor.  the mag (and many other multiscan
  monitors) has (have) the ability to recall these settings
  the next time each mode is "detected".
  -- 
  
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
  
-   Edward McClanahan                    edm@wrs.com
+   edward mcclanahan                    edm@wrs.com
  

@@ -1,32 +1,32 @@
 
- Flint.Waters@uwyo.edu (Flint Waters) writes:
+ flint.waters@uwyo.edu (flint waters) writes:
  
  
- >>Now does anyone know if it is possible to use W4WG and Lan Workplace
- >>for DOS at the same time. 
+ >>now does anyone know if it is possible to use w4wg and lan workplace
+ >>for dos at the same time. 
  
- >Yup.  We're using both and they work just fine.  Hopefully, someday WFWG
- >will communicate over LWP TCPIP.  Right now we have to load NetBeui.
+ >yup.  we're using both and they work just fine.  hopefully, someday wfwg
+ >will communicate over lwp tcpip.  right now we have to load netbeui.
  
- >I use ODI with ODINSUP and all works well.
+ >i use odi with odinsup and all works well.
  
- Hey, sounds great. Does that mean that W4WG works with ODI? I thought it   
- uses NDIS.                                                                 
+ hey, sounds great. does that mean that w4wg works with odi? i thought it   
+ uses ndis.                                                                 
                                                                             
- My problem is that Lan Workplace with all its drivers uses up most of my   
- UMBs, so I'd hate to have to load many more drivers to make W4WG work      
+ my problem is that lan workplace with all its drivers uses up most of my   
+ umbs, so i'd hate to have to load many more drivers to make w4wg work      
  along.                                                                      
                                                                              
- I read in a German computer magazine that TCP/IP support for W4WG is just   
- around the corner. Anybody have any news about this?                        
+ i read in a german computer magazine that tcp/ip support for w4wg is just   
+ around the corner. anybody have any news about this?                        
                                                                              
- Regards, Richard                                                            
+ regards, richard                                                            
  
  -- 
  +----------------------------+-------------------------------------------+
- | Dr. Richard Spitz          | INTERNET: spitz@ana.med.uni-muenchen.de   |
- | EDV-Gruppe Anaesthesie     | Tel     : +49-89-7095-3421                |
- | Klinikum Grosshadern       | FAX     : +49-89-7095-8886                |
- | Munich, Germany            |                                           |
+ | dr. richard spitz          | internet: spitz@ana.med.uni-muenchen.de   |
+ | edv-gruppe anaesthesie     | tel     : +49-89-7095-3421                |
+ | klinikum grosshadern       | fax     : +49-89-7095-8886                |
+ | munich, germany            |                                           |
  +----------------------------+-------------------------------------------+
  

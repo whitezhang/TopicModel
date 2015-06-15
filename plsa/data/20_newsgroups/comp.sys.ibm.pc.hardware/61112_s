@@ -1,22 +1,22 @@
 
- In article <C5r4ur.D0r@ulowell.ulowell.edu> mcook@cs.ulowell.edu (Michael Cook) writes:
+ in article <c5r4ur.d0r@ulowell.ulowell.edu> mcook@cs.ulowell.edu (michael cook) writes:
  >
- >I just bought a Western Digital/Caviar 340MB IDE drive and I want to add it to
- >my system which already has a WD120 IDE drive.  The controller says it 
- >supports 2 hard drives, but when I plug in the cables, do the BIOS setup,
- >and try to start the system, it pauses and then I get an invalid drive D:
- >error message.  The system boots, but I cannot access the new hard drive.
+ >i just bought a western digital/caviar 340mb ide drive and i want to add it to
+ >my system which already has a wd120 ide drive.  the controller says it 
+ >supports 2 hard drives, but when i plug in the cables, do the bios setup,
+ >and try to start the system, it pauses and then i get an invalid drive d:
+ >error message.  the system boots, but i cannot access the new hard drive.
  >
- >The new drive works fine as drive C if it's all alone, but I am not able to 
+ >the new drive works fine as drive c if it's all alone, but i am not able to 
  >get both drives working at the same time.
  >
- >Any help is appreciated.
+ >any help is appreciated.
  >
- >Thanks,
- >Mike
+ >thanks,
+ >mike
  >
  
- You need to run FDISK.
+ you need to run fdisk.
  
- Eric.
+ eric.
  

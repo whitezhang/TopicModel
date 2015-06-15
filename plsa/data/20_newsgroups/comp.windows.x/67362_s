@@ -1,14 +1,14 @@
 
- I am in the process of modifying an X application that uses Xlib.  I'd
+ i am in the process of modifying an x application that uses xlib.  i'd
  like to include a timer-driven facility (for network polling), but cannot
- see how to do it using Xlib.  I know it can be done with Xaw, using
- XtAppAddTimeout and XtTimerCallBackProc.  How do I do the same using
- Xlib?
+ see how to do it using xlib.  i know it can be done with xaw, using
+ xtappaddtimeout and xttimercallbackproc.  how do i do the same using
+ xlib?
  
- Thanks for any help.  Please email.
+ thanks for any help.  please email.
  
  --
- Dave Wilson
- Computing Centre, Rhodes University
- Grahamstown, South Africa
+ dave wilson
+ computing centre, rhodes university
+ grahamstown, south africa
  

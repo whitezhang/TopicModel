@@ -1,35 +1,35 @@
 
  
- In article <1993Apr21.061246.11363@ucc.su.OZ.AU>, montuno@physics.su.OZ.AU (Lino Montuno) writes:
- > This may be a very naive question but is there any basis for the
- > claim that a CPU will get hotter when a computationally intensive 
- > job is running? My friend claims that there will be little difference
- > in the temperature of an idle CPU and a CPU running a computationally
+ in article <1993apr21.061246.11363@ucc.su.oz.au>, montuno@physics.su.oz.au (lino montuno) writes:
+ > this may be a very naive question but is there any basis for the
+ > claim that a cpu will get hotter when a computationally intensive 
+ > job is running? my friend claims that there will be little difference
+ > in the temperature of an idle cpu and a cpu running a computationally
  > intensive job.
  
- It first depends on what an idle cpu is doing!
+ it first depends on what an idle cpu is doing!
  
- I'm not sure about DOS, but many multitasking OSs have an loop like this
+ i'm not sure about dos, but many multitasking oss have an loop like this
  
  
  loop:
  	is there anything to do?
- 		YES -> do it; goto loop
- 		NO  -> goto loop
+ 		yes -> do it; goto loop
+ 		no  -> goto loop
  
  
- The CPU is not doing any work but it is still processing instructions...
+ the cpu is not doing any work but it is still processing instructions...
  
- It will also respond to interupts...
+ it will also respond to interupts...
  
  > 
  > 
- > Lino Montuno
+ > lino montuno
  
- Guy
+ guy
  -- 
  -- -----------------------------------------------------------------------------
- Guy Dawson - Hoskyns Group Plc.
-         guyd@hoskyns.co.uk  Tel Hoskyns UK     -  71 251 2128
-         guyd@austin.ibm.com Tel IBM Austin USA - 512 838 3377
+ guy dawson - hoskyns group plc.
+         guyd@hoskyns.co.uk  tel hoskyns uk     -  71 251 2128
+         guyd@austin.ibm.com tel ibm austin usa - 512 838 3377
  

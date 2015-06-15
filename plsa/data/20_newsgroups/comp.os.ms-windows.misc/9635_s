@@ -1,42 +1,42 @@
 
- In article <1993Apr19.154349.10382@cfmu.eurocontrol.be>, rajiev@cfmu.eurocontrol.be (Rajiev Gupta) writes...
- >In article <C562Cq.FC7@ms.uky.edu> shan@ms.uky.edu (Minghua SHAN) writes:
+ in article <1993apr19.154349.10382@cfmu.eurocontrol.be>, rajiev@cfmu.eurocontrol.be (rajiev gupta) writes...
+ >in article <c562cq.fc7@ms.uky.edu> shan@ms.uky.edu (minghua shan) writes:
  >>
     ...stuff deleted
  >>
- >>1. Does Windows NT run on Sun Sparc Server 490?
- >>2. If the answer to question 1 is yes, does it run unix applications
- >>   (such as SAS for unix).
- >>3. Is Windows NT a multiuser OS?
- >>4. When will Windows NT be released?
- >>5. Is there any telephone number that I can call and get more
- >>   info on Win NT?
+ >>1. does windows nt run on sun sparc server 490?
+ >>2. if the answer to question 1 is yes, does it run unix applications
+ >>   (such as sas for unix).
+ >>3. is windows nt a multiuser os?
+ >>4. when will windows nt be released?
+ >>5. is there any telephone number that i can call and get more
+ >>   info on win nt?
  >>
- >>Thank you.
+ >>thank you.
  >>
- >>Minghua Shan
+ >>minghua shan
  > 
- >As far as I have read WIN NT will be supported on Intel, DEC ALPHA and the MIPS R4000
- >series of processors only. I do remember though reading a rumour about Sparc support
- >sometime in the future. I am not sure what you mean by running "unix applications".
- >You would have to have SAS for WIN NT (or maybe SAS for WIN16 etc). I have read 
- >that MS will anounce avalaibility of WIN NT by end of May 93 (Comdex Spring). Hope
+ >as far as i have read win nt will be supported on intel, dec alpha and the mips r4000
+ >series of processors only. i do remember though reading a rumour about sparc support
+ >sometime in the future. i am not sure what you mean by running "unix applications".
+ >you would have to have sas for win nt (or maybe sas for win16 etc). i have read 
+ >that ms will anounce avalaibility of win nt by end of may 93 (comdex spring). hope
  >this helps.
  > 
- >Rajiev Gupta
+ >rajiev gupta
  > 
  >-- 
- >Rajiev GUPTA			Eurocontrol - CFMU	Disclaimer:
- >rajiev@cfmu.eurocontrol.be	Rue de la Loi 72	These are *my* views,
- >Tel: +32 2 729 33 12            B-1040 BRUXELLES	not my companies.
- >Fax: +32 2 729 32 16            Belgium
+ >rajiev gupta			eurocontrol - cfmu	disclaimer:
+ >rajiev@cfmu.eurocontrol.be	rue de la loi 72	these are *my* views,
+ >tel: +32 2 729 33 12            b-1040 bruxelles	not my companies.
+ >fax: +32 2 729 32 16            belgium
  
  
- According to the April issue of PC Magazine (pg. 139), and I quote,
+ according to the april issue of pc magazine (pg. 139), and i quote,
  
- "Eventually, Windows NT is likely to be ported to every successful RISC
- architecture.  PowerPC and HP's PA-RISC are the two most likely candidates,
- with SPARC somewhat less likely because of Sun's relatively strong UNIX
+ "eventually, windows nt is likely to be ported to every successful risc
+ architecture.  powerpc and hp's pa-risc are the two most likely candidates,
+ with sparc somewhat less likely because of sun's relatively strong unix
  software base."
  
  later

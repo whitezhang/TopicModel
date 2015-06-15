@@ -1,16 +1,16 @@
 
- I`ve been happy with aXe under Linux. Now I wanted to use it under HP-UX,
- too. However, my attempts have ended in core dumps this far (Bus Error).
+ i`ve been happy with axe under linux. now i wanted to use it under hp-ux,
+ too. however, my attempts have ended in core dumps this far (bus error).
  
- Has anybody else been more successful? Jim Wight`s INSTALL file does
- say there have been problems with HP`s...
+ has anybody else been more successful? jim wight`s install file does
+ say there have been problems with hp`s...
  
- Data: aXe 5.0; HP-UX 9.01; X11R4 or X11R5 doesn`t seem to matter (shared
- libs); HP 9000/720.
+ data: axe 5.0; hp-ux 9.01; x11r4 or x11r5 doesn`t seem to matter (shared
+ libs); hp 9000/720.
  
- Thanks in advance,
+ thanks in advance,
  
  -- 
- Sakari Aaltonen            | Linux is an ftp-able Unix clone for 386/486 PC's.
- sakaria@vipunen.hut.fi     | Boggles *my* mind, it does.
+ sakari aaltonen            | linux is an ftp-able unix clone for 386/486 pc's.
+ sakaria@vipunen.hut.fi     | boggles *my* mind, it does.
  

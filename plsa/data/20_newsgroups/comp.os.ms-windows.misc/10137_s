@@ -1,28 +1,28 @@
 
- In article <1993Apr30.211839.21296@leland.Stanford.EDU> kocks@chemistry.Stanford.EDU (Peter Kocks) writes:
+ in article <1993apr30.211839.21296@leland.stanford.edu> kocks@chemistry.stanford.edu (peter kocks) writes:
  
- >I'm looking for a good terminal program that will connect to
- >TCP/IP using windows. Some basic MS-Window that is connect to
+ >i'm looking for a good terminal program that will connect to
+ >tcp/ip using windows. some basic ms-window that is connect to
  >a unix host would be great.
  
- >Any suggestions?
+ >any suggestions?
  
- Take a look at WinQVT/net -- the latest version is QVT/net 3.4
- It comes in versions that are direct to packet driver, as well as a PC NFS 
+ take a look at winqvt/net -- the latest version is qvt/net 3.4
+ it comes in versions that are direct to packet driver, as well as a pc nfs 
  version.
  
- It is priced quite low; registration = $40, student registration = $20, and is 
- a nice package -- comes complete with VT220 terminal emulation, FTP, POP3 
- client, LPR, and NNTP client.
+ it is priced quite low; registration = $40, student registration = $20, and is 
+ a nice package -- comes complete with vt220 terminal emulation, ftp, pop3 
+ client, lpr, and nntp client.
  
- You can FTP it from "biochemistry.bioc.cwru.edu" /pub/qvtnet/qvtnet34.zip
+ you can ftp it from "biochemistry.bioc.cwru.edu" /pub/qvtnet/qvtnet34.zip
  
- It was also uploaded to ftp.cica.indiana.edu recently.
+ it was also uploaded to ftp.cica.indiana.edu recently.
  
- Ashok
+ ashok
  
  --
- Ashok Aiyar                        Mail: ashok@biochemistry.cwru.edu
- Department of Biochemistry                       Tel: (216) 368-3300
- CWRU School of Medicine, Cleveland, Ohio         Fax: (216) 368-4544
+ ashok aiyar                        mail: ashok@biochemistry.cwru.edu
+ department of biochemistry                       tel: (216) 368-3300
+ cwru school of medicine, cleveland, ohio         fax: (216) 368-4544
  

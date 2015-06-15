@@ -1,22 +1,22 @@
 
- hubec@ctp.com (Hubert Chou) writes:
+ hubec@ctp.com (hubert chou) writes:
  
- >Does anyone have any good ideas on how to integrate C++ code elegantly
- >with TeleUse, UIM/X / Interface Architect generated code?
+ >does anyone have any good ideas on how to integrate c++ code elegantly
+ >with teleuse, uim/x / interface architect generated code?
  
- >Source would be great, but any suggestions are welcome.
+ >source would be great, but any suggestions are welcome.
  
  
- Alsys has produced a paper outlining how to use C++ with TeleUSE.  You can
+ alsys has produced a paper outlining how to use c++ with teleuse.  you can
  get a copy from your local sales rep or call us at (619)457-2700.
  
- As mentioned, it is very straight forward using the Dialog language
- (similar to Visual Basic).
+ as mentioned, it is very straight forward using the dialog language
+ (similar to visual basic).
  
  
  -- 
  ---------------------------------------------------------------------------
- Tom Erickson					Alsys
- tne@world.std.com				67 South Bedford Street
- 						Burlington, MA 01803
+ tom erickson					alsys
+ tne@world.std.com				67 south bedford street
+ 						burlington, ma 01803
  

@@ -1,36 +1,36 @@
 
- In <1993Apr22.001940.12709@d-and-d.com> dnichols@d-and-d.com (DoN. Nichols) writes:
+ in <1993apr22.001940.12709@d-and-d.com> dnichols@d-and-d.com (don. nichols) writes:
  
- >In article <79954@cup.portal.com> thad@cup.portal.com (Thad P Floryan) writes:
- >>In article <colinm.735327894@cunews>
- >>colinm@max.carleton.ca (Colin McFadyen) writes:
+ >in article <79954@cup.portal.com> thad@cup.portal.com (thad p floryan) writes:
+ >>in article <colinm.735327894@cunews>
+ >>colinm@max.carleton.ca (colin mcfadyen) writes:
  >>
- >>|  Does anyone know what the jumpers should be set to on the Maxtor 2190??
- >>|  I have a 2190 that came off of a VS2000 that I would like to use on a PC.
+ >>|  does anyone know what the jumpers should be set to on the maxtor 2190??
+ >>|  i have a 2190 that came off of a vs2000 that i would like to use on a pc.
  >>
- >	[ ... Useful info about the Maxtor drive deleted ... ]
+ >	[ ... useful info about the maxtor drive deleted ... ]
  
- >>Since the 3B1 "normally" has only one HD, you would jumper betwwwn "C1" to
+ >>since the 3b1 "normally" has only one hd, you would jumper betwwwn "c1" to
  >>select the first (possible) drive address; if the 2190 is your second drive
- >>on the 3B1, then jumper between "2C".
+ >>on the 3b1, then jumper between "2c".
  
- >	However, Thad, you should note that he said that he would like to
- >use it on a 'PC', not 'UNIX-PC'.  Also note the strange cross-posting (as he
+ >	however, thad, you should note that he said that he would like to
+ >use it on a 'pc', not 'unix-pc'.  also note the strange cross-posting (as he
  >probably did not), so it is not sure exactly what sort of machine he intends
- >to mount it on.  If it *is* a PC (or clone), then the "2C" jumper would be
+ >to mount it on.  if it *is* a pc (or clone), then the "2c" jumper would be
  >the correct choice.
  
- >	I've left the cross-posting in effect, since I'm not sure which
+ >	i've left the cross-posting in effect, since i'm not sure which
  >newsgroup he would really be reading this in. :-)
  
  
-   Sorry for any confusion I may have created.  The disk did come out of
- a VS2000 and I would like to use it in a IBM PC clone.  The reason that I
- posted to comp.sys.3b1 was because I saw the drive (XT2190) mentioned
- in a for-slae notice.  I had asked for info before but didn't receive
+   sorry for any confusion i may have created.  the disk did come out of
+ a vs2000 and i would like to use it in a ibm pc clone.  the reason that i
+ posted to comp.sys.3b1 was because i saw the drive (xt2190) mentioned
+ in a for-slae notice.  i had asked for info before but didn't receive
  any replies.
  
-   Thanks once again for the help.
+   thanks once again for the help.
  
- Colin.
+ colin.
  

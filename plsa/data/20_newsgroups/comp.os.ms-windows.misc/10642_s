@@ -1,32 +1,32 @@
 
- I am trying to define my own class derived from the Object class so
- that I may insert them into a HashTable (a class provided by the
- Container class library).
+ i am trying to define my own class derived from the object class so
+ that i may insert them into a hashtable (a class provided by the
+ container class library).
  
- I have defined all of the pure virtual functions of Object, but I
- still get an error when I attempt to allocate a HashEntry object:
+ i have defined all of the pure virtual functions of object, but i
+ still get an error when i attempt to allocate a hashentry object:
  
-   Cannot create instance of abstract class HashEntry
+   cannot create instance of abstract class hashentry
  
- Has anyone derived from class Object before?  What have I left out?
- Here are the virtual functions that I defined from Object:
+ has anyone derived from class object before?  what have i left out?
+ here are the virtual functions that i defined from object:
  
- virtual classType      isA()   const { return hashEntryClass; }
- virtual Pchar          nameOf()const { return "HashEntry"; }
+ virtual classtype      isa()   const { return hashentryclass; }
+ virtual pchar          nameof()const { return "hashentry"; }
  
- virtual hashValueType hashValue() const { return hashValue(hWindow); }
- // Note: hWindow is defined in HashEntry
+ virtual hashvaluetype hashvalue() const { return hashvalue(hwindow); }
+ // note: hwindow is defined in hashentry
  
- virtual int            isEqual (const Object _FAR &obj) const
- { return this == &(HashEntry&) obj; }
+ virtual int            isequal (const object _far &obj) const
+ { return this == &(hashentry&) obj; }
  
- virtual void           printOn( Rostream os) const
+ virtual void           printon( rostream os) const
  {
-  os << "[ HWindow is " << (void _FAR *) hWindow << " ]\n"; 
+  os << "[ hwindow is " << (void _far *) hwindow << " ]\n"; 
  }
  --
  --------------------------------------------------------------------
- - Bowden Wise
-   Computer Science Dept, Rensselaer Polytechnic Inst, Troy, NY 12180
+ - bowden wise
+   computer science dept, rensselaer polytechnic inst, troy, ny 12180
    internet: wiseb@cs.rpi.edu
  

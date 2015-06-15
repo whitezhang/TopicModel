@@ -1,45 +1,45 @@
 
  
- We have a program written with X11R5 and Motif 1.2.1.  It runs fine on the Sun
- X11R5 server and MacX.  When that program is run under the Sparc 2 and the
- OW server, the program crashed itself along with the server.  It crashed before
+ we have a program written with x11r5 and motif 1.2.1.  it runs fine on the sun
+ x11r5 server and macx.  when that program is run under the sparc 2 and the
+ ow server, the program crashed itself along with the server.  it crashed before
  the first window had showed up.
  
- I got the following error from X.
- XIO:  fatal IO error 32 (Broken pipe) on X server "perot:0.0"
+ i got the following error from x.
+ xio:  fatal io error 32 (broken pipe) on x server "perot:0.0"
        after 62 requests (59 known processed) with 0 events remaining.
-       The connection was probably broken by a server shutdown or KillClient.
+       the connection was probably broken by a server shutdown or killclient.
  
- I have run the program with xmon and below is the last twenty lines or so from
+ i have run the program with xmon and below is the last twenty lines or so from
  xmon before both the program and server crashed.
  
-            ............REQUEST: GetProperty
-                         delete: False
-                         window: WIN 00900001
-                       property: ATM 00000074
-                           type: ATM 00000074
+            ............request: getproperty
+                         delete: false
+                         window: win 00900001
+                       property: atm 00000074
+                           type: atm 00000074
                     long-offset: 00000000
-                                         ..............REPLY: GetProperty
+                                         ..............reply: getproperty
                                                       format: 00
-                                                        type: <NONE>
+                                                        type: <none>
                                                  bytes-after: 00000000
-            ............REQUEST: GetInputFocus
-                                         ..............REPLY: GetInputFocus
-                                                   revert-to: Parent
-                                                       focus: WIN 0040000d
-            ............REQUEST: ChangeProperty
-                           mode: Replace
-                         window: WIN 00900001
-                       property: ATM 00000074
-                           type: ATM 00000074
+            ............request: getinputfocus
+                                         ..............reply: getinputfocus
+                                                   revert-to: parent
+                                                       focus: win 0040000d
+            ............request: changeproperty
+                           mode: replace
+                         window: win 00900001
+                       property: atm 00000074
+                           type: atm 00000074
                          format: 08
                            data: 42 00 00 01 00 00 00 10 00 00 00 75 00 00 00 00 
-            ............REQUEST: GetInputFocus
+            ............request: getinputfocus
  
- Please email to me if you have any idea of the above problem.
- Thanks in advance.
+ please email to me if you have any idea of the above problem.
+ thanks in advance.
  
  --
- MW Chiu
+ mw chiu
  mwchiu@tigr.org
  

@@ -1,34 +1,34 @@
 
- I have been using a HDS X-terminal, and really like it. What
- is really powerful is that it can run the X server without
- running a window manager. One can then run a special client
- X program called a window manager, either (1) run 
+ i have been using a hds x-terminal, and really like it. what
+ is really powerful is that it can run the x server without
+ running a window manager. one can then run a special client
+ x program called a window manager, either (1) run 
  motif or openlook from it's own firmware (limiting the network
- traffic - but having no HOME). or (2) run motif or openlook
+ traffic - but having no home). or (2) run motif or openlook
  from some home place (like a sparc, or vms).
  
- This is powerful, especially since I can exit one window manager
+ this is powerful, especially since i can exit one window manager
  (without killing windows) and then start up another manager.
- (Some of my VMS tools need special meta-mouse combos that work in
+ (some of my vms tools need special meta-mouse combos that work in
  one manager and not the other).
  
- Well the question is:
+ well the question is:
  
-   On a sparcstation running openlook, does anyone know how to
-   break apart olwm from the olwm_slave program? Basically I
+   on a sparcstation running openlook, does anyone know how to
+   break apart olwm from the olwm_slave program? basically i
    want to run only the server, and go somewhere else to run
    the window manager.
  
  ---
- Please respond my e-mail (as well as posting) because of the
- large volumes in window.X)
+ please respond my e-mail (as well as posting) because of the
+ large volumes in window.x)
  
- Thanks.
+ thanks.
  
  
  
  -- 
- Scott Moody   (206) 773-4313   "There are no answers .. just cross references"
+ scott moody   (206) 773-4313   "there are no answers .. just cross references"
       scott@shuksan.boeing.com  
       uunet!bcstec!shuksan!scott
  

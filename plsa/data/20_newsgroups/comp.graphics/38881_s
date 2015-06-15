@@ -1,24 +1,24 @@
 
- In article <1rkjm5$i2q@bigboote.WPI.EDU> rtaraz@bigwpi.WPI.EDU (Ramin Taraz) writes:
- >Could somebody please _email_ me some info on either what gif or iff
- >file formats are, or where I can get such info?
+ in article <1rkjm5$i2q@bigboote.wpi.edu> rtaraz@bigwpi.wpi.edu (ramin taraz) writes:
+ >could somebody please _email_ me some info on either what gif or iff
+ >file formats are, or where i can get such info?
  
- Well, GIF stands for Graphics Interchange Format and was put forth by
- Compuserve back in 1987(?) or so.  It was to create a format that could be
- read and displayed by any system.  GIF is limited to 8 bit color but has
- a built in compression scheme (LZW?).
+ well, gif stands for graphics interchange format and was put forth by
+ compuserve back in 1987(?) or so.  it was to create a format that could be
+ read and displayed by any system.  gif is limited to 8 bit color but has
+ a built in compression scheme (lzw?).
  
- IFF is not really a graphics format, but rather a standard way to package
- images, sounds, animations, text, or whatever into one file.  IFF was
- created by Electronic Arts, I do believe (I could be wrong), for the Amiga.
- It was quickly adopted as pretty much the standard file format for the Amiga.
- The most common image format for the IFF package is an ILBM (InterLeaved
- BitMap?) but many others exist.  This format supports 24 bit color images.
+ iff is not really a graphics format, but rather a standard way to package
+ images, sounds, animations, text, or whatever into one file.  iff was
+ created by electronic arts, i do believe (i could be wrong), for the amiga.
+ it was quickly adopted as pretty much the standard file format for the amiga.
+ the most common image format for the iff package is an ilbm (interleaved
+ bitmap?) but many others exist.  this format supports 24 bit color images.
  
- Information on both of these and many more are available via anonymous ftp at
+ information on both of these and many more are available via anonymous ftp at
  zamenhof.cs.rice.edu in the directory /pub/graphics.formats
- (Taken from the FAQ for this news group.)  :)
+ (taken from the faq for this news group.)  :)
  
- Wayne Rigby
+ wayne rigby
  rigby@cs.unr.edu
  

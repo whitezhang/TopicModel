@@ -1,15 +1,15 @@
 
  
- Hi!  I will like to know if there is a FORTRAN library for MS-Windows v3+ out
+ hi!  i will like to know if there is a fortran library for ms-windows v3+ out
  there.
  
- I have several lots of source code written by past A/Ps in MS-FORTRAN, and
- recently have needed to port them to MS-Windows... I would like to avoid a
- major code-rewrite if possible - maybe a WINDOWS library is all I need?
+ i have several lots of source code written by past a/ps in ms-fortran, and
+ recently have needed to port them to ms-windows... i would like to avoid a
+ major code-rewrite if possible - maybe a windows library is all i need?
  
- Please help - reply by E-mail to:  traversmorgan@swell.actrix.gen.nz
+ please help - reply by e-mail to:  traversmorgan@swell.actrix.gen.nz
  -- 
- Guan Lye Chua                                                              
- c/- Travers Morgan (NZ) Ltd, P O Box 11-525, Wellington, NZ.               
- Tel.: +64 4 471 0303   Fax.: +64 4 471 0353 
+ guan lye chua                                                              
+ c/- travers morgan (nz) ltd, p o box 11-525, wellington, nz.               
+ tel.: +64 4 471 0303   fax.: +64 4 471 0353 
  

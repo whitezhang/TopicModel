@@ -1,16 +1,16 @@
 
- I am writing a custom widget to support the display of graphics
- and imagery.  The user of the widget will be able to specify,
- when creating it, whether it is to operate in X or GL mode.
+ i am writing a custom widget to support the display of graphics
+ and imagery.  the user of the widget will be able to specify,
+ when creating it, whether it is to operate in x or gl mode.
  
- I have set up translations and actions to handle mouse button
- presses.  They work fine when the widget is in X mode.  In GL 
- mode they only work when the widget (my GL/X widget) is a child
- of a manager.  Put another way, the translations do not work 
- when the widget is configured in GL mode and is a child of a 
- shell.  Does anyone know why this is happening?
+ i have set up translations and actions to handle mouse button
+ presses.  they work fine when the widget is in x mode.  in gl 
+ mode they only work when the widget (my gl/x widget) is a child
+ of a manager.  put another way, the translations do not work 
+ when the widget is configured in gl mode and is a child of a 
+ shell.  does anyone know why this is happening?
  
- Thanks in advance.
- Bruce Gendler
+ thanks in advance.
+ bruce gendler
  bgendler@csc.com
  

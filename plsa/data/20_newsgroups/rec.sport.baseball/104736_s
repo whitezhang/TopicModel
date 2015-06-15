@@ -1,80 +1,80 @@
 
- In article <1qvdrnINNd9f@gap.caltech.edu> shippert@cco.caltech.edu (Tim Shippert) writes:
- >	The reason I bothered doing this DR stuff was to see if I could
- >determine the answer to the age-old question: "Is Jeff Blauser more
- >valuable than Rafael Belliard".
+ in article <1qvdrninnd9f@gap.caltech.edu> shippert@cco.caltech.edu (tim shippert) writes:
+ >	the reason i bothered doing this dr stuff was to see if i could
+ >determine the answer to the age-old question: "is jeff blauser more
+ >valuable than rafael belliard".
  
- Well, it looks like, just as Doug trumped Tim, beating him to the net
- with his defensive analyses, so Tim has gotten in ahead of me.
+ well, it looks like, just as doug trumped tim, beating him to the net
+ with his defensive analyses, so tim has gotten in ahead of me.
  
- The way I was doing it was a little different. Being me, of course, I
+ the way i was doing it was a little different. being me, of course, i
  used equivalent averages to work out how many runs a player was worth,
- and I calculated both rate of performance (fielding equivalent
- average) and total performance (fielding equivalent runs). But I
+ and i calculated both rate of performance (fielding equivalent
+ average) and total performance (fielding equivalent runs). but i
  compared, not to the average player, but the replacement player, and
  here's why: because the positional adjustment comes built in to the
- system. In the AL of 1992, the average SS is 32.9 runs above
- replacement (RAR); cf, 31.6; 2B, 28.8; 3B, 26.3; LF, 26.0; RF, 24.6;
- 1B, 16.9. We may quibble with the exact numbers, but the order looks
+ system. in the al of 1992, the average ss is 32.9 runs above
+ replacement (rar); cf, 31.6; 2b, 28.8; 3b, 26.3; lf, 26.0; rf, 24.6;
+ 1b, 16.9. we may quibble with the exact numbers, but the order looks
  substantially right.
  
- In the equivalent average, I have always set league average to .235. I
+ in the equivalent average, i have always set league average to .235. i
  had decided in hitting that the replacement level batter has an eqa of
  .180; the name of that replacement level hitter, often as not, is
- "Billy Ripken". I decided to let the replacement level fielder be the
- same distance from .235 as .180, but in the opposite direction as I
- have set it up; that makes for an eqa of .280. (Yes, I can add. Runs
+ "billy ripken". i decided to let the replacement level fielder be the
+ same distance from .235 as .180, but in the opposite direction as i
+ have set it up; that makes for an eqa of .280. (yes, i can add. runs
  are proportional to eqa squared; the difference between 180 squared
- and 235 squared equals the difference to 279 squared, and I rounded
- off for simplicity). An all-replacement fielding team would have:
- Randy Milligan at first (.282), Willie Randolph (.269) at second, Leo
- Gomez (.279) at third, Walt Weiss (.269) at short, Kevin Bass (.271)
- in left, HoJo (.257) in center, and Eric Anthony (.277) in right. Ugh.
+ and 235 squared equals the difference to 279 squared, and i rounded
+ off for simplicity). an all-replacement fielding team would have:
+ randy milligan at first (.282), willie randolph (.269) at second, leo
+ gomez (.279) at third, walt weiss (.269) at short, kevin bass (.271)
+ in left, hojo (.257) in center, and eric anthony (.277) in right. ugh.
  
- So, the total number of RAR for a player is the sum of his batting and
- fielding RAR. I can rate them by total RAR, or RAR per some number of
- batting outs, like 400. An average player has a total RAR of about 55,
+ so, the total number of rar for a player is the sum of his batting and
+ fielding rar. i can rate them by total rar, or rar per some number of
+ batting outs, like 400. an average player has a total rar of about 55,
  30 batting, 25 fielding.
  
- Total RAR (bat/field)
+ total rar (bat/field)
  
- 1. Bonds      152 (124/28)  Ventura    124 (66/58)
- 2. Sandberg   143 (88/55)   Thomas     122 (110/12)
- 3. Van Slyke  122 (91/31)   Anderson   109 (75/34)
- 4. Grace      114 (70/44)   Raines     100 (68/32)
- 5. Lankford   111 (76/35)   Puckett     98 (76/22)
- 6. Pendleton  108 (71/37)   Alomar      98 (75/23)
- 7. Finley     104 (70/34)   Martinez E  97 (81/16)
- 8. Bagwell    101 (73/28)   Mack        93 (70/23)
- 9. Butler      96 (74/22)   McGwire     93 (79/14)
- 10 Sheffield   96 (85/11)   Griffey     92 (70/22)
- 11 Larkin      96 (65/31)   Devereaux   89 (56/34)
- 12 Grissom     95 (57/38)   Henderson   88 (66/23)
- 13 Walker      94 (61/33)   Listach     87 (50/37)
- 14 Justice     92 (52/40)   Lofton      85 (46/39)
- 15 W. Clark    91 (73/18)   Baerga      83 (55/28)
- 16 Kruk        82 (78/ 4)   D. White    79 (39/40)
- 17 O. Smith    80 (46/34)   Palmeiro    76 (54/22)
- 18 Gwynn       80 (47/33)   Sierra      76 (52/24)
- 19 Hollins     80 (68/12)   Carter      73 (57/17)
- 20 J. Bell     79 (42/37)   Gonzalez    73 (60/13)
+ 1. bonds      152 (124/28)  ventura    124 (66/58)
+ 2. sandberg   143 (88/55)   thomas     122 (110/12)
+ 3. van slyke  122 (91/31)   anderson   109 (75/34)
+ 4. grace      114 (70/44)   raines     100 (68/32)
+ 5. lankford   111 (76/35)   puckett     98 (76/22)
+ 6. pendleton  108 (71/37)   alomar      98 (75/23)
+ 7. finley     104 (70/34)   martinez e  97 (81/16)
+ 8. bagwell    101 (73/28)   mack        93 (70/23)
+ 9. butler      96 (74/22)   mcgwire     93 (79/14)
+ 10 sheffield   96 (85/11)   griffey     92 (70/22)
+ 11 larkin      96 (65/31)   devereaux   89 (56/34)
+ 12 grissom     95 (57/38)   henderson   88 (66/23)
+ 13 walker      94 (61/33)   listach     87 (50/37)
+ 14 justice     92 (52/40)   lofton      85 (46/39)
+ 15 w. clark    91 (73/18)   baerga      83 (55/28)
+ 16 kruk        82 (78/ 4)   d. white    79 (39/40)
+ 17 o. smith    80 (46/34)   palmeiro    76 (54/22)
+ 18 gwynn       80 (47/33)   sierra      76 (52/24)
+ 19 hollins     80 (68/12)   carter      73 (57/17)
+ 20 j. bell     79 (42/37)   gonzalez    73 (60/13)
  
- Notable entries in a per-400 batting out rating, NL: top 7 are Bonds,
- 177, LF; Sandberg, 130, 2b; Van Slyke, 114, cf; Grace, 107, 1b;
- Larkin, 102, ss; Justice, 99, rf; Sheffield, 99, 3B. One at each
- position measured! McGriff, despite +85 batting RAR, fifth in league,
- finishes out of the top 20 due to a -13 in fielding. Last by position: 
- Galarraga 39, Stillwell -10, Hansen 30, Belliard 30 (Blauser gad a 69,
- 3rd in league), May 43, Dascenzo 34, Anthony 38.
+ notable entries in a per-400 batting out rating, nl: top 7 are bonds,
+ 177, lf; sandberg, 130, 2b; van slyke, 114, cf; grace, 107, 1b;
+ larkin, 102, ss; justice, 99, rf; sheffield, 99, 3b. one at each
+ position measured! mcgriff, despite +85 batting rar, fifth in league,
+ finishes out of the top 20 due to a -13 in fielding. last by position: 
+ galarraga 39, stillwell -10, hansen 30, belliard 30 (blauser gad a 69,
+ 3rd in league), may 43, dascenzo 34, anthony 38.
  
- In the AL, much-maligned Rickey Henderson was worth 120, second only
- to Frank Thomas' 124; Ventura edges Edgar at third, 116-111; Grebeck
- rates a potent 102!; Griffey edges Puckett as top CF, 93-90; Listach
- nudges out Lofton among rookies, 82-80. And Alomar clearly outpoints
- Baerga, 97-73. Last by position: Segui 10, Sojo 29, Palmer 22, Lewis
- 31, Polonia 40, Cuyler 26, V. Hayes 39.
+ in the al, much-maligned rickey henderson was worth 120, second only
+ to frank thomas' 124; ventura edges edgar at third, 116-111; grebeck
+ rates a potent 102!; griffey edges puckett as top cf, 93-90; listach
+ nudges out lofton among rookies, 82-80. and alomar clearly outpoints
+ baerga, 97-73. last by position: segui 10, sojo 29, palmer 22, lewis
+ 31, polonia 40, cuyler 26, v. hayes 39.
  
- All for now.
+ all for now.
  
- Clay D.
+ clay d.
  

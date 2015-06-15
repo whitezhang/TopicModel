@@ -1,65 +1,65 @@
 
- A few days ago I posted a question about trying to call a function which set
- up an X app multiple times.  It was pointed out that XtAppInitialize() should
- never be called more than once.  This helped.  However, I am still having
- some problems.  Below is a new little test program that more closely models
- my real program.  In the actual program, I am writing a library, callable
- from any other program.  This means that the first time the lib function is
+ a few days ago i posted a question about trying to call a function which set
+ up an x app multiple times.  it was pointed out that xtappinitialize() should
+ never be called more than once.  this helped.  however, i am still having
+ some problems.  below is a new little test program that more closely models
+ my real program.  in the actual program, i am writing a library, callable
+ from any other program.  this means that the first time the lib function is
  called, it must initialize things, and after that, it should just use the
- old stuff (still around because of static variables).  In the demo below,
+ old stuff (still around because of static variables).  in the demo below,
  main() represents the main program calling my library and doit() represents
  the interface to the library function.
  
- #include <X11/Xlib.h>
- #include <Xm/Xm.h>
- #include <Xm/PushB.h>
+ #include <x11/xlib.h>
+ #include <xm/xm.h>
+ #include <xm/pushb.h>
  #include <stdio.h>
  #include <stdlib.h>
  
- void bla(XtAppContext app, Widget top)
+ void bla(xtappcontext app, widget top)
  {
-         Widget topone = top;		// in real prog, these are member vars
-         XtAppContext theapp = app;	// of a class
+         widget topone = top;		// in real prog, these are member vars
+         xtappcontext theapp = app;	// of a class
          int junk = 0;
-         Display *dis = XtOpenDisplay(theapp, NULL, NULL, NULL, NULL, 0, &junk,
-                                         NULL);
+         display *dis = xtopendisplay(theapp, null, null, null, null, 0, &junk,
+                                         null);
  
-         Widget box = XtVaCreateManagedWidget("blaaa", xmPushButtonWidgetClass,
+         widget box = xtvacreatemanagedwidget("blaaa", xmpushbuttonwidgetclass,
                          topone,
-                         XmNheight, 50,
-                         XmNwidth, 50,
-                         NULL);
+                         xmnheight, 50,
+                         xmnwidth, 50,
+                         null);
  
-         XtRealizeWidget(topone);
-         for (int i=0;i<=25;i++)	// real prog returns when "Exit" button clicked
+         xtrealizewidget(topone);
+         for (int i=0;i<=25;i++)	// real prog returns when "exit" button clicked
          {
-                 XEvent event;
-                 XtAppNextEvent(theapp, &event);
-                 XtDispatchEvent(&event);
+                 xevent event;
+                 xtappnextevent(theapp, &event);
+                 xtdispatchevent(&event);
          }
-         XtDestroyWidget(box);
-         XtCloseDisplay(dis);
+         xtdestroywidget(box);
+         xtclosedisplay(dis);
  }
  
- // SetItUp - should be called once only
- void SetItUp(XtAppContext *app, Widget *top)
+ // setitup - should be called once only
+ void setitup(xtappcontext *app, widget *top)
  {
          int junk = 0;
-         (*top)=XtAppInitialize (app, "test", NULL, 0, &junk, NULL,
-                 NULL, NULL, 0);
+         (*top)=xtappinitialize (app, "test", null, 0, &junk, null,
+                 null, null, 0);
  }
  
  // doit - some library function callable from the outside
  void doit()
  {
-         static XtAppContext app;	// use these every time called
-         static Widget top;
+         static xtappcontext app;	// use these every time called
+         static widget top;
  
          static int setup = 0;
  
          if (!setup)
          {
-                 SetItUp(&app, &top);
+                 setitup(&app, &top);
                  setup = 1;
          }
          bla(app, top);
@@ -77,17 +77,17 @@
  }
  
  
- The problem is that the widget does not go away until the new one is created.
- (It is still on the screen -- unusuable -- during the "sleep" in the main prog,
- despite the XtDestroyWidget call).
+ the problem is that the widget does not go away until the new one is created.
+ (it is still on the screen -- unusuable -- during the "sleep" in the main prog,
+ despite the xtdestroywidget call).
  
- Anyone see something I'm missing?
+ anyone see something i'm missing?
  
- Thanks very much.
+ thanks very much.
  
- (Please respond via email)
+ (please respond via email)
  -- 
  -------------------------------------------------------------------------------
- David Rex Wood -- davewood@cs.colorado.edu -- University of Colorado at Boulder
+ david rex wood -- davewood@cs.colorado.edu -- university of colorado at boulder
  -------------------------------------------------------------------------------
  

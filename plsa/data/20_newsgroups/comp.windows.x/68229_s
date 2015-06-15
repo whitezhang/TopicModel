@@ -1,76 +1,76 @@
 
  
- In article <1993May14.191035.19271@vpbuild.vp.com>, jessea@u013.me.vp.com (Jesse W. Asher) writes:
- |> I've been getting mail from Xhibition about the June conference and I was
- |> wondering if Microsoft had bought Xhibition?  The front says "Conference
- |> from Microsoft Windows NT Developers".  What's the deal?  I thought
- |> "X"hibition was for "X-windows"??
+ in article <1993may14.191035.19271@vpbuild.vp.com>, jessea@u013.me.vp.com (jesse w. asher) writes:
+ |> i've been getting mail from xhibition about the june conference and i was
+ |> wondering if microsoft had bought xhibition?  the front says "conference
+ |> from microsoft windows nt developers".  what's the deal?  i thought
+ |> "x"hibition was for "x-windows"??
  |> 
  |> -- 
- |>       Jesse W. Asher                                          
+ |>       jesse w. asher                                          
  
- Yes, Xhibition is for the X Window System.  The X Window System Conference 
- remains the largest and most complete conference devoted to X.  Nineteen full
+ yes, xhibition is for the x window system.  the x window system conference 
+ remains the largest and most complete conference devoted to x.  nineteen full
  and half day tutorials and thirty-six technical sessions over three days
- provide huge amounts of information for X application developers.  Add vendor
- exhibits and a Product Presentation track to provide information on what
- folks can purchase today, and you have a complete show focused on X11.
+ provide huge amounts of information for x application developers.  add vendor
+ exhibits and a product presentation track to provide information on what
+ folks can purchase today, and you have a complete show focused on x11.
  
- Speakers at Xhibition 93 include: 
+ speakers at xhibition 93 include: 
  
-   Bob Schiefler, Lu Abel, Mark Ackerman, Paul Asente, Doug Blewett, 
-   Donna Converse, Jim Fulton, Oliver Jones, Keith Packard, Ralph Swick, 
-   Doug Young, and many others.
+   bob schiefler, lu abel, mark ackerman, paul asente, doug blewett, 
+   donna converse, jim fulton, oliver jones, keith packard, ralph swick, 
+   doug young, and many others.
  
- Xhibition is growing (fortunately for us:-) and we have added some additional
- conferences.  Surveys that we have given have indicated additional topics of
- interest.  These include: object oriented technologies such as the Object
- Management Group's ORB and CORBA; C++ as it applies to X; client server
- technologies such as DCE; threads; databases- object oriented and relational;
- and (not surprisingly when you look at the audience) Windows NT.
+ xhibition is growing (fortunately for us:-) and we have added some additional
+ conferences.  surveys that we have given have indicated additional topics of
+ interest.  these include: object oriented technologies such as the object
+ management group's orb and corba; c++ as it applies to x; client server
+ technologies such as dce; threads; databases- object oriented and relational;
+ and (not surprisingly when you look at the audience) windows nt.
  
- With the bulk of the Xhibition audience (and the UNIX community) developing
+ with the bulk of the xhibition audience (and the unix community) developing
  applications for in-house or custom use, a new 32-bit operating system from a
- player as large as Microsoft needs to be evaluated. With MS Windows on so many
+ player as large as microsoft needs to be evaluated. with ms windows on so many
  desktops, and the price of computing power dropping, its successor needs to be
- evaluated.  As corporations begin to look at NT, so must their developers and
+ evaluated.  as corporations begin to look at nt, so must their developers and
  suppliers.
  
- The mission of the Xhibition technical conferences is to provide information
- to the application developer and to the technology planner.  The NT Conference
- at Xhibition is designed to do just that.  We worked with Microsoft to provide
- the *only* conference this year specifically designed to show X and UNIX
- developers the capabilities of Windows and NT.  If you aren't sure that NT has
+ the mission of the xhibition technical conferences is to provide information
+ to the application developer and to the technology planner.  the nt conference
+ at xhibition is designed to do just that.  we worked with microsoft to provide
+ the *only* conference this year specifically designed to show x and unix
+ developers the capabilities of windows and nt.  if you aren't sure that nt has
  what you need for your application development or systems deployment, this is
- the place to find out.  Ask the folks from Microsoft, get them to show you
- what you need.  Conference attendees will receive NT Software Development
- Kits- to bang on, evaluate, and generally to see for yourself.
+ the place to find out.  ask the folks from microsoft, get them to show you
+ what you need.  conference attendees will receive nt software development
+ kits- to bang on, evaluate, and generally to see for yourself.
  
- I hope this doesn't sound like an NT commercial (it should sound like an
- Xhibition commercial:-).  I just want to reiterate that the Xhibition audience
- is growing and Xhibition is growing along with it.  The industry is a
- confusing place at the moment with UNIX, COSE, NT, DCE, CORBA, and all of
- the other acronyms sprouting up.  Xhibition can help sort out the confusion.
+ i hope this doesn't sound like an nt commercial (it should sound like an
+ xhibition commercial:-).  i just want to reiterate that the xhibition audience
+ is growing and xhibition is growing along with it.  the industry is a
+ confusing place at the moment with unix, cose, nt, dce, corba, and all of
+ the other acronyms sprouting up.  xhibition can help sort out the confusion.
  
  
- -Aub Harden
-  Technical Program Manager
+ -aub harden
+  technical program manager
   harden@ics.com
  
  
-         X H I B I T I O N   The Conference and Trade
-          ******    *****    Show for Corporate
-         *      *       *    Software Development
+         x h i b i t i o n   the conference and trade
+          ******    *****    show for corporate
+         *      *       *    software development
           ******     ***  
-              *         *    201 Broadway
-           ***     *****     Cambridge, MA  02139
+              *         *    201 broadway
+           ***     *****     cambridge, ma  02139
  
-               Windows on Distributed Computing
+               windows on distributed computing
  
-                  June 7 - 11,   San Jose, CA
+                  june 7 - 11,   san jose, ca
  
             xhibit@ics.com  uunet!ics.com!xhibit
-         Voice: (617) 621-0060  Fax: (617) 621-9555
+         voice: (617) 621-0060  fax: (617) 621-9555
  
-       Presented by Integrated Computer Solutions, Inc.
+       presented by integrated computer solutions, inc.
  

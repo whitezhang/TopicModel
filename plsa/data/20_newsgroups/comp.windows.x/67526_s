@@ -1,48 +1,48 @@
 
- Will someone who can 'see' the X-Face included in this header please reply
+ will someone who can 'see' the x-face included in this header please reply
  and tell me if it turned out okay?
  
- I'm not all too sure about my viewing software.  I *hand*-converted this
- thing in "vi" from a Sun rasterfile... what a pain!
+ i'm not all too sure about my viewing software.  i *hand*-converted this
+ thing in "vi" from a sun rasterfile... what a pain!
  
- For folks who haven't the slightest, it went like this:
+ for folks who haven't the slightest, it went like this:
  
  -------------------------------------------------------------
  
- 		How to Make Your Own X-Face:
- 		   in 0x000F Easy Steps!
+ 		how to make your own x-face:
+ 		   in 0x000f easy steps!
  
- 	1. Scan my Drivers' License into a *.PCX file.
- 	2. Use WinGIF to 'trim' my face out of the license,
+ 	1. scan my drivers' license into a *.pcx file.
+ 	2. use wingif to 'trim' my face out of the license,
  		'reduce' it by half, and
- 		convert it to *.BMP.
- 	3. Use Paintbrush to touch up manually.
- 	4. Use WinGIF to 'reduce' it by half again.
- 	5. Use Paintbrush to touch up again.
- 	6. Use WinGIF to 'reduce' it by half *again*
- 		and convert it to *.GIF.
+ 		convert it to *.bmp.
+ 	3. use paintbrush to touch up manually.
+ 	4. use wingif to 'reduce' it by half again.
+ 	5. use paintbrush to touch up again.
+ 	6. use wingif to 'reduce' it by half *again*
+ 		and convert it to *.gif.
  
- 		[now over to the UNIX side...]
+ 		[now over to the unix side...]
  
- 	7. Use Snapshot to convert the *.GIF to a Sun rasterfile.
- 	8. Use IconEdit to touch it up and
- 		convert it to an X bitmap.
- 	9. Use "vi" (yes, a *text* editor) to manually convert
- 		the rasterfile into the "Uncompressed X-Face" format.
- 		(Lots of global "ed" commands, and by the time you're
+ 	7. use snapshot to convert the *.gif to a sun rasterfile.
+ 	8. use iconedit to touch it up and
+ 		convert it to an x bitmap.
+ 	9. use "vi" (yes, a *text* editor) to manually convert
+ 		the rasterfile into the "uncompressed x-face" format.
+ 		(lots of global "ed" commands, and by the time you're
  		 done you'll mirror hex bytewise in your sleep!!)
  
- 		[now over to the *Linux* side...]
+ 		[now over to the *linux* side...]
  
- 	A. Use "compface" to convert it to what you see here:
+ 	a. use "compface" to convert it to what you see here:
  
-  %:A<m@Dob}BO"'E",EEQGbn7qy(En7aS5U([k//"G{6^HIbY9X8~+PD($}6szF"&vVxCXSn
-  8mw^0G#nVHE%W,`X"[j0s{r.~%zs:O|HFU=LwzYgH
+  %:a<m@dob}bo"'e",eeqgbn7qy(en7as5u([k//"g{6^hiby9x8~+pd($}6szf"&vvxcxsn
+  8mw^0g#nvhe%w,`x"[j0s{r.~%zs:o|hfu=lwzygh
  
- 	B. Try viewing it by whatever means you have available.
- 	C. Go back to step 9, but do it *right* this time.
+ 	b. try viewing it by whatever means you have available.
+ 	c. go back to step 9, but do it *right* this time.
  
- Rick Miller  <rick@ee.uwm.edu> | <ricxjo@discus.mil.wi.us>   Ricxjo Muelisto
- Send a postcard, get one back! | Enposxtigu bildkarton kaj vi ricevos alion!
-           RICK MILLER // 16203 WOODS // MUSKEGO, WIS. 53150 // USA
+ rick miller  <rick@ee.uwm.edu> | <ricxjo@discus.mil.wi.us>   ricxjo muelisto
+ send a postcard, get one back! | enposxtigu bildkarton kaj vi ricevos alion!
+           rick miller // 16203 woods // muskego, wis. 53150 // usa
  

@@ -1,29 +1,29 @@
 
- In article <C6ADru.JpF@hermes.hrz.uni-bielefeld.de>, uphya001@odie.uni-bielefeld.de (Lars Koeller,D0-231/258,1065375,0526189607) writes:
+ in article <c6adru.jpf@hermes.hrz.uni-bielefeld.de>, uphya001@odie.uni-bielefeld.de (lars koeller,d0-231/258,1065375,0526189607) writes:
  |> ---
- |> Hello!
+ |> hello!
  |> 
- |> We want to configure our X11R5 sytem (i486 33Mhz running BSD-like UNIX)
+ |> we want to configure our x11r5 sytem (i486 33mhz running bsd-like unix)
  |> comming up with a chooser menu with different machines on it (works) an then
- |> connect to them. But the only connection works is localhost!
- |> An 'X -indirect <machine>' works very well!
- |> The configuration:
+ |> connect to them. but the only connection works is localhost!
+ |> an 'x -indirect <machine>' works very well!
+ |> the configuration:
  |> 
  |> 		- starting the 'xdm' at boot time with no servers specified
- |> 		   in Xservers
- |> 		- starting the X-server at boot time with X -indirect localhost
+ |> 		   in xservers
+ |> 		- starting the x-server at boot time with x -indirect localhost
  |> 
           ...........   more deleted
  
  
- You need to start the X-server with -indirect its_name.
+ you need to start the x-server with -indirect its_name.
  
- If you start it with -indirect localhost, it use the loopback adress as
- it's adress. So when it try to contact another host, this one try to answer
- on its loopback adress. Not good.
+ if you start it with -indirect localhost, it use the loopback adress as
+ it's adress. so when it try to contact another host, this one try to answer
+ on its loopback adress. not good.
  
- Remember that every machine has the adress 127.0.0.1 on the loopback network.
+ remember that every machine has the adress 127.0.0.1 on the loopback network.
  
  -- 
- Pierre Verpeaux 	DMT/SEMT/LAMS		(1)69.08.65.42	
+ pierre verpeaux 	dmt/semt/lams		(1)69.08.65.42	
  

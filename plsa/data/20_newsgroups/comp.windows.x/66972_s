@@ -1,37 +1,37 @@
 
- In article <schneck.735153129@Physik.TU-Muenchen.DE> schneck@Physik.TU-Muenchen.DE (Bernhard Schneck) writes:
- >nemo@aguirre.dia.fi.upm.es (Francisco J. Ballesteros) writes:
+ in article <schneck.735153129@physik.tu-muenchen.de> schneck@physik.tu-muenchen.de (bernhard schneck) writes:
+ >nemo@aguirre.dia.fi.upm.es (francisco j. ballesteros) writes:
  >
- >>>   	   The problem occurs during the initial "make World".  When
- >>>      it gets up to compiling the standard X clients, it can't seem to find
- >>>      some of the libraries.  Right now we highly suspect the program "ld"
+ >>>   	   the problem occurs during the initial "make world".  when
+ >>>      it gets up to compiling the standard x clients, it can't seem to find
+ >>>      some of the libraries.  right now we highly suspect the program "ld"
  >>>      which was updated for 4_1_3.
  >>>   
  >
- >>    Yip, we had the same problem; the only fix we found was to link static
+ >>    yip, we had the same problem; the only fix we found was to link static
  >>some of the clients, ( btw, we used cc). :-(.
  >
- >Or use a SunOS 4.1.1 ld.
+ >or use a sunos 4.1.1 ld.
  
- Or read fixes 9, 10, and 11 to the MIT distribution.  This is a known 
- problem - just apply those fixes and set SunPost411FCSLd to YES and 
- OSTeenyVersion in mit/config/sun.cf to 3.
+ or read fixes 9, 10, and 11 to the mit distribution.  this is a known 
+ problem - just apply those fixes and set sunpost411fcsld to yes and 
+ osteenyversion in mit/config/sun.cf to 3.
  
- In fix-09:
- |If you are running SunOS 4.1.1 and you apply Sun's ld patch 100170-6,
+ in fix-09:
+ |if you are running sunos 4.1.1 and you apply sun's ld patch 100170-6,
  |then you will need to edit your site.def and add this line to the
- |AfterVendorCF section:
+ |aftervendorcf section:
  |
- |#define SunPost411FCSLd   YES
+ |#define sunpost411fcsld   yes
  
- In fix-10:
- |If you are running SunOS 4.1.2, change OSTeenyVersion in mit/config/sun.cf to
+ in fix-10:
+ |if you are running sunos 4.1.2, change osteenyversion in mit/config/sun.cf to
  |have a value of 2.
  
- In fix-11:
- |Brief notes on what this patch fixes:
+ in fix-11:
+ |brief notes on what this patch fixes:
  |
- |config: make on SunOS 4.1.2 fails unless tree previously built in
+ |config: make on sunos 4.1.2 fails unless tree previously built in
  
- Sean Welch
+ sean welch
  

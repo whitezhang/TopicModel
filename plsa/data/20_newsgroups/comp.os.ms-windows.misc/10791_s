@@ -1,35 +1,35 @@
 
- In article <1993May15.030210.4755@ccsvax.sfasu.edu> z_shererrg@ccsvax.sfasu.edu writes:
-    After hearing endless debate (READ: name-calling) over which os is better, dos
-    and windows or OS/2 and finally having enought resourses to play with a couple
-    of different operating systems, I have decided to put the two products to a
-    head to head test, as so many fellow newsposters have suggested.  I have, 
-    however, no desire whatsoever to use a version of os/2 which wont REALLY
-    do what it says (i.e. run windows apps)  OS/2 2.0-2.1 will not run windows
+ in article <1993may15.030210.4755@ccsvax.sfasu.edu> z_shererrg@ccsvax.sfasu.edu writes:
+    after hearing endless debate (read: name-calling) over which os is better, dos
+    and windows or os/2 and finally having enought resourses to play with a couple
+    of different operating systems, i have decided to put the two products to a
+    head to head test, as so many fellow newsposters have suggested.  i have, 
+    however, no desire whatsoever to use a version of os/2 which wont really
+    do what it says (i.e. run windows apps)  os/2 2.0-2.1 will not run windows
     apps in 386 enhansed mode, something that most larger windows apps require, but
-    OS/2 2.2, which is supposed to be in beta test, is supposed to.  I have heard
-    that os/2 2.2 beta is available via ftp, and I was wondering if anyone knew
-    where to obtain a copy.  I would appreciate any information, as I would like, 
+    os/2 2.2, which is supposed to be in beta test, is supposed to.  i have heard
+    that os/2 2.2 beta is available via ftp, and i was wondering if anyone knew
+    where to obtain a copy.  i would appreciate any information, as i would like, 
     once and for all, to establish for myself which is the best os for my needs.
  
-    ->Robbie<-
+    ->robbie<-
     z_shererrg.sfasu.edu
  
- If you wait until May the 18th you will be able to buy the new OS/2
- 2.1 since it will be released at Comdex that day. It will run Windows
- 3.1 apps and Windows enh. mode. If you can't wait, then you can ftp a
+ if you wait until may the 18th you will be able to buy the new os/2
+ 2.1 since it will be released at comdex that day. it will run windows
+ 3.1 apps and windows enh. mode. if you can't wait, then you can ftp a
  6 months old beta version from ftp-os2.nmsu.edu, but this version is
  probably a lot slower than the final product.
  
- When you do your test, please have in mind that a single tasking
- system will always be faster at doing one task. The real power of OS2
+ when you do your test, please have in mind that a single tasking
+ system will always be faster at doing one task. the real power of os2
  lies in the multitasking and can't really be measured by a stopwatch.
  
- Happy benchmarking.
- Hans
+ happy benchmarking.
+ hans
  --
  ------------------------------------------------------------- 
- The whales of the Atlantic and the people of the Faroe Islands 
+ the whales of the atlantic and the people of the faroe islands 
  have coexisted in perfect harmony for the last 1000 years -
  no matter what any urban navel contamplator without any real
  relation to the coherence of the nature says.

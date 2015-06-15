@@ -1,43 +1,43 @@
 
- In <1r4kve$6cl@news.cs.tu-berlin.de> ossip@cs.tu-berlin.de (Ossip Kaehr) writes:
+ in <1r4kve$6cl@news.cs.tu-berlin.de> ossip@cs.tu-berlin.de (ossip kaehr) writes:
  
- >I have a SE/30 and a Generation Systems 8bit PDS card for a 17"
+ >i have a se/30 and a generation systems 8bit pds card for a 17"
  >screen.
- >It worked great until I upgraded from 5 to 20 mb ram.
- >Now with Sys7.1 and MODE32 or 32enabler it does not boot..
+ >it worked great until i upgraded from 5 to 20 mb ram.
+ >now with sys7.1 and mode32 or 32enabler it does not boot..
  
  >a tech support person said the card does not support these 32bit
  >fixes.
  
- I guess he is right. Early versions of the RasterOps cards did not either,
- but they fixed it, and people with problems can get a free ROM upgrade
- from RasterOps.
+ i guess he is right. early versions of the rasterops cards did not either,
+ but they fixed it, and people with problems can get a free rom upgrade
+ from rasterops.
  
- >BUT: when pressing the shift key while booting (when the ext. monitor
- >goes black after having been grey) the system  SOMETIMES boots properly!!
+ >but: when pressing the shift key while booting (when the ext. monitor
+ >goes black after having been grey) the system  sometimes boots properly!!
  >and then works ok with the 20mb and full graphics.
  
- >WHAT's HAPPENING???
+ >what's happening???
  
- Very easy. If you boot without the MODE32 control panel, then it will
- disable (or rather not reinstall) the 32-bit clean patches. So when
- you run OK you must be in 24-bit adressing mode. Check About this Macintosh
- and see if you havce a 12+MB system.
+ very easy. if you boot without the mode32 control panel, then it will
+ disable (or rather not reinstall) the 32-bit clean patches. so when
+ you run ok you must be in 24-bit adressing mode. check about this macintosh
+ and see if you havce a 12+mb system.
  
- >Thanks a lot for any advice!!!
+ >thanks a lot for any advice!!!
  >please answer by mail.
  
  sent seperately.
- >Ossip Kaehr
+ >ossip kaehr
  >ossip@cs.tu-berlin.de
  >voice: +49.30.6226317
  >-- 
  > __   --------------------------------------------------------------   __
- >/_/\  Ossip Kaehr	Hermannstrasse 32  D-1000 Berlin 44  Germany  /\_\
- >\_\/  Tel. +49.30.6223910 or 6218814     EMail ossip@cs.tu-berlin.de  \/_/
+ >/_/\  ossip kaehr	hermannstrasse 32  d-1000 berlin 44  germany  /\_\
+ >\_\/  tel. +49.30.6223910 or 6218814     email ossip@cs.tu-berlin.de  \/_/
  >      --------------------------------------------------------------
  -- 
- Povl H. Pedersen   -   Macintosh specialist. Knows some DOS and UNIX too.
+ povl h. pedersen   -   macintosh specialist. knows some dos and unix too.
  pope@imv.aau.dk    -   povlphp@uts.uni-c.dk
- --- Finger me at pope@imv.aau.dk for PGP Public Key ---
+ --- finger me at pope@imv.aau.dk for pgp public key ---
  

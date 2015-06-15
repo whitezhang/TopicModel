@@ -1,29 +1,29 @@
 
- sol.surv.utas.edu.au (Stephen Quan) writes:
+ sol.surv.utas.edu.au (stephen quan) writes:
  
- >>>>[...], but I'm looking for a fast polygon routine to be used in a 3D game.
- >>>A fast polygon routine to do WHAT?
- >>To draw polygons of course.  Its a VGA mode 13h (320x200) game, [...]
+ >>>>[...], but i'm looking for a fast polygon routine to be used in a 3d game.
+ >>>a fast polygon routine to do what?
+ >>to draw polygons of course.  its a vga mode 13h (320x200) game, [...]
  >
- >Hi, I've come across a fast triangle fill-draw routine for mode 13h.  By
+ >hi, i've come across a fast triangle fill-draw routine for mode 13h.  by
  >calling this routine enough times, you have a fast polygon drawing routine.
  >
- >I think I ftp'ed from wuarchive.wustl.edu:/pub/MSDOS_UPLOADS/programming.
- >I have a copy of it so I reupload it there.  The triangle.txt file has this
+ >i think i ftp'ed from wuarchive.wustl.edu:/pub/msdos_uploads/programming.
+ >i have a copy of it so i reupload it there.  the triangle.txt file has this
  >to say :
  >
- >>  C and inline assembly source for a VGA mode 13h triangle drawer.
+ >>  c and inline assembly source for a vga mode 13h triangle drawer.
  >
- Another source:  There's a poly blitter for mode y (mode x in 320x200)
- at sunee.uwaterloo.ca.  Also there is REND386, an even faster 3D
- renderer with VR extensions.
+ another source:  there's a poly blitter for mode y (mode x in 320x200)
+ at sunee.uwaterloo.ca.  also there is rend386, an even faster 3d
+ renderer with vr extensions.
  
  
  --------------------------------------------------------------------------
- | My life is Hardware,                    |         Dave Stampe          | 
- | my destiny is Software,                 | dstampe@psych.toronto.edu    |
- | my CPU is Wetware...                    | dstampe@sunee.uwaterloo.ca   | 
- | Am I a techno-psychologist, or just a psycho-engineer ??               |
+ | my life is hardware,                    |         dave stampe          | 
+ | my destiny is software,                 | dstampe@psych.toronto.edu    |
+ | my cpu is wetware...                    | dstampe@sunee.uwaterloo.ca   | 
+ | am i a techno-psychologist, or just a psycho-engineer ??               |
  --------------------------------------------------------------------------
  
  

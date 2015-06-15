@@ -1,36 +1,36 @@
 
- Hello,
+ hello,
  
- Below I have the copy of some source I am using to setup a user-specified color-
- map for X R11 V4. I am attempting to create user defined colors in terms of
- RGB color ranges. The calls to XAllocColor prove ineffective. 
+ below i have the copy of some source i am using to setup a user-specified color-
+ map for x r11 v4. i am attempting to create user defined colors in terms of
+ rgb color ranges. the calls to xalloccolor prove ineffective. 
  
- Variables are defined are as follows:
+ variables are defined are as follows:
  
      int                 i, j, k, lut_index
      color_type          min_image, max_image;
-     color_type          image Pixel_Value_Range, last_image, start, end, jump,
+     color_type          image pixel_value_range, last_image, start, end, jump,
                          lut [ 512 ];
      unsigned long       pixel;
      double              red, green, blue;
  
  /*
-  * Data structure used by color operations
+  * data structure used by color operations
   *
  typedef struct {
          unsigned long pixel;
          unsigned short red, green, blue;
          char flags;  /-* do_red, do_green, do_blue *-/
          char pad;
- } XColor;
+ } xcolor;
  ***************/
-     XColor              rgbcolor, hardwarecolor;
+     xcolor              rgbcolor, hardwarecolor;
  
  
- With color_type defined as { double red, double green, double blue }.
+ with color_type defined as { double red, double green, double blue }.
  
- What I need to know is how to set [is it possible] the values in hardwarecolor
- to work within the call to XAllocColor:
+ what i need to know is how to set [is it possible] the values in hardwarecolor
+ to work within the call to xalloccolor:
  
      start.red = (int) 255 * min_image.red;	/* 0..255 */
      end.red   = (int) 255 * max_image.red;	/* 0..255 */
@@ -69,17 +69,17 @@
                  hardwarecolor.blue  = (short) lut [ lut_index ].blue;
                  hardwarecolor.pixel = lut_index;
  
- printf("HW1: i = %d :  %d %d %d: pixel = %d \n", lut_index, hardwarecolor.red,
+ printf("hw1: i = %d :  %d %d %d: pixel = %d \n", lut_index, hardwarecolor.red,
                  hardwarecolor.green, hardwarecolor.blue, hardwarecolor.pixel );
  
-                 status = XAllocColor ( dpy, colormap, &hardwarecolor );
- printf("HW2: i = %d: %d %d %d: pixel = %d \n", lut_index, hardwarecolor.red,
+                 status = xalloccolor ( dpy, colormap, &hardwarecolor );
+ printf("hw2: i = %d: %d %d %d: pixel = %d \n", lut_index, hardwarecolor.red,
                  hardwarecolor.green, hardwarecolor.blue, hardwarecolor.pixel );
                  if ( status != 0 )
                      {
-                     XSetForeground ( dpy, gc, hardwarecolor.pixel );
-                     XFillRectangle ( dpy, win, gc, 1, 1, MAXCOLUMN, MAXROW );
-                     XFlush ( dpy );
+                     xsetforeground ( dpy, gc, hardwarecolor.pixel );
+                     xfillrectangle ( dpy, win, gc, 1, 1, maxcolumn, maxrow );
+                     xflush ( dpy );
                      sleep (10);
                  printf("%d: %f %f %f at %d \n", lut_index, lut [ lut_index ].re
                              lut [ lut_index ].green, lut [ lut_index ].blue,
@@ -88,14 +88,14 @@
                  lut_index = lut_index + 1;
                  }
  
- Thanks in advance to anyone who can help me with this problem.
+ thanks in advance to anyone who can help me with this problem.
  
- Sincerely,
+ sincerely,
  
- 	John F. Duggan
+ 	john f. duggan
  
  ----------------------------------------------------------------------------
- John F. Duggan                               alias    :Genghis Khan
- Engineering Computer Services,               internet : DUGGAN@ecs.umass.edu  
- Univ. of Massachusetts, Amherst, MA 01003    Bitnet     : DUGGAN@umaecs
+ john f. duggan                               alias    :genghis khan
+ engineering computer services,               internet : duggan@ecs.umass.edu  
+ univ. of massachusetts, amherst, ma 01003    bitnet     : duggan@umaecs
  

@@ -1,24 +1,24 @@
 
- In article <1993Apr23.103038.27467@bnr.ca>, agc@bmdhh286.bnr.ca (Alan Carter) writes...
- >In article <22APR199323003578@kelvin.jpl.nasa.gov>, baalke@kelvin.jpl.nasa.gov (Ron Baalke) writes:
- >|> 3.  On April 19, a NO-OP command was sent to reset the command loss timer to
+ in article <1993apr23.103038.27467@bnr.ca>, agc@bmdhh286.bnr.ca (alan carter) writes...
+ >in article <22apr199323003578@kelvin.jpl.nasa.gov>, baalke@kelvin.jpl.nasa.gov (ron baalke) writes:
+ >|> 3.  on april 19, a no-op command was sent to reset the command loss timer to
  >|> 264 hours, its planned value during this mission phase.
  > 
- >This activity is regularly reported in Ron's interesting posts. Could
- >someone explain what the Command Loss Timer is?
+ >this activity is regularly reported in ron's interesting posts. could
+ >someone explain what the command loss timer is?
  > 
  
- The Command Loss Timer is part of the fault protection scheme of the
- spacecraft.  If the Command Loss Timer ever countdowns to zero, then the
- spacecraft assumes it has lost communications with Earth and will go 
- through a set of predetermined steps to try to regain contact.  The
- Command Loss Timer is set to 264 hours and reset about once a week during 
+ the command loss timer is part of the fault protection scheme of the
+ spacecraft.  if the command loss timer ever countdowns to zero, then the
+ spacecraft assumes it has lost communications with earth and will go 
+ through a set of predetermined steps to try to regain contact.  the
+ command loss timer is set to 264 hours and reset about once a week during 
  the cruise phase, and is set to a lower value during an encounter phase.  
       ___    _____     ___
-     /_ /|  /____/ \  /_ /|     Ron Baalke         | baalke@kelvin.jpl.nasa.gov
-     | | | |  __ \ /| | | |     Jet Propulsion Lab |
-  ___| | | | |__) |/  | | |__   M/S 525-3684 Telos | The aweto from New Zealand
- /___| | | |  ___/    | |/__ /| Pasadena, CA 91109 | is part caterpillar and
+     /_ /|  /____/ \  /_ /|     ron baalke         | baalke@kelvin.jpl.nasa.gov
+     | | | |  __ \ /| | | |     jet propulsion lab |
+  ___| | | | |__) |/  | | |__   m/s 525-3684 telos | the aweto from new zealand
+ /___| | | |  ___/    | |/__ /| pasadena, ca 91109 | is part caterpillar and
  |_____|/  |_|/       |_____|/                     | part vegetable.
  
  

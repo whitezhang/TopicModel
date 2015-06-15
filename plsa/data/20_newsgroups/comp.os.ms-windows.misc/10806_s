@@ -1,15 +1,15 @@
 
  
-    I have been using WinQVT/Net 2.81 under Win3.1 (dos 5.0) for quite
- sometime without any problem.  I recently installed DOS 6.0 on my 386-40 PC
- and I cannot run WinQVT/Net any more.  I keep getting "Packet received for
- invalid port-reset sent" messages on the console window.  I can't
+    i have been using winqvt/net 2.81 under win3.1 (dos 5.0) for quite
+ sometime without any problem.  i recently installed dos 6.0 on my 386-40 pc
+ and i cannot run winqvt/net any more.  i keep getting "packet received for
+ invalid port-reset sent" messages on the console window.  i can't
  get more than 1 telnet window and can't use ftp!!!
  
-    Any suggestions would be greatly appreciated.
+    any suggestions would be greatly appreciated.
  
-    Thanks,
-    George Kontoravdis
+    thanks,
+    george kontoravdis
     (condor@ccwf.cc.utexas.edu)
  
  

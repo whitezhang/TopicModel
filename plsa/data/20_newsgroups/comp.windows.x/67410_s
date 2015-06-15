@@ -1,12 +1,12 @@
 
- Hi,
+ hi,
  
-   I am trying to write an X-windows based interface that runs on top of GDB. Could 
- anyone help me in understanding the way we are supposed to "fork" GDB off as a 
- subprocess ?? I currently use pipes but when I try and debug this program, the 
+   i am trying to write an x-windows based interface that runs on top of gdb. could 
+ anyone help me in understanding the way we are supposed to "fork" gdb off as a 
+ subprocess ?? i currently use pipes but when i try and debug this program, the 
  following happens :
  
- PROGRAM :
+ program :
  
  	main()
  	{
@@ -19,23 +19,23 @@
  
          }
  
- OUTPUT :
+ output :
  
- 	The program hangs without returning the output of the printf statement. When I type
+ 	the program hangs without returning the output of the printf statement. when i type
  in a value (like 5), then all the printf's output comes out at one time.
  
  
- Is there any other way, besides using PIPES to do this i.e., like ioctl or something else ??
+ is there any other way, besides using pipes to do this i.e., like ioctl or something else ??
  
- Thanks,
+ thanks,
  
- Deepak
+ deepak
  
  --------------------------------------------------------------------------------------------
- Deepak Mulchandani
- Advanced Products Research and Development Laboratory
- Motorola, Semiconductor Products Sector
- Austin, TX
+ deepak mulchandani
+ advanced products research and development laboratory
+ motorola, semiconductor products sector
+ austin, tx
  (512) 928-7642 							     deepak@inxs.sps.mot.com
  
  

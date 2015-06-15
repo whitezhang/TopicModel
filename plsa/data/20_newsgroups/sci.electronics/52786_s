@@ -1,55 +1,55 @@
 
- Hi,
+ hi,
  
-    I've just built a valve preamp and use a diode/capacitor
- voltage multiplier to step the 12vAC supply voltage up to approx 
- 260vDV. As the load resistance increases, the RC constant decreases
- and hence the output voltage drops. I need as high an output
+    i've just built a valve preamp and use a diode/capacitor
+ voltage multiplier to step the 12vac supply voltage up to approx 
+ 260vdv. as the load resistance increases, the rc constant decreases
+ and hence the output voltage drops. i need as high an output
  voltage as possible. (about 260v).
-   The circuit consists of seven voltage multiplier stages
+   the circuit consists of seven voltage multiplier stages
  (ie 14 diodes and 14 capacitors) each capacitor develops about 38v
- across them, and I take the output from across seven capacitors=260v.
-   Each capacitor is 100mfd at 68v.
-  If I increase each of the capacitors rating (220-470mfd), that will
- increase the RC constant, and hence alleviate some of the problem.
- These capacitors are going to be a little expensive as I need 14 of
- them, So:
+ across them, and i take the output from across seven capacitors=260v.
+   each capacitor is 100mfd at 68v.
+  if i increase each of the capacitors rating (220-470mfd), that will
+ increase the rc constant, and hence alleviate some of the problem.
+ these capacitors are going to be a little expensive as i need 14 of
+ them, so:
  
- 1. What would happen if I connected a 470mfd at 400v capacitor in parallel 
+ 1. what would happen if i connected a 470mfd at 400v capacitor in parallel 
  with the output (and hence in parallel with the seven 100mfd capacitors)?
-   Will it, as I assume, increase the C in circuit and hence increase
- the RC time constant? If it does, and my output voltage becomes more
- stable by doing this, then I will have killed two birds with one stone...
- as I am experiencing some 50Hz ripple (and hence amp hum), and this new
+   will it, as i assume, increase the c in circuit and hence increase
+ the rc time constant? if it does, and my output voltage becomes more
+ stable by doing this, then i will have killed two birds with one stone...
+ as i am experiencing some 50hz ripple (and hence amp hum), and this new
  capacitor will 'smooth' this out.
  
  and
- 2. Can anyone recomend a suitable value for an inductor (choke) to
+ 2. can anyone recomend a suitable value for an inductor (choke) to
  be placed in the output line of the power supply to filter out
- the 50Hz mains hum. Lowest resistance possible !
+ the 50hz mains hum. lowest resistance possible !
  
-   I've not got my preamp with me at the moment because it is TOO MUCH
- of a distraction.... (I'm at university and I've got to get my 
- dissertation finished in two weeks !!!!!!!) hence I'm mailing not
+   i've not got my preamp with me at the moment because it is too much
+ of a distraction.... (i'm at university and i've got to get my 
+ dissertation finished in two weeks !!!!!!!) hence i'm mailing not
  playing with my solderoing iron (it'll be cheaper too in the long
  run... especially if 14 new large capacitors don't work as planned!)
  
- Email please.... Can't always read the net.....
+ email please.... can't always read the net.....
  
- Thanks in advance..
+ thanks in advance..
  
  
- Chris ;-)
+ chris ;-)
  
    +====================================================================+
-   |Name : Mr Chris Smith       |     Twang on that 'ole guitar !       |
-   |Addrs: scst83@uk.ac.liv.csc |                                       |
-   |Uni  : Liverpool University |Quest: To build more and more hardware |
-   |Dgree: Computer Science     |                                       |
+   |name : mr chris smith       |     twang on that 'ole guitar !       |
+   |addrs: scst83@uk.ac.liv.csc |                                       |
+   |uni  : liverpool university |quest: to build more and more hardware |
+   |dgree: computer science     |                                       |
    +====================================================================+
  
-  "What ever the sun may be, it is certainly not a ball of flaming gas!"
-   -- D.H. Lawrence.
+  "what ever the sun may be, it is certainly not a ball of flaming gas!"
+   -- d.h. lawrence.
  
-  * All views expressed are my own, and reflect that of private thought. *
+  * all views expressed are my own, and reflect that of private thought. *
  

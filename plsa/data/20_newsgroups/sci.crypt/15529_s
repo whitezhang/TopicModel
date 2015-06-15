@@ -1,21 +1,21 @@
 
- In article <1r1otuINNdb2@dns1.NMSU.Edu>
- 	amolitor@nmsu.edu (Andrew Molitor) writes:
+ in article <1r1otuinndb2@dns1.nmsu.edu>
+ 	amolitor@nmsu.edu (andrew molitor) writes:
  
- >	The 'plaintext' is digitized voice, and exists for a very short
- >time, probably in a couple inches of copper, tops. It's flatly not
+ >	the 'plaintext' is digitized voice, and exists for a very short
+ >time, probably in a couple inches of copper, tops. it's flatly not
  >available -- your bug in my office can hear my voice, and even digitize
  >it, but it's going to get a different bitstream.
  
- 	I am an idiot. The plaintext that's relevant is the session key.
- If you know that, you probably don't need a roomful of chips, do you?
- If you were going to brute force something interesting, that'd be the
+ 	i am an idiot. the plaintext that's relevant is the session key.
+ if you know that, you probably don't need a roomful of chips, do you?
+ if you were going to brute force something interesting, that'd be the
  message stream, which is sort of approximately known by, say, a bug in
- my office. Then your roomful of chips could get the session key. Which
- I change every morning.
+ my office. then your roomful of chips could get the session key. which
+ i change every morning.
  
- 	Really, it's just a whole lot easier for the illicit wiretappers
+ 	really, it's just a whole lot easier for the illicit wiretappers
  to stick a bug in your phone.
  
- 	Andrew Molitor
+ 	andrew molitor
  

@@ -1,10 +1,10 @@
 
- I finally got the vesa driver for my ATI graphics ultra plus (2M).  However,
- when I tried to use this to view under 24bit mode, I get lines on the picture.
- With 16bit or below, the picture is fine.  Can someone tell me what was wrong?
- Is it the card, or is it the software?
+ i finally got the vesa driver for my ati graphics ultra plus (2m).  however,
+ when i tried to use this to view under 24bit mode, i get lines on the picture.
+ with 16bit or below, the picture is fine.  can someone tell me what was wrong?
+ is it the card, or is it the software?
  --
- Thanks
+ thanks
  8)
      _/_/_/_/  _/_/_/    _/    _/    _/_/    _/_/_/    _/_/_/  
     _/	     _/    _/  _/    _/  _/    _/  _/    _/  _/    _/ 
@@ -12,7 +12,7 @@
   _/        _/    _/  _/ _/ _/  _/    _/  _/  _/    _/    _/ 
  _/_/_/_/  _/_/_/      _/ _/   _/    _/  _/    _/  _/_/_/    
                                                              
- user's name:	Edward Wong 				    
- Internet:     	wong@ws13.webo.dg.com		 
+ user's name:	edward wong 				    
+ internet:     	wong@ws13.webo.dg.com		 
  telephone:	(508) 870-9352
  

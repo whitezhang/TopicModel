@@ -1,69 +1,69 @@
 
  
- 	I posted this May 12th:
+ 	i posted this may 12th:
  
  
- >         I am looking for info on products that can take
- > Windows source on a Unix box (such as Sparc), and produce a
- > Motif executable.  Another requirement is that MFC 2.0 should
- > be supported.  I already know of:
+ >         i am looking for info on products that can take
+ > windows source on a unix box (such as sparc), and produce a
+ > motif executable.  another requirement is that mfc 2.0 should
+ > be supported.  i already know of:
  > 
- >         Wind/U  by Bristol Technologies
- >         Hunter SDK
- >         MainWin by MainSoft
+ >         wind/u  by bristol technologies
+ >         hunter sdk
+ >         mainwin by mainsoft
  > 
- >         Are there any others?
+ >         are there any others?
  > 
- > 	I will post a summary if it's wanted.
+ > 	i will post a summary if it's wanted.
  
  
- 	I got a few requests asking for a summary, so I'll attempt one
+ 	i got a few requests asking for a summary, so i'll attempt one
  here:
  
  
- 	Here's the ones I know of:
+ 	here's the ones i know of:
  
- 	Wind/U		- Bristol Technologies
+ 	wind/u		- bristol technologies
  
- 	Hunter SDK	- Hunter Systems
+ 	hunter sdk	- hunter systems
  
- 	MainWin		- MainSoft
+ 	mainwin		- mainsoft
  
- 	LIBWXM          - Visual Solutions
+ 	libwxm          - visual solutions
  
  
- 	Hunter 
+ 	hunter 
  
- 	The company is going through some big changes.  I expect
- to eventually see the Hunter SDK pop up with a new name.  At the moment, it
+ 	the company is going through some big changes.  i expect
+ to eventually see the hunter sdk pop up with a new name.  at the moment, it
  is difficult to get phone calls returned and otherwise obtain info.
- Hopefully they will post something about themselves once things settle down. 
+ hopefully they will post something about themselves once things settle down. 
  
- 	Visual Solutions
+ 	visual solutions
  
- 	LIBWXM is a product that I just heard about.  They don't
- yet support MDI or MFC.  Libwxm was used to port VisSim, a mathematical
- modeling package.  Does native Motif Widgets, like Wind/U from Bristol.
- Contact Carrie Lemieux at 508 392 0100 for more info.  She's very helpful.
+ 	libwxm is a product that i just heard about.  they don't
+ yet support mdi or mfc.  libwxm was used to port vissim, a mathematical
+ modeling package.  does native motif widgets, like wind/u from bristol.
+ contact carrie lemieux at 508 392 0100 for more info.  she's very helpful.
  
- 	MainSoft
+ 	mainsoft
  
- 	This translates Windows source to a Unix executable that
- can switch off between a Windows or Quasi-Motif look and feel at
- runtime.  They skip the Xt and Xm (Motif) X toolkit levels and go
- straight to Xlib.  They don't yet support MFC.  They're at 415 896 0708.
+ 	this translates windows source to a unix executable that
+ can switch off between a windows or quasi-motif look and feel at
+ runtime.  they skip the xt and xm (motif) x toolkit levels and go
+ straight to xlib.  they don't yet support mfc.  they're at 415 896 0708.
  
- 	Bristol
+ 	bristol
  
- 	This company that seems to be on the right track.  Wind/U uses
- Xlib/Xt/Xm to give a *real* Motif app.  They seem to be doing the most work
- in trying to support things like DDE, Common Dialogs, and more on the horizon.
- My contact there is knowledgeable, responds to my email, and wrote an example
- program for me showing how to obtain X widgets from Windows handles.
- They're at 203 438 6969, or you can email info@bristol.com.
+ 	this company that seems to be on the right track.  wind/u uses
+ xlib/xt/xm to give a *real* motif app.  they seem to be doing the most work
+ in trying to support things like dde, common dialogs, and more on the horizon.
+ my contact there is knowledgeable, responds to my email, and wrote an example
+ program for me showing how to obtain x widgets from windows handles.
+ they're at 203 438 6969, or you can email info@bristol.com.
  
  -- 
  		 dls@autodesk.com           dls@netcom.com
-      Daniel L Smith, Autodesk, Sausalito, California, (415) 332-2344 x 2580
+      daniel l smith, autodesk, sausalito, california, (415) 332-2344 x 2580
  disclaimer:  accuracy of statements corrrelates somehow to caffeine intake
  

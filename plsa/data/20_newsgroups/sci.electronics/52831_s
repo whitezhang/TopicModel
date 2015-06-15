@@ -1,21 +1,21 @@
 
- Here's a question for all you electrical engineers out there:
+ here's a question for all you electrical engineers out there:
  
-   I bought an 'Infrared detector module' at Radio Shack for $3.95 - it is a 
- little gizmo that senses infrared remotes and produces an output signal. Then
- I hooked the output through a transistor to an infrared LED. The circuit works
- like a minature remote control extender in my car - All remote commands are
- relayed to the CD player hidden in the glove compartment. It works fine with
- my Denon CD player, but when I tried to build the same circuit for a friend's
- VCR, it didn't work.
-   The circuit appears to work for other remotes (you can see infrared with a
- Sony CCD camcorder) but coincidentally it only seems to work for my CD
+   i bought an 'infrared detector module' at radio shack for $3.95 - it is a 
+ little gizmo that senses infrared remotes and produces an output signal. then
+ i hooked the output through a transistor to an infrared led. the circuit works
+ like a minature remote control extender in my car - all remote commands are
+ relayed to the cd player hidden in the glove compartment. it works fine with
+ my denon cd player, but when i tried to build the same circuit for a friend's
+ vcr, it didn't work.
+   the circuit appears to work for other remotes (you can see infrared with a
+ sony ccd camcorder) but coincidentally it only seems to work for my cd
  player...
  
- 	Any advice would be appreciated....
-         Brian
+ 	any advice would be appreciated....
+         brian
  
  ---
- UBSILER @ MSUVX1.MEMST.EDU
+ ubsiler @ msuvx1.memst.edu
  
  

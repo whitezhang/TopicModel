@@ -1,15 +1,15 @@
 
- In <1993Apr17.113223.12092@imag.fr> schaefer@imag.imag.fr (Arno Schaefer) writes:
+ in <1993apr17.113223.12092@imag.fr> schaefer@imag.imag.fr (arno schaefer) writes:
  
- >Sorry, Bryan, this is not quite correct. Remember the VGALIB package that comes
- >with Linux/SLS? It will switch to VGA 320x200x256 mode *without* Xwindows.
- >So at least it is *possible* to write a GIF viewer under Linux. However I don't
- >think that there exists a similar SVGA package, and viewing GIFs in 320x200 is
+ >sorry, bryan, this is not quite correct. remember the vgalib package that comes
+ >with linux/sls? it will switch to vga 320x200x256 mode *without* xwindows.
+ >so at least it is *possible* to write a gif viewer under linux. however i don't
+ >think that there exists a similar svga package, and viewing gifs in 320x200 is
  >not very nice.
  
- No, VGALIB?  Amazing..  I guess it was lost in all those subdirs :-)
- Thanks for correcting me.  It doesn't sound very appealing though, only
- 320x200?  I'm glad it wasn't something major I missed.
+ no, vgalib?  amazing..  i guess it was lost in all those subdirs :-)
+ thanks for correcting me.  it doesn't sound very appealing though, only
+ 320x200?  i'm glad it wasn't something major i missed.
  
- Thanks,
+ thanks,
  

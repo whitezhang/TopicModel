@@ -1,41 +1,41 @@
 
- it doesnt matter what window mgr you running under, you can use the X
+ it doesnt matter what window mgr you running under, you can use the x
  routine:
- 	XIconfiyWindow(display, w, screen_number)
- 		Display *display;
- 		Window w;
+ 	xiconfiywindow(display, w, screen_number)
+ 		display *display;
+ 		window w;
  		int screen_number;
  
  as in
  
- 	XiconifyWindow( XtDisplay(w), XtWindow(w), 0);
+ 	xiconifywindow( xtdisplay(w), xtwindow(w), 0);
  
  does that perform what you want??
  
  
- In article <C5IFJ0.F2u@csn.org> doomer@teal.csn.org (John Dumais) writes:
+ in article <c5ifj0.f2u@csn.org> doomer@teal.csn.org (john dumais) writes:
  
-    Newsgroups: comp.windows.x
-    Path: shearson.com!uupsi!psinntp!uunet!haven.umd.edu!darwin.sura.net!wupost!zaphod.mps.ohio-state.edu!magnus.acs.ohio-state.edu!csn!teal.csn.org!doomer
-    From: doomer@teal.csn.org (John Dumais)
-    Sender: news@csn.org (news)
-    Nntp-Posting-Host: teal.csn.org
-    Organization: Colorado SuperNet, Inc.
-    X-Newsreader: Tin 1.1 PL4
-    Date: Thu, 15 Apr 1993 05:35:22 GMT
-    Lines: 8
+    newsgroups: comp.windows.x
+    path: shearson.com!uupsi!psinntp!uunet!haven.umd.edu!darwin.sura.net!wupost!zaphod.mps.ohio-state.edu!magnus.acs.ohio-state.edu!csn!teal.csn.org!doomer
+    from: doomer@teal.csn.org (john dumais)
+    sender: news@csn.org (news)
+    nntp-posting-host: teal.csn.org
+    organization: colorado supernet, inc.
+    x-newsreader: tin 1.1 pl4
+    date: thu, 15 apr 1993 05:35:22 gmt
+    lines: 8
  
-    I've been trying to figure a way to programmatically iconize 
-    an application running under a Motif window manager.  I have tried
+    i've been trying to figure a way to programmatically iconize 
+    an application running under a motif window manager.  i have tried
     several approaches includeing sending events to the application's
-    border window, but to no avail?  Anyone done this before?
+    border window, but to no avail?  anyone done this before?
  
-    Thanks,
+    thanks,
  
     doomer '85
  --
  -------------------------------------------------------------------------------
- Joe Bore					 | "Life is Short...Code Hard"
- jbore@Shearson.COM | ...!uunet!shearson.com!jbore| 
- (212)464-3431, Beeper:  (212)396-4248		 |
+ joe bore					 | "life is short...code hard"
+ jbore@shearson.com | ...!uunet!shearson.com!jbore| 
+ (212)464-3431, beeper:  (212)396-4248		 |
  

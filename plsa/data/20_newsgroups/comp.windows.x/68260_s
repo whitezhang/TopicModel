@@ -1,23 +1,23 @@
 
- In article <3032@cronos.metaphor.com> mlt@blues.infores.com (Michael Turok) writes:
+ in article <3032@cronos.metaphor.com> mlt@blues.infores.com (michael turok) writes:
  
-    We have a problem with 'makedepend': it doesn't know how to correctly process
-    #if clause in C preprocessor statements. It evaluates everything to
+    we have a problem with 'makedepend': it doesn't know how to correctly process
+    #if clause in c preprocessor statements. it evaluates everything to
     true no matter what the conditionals are.
  
     [...]
  
-    Has anybody come up with some solution/fix to 'makdepend' other than
-    WriteYourOwnParser... and willing to share it with us?
+    has anybody come up with some solution/fix to 'makdepend' other than
+    writeyourownparser... and willing to share it with us?
  
- rewrite 'makedepend' to use 'cc -M' or 'gcc -M' or 'gcc -MM' (which is
- the one I prefer, since system headers don't change that often) for
+ rewrite 'makedepend' to use 'cc -m' or 'gcc -m' or 'gcc -mm' (which is
+ the one i prefer, since system headers don't change that often) for
  generating the actual dependencies.  you'll still need to write the
- parts that edit the actual Makefile.  I think there's a program in the
- Berkeley distributions called mkdep that will do essentially this.
+ parts that edit the actual makefile.  i think there's a program in the
+ berkeley distributions called mkdep that will do essentially this.
  --
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
- Vivek Khera, Gradual Student/Systems Guy  Department of Computer Science
- Internet:   khera@cs.duke.edu             Box 90129
-             (MIME mail accepted)          Durham, NC 27708-0129 (919)660-6528
+ vivek khera, gradual student/systems guy  department of computer science
+ internet:   khera@cs.duke.edu             box 90129
+             (mime mail accepted)          durham, nc 27708-0129 (919)660-6528
  

@@ -1,30 +1,30 @@
 
  
- Posted on behalf of Craig Southeren who does not have access to
+ posted on behalf of craig southeren who does not have access to
  a net account:
  -------------------------------------------------------------------
  
- Can anyone provide me with a colour space transform that would
- emulate the effects of red/green colour blindness? I have had
+ can anyone provide me with a colour space transform that would
+ emulate the effects of red/green colour blindness? i have had
  a quick look in the computer graphics literature with no results.
- Perhaps someone who has access to medical information could help?
+ perhaps someone who has access to medical information could help?
  
- I would like to write a program (probably a PPM filter) to allow
+ i would like to write a program (probably a ppm filter) to allow
  previewing of images to check for sufficient contract for colour
- blind users. Not being colour blind myself, this is a bit difficult!
+ blind users. not being colour blind myself, this is a bit difficult!
  
- Please email replies - I will summarise and repost if there is
+ please email replies - i will summarise and repost if there is
  sufficient interest
  
-     Craig
+     craig
  
  
  ---------------------------------------------------------------------
- Craig Southeren                      |  "You can have it good, cheap,
- Chief Engineer,                      |   or fast. Any two."
- Picture Start Productions            |      Arthur C. Clarke
- email: c/- geoffw@ucc.su.OZ.AU       | 
- phone: +61 2 959 5550                |  "Educate - don't legislate"
+ craig southeren                      |  "you can have it good, cheap,
+ chief engineer,                      |   or fast. any two."
+ picture start productions            |      arthur c. clarke
+ email: c/- geoffw@ucc.su.oz.au       | 
+ phone: +61 2 959 5550                |  "educate - don't legislate"
  ---------------------------------------------------------------------
  
  

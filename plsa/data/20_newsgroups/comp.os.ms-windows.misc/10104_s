@@ -1,16 +1,16 @@
 
- Hi,
+ hi,
  
- 	I've got an older 386/25 motherboard (old as in, uses a 1988
+ 	i've got an older 386/25 motherboard (old as in, uses a 1988
  keyboard controller, and uses memory interleaving rather than caching).
- It has developed a problem where trying to copy files from floppy cause
+ it has developed a problem where trying to copy files from floppy cause
  the machine to lock up (reset button required), but only when in 386
- enhanced mode.  This occurs in Norton Desktop, File Manager, and when
- trying to install software.  Running Win 3.1 in standard mode works fine.
+ enhanced mode.  this occurs in norton desktop, file manager, and when
+ trying to install software.  running win 3.1 in standard mode works fine.
  
- 	Has anyone run into this?  Any ideas?  Much thanks appreciated.
+ 	has anyone run into this?  any ideas?  much thanks appreciated.
  
- David
+ david
  yon@world.std.com
  
  

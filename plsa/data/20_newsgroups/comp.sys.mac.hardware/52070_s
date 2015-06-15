@@ -1,37 +1,37 @@
 
  
   +--------------+ 
-  ||+----------+ |           Are                    +-------------+
-  ||| All The  | |          there                   | ===========+|
-  ||| PC News  | |           any?                   |' Mac SE    ||
-  ||| That Fit | |            |                     |'        or ||
-  ||| on TV    | |            |                     |' Classic   ||
+  ||+----------+ |           are                    +-------------+
+  ||| all the  | |          there                   | ===========+|
+  ||| pc news  | |           any?                   |' mac se    ||
+  ||| that fit | |            |                     |'        or ||
+  ||| on tv    | |            |                     |' classic   ||
   ||+----------+ |            v                     |' [68000]   ||
   ||||||||||||||||=--+  +---------+                 |'- - - - - -+|
-  ++-------+++++++   +--+   Frame |   +--------+    | ______::::::|
-  | [video]'""""'|=--+  | Grabber |   | Mac    +---=| ------======|
-  |________LLLLLL|      |   Board +---+ Vision |    |||||||||||||||
+  ++-------+++++++   +--+   frame |   +--------+    | ______::::::|
+  | [video]'""""'|=--+  | grabber |   | mac    +---=| ------======|
+  |________llllll|      |   board +---+ vision |    |||||||||||||||
   ~~            ~~      +=========+   +========+    |||||||||||||||
   _____________________________________________________________________
  
-  I know of several NuBus frame-grabber boards but wonder if there
-  might be similar ones for the lesser Macs (those without slots),
-  something permitting instant freezing of a video picture (PAL) 
+  i know of several nubus frame-grabber boards but wonder if there
+  might be similar ones for the lesser macs (those without slots),
+  something permitting instant freezing of a video picture (pal) 
   and feeding it in without jaggies to a simple digitizer like 
-  MacVision (which takes 22 secs to scan a picture, so a frame
+  macvision (which takes 22 secs to scan a picture, so a frame
   grabber is a necessity). 
  
-  The objective is 512*342 1bit/ pixel (B/W) pictures stored in
-  HyperCard... have tried using top-quality VCR with freeze-frame
+  the objective is 512*342 1bit/ pixel (b/w) pictures stored in
+  hypercard... have tried using top-quality vcr with freeze-frame
   function but the screens come out full of streaks and garbage.
  
-     PLEASE reply ONLY to ----------> ianf@random.se
-       and I'll summarize
+     please reply only to ----------> ianf@random.se
+       and i'll summarize
        to the net (cannot
     read such high-volume
-     group as is c.s.m.h)             Thanks!
+     group as is c.s.m.h)             thanks!
  
  
- __Ian "hit (R) now" Feldman <ianf@random.se>
+ __ian "hit (r) now" feldman <ianf@random.se>
  
  

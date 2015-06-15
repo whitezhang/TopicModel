@@ -1,31 +1,31 @@
 
- Let's fill in some winners here:
+ let's fill in some winners here:
  
  |> 
- |> Well, since someone probably wanted to know, here's this year's playoff
+ |> well, since someone probably wanted to know, here's this year's playoff
  |> matchups on the left, and what the matchups would be next year under the
- |> new alignment and playoff-matchup rules.  The same 16 teams make the playoffs
+ |> new alignment and playoff-matchup rules.  the same 16 teams make the playoffs
  |> under next year's rules, and three of the first round matchups are the same
- |> (QUE-MTL, CHI-STL, VAN-WIN).
+ |> (que-mtl, chi-stl, van-win).
  |> 
- |> PIT --+                      +-- CHI | PIT --+                      +-- CHI
- |>       +PIT+              +CHI+       |       +---+              +---+
- |> NJ  --+   |              |   +-- STL | BUF --+   |              |   +-- STL
- |>           +NYI+      +DET+           |           +---+      +---+
- |> WAS --+   |   |      |   |   +-- DET | QUE --+   |   |      |   |   +-- TOR
- |>       +NYI+   |      |   +DET+       |       +---+   |      |   +---+
- |> NYI --+       | *BOS*|       +-- TOR | MTL --+       |      |       +-- CAL
+ |> pit --+                      +-- chi | pit --+                      +-- chi
+ |>       +pit+              +chi+       |       +---+              +---+
+ |> nj  --+   |              |   +-- stl | buf --+   |              |   +-- stl
+ |>           +nyi+      +det+           |           +---+      +---+
+ |> was --+   |   |      |   |   +-- det | que --+   |   |      |   |   +-- tor
+ |>       +nyi+   |      |   +det+       |       +---+   |      |   +---+
+ |> nyi --+       | *bos*|       +-- tor | mtl --+       |      |       +-- cal
  |>               +------+               |               +------+
- |> BOS --+       |  DET |       +-- VAN | WAS --+       |      |       +-- VAN
- |>       +BOS+   |      |   +VAN+       |       +---+   |      |   +---+
- |> BUF --+   |   |      |   |   +-- WIN | NJ  --+   |   |      |   |   +-- WIN
- |>           +BOS+      +VAN+           |           +---+      +---+
- |> QUE --+   |              |   +-- CAL | BOS --+   |              |   +-- DET
- |>       +QUE+              +CAL+       |       +---+              +---+
- |> MTL --+                      +-- LA  | NYI --+                      +-- LA
+ |> bos --+       |  det |       +-- van | was --+       |      |       +-- van
+ |>       +bos+   |      |   +van+       |       +---+   |      |   +---+
+ |> buf --+   |   |      |   |   +-- win | nj  --+   |   |      |   |   +-- win
+ |>           +bos+      +van+           |           +---+      +---+
+ |> que --+   |              |   +-- cal | bos --+   |              |   +-- det
+ |>       +que+              +cal+       |       +---+              +---+
+ |> mtl --+                      +-- la  | nyi --+                      +-- la
  |> 
  
- Just my thoughts,
- Chris
+ just my thoughts,
+ chris
  downec@rpi.edu
  

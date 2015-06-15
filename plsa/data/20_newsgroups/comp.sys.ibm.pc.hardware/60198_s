@@ -1,25 +1,25 @@
 
- In article <1qegfd$dqi@wsinis03.info.win.tue.nl> monty@wsinis03.info.win.tue.nl (Guido Leenders) writes:
- >Hi,
+ in article <1qegfd$dqi@wsinis03.info.win.tue.nl> monty@wsinis03.info.win.tue.nl (guido leenders) writes:
+ >hi,
  >
- >Is it possible to use an ESDI-controller with HDD together with an
- >IDE-harddisk + controller in one ISA-system?
+ >is it possible to use an esdi-controller with hdd together with an
+ >ide-harddisk + controller in one isa-system?
  >
- >I've read stuff about secondary controllers. Does this trick work?
+ >i've read stuff about secondary controllers. does this trick work?
  >
- >Thanx in advance,
+ >thanx in advance,
  >
- >Guido
+ >guido
  >monty@win.tue.nl
  
- I have the same question as Guido. It is possible to use the ESDI drive as a master and the IDE drive as the slave ? 
- At the moment , I have been using the ESDI drive and recently I bought a IDE drive to use as the 2nd drive . 
- The person in the computer shop told me that it is not possible to run 2 disk controller cards together on the same motherboard ( ESDI AND IDE ) but I think there might be some way of making them work. Can anybody enlighten me on this?
- And it is possible to  run a ESDI HDD using a IDE controller? or vice versa?
- Can anybody please help me out on this?
- Your help will be very much appreciated.
+ i have the same question as guido. it is possible to use the esdi drive as a master and the ide drive as the slave ? 
+ at the moment , i have been using the esdi drive and recently i bought a ide drive to use as the 2nd drive . 
+ the person in the computer shop told me that it is not possible to run 2 disk controller cards together on the same motherboard ( esdi and ide ) but i think there might be some way of making them work. can anybody enlighten me on this?
+ and it is possible to  run a esdi hdd using a ide controller? or vice versa?
+ can anybody please help me out on this?
+ your help will be very much appreciated.
  
- G.Chow
+ g.chow
  
  els390r@fawlty1.eng.monash.edu.au
  els390r@mdw013.cc.monash.edu.au

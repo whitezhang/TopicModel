@@ -1,6 +1,6 @@
 
- Can people please send me any hints on building X11R5 with gcc 2.3.3 ?  Is
- there any pitfalls to be avoided ?  Any hints ?  I would appreciate hearing other
+ can people please send me any hints on building x11r5 with gcc 2.3.3 ?  is
+ there any pitfalls to be avoided ?  any hints ?  i would appreciate hearing other
  peoples' stories on this.
  
  --tim
@@ -8,11 +8,11 @@
  
  -- 
  ________________________________________________________________________________
-   Tim Liddelow                                          for(;;) fork();
-   Systems Programmer
-   Centre of Advanced Technology in Telecommunications   My brain on a bad day.
-   CITRI, Melbourne, Australia                           
+   tim liddelow                                          for(;;) fork();
+   systems programmer
+   centre of advanced technology in telecommunications   my brain on a bad day.
+   citri, melbourne, australia                           
    internet : tim@kimba.catt.citri.edu.au                
-   Phone : +61 3 282 2455   Fax : +61 3 282 2444	        
+   phone : +61 3 282 2455   fax : +61 3 282 2444	        
  ________________________________________________________________________________
  

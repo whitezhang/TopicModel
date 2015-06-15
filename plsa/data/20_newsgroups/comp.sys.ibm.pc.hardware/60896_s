@@ -1,60 +1,60 @@
 
- It seems that there are a lot of questions regarding the Cyrix 386 compatible
- 486DLC and 486DRU2.  My info comes directly from Cyrix's Fast Fax service:
- And also from installing one of these chips in an IBM Model 80.
+ it seems that there are a lot of questions regarding the cyrix 386 compatible
+ 486dlc and 486dru2.  my info comes directly from cyrix's fast fax service:
+ and also from installing one of these chips in an ibm model 80.
  
- The 486DLC is a 486 instruction set compatible CPU which fits into a 386DX
- socket (Pin Grid Array, or PGA).  The DLC currently is available in 3 speeds.
- the 25, the 33, and the 40.  They do not have a coprocessor on board, but any
- software query will return coproc as present.  I guess they emulate the
- coproc instructions.  Math functions are on the 386DX level without the
+ the 486dlc is a 486 instruction set compatible cpu which fits into a 386dx
+ socket (pin grid array, or pga).  the dlc currently is available in 3 speeds.
+ the 25, the 33, and the 40.  they do not have a coprocessor on board, but any
+ software query will return coproc as present.  i guess they emulate the
+ coproc instructions.  math functions are on the 386dx level without the
  actual coprocessor.
  
- The internal cache on the 486DLC is 1K.  Cyrix literature claims a 85% hit
- rate.  My informal tests show that the cache accounts for a 10% performance
- boost when it is enabled by software.  Overall performance boost from a
- 386DX-25 to a 486DLC-25 is about 60%.  The benchmarks I used were NU SI and
- QAPlus Dhrystones and Whetstones.  The performance, with the cache enabled,
- is about on a par with my 386DX-40 with 256K external CPU cache, which is
- around the performance for a 486SX-25.  The computer runs noticebly faster,
- and DOS 6 with Dblspace is not complaining.  The company claims OS/2
- compatibility, but I didn't test it.
+ the internal cache on the 486dlc is 1k.  cyrix literature claims a 85% hit
+ rate.  my informal tests show that the cache accounts for a 10% performance
+ boost when it is enabled by software.  overall performance boost from a
+ 386dx-25 to a 486dlc-25 is about 60%.  the benchmarks i used were nu si and
+ qaplus dhrystones and whetstones.  the performance, with the cache enabled,
+ is about on a par with my 386dx-40 with 256k external cpu cache, which is
+ around the performance for a 486sx-25.  the computer runs noticebly faster,
+ and dos 6 with dblspace is not complaining.  the company claims os/2
+ compatibility, but i didn't test it.
  
- The 486DRU2 is not a chip, as commonly thought.  The 486DRU2 is actually
- a small daughterboard slightly larger than the 386DX, which contains
- the logic to manage the clock doubler.  This board plugs into the 386DX
- PGA, and the 486DLC-33 or 40 plugs into this board.  I guess the board
- doubles the frequency apparent to the CPU, and insert wait states when 
- access to the rest of the system is required.  There are no info available
- from Cyrix there.  Anyway, the DRU2 is available for 386DX-16, and 386DX-20
- only.  Double these clock rates, and you get the 32MHZ and the 40MHZ DLCs.
- If Cyrix is planning to do the same thing for the DRU2-50, then they need
- to put out the 50MHz DLC2 first...
+ the 486dru2 is not a chip, as commonly thought.  the 486dru2 is actually
+ a small daughterboard slightly larger than the 386dx, which contains
+ the logic to manage the clock doubler.  this board plugs into the 386dx
+ pga, and the 486dlc-33 or 40 plugs into this board.  i guess the board
+ doubles the frequency apparent to the cpu, and insert wait states when 
+ access to the rest of the system is required.  there are no info available
+ from cyrix there.  anyway, the dru2 is available for 386dx-16, and 386dx-20
+ only.  double these clock rates, and you get the 32mhz and the 40mhz dlcs.
+ if cyrix is planning to do the same thing for the dru2-50, then they need
+ to put out the 50mhz dlc2 first...
  
- I also tested a DLC33 motherboard, along with a Cyrix Coprocessor.  With 64K
+ i also tested a dlc33 motherboard, along with a cyrix coprocessor.  with 64k
  external cache, performance were about 30% faster than the 25, but still
- significantly (25%?) slower than an actual Intel 486DX.
+ significantly (25%?) slower than an actual intel 486dx.
  
- IMHO, the DLC is a great, low price upgrade for people who can't afford, or
- can't install, a new motherboard.  It is definitely worth what I paid for it,
- but if you need 486DX-33 performance, the DLC33 won't cut it.  I'm not sure
- about the DLC-40, but I think even if it matches the performance, it won't
+ imho, the dlc is a great, low price upgrade for people who can't afford, or
+ can't install, a new motherboard.  it is definitely worth what i paid for it,
+ but if you need 486dx-33 performance, the dlc33 won't cut it.  i'm not sure
+ about the dlc-40, but i think even if it matches the performance, it won't
  beat it in any significant way.
  
- The last time I posted info about the DLC, people sent quite a bit of mail,
- asking where I got it.  So here is where I got mine:
+ the last time i posted info about the dlc, people sent quite a bit of mail,
+ asking where i got it.  so here is where i got mine:
  
- Treasure Chest peripherals, they advertise in the Computer Shopper.
+ treasure chest peripherals, they advertise in the computer shopper.
  1-800-677-9781
- The 486DLC-25 kit was $179.00
+ the 486dlc-25 kit was $179.00
  
- But....
+ but....
  
- I liked the chip so much that I found the supplier, and became a dealer.
- If you are interested in the chip, e-mail me, and I can fax or mail you
- more info.   I'm well aware of the net's policy against commercial use,
- So I can;t post anymore info here.  However, if there are more questions
- regarding the 486DLC itself, I'll post what I can.
+ i liked the chip so much that i found the supplier, and became a dealer.
+ if you are interested in the chip, e-mail me, and i can fax or mail you
+ more info.   i'm well aware of the net's policy against commercial use,
+ so i can;t post anymore info here.  however, if there are more questions
+ regarding the 486dlc itself, i'll post what i can.
  
  jamesc
  909-396-0408
@@ -62,5 +62,5 @@
  
  -- 
  =========================================
- If someone asks if you are a God, you say... YES!
+ if someone asks if you are a god, you say... yes!
  

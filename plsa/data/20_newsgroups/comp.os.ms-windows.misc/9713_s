@@ -1,14 +1,14 @@
 
- baseball@catch-the-fever.scd.ucar.edu (Gregg Walters) writes:
+ baseball@catch-the-fever.scd.ucar.edu (gregg walters) writes:
  
- >I have 16MB of memory on my 386SX.  I have been running Windows
- >without a swap file for several months.  Will Mathcad 4.0 be
+ >i have 16mb of memory on my 386sx.  i have been running windows
+ >without a swap file for several months.  will mathcad 4.0 be
  >happy with this, or insist on a swap file?
  
- Presumeably, you mean without a _permanent_ swap file. If Windows needs a
+ presumeably, you mean without a _permanent_ swap file. if windows needs a
  swap file, it will upo and create one if a permanent one doesn't exist.
- Permanent is generally faster though. I don't know why Mathcad wouldn't
- be happy with either type--Ver. 3.0 is and so should any program conforming
- to the Win specification.
+ permanent is generally faster though. i don't know why mathcad wouldn't
+ be happy with either type--ver. 3.0 is and so should any program conforming
+ to the win specification.
  
  

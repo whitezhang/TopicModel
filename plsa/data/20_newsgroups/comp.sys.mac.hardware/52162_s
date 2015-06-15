@@ -1,30 +1,30 @@
 
- In article <moyman-220493093234@jonathan.ecn.purdue.edu> Mike Moya,
+ in article <moyman-220493093234@jonathan.ecn.purdue.edu> mike moya,
  moyman@ecn.purdue.edu writes:
- >What is the real story here? Can I hook up any PC SVGA Montitor to the
- >Centris internal video? Do I need to make my own cable if it doesn't not
- >come with one? Has apple released a Tech note with the pinouts for doing
- >such? The reasoj I ask is that it seems the prices for SVGA are lower
+ >what is the real story here? can i hook up any pc svga montitor to the
+ >centris internal video? do i need to make my own cable if it doesn't not
+ >come with one? has apple released a tech note with the pinouts for doing
+ >such? the reasoj i ask is that it seems the prices for svga are lower
  than
  >that of their mac counterparts...
  
- First of all, I wouldn't advise wasting your time with Apple.  They'll
+ first of all, i wouldn't advise wasting your time with apple.  they'll
  treat you like an idiot and you won't get any answers (a personal
  opinion).
  
- The safest thing to do is match the SVGA monitor's scanning rates with
- Apple's rates.  I don't know Apple's video scanning rates, but I use the
- Micron Xceed 30's rates, as they're a good approximation.
+ the safest thing to do is match the svga monitor's scanning rates with
+ apple's rates.  i don't know apple's video scanning rates, but i use the
+ micron xceed 30's rates, as they're a good approximation.
  
- About cables: you just have to go out to someplace like Fry's and get a
- few Mac-VGA cables and try them out.  I have a ViewSonic 5E (14") and I
- use an NEC adaptor.  Other monitors may use other adaptors.  I also have
- a Mac->832x624 adaptor that tricks System into thinking the monitor is an
- Apple 16".  I need to readjust the vertical and horizontal sizes but it
+ about cables: you just have to go out to someplace like fry's and get a
+ few mac-vga cables and try them out.  i have a viewsonic 5e (14") and i
+ use an nec adaptor.  other monitors may use other adaptors.  i also have
+ a mac->832x624 adaptor that tricks system into thinking the monitor is an
+ apple 16".  i need to readjust the vertical and horizontal sizes but it
  works fairly well.
  
- 	"Just like everything else in life, the right lane ends in half a mile."
+ 	"just like everything else in life, the right lane ends in half a mile."
  
- Ravi Konchigeri.
+ ravi konchigeri.
  mongoose@leland.stanford.edu
  

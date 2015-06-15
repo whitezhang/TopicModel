@@ -1,61 +1,61 @@
 
- In article <1r6omsINNnbk@ctron-news.ctron.com> smith@ctron.com writes:
- >In article <gfpftjW00iV3Q3vWYv@andrew.cmu.edu>, "Daniel U. Holbrook" <dh3q+@andrew.cmu.edu> writes:
- >>>These are the extensions I know of
- >>>ch   Switzerland
- >>>se   Sweden
- >>>fi   Finland
- >>>uk   UK
- >>>Com  US?
- >>>Edu  US?     (are both com and edu US?) 
- >>>fr   France
+ in article <1r6omsinnnbk@ctron-news.ctron.com> smith@ctron.com writes:
+ >in article <gfpftjw00iv3q3vwyv@andrew.cmu.edu>, "daniel u. holbrook" <dh3q+@andrew.cmu.edu> writes:
+ >>>these are the extensions i know of
+ >>>ch   switzerland
+ >>>se   sweden
+ >>>fi   finland
+ >>>uk   uk
+ >>>com  us?
+ >>>edu  us?     (are both com and edu us?) 
+ >>>fr   france
  >>dk    denmark
- >>no    Norway
+ >>no    norway
  >
- >.com and .edu are both United States, one refers to commercial institutions,
- >the other to mental - I mean, "educational" - institutions.  .gov is also
- >pretty much US, it refers to government institutions.  Internet was built on
- >the AARP backbone, a US Defense contractor network that used the extension
+ >.com and .edu are both united states, one refers to commercial institutions,
+ >the other to mental - i mean, "educational" - institutions.  .gov is also
+ >pretty much us, it refers to government institutions.  internet was built on
+ >the aarp backbone, a us defense contractor network that used the extension
  
- I think you mean ARPA; AARP is the American Association of Retired Persons,
- and I seriously doubt that they'd want young whippersnappers building
+ i think you mean arpa; aarp is the american association of retired persons,
+ and i seriously doubt that they'd want young whippersnappers building
  anything on their backbones, what with de-calcification and all :-)
  
- >to identify the type of organisation.  Internet extended the convention for
- >other countries, but the US retained the old conventions.
+ >to identify the type of organisation.  internet extended the convention for
+ >other countries, but the us retained the old conventions.
  
- The general convention is that if it doesn't have a country tag on it, it's
- a US site. That includes:
+ the general convention is that if it doesn't have a country tag on it, it's
+ a us site. that includes:
  	.com	commercial 
  	.edu	educational 
- 	.mil	US Military sites 
- 	.gov	US Gov't non-military sites (eg NASA sites)
+ 	.mil	us military sites 
+ 	.gov	us gov't non-military sites (eg nasa sites)
  	.org	anyone who is "none of the above"
- There are sites with such tags that are non-US sites, but they will have
- the country extension (eg xxxx.edu.au is an extension I saw today).
- US sites can also use the .us extension, but, as Mr. Smith pointed 
- out, the Internet was built on the ARPANet backbone, and they default
- to US sites if there's no country code.
+ there are sites with such tags that are non-us sites, but they will have
+ the country extension (eg xxxx.edu.au is an extension i saw today).
+ us sites can also use the .us extension, but, as mr. smith pointed 
+ out, the internet was built on the arpanet backbone, and they default
+ to us sites if there's no country code.
  
- I would suggest that anyone who didn't know this (or wants to know
+ i would suggest that anyone who didn't know this (or wants to know
  more about it on a non-system-administrative level) check out
- the book _The_Whole_Internet_User's_Guide_and_Catalog_ by Ed Krol.
- (or is it Catalog and User's Guide? I can never remember, and my copy
- is my desk at home...). It's a very good not-necessarily-technical
- guide to the Internet and the various utilities that lurk on it (including
- USENET). I don't think it's part of the Nutshell series, but it is
- published by O'Reilly and Associates.
+ the book _the_whole_internet_user's_guide_and_catalog_ by ed krol.
+ (or is it catalog and user's guide? i can never remember, and my copy
+ is my desk at home...). it's a very good not-necessarily-technical
+ guide to the internet and the various utilities that lurk on it (including
+ usenet). i don't think it's part of the nutshell series, but it is
+ published by o'reilly and associates.
  
- This should go to one of the news.* newsgroups, but damned if I
+ this should go to one of the news.* newsgroups, but damned if i
  can figure out which one.... :-)
  
- 				James
+ 				james
  
- James P. Callison    Microcomputer Coordinator, U of Oklahoma Law Center 
- Callison@uokmax.ecn.uoknor.edu   /\    Callison@aardvark.ucs.uoknor.edu   
- DISCLAIMER: I'm not an engineer, but I play one at work...
- 		The forecast calls for Thunder...'89 T-Bird SC
-    "It's a hell of a thing, killing a man. You take away all he has 
+ james p. callison    microcomputer coordinator, u of oklahoma law center 
+ callison@uokmax.ecn.uoknor.edu   /\    callison@aardvark.ucs.uoknor.edu   
+ disclaimer: i'm not an engineer, but i play one at work...
+ 		the forecast calls for thunder...'89 t-bird sc
+    "it's a hell of a thing, killing a man. you take away all he has 
  	and all he's ever gonna have." 
- 			--Will Munny, "Unforgiven"
+ 			--will munny, "unforgiven"
  

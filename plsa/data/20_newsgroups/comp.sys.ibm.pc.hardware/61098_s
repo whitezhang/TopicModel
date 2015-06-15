@@ -1,17 +1,17 @@
 
  
- In article <1993Apr22.042310.39296@ns1.cc.lehigh.edu> you write:
+ in article <1993apr22.042310.39296@ns1.cc.lehigh.edu> you write:
  
- > What's the difference between a 16550 UART and a 16550A UART? Thanks!
+ > what's the difference between a 16550 uart and a 16550a uart? thanks!
  
- The difference is that the 16550 got bugs while the 16550A can be used
- whithout problems even in fast serial communications. Other sources
- say that only the 16550AFN from Nat Semi (i.e. not: second sources)
- is really OK.
+ the difference is that the 16550 got bugs while the 16550a can be used
+ whithout problems even in fast serial communications. other sources
+ say that only the 16550afn from nat semi (i.e. not: second sources)
+ is really ok.
  
- Best wishes
+ best wishes
  
- Oliver
+ oliver
  
  
  

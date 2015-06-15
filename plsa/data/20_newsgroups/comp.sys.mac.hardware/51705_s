@@ -1,34 +1,34 @@
 
- A week or so ago, I posted about a problem with my SE/30:  I have 20 megs
- or true RAM, yet if I set my extensions to use a large amount of memory
+ a week or so ago, i posted about a problem with my se/30:  i have 20 megs
+ or true ram, yet if i set my extensions to use a large amount of memory
  (total of all extensions) then my system will crash before the finder
- comes up.  What I meant was having a large amount of fonts load, or
- sounds, or huge disk caches with a control panel other than Apple's
- memory control panel.  Apple's cache is at 64K, mode 32 is on, and
- so is 32 bit addressing.  All extensions work by themselves or with the
- others until I increase the memory used by some of them (with methods
+ comes up.  what i meant was having a large amount of fonts load, or
+ sounds, or huge disk caches with a control panel other than apple's
+ memory control panel.  apple's cache is at 64k, mode 32 is on, and
+ so is 32 bit addressing.  all extensions work by themselves or with the
+ others until i increase the memory used by some of them (with methods
  mentioned above).
  
- Well, here's my latest followup...  I ran NOWs System Profile and got
+ well, here's my latest followup...  i ran nows system profile and got
  this information:
  
- %%% Memory info %%%
+ %%% memory info %%%
  
- Physical RAM size: 20480K.
- Logical RAM size: 20480K.
- Size of Low Memory Area: 8K.
- Virtual Memory: Inactive.
- Addressing mode: 32bit mode in use.
- 32 bit System zone: Absent.
- Parity RAM: Not capable.
- Growable System Heap: True.
- Temporary memory support: Present.
- Tempory Memory Support: Real and tracked.
+ physical ram size: 20480k.
+ logical ram size: 20480k.
+ size of low memory area: 8k.
+ virtual memory: inactive.
+ addressing mode: 32bit mode in use.
+ 32 bit system zone: absent.
+ parity ram: not capable.
+ growable system heap: true.
+ temporary memory support: present.
+ tempory memory support: real and tracked.
  
- Note that 32 bit System zone is absent.  Could this be the problem?
- How can I turn this on?  Any ideas?
+ note that 32 bit system zone is absent.  could this be the problem?
+ how can i turn this on?  any ideas?
  
- Can anyone help?
+ can anyone help?
  
- Ken
+ ken
  

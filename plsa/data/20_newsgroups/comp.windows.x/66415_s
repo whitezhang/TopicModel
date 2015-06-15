@@ -1,21 +1,21 @@
 
- I need to have PCs and SPARCstations run the same application ( namely
- MicroSoft Project ). The original system ran on the PC. Now it needs to
- be expanded to allow UNIX users to work with the application. The
- current proposal is to use DESQview/X as a display server for the
+ i need to have pcs and sparcstations run the same application ( namely
+ microsoft project ). the original system ran on the pc. now it needs to
+ be expanded to allow unix users to work with the application. the
+ current proposal is to use desqview/x as a display server for the
  application.
  
- I would like to know your experiences with using DESQview/X to run an
- application on a PC and displaying on a SPARCstation. I've heard that
+ i would like to know your experiences with using desqview/x to run an
+ application on a pc and displaying on a sparcstation. i've heard that
  the network traffic is slow.
  
- Replies only by e-mail please.
+ replies only by e-mail please.
  
- Thanks, in advance.
+ thanks, in advance.
  ---
                 ,__o
               _-\_<,
- ...Willie   (*)/'(*)
+ ...willie   (*)/'(*)
  willie.wilson@analog.com
  
  

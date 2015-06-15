@@ -1,38 +1,38 @@
 
- In article <1993Apr19.191531.15865@news.media.mit.edu>, dyoung@media.mit.edu (David Young) writes:
+ in article <1993apr19.191531.15865@news.media.mit.edu>, dyoung@media.mit.edu (david young) writes:
  
    :
    :
  
- |>    XSetFunction( myDisplay, gc, GXxor);
- |>    XSetForeground( myDisplay, gc, drawIndex);
+ |>    xsetfunction( mydisplay, gc, gxxor);
+ |>    xsetforeground( mydisplay, gc, drawindex);
  |> 
- |> Then to draw I do:
+ |> then to draw i do:
  |> 
- |>    XDrawLine( myDisplay, XtWindow( drawingArea1), gc, x1, y1, x2, y2);
- |>    XFlush( myDisplay);
+ |>    xdrawline( mydisplay, xtwindow( drawingarea1), gc, x1, y1, x2, y2);
+ |>    xflush( mydisplay);
  |> 
- |> And when I'm all done, to return things to normal I do:
+ |> and when i'm all done, to return things to normal i do:
  |> 
- |>    XSetFunction( myDisplay, gc, GXcopy);
+ |>    xsetfunction( mydisplay, gc, gxcopy);
  |> 
  |> 
- |> What I'd like to happen is for the lines I draw to be the inverse of
- |> whatever I'm drawing over.  Instead what happens is I get white lines.  If
- |> the lines are over a white background - nothing shows up.  If the lines are
- |> over a black area - nothing shows up!  It's very strange.  But the GXxor
- |> function seems right - since if I do a rubber-banding box, it erases and
+ |> what i'd like to happen is for the lines i draw to be the inverse of
+ |> whatever i'm drawing over.  instead what happens is i get white lines.  if
+ |> the lines are over a white background - nothing shows up.  if the lines are
+ |> over a black area - nothing shows up!  it's very strange.  but the gxxor
+ |> function seems right - since if i do a rubber-banding box, it erases and
  |> redraws itself correctly (ie. not disturbing the underlying image).
  |> 
- |> Any suggestions what I'm doing wrong?
+ |> any suggestions what i'm doing wrong?
  |> 
  |> david
  
  
-    Try change the GXxor to GXequiv.  I have to do this for programs that
-    are to run on NCD terminals (on Sun terminals I have to change it
-    back to GXxor)...
+    try change the gxxor to gxequiv.  i have to do this for programs that
+    are to run on ncd terminals (on sun terminals i have to change it
+    back to gxxor)...
  
  
- Kurt.
+ kurt.
  

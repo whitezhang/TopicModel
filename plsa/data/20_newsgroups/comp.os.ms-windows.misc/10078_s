@@ -1,54 +1,54 @@
 
- I don't know much about computers, so please bear with me. Here's my question:
+ i don't know much about computers, so please bear with me. here's my question:
  
- CONTEXT: I use a package called SLIP on my home computer to connect to the
-          university mainframe (an IBM 3090 running VMS/MVS), and log on to my
-          account. When I installed SLIP on my computer, I had to configure it
-          for my modem (14.4 kbs Etronics internal) and had to supply the phone
-          number to dial to reach the mainframe. The way it works now is that
-          I type "telnet uicvm" or "tn3270 uicvm" (either will work) at the DOS
-          prompt. UICVM is the node name of the mainframe. The program then
+ context: i use a package called slip on my home computer to connect to the
+          university mainframe (an ibm 3090 running vms/mvs), and log on to my
+          account. when i installed slip on my computer, i had to configure it
+          for my modem (14.4 kbs etronics internal) and had to supply the phone
+          number to dial to reach the mainframe. the way it works now is that
+          i type "telnet uicvm" or "tn3270 uicvm" (either will work) at the dos
+          prompt. uicvm is the node name of the mainframe. the program then
           dials the mainframe, establishes a protocol, and gives me the logon
-          screen. "TELNET" and "TN3270" are the names of batch files in my SLIP
-          directory. I have been told that a kermit protocol is used for the
+          screen. "telnet" and "tn3270" are the names of batch files in my slip
+          directory. i have been told that a kermit protocol is used for the
           session.
  
- PROBLEM: I would like to be able to do all this under Windows 3.1 because I
-          hardly ever use DOS directly. SLIP will not run under Windows. I
+ problem: i would like to be able to do all this under windows 3.1 because i
+          hardly ever use dos directly. slip will not run under windows. i
           talked to the people at our computer center, and they suggested that
-          I use a packet driver called WINPKT.COM with SLIP. They gave me
-          instructions on how to load it before I start Windows, and how to
-          modify the TCPSTART and TCPSTOP batch files (in the SLIP directory)
-          to ensure that it would work. I did all that and I could run SLIP
-          from Windows, but there were other problems. For one thing, SLIP
-          would not hang up the phone when I exited. I had to run my communi-
+          i use a packet driver called winpkt.com with slip. they gave me
+          instructions on how to load it before i start windows, and how to
+          modify the tcpstart and tcpstop batch files (in the slip directory)
+          to ensure that it would work. i did all that and i could run slip
+          from windows, but there were other problems. for one thing, slip
+          would not hang up the phone when i exited. i had to run my communi-
           cations program to hang up the phone or reboot the computer when
-          that didn't work. For another, there were too many errors. It often
-          took me 3-4 tries to connect to the mainframe. Our computer center
-          does not support SLIP under Windows, so I can't keep going back to
+          that didn't work. for another, there were too many errors. it often
+          took me 3-4 tries to connect to the mainframe. our computer center
+          does not support slip under windows, so i can't keep going back to
           them with more questions.
  
- QUESTION: Is there some other SHAREWARE package that will run under Windows
-          and do what SLIP is supposed to do? I need a package that is not too
-          expensive, which is why I am looking for shareware. I have heard that
+ question: is there some other shareware package that will run under windows
+          and do what slip is supposed to do? i need a package that is not too
+          expensive, which is why i am looking for shareware. i have heard that
           there are regular commercial packages that do all this, but they cost
-          hundreds of dollars. These are the main requirements:
+          hundreds of dollars. these are the main requirements:
  
-          1. Must be able to run under Windows 3.1
-          2. Must allow VT100 and IBM TN3270 terminal emulation
-          3. Must allow ftp file transfers, since that's the only kind the
-             mainframe allows. No Y-modem or Z-modem etc. I believe the ftp
-             transfers are made through a kermit protocol, but I'm hazy about
+          1. must be able to run under windows 3.1
+          2. must allow vt100 and ibm tn3270 terminal emulation
+          3. must allow ftp file transfers, since that's the only kind the
+             mainframe allows. no y-modem or z-modem etc. i believe the ftp
+             transfers are made through a kermit protocol, but i'm hazy about
              that.
  
-          A subsidiary feature (that would be nice to have) if it's a true
-          Windows program (rather than a DOS program modified to run under
-          Windows) is the ability to run the session in a window concurrently
+          a subsidiary feature (that would be nice to have) if it's a true
+          windows program (rather than a dos program modified to run under
+          windows) is the ability to run the session in a window concurrently
           with other applications and to cut and paste between the telnet
           session and other applications.
  
- Any information received is appreciated.
+ any information received is appreciated.
  
- Pankaj Saxena
+ pankaj saxena
  u09416@uicvm.uic.edu
  

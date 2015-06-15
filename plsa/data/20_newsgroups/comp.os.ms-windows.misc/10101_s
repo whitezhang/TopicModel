@@ -1,46 +1,46 @@
 
- From article <C68uBG.K2w@world.std.com>, by cfw@world.std.com (Christopher F Wroten):
- > I have an EISA machine and I just do not understand why most
- > EISA video cards only match the performance of their ISA
- > counterparts. For instance, the EISA Orchid Pro Designer IIs-E is
- > only about as "fast" as the ISA Diamond SpeedStar Plus, which isn't
- > what I would call "fast."
+ from article <c68ubg.k2w@world.std.com>, by cfw@world.std.com (christopher f wroten):
+ > i have an eisa machine and i just do not understand why most
+ > eisa video cards only match the performance of their isa
+ > counterparts. for instance, the eisa orchid pro designer iis-e is
+ > only about as "fast" as the isa diamond speedstar plus, which isn't
+ > what i would call "fast."
  > 
- > I don't understand why EISA video cards aren't, as a group, on the
- > same level of performance as Local Bus cards, given that EISA video
- > cards have a 32 bit bus to move data around, instead of ISA's 8 bits.
+ > i don't understand why eisa video cards aren't, as a group, on the
+ > same level of performance as local bus cards, given that eisa video
+ > cards have a 32 bit bus to move data around, instead of isa's 8 bits.
  > 
- Good question.
- Answer: The EISA bus does move 32 bits rather than ISA's 8/(16?)
-         But it still moves it at about the speed as the ISA bus.
-         I think that's either 8 or 10 mhz.
-         The local bus designs also move 32 bits like the EISA, but
+ good question.
+ answer: the eisa bus does move 32 bits rather than isa's 8/(16?)
+         but it still moves it at about the speed as the isa bus.
+         i think that's either 8 or 10 mhz.
+         the local bus designs also move 32 bits like the eisa, but
          they move the data at the cpu speed, up to 40 mhz.
-         So, on a 33mhz cpu, the local bus is moving 32bit data at
-         33 mhz, and the EISA is moving 32bit data at 8 or 10 mhz.
-         So the local bus should be 3 to 4 times faster than EISA on
-         a 33 mhz cpu.  EISA should be about two (maybe 3) times as
-         fast as ISA.
+         so, on a 33mhz cpu, the local bus is moving 32bit data at
+         33 mhz, and the eisa is moving 32bit data at 8 or 10 mhz.
+         so the local bus should be 3 to 4 times faster than eisa on
+         a 33 mhz cpu.  eisa should be about two (maybe 3) times as
+         fast as isa.
  
- > Since they are not, why would anyone (me included) pay a higher
- > cost for a EISA video card when its performance is no better than
- > and often worse that a much cheaper ISA video board, such as a
- > Diamond SpeedStar 24X? From PC Magazine's (I think) recent report,
- > I know that ATI makes a pretty fast EISA video card, but it's
+ > since they are not, why would anyone (me included) pay a higher
+ > cost for a eisa video card when its performance is no better than
+ > and often worse that a much cheaper isa video board, such as a
+ > diamond speedstar 24x? from pc magazine's (i think) recent report,
+ > i know that ati makes a pretty fast eisa video card, but it's
  > around $500, which is just about double what my wallet will allow
- > me to spend. And, for $500, I could get a Diamond Viper and still
- > have $100 left over (of course, I'd have to get a Local Bus mother-
+ > me to spend. and, for $500, i could get a diamond viper and still
+ > have $100 left over (of course, i'd have to get a local bus mother-
  > board too...)
  > 
- That's a very good question.  The EISA bus does have more advantages
- over the ISA bus than just it's width.  For example: more/better 
- interrupts and bus mastering.  But these other factors do not impact
-  a video card very much.  They have more impact on file servers with 
+ that's a very good question.  the eisa bus does have more advantages
+ over the isa bus than just it's width.  for example: more/better 
+ interrupts and bus mastering.  but these other factors do not impact
+  a video card very much.  they have more impact on file servers with 
  multiple hard drives, full-throttle network cards, cd-roms, etc.
  
- > Can anyone shed some light on my confusion/frustration?
+ > can anyone shed some light on my confusion/frustration?
  > 
- > Thanks!   Christopher Wroten, cfw@world.std.com
+ > thanks!   christopher wroten, cfw@world.std.com
  > 
  > 
  

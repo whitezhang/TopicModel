@@ -1,22 +1,22 @@
 
- I have a MacIIFX and I know that it is wired about its SCSI chain.
+ i have a maciifx and i know that it is wired about its scsi chain.
  
- I just bought a drive and I need to find out a few hardcore SCSI question:
+ i just bought a drive and i need to find out a few hardcore scsi question:
  
- Does the IIFX SCSI chain want to see active or passive termination?
+ does the iifx scsi chain want to see active or passive termination?
  
- Does the IIFX SCSI spec want me to enable the initiation of the SDTR message?
+ does the iifx scsi spec want me to enable the initiation of the sdtr message?
  
- WHat does the IIFX SCSI spec want as far as parity checking?
+ what does the iifx scsi spec want as far as parity checking?
  
- These are some very good questions for the FAQ.       
- If someone does not have time to answer these questions but does know 
- where I can look them up please let me know and I will repost the answers
+ these are some very good questions for the faq.       
+ if someone does not have time to answer these questions but does know 
+ where i can look them up please let me know and i will repost the answers
  for everyone to see.
  
  thanks,
  
- Tim Keanini        <timk@broder.com>  or  <blast@crl.com>
- Sound Engineer         Broderbund Software
+ tim keanini        <timk@broder.com>  or  <blast@crl.com>
+ sound engineer         broderbund software
  
  

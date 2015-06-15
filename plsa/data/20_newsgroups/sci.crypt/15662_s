@@ -1,16 +1,16 @@
 
- res@colnet.cmhnet.org (Rob Stampfli) writes:
+ res@colnet.cmhnet.org (rob stampfli) writes:
  >
- >Wouldn't a a second monitor of similar type scrolling gibberish and adjacent
+ >wouldn't a a second monitor of similar type scrolling gibberish and adjacent
  >to the one being used provide reasonable resistance to tempest attacks?
  
- It would be in a different location, so a directional antenna could
- probably lock in on just the one monitor. Failing that, a phased array
- could likely seperate the signals. Admittedly, this is expensive, but
+ it would be in a different location, so a directional antenna could
+ probably lock in on just the one monitor. failing that, a phased array
+ could likely seperate the signals. admittedly, this is expensive, but
  so is all the rest of this stuff anyway.
  
  --
- Perry Metzger		pmetzger@shearson.com
+ perry metzger		pmetzger@shearson.com
  --
- Laissez faire, laissez passer. Le monde va de lui meme.
+ laissez faire, laissez passer. le monde va de lui meme.
  

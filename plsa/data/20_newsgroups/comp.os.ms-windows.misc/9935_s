@@ -1,32 +1,32 @@
 
- In article <1rgr7v$6ga@lll-winken.llnl.gov> David A. Fuess writes:
+ in article <1rgr7v$6ga@lll-winken.llnl.gov> david a. fuess writes:
  
- >It is correct that VC++ is NOT considered an upgrade for C7. C7 is
- >basically a DOS product, VC++ is a Windows product. As Windows is not
- >an upgrade for DOS, it is a separate operating system product line, its
- >utilities cannot be upgrades for DOS utilities. However, I have also
- >been told that it is NOT an upgrade for QCWIN, which it should be!
+ >it is correct that vc++ is not considered an upgrade for c7. c7 is
+ >basically a dos product, vc++ is a windows product. as windows is not
+ >an upgrade for dos, it is a separate operating system product line, its
+ >utilities cannot be upgrades for dos utilities. however, i have also
+ >been told that it is not an upgrade for qcwin, which it should be!
  
- You *can* upgrade MSC 7.0 and QCWIN to the Visual C++ products as follows:
+ you *can* upgrade msc 7.0 and qcwin to the visual c++ products as follows:
  
-   STANDARD EDITION:
-     List Price                    $199
-     Upgrade from QCWin            $ 79
-     Competitive Upgrade           $ 99
+   standard edition:
+     list price                    $199
+     upgrade from qcwin            $ 79
+     competitive upgrade           $ 99
  
-   PROFESSIONAL EDITION:
-     List Price                    $499
-     Upgrade from MSC 7.0          $139
-     Competitive Upgrade*          $199 
+   professional edition:
+     list price                    $499
+     upgrade from msc 7.0          $139
+     competitive upgrade*          $199 
  
-   * Includes upgrades from other MS language products like QCWin
+   * includes upgrades from other ms language products like qcwin
  
  -------------------------------------------------------------------------------
- Michael Goo                   |
- Hewlett-Packard               | "I never try to cover my ass...
- Information Networks Division |   but I certainly support your right to do so!"
- 19420 Homestead Road  MS 43LT |
- Cupertino, CA 95014-9974      |
+ michael goo                   |
+ hewlett-packard               | "i never try to cover my ass...
+ information networks division |   but i certainly support your right to do so!"
+ 19420 homestead road  ms 43lt |
+ cupertino, ca 95014-9974      |
  goo@hpinddh.cup.hp.com        |
  -------------------------------------------------------------------------------
  

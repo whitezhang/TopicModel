@@ -1,43 +1,43 @@
 
- In article <1993May11.133626.7425@taylor.uucp>, mark@taylor.uucp (Mark A. Davis) writes:
- |> I have a problem which many of you might have run into.  We use LOTS of
- |> ASCII terminals and use them to the max.  Meaning lots of attributes, line
- |> draw, etc.   Now what I need to do is come up with a working xterm which
- |> will emulate our advanced ASCII terminals as closely as possible.
+ in article <1993may11.133626.7425@taylor.uucp>, mark@taylor.uucp (mark a. davis) writes:
+ |> i have a problem which many of you might have run into.  we use lots of
+ |> ascii terminals and use them to the max.  meaning lots of attributes, line
+ |> draw, etc.   now what i need to do is come up with a working xterm which
+ |> will emulate our advanced ascii terminals as closely as possible.
  |> 
- |> This means needing all attributes to work, including bold and line drawing.
- |> The only fonts which seem to meet these criteria are a pairs of fonts in
+ |> this means needing all attributes to work, including bold and line drawing.
+ |> the only fonts which seem to meet these criteria are a pairs of fonts in
  |> which one is bold and the other normal, while both have linedraw, fixed
  |> spacing, and several sizes.
  |> 
- |> The only standard fonts which work are the fonts like 9x15 and 9x15B under
- |> "misc".  They work great, except I need a font one size larger, 10x20.  Now
+ |> the only standard fonts which work are the fonts like 9x15 and 9x15b under
+ |> "misc".  they work great, except i need a font one size larger, 10x20.  now
  |> 10x20 works well, but there is no bold counterpart!
  |> 
- |> To make matters worse, I need the fonts in some form I can use for Tektronix
- |> Xterminals.  It seems they like .pcf format, although I should be able to
+ |> to make matters worse, i need the fonts in some form i can use for tektronix
+ |> xterminals.  it seems they like .pcf format, although i should be able to
  |> convert a .bdf format.
  |> 
- |> Anyone have any suggestions?
+ |> anyone have any suggestions?
  |> -- 
  |>   /--------------------------------------------------------------------------\
- |>   | Mark A. Davis    | Lake Taylor Hospital | Norfolk, VA (804)-461-5001x431 |
- |>   | Sys.Administrator|  Computer Services   | mark@taylor / mark@taylor.UUCP |
+ |>   | mark a. davis    | lake taylor hospital | norfolk, va (804)-461-5001x431 |
+ |>   | sys.administrator|  computer services   | mark@taylor / mark@taylor.uucp |
  |>   \--------------------------------------------------------------------------/
  
- This would be tedious, but if you have the time you could get the .bdf
- file (I can email it to you if you don't have it or don't have easy access 
- to the X source), and could make your own bold font from this.  Since each
+ this would be tedious, but if you have the time you could get the .bdf
+ file (i can email it to you if you don't have it or don't have easy access 
+ to the x source), and could make your own bold font from this.  since each
  glyph is just a bitmap, you could write a program to convert each
  glyph to a bitmap-readable file, use bitmap to make each glyph "bold", and
- convert the results back to .bdf format.  Then, use "bdftopcf" to create
- the .pcf file.  Then, stick the .pcf in /usr/lib/X11/fonts/misc (or wherever)
+ convert the results back to .bdf format.  then, use "bdftopcf" to create
+ the .pcf file.  then, stick the .pcf in /usr/lib/x11/fonts/misc (or wherever)
  and include it in fonts.dir and, voila, you'll have what you need!
  
  -- 
- Ernie Coskrey            (803) 926-2071    NCR Corporation - MCPD Columbia
- Ernie.Coskrey@ColumbiaSC.NCR.COM           3325 Platt Springs Road
-                                            West Columbia, SC 29170
- "I'm out there busting my buns every night.  Tell your old man to drag Walton
- and Lanier up and down the court for 48 minutes." - Roger Murdoch, co-pilot
+ ernie coskrey            (803) 926-2071    ncr corporation - mcpd columbia
+ ernie.coskrey@columbiasc.ncr.com           3325 platt springs road
+                                            west columbia, sc 29170
+ "i'm out there busting my buns every night.  tell your old man to drag walton
+ and lanier up and down the court for 48 minutes." - roger murdoch, co-pilot
  

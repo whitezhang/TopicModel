@@ -1,43 +1,43 @@
 
  
- The situation: running a Fortran executable that creats an Xterm.  An option
- in the menu contained in the Xterm runs a Fortran subroutine that creats
- a Tektronics-mode Xterm for displaying some graphics.  Typing a <RET> while
- the Tektronics-mode Xterm (future reference to this will be "Tek-term") is
- active makes the Xterm read future keystrokes but does not shift input focus
- to the Xterm (I'm basing that statement on the fact that the border of the 
- Tek-term stays the highlighted color and that the Tek-term stays on top of
- Xterm.  If what I'm describing isn't input focus, let me know.)  
+ the situation: running a fortran executable that creats an xterm.  an option
+ in the menu contained in the xterm runs a fortran subroutine that creats
+ a tektronics-mode xterm for displaying some graphics.  typing a <ret> while
+ the tektronics-mode xterm (future reference to this will be "tek-term") is
+ active makes the xterm read future keystrokes but does not shift input focus
+ to the xterm (i'm basing that statement on the fact that the border of the 
+ tek-term stays the highlighted color and that the tek-term stays on top of
+ xterm.  if what i'm describing isn't input focus, let me know.)  
  
- The xterm can be brought to the top by clicking the mouse button on it.
+ the xterm can be brought to the top by clicking the mouse button on it.
  
- Subsequent selections from the Xterm of the menu item that displays graphics 
+ subsequent selections from the xterm of the menu item that displays graphics 
  highlihts the border and displays the updated graphics, but does not move 
- the Tek-term to the top.  If the Tek-term has been iconized to conserve 
+ the tek-term to the top.  if the tek-term has been iconized to conserve 
  screen space, it stays an icon.
  
  
- The desired behavior: one of two options - 
+ the desired behavior: one of two options - 
  
-     1. Whichever of the windows that is active is always on top of the 
+     1. whichever of the windows that is active is always on top of the 
         inactive one.
  
-     2. Whenever the Tek-term is inactivated, it should revert to a icon
+     2. whenever the tek-term is inactivated, it should revert to a icon
         but when it is activated it should become a window on a higher 
-        level than the Xterm.
+        level than the xterm.
  
- What I think I need: a means of specifying that a Xterm or Tek-term will
- be at the highest level and a way to iconify/expand a Xterm and Tek-term.
- These commands, would, I'd guess, need to be in the Fortran or in the 
- command that starts up the Xterm and Tek-term.
+ what i think i need: a means of specifying that a xterm or tek-term will
+ be at the highest level and a way to iconify/expand a xterm and tek-term.
+ these commands, would, i'd guess, need to be in the fortran or in the 
+ command that starts up the xterm and tek-term.
  
- Other information: All this is taking place on a VT-1300 (a DEC dumb 
- X-windows terminal) connected to a VAX running VMS and Motif.
+ other information: all this is taking place on a vt-1300 (a dec dumb 
+ x-windows terminal) connected to a vax running vms and motif.
  
- Thanks for your time.  If you've got any words of wisdom (other than 
+ thanks for your time.  if you've got any words of wisdom (other than 
  "give up" ;-), please send email to 
  
- jhcox@Kodak.com
+ jhcox@kodak.com
  
  
  

@@ -1,15 +1,15 @@
 
- 	I need to be able to cause a beep, but without using any interrupt
- routines, as I cannot use the BIOS. I believe that the PIC might have
- something to do with it, but I'm having troubles deciphering the
- information I have on it to figure out how to program it!
+ 	i need to be able to cause a beep, but without using any interrupt
+ routines, as i cannot use the bios. i believe that the pic might have
+ something to do with it, but i'm having troubles deciphering the
+ information i have on it to figure out how to program it!
  
- 	I'm programming all of this in Turbo C, if that makes any
+ 	i'm programming all of this in turbo c, if that makes any
  diference at all...
  
- 	Please can anyone help me??!
+ 	please can anyone help me??!
  
- Thanks,
+ thanks,
  	
- 	Nicola
+ 	nicola
  

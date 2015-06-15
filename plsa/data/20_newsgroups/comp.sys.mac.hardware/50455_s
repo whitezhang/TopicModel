@@ -1,31 +1,31 @@
 
- In article <1993Apr5.221603.17245@nctams1.uucp> tomj@pnet16.cts.com (Tom Jenkins) writes:
- >Title says it all.  I'd be particularly interested in the performance
- >difference.  Just how much faster (50%?) is the Centris 610 over the LCIII?
+ in article <1993apr5.221603.17245@nctams1.uucp> tomj@pnet16.cts.com (tom jenkins) writes:
+ >title says it all.  i'd be particularly interested in the performance
+ >difference.  just how much faster (50%?) is the centris 610 over the lciii?
  >
- >--Tom
+ >--tom
  >
- >UUCP: humu!nctams1!pnet16!tomj
- >ARPA: humu!nctams1!pnet16!tomj@nosc.mil
- >INET: tomj@pnet16.cts.com
+ >uucp: humu!nctams1!pnet16!tomj
+ >arpa: humu!nctams1!pnet16!tomj@nosc.mil
+ >inet: tomj@pnet16.cts.com
  
- When Apple came with their demos to Iowa State, I got a chance to run
- Speedometer3.1 on some of the new Macs.  Both machines were running
- System7.1, had a 14" RGB.  Don't know what the caches were set to.
- Neither machine had an FPU  It appears that the Centris610 is quite a
- bit faster than the LC III:
+ when apple came with their demos to iowa state, i got a chance to run
+ speedometer3.1 on some of the new macs.  both machines were running
+ system7.1, had a 14" rgb.  don't know what the caches were set to.
+ neither machine had an fpu  it appears that the centris610 is quite a
+ bit faster than the lc iii:
  
- 		Centris610		LCIII
+ 		centris610		lciii
  
- CPU		13.01			6.92
- Graf		15.67			7.69
- Disk		2.22			2.44
- Math		25.57			10.19
+ cpu		13.01			6.92
+ graf		15.67			7.69
+ disk		2.22			2.44
+ math		25.57			10.19
  
- P.R. Rating	12.91			6.58
+ p.r. rating	12.91			6.58
  
- So, there is a comparison.  There is definitely a very noticable speed
- difference between these two machines according to Speedometer3.1.  
+ so, there is a comparison.  there is definitely a very noticable speed
+ difference between these two machines according to speedometer3.1.  
  
- Chad
+ chad
  

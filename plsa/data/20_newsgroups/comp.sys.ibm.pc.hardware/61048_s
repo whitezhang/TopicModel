@@ -1,24 +1,24 @@
 
  
- Diamond Video cards (stealth, viper, speedstar, etc...) 
+ diamond video cards (stealth, viper, speedstar, etc...) 
  may have excellent specifications, and the windows drivers that
- come with them might make windows BLINDINGLY fast, BUT:
+ come with them might make windows blindingly fast, but:
  
- If you're considering buying a system, with a view to using
- it to run Unix (Linux, bsd, etc...) or some other special software,
- there is a good chance that it WILL NOT WORK with the Diamond cards.
- This is due to Diamond's propriety attitude to it's hardware:
+ if you're considering buying a system, with a view to using
+ it to run unix (linux, bsd, etc...) or some other special software,
+ there is a good chance that it will not work with the diamond cards.
+ this is due to diamond's propriety attitude to it's hardware:
  it's impossible to get free information from them about their chips 
  (specifically their dot-clocks) without paying, and signing non-disclosure
  agreements.
  
- This made it impossible for the Free Software Foundation to provide
- X-Windows compatibility with these cards, as diamond didn't want to 
+ this made it impossible for the free software foundation to provide
+ x-windows compatibility with these cards, as diamond didn't want to 
  divulge programming neccessities.
  
- As far as I know only Diamond has this propriety on it's info.
+ as far as i know only diamond has this propriety on it's info.
  
  
- Mark.
+ mark.
  
  

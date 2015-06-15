@@ -1,23 +1,23 @@
 
- In article <C5qwv2.Bz0@zoo.toronto.edu> henry@zoo.toronto.edu (Henry Spencer) writes:
- >In article <sgberg.23xu@charon.bloomington.in.us> sgberg@charon.bloomington.in.us (Stefan Berg) writes:
- >>... I don't know why my FPU has an XC (my original 33MHz FPU
- >>was label MC68882-33), but it seems to work fine on my system...
- >>P.S. Or does it mean eXperimental Chip instead of Motorola Chip? .-)
+ in article <c5qwv2.bz0@zoo.toronto.edu> henry@zoo.toronto.edu (henry spencer) writes:
+ >in article <sgberg.23xu@charon.bloomington.in.us> sgberg@charon.bloomington.in.us (stefan berg) writes:
+ >>... i don't know why my fpu has an xc (my original 33mhz fpu
+ >>was label mc68882-33), but it seems to work fine on my system...
+ >>p.s. or does it mean experimental chip instead of motorola chip? .-)
  >
- >The rule for the designations is that if it says MC, that means it works
- >*exactly* the way the datasheet/book specifies.  If it says XC, that means
- >there is at least one known bug.  Often these bugs are small and obscure;
+ >the rule for the designations is that if it says mc, that means it works
+ >*exactly* the way the datasheet/book specifies.  if it says xc, that means
+ >there is at least one known bug.  often these bugs are small and obscure;
  >you might never run into them in practice.
  >
  
- XC units are often pre-production sample devices.  Those are normally
+ xc units are often pre-production sample devices.  those are normally
  distributed for evaluation as freebies and are not guaranteed to
  meet every spec.
  
- >At least Motorola admits it, unlike certain other companies...
+ >at least motorola admits it, unlike certain other companies...
  
- Yep, that's for sure...that's one thing I like most about Motorola.
+ yep, that's for sure...that's one thing i like most about motorola.
  
  aaron
  

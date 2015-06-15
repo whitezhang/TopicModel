@@ -1,46 +1,46 @@
 
  
- In article <1993Apr22.162835.4286@oracle.us.oracle.com>, ebosco@us.oracle.com (Eric Bosco) writes:
- > In article <1993Apr22.094851.27323@physchem.ox.ac.uk>  
- > mark@physchem.ox.ac.uk (Mark Jackson) writes:
+ in article <1993apr22.162835.4286@oracle.us.oracle.com>, ebosco@us.oracle.com (eric bosco) writes:
+ > in article <1993apr22.094851.27323@physchem.ox.ac.uk>  
+ > mark@physchem.ox.ac.uk (mark jackson) writes:
  > > 
- > > In article <1993Apr19.195301.27872@oracle.us.oracle.com>,  
- > ebosco@us.oracle.com (Eric Bosco) writes:
+ > > in article <1993apr19.195301.27872@oracle.us.oracle.com>,  
+ > ebosco@us.oracle.com (eric bosco) writes:
  > > > 
  > > 
- > > I dont think you can mix the two types of drive, unless you have one of  
+ > > i dont think you can mix the two types of drive, unless you have one of  
  > the
- > > SCSI/IDE cards that is available.  You will have to turn your IDE off.
+ > > scsi/ide cards that is available.  you will have to turn your ide off.
  > > 
  > 
- > Is this true??? I was under the impression that people on the net had both  
- > SCSI and IDE working together.
+ > is this true??? i was under the impression that people on the net had both  
+ > scsi and ide working together.
  
- NO! I'm running both at home. Ok, to the cumpter is turned off right now but I
- did boot BSD/386 from an IDE drive, most of the system is on a SCSI drive...
+ no! i'm running both at home. ok, to the cumpter is turned off right now but i
+ did boot bsd/386 from an ide drive, most of the system is on a scsi drive...
  
- I'm using an Adaptec 1542B and a no-name el-cheapo IDE card.
+ i'm using an adaptec 1542b and a no-name el-cheapo ide card.
  
  > 
  > 
  > > 
- > > > Well that seems to be all. Is there anythiing I'm forgetting? 
- > > > Any help is *really* appreciated, I'm lost...
+ > > > well that seems to be all. is there anythiing i'm forgetting? 
+ > > > any help is *really* appreciated, i'm lost...
  > > > 
- > > > -Eric
+ > > > -eric
  > > > 
  > > > ebosco@us.oracle.com
  > > -- 
- > > Mark 
+ > > mark 
  > >  
  > __________________________________________________________________________ 
  > ____
  > > mark@uk.ac.ox.physchem
  
- Guy
+ guy
  -- 
  -- -----------------------------------------------------------------------------
- Guy Dawson - Hoskyns Group Plc.
-         guyd@hoskyns.co.uk  Tel Hoskyns UK     -  71 251 2128
-         guyd@austin.ibm.com Tel IBM Austin USA - 512 838 3377
+ guy dawson - hoskyns group plc.
+         guyd@hoskyns.co.uk  tel hoskyns uk     -  71 251 2128
+         guyd@austin.ibm.com tel ibm austin usa - 512 838 3377
  

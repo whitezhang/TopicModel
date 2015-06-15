@@ -1,16 +1,16 @@
 
- In <1993Apr21.141824.23536@cbis.ece.drexel.edu> jpw@cbis.ece.drexel.edu (Joseph Wetstein) writes:
+ in <1993apr21.141824.23536@cbis.ece.drexel.edu> jpw@cbis.ece.drexel.edu (joseph wetstein) writes:
  
- >Hello. I am looking for a program (or algorithm) that can be used
+ >hello. i am looking for a program (or algorithm) that can be used
  >to compute sunrise and sunset times.
  
- >I would appreciate any advice.
+ >i would appreciate any advice.
  
- I once thought it would be easiest fitting a sine to the times. But not.
- This gave  discrepancy of upto six minutes. If you fit a sine series
- you'll get a very good fit after just three or four terms though. This
- presumably has to do with the eccentricity of the Earths orbit.
+ i once thought it would be easiest fitting a sine to the times. but not.
+ this gave  discrepancy of upto six minutes. if you fit a sine series
+ you'll get a very good fit after just three or four terms though. this
+ presumably has to do with the eccentricity of the earths orbit.
  
  -- 
- Simon Tardell, Ff88, simon@nada.kth.se              V}ga v{gra cgs!
+ simon tardell, ff88, simon@nada.kth.se              v}ga v{gra cgs!
  

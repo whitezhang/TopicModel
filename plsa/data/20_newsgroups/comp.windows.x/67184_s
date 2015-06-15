@@ -1,20 +1,20 @@
 
  
- 	I want to be able to send a Pixmap from one client to the next.
- Along with this I want to send the Colormap and foreground and
- background pixel values.  So far not a problem, I can do
+ 	i want to be able to send a pixmap from one client to the next.
+ along with this i want to send the colormap and foreground and
+ background pixel values.  so far not a problem, i can do
  this with no problem.
  
-   However, once I have the Pixmap id and the Colormap id, how
- do I go about telling the server that the second (receiving)
+   however, once i have the pixmap id and the colormap id, how
+ do i go about telling the server that the second (receiving)
  client now wants to have associations with the two id's?
  
- 	TIA,
+ 	tia,
  
- 	John
+ 	john
  --
- o  John L. Cwikla                       o                            o
- o  X Programmer                         o  X was never the first     o
- o  Wolfram Research, Inc.               o   letter of the alphabet   o
+ o  john l. cwikla                       o                            o
+ o  x programmer                         o  x was never the first     o
+ o  wolfram research, inc.               o   letter of the alphabet   o
  o  cwikla@wri.com  (217) 398-0700       o                            o
  

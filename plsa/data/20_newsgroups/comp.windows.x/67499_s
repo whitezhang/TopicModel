@@ -1,21 +1,21 @@
 
- In article <1993Apr30.084145.20953@cv.ruu.nl>, rvloon@cv.ruu.nl (Ronald van Loon) writes:
- } In <46464@sophia.inria.fr> muller@mafalda.inria.fr (Christophe Muller) writes:
+ in article <1993apr30.084145.20953@cv.ruu.nl>, rvloon@cv.ruu.nl (ronald van loon) writes:
+ } in <46464@sophia.inria.fr> muller@mafalda.inria.fr (christophe muller) writes:
  } 
  } 
- } |"> It is interesting to look at the change(s) of mind that John has had.
+ } |"> it is interesting to look at the change(s) of mind that john has had.
  } |"
- } |"Very interested indeed! This is against this kind of "changes" that the GNU
- } |"COPYLEFT is protecting us.
+ } |"very interested indeed! this is against this kind of "changes" that the gnu
+ } |"copyleft is protecting us.
  } |"
- } |"Anyway, at SIMULOG, we will abandon xv. We were using it mostly for slide-
+ } |"anyway, at simulog, we will abandon xv. we were using it mostly for slide-
  } |"shows because of its "-loop" feature that display does not have (display
- } |"from the *wonderful* ImageMagick package! :-D), but I think I will implement
+ } |"from the *wonderful* imagemagick package! :-d), but i think i will implement
  } |"it myself (even a shell-script should do the job) and forget xv.
  
- We too will have to stop using it. Shame really - it was rather nice.
- Still, I have no objection to the owner claiming money for legit. 
- work he's put in. We'll just go back to the older versions of Xv.
+ we too will have to stop using it. shame really - it was rather nice.
+ still, i have no objection to the owner claiming money for legit. 
+ work he's put in. we'll just go back to the older versions of xv.
  
- Simon.
+ simon.
  

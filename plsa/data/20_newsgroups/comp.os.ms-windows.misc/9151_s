@@ -1,16 +1,16 @@
 
- In article <sehari.734022369@vincent2.iastate.edu>, sehari@iastate.edu (Babak Sehari) writes:
+ in article <sehari.734022369@vincent2.iastate.edu>, sehari@iastate.edu (babak sehari) writes:
  |> ---
  |> 
  |> 
  |> 
- |> With my limited knowladge about the PC Geos, I came out with following 
+ |> with my limited knowladge about the pc geos, i came out with following 
  |> comparison:
  |> 
- |>                  PC Geos      Windows       OS/2    Unix/X11
+ |>                  pc geos      windows       os/2    unix/x11
  |>                 ________      _______       ____    _______
  |> 
- |> 1. Can run dos
+ |> 1. can run dos
  |>    programs        yes           yes         yes     yes(needed add.)
  |> 
  
@@ -18,46 +18,46 @@
  
  |> 
  |> 7. price          $120          $70         $120     free-$1000s
- |>                                                      A good one
+ |>                                                      a good one
  |>                                                      costs $400-$700 
- |>                                                      avaliable on Ext.
+ |>                                                      avaliable on ext.
  |>                                                      card too.
  |> 
- |> 8. C compiler Don't think so    yap          yap     yap
+ |> 8. c compiler don't think so    yap          yap     yap
  |> 
- |> 9. C++           no             Yap          Yap     Yap
+ |> 9. c++           no             yap          yap     yap
  |> 
- |> 10. Fortran      no             yap          yap     yap
+ |> 10. fortran      no             yap          yap     yap
  |> 
  |> 11. debuger      ?              yap           yap    yap
  |> 
- |> 12. min to run   dos        2M & 10Mb-Hard     ?     386
+ |> 12. min to run   dos        2m & 10mb-hard     ?     386
  |> 
- |> You guys and gals add to this list, so we do not throw our many down the 
+ |> you guys and gals add to this list, so we do not throw our many down the 
  |> tubes.
  |> 
- |>                       With highest regards,
- |>                            Babak   Sehari.
+ |>                       with highest regards,
+ |>                            babak   sehari.
  |> 
  
- This list appears to imply, that MS-windows that has a cost listed
- above at $70, comes with a C compiler, C++ and Fortran. It does not, of
- course. These are expensive add-ons that drive the price WAY beyond $70.
- ( I don't know if the same applies to OS/2 )
+ this list appears to imply, that ms-windows that has a cost listed
+ above at $70, comes with a c compiler, c++ and fortran. it does not, of
+ course. these are expensive add-ons that drive the price way beyond $70.
+ ( i don't know if the same applies to os/2 )
  
- As far as unix is concerned;
- There is a free unix, linux, that has cc, ~c++, fortran ( f2c ),
- Xwindows and many other features besides, with a large number of utilities
- that can be optionally added. And there is also a free 386BSD I believe.
- Both these unix's are quite robust. You can check out comp.os.linux
+ as far as unix is concerned;
+ there is a free unix, linux, that has cc, ~c++, fortran ( f2c ),
+ xwindows and many other features besides, with a large number of utilities
+ that can be optionally added. and there is also a free 386bsd i believe.
+ both these unix's are quite robust. you can check out comp.os.linux
  
- If you don't want to "throw our many down the tubes", you've got to break
+ if you don't want to "throw our many down the tubes", you've got to break
  that list down a little more.
  
  -- 
- Roderick Campbell
- Department of Physics
- Memorial University of Newfoundland
- St. John's, NF, CANADA
+ roderick campbell
+ department of physics
+ memorial university of newfoundland
+ st. john's, nf, canada
  internet: rcampbel@weejordy.physics.mun.ca
  

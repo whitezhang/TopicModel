@@ -1,17 +1,17 @@
 
  
  
- > I've been using the XmGraph widget that's been floating around and I
- > noticed the performance is significantly better using Gadgets, perhaps
- > even 100% faster.  I had heard in an old programming course that gadgets
+ > i've been using the xmgraph widget that's been floating around and i
+ > noticed the performance is significantly better using gadgets, perhaps
+ > even 100% faster.  i had heard in an old programming course that gadgets
  > were no longer any benefit to performance, and that it's just as well
  > to use widgets everywhere. 
  
- Interesting, I'd like to know why.
+ interesting, i'd like to know why.
  
- But try it again on a single ethernet with 100 X terminals on it,
- and I think you'll find it much slower.
+ but try it again on a single ethernet with 100 x terminals on it,
+ and i think you'll find it much slower.
  
- Adrian Nye
- O'Reilly and Associates
+ adrian nye
+ o'reilly and associates
  

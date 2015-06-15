@@ -1,23 +1,23 @@
 
- One way to "mask" the left button check the contents of the XEvent that the
- XAddEventHandler send to your event_handling function (in your case, it is the
+ one way to "mask" the left button check the contents of the xevent that the
+ xaddeventhandler send to your event_handling function (in your case, it is the
  show_mouse_position function. 
  
- If the XEvent arrive in this function as 
+ if the xevent arrive in this function as 
  
- XEvent p_event;
+ xevent p_event;
  
- then, the value of p_event->xbutton.button is the button that was pressed. So, 
- you just do a switch on that value in order to distinguish between them. In case
+ then, the value of p_event->xbutton.button is the button that was pressed. so, 
+ you just do a switch on that value in order to distinguish between them. in case
  it was not clear p_event->xevent.button is an int. 
  
- By the way, you mentioned the Button1MotionMask and if anyone can help me with 
- these MotionMasks I would be grateful. I can not figure out how do distinguish
- between motions by which button is pressed as the motion is occurring. In 
- essence I would like an seperate event-handler for motion with each button. 
- Unfortunately, the XEvent sent by a MotionMask does not seem to contain the 
+ by the way, you mentioned the button1motionmask and if anyone can help me with 
+ these motionmasks i would be grateful. i can not figure out how do distinguish
+ between motions by which button is pressed as the motion is occurring. in 
+ essence i would like an seperate event-handler for motion with each button. 
+ unfortunately, the xevent sent by a motionmask does not seem to contain the 
  value of the pressed button.
  
- Any ideas,
+ any ideas,
  eps
  

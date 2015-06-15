@@ -1,30 +1,30 @@
 
- In article <16BC0956B.JC924@uacsc2.albany.edu>, JC924@uacsc2.albany.edu writes:
+ in article <16bc0956b.jc924@uacsc2.albany.edu>, jc924@uacsc2.albany.edu writes:
  
- >One of our users is having an unusual problem.  If she does an Alt/Tab to
- >a full-screen DOS program, when she goes back to Windows her desktop fonts
- >have changed.  If she goes back to a full-screen DOS program and then goes
- >back to Windows, the font has changed back to its default font.  It's not
+ >one of our users is having an unusual problem.  if she does an alt/tab to
+ >a full-screen dos program, when she goes back to windows her desktop fonts
+ >have changed.  if she goes back to a full-screen dos program and then goes
+ >back to windows, the font has changed back to its default font.  it's not
  >a major problem (everything works and the font is legible), but it is
- >annoying.  Does anyone have any idea why this happens.  By the way, she
- >has a DEC 486D2LP machine.
+ >annoying.  does anyone have any idea why this happens.  by the way, she
+ >has a dec 486d2lp machine.
  > 
- If it's any consolation, I had a similar problem. As I recall, if I exited
- from a DOS session while in full-screen mode, the menu titles had changed to a
- scrambled version of the icon title font (or something like that). It only
- started happening after I used IconTitleFaceName in WIN.INI to change the
- desktop font to Arial. So I stopped exiting from DOS sessions while in
+ if it's any consolation, i had a similar problem. as i recall, if i exited
+ from a dos session while in full-screen mode, the menu titles had changed to a
+ scrambled version of the icon title font (or something like that). it only
+ started happening after i used icontitlefacename in win.ini to change the
+ desktop font to arial. so i stopped exiting from dos sessions while in
  full-screen mode.
  
- My Mac used to do something similar. Aren't computers weird?
+ my mac used to do something similar. aren't computers weird?
  
  
  ------------------------------------------------------------------
- | Mark Hadfield                       hadfield@wao.greta.cri.nz  |
- | NIWA Oceanographic (Taihoro Nukurangi)                         |
- | 310 Evans Bay Rd, Greta Point      Telephone: (+64-4) 386-1189 |
- | PO Box 14-901, Kilbirnie           Fax:       (+64-4) 386-2153 |
- | Wellington, New Zealand                                        |
+ | mark hadfield                       hadfield@wao.greta.cri.nz  |
+ | niwa oceanographic (taihoro nukurangi)                         |
+ | 310 evans bay rd, greta point      telephone: (+64-4) 386-1189 |
+ | po box 14-901, kilbirnie           fax:       (+64-4) 386-2153 |
+ | wellington, new zealand                                        |
  ------------------------------------------------------------------
  
  

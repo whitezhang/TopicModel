@@ -1,17 +1,17 @@
 
- In article <1993Apr17.130528.2773@leland.Stanford.EDU>, shiva@leland.Stanford.EDU (Matt Jacobson) writes...
+ in article <1993apr17.130528.2773@leland.stanford.edu>, shiva@leland.stanford.edu (matt jacobson) writes...
  > 
- >I have an IBM and run Windows 3.1.  A friend installed Norton Desktop For
- >Windows on top of this.  It loads automatically when I type "win", and
+ >i have an ibm and run windows 3.1.  a friend installed norton desktop for
+ >windows on top of this.  it loads automatically when i type "win", and
  >surely adds to the (already dismally slow) process of starting up.
  > 
- >I would like to know how to STOP or uninstall this program!!
- >Is there anyone familiar with NDW who can tell me how to turn it off??
+ >i would like to know how to stop or uninstall this program!!
+ >is there anyone familiar with ndw who can tell me how to turn it off??
  
-     1. Get the friend to uninstall it.
-     2. Read the manual (though from your post I infer that you are using
+     1. get the friend to uninstall it.
+     2. read the manual (though from your post i infer that you are using
      pirated software.)
-     3. Go into SYS.INI and change the SHELL= line to read SHELL=PROGMAN.EXE
+     3. go into sys.ini and change the shell= line to read shell=progman.exe
  
  ===========================================================================
  daniel david mittleman     -     danny@arizona.edu     -     (602) 621-2932

@@ -1,24 +1,24 @@
-              Corp. The opinions expressed are those of the user and
-               not necessarily those of CONVEX.
- Lines: 19
+              corp. the opinions expressed are those of the user and
+               not necessarily those of convex.
+ lines: 19
  
- In article <1993Apr27.114659.28363@spdcc.com> jin@spdcc.com (Jerry Natowitz) writes:
- >I am looking for some Public Domain (and exportable) code for
- >encryption.  Nothing elaborate, just something that will satisfy
+ in article <1993apr27.114659.28363@spdcc.com> jin@spdcc.com (jerry natowitz) writes:
+ >i am looking for some public domain (and exportable) code for
+ >encryption.  nothing elaborate, just something that will satisfy
  >a marketing need :-)
- >Oh yes, UNIX platform.
+ >oh yes, unix platform.
  
- You can find what you're looking for on hundreds of sites worldwide.  Try
+ you can find what you're looking for on hundreds of sites worldwide.  try
  
- 	anonymous ftp to nic.funet.fi (Finland)
+ 	anonymous ftp to nic.funet.fi (finland)
  
- 	/pub/unix/4.3bsd/net2/lib/libc/gen/crypt.c.Z
+ 	/pub/unix/4.3bsd/net2/lib/libc/gen/crypt.c.z
  
- This includes source code for fully-functional DES encryption and decryption.
+ this includes source code for fully-functional des encryption and decryption.
  
- There are some who believe that public domain code is exportable, some
- who don't.  Make your own judgements, but it seems obvious to me.
+ there are some who believe that public domain code is exportable, some
+ who don't.  make your own judgements, but it seems obvious to me.
  
- Regards,
- Ed Hamrick
+ regards,
+ ed hamrick
  

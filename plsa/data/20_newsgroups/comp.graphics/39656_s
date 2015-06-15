@@ -1,29 +1,29 @@
 
- From article <1suntv$3km@watson.mtsu.edu>, by csjohn@watson.mtsu.edu (John Wallace):
- > I've got this animation file with a .GL extension.
- > What is this?  Are there anu MS-DOS or OS/2 programs
- > which will run this file?  Thanks.
+ from article <1suntv$3km@watson.mtsu.edu>, by csjohn@watson.mtsu.edu (john wallace):
+ > i've got this animation file with a .gl extension.
+ > what is this?  are there anu ms-dos or os/2 programs
+ > which will run this file?  thanks.
  > 
  
- The GL file is an archive containing individual frames or pieces of
- frames (usually stored as .PIC or .CLP files), fonts, and a .TXT file
- that tells the GRASP animation system how to display it.  GL stands
- for Grasp Library.  There is probably a detailed discussion of this subject
- in the alt.binaries.pictures FAQ.
+ the gl file is an archive containing individual frames or pieces of
+ frames (usually stored as .pic or .clp files), fonts, and a .txt file
+ that tells the grasp animation system how to display it.  gl stands
+ for grasp library.  there is probably a detailed discussion of this subject
+ in the alt.binaries.pictures faq.
  
- There are freely distributable viewers for GL files, and they are usually
- named GRASPRT?.EXE (replace the ? with a version digit or letter).  Most
- GL files contain frames that are hardware-specific to particular modes
- of the CGA, EGA, or VGA adapters on PCs.  I think that there are some
- copies of GRASPRT available by anonymous ftp (I know that I got one there
+ there are freely distributable viewers for gl files, and they are usually
+ named grasprt?.exe (replace the ? with a version digit or letter).  most
+ gl files contain frames that are hardware-specific to particular modes
+ of the cga, ega, or vga adapters on pcs.  i think that there are some
+ copies of grasprt available by anonymous ftp (i know that i got one there
  a long time ago).
  
- 		Good Luck
- 		Jack
+ 		good luck
+ 		jack
  
  -- 
- == Jack Stephenson          main e-mail: j_stephenson@isuv1.interlan.com  ==
- || Racal-Datacom            alternate e-mail: stephens@souv1.interlan.com ||
- || P.O. Box 407044                                                        ||
- == Ft. Lauderdale, FL  33340  USA     Phone: (+1) 305-846-6137            ==
+ == jack stephenson          main e-mail: j_stephenson@isuv1.interlan.com  ==
+ || racal-datacom            alternate e-mail: stephens@souv1.interlan.com ||
+ || p.o. box 407044                                                        ||
+ == ft. lauderdale, fl  33340  usa     phone: (+1) 305-846-6137            ==
  

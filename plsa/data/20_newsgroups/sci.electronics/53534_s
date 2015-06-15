@@ -1,20 +1,20 @@
 
  
- I recently ftp'd Al's Circuit Simulator (ACS) and I'm looking for
- the tutorial which is mentioned in the Users Manual (but not found there).
- I don't have any experience constructing a netlist (such as for SPICE)
- and I need a little help.
+ i recently ftp'd al's circuit simulator (acs) and i'm looking for
+ the tutorial which is mentioned in the users manual (but not found there).
+ i don't have any experience constructing a netlist (such as for spice)
+ and i need a little help.
  
- The examples which come with ACS aren't explanatory about the translation
- between schematic and netlist. Does anyone have the fabled "Tutorial"
+ the examples which come with acs aren't explanatory about the translation
+ between schematic and netlist. does anyone have the fabled "tutorial"
  or any other reference which could help me in constructing a netlist from
  a schematic diagram?
  
- (I also emailed Al himself but received no response yet. He's probably
+ (i also emailed al himself but received no response yet. he's probably
   busy with his next release.)
  -- 
  -------------------------------------------------------------------------------
- Tim Pillsbury          Internet:  tsp@ccd.harris.com
+ tim pillsbury          internet:  tsp@ccd.harris.com
                            uunet:  uunet!ccd.harris.com!timothy.pillsbury
  -------------------------------------------------------------------------------
  

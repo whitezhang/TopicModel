@@ -1,35 +1,35 @@
 
  
- In article <1993Apr8.200441.9423@jwminhh.hanse.de>, wieck@jwminhh.hanse.de (Jan Wieck) writes:
- |> mbheprg@PROBLEM_WITH_INEWS_GATEWAY_FILE (Raju Gurung) writes:
- |> : Jeff Haferman (haferman@icaen.uiowa.edu) wrote:
- |> : > Can somebody point me to source code for dumping the contents of
- |> : > an X-window into a color postscript file?  I have written
- |> : > an app which brings up an X-window, and I want (at the click
+ in article <1993apr8.200441.9423@jwminhh.hanse.de>, wieck@jwminhh.hanse.de (jan wieck) writes:
+ |> mbheprg@problem_with_inews_gateway_file (raju gurung) writes:
+ |> : jeff haferman (haferman@icaen.uiowa.edu) wrote:
+ |> : > can somebody point me to source code for dumping the contents of
+ |> : > an x-window into a color postscript file?  i have written
+ |> : > an app which brings up an x-window, and i want (at the click
  |> : > of the mouse) to dump the window into a postscript file.
  |> :
  |> :
  |> :
- |> : I use xwd and xwd2ps. To do it from within a program I use
- |> : xwd -id xxxxx where xxxxx is the window id obtained from XtWindow(widget).
+ |> : i use xwd and xwd2ps. to do it from within a program i use
+ |> : xwd -id xxxxx where xxxxx is the window id obtained from xtwindow(widget).
  |> 
- |>     He asked for sources.
+ |>     he asked for sources.
  |> 
- |>     The   portable    bitmap    tools    from    Jef    Poskanzer
+ |>     the   portable    bitmap    tools    from    jef    poskanzer
  |>     <jef@well.sf.ca.us>  include  filters  to  do  that (and much
  |>     more).
  |> 
  
- BTW, the X11 tools come as sources. The sillyness of most vendors lets you
+ btw, the x11 tools come as sources. the sillyness of most vendors lets you
  stuck with binaries.
  
- Anyway, have a look onto xgrab/xgrabsc. It does the IMHO best job for
+ anyway, have a look onto xgrab/xgrabsc. it does the imho best job for
  this, including compression.
  
  --
  +-o-+--------------------------------------------------------------+-o-+
- | o |                \\\-  Brain Inside -///                       | o |
+ | o |                \\\-  brain inside -///                       | o |
  | o |                    ^^^^^^^^^^^^^^^                           | o |
- | o | Andre' Beck (ABPSoft) mehl: Andre_Beck@IRS.Inf.TU-Dresden.de | o |
+ | o | andre' beck (abpsoft) mehl: andre_beck@irs.inf.tu-dresden.de | o |
  +-o-+--------------------------------------------------------------+-o-+
  

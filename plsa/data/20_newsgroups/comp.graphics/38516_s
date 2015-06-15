@@ -1,18 +1,18 @@
 
- In <ia522B1w165w@oeinck.waterland.wlink.nl> Ferdinand Oeinck writes:
- >I'm looking for any information on detecting and/or calculating a double
+ in <ia522b1w165w@oeinck.waterland.wlink.nl> ferdinand oeinck writes:
+ >i'm looking for any information on detecting and/or calculating a double
  >point and/or cusp in a bezier curve.
  
- See:
-    Maureen Stone and Tony DeRose,
-    "A Geometric Characterization of Parametric Cubic Curves",
-    ACM TOG, vol 8, no 3, July 1989, pp. 147-163.
+ see:
+    maureen stone and tony derose,
+    "a geometric characterization of parametric cubic curves",
+    acm tog, vol 8, no 3, july 1989, pp. 147-163.
  _______________________________________________________________________
  
- ...Ron Capelli                 IBM Corp.  Dept. C13,  MS. P230
-    capelli@vnet.ibm.com        PO Box 950
-    (914) 435-1673              Poughkeepsie, NY  12602
+ ...ron capelli                 ibm corp.  dept. c13,  ms. p230
+    capelli@vnet.ibm.com        po box 950
+    (914) 435-1673              poughkeepsie, ny  12602
  _______________________________________________________________________
  
- "There are no answers, only cross references."
+ "there are no answers, only cross references."
  

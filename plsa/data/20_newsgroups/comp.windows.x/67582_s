@@ -1,532 +1,532 @@
 
- Archive-name: Intel-Unix-X-faq
- Last-modified: 30 Mar 1993
+ archive-name: intel-unix-x-faq
+ last-modified: 30 mar 1993
  
- Note: This is a major re-organization (and replacement) of my
-       "Frequently Asked Questions About X386" FAQ list.
+ note: this is a major re-organization (and replacement) of my
+       "frequently asked questions about x386" faq list.
  
- This article includes answers to:
+ this article includes answers to:
  
- I) What options do I have for X software on my Intel-based Unix system?
- 	1. Free options
- 	2. Commercial options
- II) What is XFree86 and where do I get it?
- 	3. What is XFree86?
- 	4. What OSs are supported?
- 	5. What video hardware is supported?
- 	6. What about accelerated boards?
- 	7. Why doesn't XFree86 support 16-color VGA modes?
- 	8. What other hardware or software requirements are there?
- 	9. Where can I get source for XFree86?
- 	10. Where can I get binaries for XFree86?
- IV) What general things should I know about running XFree86?
- 	11. Installation directories
- 	12. Configuration files
- 	13. Determining VGA dot clocks and monitor modes
- 	14. Rebuilding/reconfiguring the server from the link kit
- V) What OS-specific things should I know about running XFree86?
- 	15. SVR4
- 	16. SVR3
- 	17. 386BSD
- 	18. Linux
- 	19. Mach
- VI) What things should I know for building XFree86 from source?
- VII) Is there anything special about building clients with XFree86?
- 	20. BSD compatibility library
- 	21. ANSICCOPTIONS
+ i) what options do i have for x software on my intel-based unix system?
+ 	1. free options
+ 	2. commercial options
+ ii) what is xfree86 and where do i get it?
+ 	3. what is xfree86?
+ 	4. what oss are supported?
+ 	5. what video hardware is supported?
+ 	6. what about accelerated boards?
+ 	7. why doesn't xfree86 support 16-color vga modes?
+ 	8. what other hardware or software requirements are there?
+ 	9. where can i get source for xfree86?
+ 	10. where can i get binaries for xfree86?
+ iv) what general things should i know about running xfree86?
+ 	11. installation directories
+ 	12. configuration files
+ 	13. determining vga dot clocks and monitor modes
+ 	14. rebuilding/reconfiguring the server from the link kit
+ v) what os-specific things should i know about running xfree86?
+ 	15. svr4
+ 	16. svr3
+ 	17. 386bsd
+ 	18. linux
+ 	19. mach
+ vi) what things should i know for building xfree86 from source?
+ vii) is there anything special about building clients with xfree86?
+ 	20. bsd compatibility library
+ 	21. ansiccoptions
  
- This article does NOT include answers to general X questions, since these
- are already covered by the X FAQ that is regularly posted by David B. Lewis
+ this article does not include answers to general x questions, since these
+ are already covered by the x faq that is regularly posted by david b. lewis
  <faq%craft@uunet.uu.net>.
  
- If you have anything to add or change on the FAQ just let me know.
+ if you have anything to add or change on the faq just let me know.
  (especially if you had a problem that someone else was able to help you with)
- Send changes to steve@ecf.toronto.edu, please put 'FAQ' somewhere
+ send changes to steve@ecf.toronto.edu, please put 'faq' somewhere
  in the subject line so that my mail filter will put it in the correct
  mail folder.
  
- Please DO NOT ask me questions that are not answered in the FAQ.  I do not
- have time to respond to these individually.  Instead, post your question
+ please do not ask me questions that are not answered in the faq.  i do not
+ have time to respond to these individually.  instead, post your question
  to the net, and send me the question and answer together when you get it.
  
- Frequently Asked Questions About X on Intel-based Unix (with answers)
+ frequently asked questions about x on intel-based unix (with answers)
  =====================================================================
  
- I) What options do I have for X software on my Intel-based Unix system?
+ i) what options do i have for x software on my intel-based unix system?
  
- 1. Free options
- 	The BEST option is XFree86, which is an enhanced version of X386 1.2.
- 	Any other version of X386 will have slower performance, and will
- 	be more difficult to compile.  Information on how to obtain XFree86
+ 1. free options
+ 	the best option is xfree86, which is an enhanced version of x386 1.2.
+ 	any other version of x386 will have slower performance, and will
+ 	be more difficult to compile.  information on how to obtain xfree86
  	is listed below.
  
- 	X386 is the port of the X11 server to System V/386 that was
- 	done by Thomas Roell (roell@sgcs.com).
- 	It supports a wide variety of SVGA boards.
- 	There are 2 major free versions: X386 1.1 is based on X11R4,
- 	X386 1.2 is included in MIT's X11R5 distribution (ie. you
- 	don't need to patch it into the MIT source any more).
- 	X386 1.3 is the current commercial offering from SGCS (see below).
+ 	x386 is the port of the x11 server to system v/386 that was
+ 	done by thomas roell (roell@sgcs.com).
+ 	it supports a wide variety of svga boards.
+ 	there are 2 major free versions: x386 1.1 is based on x11r4,
+ 	x386 1.2 is included in mit's x11r5 distribution (ie. you
+ 	don't need to patch it into the mit source any more).
+ 	x386 1.3 is the current commercial offering from sgcs (see below).
  
- 2. Commercial options
+ 2. commercial options
  
-      1) Metro Link
- 	2213 W. McNab Road
- 	Pompano Beach, FL  33069
+      1) metro link
+ 	2213 w. mcnab road
+ 	pompano beach, fl  33069
  	(305) 970-7353
- 	Fax: (305) 970-7351
+ 	fax: (305) 970-7351
  	email: sales@metrolink.com
  
- 	Summary: OS:    QNX, SVR3, SVR4.[012], SCO, UnixWare, LynxOS, 
- 			DESQview/X, Venix, ISC, Solaris, Pyramid, SunOS
- 		 HW:    EGA, VGA, SVGA, TIGA, TARGA, 8514/A, Mach, 
- 			S3, WD, Fujistu, Matrox, Microfield Graphics, R33020
- 		 Other: Motif, OpenLook/XView, XIE Imaging Extension,
- 			Xv Video Extension, Audio Drivers, Multi Media
+ 	summary: os:    qnx, svr3, svr4.[012], sco, unixware, lynxos, 
+ 			desqview/x, venix, isc, solaris, pyramid, sunos
+ 		 hw:    ega, vga, svga, tiga, targa, 8514/a, mach, 
+ 			s3, wd, fujistu, matrox, microfield graphics, r33020
+ 		 other: motif, openlook/xview, xie imaging extension,
+ 			xv video extension, audio drivers, multi media
  
-      2) SGCS (Snitily Graphics Consulting Services)
- 	894 Brookgrove Lane
- 	Cupertino, CA  95014
+      2) sgcs (snitily graphics consulting services)
+ 	894 brookgrove lane
+ 	cupertino, ca  95014
  	(800) 645-5501, (408) 255-9665
- 	Fax: (408) 255-9740
+ 	fax: (408) 255-9740
  	email: info@sgcs.com  or ...!mips!zok!info
  
- 	Summary: OS: SVR3.2, SVR4 
- 		 HW: 8514/A (ATI Ultra), S3 (Diamond Stealth), SVGA
- 		 Other: Motif, Dual-headed server
+ 	summary: os: svr3.2, svr4 
+ 		 hw: 8514/a (ati ultra), s3 (diamond stealth), svga
+ 		 other: motif, dual-headed server
  
-      3) Consensys Corporation
- 	1301 Pat Booker Rd.
- 	Universal City, TX 78148
- 	Phone: 1-800-388-1896
- 	FAX:   1-416-940-2903
+      3) consensys corporation
+ 	1301 pat booker rd.
+ 	universal city, tx 78148
+ 	phone: 1-800-388-1896
+ 	fax:   1-416-940-2903
  	email: info@consensys.com
  
- 	Summary: OS: Consensys V4.2, Consensys' version of
- 		     Unix System V Release 4.2
- 		 HW: X11R4 server support for VGA, SVGA
- 		 Other: MoOLIT, Motif, X11R5 Clients
+ 	summary: os: consensys v4.2, consensys' version of
+ 		     unix system v release 4.2
+ 		 hw: x11r4 server support for vga, svga
+ 		 other: moolit, motif, x11r5 clients
  
-      4) The Santa Cruz Operation, Inc.
+      4) the santa cruz operation, inc.
  	p.o. box 1900
- 	Santa Cruz, California 95061
- 	(408) 425 7222, (800) SCO UNIX,
- 	FAX: (408) 458 4227
+ 	santa cruz, california 95061
+ 	(408) 425 7222, (800) sco unix,
+ 	fax: (408) 458 4227
  	email: info@sco.com
  
- 	Summary: OS: ODT 1.1, ODT 2.0, SCO Unix 3.2v4
- 		 HW: X11R4 server support for SVGA, 8514/A, S3, TMS340x0,
- 		     WD90C31, XGA2, assorted local bus (see SCO Hardware
- 		     Compatabilty Guide for actual card vendors).
- 		 Other: Motif	
+ 	summary: os: odt 1.1, odt 2.0, sco unix 3.2v4
+ 		 hw: x11r4 server support for svga, 8514/a, s3, tms340x0,
+ 		     wd90c31, xga2, assorted local bus (see sco hardware
+ 		     compatabilty guide for actual card vendors).
+ 		 other: motif	
  
-      5) Answer Software & Consulting
+      5) answer software & consulting
  	p.o. box 14171
- 	Columbus, Ohio 43214
- 	614-263-XLAB
+ 	columbus, ohio 43214
+ 	614-263-xlab
  	email: sales@x4coher.com
  
- 	Summary: OS: Coherent 4.0.1r72 or greater
- 		 HW: works with any VESA compliant video
+ 	summary: os: coherent 4.0.1r72 or greater
+ 		 hw: works with any vesa compliant video
  
-   NOTE: Other commercial vendors (including OS vendors describing
+   note: other commercial vendors (including os vendors describing
  	bundled software) are welcome to submit summary information
  	summary information such as the above.
  
- II) What is XFree86 and where do I get it?
+ ii) what is xfree86 and where do i get it?
  
- 3. What is XFree86?
+ 3. what is xfree86?
  
-    XFree86 is an enhanced version of X386 1.2, which was distributed with
-    X11R5.  This release consists of many bug fixes, speed improvements, and
-    other enhancements.  Here are the highlights of the enhancements:
+    xfree86 is an enhanced version of x386 1.2, which was distributed with
+    x11r5.  this release consists of many bug fixes, speed improvements, and
+    other enhancements.  here are the highlights of the enhancements:
  
-     1) The SpeedUp package from Glenn Lai is an integral part of XFree86,
-        selectable at run-time via the Xconfig file.  Some SpeedUps require
-        an ET4000 based SVGA, and others require a virtual screen width of
-        1024.  The SpeedUps suitable to the configuration are selected by
-        default.  With a high-quality ET4000 board (VRAM), this can yield
-        up to 40% improvement of the xStones benchmark over X386 1.2.
-     2) The fX386 packages from Jim Tsillas are included as the default
-        operating mode if SpeedUp is not selected.  This mode is now
-        equivalent in performance to X386 1.1b (X11R4), and approximately
-        20% faster than X386 1.2.
-     3) Support for LOCALCONN, compile-time selectable for server, clients,
-        or both.  This support is for both SVR3.2 and SVR4.  For SVR4.0.4
-        with the 'Advanced Compatibility Package', local connections from
-        SCO XSight/ODT clients are supported.
-     4) Drivers for ATI and Trident TVGA8900C and TVGA9000 SVGA chipsets.
-        Refer to the files README.ati and README.trident for details about
-        the ATI and Trident drivers.
-     5) Support for compressed bitmap fonts has been added (Thomas Eberhardt's
+     1) the speedup package from glenn lai is an integral part of xfree86,
+        selectable at run-time via the xconfig file.  some speedups require
+        an et4000 based svga, and others require a virtual screen width of
+        1024.  the speedups suitable to the configuration are selected by
+        default.  with a high-quality et4000 board (vram), this can yield
+        up to 40% improvement of the xstones benchmark over x386 1.2.
+     2) the fx386 packages from jim tsillas are included as the default
+        operating mode if speedup is not selected.  this mode is now
+        equivalent in performance to x386 1.1b (x11r4), and approximately
+        20% faster than x386 1.2.
+     3) support for localconn, compile-time selectable for server, clients,
+        or both.  this support is for both svr3.2 and svr4.  for svr4.0.4
+        with the 'advanced compatibility package', local connections from
+        sco xsight/odt clients are supported.
+     4) drivers for ati and trident tvga8900c and tvga9000 svga chipsets.
+        refer to the files readme.ati and readme.trident for details about
+        the ati and trident drivers.
+     5) support for compressed bitmap fonts has been added (thomas eberhardt's
         code from the contrib directory on export.lcs.mit.edu).
-     6) Type1 Font code from MIT contrib tape has been included, and is
-        compile-time selectable.  There are contributed Type1 fonts in the
+     6) type1 font code from mit contrib tape has been included, and is
+        compile-time selectable.  there are contributed type1 fonts in the
         contrib directory on export.lcs.mit.edu.
-     7) New configuration method which allows the server's drivers and font
+     7) new configuration method which allows the server's drivers and font
         renderers to be reconfigured from both source and binary
         distributions.
-     8) Integrated support for 386BSD, Mach, and Linux.
-     9) A monochrome version of the server which will run on generic VGA
+     8) integrated support for 386bsd, mach, and linux.
+     9) a monochrome version of the server which will run on generic vga
         cards is now included.
  
-    The following key features were added with the release of XFree86 1.2
-    (they were not in XFree86 1.1):
+    the following key features were added with the release of xfree86 1.2
+    (they were not in xfree86 1.1):
  
-     1) The monochrome server has been enhanced to do bank-switching of
-        available SVGA memory to allow virtual screens up to 1600x1200 
-        (see the X386(1) manual page for more information).
-     2) Support for the Hercules mono card has been added to the
+     1) the monochrome server has been enhanced to do bank-switching of
+        available svga memory to allow virtual screens up to 1600x1200 
+        (see the x386(1) manual page for more information).
+     2) support for the hercules mono card has been added to the
         monochrome server, and with it the ability to support a "two
-        headed" server - one VGA, and one Hercules.  So far this has only
-        been tested on SVR4 (it is also reported to work under Linux).
-     3) SVR3 shared libraries, tested under ISC SVR3 2.2 and 3.0.1.
-     4) Support for SVR4.2 (There are some special considerations to
-        consider, due to new USL bugs; see the README.SVR4 file for
+        headed" server - one vga, and one hercules.  so far this has only
+        been tested on svr4 (it is also reported to work under linux).
+     3) svr3 shared libraries, tested under isc svr3 2.2 and 3.0.1.
+     4) support for svr4.2 (there are some special considerations to
+        consider, due to new usl bugs; see the readme.svr4 file for
         more information.)
-     5) Support for PS/2 mice, and Logitech MouseMan/TrackMan (some 
+     5) support for ps/2 mice, and logitech mouseman/trackman (some 
         versions of these devices were not previously compatible).
-     6) A new tutorial on how to develop correct video card and monitor
-        timing data, written by Eric Raymond (derived from previous
+     6) a new tutorial on how to develop correct video card and monitor
+        timing data, written by eric raymond (derived from previous
         documentation and a lot of experimentation).
-     7) Greatly improved support for international keyboards, including
-        implementation of the Compose key functionality found on many 
-        vendor servers (see the X386keybd(1) manual page for more 
+     7) greatly improved support for international keyboards, including
+        implementation of the compose key functionality found on many 
+        vendor servers (see the x386keybd(1) manual page for more 
         information).
-     8) The accuracy with which the server detects SVGA pixel clocks has
+     8) the accuracy with which the server detects svga pixel clocks has
         been improved, and the timings are now stored at accuracies of
-        0.1 MHz.  Users may want to consider removing an existing Clocks
-        line from their Xconfig file and re-probing using the new server.
-     9) Many enhancements in error handling and parsing of the Xconfig
-        configuration file.  Error messages are much more informative
-        and intuitive, and more validation is done.  There are many new
-        options that can be enabled in the Xconfig file (see the X386(1) 
+        0.1 mhz.  users may want to consider removing an existing clocks
+        line from their xconfig file and re-probing using the new server.
+     9) many enhancements in error handling and parsing of the xconfig
+        configuration file.  error messages are much more informative
+        and intuitive, and more validation is done.  there are many new
+        options that can be enabled in the xconfig file (see the x386(1) 
         manual page for more information on the format of this file).
  
-        Plus a number of other small things.  Refer to the CHANGELOG file
+        plus a number of other small things.  refer to the changelog file
         in the source distribution for full details.
  
-    Also included are a tutorial on monitor timing by Eric Raymond, and the
-    current X386 mode database and a sample xdm configuration by David Wexelblat.
+    also included are a tutorial on monitor timing by eric raymond, and the
+    current x386 mode database and a sample xdm configuration by david wexelblat.
  
- 4. What OSs are supported?
+ 4. what oss are supported?
  
-     XFree86 supports:
- 	SVR4.2: Consensys V4.2
- 	SVR4.0: Microport, Dell, Esix, ISC, AT&T, MST, Consensys, UHC
- 	SVR3: ISC 2.2 & 3.0, AT&T 2.2
- 	Linux, Mach 386, 386BSD 0.1
+     xfree86 supports:
+ 	svr4.2: consensys v4.2
+ 	svr4.0: microport, dell, esix, isc, at&t, mst, consensys, uhc
+ 	svr3: isc 2.2 & 3.0, at&t 2.2
+ 	linux, mach 386, 386bsd 0.1
  
- 	BSD/386 is not supported, but it should work. The most active
- 	BSD/386 person is Greg Lehey <grog@lemis.de>.
+ 	bsd/386 is not supported, but it should work. the most active
+ 	bsd/386 person is greg lehey <grog@lemis.de>.
  
- 	Note that Esix 3.2D and SCO are not supported yet,
+ 	note that esix 3.2d and sco are not supported yet,
  	but anyone should feel free to submit patches.
- 	If you are interested in tackling this, send mail to
+ 	if you are interested in tackling this, send mail to
  	xfree86@physics.su.oz.au
  
- 5. What video hardware is supported?
+ 5. what video hardware is supported?
  
-    At this time, XFree86 1.2 supports the following SVGA chipsets:
+    at this time, xfree86 1.2 supports the following svga chipsets:
  
- 	Tseng ET4000
- 	Tseng ET3000
- 	Paradise PVGA1
- 	Western Digital WD90C00, WD90C10, WD90C11 (these are supersets of
- 		the PVGA1, and use its driver)
- 	Genoa GVGA
- 	Trident TVGA8900C, TVGA9000
- 	ATI 18800, 28800
+ 	tseng et4000
+ 	tseng et3000
+ 	paradise pvga1
+ 	western digital wd90c00, wd90c10, wd90c11 (these are supersets of
+ 		the pvga1, and use its driver)
+ 	genoa gvga
+ 	trident tvga8900c, tvga9000
+ 	ati 18800, 28800
  
- 	All of the above are supported in both 256 color and monochrome modes,
- 	with the exception of the ATI chipsets, which are only supported in
+ 	all of the above are supported in both 256 color and monochrome modes,
+ 	with the exception of the ati chipsets, which are only supported in
  	256 color mode.
  
- 	The monochrome server also supports generic VGA cards, using 64k of
- 	video memory in a single bank, and the Hercules card.  On the
- 	ET3000, only 64k of video memory is supported for the monochrome
- 	server, and the GVGA has not been tested with more than 64k.
+ 	the monochrome server also supports generic vga cards, using 64k of
+ 	video memory in a single bank, and the hercules card.  on the
+ 	et3000, only 64k of video memory is supported for the monochrome
+ 	server, and the gvga has not been tested with more than 64k.
  
- 	It appears that some of the SVGA card manufacturers are going to
- 	non-traditional mechanisms for selecting pixel-clock frequencies.  To
- 	avoid having to modify the server to accommodate these schemes XFree86
+ 	it appears that some of the svga card manufacturers are going to
+ 	non-traditional mechanisms for selecting pixel-clock frequencies.  to
+ 	avoid having to modify the server to accommodate these schemes xfree86
  	1.2 adds support for using an external program to select the pixel
- 	clock.  This allows programs to be written as new mechanisms are
- 	discovered.  Refer to the README.clkprog file for information on how
- 	these programs work, if you need to write one.  If you do develop such
- 	a program, the XFree86 team would be interested in including it with
- 	future XFree86 releases.
+ 	clock.  this allows programs to be written as new mechanisms are
+ 	discovered.  refer to the readme.clkprog file for information on how
+ 	these programs work, if you need to write one.  if you do develop such
+ 	a program, the xfree86 team would be interested in including it with
+ 	future xfree86 releases.
  
- 	If you are purchasing new hardware for the purpose of using XFree86,
- 	it is suggested that you purchase an ET4000-based board such as the
- 	Orchid ProDesigner IIs.  Avoid recent Diamond boards; XFree86 will not
- 	work with them, because Diamond won't provide programming details.
- 	In fact, the XFree86 project is actively not supporting new Diamond
- 	products, as long as such policies remain in effect.  Contributions
- 	of code will NOT be accepted (because of the potential liabilities).
- 	If you would like to see this change, tell Diamond about it.
+ 	if you are purchasing new hardware for the purpose of using xfree86,
+ 	it is suggested that you purchase an et4000-based board such as the
+ 	orchid prodesigner iis.  avoid recent diamond boards; xfree86 will not
+ 	work with them, because diamond won't provide programming details.
+ 	in fact, the xfree86 project is actively not supporting new diamond
+ 	products, as long as such policies remain in effect.  contributions
+ 	of code will not be accepted (because of the potential liabilities).
+ 	if you would like to see this change, tell diamond about it.
  
- 	Some people have asked if XFree86 would work with local bus or EISA
- 	video cards. Theoretically, the means of communication between the
- 	CPU and the video card is irrelevant to Xfree86 compatibility. It
- 	could be ISA, EISA, or local bus.  What should matter is the chipset
- 	on the video card.  Unfortunately, the developers don't have a lot
- 	of access to EISA or VLB machines, so this is largely an untested
- 	theory.  However, we have yet to see any reports of things not
- 	working on one of these buses and we have several reports of Xfree86
+ 	some people have asked if xfree86 would work with local bus or eisa
+ 	video cards. theoretically, the means of communication between the
+ 	cpu and the video card is irrelevant to xfree86 compatibility. it
+ 	could be isa, eisa, or local bus.  what should matter is the chipset
+ 	on the video card.  unfortunately, the developers don't have a lot
+ 	of access to eisa or vlb machines, so this is largely an untested
+ 	theory.  however, we have yet to see any reports of things not
+ 	working on one of these buses and we have several reports of xfree86
  	working fine on them.
  
- 6. What about accelerated boards?
+ 6. what about accelerated boards?
  
- 	At this time, there is no support in XFree86 for accelerated boards
- 	like the S3, ATI Ultra (8514/A), TIGA, etc.  This support is available
- 	in commercial products from SGCS and MetroLink (for SVR3 and SVR4).
+ 	at this time, there is no support in xfree86 for accelerated boards
+ 	like the s3, ati ultra (8514/a), tiga, etc.  this support is available
+ 	in commercial products from sgcs and metrolink (for svr3 and svr4).
  
- 	An S3 server is available for 386BSD and Linux.  Contact
- 	<hasty@netcom.com> for 386BSD or <jon@robots.ox.ac.uk> for Linux.
+ 	an s3 server is available for 386bsd and linux.  contact
+ 	<hasty@netcom.com> for 386bsd or <jon@robots.ox.ac.uk> for linux.
  
- 	A beta 8514/A server is available for Linux. Contact <martin@cs.unc.edu>
- 	or <jon@robots.ox.ac.uk>. Note: these servers are NOT part of XFree86.
+ 	a beta 8514/a server is available for linux. contact <martin@cs.unc.edu>
+ 	or <jon@robots.ox.ac.uk>. note: these servers are not part of xfree86.
  
- 7. Why doesn't XFree86 support 16-color VGA modes?
+ 7. why doesn't xfree86 support 16-color vga modes?
  
- 	The reason that this is not supported is the way VGA implements the
- 	16-color modes.  In 256-color modes, each byte of frame buffer memory
- 	contains 1 pixel.  But the 16-color modes are implemented as bit-
- 	planes.  Each byte of frame- buffer memory contains 1 bit from each
- 	of each of 8 pixels, and there are four such planes.  The MIT frame-
- 	buffer code is not designed to deal with this.  If VGA handled
- 	16-color modes by packing 2 4-bit pixels into each byte, the MIT code
- 	could be modified to support this (or it already may; I'm not sure).
- 	But for the VGA way of doing things, a complete new frame-buffer
- 	implementation is required.  Some beta testers are looking into this,
+ 	the reason that this is not supported is the way vga implements the
+ 	16-color modes.  in 256-color modes, each byte of frame buffer memory
+ 	contains 1 pixel.  but the 16-color modes are implemented as bit-
+ 	planes.  each byte of frame- buffer memory contains 1 bit from each
+ 	of each of 8 pixels, and there are four such planes.  the mit frame-
+ 	buffer code is not designed to deal with this.  if vga handled
+ 	16-color modes by packing 2 4-bit pixels into each byte, the mit code
+ 	could be modified to support this (or it already may; i'm not sure).
+ 	but for the vga way of doing things, a complete new frame-buffer
+ 	implementation is required.  some beta testers are looking into this,
  	but nothing is yet available from the project.
  
- 8. What other hardware or software requirements are there?
+ 8. what other hardware or software requirements are there?
  
- 	Obviously, a supported SVGA board and OS are required.  To run
- 	X efficiently, 12-16MB of memory should be considered a minimum.
- 	The various binary releases take 10-40MB of disk space, depending
- 	on the OS (e.g. whether or not it supports shared libraries).
- 	To build from sources, at least 80MB of free disk space will
- 	be required, although 120MB should be considered a comfortable 
+ 	obviously, a supported svga board and os are required.  to run
+ 	x efficiently, 12-16mb of memory should be considered a minimum.
+ 	the various binary releases take 10-40mb of disk space, depending
+ 	on the os (e.g. whether or not it supports shared libraries).
+ 	to build from sources, at least 80mb of free disk space will
+ 	be required, although 120mb should be considered a comfortable 
  	lower bound.
  
- 9. Where can I get source for XFree86?
+ 9. where can i get source for xfree86?
  
- 	Source patches for the current version (1.2, based on X11R5 PL22
- 	from MIT), are available via anonymous FTP from:
- 		export.lcs.mit.edu (under /contrib/XFree86)
- 		ftp.physics.su.oz.au (under /XFree86)
- 		ftp.win.tue.nl (under /pub/XFree86)
- 	(For the rest of this FAQ, these 3 location will be called $FTP)
+ 	source patches for the current version (1.2, based on x11r5 pl22
+ 	from mit), are available via anonymous ftp from:
+ 		export.lcs.mit.edu (under /contrib/xfree86)
+ 		ftp.physics.su.oz.au (under /xfree86)
+ 		ftp.win.tue.nl (under /pub/xfree86)
+ 	(for the rest of this faq, these 3 location will be called $ftp)
  
- 	Refer to the README file under the specified directory for information
+ 	refer to the readme file under the specified directory for information
  	on which files you need to get to build your distribution.
  
- 10. Where can I get binaries for XFree86?
+ 10. where can i get binaries for xfree86?
  
- 	Binaries are available via anonymous FTP from:
- 		ftp.physics.su.oz.au		- SVR4 binaries
- 			under /XFree86/SVR4
- 		ftp.win.tue.nl			- SVR4 binaries
- 			under /pub/XFree86/SVR4
- 		ferkel.ucsb.edu			- SVR4 binaries
- 			under /pub/SVR4/XFree86
- 		stasi.bradley.edu		- SVR4 binaries
- 			under /pub/XFree86/SVR4
- 		blancmange.ma.utexas.edu	- SVR3 (ISC) binaries
- 			under /pub/ISC
- 		ftp.prz.tu-berlin.de            - SVR3 (ISC) binaries
- 			under /pub/pc/isc/XFree86
- 		tsx-11.mit.edu			- Linux binaries
- 			under /pub/linux/packages/X11
- 		agate.berkeley.edu		- 386BSD binaries
- 			under /pub/386BSD/0.1-ports/XFree86
- 		ftp.cs.uwm.edu			- Mach binaries
+ 	binaries are available via anonymous ftp from:
+ 		ftp.physics.su.oz.au		- svr4 binaries
+ 			under /xfree86/svr4
+ 		ftp.win.tue.nl			- svr4 binaries
+ 			under /pub/xfree86/svr4
+ 		ferkel.ucsb.edu			- svr4 binaries
+ 			under /pub/svr4/xfree86
+ 		stasi.bradley.edu		- svr4 binaries
+ 			under /pub/xfree86/svr4
+ 		blancmange.ma.utexas.edu	- svr3 (isc) binaries
+ 			under /pub/isc
+ 		ftp.prz.tu-berlin.de            - svr3 (isc) binaries
+ 			under /pub/pc/isc/xfree86
+ 		tsx-11.mit.edu			- linux binaries
+ 			under /pub/linux/packages/x11
+ 		agate.berkeley.edu		- 386bsd binaries
+ 			under /pub/386bsd/0.1-ports/xfree86
+ 		ftp.cs.uwm.edu			- mach binaries
  			under /i386
  
- 	Ensure that you are getting XFree86 1.2 - some of these sites may
- 	archive older releases as well.  Each binary distribution will
- 	contain a README file that describes what files you need to take
+ 	ensure that you are getting xfree86 1.2 - some of these sites may
+ 	archive older releases as well.  each binary distribution will
+ 	contain a readme file that describes what files you need to take
  	from the archive, and which compile-time option selections were
  	made when building the distribution.
  
- IV) What general things should I know about running XFree86?
+ iv) what general things should i know about running xfree86?
  
- 11. Installation directories
+ 11. installation directories
  
- 	The top-level installation directory is specified by the ProjectRoot
- 	(/usr/X386, by default) variable in config/site.def. Binaries, include
- 	files, and libraries are installed in $ProjectRoot/{bin,include,lib}.
+ 	the top-level installation directory is specified by the projectroot
+ 	(/usr/x386, by default) variable in config/site.def. binaries, include
+ 	files, and libraries are installed in $projectroot/{bin,include,lib}.
  
- 	This can be changed when rebuilding from sources, and can be modified
- 	via symbolic links for those OSs that support them. This directory is
- 	nonstandard, and was chosen this way to allow XFree86 to be installed
- 	alongside a commercial/vendor-supplied X implementation.
+ 	this can be changed when rebuilding from sources, and can be modified
+ 	via symbolic links for those oss that support them. this directory is
+ 	nonstandard, and was chosen this way to allow xfree86 to be installed
+ 	alongside a commercial/vendor-supplied x implementation.
  
- 12. Configuration files
+ 12. configuration files
  
- 	The XFree86 server reads a configuration file ("Xconfig") on startup.
- 	The search path, contents and syntax for this file are documented in
+ 	the xfree86 server reads a configuration file ("xconfig") on startup.
+ 	the search path, contents and syntax for this file are documented in
  	the server manpage, which should be consulted before asking questions.
  
- 13. Determining VGA dot clocks and monitor modes
+ 13. determining vga dot clocks and monitor modes
  
- 	David E Wexelblat (dwex@mtgzfs3.att.com) maintains a database of known
- 	clock settings for VGA cards and monitor settings.
- 	The database is installed in /usr/X386/lib/X11/etc/modeDB.txt, and
- 	is in the source tree under mit/server/ddx/x386/etc. This database is
+ 	david e wexelblat (dwex@mtgzfs3.att.com) maintains a database of known
+ 	clock settings for vga cards and monitor settings.
+ 	the database is installed in /usr/x386/lib/x11/etc/modedb.txt, and
+ 	is in the source tree under mit/server/ddx/x386/etc. this database is
  	also available from him (for the latest copy), and is kept on
- 	export.lcs.mit.edu in ~/contrib/X386.modeDB.Z, which is updated
- 	occasionally.  Obtain a copy of this database.  It just might have the
- 	settings you need.  If you create new settings, please send them to
- 	David for inclusion in the database.
+ 	export.lcs.mit.edu in ~/contrib/x386.modedb.z, which is updated
+ 	occasionally.  obtain a copy of this database.  it just might have the
+ 	settings you need.  if you create new settings, please send them to
+ 	david for inclusion in the database.
  
- 	If this doesn't help you, the VideoModes.doc (by Eric Raymond) file 
- 	with XFree86 contains tutorials on how to come up with these timings.
- 	It may be helpful to start with settings that almost work, and use
- 	this description to get them right.  When you do, send the information
- 	to David Wexelblat for inclusion in the database.
+ 	if this doesn't help you, the videomodes.doc (by eric raymond) file 
+ 	with xfree86 contains tutorials on how to come up with these timings.
+ 	it may be helpful to start with settings that almost work, and use
+ 	this description to get them right.  when you do, send the information
+ 	to david wexelblat for inclusion in the database.
  
- 	NOTE: The old 'clock.exe' program is not supported any more, and
- 	      is completely unnecessary.  If you need to determine dot
- 	      clock values for a new board, remove the 'Clocks' line from
- 	      your Xconfig file (if present), and start the server.  The
+ 	note: the old 'clock.exe' program is not supported any more, and
+ 	      is completely unnecessary.  if you need to determine dot
+ 	      clock values for a new board, remove the 'clocks' line from
+ 	      your xconfig file (if present), and start the server.  the
  	      server will probe for clocks itself and print them out.
- 	      You can use these values to put a 'Clocks' line into your
- 	      Xconfig file, which is not necessary, but will speed up
+ 	      you can use these values to put a 'clocks' line into your
+ 	      xconfig file, which is not necessary, but will speed up
  	      starting the server in the future.
  
- 14. Rebuilding/reconfiguring the server from the link kit
+ 14. rebuilding/reconfiguring the server from the link kit
  
- 	If you have installed the server Binary Link Kit, it is possible to
- 	reconfigure the drivers and font renderers in the server.  This is
- 	fully explained in the README file that is available with the link kit.
+ 	if you have installed the server binary link kit, it is possible to
+ 	reconfigure the drivers and font renderers in the server.  this is
+ 	fully explained in the readme file that is available with the link kit.
  
- V) What OS-specific things should I know about running XFree86?
+ v) what os-specific things should i know about running xfree86?
  
- 	First of all, the server must be installed suid-root (mode 4755).
+ 	first of all, the server must be installed suid-root (mode 4755).
  
- 15. SVR4
- 	Why won't my xterm run properly?
+ 15. svr4
+ 	why won't my xterm run properly?
  
- 	If your kernel is not built with the consem module, you should define
- 	CONSEM=no in you environment. Otherwise xterm won't run.
- 	csh users should use 'setenv CONSEM no'
+ 	if your kernel is not built with the consem module, you should define
+ 	consem=no in you environment. otherwise xterm won't run.
+ 	csh users should use 'setenv consem no'
  
- 	The Esix console driver patch 403019 is known to cause keymapping
- 	problems with XFree86.  It recommended that this patch not be
- 	installed.  Alternatively they keymap can be fixed with xmodmap.
+ 	the esix console driver patch 403019 is known to cause keymapping
+ 	problems with xfree86.  it recommended that this patch not be
+ 	installed.  alternatively they keymap can be fixed with xmodmap.
  
- 16. SVR3
+ 16. svr3
  
- 	Make sure you look at $FTP/README.ISC, if that's what you are running.
+ 	make sure you look at $ftp/readme.isc, if that's what you are running.
  
- 17. 386BSD
+ 17. 386bsd
  
- 	Make sure you look at $FTP/README.386BSD.
+ 	make sure you look at $ftp/readme.386bsd.
  
- 	Also, a separate 386BSD FAQ is maintained by Richard Murphey
- 	<Rich@Rice.edu>.  The latest version should be available in the
- 	file XFree86-1.2-386BSD-FAQ at the following ftp sites:
+ 	also, a separate 386bsd faq is maintained by richard murphey
+ 	<rich@rice.edu>.  the latest version should be available in the
+ 	file xfree86-1.2-386bsd-faq at the following ftp sites:
  
- 	    agate.berkeley.edu:/pub/386BSD/0.1-ports/XFree86-1.2
- 	    wuarchive.wustl.edu:/mirrors4/386bsd/0.1-ports/XFree86-1.2
- 	    grasp1.univ-lyon1.fr:pub/386BSD/0.1-ports/XFree86-1.2
+ 	    agate.berkeley.edu:/pub/386bsd/0.1-ports/xfree86-1.2
+ 	    wuarchive.wustl.edu:/mirrors4/386bsd/0.1-ports/xfree86-1.2
+ 	    grasp1.univ-lyon1.fr:pub/386bsd/0.1-ports/xfree86-1.2
  
- 18. Linux
+ 18. linux
  
- 	You must be running Linux 0.97pl4 or greater, and have the 4.1 gcc
+ 	you must be running linux 0.97pl4 or greater, and have the 4.1 gcc
  	jump libraries installed.
  
- 	Make sure the binaries X386, X386mono, xload and xterm are setuid root.
+ 	make sure the binaries x386, x386mono, xload and xterm are setuid root.
  
- 	If your kernel doesn't have TCP support compiled in, you'll have to
- 	run the server as "X -pn". The default startup configuration assumes
- 	that TCP is not available. If it is, change the two files
- 	/usr/X386/bin/startx and /usr/X386/lib/X11/xdm/Xservers, removing the
- 	-pn argument to X386.
+ 	if your kernel doesn't have tcp support compiled in, you'll have to
+ 	run the server as "x -pn". the default startup configuration assumes
+ 	that tcp is not available. if it is, change the two files
+ 	/usr/x386/bin/startx and /usr/x386/lib/x11/xdm/xservers, removing the
+ 	-pn argument to x386.
  
- 	Make sure /dev/console is either a link to /dev/tty0 or has the major
- 	number 4, minor number 0. Also note that if /dev/console is not
- 	owned by the user running X, then xconsole and xterm will not permit
- 	console output redirection. Xdm will properly change the owner, but
+ 	make sure /dev/console is either a link to /dev/tty0 or has the major
+ 	number 4, minor number 0. also note that if /dev/console is not
+ 	owned by the user running x, then xconsole and xterm will not permit
+ 	console output redirection. xdm will properly change the owner, but
  	startx won't.
  
- 	When running xdm from rc.local, you will need to provide it with
+ 	when running xdm from rc.local, you will need to provide it with
  	a tty, for example "xdm < /dev/console &".
  
- 	For more detailed information, please read the file README present
+ 	for more detailed information, please read the file readme present
  	with the distribution on tsx-11.mit.edu.
  
- 19. Mach
+ 19. mach
  
- 	Make sure you look at $FTP/README.Mach.
+ 	make sure you look at $ftp/readme.mach.
  
- VI) What things should I know for building XFree86 from source?
+ vi) what things should i know for building xfree86 from source?
  
- 	This section has been removed from the FAQ, since it is
- 	fully explained in $FTP/README and the OS-specific READMEs.
- 	Please look at those files for information on building XFree86.
+ 	this section has been removed from the faq, since it is
+ 	fully explained in $ftp/readme and the os-specific readmes.
+ 	please look at those files for information on building xfree86.
  
- VII) Is there anything special about building clients with XFree86?
+ vii) is there anything special about building clients with xfree86?
  
- 20. BSD compatibility library
+ 20. bsd compatibility library
  
- 	A lot of clients make use of BSD functions like bcopy(), etc.
- 	The default configuration files are set up to link with libXbsd.a
+ 	a lot of clients make use of bsd functions like bcopy(), etc.
+ 	the default configuration files are set up to link with libxbsd.a
  	which contains emulation for bcopy(), bzero(), bcmp(), ffs(), random(),
- 	seed(). A better way of providing the 'b' functions is to include
- 	<X11/Xfuncs.h> in source files that call them.  Xfuncs.h provides macro
- 	definitions for these in terms of the SYSV 'mem' functions.  If you are
+ 	seed(). a better way of providing the 'b' functions is to include
+ 	<x11/xfuncs.h> in source files that call them.  xfuncs.h provides macro
+ 	definitions for these in terms of the sysv 'mem' functions.  if you are
  	linking with a vendor supplied library which calls some of these
- 	functions, then you should link with libXbsd.a
+ 	functions, then you should link with libxbsd.a
  
- 21. ANSICCOPTIONS
+ 21. ansiccoptions
  
- 	This is something that was added to allow a developer to get rid of the
- 	ANSI-ness defined in the default CCOPTIONS without having to rewrite
- 	the entire CCOPTIONS line.  For example, with stock MIT, you'd see
+ 	this is something that was added to allow a developer to get rid of the
+ 	ansi-ness defined in the default ccoptions without having to rewrite
+ 	the entire ccoptions line.  for example, with stock mit, you'd see
  	something like
- 		CCOPTIONS="-ansi -O2 -fwritable-strings"
- 	and to get rid of the ANSI-ness, the developer would have to put
- 		CCOPTIONS="-O2 -fwritable-strings"
- 	in his Imakefile.  With this change, you would see a default of
- 		ANSICCOPTIONS="-ansi"
- 		CCOPTIONS="-O2 -fwritable-strings"
- 	and all the developer would have to put in the Imakefile is:
- 		ANSICCOPTIONS=
- 	to get rid of the ANSI-ness (many X clients will die a horrible death
- 	with -ansi).  The effect is even more dramatic in practice, because
- 	CCOPTIONS is actually quite complex.  The other issue is that one must
- 	add 'ANSICCOPTIONS=$(ANSICCOPTIONS)' to a PassCDebugFlags definition.
+ 		ccoptions="-ansi -o2 -fwritable-strings"
+ 	and to get rid of the ansi-ness, the developer would have to put
+ 		ccoptions="-o2 -fwritable-strings"
+ 	in his imakefile.  with this change, you would see a default of
+ 		ansiccoptions="-ansi"
+ 		ccoptions="-o2 -fwritable-strings"
+ 	and all the developer would have to put in the imakefile is:
+ 		ansiccoptions=
+ 	to get rid of the ansi-ness (many x clients will die a horrible death
+ 	with -ansi).  the effect is even more dramatic in practice, because
+ 	ccoptions is actually quite complex.  the other issue is that one must
+ 	add 'ansiccoptions=$(ansiccoptions)' to a passcdebugflags definition.
  
- XFree86 Contact Information
+ xfree86 contact information
  
-     Ongoing development planning and support is coordinated by the XFree86
-     Core Team.  At this time the Core Team consists of:
+     ongoing development planning and support is coordinated by the xfree86
+     core team.  at this time the core team consists of:
  
- 	The original "gang of four":
- 		David Dawes <dawes@physics.su.oz.au>
- 		Glenn Lai <glenn@cs.utexas.edu>
- 		Jim Tsillas <jtsilla@damon.ccs.northeastern.edu>
- 		David Wexelblat <dwex@mtgzfs3.att.com>
+ 	the original "gang of four":
+ 		david dawes <dawes@physics.su.oz.au>
+ 		glenn lai <glenn@cs.utexas.edu>
+ 		jim tsillas <jtsilla@damon.ccs.northeastern.edu>
+ 		david wexelblat <dwex@mtgzfs3.att.com>
  
- 	Those supporting non-SYSV operating systems:
- 		Robert Baron <Robert.Baron@ernst.mach.cs.cmu.edu> [Mach]
- 		Rich Murphey <Rich@Rice.edu> [386BSD]
- 		Orest Zborowski <obz@kodak.com> [Linux]
+ 	those supporting non-sysv operating systems:
+ 		robert baron <robert.baron@ernst.mach.cs.cmu.edu> [mach]
+ 		rich murphey <rich@rice.edu> [386bsd]
+ 		orest zborowski <obz@kodak.com> [linux]
  
      e-mail sent to <xfree86@physics.su.oz.au> will reach all of the core team.
  
  	--------------------------------------------------
  
- Thanks to all the people who already sent me corrections or additions,
- especially David Wexelblat (one of the major contributors of updates).
+ thanks to all the people who already sent me corrections or additions,
+ especially david wexelblat (one of the major contributors of updates).
  -- 
- Steve Kotsopoulos  P.Eng.           mail:   steve@ecf.toronto.edu
- Systems Analyst                     bitnet: steve@ecf.UTORONTO.BITNET
- Engineering Computing Facility      uucp:   uunet!utai!ecf!steve
- University of Toronto               phone:  (416) 978-5898
+ steve kotsopoulos  p.eng.           mail:   steve@ecf.toronto.edu
+ systems analyst                     bitnet: steve@ecf.utoronto.bitnet
+ engineering computing facility      uucp:   uunet!utai!ecf!steve
+ university of toronto               phone:  (416) 978-5898
  

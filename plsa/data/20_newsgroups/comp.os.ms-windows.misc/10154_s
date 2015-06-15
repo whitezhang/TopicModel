@@ -1,24 +1,24 @@
 
- I'm using BC++'s ObjectWindows (3.1), trying to resond to the left button
- double click message WM_LBUTTONDBLCLK in a combo box. My codes look like:
+ i'm using bc++'s objectwindows (3.1), trying to resond to the left button
+ double click message wm_lbuttondblclk in a combo box. my codes look like:
  
- class MyComboBox : public TComboBox
+ class mycombobox : public tcombobox
  {
  public:
- 	MyComboBox(PTWindowsObject AParent, int ResourceId, WORD ATextLen) :
- 		TComboBox(AParent, ResourceId, ATextLen) {};
- 	virtual void WMLButtonDblClk(RTMessage Msg) = [WM_FIRST + WM_LBUTTONDBLCLK];
+ 	mycombobox(ptwindowsobject aparent, int resourceid, word atextlen) :
+ 		tcombobox(aparent, resourceid, atextlen) {};
+ 	virtual void wmlbuttondblclk(rtmessage msg) = [wm_first + wm_lbuttondblclk];
  };
  
- void MyComboBox::WMLButtonDblClk(RTMessage Msg)
+ void mycombobox::wmlbuttondblclk(rtmessage msg)
  {
  	...	// responding to the message (selecting the item in the list box)
  }
  
- Anything wrong with my program? Any help would be appreciated.
+ anything wrong with my program? any help would be appreciated.
  
  -- jun
- To talk to the Lord with PS/2 through MS-Windows
+ to talk to the lord with ps/2 through ms-windows
  
  
  

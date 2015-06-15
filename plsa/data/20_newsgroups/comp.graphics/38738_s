@@ -1,27 +1,27 @@
 
  
  
- Hi all,
- I am looking into methods I can use to turn my Linux based BBS into a full color
- Graphical BBS that supports PC, Mac, Linux, and Amiga callers. 
- Originally I was inspired by the NAPLPS graphics standard (a summary of 
+ hi all,
+ i am looking into methods i can use to turn my linux based bbs into a full color
+ graphical bbs that supports pc, mac, linux, and amiga callers. 
+ originally i was inspired by the naplps graphics standard (a summary of 
  which hit this group about 2 weeks ago). 
- Following up on software availability of NAPLPS supporting software I find
+ following up on software availability of naplps supporting software i find
  that most terminal programs are commercial the only resonable shareware one being
- PP3 which runs soley on MSDOS machines leaving Mac and Amiga users to buy full
- commercial software if they want to try out the BBS (I know I wouldn't)
+ pp3 which runs soley on msdos machines leaving mac and amiga users to buy full
+ commercial software if they want to try out the bbs (i know i wouldn't)
  
- Next most interesting possibility is to port MGR to PC, Mac, Amiga. I know there
- is an old version of a Mac port on bellcore.com that doesn't work under System 7
- But I can't seem to find the source anywhere to see if I can patch it.
+ next most interesting possibility is to port mgr to pc, mac, amiga. i know there
+ is an old version of a mac port on bellcore.com that doesn't work under system 7
+ but i can't seem to find the source anywhere to see if i can patch it.
  
- Is there a color version of MGR for Linux? 
- I know there was an alpha version of the libs out last year but I misplaced it.
+ is there a color version of mgr for linux? 
+ i know there was an alpha version of the libs out last year but i misplaced it.
  
- Does anyone on this group know if MGR as been ported to PC or Amiga ?
- I can't seem to send a message to the MGR channel without it bouncing.
+ does anyone on this group know if mgr as been ported to pc or amiga ?
+ i can't seem to send a message to the mgr channel without it bouncing.
  
- Does anyone have any other suggestions for a Linux based GUI BBS ?
+ does anyone have any other suggestions for a linux based gui bbs ?
  
- Thanks in advan
+ thanks in advan
  

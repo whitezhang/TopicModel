@@ -1,70 +1,70 @@
 
- Could someone PLEASE give a guess as to why this simple little program
- causes a BadPixmap error on the FOURTH (bizarre???) call to XtRelaizeWidget()?
+ could someone please give a guess as to why this simple little program
+ causes a badpixmap error on the fourth (bizarre???) call to xtrelaizewidget()?
  
- Here is the code:
+ here is the code:
  
  
  int stoploop = 0;
  
- static void Callback(Widget, XtPointer, XtPointer);
+ static void callback(widget, xtpointer, xtpointer);
  
  main()
  {
-         XtToolkitInitialize();
-         XtAppContext app = XtCreateApplicationContext();
+         xttoolkitinitialize();
+         xtappcontext app = xtcreateapplicationcontext();
          while (1)
          {
                  int junk = 0;
-                 Display *dis = XtOpenDisplay(app, NULL, NULL, NULL, NULL, 0,
-                                                 &junk, NULL);
+                 display *dis = xtopendisplay(app, null, null, null, null, 0,
+                                                 &junk, null);
  
-                 Widget top = XtAppCreateShell(NULL, NULL,
-                                 applicationShellWidgetClass, dis, NULL, 0);
+                 widget top = xtappcreateshell(null, null,
+                                 applicationshellwidgetclass, dis, null, 0);
  
-                 Widget box = XtVaCreateManagedWidget("x",
-                                                         xmPushButtonWidgetClass,
+                 widget box = xtvacreatemanagedwidget("x",
+                                                         xmpushbuttonwidgetclass,
                                                          top,
-                                                         XmNheight, 25,
-                                                         XmNwidth, 25, NULL);
+                                                         xmnheight, 25,
+                                                         xmnwidth, 25, null);
  
-                 XtAddCallback(box, XmNactivateCallback, Callback, NULL);
+                 xtaddcallback(box, xmnactivatecallback, callback, null);
  
-                 XtRealizeWidget(top);
+                 xtrealizewidget(top);
                  while (!stoploop)
                  {
-                         XEvent event;
-                         XtAppNextEvent(app, &event);
-                         XtDispatchEvent(&event);
+                         xevent event;
+                         xtappnextevent(app, &event);
+                         xtdispatchevent(&event);
                  }
                  stoploop = 0;
-                 XtReleaseGC(top, XDefaultGCOfScreen(XtScreen(top))); // needed?
-                 XtDestroyWidget(top);
-                 XtCloseDisplay(dis);
+                 xtreleasegc(top, xdefaultgcofscreen(xtscreen(top))); // needed?
+                 xtdestroywidget(top);
+                 xtclosedisplay(dis);
          }
  }
  
- static void Callback(Widget, XtPointer, XtPointer)
+ static void callback(widget, xtpointer, xtpointer)
  {
          stoploop = 1;
  }
  
  
- The error I get (yes, the 4TH time I try to show the box) is:
+ the error i get (yes, the 4th time i try to show the box) is:
  
- X Error of failed request:  BadPixmap (invalid Pixmap parameter)
-   Major opcode of failed request:  55 (X_CreateGC)
-   Resource id in failed request:  0xd0000d
-   Serial number of failed request:  71
-   Current serial number in output stream:  85
+ x error of failed request:  badpixmap (invalid pixmap parameter)
+   major opcode of failed request:  55 (x_creategc)
+   resource id in failed request:  0xd0000d
+   serial number of failed request:  71
+   current serial number in output stream:  85
  
  
- Please respond via email.  Thanks very, very much!
+ please respond via email.  thanks very, very much!
  
- (NOTE: I realize this program does nothing useful, its an ultra-trivialized
+ (note: i realize this program does nothing useful, its an ultra-trivialized
  version fo a real library routine)
  -- 
  -------------------------------------------------------------------------------
- David Rex Wood -- davewood@cs.colorado.edu -- University of Colorado at Boulder
+ david rex wood -- davewood@cs.colorado.edu -- university of colorado at boulder
  -------------------------------------------------------------------------------
  

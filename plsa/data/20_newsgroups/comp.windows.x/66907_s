@@ -1,17 +1,17 @@
 
- Hi,
-      I just got myself a Gateway 4DX-33V and trying to configure
- X11R5 for it.  Has anyone done this before ?  More specifically,
- I need a correct Xconfig file entry that is set up for my 
- graphics card and monitor.  I have a 15" Color CrystalScan 1572FS monitor
- and a VESA LOCAL BUS ATI Ultra Pro with 1MB VRAM video card.
+ hi,
+      i just got myself a gateway 4dx-33v and trying to configure
+ x11r5 for it.  has anyone done this before ?  more specifically,
+ i need a correct xconfig file entry that is set up for my 
+ graphics card and monitor.  i have a 15" color crystalscan 1572fs monitor
+ and a vesa local bus ati ultra pro with 1mb vram video card.
  
- Any help will be extremely appreciated.
+ any help will be extremely appreciated.
  
- Thanks in advance.
+ thanks in advance.
  
- Please send replies to christy@alex.qc.ca
+ please send replies to christy@alex.qc.ca
  
  
- Christy
+ christy
  

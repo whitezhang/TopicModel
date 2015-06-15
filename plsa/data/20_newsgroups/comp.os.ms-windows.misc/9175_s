@@ -1,30 +1,30 @@
 
- We have a LAN where we are doing development on product for multiple platforms. 
- For the moment we are only working on MAC and DOS/Windows. The department has   
- always used sneaker net to transport files to the MAC, since it requires a      
- filter to strip out the <LF> characters.                                        
+ we have a lan where we are doing development on product for multiple platforms. 
+ for the moment we are only working on mac and dos/windows. the department has   
+ always used sneaker net to transport files to the mac, since it requires a      
+ filter to strip out the <lf> characters.                                        
  
- Until recently no one concidered using any version control to mediate, and as   
+ until recently no one concidered using any version control to mediate, and as   
  a result, the 5 programmers spent a great deal of time merging files together   
- at the end of each week so that a new system could be build. We are now trying  
+ at the end of each week so that a new system could be build. we are now trying  
  to streamline this process, but are hampered by the lack of software that will  
- allow us to share files across PC and MAC platforms.                            
+ allow us to share files across pc and mac platforms.                            
  
- I understand that PVCS used to do this, but that they no longer support the MAC 
- product (anyone know why ??  Polytron ?).                                       
+ i understand that pvcs used to do this, but that they no longer support the mac 
+ product (anyone know why ??  polytron ?).                                       
  
- I have seen people ask about development in multiple platforms, so I assume that
- ours is not a new problem.  Who has had to deal with it ?  What solutions have  
+ i have seen people ask about development in multiple platforms, so i assume that
+ ours is not a new problem.  who has had to deal with it ?  what solutions have  
  you come up with?                                                               
  
- thanks in advance for any and all suggestions via posting or EMAIL. If there are
- enough EMAIL responses then I will post a synopsis of the knowledge.            
+ thanks in advance for any and all suggestions via posting or email. if there are
+ enough email responses then i will post a synopsis of the knowledge.            
  
- -Charles Emmons                                                                 
+ -charles emmons                                                                 
  
  -- 
-  Charles Emmons        | charles@trintex.uucp         | These opinions are
-  Prodigy Services Co.  | charles%trintex@uunet.uu.net | mine alone, unless
-  White Plains NY 10601 | Voice 914-993-8856           | you would like to
-  PRODIGY ID - KJRD82A  | FAX   914-993-8659           | share them.
+  charles emmons        | charles@trintex.uucp         | these opinions are
+  prodigy services co.  | charles%trintex@uunet.uu.net | mine alone, unless
+  white plains ny 10601 | voice 914-993-8856           | you would like to
+  prodigy id - kjrd82a  | fax   914-993-8659           | share them.
  

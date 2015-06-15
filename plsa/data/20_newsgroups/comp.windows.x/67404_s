@@ -1,29 +1,29 @@
 
- I have written a server program which makes socket connections to many nodes
- and collects data from that nodes periodically. I need to display this data on
- my X Application. I tried
- to invoke this server using XtAddAppTimeout which works ok. But the
- problem here is some time there is delay in collecting data. So I doesn't
- returns to EventLoop during that time and my application remains busy and
- It doesn't respond to users input. I button press events are queued and
- exected after server finished its task. Now I am going to try AppAddInput
- call. So that It reads pipe only when there is something to read in pipe.
+ i have written a server program which makes socket connections to many nodes
+ and collects data from that nodes periodically. i need to display this data on
+ my x application. i tried
+ to invoke this server using xtaddapptimeout which works ok. but the
+ problem here is some time there is delay in collecting data. so i doesn't
+ returns to eventloop during that time and my application remains busy and
+ it doesn't respond to users input. i button press events are queued and
+ exected after server finished its task. now i am going to try appaddinput
+ call. so that it reads pipe only when there is something to read in pipe.
  
- I am thinking of creating one pipe in which server will write and client
- which is my X application will read. Now I have some doubts which you may
+ i am thinking of creating one pipe in which server will write and client
+ which is my x application will read. now i have some doubts which you may
  be able to clarify.
  
- 1) When I fork a process. It will create to copy of my process. Right !!
-    Now what does this two copies mean? Two Shells. Where should I fork
-    my application. What are the responsibilities of this processes. How
-    should I call this processes.?
+ 1) when i fork a process. it will create to copy of my process. right !!
+    now what does this two copies mean? two shells. where should i fork
+    my application. what are the responsibilities of this processes. how
+    should i call this processes.?
  
- 2) Can I fork more than one processes. So that I can read from more
+ 2) can i fork more than one processes. so that i can read from more
     than one servers input.
  
- Thanks
+ thanks
  
- Samir Patel
+ samir patel
  
  /////////////////////////////////////////////////////////////////////////////
  

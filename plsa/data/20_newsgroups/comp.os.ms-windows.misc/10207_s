@@ -1,36 +1,36 @@
 
- I'm looking for some recommendations for screen capture programs.  A
- couple of issues ago, PC Mag listed as Editor's Choices both Conversion
- Artist and Hijaak for Windows.  Anyone have any experience with those or
- some others?  I'm trying to get an alpha manual in the next few days, and
- I'm not making much progress with the screen shots.  :^(
+ i'm looking for some recommendations for screen capture programs.  a
+ couple of issues ago, pc mag listed as editor's choices both conversion
+ artist and hijaak for windows.  anyone have any experience with those or
+ some others?  i'm trying to get an alpha manual in the next few days, and
+ i'm not making much progress with the screen shots.  :^(
   
- I'm currently using DoDot and I'm about to burn it and the disks it rode
- it on.  It's got a lot of freaky bugs and *oversights* that are driving
- me crazy.  Tonight it decided that for any graphic it writes out as a
- TIFF file that's under a certain arbitrary size, it will swap the left
- and right sides of the picture [!].  Usually it confines itself to not
- copying things to the clipboard (so I have to save and load pix for
+ i'm currently using dodot and i'm about to burn it and the disks it rode
+ it on.  it's got a lot of freaky bugs and *oversights* that are driving
+ me crazy.  tonight it decided that for any graphic it writes out as a
+ tiff file that's under a certain arbitrary size, it will swap the left
+ and right sides of the picture [!].  usually it confines itself to not
+ copying things to the clipboard (so i have to save and load pix for
  editing in paintbrush) or crashing every hour or so.
   
- The one nice thing it has, though, is it's "dither" option.  You'd think
+ the one nice thing it has, though, is it's "dither" option.  you'd think
  that this would turn colors into dots, which it does if you go from, say,
- 256 colors to 16 colors.  But if you go from 256 or 16 colors to B&W,
+ 256 colors to 16 colors.  but if you go from 256 or 16 colors to b&w,
  you can set a threshold level for which colors turn to black and which
- turn to white.  For me, this is useful because I can turn light grays on
+ turn to white.  for me, this is useful because i can turn light grays on
  buttons to white, and the dark grays to black, and thereby preserve the
  3d-effect on buttons and other parts of the window.
   
- If you understood my description :^) can you tell me if another (less
+ if you understood my description :^) can you tell me if another (less
  buggy!) program can do this as well?
   
- Much thanks for any help.
+ much thanks for any help.
  
- ---------------------------------Signature---------------------------------
- David DelGreco                       | "What lies behind us and what lies
- Technically a Writer                 | before us are tiny matters compared
+ ---------------------------------signature---------------------------------
+ david delgreco                       | "what lies behind us and what lies
+ technically a writer                 | before us are tiny matters compared
  delgreco@rahul.net                   | to what lies within us."
-                                      |         - Oliver Wendell Holmes
+                                      |         - oliver wendell holmes
  -- 
- David F. DelGreco <delgreco@rahul.net>
+ david f. delgreco <delgreco@rahul.net>
  

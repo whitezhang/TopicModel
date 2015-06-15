@@ -1,32 +1,32 @@
 
- On 4/20/93, Tim Keanini was heard to say regarding "Mac SCSI spec?:" 
+ on 4/20/93, tim keanini was heard to say regarding "mac scsi spec?:" 
  
-   TK> From: blast@nntp.crl.com (Tim
-   TK> Keanini)
-   TK> 
-   TK> I have a MacIIFX and I know that it is wired about its SCSI chain.
-   TK> 
-   TK> I just bought a drive and I need to find out a few hardcore SCSI
-   TK> question:
-   TK> 
-   TK> Does the IIFX SCSI chain want to see active or passive termination?
-   TK> 
-   TK> Does the IIFX SCSI spec want me to enable the initiation of the SDTR
-   TK> message?
-   TK> 
-   TK> WHat does the IIFX SCSI spec want as far as parity checking?
-   TK> 
-   TK> These are some very good questions for the FAQ. If someone does not
-   TK> have time to answer these questions but does know where I can look
-   TK> them up please let me know and I will repost the answers for everyone
-   TK> to see.
-   TK> 
+   tk> from: blast@nntp.crl.com (tim
+   tk> keanini)
+   tk> 
+   tk> i have a maciifx and i know that it is wired about its scsi chain.
+   tk> 
+   tk> i just bought a drive and i need to find out a few hardcore scsi
+   tk> question:
+   tk> 
+   tk> does the iifx scsi chain want to see active or passive termination?
+   tk> 
+   tk> does the iifx scsi spec want me to enable the initiation of the sdtr
+   tk> message?
+   tk> 
+   tk> what does the iifx scsi spec want as far as parity checking?
+   tk> 
+   tk> these are some very good questions for the faq. if someone does not
+   tk> have time to answer these questions but does know where i can look
+   tk> them up please let me know and i will repost the answers for everyone
+   tk> to see.
+   tk> 
  
-       Read TechNote #273...it deals with more than any sane person wants to
- know about the IIfx's SCSI....
+       read technote #273...it deals with more than any sane person wants to
+ know about the iifx's scsi....
  
-   TK> thanks, Tim Keanini        <timk@broder.com>  or  <blast@crl.com>
-   TK> Sound Engineer         Broderbund Software
-   TK> 
+   tk> thanks, tim keanini        <timk@broder.com>  or  <blast@crl.com>
+   tk> sound engineer         broderbund software
+   tk> 
    
  

@@ -1,24 +1,24 @@
 
- In article <1993Apr21.082430@liris.tew.kuleuven.ac.be> wimvh@liris.tew.kuleuven.ac.be (Wim Van Holder) writes:
+ in article <1993apr21.082430@liris.tew.kuleuven.ac.be> wimvh@liris.tew.kuleuven.ac.be (wim van holder) writes:
  
- >What the status of Trumpet for Windows? Will it use the Windows sockets ?
- >I liked it in DOS but had to abandon it since I started using NDIS to access
+ >what the status of trumpet for windows? will it use the windows sockets ?
+ >i liked it in dos but had to abandon it since i started using ndis to access
  >our token ring (results in invalid class error :(
  
- While I do not speak for Peter Tattam, I am fairly sure he is planning a 
- Winsock compliant version.  While this will definitely not make the initial
- public release of WinTrumpet, it will follow on shortly thereafter.
+ while i do not speak for peter tattam, i am fairly sure he is planning a 
+ winsock compliant version.  while this will definitely not make the initial
+ public release of wintrumpet, it will follow on shortly thereafter.
  
- Currently WinTrumpet is in very late beta.  It looks like an excellent 
- product, with several features beyond the DOS version.
+ currently wintrumpet is in very late beta.  it looks like an excellent 
+ product, with several features beyond the dos version.
  
- WinTrumpet supports the Trumpet TCP, Novell LWP, and there is also a direct to 
+ wintrumpet supports the trumpet tcp, novell lwp, and there is also a direct to 
  packet driver version that some people are using with the dis_pkt shim.
  
- Ashok 
+ ashok 
  
  --
- Ashok Aiyar                        Mail: ashok@biochemistry.cwru.edu
- Department of Biochemistry                       Tel: (216) 368-3300
- CWRU School of Medicine, Cleveland, Ohio         Fax: (216) 368-4544
+ ashok aiyar                        mail: ashok@biochemistry.cwru.edu
+ department of biochemistry                       tel: (216) 368-3300
+ cwru school of medicine, cleveland, ohio         fax: (216) 368-4544
  

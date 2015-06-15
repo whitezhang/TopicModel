@@ -1,20 +1,20 @@
 
- In <C5sCGu.1LL@mentor.cc.purdue.edu> ab@nova.cc.purdue.edu (Allen B) writes:
+ in <c5scgu.1ll@mentor.cc.purdue.edu> ab@nova.cc.purdue.edu (allen b) writes:
  
- >I've got the 6.0 spec (obviously since I quoted it in my last posting). 
- >My gripe about TIFF is that it's far too complicated and nearly
+ >i've got the 6.0 spec (obviously since i quoted it in my last posting). 
+ >my gripe about tiff is that it's far too complicated and nearly
  >infinitely easier to write than to read,...
  
- Why not use the PD C library for reading/writing TIFF files? It took me a
+ why not use the pd c library for reading/writing tiff files? it took me a
  good 20 minutes to start using them in your own app.
  
- Martin
+ martin
  
  --
  ---------------------------------------------------------------------------
- |Martin Preston,      (m.preston@manchester.ac.uk)    | Computer Graphics |
- |Computer Graphics Unit, Manchester Computing Centre, |    is just        |
- |University of Manchester,                            |  a load of balls. |
- |Manchester, U.K., M13 9PL     Phone : 061 275 6095   |                   |
+ |martin preston,      (m.preston@manchester.ac.uk)    | computer graphics |
+ |computer graphics unit, manchester computing centre, |    is just        |
+ |university of manchester,                            |  a load of balls. |
+ |manchester, u.k., m13 9pl     phone : 061 275 6095   |                   |
  ---------------------------------------------------------------------------
  

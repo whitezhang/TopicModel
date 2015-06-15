@@ -1,20 +1,20 @@
 
- In article <1993Apr22.210015.75624@mcontent.apana.org.au> Thomas_n.a._Krebs@mcontent.apana.org.au writes:
- >The most likely explanation may have something to do with the fact that a
+ in article <1993apr22.210015.75624@mcontent.apana.org.au> thomas_n.a._krebs@mcontent.apana.org.au writes:
+ >the most likely explanation may have something to do with the fact that a
  >greater density of information exists on the larger capacity disk drive than
- >the smaller one. If your running the drive on a Mac I would recommend a
- >shareware utility called Timedrive which tests seek, SCSI throughput and
- >rotational speed. This utility should let you know what the differences are
+ >the smaller one. if your running the drive on a mac i would recommend a
+ >shareware utility called timedrive which tests seek, scsi throughput and
+ >rotational speed. this utility should let you know what the differences are
  >between the drives.
  >***************************************************************************
- > The views expressed in this posting those of the individual author only. 
- >[BBS Number:(613) 848-1346      MacContent is VictoriaUs first Iconic BBS!]
+ > the views expressed in this posting those of the individual author only. 
+ >[bbs number:(613) 848-1346      maccontent is victoriaus first iconic bbs!]
  >***************************************************************************
  
- Larger drives tend to have multipule platters which can allow adjacent
- bits to be read in parallel resulting in higher throughput.  They also
+ larger drives tend to have multipule platters which can allow adjacent
+ bits to be read in parallel resulting in higher throughput.  they also
  have higher spindle speeds which leads to both increased throughput and
  reduced seek times (due to reduction of rotational latency.)
  
- _Erik Speckman
+ _erik speckman
  

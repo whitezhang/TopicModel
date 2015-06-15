@@ -1,34 +1,34 @@
 
- Excerpts from netnews.comp.windows.x: 23-Apr-93 X Toolkits Paul
- Prescod@undergrad.m (1132)
+ excerpts from netnews.comp.windows.x: 23-apr-93 x toolkits paul
+ prescod@undergrad.m (1132)
  
  
- > I am getting Linux, so I will have InterViews, but I don't know how it
- > will look.  I get the impression Andrew is from the FSF, but I don't
+ > i am getting linux, so i will have interviews, but i don't know how it
+ > will look.  i get the impression andrew is from the fsf, but i don't
  > know what it looks like either.
  
- If you're on the internet and your site isn't sheltered from external
- tcp/ip traffic, you can use the Remote Andrew Demo to see what the
- Andrew Toolkit looks like:
+ if you're on the internet and your site isn't sheltered from external
+ tcp/ip traffic, you can use the remote andrew demo to see what the
+ andrew toolkit looks like:
  
- Remote Andrew Demo Service
+ remote andrew demo service
  
- This network service allows you to run Andrew Toolkit applications
- without the overhead of obtaining or compiling the Andrew software.  You
- need a host machine on the Internet, and you need to be running the X11
- window system.  A simple "finger" command will allow you to experience
- ATK applications firsthand.  You'll be able to compose multimedia
- documents, navigate through the interactive Andrew Tour, and use the
- Andrew Message System to browse through CMU's three thousand bulletin
+ this network service allows you to run andrew toolkit applications
+ without the overhead of obtaining or compiling the andrew software.  you
+ need a host machine on the internet, and you need to be running the x11
+ window system.  a simple "finger" command will allow you to experience
+ atk applications firsthand.  you'll be able to compose multimedia
+ documents, navigate through the interactive andrew tour, and use the
+ andrew message system to browse through cmu's three thousand bulletin
  boards and newsgroups.
  
- To use the Remote Andrew Demo service, simply run the following command
+ to use the remote andrew demo service, simply run the following command
  on your machine:
  
      finger help@atk.itc.cmu.edu
  
- The service will give you further instructions.   
+ the service will give you further instructions.   
  
- Gary Keim
- Andrew Consortium
+ gary keim
+ andrew consortium
  

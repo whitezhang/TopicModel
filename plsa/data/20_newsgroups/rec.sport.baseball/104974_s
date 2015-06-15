@@ -1,96 +1,96 @@
 
- In article <C5xwAI.3nu@news.cso.uiuc.edu> hbrooks@uiatma.atmos.uiuc.edu (Harold_Brooks) writes:
- >In article <mssC5xB3I.2CG@netcom.com> mss@netcom.com (Mark Singer) writes:
+ in article <c5xwai.3nu@news.cso.uiuc.edu> hbrooks@uiatma.atmos.uiuc.edu (harold_brooks) writes:
+ >in article <mssc5xb3i.2cg@netcom.com> mss@netcom.com (mark singer) writes:
  
- >> I don't pretend to understand
+ >> i don't pretend to understand
  >>statistical analysis.
  >
- >Well, we agree on the last part.:-) 
+ >well, we agree on the last part.:-) 
  
- Cool.  And thank you for an intelligent response devoid of the silly
+ cool.  and thank you for an intelligent response devoid of the silly
  name-calling of others.  :)
  
  
-  One of the basic things you need to 
+  one of the basic things you need to 
  >have in a statistic to be able to predict a player's performance on it
- >in the future is for there to be a correlation from year to year.  A 
+ >in the future is for there to be a correlation from year to year.  a 
  >player's batting average is correlated fairly well from year to year.
  
- OK.
+ ok.
  
  >the basic problems with something like "clutch" batting average - overall
  >batting average is that the correlation from year to year is almost zero. 
- >Adding to the sample size doesn't seem to help much.
+ >adding to the sample size doesn't seem to help much.
  
- Actually, I think the large-scale sample size is part of the problem.
- It seems to me that if we were to plot all the players in baseball
- in regard to BA vs. Clutch BA deviation we would get some kind of
- bell curve.  (The X-axis being the +/- deviation in clutch hitting
- vs. non-clutch;  the Y-axis being the number of players.)  Certainly
- there would be *some* players on the extreme ends of the bell.  My
- *supposition* is that if we were to find the SAME players consistently
+ actually, i think the large-scale sample size is part of the problem.
+ it seems to me that if we were to plot all the players in baseball
+ in regard to ba vs. clutch ba deviation we would get some kind of
+ bell curve.  (the x-axis being the +/- deviation in clutch hitting
+ vs. non-clutch;  the y-axis being the number of players.)  certainly
+ there would be *some* players on the extreme ends of the bell.  my
+ *supposition* is that if we were to find the same players consistently
  (year after year) at one end of the bell or the other, then we might
  be able to make some reasonable conclusions about *those* players
  (as opposed to all baseball players).
  
-   As a counterexample to 
+   as a counterexample to 
  >what you showed, consider the following two players from 1984-1987:
  >
- >               Non-Clutch                      Clutch
- >               AB      H       BA              AB      H       BA
+ >               non-clutch                      clutch
+ >               ab      h       ba              ab      h       ba
  > 
- >Maldonado      1060    260     .245            254     78      .307
- >Lemon          1643    457     .278            256     57      .223
+ >maldonado      1060    260     .245            254     78      .307
+ >lemon          1643    457     .278            256     57      .223
  >
- >If you had had these two players in 1988, by your logic, in those "clutch"
- >situations, you'd bat Maldonado for Lemon in a blink of an eye.  Well, in 
- >1988, Maldonado hit .267 in "non-clutch" and .190 in "clutch", while Lemon
- >hit .254 in "non-clutch" and .313 in "clutch".  Before you accuse me of 
+ >if you had had these two players in 1988, by your logic, in those "clutch"
+ >situations, you'd bat maldonado for lemon in a blink of an eye.  well, in 
+ >1988, maldonado hit .267 in "non-clutch" and .190 in "clutch", while lemon
+ >hit .254 in "non-clutch" and .313 in "clutch".  before you accuse me of 
  >completely cooking the data,
  
- You won't hear those kind of accusations from me.  It is interesting
- that you selected Maldonado, because he is someone whom I have also 
- looked at.  He has been a very inconsistent hitter (in terms of BA),
- hitting in 1989 - 92  .217, .273, .250, .272    Admittedly, he has
- been traded between leagues as well as clubs.  His clutch hitting 
- record is equally inconsistent.  So, for my purposes in 1993 I would
+ you won't hear those kind of accusations from me.  it is interesting
+ that you selected maldonado, because he is someone whom i have also 
+ looked at.  he has been a very inconsistent hitter (in terms of ba),
+ hitting in 1989 - 92  .217, .273, .250, .272    admittedly, he has
+ been traded between leagues as well as clubs.  his clutch hitting 
+ record is equally inconsistent.  so, for my purposes in 1993 i would
  not draw any conclusions about his ability to hit in the clutch based
- on his prior performance.  I don't know how I would have felt in 1988,
+ on his prior performance.  i don't know how i would have felt in 1988,
  but you may indeed be right.  
  
- When I looked at Sabo I found a more consistent record of hitting, and
+ when i looked at sabo i found a more consistent record of hitting, and
  a more consistent pattern of his clutch hitting being proportionately
- below his non-clutch BA.  Ditto for Joe Carter.
+ below his non-clutch ba.  ditto for joe carter.
  
- This probably brings us to the heart of the disagreement I am having
- with others on this topic.  Must any conclusion based on statistical
+ this probably brings us to the heart of the disagreement i am having
+ with others on this topic.  must any conclusion based on statistical
  history be able to be applied broadly throughout a data base before
- it has any validity?  Is it impossible (or irrational) to apply
+ it has any validity?  is it impossible (or irrational) to apply
  statistical analysis to selected components of the data base?
  
  
- >BTW, correlating players' _overall_ batting average from '84-'87 with
+ >btw, correlating players' _overall_ batting average from '84-'87 with
  >'88 gives a correlation coefficient of 0.59, which is significant at
- >something better than the 99.9% confidence level.  Correlating their
- >(clutch-non-clutch BA) for the same period gives a correlation of 
+ >something better than the 99.9% confidence level.  correlating their
+ >(clutch-non-clutch ba) for the same period gives a correlation of 
  >0.088, significant at no level of any interest.
  
- I completely accept that reasoning.  Again, what if we were to find
+ i completely accept that reasoning.  again, what if we were to find
  the same individuals at each end of the spectrum on a consistent
  basis? 
  
- >Actually, it's technically incorrect to say that we can't predict future
- >clutch performance.  It's more correct to say that we can't predict
+ >actually, it's technically incorrect to say that we can't predict future
+ >clutch performance.  it's more correct to say that we can't predict
  >future clutch performance with any skill.
  >
  amen.
  
  
  
- --	The Beastmaster
+ --	the beastmaster
  
  
  -- 
- Mark Singer    
+ mark singer    
  mss@netcom.com
  

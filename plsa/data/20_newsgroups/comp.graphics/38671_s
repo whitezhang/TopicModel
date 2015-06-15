@@ -1,14 +1,14 @@
 
- I have a routine that changes the color (RGB) attributes on my
- VGA adapter, but it doesn't work in the mode that I need.  
- Specifically 68 hex.  An obscure mode, of course, but I need to
- change the zillions of colors to 64 shade greyscale, but I do
- not have the correct memory address for the pointer I need.
+ i have a routine that changes the color (rgb) attributes on my
+ vga adapter, but it doesn't work in the mode that i need.  
+ specifically 68 hex.  an obscure mode, of course, but i need to
+ change the zillions of colors to 64 shade greyscale, but i do
+ not have the correct memory address for the pointer i need.
  
- PLEASE, someone, I need the starting address, or maybe somewhere 
- I can find it.  Thank you.
+ please, someone, i need the starting address, or maybe somewhere 
+ i can find it.  thank you.
  
- John Kondis
+ john kondis
  eapu207@orion.oac.uci.edu
  
  

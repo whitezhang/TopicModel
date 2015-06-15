@@ -1,36 +1,36 @@
 
  
- Issue 5 of the X Resource (the published proceedings of the 7th Annual X
- Technical Conference) has an paper by Mark Linton and Chuck Price
- titled "Building Distributed interfaces with Fresco".
+ issue 5 of the x resource (the published proceedings of the 7th annual x
+ technical conference) has an paper by mark linton and chuck price
+ titled "building distributed interfaces with fresco".
  
- The summary describes Fresco (formerly known as XC++) as an X consortium effort.
- Without doing a complete review of the paper, I'll just mention the goals
+ the summary describes fresco (formerly known as xc++) as an x consortium effort.
+ without doing a complete review of the paper, i'll just mention the goals
  as stated in one section of the article.  the effort has the goal of providing
- the next generation toolkit with functionality beyond the Xt toolkit or Xlib.
- Features they want in FRESCO include:
+ the next generation toolkit with functionality beyond the xt toolkit or xlib.
+ features they want in fresco include:
  
- lightweight Objects, such as Interviews Glyphs
- Structured Graphics
- Resolution independence
- Natural C++ programming interface
+ lightweight objects, such as interviews glyphs
+ structured graphics
+ resolution independence
+ natural c++ programming interface
  edit-in-place embedding
  distributed user interface components
- Multithreading
+ multithreading
  
- This by no means captures the complete content of the paper. The Conclusions
+ this by no means captures the complete content of the paper. the conclusions
  sections mentions that a rough draft specification should be available in
- early 93, with no schedule (paper presented in Jan 93) for a complete sample
+ early 93, with no schedule (paper presented in jan 93) for a complete sample
  implementation.
  
- I am not affiliated with any of the people or places mentioned above.
+ i am not affiliated with any of the people or places mentioned above.
  
  -- 
- Brian Dealy                |301-572-8267| It not knowing where it's at  
+ brian dealy                |301-572-8267| it not knowing where it's at  
  dealy@kong.gsfc.nasa.gov   |            | that's important,it's knowing
- !uunet!dftsrv!kong!dealy   |            | where it's not at...  B.Dylan
+ !uunet!dftsrv!kong!dealy   |            | where it's not at...  b.dylan
  -- 
- Brian Dealy                |301-572-8267| It not knowing where it's at  
+ brian dealy                |301-572-8267| it not knowing where it's at  
  dealy@kong.gsfc.nasa.gov   |            | that's important,it's knowing
- !uunet!dftsrv!kong!dealy   |            | where it's not at...  B.Dylan
+ !uunet!dftsrv!kong!dealy   |            | where it's not at...  b.dylan
  

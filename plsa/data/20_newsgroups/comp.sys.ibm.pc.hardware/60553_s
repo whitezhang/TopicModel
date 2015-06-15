@@ -1,40 +1,40 @@
 
- In article 6819@sol.ctr.columbia.edu, penev@rockefeller.edu (Penio Penev) writes:
- >On 15 Apr 1993 20:14:20 GMT Divya Sundaram (sundaram@egr.msu.edu) wrote:
+ in article 6819@sol.ctr.columbia.edu, penev@rockefeller.edu (penio penev) writes:
+ >on 15 apr 1993 20:14:20 gmt divya sundaram (sundaram@egr.msu.edu) wrote:
  >
- >| I would like to hear the net.wisdom and net.opinions on IDE Controllers.
- >| I would liek to get a IDE controller card for my VLB DX2 66 Motherboard.
- >| What are good options for this (preferably under $200). It MUST also work
- >| under OS/2 and be compatible with Stacker (and other Disk Compression S/W).
+ >| i would like to hear the net.wisdom and net.opinions on ide controllers.
+ >| i would liek to get a ide controller card for my vlb dx2 66 motherboard.
+ >| what are good options for this (preferably under $200). it must also work
+ >| under os/2 and be compatible with stacker (and other disk compression s/w).
  >
- >I have a Maxtor 212MB on an ISA IDE controller, although my machine is
- >DX2/66 VLB. I has the save transfer rate of 0.647 MB/s regardless of
- >the variations of the ISA bus speed. I tested it with speed between
- >5.5MHz and 8.33MHz. Not _any_ difference. The problem is not the
+ >i have a maxtor 212mb on an isa ide controller, although my machine is
+ >dx2/66 vlb. i has the save transfer rate of 0.647 mb/s regardless of
+ >the variations of the isa bus speed. i tested it with speed between
+ >5.5mhz and 8.33mhz. not _any_ difference. the problem is not the
  >interface between the controller and the memory.
  >
- >My advice: Buy 4Megs of RAM, save $70 and enjoy performance.
+ >my advice: buy 4megs of ram, save $70 and enjoy performance.
  >
  >--
- >Penio Penev  x7423 (212)327-7423 (w) Internet: penev@venezia.rockefeller.edu
+ >penio penev  x7423 (212)327-7423 (w) internet: penev@venezia.rockefeller.edu
  >
- >Disclaimer: All oppinions are mine.
+ >disclaimer: all oppinions are mine.
  
  
- I also have a DX2/66 and a Maxtor 212. I have a local bus IDE controller (generic) and I get
- 985 KB/s. I tried swapping my local bus IDE controller for an ISA IDE controller and my
- transfer rate went to 830 KB/s. The specs for this drive show a maximum platter to controller
- transfer rate of 2.83 MB/s. I dont know how to get there from here. The local bus interface
- got me a little, but certainly not as much as I had hoped. I am also looking for a way to 
- improve my disk performance, but Im not convinced that the controller is the bottleneck
- (although Im willing to entertain the possibility that it is). I am already running a big
- main memory disk cache, so Im not really interested in this solution either.
+ i also have a dx2/66 and a maxtor 212. i have a local bus ide controller (generic) and i get
+ 985 kb/s. i tried swapping my local bus ide controller for an isa ide controller and my
+ transfer rate went to 830 kb/s. the specs for this drive show a maximum platter to controller
+ transfer rate of 2.83 mb/s. i dont know how to get there from here. the local bus interface
+ got me a little, but certainly not as much as i had hoped. i am also looking for a way to 
+ improve my disk performance, but im not convinced that the controller is the bottleneck
+ (although im willing to entertain the possibility that it is). i am already running a big
+ main memory disk cache, so im not really interested in this solution either.
  
  ---
- Chris Brinton
- Teradyne, Inc.
+ chris brinton
+ teradyne, inc.
  brinton@icd.teradyne.com
  
- "My opinions are my own, but you're welcome to them."
+ "my opinions are my own, but you're welcome to them."
  
  

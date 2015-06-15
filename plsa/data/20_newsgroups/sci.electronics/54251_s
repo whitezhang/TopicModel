@@ -1,26 +1,26 @@
 
- In article <1993Apr23.205906.10745@sol.ctr.columbia.edu> seema@madvlsi.columbia.edu (Seema Varma) writes:
- >Hi,
- >	I am looking for a high speed 
- >D-to-A converter ( at least 8 bits
- >and 150MHz) for testing a chip - any
- >ideas on where I can find such a monster?
- >A paper in the January issue of IEEE Journal
- >of Solid-State Circuits (authors from Philips
- >Eindhoven) mentions a 1GHz, 8bits, GaAs DAC
- >they use in their testing, so I know that 
+ in article <1993apr23.205906.10745@sol.ctr.columbia.edu> seema@madvlsi.columbia.edu (seema varma) writes:
+ >hi,
+ >	i am looking for a high speed 
+ >d-to-a converter ( at least 8 bits
+ >and 150mhz) for testing a chip - any
+ >ideas on where i can find such a monster?
+ >a paper in the january issue of ieee journal
+ >of solid-state circuits (authors from philips
+ >eindhoven) mentions a 1ghz, 8bits, gaas dac
+ >they use in their testing, so i know that 
  >such circuits are around somewhere.
  
  
  
  
- TriQuint (Beaverton, Oregon), has been selling an 8 bit, 1 GHz D to A
- for several years.  I have used it and it works well, faster settling
- time and smaller glitch area than any video d DACs I have seen.  Also,
+ triquint (beaverton, oregon), has been selling an 8 bit, 1 ghz d to a
+ for several years.  i have used it and it works well, faster settling
+ time and smaller glitch area than any video d dacs i have seen.  also,
  they have been developing a more precise version that may be for sale
- now - it's somewhere in the 10 to 12 bit area at 1 GHz.
+ now - it's somewhere in the 10 to 12 bit area at 1 ghz.
  
  
- Arnold Frisch
- Tektronix Laboratories
+ arnold frisch
+ tektronix laboratories
  

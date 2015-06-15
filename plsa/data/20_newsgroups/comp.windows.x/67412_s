@@ -1,61 +1,61 @@
 
-     Hello X'ers
+     hello x'ers
  
- I have a problem: I am not able to create a window with 24 bit planes. The
+ i have a problem: i am not able to create a window with 24 bit planes. the
  following code illustrates the problem:
  
  #include <stdio.h>
- #include <X11/Xlib.h>
- #include <X11/Xutil.h>
+ #include <x11/xlib.h>
+ #include <x11/xutil.h>
  
  main()
  {
-         Display *display;
-         Window win;
-         XVisualInfo vinfo;
-         Colormap colormap;
-         XSetWindowAttributes attributes;
-         XEvent event;
-         Status status;
+         display *display;
+         window win;
+         xvisualinfo vinfo;
+         colormap colormap;
+         xsetwindowattributes attributes;
+         xevent event;
+         status status;
  
-         display=XOpenDisplay(NULL);
-         status=XMatchVisualInfo(display,DefaultScreen(display),24,TrueColor,
+         display=xopendisplay(null);
+         status=xmatchvisualinfo(display,defaultscreen(display),24,truecolor,
                  &vinfo);
          if (!status){
-                 fprintf(stderr,"Visual not found\n");
+                 fprintf(stderr,"visual not found\n");
                  exit(1);
          }
-         colormap=XCreateColormap(display,DefaultRootWindow(display),
-                 vinfo.visual,AllocNone);
+         colormap=xcreatecolormap(display,defaultrootwindow(display),
+                 vinfo.visual,allocnone);
  
          attributes.colormap=colormap;
  
-         win=XCreateWindow(display,DefaultRootWindow(display),0,0,100,100,
-                 0,24,InputOutput,vinfo.visual,CWColormap,&attributes);
-         XMapWindow(display,win);
+         win=xcreatewindow(display,defaultrootwindow(display),0,0,100,100,
+                 0,24,inputoutput,vinfo.visual,cwcolormap,&attributes);
+         xmapwindow(display,win);
          for (;;){
-                 XNextEvent(display,&event);
+                 xnextevent(display,&event);
          }
  }
  
- I tried this with an SGI with 24 plane TrueColor server, and with an HP
- 9000-700 24 plane DirectColor server (with the obviously neccessary change),
- both running X11R4. On the client side, I have tried with X11R4 Xlib on
- HP 9000-700 and DECstation, and with X11R3 Xlib on DECstation. All the
- combinations gave BadMatch error on the CreateWindow request.
+ i tried this with an sgi with 24 plane truecolor server, and with an hp
+ 9000-700 24 plane directcolor server (with the obviously neccessary change),
+ both running x11r4. on the client side, i have tried with x11r4 xlib on
+ hp 9000-700 and decstation, and with x11r3 xlib on decstation. all the
+ combinations gave badmatch error on the createwindow request.
  
- As far as I can tell from the manual, the only attribute which may give
- a BadMatch, is the colormap, if it belongs to a wrong visual. But the
- visual was correctly matched, as I did not get the error message. What
- am I doing wrong? For information I can tell that xwud aborts with the
+ as far as i can tell from the manual, the only attribute which may give
+ a badmatch, is the colormap, if it belongs to a wrong visual. but the
+ visual was correctly matched, as i did not get the error message. what
+ am i doing wrong? for information i can tell that xwud aborts with the
  same error.
  
-                                    Karsten
+                                    karsten
  -- 
  --------------------------------------------------------------------------------
- InterNet:       krs@kampsax.dk                             Karsten Spang
- Phone:          +45 36 77 22 23                            Kampsax Data
- Fax:            +45 36 77 03 01                            P.O. Box 1142
-                                                            DK-2650 Hvidovre
-                                                            Denmark
+ internet:       krs@kampsax.dk                             karsten spang
+ phone:          +45 36 77 22 23                            kampsax data
+ fax:            +45 36 77 03 01                            p.o. box 1142
+                                                            dk-2650 hvidovre
+                                                            denmark
  

@@ -1,18 +1,18 @@
 
- I am looking for some fast polygon routines (Shaded or Texture
- Mapped) in ASM (compile with MASM) or in Turbo Pascal (compile with
- TP6). It has to be able to run on a 286, but does not have to look
+ i am looking for some fast polygon routines (shaded or texture
+ mapped) in asm (compile with masm) or in turbo pascal (compile with
+ tp6). it has to be able to run on a 286, but does not have to look
  super fast on a 286, but must look good on a 386.  
  
- If anyone has any such code could you please mail it to me. Or tell
+ if anyone has any such code could you please mail it to me. or tell
  me where it can be got. 
  
- Thanks in advance.
+ thanks in advance.
  
  
  --
  ------------------------------------------------------------------------------
- Daniel Godden                                  #Genius is only one step away
- University of Western Sydney,Nepean            #from InSaNiTy! 
- AARNet/Internet:dgodden@st.nepean.usw.edu.au   #But me, I am already there!
+ daniel godden                                  #genius is only one step away
+ university of western sydney,nepean            #from insanity! 
+ aarnet/internet:dgodden@st.nepean.usw.edu.au   #but me, i am already there!
  

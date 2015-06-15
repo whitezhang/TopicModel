@@ -1,38 +1,38 @@
 
  
- In article <1993Mar26.195307.25146@midway.uchicago.edu> gary@midway.uchicago.edu writes:
+ in article <1993mar26.195307.25146@midway.uchicago.edu> gary@midway.uchicago.edu writes:
  
- >Whether the drive is hooked up to the computer or not, the LPS240
- >makes a "disk seek noise" every 20 seconds.  This is consistent 
- >and will continue as lomg as the drive is powered up.  Even if 
- >I disconnect the drive from the computer, this "drive activity"
+ >whether the drive is hooked up to the computer or not, the lps240
+ >makes a "disk seek noise" every 20 seconds.  this is consistent 
+ >and will continue as lomg as the drive is powered up.  even if 
+ >i disconnect the drive from the computer, this "drive activity"
  >continues at 20 second intervals.
  >
- >Someone tried to tell me the drive was doing a "Thermal Recalibration".
+ >someone tried to tell me the drive was doing a "thermal recalibration".
  >
- >Not knowing beans about the internal physical workings of the lastest
- >disk drive technology.... I guess I might believe anything.
+ >not knowing beans about the internal physical workings of the lastest
+ >disk drive technology.... i guess i might believe anything.
  >
- >Whats the scoop on this standalone "drive activity" every 20 sec?
+ >whats the scoop on this standalone "drive activity" every 20 sec?
  
- I can only comment on thermal recalibration in general. Some new
+ i can only comment on thermal recalibration in general. some new
  drives perform it in order to increase overall integrity of data
- writes. Basically, the firmware instructs the actuator to perform
+ writes. basically, the firmware instructs the actuator to perform
  a test to see if the data tracks are within a certain physical
  tolerance, since when the media heats up or cools down, *some*
- track drift is inevitable, and the drive has to monitor it. This
+ track drift is inevitable, and the drive has to monitor it. this
  becomes especially critical at very high recording densities, and
  so was used primarily on very large-capacity mechanisms, but it
  seems to be finding its way into more smaller drives as a way of
- boosting the drive's long-term reliability and MTBF ratings.
+ boosting the drive's long-term reliability and mtbf ratings.
  
- I first became aware of thermal recalibration when it was pointed
+ i first became aware of thermal recalibration when it was pointed
  out that the technique conflicts with prolonged write times when
- digitizing, say, audio or video to hard disk. Some manufacturers
- explicitly state that drives with thermal recalibration are NOT
+ digitizing, say, audio or video to hard disk. some manufacturers
+ explicitly state that drives with thermal recalibration are not
  to be used for applications that have prolonged disk writes.
  
- Hope this helps.
+ hope this helps.
  
- Victor
+ victor
  

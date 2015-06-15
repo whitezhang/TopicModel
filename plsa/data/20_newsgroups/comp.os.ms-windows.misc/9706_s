@@ -1,24 +1,24 @@
 
- I just purchased The Norton Desktop for windows, and I also have
- Norton Utilities.  When I installed NDW, it wanted to rem out the line
- that installed EP (EP /ON) and the command to invoke the Image utility.
- It replaced the Image command with a new image command that invokes the
- version of Image that came with NDW.  This makes sense, as presumably the
- Image version with NDW is newer than the one with NU.  It did not, however,
- install smartcan in the autoexec.  Now two questions:
-    1:  Will NU use the image data saved by the newer version of image invoked.
-        i.e. Are the two version of Image compatable?
-    2:  Will erase protect use the info from smartcan, and vice versa?
-        I use both dos and windows, and I want to make sure that when I
+ i just purchased the norton desktop for windows, and i also have
+ norton utilities.  when i installed ndw, it wanted to rem out the line
+ that installed ep (ep /on) and the command to invoke the image utility.
+ it replaced the image command with a new image command that invokes the
+ version of image that came with ndw.  this makes sense, as presumably the
+ image version with ndw is newer than the one with nu.  it did not, however,
+ install smartcan in the autoexec.  now two questions:
+    1:  will nu use the image data saved by the newer version of image invoked.
+        i.e. are the two version of image compatable?
+    2:  will erase protect use the info from smartcan, and vice versa?
+        i use both dos and windows, and i want to make sure that when i
         erase files in either environment, they are going to be protected.
  
- From the experiments I have run, The two programs (Erase Protect and
- smart Erase) don't use each others info.
- I currently have both EP and smartcan loading within my autoexec, and
- I don't see any conflicts;
+ from the experiments i have run, the two programs (erase protect and
+ smart erase) don't use each others info.
+ i currently have both ep and smartcan loading within my autoexec, and
+ i don't see any conflicts;
  
- FYI :  Norton Desktop for Windows version 2.2
-        Norton Util's version 6
+ fyi :  norton desktop for windows version 2.2
+        norton util's version 6
  
- Thanks for any help.
+ thanks for any help.
  

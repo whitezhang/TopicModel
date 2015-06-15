@@ -1,46 +1,46 @@
 
- sburton@dres.dnd.ca (Stan Burton) writes:
+ sburton@dres.dnd.ca (stan burton) writes:
  
- >I would like to be able to detect the angular position (low accuracy) of an
- >IR emitting source at a distance of about 100 meters (more is better) in
- >daylight.  The IR source could be emitting a signature; I'm leaning toward
- >30 KHz square wave with 50% duty cycle.
+ >i would like to be able to detect the angular position (low accuracy) of an
+ >ir emitting source at a distance of about 100 meters (more is better) in
+ >daylight.  the ir source could be emitting a signature; i'm leaning toward
+ >30 khz square wave with 50% duty cycle.
  
- >I am considering the use of a quadrant detector from Centronic Inc. to give
+ >i am considering the use of a quadrant detector from centronic inc. to give
  >information to a pan/tilt head to point the sensor and thus determine the
- >angles.  For the source I am considering wazing the heck out of an IR LED(s),
- >possibly an Optek OP290 or Motorola MLED81.  Wazing would mean at least 1 Amp
- >current pulses.  At this current the duty cycle of the LED drops to 10% and I
+ >angles.  for the source i am considering wazing the heck out of an ir led(s),
+ >possibly an optek op290 or motorola mled81.  wazing would mean at least 1 amp
+ >current pulses.  at this current the duty cycle of the led drops to 10% and i
  >would need to cycle five of them in turn to get the 50% required.
  
- >Has anyone done something like this?
+ >has anyone done something like this?
  
  
- 	Yeesh, you WILL be nailing those IRLEDs.  May I suggest getting your
- mitts on the Siemens SFH484-2 IRLED?  This unit is designed to take some big
- current pulses if you can get your duty cycle down a bit.  It will output
- nearly a watt (975 mW) with REAL short duty cycle times.
+ 	yeesh, you will be nailing those irleds.  may i suggest getting your
+ mitts on the siemens sfh484-2 irled?  this unit is designed to take some big
+ current pulses if you can get your duty cycle down a bit.  it will output
+ nearly a watt (975 mw) with real short duty cycle times.
  
- (nice thing about the SFH484-2 is that it is CHEAP.  I got mine for about
- 50 cents a piece, even though I had to buy 100 of them....)
+ (nice thing about the sfh484-2 is that it is cheap.  i got mine for about
+ 50 cents a piece, even though i had to buy 100 of them....)
  
- 	BTW, I have seen IRLEDs with outputs up to 6 watts...honest,
- 6 WATTS.  I don't have the book here at work so I can't recall the company
- name.  The 6 watter ain't cheap, around $108 but if you want some power,
- mamamia, that's pretty hot.  They also have a 4 watt, a 2 watt and a
+ 	btw, i have seen irleds with outputs up to 6 watts...honest,
+ 6 watts.  i don't have the book here at work so i can't recall the company
+ name.  the 6 watter ain't cheap, around $108 but if you want some power,
+ mamamia, that's pretty hot.  they also have a 4 watt, a 2 watt and a
  1 watt device in their line, and will sell small quan. to individuals.
- If you are interested, I can find the book at home and get the
+ if you are interested, i can find the book at home and get the
  pertinent info.
  
- 	Now, as for the position detector, you might try ELTEC in Florida.
- Phone number listed in the 92/93 ETID is 904-253-5328.  They seem like 
- nice people.  Their specialty is passive infrared detection devices,
+ 	now, as for the position detector, you might try eltec in florida.
+ phone number listed in the 92/93 etid is 904-253-5328.  they seem like 
+ nice people.  their specialty is passive infrared detection devices,
  so they might be able to help you out.
  
- 	I'm curious about your applications if you don't mind saying.
- The device sounds like it could be useful in a lasertag game, although you'd
- need to up your carrier signal concept to 58.8 KHz......
+ 	i'm curious about your applications if you don't mind saying.
+ the device sounds like it could be useful in a lasertag game, although you'd
+ need to up your carrier signal concept to 58.8 khz......
  
- Duane
+ duane
  
  

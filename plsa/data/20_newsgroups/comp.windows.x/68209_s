@@ -1,32 +1,32 @@
-	<MONTNARO.93May17084338@spyder.crd.ge.com>
- Date: Mon, 17 May 1993 14:55:13 GMT
- Lines: 27
+	<montnaro.93may17084338@spyder.crd.ge.com>
+ date: mon, 17 may 1993 14:55:13 gmt
+ lines: 27
  
  
- In article <1993May17.085405.7807@eua.ericsson.se> tvtjet@eua.ericsson.se (Jorgen Eriksson) writes:
+ in article <1993may17.085405.7807@eua.ericsson.se> tvtjet@eua.ericsson.se (jorgen eriksson) writes:
  
- 	   Are there any widgets, function 
+ 	   are there any widgets, function 
  	   librarys for drawing networks, 
- 	   graphs etc ? (Not tree views) 
- 	   Freeware, shareware, comercial...
- 	   Like this, for instance:
+ 	   graphs etc ? (not tree views) 
+ 	   freeware, shareware, comercial...
+ 	   like this, for instance:
  
  	   [ pretty picture deleted ]
  
- 	   * Just by giving the associations 
- 	     between the nodes. Automatic
+ 	   * just by giving the associations 
+ 	     between the nodes. automatic
  	     layout generation.
  
- 	   * It would be nice if any node 
- 	     symbols could be used. Maybe 
+ 	   * it would be nice if any node 
+ 	     symbols could be used. maybe 
  	     even to insert widgets as nodes.
  
- 	   * Using different line styles etc.
+ 	   * using different line styles etc.
  	     for describing associations.
  
- Check out the XmGraph library in the following location:
+ check out the xmgraph library in the following location:
  
- 	iworks.ecn.uiowa.edu:/comp.hp/GUI_classic/XmGraph.tar.Z.
+ 	iworks.ecn.uiowa.edu:/comp.hp/gui_classic/xmgraph.tar.z.
  --
- Skip (montanaro@crd.ge.com)
+ skip (montanaro@crd.ge.com)
  

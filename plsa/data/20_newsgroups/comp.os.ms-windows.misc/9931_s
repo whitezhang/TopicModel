@@ -1,43 +1,43 @@
 
- In article <1993Apr26.185033.12279@drd.com> mike@drd.com (Mike.Rovak) writes:
- >I have been experiencing several end-user problems with various commercial
- >software packages (WordPerfect 5.2/WIN, Publish It!/WIN 3.1) and printing
- >landscape mode on a Citizen PN48 (the little guy) or the Citizen GSX-140+.
+ in article <1993apr26.185033.12279@drd.com> mike@drd.com (mike.rovak) writes:
+ >i have been experiencing several end-user problems with various commercial
+ >software packages (wordperfect 5.2/win, publish it!/win 3.1) and printing
+ >landscape mode on a citizen pn48 (the little guy) or the citizen gsx-140+.
  >
- >In a nutshell the problem is that I lose the first 0.625 inches of
- >information from my left margin, be it white space or TrueType font
+ >in a nutshell the problem is that i lose the first 0.625 inches of
+ >information from my left margin, be it white space or truetype font
  >output, and margins are not preserved on subsequent pages past the
  >first.
  >
- >WordPerfect had a workaround consisting of using the "Default" location
- >for the printers instead of "Tractor" or "Manual".  They have also filed
+ >wordperfect had a workaround consisting of using the "default" location
+ >for the printers instead of "tractor" or "manual".  they have also filed
  >this as a bug and are continuing to investigate it.
  >
- >MS Write, of course, has no problem with these printer drivers, proving that
- >Microsoft knows something the rest of us don't!  Are you surprised?  I'm
+ >ms write, of course, has no problem with these printer drivers, proving that
+ >microsoft knows something the rest of us don't!  are you surprised?  i'm
  >not.
  >
- >Publish It!/WIN is still investigating this problem, and while I was consider-
- >my options (rejecting the one about buying an $800 DTP package, for *surely*
- >they wouldn't have this problem, right?) I stumbled onto a global workaround.
+ >publish it!/win is still investigating this problem, and while i was consider-
+ >my options (rejecting the one about buying an $800 dtp package, for *surely*
+ >they wouldn't have this problem, right?) i stumbled onto a global workaround.
  >
- >WORKAROUND
+ >workaround
  >----------
- >Go into the Windows 3.1 control panel, select printers, select your Citizen
- >printer driver, select SETUP, and select a custom size of 850 x 1132.  Like
+ >go into the windows 3.1 control panel, select printers, select your citizen
+ >printer driver, select setup, and select a custom size of 850 x 1132.  like
  >magic, all of your problems will go away.
  >
- >Ask me no questions and I'll tell you no lies!
+ >ask me no questions and i'll tell you no lies!
  >
- >-- Mike
+ >-- mike
  
  
- Excuse me, that's 850 x 1163.
+ excuse me, that's 850 x 1163.
  
- -- Mike
+ -- mike
  
  ------------------------------------------------------------------------
- Disclaimer: My opinions do not necessarily reflect those of my employer.
+ disclaimer: my opinions do not necessarily reflect those of my employer.
  ========================================================================
  ------------------------------------------------------------------------
       mike.rovak@drd.com     

@@ -1,21 +1,21 @@
 
  
- Hi,
+ hi,
  
  	
  
-    Could someone explain to me what exactly the Xlib functions 
+    could someone explain to me what exactly the xlib functions 
  
- XCreateRegion, XPolygonRegion, XPointInRegion do, or to 
+ xcreateregion, xpolygonregion, xpointinregion do, or to 
  
- suggest a ftp site where I can find programs using these functions.
+ suggest a ftp site where i can find programs using these functions.
  
  
- PS: The man pages does not explain much ......
+ ps: the man pages does not explain much ......
  
  	
- Thank you,
- Leo.
+ thank you,
+ leo.
  
  
  
@@ -24,7 +24,7 @@
  
  -- 
  ---------------------------------------------------------------------
- Leonidas Nikidis : ln@doc.ic.ac.uk	Imperial College, London,UK
- 					Dept. of Computing
+ leonidas nikidis : ln@doc.ic.ac.uk	imperial college, london,uk
+ 					dept. of computing
  ---------------------------------------------------------------------
  

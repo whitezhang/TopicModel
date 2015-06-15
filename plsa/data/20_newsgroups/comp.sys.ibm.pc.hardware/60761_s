@@ -1,32 +1,32 @@
 
- Tigger (djohnson@moose.uvm.edu) wrote:
- : Hi!
+ tigger (djohnson@moose.uvm.edu) wrote:
+ : hi!
  : 	
- : Is it possible through either pin configuration or through software
- : programming to change the IP numbers on an ethernet card?
+ : is it possible through either pin configuration or through software
+ : programming to change the ip numbers on an ethernet card?
  : 	
- : Thanks in Advance!
+ : thanks in advance!
  : 
  : -- 
- : =-Dave   *Tigger!*
+ : =-dave   *tigger!*
  : 
- : djohnson@moose.uvm.edu        'Tiggers are wonderful things!'
- : Dave C Johnson
+ : djohnson@moose.uvm.edu        'tiggers are wonderful things!'
+ : dave c johnson
  
- I think you mean the ethernet numbers.  The 8 byte ethernet id is the unique
- Electronic Serial Number (ESN) assigned to each ethernet board in existence.
- This is a "physical layer" concept.  The IP address is a higher layer protocol.
- The analogy to telephone service is the IP address is your phone number, while
+ i think you mean the ethernet numbers.  the 8 byte ethernet id is the unique
+ electronic serial number (esn) assigned to each ethernet board in existence.
+ this is a "physical layer" concept.  the ip address is a higher layer protocol.
+ the analogy to telephone service is the ip address is your phone number, while
  the particular wire pair in the cable on the pole has some (unknown to you or
- I) physical identification scheme (number).
+ i) physical identification scheme (number).
  
- But to answer your question (assuming you indeed meant the Ethernet number)
- it is not supposed to be possible to change the number.  Of course the
+ but to answer your question (assuming you indeed meant the ethernet number)
+ it is not supposed to be possible to change the number.  of course the
  manufacturer can always retro-fit a board, but there could hardly be a
  reason to ever do that.
  
- If your question is actually referring to the IP address, it is most definetly
- changable.  But it is strictly software.
+ if your question is actually referring to the ip address, it is most definetly
+ changable.  but it is strictly software.
  
- Gordon Lang
+ gordon lang
  

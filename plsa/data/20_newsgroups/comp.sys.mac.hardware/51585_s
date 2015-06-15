@@ -1,7 +1,7 @@
 
   
- I have an old Mac Plus. A couple of years ago I bought a shiney new lc.
- It came with apple's new keyboard (with abd ports). i replaced it with
+ i have an old mac plus. a couple of years ago i bought a shiney new lc.
+ it came with apple's new keyboard (with abd ports). i replaced it with
  a mac-pro-plus extended keyboard (which i thoroughly enjoy, thank you
  very much).
   
@@ -11,7 +11,7 @@
  local apple dealer (they're such nice people), but they couldn't tell
  me the order of the wires.
   
- there are four wires in the adb cables: black, white, red, tan. I know
+ there are four wires in the adb cables: black, white, red, tan. i know
  one's a ground, one gets the serial signal, one supplies 5 volts, and
  i forgot what the fourth one does. anyway, if you hook them up wrong
  you'll fry a board and i <really> don't want to do <that>.
@@ -23,14 +23,14 @@
  btw, i did take apart my new keyboard to see if i could find the
  correlation between the wires for the rj-11 jack and the adb since it
  has both, but no such luck (the connections are soldered inside of
- little boxes). Oh, well . . .
+ little boxes). oh, well . . .
   
  *****************************************************************
- *  Tis the blink of an eye, tis the draught of a breath,        *
- *  From the blossoms of health, to the paleness of death,       *
- *  From the gilded saloon, to the briar in the shroud,          *
- *  O, why should the spirit of mortal be proud?                 *
- *                                                 -William Knox *
+ *  tis the blink of an eye, tis the draught of a breath,        *
+ *  from the blossoms of health, to the paleness of death,       *
+ *  from the gilded saloon, to the briar in the shroud,          *
+ *  o, why should the spirit of mortal be proud?                 *
+ *                                                 -william knox *
  *****************************************************************
  *  shagberg@vm.cmp.ilstu.edu                                    *
  *****************************************************************

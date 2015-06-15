@@ -1,7 +1,7 @@
 
- Has anybody built an X11R5 server that can run on a Personal Decstation
- 5000 line with ultrix 4.3?  The only catch is that being "personal" machines,
- we did not install DECnet onto them, which the Xdec server on gatekeeper
+ has anybody built an x11r5 server that can run on a personal decstation
+ 5000 line with ultrix 4.3?  the only catch is that being "personal" machines,
+ we did not install decnet onto them, which the xdec server on gatekeeper
  requires.
  
  any replies welcome...

@@ -1,26 +1,26 @@
 
- I'm writing an X server for some video-generation equipment.  The
- hardware is "truecolor" in YUV space; in X terms it has a 24-bit
- static color visual.  I would really like to have the server just
- present this static visual, but I'm not sure if this will be 
- acceptable to "most" X clients.  The three problems I see are:
+ i'm writing an x server for some video-generation equipment.  the
+ hardware is "truecolor" in yuv space; in x terms it has a 24-bit
+ static color visual.  i would really like to have the server just
+ present this static visual, but i'm not sure if this will be 
+ acceptable to "most" x clients.  the three problems i see are:
  
-   1) The colormap, though huge, is static.
-   2) All pixels would be 3 bytes wide.
-   3) Because the hardware actually lives in YUV space, the
-      translation RGB->YUV will introduce some rounding error.
+   1) the colormap, though huge, is static.
+   2) all pixels would be 3 bytes wide.
+   3) because the hardware actually lives in yuv space, the
+      translation rgb->yuv will introduce some rounding error.
  
- Being more of a server guy than a client guy, I ask: will these
- limitations thwart many X clients?  Or will most of the X stuff
- floating around blithely accept what they're given?  I could write
+ being more of a server guy than a client guy, i ask: will these
+ limitations thwart many x clients?  or will most of the x stuff
+ floating around blithely accept what they're given?  i could write
  the server to also present a pseudocolor visual of, e.g., 8 bits, 
- but I'd rather avoid this if not necessary.
+ but i'd rather avoid this if not necessary.
  
- I know there are no absolutes, but I'd appreciate hearing people's
- opinions and suggestions.  Thanks!
+ i know there are no absolutes, but i'd appreciate hearing people's
+ opinions and suggestions.  thanks!
  
  -- 
- Frederick G. M. Roeber | CERN -- European Center for Nuclear Research
+ frederick g. m. roeber | cern -- european center for nuclear research
  e-mail: roeber@cern.ch or roeber@caltech.edu | work: +41 22 767 31 80
- r-mail: CERN/PPE, 1211 Geneva 23, Switzerland | home: +33 50 20 82 99
+ r-mail: cern/ppe, 1211 geneva 23, switzerland | home: +33 50 20 82 99
  

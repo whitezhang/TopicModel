@@ -10,8 +10,8 @@ def extract_content(file_name):
 	# MAC system file
 	if "DS_Store" in file_name:
 		return
-	if not "_s" in file_name:
-		return
+	# if not "_s" in file_name:
+		# return
 	# Main section
 	with open(file_name) as f:
 		content = f.readlines()
@@ -21,12 +21,13 @@ def extract_content(file_name):
 			if (not ":" in con) or (has_colon == False):
 				has_colon = False
 				processed_content += con + " "
+		processed_content = processed_content.lower()
 		output_file = open(file_name+"_s", "w")
 		output_file.write(processed_content)
 		output_file.close()
 
 def del_file_s(file_name):
-	if "_s_s" in file_name:
+	if "_s" in file_name:
 		os.remove(file_name)
 
 def traverse_folder():
@@ -39,7 +40,6 @@ def traverse_folder():
 			# Delete rubbish file inside
 			# del_file_s(file_name)
 			# print "Delete", file_name
-			
 
 def main():
 	traverse_folder()

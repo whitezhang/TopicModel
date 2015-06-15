@@ -1,25 +1,25 @@
 
  #
- # Does anyone know if the following is possible, and if so how do I go about
+ # does anyone know if the following is possible, and if so how do i go about
  # doing it.
  # 
- # I want to be able to display remote X11 applications on a VAXstation 2000 off
- # of an Internet node. Here is where the problem comes up, the VAXstation isn't
- # connected directly to the Internet but is connected via Decnet to a node that
- # does have a connection to the Internet. Does anyone know if it is possible to
- # get the display to use TCPIP from the remote Internet node down to my local
- # Internet node and then send it via Decnet down to the VAXstation 2000?
+ # i want to be able to display remote x11 applications on a vaxstation 2000 off
+ # of an internet node. here is where the problem comes up, the vaxstation isn't
+ # connected directly to the internet but is connected via decnet to a node that
+ # does have a connection to the internet. does anyone know if it is possible to
+ # get the display to use tcpip from the remote internet node down to my local
+ # internet node and then send it via decnet down to the vaxstation 2000?
  #
  
- For the machine that is connected to the InterNet, what is it running?  If it
- is running VMS, then if you obtain MultiNet for it, MultiNet comes with a
- TCP/IP to DECnet gateway for X11.
+ for the machine that is connected to the internet, what is it running?  if it
+ is running vms, then if you obtain multinet for it, multinet comes with a
+ tcp/ip to decnet gateway for x11.
  
- Patrick L. Mahan
+ patrick l. mahan
  
- --- TGV Window Washer ------------------------------- Mahan@TGV.COM ---------
+ --- tgv window washer ------------------------------- mahan@tgv.com ---------
  
- Waking a person unnecessarily should not be considered  - Lazarus Long
- a capital crime.  For a first offense, that is            From the Notebooks of
- 							  Lazarus Long
+ waking a person unnecessarily should not be considered  - lazarus long
+ a capital crime.  for a first offense, that is            from the notebooks of
+ 							  lazarus long
  

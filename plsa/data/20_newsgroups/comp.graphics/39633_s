@@ -1,24 +1,24 @@
 
- I hope someone can help me with the following problem - I'm sure there
+ i hope someone can help me with the following problem - i'm sure there
  must be a known solution.
  
- Given a rectangle defined by
+ given a rectangle defined by
  
- -X <= x <= X  and -Y <= y <= Y  where X and Y are constant
+ -x <= x <= x  and -y <= y <= y  where x and y are constant
  
  and a parallelogram defined by
  
- -C1 <= a*x + b*y <= C1  and -C2 <= c*x + d*y <= C2
+ -c1 <= a*x + b*y <= c1  and -c2 <= c*x + d*y <= c2
  
- where C1, C2, a, b, c, d are constants and b/a != d/c (i.e. not
+ where c1, c2, a, b, c, d are constants and b/a != d/c (i.e. not
  parallel lines)                                ^^
                                            not equal to
  
  what is the area of their intersection?
  
-    What I'm after is some general algorithm suitable for ALL rectangles
- and parallelograms that can be described by the above equations.  At the 
- moment it looks like I'm going to have to look at all possible cases 
+    what i'm after is some general algorithm suitable for all rectangles
+ and parallelograms that can be described by the above equations.  at the 
+ moment it looks like i'm going to have to look at all possible cases 
  and examine each seperately e.g.
  
  1) rectangle encloses parallelogram. 
@@ -31,28 +31,28 @@
                           / \
                          /   \
                         /     \
-            Y -------------------------------  Y
+            y -------------------------------  y
               |       /         \           |
               |       \          \          |
               |        \     .    \         |       . origin
               |         \          \        |
               |          \         /        |
-           -Y ------------------------------- -Y
-             -X            \     /           X
+           -y ------------------------------- -y
+             -x            \     /           x
                             \   /
                              \ /
                               "
  
  4) two corners of parallelogram outside rectangle
  
-    I hope someone can help.
+    i hope someone can help.
  
- Many thanks in advance,
+ many thanks in advance,
  
- Dave Nettleton.
+ dave nettleton.
  
- e-mail:  D.J.Nettleton@durham.ac.uk
+ e-mail:  d.j.nettleton@durham.ac.uk
  
- PS can you please cc me any replies by e-mail.
+ ps can you please cc me any replies by e-mail.
  
  

@@ -1,33 +1,33 @@
 
- {Michael Fulbright} said
-    "Analog switches/Balanced"
-       to <All> on 04-15-93  01:08
-  MF> I am trying to build a synchronous demodulator and I've hit a snag.
-  MF> In my application I want to be able to change the gain of an
-  MF> op amp amplifier from 1 to -1, controlable via a digital input.
-  MF> The most obvious way I've come up with is to use analog switches
-  MF> to adjust the gain of the op amp. The only analog switch I have
-  MF> experience with it the 4066. Unfortunately I want to switch an
-  MF> AC signal which goes from about -5V to 5V, and the 4066 is only
-  MF> for positive signals.
+ {michael fulbright} said
+    "analog switches/balanced"
+       to <all> on 04-15-93  01:08
+  mf> i am trying to build a synchronous demodulator and i've hit a snag.
+  mf> in my application i want to be able to change the gain of an
+  mf> op amp amplifier from 1 to -1, controlable via a digital input.
+  mf> the most obvious way i've come up with is to use analog switches
+  mf> to adjust the gain of the op amp. the only analog switch i have
+  mf> experience with it the 4066. unfortunately i want to switch an
+  mf> ac signal which goes from about -5v to 5v, and the 4066 is only
+  mf> for positive signals.
  
-     How about using a 4053 it has a seperate ground for the
-     analog outputs.  It would get you 3 bits.
+     how about using a 4053 it has a seperate ground for the
+     analog outputs.  it would get you 3 bits.
  
-  MF> Another part which caught my eye was the Analog Devices AD630. This
-  MF> is a balanced demodulator which appears to fill exactly the need I
-  MF> have. The data sheet was somewhat skimpy on application notes. Could
-  MF> someone comment on using this chip for the following application?
+  mf> another part which caught my eye was the analog devices ad630. this
+  mf> is a balanced demodulator which appears to fill exactly the need i
+  mf> have. the data sheet was somewhat skimpy on application notes. could
+  mf> someone comment on using this chip for the following application?
  
-     Or how about a multiplying D/A convertor?  This is
+     or how about a multiplying d/a convertor?  this is
      essentiallty what you are makeing.
  
  
-                 Stephen Cyberman@Toz.Buffalo.NY.US
-              Mangled on Fri  04-16-1993  at 13:36:11
+                 stephen cyberman@toz.buffalo.ny.us
+              mangled on fri  04-16-1993  at 13:36:11
  
- ... Catch the Blue Wave!
+ ... catch the blue wave!
  ---
-  * Blue Wave/QWK v2.12 *
+  * blue wave/qwk v2.12 *
                            
  

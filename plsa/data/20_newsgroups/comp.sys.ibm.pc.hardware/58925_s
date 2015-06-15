@@ -1,27 +1,27 @@
 
- Hi,
- I have got a Quantum ProDrive 80AT IDE harddisk and would
- like to format it. When trying to format it (*no* low-level
- format, just FDISK and DOS FORMAT), I somehow messed up the
- parameters... I had entered FDISK /MBR not exactly knowing
+ hi,
+ i have got a quantum prodrive 80at ide harddisk and would
+ like to format it. when trying to format it (*no* low-level
+ format, just fdisk and dos format), i somehow messed up the
+ parameters... i had entered fdisk /mbr not exactly knowing
  what this does.
- The suggested drive type 38 formats the drive only to 21MB.
- I tried type 25, but this gives only around 70MB and not
- the nominal 80MB.
- Could I use user type 47? However, I don't know the actual
- parameters (cylinders, heads,...) Could someone give me them?
- And how does FDISK work together with user type 47?
- Please reply by email to GERTHD@MVS.SAS.COM
- Thank you,
- Thomas
+ the suggested drive type 38 formats the drive only to 21mb.
+ i tried type 25, but this gives only around 70mb and not
+ the nominal 80mb.
+ could i use user type 47? however, i don't know the actual
+ parameters (cylinders, heads,...) could someone give me them?
+ and how does fdisk work together with user type 47?
+ please reply by email to gerthd@mvs.sas.com
+ thank you,
+ thomas
  +-------------------------------------------------------------------+
- | Thomas Dachsel                                                    |
- | Internet: GERTHD@MVS.SAS.COM                                      |
- | Fidonet:  Thomas_Dachsel@camel.fido.de (2:247/40)                 |
- | Subnet:   dachsel@rnivh.rni.sub.org (UUCP in Germany, now active) |
- | Phone:    +49 6221 4150 (work), +49 6203 12274 (home)             |
- | Fax:      +49 6221 415101                                         |
- | Snail:    SAS Institute GmbH, P.O.Box 105307, D-W-6900 Heidelberg |
- | Tagline:  One bad sector can ruin a whole day...                  |
+ | thomas dachsel                                                    |
+ | internet: gerthd@mvs.sas.com                                      |
+ | fidonet:  thomas_dachsel@camel.fido.de (2:247/40)                 |
+ | subnet:   dachsel@rnivh.rni.sub.org (uucp in germany, now active) |
+ | phone:    +49 6221 4150 (work), +49 6203 12274 (home)             |
+ | fax:      +49 6221 415101                                         |
+ | snail:    sas institute gmbh, p.o.box 105307, d-w-6900 heidelberg |
+ | tagline:  one bad sector can ruin a whole day...                  |
  +-------------------------------------------------------------------+
  

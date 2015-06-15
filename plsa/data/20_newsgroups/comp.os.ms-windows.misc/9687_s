@@ -1,30 +1,30 @@
 
- In article <1993Apr20.175608.23949@ncar.ucar.edu>, baseball@catch-the-fever.scd.ucar.edu (Gregg Walters) writes:
- > I have 16MB of memory on my 386SX.  I have been running Windows
- > without a swap file for several months.  Will Mathcad 4.0 be
+ in article <1993apr20.175608.23949@ncar.ucar.edu>, baseball@catch-the-fever.scd.ucar.edu (gregg walters) writes:
+ > i have 16mb of memory on my 386sx.  i have been running windows
+ > without a swap file for several months.  will mathcad 4.0 be
  > happy with this, or insist on a swap file?
  
- I just got Mathcad 4.0, and the manual is not clear on the matter.  On page 8:
+ i just got mathcad 4.0, and the manual is not clear on the matter.  on page 8:
  
  	:
  	:
  
- * At least 4 megabytes of memory.  All memory about 640K should be configured
-   as XMS.
+ * at least 4 megabytes of memory.  all memory about 640k should be configured
+   as xms.
  
  	:
  	:
- * At least 8 megabytes of virtual memory....
+ * at least 8 megabytes of virtual memory....
  
- Common sense suggests that you should be able to run it (4+8=12 < 16) but the
- new Mathcad is kinda kooky, and thus is not subject to the laws of common
+ common sense suggests that you should be able to run it (4+8=12 < 16) but the
+ new mathcad is kinda kooky, and thus is not subject to the laws of common
  sense...
  
- Dan
+ dan
  
  -- 
- Daniel Matthew Coleman		   |   Internet: dcoleman@utxvms.cc.utexas.edu
+ daniel matthew coleman		   |   internet: dcoleman@utxvms.cc.utexas.edu
  -----------------------------------+---------- : dcoleman@ccwf.cc.utexas.edu
- The University of Texas at Austin  |	 DECnet: UTXVMS::DCOLEMAN
- Electrical/Computer Engineering	   |	 BITNET: DCOLEMAN@UTXVMS [.BITNET]
+ the university of texas at austin  |	 decnet: utxvms::dcoleman
+ electrical/computer engineering	   |	 bitnet: dcoleman@utxvms [.bitnet]
  

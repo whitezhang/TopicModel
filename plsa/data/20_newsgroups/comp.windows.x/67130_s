@@ -1,23 +1,23 @@
 
- In article <1r3fe2INN10d@fbi-news.Informatik.Uni-Dortmund.DE>
- markhof@ls12r.informatik.uni-dortmund.de (Ingolf Markhof) writes:
+ in article <1r3fe2inn10d@fbi-news.informatik.uni-dortmund.de>
+ markhof@ls12r.informatik.uni-dortmund.de (ingolf markhof) writes:
  [...]
- |> I have an
+ |> i have an
  |> 
- |> 	alias precmd echo -n '^[]2\;${HOST}:$cwd^G'
+ |> 	alias precmd echo -n '^[]2\;${host}:$cwd^g'
  |> 
- |> in my ~/.tcshrc. This is a special alias for tvtwm. 
+ |> in my ~/.tcshrc. this is a special alias for tvtwm. 
  
- I presume that you meant to say tcsh here ------^^^^^
+ i presume that you meant to say tcsh here ------^^^^^
  
  -- 
  
- Michael Salmon
+ michael salmon
  
  #include	<standard.disclaimer>
  #include	<witty.saying>
  #include	<fancy.pseudo.graphics>
  
- Ericsson Telecom AB
- Stockholm
+ ericsson telecom ab
+ stockholm
  

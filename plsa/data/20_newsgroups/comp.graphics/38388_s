@@ -1,8 +1,8 @@
 
- This may be a fairly routine request on here, but I'm looking for a fast
- polygon routine to be used in a 3D game.  I have one that works right now, but
- its very slow.  Could anyone point me to one, pref in ASM that is fairly well
+ this may be a fairly routine request on here, but i'm looking for a fast
+ polygon routine to be used in a 3d game.  i have one that works right now, but
+ its very slow.  could anyone point me to one, pref in asm that is fairly well
  documented and flexible?
- 	Thanx,
-             //Lucas.
+ 	thanx,
+             //lucas.
  

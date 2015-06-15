@@ -1,25 +1,25 @@
 
- In article <C6C5zA.J7I@watserv2.uwaterloo.ca> Mike Tancsa <mdtancsa@watarts.uwaterloo.ca> writes:
+ in article <c6c5za.j7i@watserv2.uwaterloo.ca> mike tancsa <mdtancsa@watarts.uwaterloo.ca> writes:
  >
  >
- >I have just upgraded from a Trident TVGA9000 to an ATI Graphics Ultra (the
- >old mach8 chip).  I am quite pleased with the performance so far, but have
- >one problem.  When using windows in 800x600, I have noticed that the 
- >tile bars and scroll bars are significantly larger than they were when I
- >was using the Trident card.  Is there a setting in my .ini files that I can
- >change to make these smaller ?  I could not find the FAQ for this list...
+ >i have just upgraded from a trident tvga9000 to an ati graphics ultra (the
+ >old mach8 chip).  i am quite pleased with the performance so far, but have
+ >one problem.  when using windows in 800x600, i have noticed that the 
+ >tile bars and scroll bars are significantly larger than they were when i
+ >was using the trident card.  is there a setting in my .ini files that i can
+ >change to make these smaller ?  i could not find the faq for this list...
  >
- >		--Mike
+ >		--mike
  >
- >MDTANCSA@WATARTS.UWATERLOO.CA
+ >mdtancsa@watarts.uwaterloo.ca
  >
  
- Make sure you use the small fonts driver & not the large fonts driver. Check
- that in your setup. That's the only explanation I would find.
+ make sure you use the small fonts driver & not the large fonts driver. check
+ that in your setup. that's the only explanation i would find.
  
  
- 						Hope this helps
+ 						hope this helps
  
  
- 						Gel
+ 						gel
  

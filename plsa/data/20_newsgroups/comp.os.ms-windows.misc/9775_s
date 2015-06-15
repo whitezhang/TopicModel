@@ -1,22 +1,22 @@
 
- Greetings!
+ greetings!
     
- I've had a bunch of problems with the 24x.  Opening a DOS window on the
+ i've had a bunch of problems with the 24x.  opening a dos window on the
  desktop can occasionally result in the windows "blowing up" into a set of
- horizontal lines, hashing the entire desktop.  Nothing can recover this 
- except to completely exit from Windows.  The other irritating problem is
+ horizontal lines, hashing the entire desktop.  nothing can recover this 
+ except to completely exit from windows.  the other irritating problem is
  that windows that scroll often overwrite lines rather than actually
- scrolling, as if a CR was printed without an LF.  This seems ONLY to happen
- to communications programs, but I can't nail it down any further than that.
- Note, though, that the comms programs don't have to be communicating.  Even
+ scrolling, as if a cr was printed without an lf.  this seems only to happen
+ to communications programs, but i can't nail it down any further than that.
+ note, though, that the comms programs don't have to be communicating.  even
  just scrolling back through capture buffers or displaying disk files in
  these programs causes the problem.
     
-    Prior to the latest rev of Word Perfect for Windows, WPwin would sometimes
+    prior to the latest rev of word perfect for windows, wpwin would sometimes
  blow up, and the error message would cite the video driver as the source of
- the problem.  I've still seen this, but only once or twice with WPwin 5.2.
+ the problem.  i've still seen this, but only once or twice with wpwin 5.2.
     
-    Dave Zimmerman
-    (My opinions are my own)
+    dave zimmerman
+    (my opinions are my own)
   
  

@@ -1,19 +1,19 @@
 
- In article <rkimball.735340669@athena>, rkimball@athena.qualcomm.com (Robert Kimball) writes:
- |> Specifically, I am interested in the Ultrastor 34F VLB SCSI controller.
- |> Before I shell out the bucks for this thing I would like to get the
- |> straight scoop from someone who knows.  Does anyone have this controller?
- |> Any problems with it?
+ in article <rkimball.735340669@athena>, rkimball@athena.qualcomm.com (robert kimball) writes:
+ |> specifically, i am interested in the ultrastor 34f vlb scsi controller.
+ |> before i shell out the bucks for this thing i would like to get the
+ |> straight scoop from someone who knows.  does anyone have this controller?
+ |> any problems with it?
  
- I had one and on three different motherboards it didn't work with NT and
- in some cases DOS. I sent mine back, but it is my understanding that
- on some systems such as Micronics motherboards it is necessary to
+ i had one and on three different motherboards it didn't work with nt and
+ in some cases dos. i sent mine back, but it is my understanding that
+ on some systems such as micronics motherboards it is necessary to
  shut off the internal cache on the 486 to have it work.
  
- I've yet to hear from someone running a 34F on any motherboard with
- NT without shutting off the cache.
+ i've yet to hear from someone running a 34f on any motherboard with
+ nt without shutting off the cache.
  
- If you get one my advise it to be very sure you can return it first.
+ if you get one my advise it to be very sure you can return it first.
  
- Ralph
+ ralph
  

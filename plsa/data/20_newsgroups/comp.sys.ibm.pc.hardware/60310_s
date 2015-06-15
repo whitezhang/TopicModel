@@ -1,19 +1,19 @@
 
- In article <734874577snx@finbol.toppoint.de> jschief@finbol.toppoint.de (Joerg Schlaeger) writes:
+ in article <734874577snx@finbol.toppoint.de> jschief@finbol.toppoint.de (joerg schlaeger) writes:
  >[......]
- >Better OSs (OS/2 & iX) are able to handle more than 16MB of DRAM,
- >if you use EISA-Bus.
- >Has someone experience with VLB ??
- >I think of SCSI-VLB-Busmaster. The problem is the 16bit Floppy DMA
- >controller, which is unable to reach more than 16MB.
+ >better oss (os/2 & ix) are able to handle more than 16mb of dram,
+ >if you use eisa-bus.
+ >has someone experience with vlb ??
+ >i think of scsi-vlb-busmaster. the problem is the 16bit floppy dma
+ >controller, which is unable to reach more than 16mb.
  
- I don't think FD is a problem.  Since FD is much sloooooooowwwwwwer
- than HD, the overhead of double buffering doesn't matter.
+ i don't think fd is a problem.  since fd is much sloooooooowwwwwwer
+ than hd, the overhead of double buffering doesn't matter.
  
- Ken Nakata
+ ken nakata
  -- 
- /* I apologize if there are incorrect, rude, and/or impolite expressions in
- this mail or post. They are not intended. Please consider that English is a
- second language for me and I don't have full understanding of certain words
- or each nuance of a phrase.  Thank you. -- Ken Nakata, CIS student, NJIT */
+ /* i apologize if there are incorrect, rude, and/or impolite expressions in
+ this mail or post. they are not intended. please consider that english is a
+ second language for me and i don't have full understanding of certain words
+ or each nuance of a phrase.  thank you. -- ken nakata, cis student, njit */
  

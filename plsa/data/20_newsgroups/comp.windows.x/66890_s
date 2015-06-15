@@ -1,13 +1,13 @@
 
- Mouseless operation is documented in the man pages for olwm and olvwm...
- However, I can't get it to work in either.
- I have this line in my .Xdefaults:
- OpenWindows.KeyboardCommands:           Full
+ mouseless operation is documented in the man pages for olwm and olvwm...
+ however, i can't get it to work in either.
+ i have this line in my .xdefaults:
+ openwindows.keyboardcommands:           full
  
- That should do it...
- I haven't rebound the keys.
- Am I missing something?
+ that should do it...
+ i haven't rebound the keys.
+ am i missing something?
  
- -D
+ -d
  
  

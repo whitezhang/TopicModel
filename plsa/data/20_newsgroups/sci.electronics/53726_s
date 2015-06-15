@@ -1,20 +1,20 @@
 
- In article <C5nz60.99z@scraps.uucp>, frankh@scraps.uucp (Frank Holden KA3UWW) writes:
- > In <C57zsC.9FL@news.cso.uiuc.edu> rky57514@uxa.cso.uiuc.edu (Tall Cool One ) writes:
+ in article <c5nz60.99z@scraps.uucp>, frankh@scraps.uucp (frank holden ka3uww) writes:
+ > in <c57zsc.9fl@news.cso.uiuc.edu> rky57514@uxa.cso.uiuc.edu (tall cool one ) writes:
  > 
- >>I'm looking for an IC that will convert RS232 voltage levels to TTL voltage 
- >>levels.  Something relatively inexpensive would be nice, too.  Anyone have
- >>a suggestion??  Thanks.
+ >>i'm looking for an ic that will convert rs232 voltage levels to ttl voltage 
+ >>levels.  something relatively inexpensive would be nice, too.  anyone have
+ >>a suggestion??  thanks.
  > 
- > Well it looks as if Digi-Key sells a chip with the number ICL232 that does what
- > you want.  They are selling it for about $3.50...
+ > well it looks as if digi-key sells a chip with the number icl232 that does what
+ > you want.  they are selling it for about $3.50...
   
- Digi-Key also sells Quad Line Receivers, parts DS1489AN (68cents) and DS1489N
- (48cents).  A Quad Line Driver, part DS1488 (48cents), is also sold.  I guess
- if you don't won't to supply +12V, the chips with the pump-up circuitry might
- be worth the extra cost.  But 1488's and 1489's are available at your friendly
- neighborhood RS, parts MC1488 (276-2520) for $1.29 and MC1489 (276-2521) for
+ digi-key also sells quad line receivers, parts ds1489an (68cents) and ds1489n
+ (48cents).  a quad line driver, part ds1488 (48cents), is also sold.  i guess
+ if you don't won't to supply +12v, the chips with the pump-up circuitry might
+ be worth the extra cost.  but 1488's and 1489's are available at your friendly
+ neighborhood rs, parts mc1488 (276-2520) for $1.29 and mc1489 (276-2521) for
  $1.29.
   
- Jeff White          jhwhit01@ulkyvx.louisville.edu
+ jeff white          jhwhit01@ulkyvx.louisville.edu
  

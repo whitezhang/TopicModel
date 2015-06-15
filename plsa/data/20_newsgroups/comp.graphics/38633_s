@@ -1,39 +1,39 @@
 
- In article <prestonm.735400848@cs.man.ac.uk> prestonm@cs.man.ac.uk (Martin  
- Preston) writes:
- > Why not use the PD C library for reading/writing TIFF files? It took me a
+ in article <prestonm.735400848@cs.man.ac.uk> prestonm@cs.man.ac.uk (martin  
+ preston) writes:
+ > why not use the pd c library for reading/writing tiff files? it took me a
  > good 20 minutes to start using them in your own app.
  
- I certainly do use it whenever I have to do TIFF, and it usually works
- very well.  That's not my point.  I'm >philosophically< opposed to it
+ i certainly do use it whenever i have to do tiff, and it usually works
+ very well.  that's not my point.  i'm >philosophically< opposed to it
  because of its complexity.
  
- This complexity has led to some programs' poor TIFF writers making
- some very bizarre files, other programs' inability to load TIFF
+ this complexity has led to some programs' poor tiff writers making
+ some very bizarre files, other programs' inability to load tiff
  images (though they'll save them, of course), and a general
  inability to interchange images between different environments
- despite the fact they all think they understand TIFF.
+ despite the fact they all think they understand tiff.
  
- As the saying goes, "It's not me I'm worried about- it's all the
- >other<  assholes out there!"  I've had big trouble with misuse and
- abuse of TIFF over the years, and I chalk it all up to the immense (and
+ as the saying goes, "it's not me i'm worried about- it's all the
+ >other<  assholes out there!"  i've had big trouble with misuse and
+ abuse of tiff over the years, and i chalk it all up to the immense (and
  unnecessary) complexity of the format.
  
- In the words of the TIFF 5.0 spec, Appendix G, page G-1 (capitalized
+ in the words of the tiff 5.0 spec, appendix g, page g-1 (capitalized
  emphasis mine):
  
- "The only problem with this sort of success is that TIFF was designed
- to be powerful and flexible, at the expense of simplicity.  It takes a
+ "the only problem with this sort of success is that tiff was designed
+ to be powerful and flexible, at the expense of simplicity.  it takes a
  fair amount of effort to handle all the options currently defined in
- this specification (PROBABLY NO APPLICATION DOES A COMPLETE JOB),
+ this specification (probably no application does a complete job),
  and that is currently the only way you can be >sure< that you will be
- able to import any TIFF image, since there are so many
+ able to import any tiff image, since there are so many
  image-generating applications out there now."
  
  
- If a program (or worse all applications) can't read >every< TIFF
- image, that means there are some it won't- some that I might have to
- deal with.  Why would I want my images to be trapped in that format?  I
+ if a program (or worse all applications) can't read >every< tiff
+ image, that means there are some it won't- some that i might have to
+ deal with.  why would i want my images to be trapped in that format?  i
  don't and neither should anyone who agrees with my reasoning- not
  that anyone does, of course! :-)
  

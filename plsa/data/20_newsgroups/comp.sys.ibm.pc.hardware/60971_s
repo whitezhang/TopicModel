@@ -1,54 +1,54 @@
 
- pdb059@ipl.jpl.nasa.gov (Paul Bartholomew) writes:
+ pdb059@ipl.jpl.nasa.gov (paul bartholomew) writes:
  
  <clip clip>
  
- >Interesting.  Would you care to explain to me then, how my SoundBlaster
- >Pro card and my printer card are sharing IRQ 7 successfully?  I assure
- >you that they are both set to IRQ 7 and that I have no problem.  My
- >computer is a DTK 286-12 IBM clone.
+ >interesting.  would you care to explain to me then, how my soundblaster
+ >pro card and my printer card are sharing irq 7 successfully?  i assure
+ >you that they are both set to irq 7 and that i have no problem.  my
+ >computer is a dtk 286-12 ibm clone.
  
- Running MS-DOS or a derivative OS, obviously. Please take note that the
+ running ms-dos or a derivative os, obviously. please take note that the
  following is not what exactly happens, but a slightly simplified
  explanation.
  
- Technically, the IRQ line is only a means for the device (printer
- adapter, SoundBlaster, modem, hard disk, ...) to signal the CPU that
- "Something's happening here, please take note." How the CPU is
+ technically, the irq line is only a means for the device (printer
+ adapter, soundblaster, modem, hard disk, ...) to signal the cpu that
+ "something's happening here, please take note." how the cpu is
  programmed to handle this signal is usually up to the operating system.
- In MS-DOS, the "interrupt vector" is used to store the address of the
+ in ms-dos, the "interrupt vector" is used to store the address of the
  function that handles each interrupt.
  
- Now, basic DOS doesn't care whether the printer reports that it's ready
- to print some more stuff or not - it simply ignores the interrupt.  When
- DOS prints, it looks at the LPT buffer.  If there's a character there,
- wait a while and check again.  If there's not, copy a new character to
- the LPT port.  Since the IRQ 7 is ignored as a printer interrupt, it's
- free for use for any other adapters - in this case, the SB. 
+ now, basic dos doesn't care whether the printer reports that it's ready
+ to print some more stuff or not - it simply ignores the interrupt.  when
+ dos prints, it looks at the lpt buffer.  if there's a character there,
+ wait a while and check again.  if there's not, copy a new character to
+ the lpt port.  since the irq 7 is ignored as a printer interrupt, it's
+ free for use for any other adapters - in this case, the sb. 
  
- With any multitasking or otherwise advanced OS, this kind of printing
- approach just doesn't work (or more precisely, it wastes a lot of CPU
- cycles.) Hence, you can't "share" the IRQ 7 with LPT1 and SB if you're
- running Unix or OS/2 or whatnot.
+ with any multitasking or otherwise advanced os, this kind of printing
+ approach just doesn't work (or more precisely, it wastes a lot of cpu
+ cycles.) hence, you can't "share" the irq 7 with lpt1 and sb if you're
+ running unix or os/2 or whatnot.
  
- Another issue with the SB is that only the digitized sound uses
- interrupts. When the SB plays plain music, the CPU simply tells it what
- to play until told otherwise. With digitized sound the interrupt is
- required to notify the CPU when the output ends and new data is
+ another issue with the sb is that only the digitized sound uses
+ interrupts. when the sb plays plain music, the cpu simply tells it what
+ to play until told otherwise. with digitized sound the interrupt is
+ required to notify the cpu when the output ends and new data is
  needed.
  
- You can, however, hook two (or more) COM ports to one interrupt, but use
- them only one at a time.  This is because the interrupt handling routine
+ you can, however, hook two (or more) com ports to one interrupt, but use
+ them only one at a time.  this is because the interrupt handling routine
  is same for both ports, and it can see from which port the data came
- from. This, of course, applies for some other devices (like LPT) as well.
+ from. this, of course, applies for some other devices (like lpt) as well.
  
- Remember, this was greatly simplified in parts, but I think gives the
+ remember, this was greatly simplified in parts, but i think gives the
  general picture correctly enough.
  
- Cheers,
+ cheers,
  
  -- 
-                Juha Liukkonen, aka jliukkon@cc.helsinki.fi
-               University of Helsinki,  Dept. of  Lost Souls
-            "Trust me, I know what I'm doing." - Sledge Hammer
+                juha liukkonen, aka jliukkon@cc.helsinki.fi
+               university of helsinki,  dept. of  lost souls
+            "trust me, i know what i'm doing." - sledge hammer
  

@@ -1,25 +1,25 @@
 
- In article <1993Apr29.041601.8884@labtam.labtam.oz.au> graeme@labtam.labtam.oz.a
- u (Graeme Gill) writes:
- >In article <5713@seti.inria.fr>, deniaud@cartoon.inria.fr (Gilles Deniaud) writ
+ in article <1993apr29.041601.8884@labtam.labtam.oz.au> graeme@labtam.labtam.oz.a
+ u (graeme gill) writes:
+ >in article <5713@seti.inria.fr>, deniaud@cartoon.inria.fr (gilles deniaud) writ
  es:
- >> Hi,
+ >> hi,
  >>
- >> I'm looking for a program which is able to display 24 bits
- >> images. We are using a Sun Sparc equipped with Parallax
- >> graphics board running X11.
+ >> i'm looking for a program which is able to display 24 bits
+ >> images. we are using a sun sparc equipped with parallax
+ >> graphics board running x11.
  >
- >    xli, xloadimage or ImageMagick - export.lcs.mit.edu [18.24.0.12] /contrib
+ >    xli, xloadimage or imagemagick - export.lcs.mit.edu [18.24.0.12] /contrib
  >
  
  xv 3.0 (shareware) supports 24-bit displays, and has lots of other
- improvements over earlier versions.  Definitely worth checking out
+ improvements over earlier versions.  definitely worth checking out
  (also at export)
  
- Jean.
+ jean.
  -- 
- Jean Liddle                                 
- Computer Science, Illinois State University  
+ jean liddle                                 
+ computer science, illinois state university  
  e-mail:  jliddle@ilstu.edu                  
  --------------------------------------------
  

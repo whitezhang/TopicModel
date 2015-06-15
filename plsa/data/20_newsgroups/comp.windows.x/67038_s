@@ -1,38 +1,38 @@
-	<BUZZ.93Apr19101538@lion.bear.com>
- Date: Tue, 20 Apr 1993 01:12:28 GMT
- Lines: 33
+	<buzz.93apr19101538@lion.bear.com>
+ date: tue, 20 apr 1993 01:12:28 gmt
+ lines: 33
  
  > 
- > In article <WHALEY.93Apr15103931@sigma.kpc.com> whaley@sigma.kpc.com (Ken Whaley) writes:
- > >   Actually, I must also ask the FAQ's #1 most popular reason why graphics
+ > in article <whaley.93apr15103931@sigma.kpc.com> whaley@sigma.kpc.com (ken whaley) writes:
+ > >   actually, i must also ask the faq's #1 most popular reason why graphics
  > >   don't show up: do you wait for an expose event before drawing your
  > >   rectangle?
  > 
- > Suppose you have an idle app with a realized and mapped Window that contains
- > Xlib graphics.  A button widget, when pressed, will cause a new item
- > to be drawn in the Window.  This action clearly should not call XCopyArea() 
+ > suppose you have an idle app with a realized and mapped window that contains
+ > xlib graphics.  a button widget, when pressed, will cause a new item
+ > to be drawn in the window.  this action clearly should not call xcopyarea() 
  > (or equiv) directly; instead, it should register the existence of the new
  > item in a memory structure and let the expose event handler take care
  > of rendering the image because at that time it is guaranteed that the
- > Window is mapped.
+ > window is mapped.
  > 
- > The problem, of course, is that no expose event is generated if the window
- > is visible and mapped.  Do you know the best way to "tickle" a window so
+ > the problem, of course, is that no expose event is generated if the window
+ > is visible and mapped.  do you know the best way to "tickle" a window so
  > that the expose event handler will be invoked to draw this new item?
  
- I specifically made the above comment assuming that perhaps the code fragment
+ i specifically made the above comment assuming that perhaps the code fragment
  came from a simple "open-draw-quit" client.  
  
- As per your question: why not have the button handler add the object, and
- then call the "window_redraw()" (or whatever) directly?  Although, depending
+ as per your question: why not have the button handler add the object, and
+ then call the "window_redraw()" (or whatever) directly?  although, depending
  on how the overall application is structured, there may be no problem with
  rendering the object directly in response to the button press.
  
- 	Ken
+ 	ken
  
  --
- Kenneth Whaley			 (408) 748-6347
- Kubota Pacific Computer, Inc.	 Email: whaley@kpc.com
- 2630 Walsh Avenue
- Santa Clara, CA.  95051
+ kenneth whaley			 (408) 748-6347
+ kubota pacific computer, inc.	 email: whaley@kpc.com
+ 2630 walsh avenue
+ santa clara, ca.  95051
  

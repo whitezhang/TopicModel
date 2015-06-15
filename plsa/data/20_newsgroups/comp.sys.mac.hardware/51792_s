@@ -1,37 +1,37 @@
 
- In <1qsk6u$d8l@usenet.INS.CWRU.Edu> rcs8@po.CWRU.Edu (Robert C. Sprecher) writes:
+ in <1qsk6u$d8l@usenet.ins.cwru.edu> rcs8@po.cwru.edu (robert c. sprecher) writes:
  
  
- >Is it possible, ie via creative cable splicing or whatever, to
- >hook a Syquest 44MB removable drive to a Mac?
+ >is it possible, ie via creative cable splicing or whatever, to
+ >hook a syquest 44mb removable drive to a mac?
  
- >Is there any difference with the guts of the drive or is it
+ >is there any difference with the guts of the drive or is it
  >just cable differences?
  
- >Thanks.
+ >thanks.
  
- Their should be no difference in the drive itself between IBM-PC and Mac.
- The two main differences are the formatting of the disk itself (but with
+ their should be no difference in the drive itself between ibm-pc and mac.
+ the two main differences are the formatting of the disk itself (but with
  the correct software each can read the others) and maybe the cable
- (depends on your SCSI board on IBM-PC).
+ (depends on your scsi board on ibm-pc).
  
- If you get some Mac softawre to allow mounting of ANY IBM-formatted disk
- and the correct cable you should br able to mount and read your IBM-PC
+ if you get some mac softawre to allow mounting of any ibm-formatted disk
+ and the correct cable you should br able to mount and read your ibm-pc
  syquest.
  
  good luck,
  
- --Paul
+ --paul
  
  -- 
    +-------------------------------------------------------------------------+
-   | Paul Hardwick  |  Technical Consulting  |  InterNet: hardwick@panix.com |
-   | P.O. Box 1482  |  for MVS (SP/XA/ESA)   |  Voice:    (212) 535-0998     |
-   | NY, NY 10274   |  and 3rd party addons  |  Fax:      (212) Pending      |
+   | paul hardwick  |  technical consulting  |  internet: hardwick@panix.com |
+   | p.o. box 1482  |  for mvs (sp/xa/esa)   |  voice:    (212) 535-0998     |
+   | ny, ny 10274   |  and 3rd party addons  |  fax:      (212) pending      |
    +-------------------------------------------------------------------------+
  -- 
    +-------------------------------------------------------------------------+
-   | Paul Hardwick  |  Technical Consulting  |  InterNet: hardwick@panix.com |
-   | P.O. Box 1482  |  for MVS (SP/XA/ESA)   |  Voice:    (212) 535-0998     |
-   | NY, NY 10274   |  and 3rd party addons  |  Fax:      (212) Pending      |
+   | paul hardwick  |  technical consulting  |  internet: hardwick@panix.com |
+   | p.o. box 1482  |  for mvs (sp/xa/esa)   |  voice:    (212) 535-0998     |
+   | ny, ny 10274   |  and 3rd party addons  |  fax:      (212) pending      |
  

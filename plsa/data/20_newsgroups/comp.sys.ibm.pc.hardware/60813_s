@@ -1,40 +1,40 @@
 
- In article <11172@lhdsy1.lahabra.chevron.com>, hwrvo@kato.lahabra.chevron.com (W.R. Volz) writes:
- > In article <1993Apr20.183959.1@utxvms.cc.utexas.edu>, dcoleman@utxvms.cc.utexas.edu (Daniel M. Coleman) writes:
- > |> Gateway 2000 has released a new Flash BIOS update for their local bus systems. 
- > |> Because I'm such a nice person, I uploaded them to wuarchive.wustl.edu.  Look
- > |> for glb05.exe in the msdos_uploads section.  Enjoy!
+ in article <11172@lhdsy1.lahabra.chevron.com>, hwrvo@kato.lahabra.chevron.com (w.r. volz) writes:
+ > in article <1993apr20.183959.1@utxvms.cc.utexas.edu>, dcoleman@utxvms.cc.utexas.edu (daniel m. coleman) writes:
+ > |> gateway 2000 has released a new flash bios update for their local bus systems. 
+ > |> because i'm such a nice person, i uploaded them to wuarchive.wustl.edu.  look
+ > |> for glb05.exe in the msdos_uploads section.  enjoy!
  > |> 
  > 
- > I have several questions:
+ > i have several questions:
  > 
- > 1) What do I gain with this new BIOS?
+ > 1) what do i gain with this new bios?
  > 
- > 2) How can I save a copy of my old BIOS in case I want to go back?
+ > 2) how can i save a copy of my old bios in case i want to go back?
  > 
- > 3) How do I install the new BIOS?
+ > 3) how do i install the new bios?
  > 
- > I'd like to enjoy, but need answers first.
+ > i'd like to enjoy, but need answers first.
  
- 1) It fixes some problems with MicroProse games.  After leaving F-15 III it
- would, in vain, try to find a floppy in drive A:.  This has been fixed.  I
+ 1) it fixes some problems with microprose games.  after leaving f-15 iii it
+ would, in vain, try to find a floppy in drive a:.  this has been fixed.  i
  don't know what other corrections were made.
  
- 2) It comes with an image of the original, in case things don't work.
+ 2) it comes with an image of the original, in case things don't work.
  
- 3) Download glb05.exe.  Format a bootable floppy disk, and don't put a
- config.sys or autoexec.bat.  Run the self extracting archive so all the files
- explode to the disk.  Run the file fsh.exe.  It should be self-explanatory from
+ 3) download glb05.exe.  format a bootable floppy disk, and don't put a
+ config.sys or autoexec.bat.  run the self extracting archive so all the files
+ explode to the disk.  run the file fsh.exe.  it should be self-explanatory from
  there.
  
- Dan
+ dan
  
- P.S.:  I was feeling extraordinarily generous once again, so I uploaded the
+ p.s.:  i was feeling extraordinarily generous once again, so i uploaded the
  file to ftp.cica.indiana too..
  
  -- 
- Daniel Matthew Coleman		   |   Internet: dcoleman@utxvms.cc.utexas.edu
+ daniel matthew coleman		   |   internet: dcoleman@utxvms.cc.utexas.edu
  -----------------------------------+---------- : dcoleman@ccwf.cc.utexas.edu
- The University of Texas at Austin  |	 DECnet: UTXVMS::DCOLEMAN
- Electrical/Computer Engineering	   |	 BITNET: DCOLEMAN@UTXVMS [.BITNET]
+ the university of texas at austin  |	 decnet: utxvms::dcoleman
+ electrical/computer engineering	   |	 bitnet: dcoleman@utxvms [.bitnet]
  

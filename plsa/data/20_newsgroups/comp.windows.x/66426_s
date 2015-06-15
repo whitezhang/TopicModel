@@ -1,9 +1,9 @@
 
- In article <93091.144124DEP@SLACVM.SLAC.STANFORD.EDU> <DEP@SLACVM.SLAC.STANFORD.EDU> writes:
- >Is there a way to identify an X-protocol packet under DECNET? Under
- >TCP/IP?
+ in article <93091.144124dep@slacvm.slac.stanford.edu> <dep@slacvm.slac.stanford.edu> writes:
+ >is there a way to identify an x-protocol packet under decnet? under
+ >tcp/ip?
  >
- 	The information in the packets isn't necessarily
- distinctive -- you need to know that it is an X11 connection.
- 	-- Ethan
+ 	the information in the packets isn't necessarily
+ distinctive -- you need to know that it is an x11 connection.
+ 	-- ethan
  

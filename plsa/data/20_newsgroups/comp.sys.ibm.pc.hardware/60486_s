@@ -1,12 +1,12 @@
 
- 	Is it possible to have 2 Sound Blasters in 1 machine?
- Would give your the equivalent of a SB Pro but with stereo Digitized sound.
- The way Creative Labs price Pro's in Oz, the price is equal.
+ 	is it possible to have 2 sound blasters in 1 machine?
+ would give your the equivalent of a sb pro but with stereo digitized sound.
+ the way creative labs price pro's in oz, the price is equal.
  
- 	I suppose you could set the I/O addresses to 220 and 240H
- but what about the DMA channels?
- 	Any way what is this DMA channel sharing hype?  Does it share the
- SB and hardisk DMA channels or something more esoteric?
+ 	i suppose you could set the i/o addresses to 220 and 240h
+ but what about the dma channels?
+ 	any way what is this dma channel sharing hype?  does it share the
+ sb and hardisk dma channels or something more esoteric?
   
  
  

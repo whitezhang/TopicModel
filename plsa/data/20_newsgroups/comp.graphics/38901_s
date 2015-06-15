@@ -1,21 +1,21 @@
 
- SITUNAYA@IBM3090.BHAM.AC.UK wrote:
+ situnaya@ibm3090.bham.ac.uk wrote:
  : ==============================================================================
- : Could someone please tell me the Best FTP'able viewer available for MSDOS
- : I am running a 486 33mhz with SVGA monitor.
- : I need to look at gifs mainly and it would be advantageous if it ran
+ : could someone please tell me the best ftp'able viewer available for msdos
+ : i am running a 486 33mhz with svga monitor.
+ : i need to look at gifs mainly and it would be advantageous if it ran
  : under windows...........thanks
  
- FTP to wuarchive.wustl.edu,
+ ftp to wuarchive.wustl.edu,
  change into mirrors/msdos/graphics
  get "grfwk61t.zip"
- This is the DOS version of Graphic Workshop.  There is a Windows version which
- you could probably find in the mirrors/msdos/windows3 directory but I don't 
+ this is the dos version of graphic workshop.  there is a windows version which
+ you could probably find in the mirrors/msdos/windows3 directory but i don't 
  know what the file name is. 
  
  -- 
  
- TMC
- (tmc@spartan.ac.BrockU.ca)
+ tmc
+ (tmc@spartan.ac.brocku.ca)
  
  

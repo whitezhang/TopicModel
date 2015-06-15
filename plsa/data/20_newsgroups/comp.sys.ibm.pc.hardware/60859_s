@@ -1,8 +1,8 @@
 
- Many (all?) XT drive controllers have their own BIOS on board to handle low-
- level formatting.  The BIOS also allows you to set up the drive properly
+ many (all?) xt drive controllers have their own bios on board to handle low-
+ level formatting.  the bios also allows you to set up the drive properly
  (# of cylinders/heads/etc).
  --
-      -- Andy
+      -- andy
  robinson@cs.psu.edu
  

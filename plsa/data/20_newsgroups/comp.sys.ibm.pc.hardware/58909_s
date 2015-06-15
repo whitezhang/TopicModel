@@ -1,55 +1,55 @@
 
- Please help if you can with the following strange problem:
+ please help if you can with the following strange problem:
  
-   The Maxtor 340 drive in my 386 clone would from time to
+   the maxtor 340 drive in my 386 clone would from time to
    time, for no obvious reason spin down completely (one can
-   tell by the sound) and simply refuse to be accessed. DOS
-   reacts with an error (Drive D: cannot be accessed or
-   something the like). Unfortunately, I cannot just reproduce
-   the error. Sometimes it occurs more often, sometimes
-   less. The last time it happened was when I wanted to 
+   tell by the sound) and simply refuse to be accessed. dos
+   reacts with an error (drive d: cannot be accessed or
+   something the like). unfortunately, i cannot just reproduce
+   the error. sometimes it occurs more often, sometimes
+   less. the last time it happened was when i wanted to 
    demonstrate some software to a colleague.
-     I would like to know if anybody has experienced similar
-   problems. I don't like to take the thing to the dealer
-   only to be told that there's nothing wrong with it. I
-   checked the other post in this group about Maxtor, and
-   I don't seem to be the only one who has problems. However,
-   no one describes the same problem, and I also have a 
+     i would like to know if anybody has experienced similar
+   problems. i don't like to take the thing to the dealer
+   only to be told that there's nothing wrong with it. i
+   checked the other post in this group about maxtor, and
+   i don't seem to be the only one who has problems. however,
+   no one describes the same problem, and i also have a 
    different configuration.
  
-   Thanx in advance for any e-mailed help. 
+   thanx in advance for any e-mailed help. 
    
-   Peter
+   peter
  
- LIST OF EQUIPMENT
-   Computer "Mandax" Mainboard 386-33, 2MB
-   Adaptec 1542 SCSI Master
-   Maxtor LXT340S SCSI-II Hard Drive
-   NEC CDR-83 CD-ROM Reader (problem remains with CD-ROM removed)
-   ET4000 VGA Card
+ list of equipment
+   computer "mandax" mainboard 386-33, 2mb
+   adaptec 1542 scsi master
+   maxtor lxt340s scsi-ii hard drive
+   nec cdr-83 cd-rom reader (problem remains with cd-rom removed)
+   et4000 vga card
  
- CONFIG.SYS
+ config.sys
    files=30
-   device=C:\dos\setver.exe
-   device=C:\windows\himem.sys
-   device=C:\system\aspi4dos.sys
-   device=C:\system\aswcdnec.sys /d:neccd
-   DOS=HIGH
-   COUNTRY=041,,C:\dos\country.sys
-   device=C:\dos\display.sys CON=(EGA,,1)
+   device=c:\dos\setver.exe
+   device=c:\windows\himem.sys
+   device=c:\system\aspi4dos.sys
+   device=c:\system\aswcdnec.sys /d:neccd
+   dos=high
+   country=041,,c:\dos\country.sys
+   device=c:\dos\display.sys con=(ega,,1)
  
- AUTOEXE.BAT
-   C:\windows\smartdrive.sys
-   PATH=C:\windows;c:\dos
-   SET TEMP=C:\dos
-   MODE CON CODEPAGE PREPARE=((437) C:\DOS\EGA.CPI)
-   MODE CON CODEPAGE SELECT=437
-   KEYB SG,,C:\DOS\KEYBOARD.SYS
-   C:\SYSTEM\MSCDEX /D:NECCD /L:d /v
+ autoexe.bat
+   c:\windows\smartdrive.sys
+   path=c:\windows;c:\dos
+   set temp=c:\dos
+   mode con codepage prepare=((437) c:\dos\ega.cpi)
+   mode con codepage select=437
+   keyb sg,,c:\dos\keyboard.sys
+   c:\system\mscdex /d:neccd /l:d /v
  
  --
- / Peter Schneider              []  Englisches Seminar         \
- | E-Mail: pschneid@es.unizh.ch []  Universitaet Zurich        |
- |  Phone: (41 1) 257 3554      []  Plattenstrasse 47          | 
- \    Fax: (41 1) 262 1204      []  CH-8032 Zurich/Switzerland /
+ / peter schneider              []  englisches seminar         \
+ | e-mail: pschneid@es.unizh.ch []  universitaet zurich        |
+ |  phone: (41 1) 257 3554      []  plattenstrasse 47          | 
+ \    fax: (41 1) 262 1204      []  ch-8032 zurich/switzerland /
  

@@ -1,31 +1,31 @@
 
- Dominic Lai (cs_cylai@cs.ust.hk) wrote:
- : Simon Crowe (scrowe@hemel.bull.co.uk) wrote:
- : 8~> I require BGI drivers for Super VGA Displays and Super XVGA Displays. Does 
- : 8~> anyone know where I could obtain the relevant drivers ? (FTP sites ??)
+ dominic lai (cs_cylai@cs.ust.hk) wrote:
+ : simon crowe (scrowe@hemel.bull.co.uk) wrote:
+ : 8~> i require bgi drivers for super vga displays and super xvga displays. does 
+ : 8~> anyone know where i could obtain the relevant drivers ? (ftp sites ??)
  
- : 	I would like to know too!
+ : 	i would like to know too!
  
- : Regards,
- : Dominic
+ : regards,
+ : dominic
  
  garbo.uwasa.fi (or one of its many mirrors) has a file
  called "svgabg40" in the programming subdirectory.
- These are svga bgi drivers for a variety of cards.
+ these are svga bgi drivers for a variety of cards.
  
- [from the README]:
- "Card types supported: (SuperVGA drivers)
-   Ahead, ATI, Chips & Tech, Everex, Genoa, Paradise, Oak, Trident (both 8800 
-   and 8900, 9000), Tseng (both 3000 and 4000 chipsets) and Video7.
-   These drivers will also work on video cards with VESA capability.
-   The tweaked drivers will work on any register-compatible VGA card."
+ [from the readme]:
+ "card types supported: (supervga drivers)
+   ahead, ati, chips & tech, everex, genoa, paradise, oak, trident (both 8800 
+   and 8900, 9000), tseng (both 3000 and 4000 chipsets) and video7.
+   these drivers will also work on video cards with vesa capability.
+   the tweaked drivers will work on any register-compatible vga card."
  
  enjoy,
- Clark Verbrugge
+ clark verbrugge
  clump@cs.mcgill.ca
  
  --
  
-  HONK HONK BLAT WAK WAK WAK WAK WAK UNGOW!
+  honk honk blat wak wak wak wak wak ungow!
  
  

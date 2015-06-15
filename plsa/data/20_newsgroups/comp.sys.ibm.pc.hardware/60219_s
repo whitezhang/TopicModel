@@ -1,41 +1,41 @@
 
  
- Re: Problems with S3-initialization
+ re: problems with s3-initialization
  
- As described the manual the following steps must be done for th initialization
- of the S3 card.
+ as described the manual the following steps must be done for th initialization
+ of the s3 card.
  
- InitDisplay;
- 	(*BIOS-Call
- 		with AX-Reg = 4F02H
- 		with BX-Reg = 105H for 1024 x 768 x 256 resolution
- 		Interrupt 10H *)
- Unlock Register Lock 1 (CR38)
- 	(* For access to S3 Register Set *)
- Unlock Register Lock 2 (CR39)
- 	(* For access to Syst. Control and Syst. Extension Register *)
- Unlock Graphic Command Group (CR40)
- 	(* Set Bit 0 to 1 in Syst. Configuration Register *)
- Unlock Advanced Display Functions
- 	(* Set Bit 0 to 1 in Function Control Register *)
+ initdisplay;
+ 	(*bios-call
+ 		with ax-reg = 4f02h
+ 		with bx-reg = 105h for 1024 x 768 x 256 resolution
+ 		interrupt 10h *)
+ unlock register lock 1 (cr38)
+ 	(* for access to s3 register set *)
+ unlock register lock 2 (cr39)
+ 	(* for access to syst. control and syst. extension register *)
+ unlock graphic command group (cr40)
+ 	(* set bit 0 to 1 in syst. configuration register *)
+ unlock advanced display functions
+ 	(* set bit 0 to 1 in function control register *)
  
- After these operations the FIFO-stack of the S3 should be empty.
- When we watch the status (Graph. Proc. Status), we always get
- the value 0FH instead of 0H.
- Full would mean 0FFH (8 places occupied), empty would mean 0H
+ after these operations the fifo-stack of the s3 should be empty.
+ when we watch the status (graph. proc. status), we always get
+ the value 0fh instead of 0h.
+ full would mean 0ffh (8 places occupied), empty would mean 0h
  (0 places occupied).
  
- It is possible to read this register in two different ways. 
- Both times we get different results.
+ it is possible to read this register in two different ways. 
+ both times we get different results.
  
  
  
- Our machine is a 486 DX/2 with EISA bus and a S3 86C805 local bus. 
+ our machine is a 486 dx/2 with eisa bus and a s3 86c805 local bus. 
  
  --> any ideas?
  
- Andreas Disteli
- Institut fuer Computersysteme, ETH Zuerich
+ andreas disteli
+ institut fuer computersysteme, eth zuerich
  email: disteli@inf.ethz.ch
  
  

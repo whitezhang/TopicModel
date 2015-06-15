@@ -1,28 +1,28 @@
-	<1993Apr19.180049.20572@qualcomm.com>
+	<1993apr19.180049.20572@qualcomm.com>
  	<1qv83m$5i2@geraldo.cc.utexas.edu>
- 	<1993Apr20.000359.20098@bernina.ethz.ch>
- Date: Tue, 20 Apr 1993 11:21:34 GMT
- Lines: 21
+ 	<1993apr20.000359.20098@bernina.ethz.ch>
+ date: tue, 20 apr 1993 11:21:34 gmt
+ lines: 21
  
  
- In article <1993Apr20.000359.20098@bernina.ethz.ch> caronni@nessie.cs.id.ethz.ch (Germano Caronni) writes:
+ in article <1993apr20.000359.20098@bernina.ethz.ch> caronni@nessie.cs.id.ethz.ch (germano caronni) writes:
  
  
-    Just a question. 
-    As a provider of a public BBS service - aren't you bound by law to gurantee
-    intelligble access to the data of the users on the BBS, if police comes
-    with sufficent authorisation ? I guessed this would be  a basic condition
-    for such systems. (I did run a bbs some time ago, but that was in Switzerland)
+    just a question. 
+    as a provider of a public bbs service - aren't you bound by law to gurantee
+    intelligble access to the data of the users on the bbs, if police comes
+    with sufficent authorisation ? i guessed this would be  a basic condition
+    for such systems. (i did run a bbs some time ago, but that was in switzerland)
  
- You are obliged to let the police search the equipment if they have a
- proper court order. You are under no legal obligation to keep the data
- intelligble. If you wish to run your BBS entirely with all data
+ you are obliged to let the police search the equipment if they have a
+ proper court order. you are under no legal obligation to keep the data
+ intelligble. if you wish to run your bbs entirely with all data
  encrypted such that if the police show up they cannot read anything,
- well, thats their problem. There are no legal restrictions on domestic
- use of cryptography in the United States -- YET.
+ well, thats their problem. there are no legal restrictions on domestic
+ use of cryptography in the united states -- yet.
  
  --
- Perry Metzger		pmetzger@shearson.com
+ perry metzger		pmetzger@shearson.com
  --
- Laissez faire, laissez passer. Le monde va de lui meme.
+ laissez faire, laissez passer. le monde va de lui meme.
  

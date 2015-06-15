@@ -1,13 +1,13 @@
 
-         I recently got a file describing a library of rendering routines 
- called SIPP (SImple Polygon Processor).  Could anyone tell me where I can 
- FTP the source code and which is the newest version around?
-         Also, I've never used Renderman so I was wondering if Renderman 
- is like SIPP?  ie. a library of rendering routines which one uses to make 
+         i recently got a file describing a library of rendering routines 
+ called sipp (simple polygon processor).  could anyone tell me where i can 
+ ftp the source code and which is the newest version around?
+         also, i've never used renderman so i was wondering if renderman 
+ is like sipp?  ie. a library of rendering routines which one uses to make 
  a program that creates the image...
  
-                                         Thanks,  Joe Tham
+                                         thanks,  joe tham
  
  --
- Joe Tham              joth@ersys.edmonton.ab.ca 
+ joe tham              joth@ersys.edmonton.ab.ca 
  

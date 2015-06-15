@@ -1,20 +1,20 @@
 
-   Hi.  One of my coworkers is having a very odd problem.  His mouse
- works fine in DOS applications, if you load them from the C: prompt.
- Under Windows, the mouse pointer is present, but does not move.  Even
- if you load a DOS app under Windows, the mouse doesn't work.
+   hi.  one of my coworkers is having a very odd problem.  his mouse
+ works fine in dos applications, if you load them from the c: prompt.
+ under windows, the mouse pointer is present, but does not move.  even
+ if you load a dos app under windows, the mouse doesn't work.
  
-   The computer is a Zeos 386SX-20 w/Diamond Speedstar VGA running MS
- DOS 5.0 and Windows 3.1.  Mouse driver is Microsoft's 8.2.  I've tried
- switching the mouse from COM1 to COM2, I've tried a different mouse,
- I've reinstalled MOUSE.DRV, and I can't get the blamed thing to work.
- The only difference between his system and mine (where the mouse works
+   the computer is a zeos 386sx-20 w/diamond speedstar vga running ms
+ dos 5.0 and windows 3.1.  mouse driver is microsoft's 8.2.  i've tried
+ switching the mouse from com1 to com2, i've tried a different mouse,
+ i've reinstalled mouse.drv, and i can't get the blamed thing to work.
+ the only difference between his system and mine (where the mouse works
  perfectly) is that he has an expansion card with an additional
- parallel and serial port.  Could that cause the problem? 
+ parallel and serial port.  could that cause the problem? 
  
-   Thanks in advance for any help.
+   thanks in advance for any help.
  -- 
- Carl Fink          carlf@panix.com       C.FINK4 (GEnie)
- "If you can't laugh at yourself, then you can bet that everyone else is doing
- so." - Ed Johnston
+ carl fink          carlf@panix.com       c.fink4 (genie)
+ "if you can't laugh at yourself, then you can bet that everyone else is doing
+ so." - ed johnston
  

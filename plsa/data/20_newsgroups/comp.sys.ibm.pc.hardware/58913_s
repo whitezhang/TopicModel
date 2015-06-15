@@ -1,29 +1,29 @@
 
- Hi. I recently switched my old Amiga 500 with a 486DX-50. My computer
+ hi. i recently switched my old amiga 500 with a 486dx-50. my computer
  configuration is :
  
- 486DX-50 Mhz. 8/256 kB EISA (Micronics Motherboard ASIC EISA 50Mhz)
- 16MB Ram
- ST3283N 248 MB Harddisk, SCSI
- UltraStor24F EISA Cache Controller
+ 486dx-50 mhz. 8/256 kb eisa (micronics motherboard asic eisa 50mhz)
+ 16mb ram
+ st3283n 248 mb harddisk, scsi
+ ultrastor24f eisa cache controller
  
- When I use Norton6.0 Harddisk benchmark, I get a Harddisk data transfer
- about 980 kb/sec. and sometimes 1MB/sec. Is that good ? I thought
- that with EISA I could get about 2MB/sec. 
- Somewhere in the manual for my harddisk I have read, that some host 
+ when i use norton6.0 harddisk benchmark, i get a harddisk data transfer
+ about 980 kb/sec. and sometimes 1mb/sec. is that good ? i thought
+ that with eisa i could get about 2mb/sec. 
+ somewhere in the manual for my harddisk i have read, that some host 
  adapters need to perform a low-level format to optimize the harddisk 
- performance in that system, do I need that ?
- A guy I know, gets a HD transfer about 1.2MB/sec, and he has an ST3283A and
- a ISA 486DX-50, how can a ISA with the same system be faster ?
+ performance in that system, do i need that ?
+ a guy i know, gets a hd transfer about 1.2mb/sec, and he has an st3283a and
+ a isa 486dx-50, how can a isa with the same system be faster ?
  
- Is there anything that I can do to get a speedier harddisk ?
+ is there anything that i can do to get a speedier harddisk ?
  
  
-                                         Thanks.
+                                         thanks.
  
  phantom@diku.dk   (e-mail is preffered)
  
  
  
- Working on a sign...... "Are we live or on tape ??"
+ working on a sign...... "are we live or on tape ??"
  

@@ -1,25 +1,25 @@
 
- strnlght@netcom.com (David Sternlight) writes:
+ strnlght@netcom.com (david sternlight) writes:
  
- > I will provide one hint: it is reported that RSA expressed puzzlement (at
- > their conference) that nobody has asked for permission to use RIPEM to
- > write a PGP-compatible program.
+ > i will provide one hint: it is reported that rsa expressed puzzlement (at
+ > their conference) that nobody has asked for permission to use ripem to
+ > write a pgp-compatible program.
  
- This actually supports Bill's speculation - IF there is a backdoor in
- RSAREF and IF PKP is supported secretly by the NSA, then it is more
- than natural that they will welcome ANY public-key implementation that
- uses RSAREF and will strongly oppose themselves against ANY
+ this actually supports bill's speculation - if there is a backdoor in
+ rsaref and if pkp is supported secretly by the nsa, then it is more
+ than natural that they will welcome any public-key implementation that
+ uses rsaref and will strongly oppose themselves against any
  implementation that doesn't.
  
- I personally cannot see how one could put a backdoor in a
+ i personally cannot see how one could put a backdoor in a
  long-precision modular arithmetic library that comes in source, but,
- of course, the fact that -I- cannot see it means nothing...
+ of course, the fact that -i- cannot see it means nothing...
  
- Regards,
- Vesselin
+ regards,
+ vesselin
  -- 
- Vesselin Vladimirov Bontchev          Virus Test Center, University of Hamburg
- Tel.:+49-40-54715-224, Fax: +49-40-54715-226      Fachbereich Informatik - AGN
- < PGP 2.2 public key available on request. > Vogt-Koelln-Strasse 30, rm. 107 C
- e-mail: bontchev@fbihh.informatik.uni-hamburg.de    D-2000 Hamburg 54, Germany
+ vesselin vladimirov bontchev          virus test center, university of hamburg
+ tel.:+49-40-54715-224, fax: +49-40-54715-226      fachbereich informatik - agn
+ < pgp 2.2 public key available on request. > vogt-koelln-strasse 30, rm. 107 c
+ e-mail: bontchev@fbihh.informatik.uni-hamburg.de    d-2000 hamburg 54, germany
  

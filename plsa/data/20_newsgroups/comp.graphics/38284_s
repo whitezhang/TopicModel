@@ -2,45 +2,45 @@
  
  
  
- In article 2G1@bcstec.ca.boeing.com, rgc3679@bcstec.ca.boeing.com (Robert G. Carpenter) writes:
- >Hi Netters,
+ in article 2g1@bcstec.ca.boeing.com, rgc3679@bcstec.ca.boeing.com (robert g. carpenter) writes:
+ >hi netters,
  >
- >I'm building a CAD package and need a 3D graphics library that can handle
+ >i'm building a cad package and need a 3d graphics library that can handle
  >some rudimentry tasks, such as hidden line removal, shading, animation, etc.
  >
- >Can you please offer some recommendations?
+ >can you please offer some recommendations?
  >
- >I'll also need contact info (name, address, email...) if you can find it.
+ >i'll also need contact info (name, address, email...) if you can find it.
  >
- >Thanks
+ >thanks
  >
- >(Please Post Your Responses, in case others have same need)
+ >(please post your responses, in case others have same need)
  >
- >Bob Carpenter
+ >bob carpenter
  >
  
- I've been given the sites of some excellent 3D objects on all sorts of file formats ...
- Here's where they are:
+ i've been given the sites of some excellent 3d objects on all sorts of file formats ...
+ here's where they are:
  
  
- Host plaza.aarnet.edu.au
+ host plaza.aarnet.edu.au
  
-     Location: /graphics/graphics/mirrors
-       DIRECTORY drwxr-xr-x        512  Apr  4 14:32  avalon.chinalake.navy.mil
+     location: /graphics/graphics/mirrors
+       directory drwxr-xr-x        512  apr  4 14:32  avalon.chinalake.navy.mil
  
- Host compute1.cc.ncsu.edu
+ host compute1.cc.ncsu.edu
  
-     Location: /mirrors/wustl/graphics/graphics/mirrors
-       DIRECTORY drwxr-xr-x        512  Mar 14 09:15  avalon.chinalake.navy.mil
+     location: /mirrors/wustl/graphics/graphics/mirrors
+       directory drwxr-xr-x        512  mar 14 09:15  avalon.chinalake.navy.mil
  
- Host wuarchive.wustl.edu
+ host wuarchive.wustl.edu
  
-     Location: /graphics/graphics/mirrors
-       DIRECTORY drwxr-xr-x        512  Jan  3 06:29  avalon.chinalake.navy.mil
+     location: /graphics/graphics/mirrors
+       directory drwxr-xr-x        512  jan  3 06:29  avalon.chinalake.navy.mil
  
  
- See ya!
- 					Ajay 8*)
+ see ya!
+ 					ajay 8*)
  
  
  

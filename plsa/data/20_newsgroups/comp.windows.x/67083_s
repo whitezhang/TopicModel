@@ -1,61 +1,61 @@
 
  
- > Apollo DN2500 (Domain/OS 10.3, X11R4, Motif ?.?).
+ > apollo dn2500 (domain/os 10.3, x11r4, motif ?.?).
  
- I think you are running Xapollo , it's a X11R3 server ...
+ i think you are running xapollo , it's a x11r3 server ...
  
- If you want a X11R4 server you should install PSKQ3 (10.3.5) or 10.4
-   so you can run Xdomain . 
+ if you want a x11r4 server you should install pskq3 (10.3.5) or 10.4
+   so you can run xdomain . 
  
  > 
- > I get these errors appearing on the DECstation:
+ > i get these errors appearing on the decstation:
  > 
  > > dxterm
- > X Toolkit Warning: Cannot convert string "<Key>apCharDel        " to type VirtualBinding
+ > x toolkit warning: cannot convert string "<key>apchardel        " to type virtualbinding
  > ...
- > Segmentation fault
+ > segmentation fault
  > 
- > Any ideas? Is it a Motif problem...are the DEC and Apollo versions of Motif
- > incompatible? Or something to do with XKeysymDB?
+ > any ideas? is it a motif problem...are the dec and apollo versions of motif
+ > incompatible? or something to do with xkeysymdb?
  
- In XKeysymDB you could add : 
- !		Apollo specific keysyms
+ in xkeysymdb you could add : 
+ !		apollo specific keysyms
  !
- apLineDel            : 1000FF00
- apCharDel            : 1000FF01
- apCopy               : 1000FF02
- apCut                : 1000FF03
- apPaste              : 1000FF04
- apMove               : 1000FF05
- apGrow               : 1000FF06
- apCmd                : 1000FF07
- apShell              : 1000FF08
- apLeftBar            : 1000FF09
- apRightBar           : 1000FF0A
- apLeftBox            : 1000FF0B
- apRightBox           : 1000FF0C
- apUpBox              : 1000FF0D
- apDownBox            : 1000FF0E
- apPop                : 1000FF0F
- apRead               : 1000FF10
- apEdit               : 1000FF11
- apSave               : 1000FF12
- apExit               : 1000FF13
- apRepeat             : 1000FF14
- apKP_parenleft       : 1000FFA8
- apKP_parenright      : 1000FFA9
+ aplinedel            : 1000ff00
+ apchardel            : 1000ff01
+ apcopy               : 1000ff02
+ apcut                : 1000ff03
+ appaste              : 1000ff04
+ apmove               : 1000ff05
+ apgrow               : 1000ff06
+ apcmd                : 1000ff07
+ apshell              : 1000ff08
+ apleftbar            : 1000ff09
+ aprightbar           : 1000ff0a
+ apleftbox            : 1000ff0b
+ aprightbox           : 1000ff0c
+ apupbox              : 1000ff0d
+ apdownbox            : 1000ff0e
+ appop                : 1000ff0f
+ apread               : 1000ff10
+ apedit               : 1000ff11
+ apsave               : 1000ff12
+ apexit               : 1000ff13
+ aprepeat             : 1000ff14
+ apkp_parenleft       : 1000ffa8
+ apkp_parenright      : 1000ffa9
  
  
  --
- Victor .
+ victor .
  
                                              \     /
                                                ^ ^  
- ______victor@hpfrcu03.france.hp.com_______oOOo_o_oOOo_________________
+ ______victor@hpfrcu03.france.hp.com_______oooo_o_oooo_________________
  
- Victor GATTEGNO 
+ victor gattegno 
  
-                    "Be Yourself and not what people expect you to be ."
+                    "be yourself and not what people expect you to be ."
  ______________________________________________________________________
                                                (( 
                                                 )) 

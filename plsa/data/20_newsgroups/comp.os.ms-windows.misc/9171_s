@@ -1,39 +1,39 @@
 
- nagel@ucsu.Colorado.EDU (Kurt Nagel) writes:
+ nagel@ucsu.colorado.edu (kurt nagel) writes:
  
- >Hi,
+ >hi,
  
- >	I'm having a problem with AMIPro when writing equations.  If the
+ >	i'm having a problem with amipro when writing equations.  if the
  >equation extends past a certain point on a line, the whole thing disappears.
- >If I then try to delete the equation or cursor beyond the equation, AMI
- >goes nuts.  The line counter at the bottom of the screen increments
- >repeatedly and the only way out is to CTRL-ATL-DEL.  If I have been
+ >if i then try to delete the equation or cursor beyond the equation, ami
+ >goes nuts.  the line counter at the bottom of the screen increments
+ >repeatedly and the only way out is to ctrl-atl-del.  if i have been
  >unfortunate enough to save a document with one of these screwed up
- >equations, the document is basically trashed.  (although I have been
+ >equations, the document is basically trashed.  (although i have been
  >able to fix them by going into an ascii editor and deleteing large
  >chunks of the document)
  
- >	Has anyone else experienced this?  Does Lotus know about it
+ >	has anyone else experienced this?  does lotus know about it
  >and or have a patch???????.
  
- >Thanks in advance,
+ >thanks in advance,
  
- >Kurt
+ >kurt
  >nagel@fido.colorado.edu
  
- I contacted Lotus about this problem today.  It has been reported previously
- and there is a fix.  Apparantly the problem only occurs when TAB characters
- are used immediately preceding the equation frame.  The work around when
+ i contacted lotus about this problem today.  it has been reported previously
+ and there is a fix.  apparantly the problem only occurs when tab characters
+ are used immediately preceding the equation frame.  the work around when
  equations are expected to touch the right margin is to delete at least one
- preceding TAB and use SPACE to align the frame (or use set frame where
- placed w/no text wrap around).  Unforutnately, once the page run-on has
- occured you are hosed. So the moral of the story is use only SPACE characters
+ preceding tab and use space to align the frame (or use set frame where
+ placed w/no text wrap around).  unforutnately, once the page run-on has
+ occured you are hosed. so the moral of the story is use only space characters
  to align equation frames.
  
- Hope this helps the rest of you who have already contacted me with this 
+ hope this helps the rest of you who have already contacted me with this 
  problem.
  
- Kurt
+ kurt
  nagel@fido.colorado.edu
  
  

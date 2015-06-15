@@ -1,39 +1,39 @@
 
- In article <1993Apr28.141743.28994@ugle.unit.no> eliza@tigern (Elisabeth Bull) writes:
- >From: eliza@tigern (Elisabeth Bull)
- >Subject: Re: Why I'm not using Dos 6 anymore
- >Date: Wed, 28 Apr 93 14:17:43 GMT
+ in article <1993apr28.141743.28994@ugle.unit.no> eliza@tigern (elisabeth bull) writes:
+ >from: eliza@tigern (elisabeth bull)
+ >subject: re: why i'm not using dos 6 anymore
+ >date: wed, 28 apr 93 14:17:43 gmt
  
- >Mark Woodruff (CDA90038@UCF1VM.BITNET) wrote:
+ >mark woodruff (cda90038@ucf1vm.bitnet) wrote:
  >> 
- >> This morning at 4 am while I was working on my research paper, I had to
- >> reboot a hung Dos program (that did no disk i/o) from within Windows 3.1.
- >> When my machine finished rebooting, I found my windows directory and about two
+ >> this morning at 4 am while i was working on my research paper, i had to
+ >> reboot a hung dos program (that did no disk i/o) from within windows 3.1.
+ >> when my machine finished rebooting, i found my windows directory and about two
  >> thirds of my other directories were irreversibly corrupted.
  >> 
  >(stuff deleted)
  
- >This sounds like what happened to my HD a month ago. My HD was stacked
- >with Stacker v.2.0 (I run Dos5) Suddenly everything hung up, and most of
- >the HD got corrupted (directories changed into unreadable files with
- >'funny' names). In other words: it is probably just the doubledisk part of
- >Dos6 that is troublesome. 
+ >this sounds like what happened to my hd a month ago. my hd was stacked
+ >with stacker v.2.0 (i run dos5) suddenly everything hung up, and most of
+ >the hd got corrupted (directories changed into unreadable files with
+ >'funny' names). in other words: it is probably just the doubledisk part of
+ >dos6 that is troublesome. 
  
- >I now use Stacker v 3.0, and so far I have had no trouble. 
+ >i now use stacker v 3.0, and so far i have had no trouble. 
  
- Does this need to have anything to do with disk compression? I have 
+ does this need to have anything to do with disk compression? i have 
  experienced the same thing a couple of times myself, but *without* any disk 
- compression stuff installed. (For example, guess what happened when Norton 
- SpeedDisk once crashed during defragmenting!)
+ compression stuff installed. (for example, guess what happened when norton 
+ speeddisk once crashed during defragmenting!)
  
- Bjorn-
+ bjorn-
  
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-    Bjorn Myrland                  *  bjorn.myrland@sipaa.sintef.no
-    SINTEF Safety and Reliability  *  N-7034 Trondheim, NORWAY
+    bjorn myrland                  *  bjorn.myrland@sipaa.sintef.no
+    sintef safety and reliability  *  n-7034 trondheim, norway
   -------------------------------------------------------------------
-    SINTEF - The Foundation for Scientific and Industrial Research
-                 at the Norwegian Institute of technology
+    sintef - the foundation for scientific and industrial research
+                 at the norwegian institute of technology
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  
  

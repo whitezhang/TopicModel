@@ -1,21 +1,21 @@
 
- I have a question for y'all:
+ i have a question for y'all:
  
- I'm looking at an ad for the new 3.5" FAST SCSI-2 drives from Micropolis
- in the June, 1993, MacWorld. (I have seen similar ads for the IDE versions
- in IBM PC magazines)
+ i'm looking at an ad for the new 3.5" fast scsi-2 drives from micropolis
+ in the june, 1993, macworld. (i have seen similar ads for the ide versions
+ in ibm pc magazines)
  
- Well, the ad says that all three drives have a FAST SCSI-2 interface,
- but then it says that the DTR rate for each drive is 5 megabytes/second,
+ well, the ad says that all three drives have a fast scsi-2 interface,
+ but then it says that the dtr rate for each drive is 5 megabytes/second,
  *max*.
  
- How can this be?  I thought that if a drive was to be FAST SCSI-2 it
- had to have a DTR of 10megs a second?
+ how can this be?  i thought that if a drive was to be fast scsi-2 it
+ had to have a dtr of 10megs a second?
  
- (I am assuming the 5megs/sec claim by Micropolis is from the 512k cache.
- I admit that I would be very impressed if the drive can *read/write* data
+ (i am assuming the 5megs/sec claim by micropolis is from the 512k cache.
+ i admit that i would be very impressed if the drive can *read/write* data
  at 5megs a second!)
  
- Thank you.
+ thank you.
  
  

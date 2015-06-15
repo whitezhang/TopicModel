@@ -1,9 +1,9 @@
 
  x90sanson@gw.wmich.edu wrote:
- > What's the difference between loading mouse.com in autoexec.bat and
+ > what's the difference between loading mouse.com in autoexec.bat and
  > doing device=mouse.sys in config.sys??
  
- The only difference is the time the driver gets loaded. mouse.sys will be
+ the only difference is the time the driver gets loaded. mouse.sys will be
  loaded during the config.sys and therefor before the command.com. mouse.com
  will be loaded during autoexec.bat and so after the command.com.
  
@@ -11,15 +11,15 @@
  
  mouse.com could be started from the commandline after the booting and it
  could - perhaps - be unloaded, if no other driver is loaded after it.
- The working of both drivers is totally the same.
+ the working of both drivers is totally the same.
  
- When I ran dos, I preferred loading most of the drivers in autoexec.bat,
- because some programs won't run with some drivers and I could choose the
- ones I needed during startup. But with DRDOS6, this advantage is gone,
- because DRDOS lets you choose in config.sys which drivers should be loaded.
+ when i ran dos, i preferred loading most of the drivers in autoexec.bat,
+ because some programs won't run with some drivers and i could choose the
+ ones i needed during startup. but with drdos6, this advantage is gone,
+ because drdos lets you choose in config.sys which drivers should be loaded.
  
- Michael
+ michael
  --
- *  michael@jester.gun.de  *   Michael Gerhards   *   Preussenstrasse 59  *
-                           *  Germany 4040 Neuss  *  Voice: 49 2131 82238 *
+ *  michael@jester.gun.de  *   michael gerhards   *   preussenstrasse 59  *
+                           *  germany 4040 neuss  *  voice: 49 2131 82238 *
  

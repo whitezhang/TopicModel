@@ -1,40 +1,40 @@
 
  
- In article <1993Apr06.121342.25130@kub.nl>, volkert@kub.nl (Volkert) writes:
+ in article <1993apr06.121342.25130@kub.nl>, volkert@kub.nl (volkert) writes:
  > -------------------------------------------------------------------------
- > Anonymous,
+ > anonymous,
  > 
- > I saw a posting about the choice between 80486DX-50 and a 80486DX2-50.
- > I was wondering: although a DX-50 is faster because of the path to it's
- > external cache, shouldn't the choice be the DX2-50 as that one can be
- > made to work properly with a local-bus? I mean, cache speed is one thing,
- > but all your speed will be blocked during video I/O, so just get that
+ > i saw a posting about the choice between 80486dx-50 and a 80486dx2-50.
+ > i was wondering: although a dx-50 is faster because of the path to it's
+ > external cache, shouldn't the choice be the dx2-50 as that one can be
+ > made to work properly with a local-bus? i mean, cache speed is one thing,
+ > but all your speed will be blocked during video i/o, so just get that
  > faster... 
- > I'm willing to speculate that the DX2-50 with local-bus will be 2-4 times 
- > as fast as the DX-50 and probably as expensive (or cheap ;-)!
+ > i'm willing to speculate that the dx2-50 with local-bus will be 2-4 times 
+ > as fast as the dx-50 and probably as expensive (or cheap ;-)!
  > 
- Technically there is no reason why a chip set cannot support a 486DX50 and
- a 25MHz local bus.
+ technically there is no reason why a chip set cannot support a 486dx50 and
+ a 25mhz local bus.
  
- I'm waiting for the mezzianine (sp?) VL bus that will be decoupled from
- the main CPU clock and allow for many more slots due to the user of buffers.
+ i'm waiting for the mezzianine (sp?) vl bus that will be decoupled from
+ the main cpu clock and allow for many more slots due to the user of buffers.
  
- This will allow the use of ever faster CPUs with the same standard I/O
- cards. Until the next buss spec...
+ this will allow the use of ever faster cpus with the same standard i/o
+ cards. until the next buss spec...
  
  
- > regards, JV
+ > regards, jv
  >                                                                 /////
- > name:    J-V Meuldijk                                          [ o o ]
+ > name:    j-v meuldijk                                          [ o o ]
  > address: gildelaar 4                                            \_=_/
  >          4847 hw teteringen                                     _| |_ 
  >          holland                  e-mail:  volkert@kub.nl      / \_/ \
- > _____________________________________________________________oOOO___OOOo__
+ > _____________________________________________________________oooo___oooo__
  
- Guy
+ guy
  -- 
  -- -----------------------------------------------------------------------------
- Guy Dawson - Hoskyns Group Plc.
-         guyd@hoskyns.co.uk  Tel Hoskyns UK     -  71 251 2128
-         guyd@austin.ibm.com Tel IBM Austin USA - 512 838 3377
+ guy dawson - hoskyns group plc.
+         guyd@hoskyns.co.uk  tel hoskyns uk     -  71 251 2128
+         guyd@austin.ibm.com tel ibm austin usa - 512 838 3377
  

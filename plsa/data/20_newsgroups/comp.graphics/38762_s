@@ -1,34 +1,34 @@
 
- Howdy all,
+ howdy all,
  
- oehler@yar.cs.wisc.edu (Wonko the Sane) writes:
+ oehler@yar.cs.wisc.edu (wonko the sane) writes:
  
- >	I was recently talking to a possible employer ( mine! :-) ) and he made a reference to a
- >48-bit graphics computer/image processing system.  I seem to remember it being called IMAGE or
- >something akin to that.  Anyway, he claimed it had 48-bit color + a 12-bit alpha channel.  That's
- >60 bits of info--what could that possibly be for?  Specifically the 48-bit color?  That's 280
- >trillion colors, many more than the human eye can resolve.  Is this an anti-aliasing thing?  Or
+ >	i was recently talking to a possible employer ( mine! :-) ) and he made a reference to a
+ >48-bit graphics computer/image processing system.  i seem to remember it being called image or
+ >something akin to that.  anyway, he claimed it had 48-bit color + a 12-bit alpha channel.  that's
+ >60 bits of info--what could that possibly be for?  specifically the 48-bit color?  that's 280
+ >trillion colors, many more than the human eye can resolve.  is this an anti-aliasing thing?  or
  >is this just some magic number to make it work better with a certain processor.
  
- Hmm... 48 bit aye?
- Well, it beats a 32-bit design for thee sake of ellegance.
+ hmm... 48 bit aye?
+ well, it beats a 32-bit design for thee sake of ellegance.
  48 bit means 16 bits per primary colour.
- The 2^48 nr of colours is a bit misleading. It makes more sense to see it
+ the 2^48 nr of colours is a bit misleading. it makes more sense to see it
  as 65536 possible shades of pure red.
- This might actually make some sense, since 256 shades of red (24 bit colours) 
+ this might actually make some sense, since 256 shades of red (24 bit colours) 
  may produce visible 'jumps' in intensity.
- Then again, a byte per primary colour for each pixel is the most elegant way 
+ then again, a byte per primary colour for each pixel is the most elegant way 
  of doing colour graphics, because it leaves ya such a tidy (and fast) program
  code.
  
- 	Take care,
+ 	take care,
  
- 		Bram
+ 		bram
  
  +-------------------------------------+------------------------------------+
- | "Flying is a nack... the trick is   |  Bram Stolk (stolk@fwi.uva.nl)     |
- |  to throw yourself at the ground,   |  Dept. of maths. & computer science|
- |  and miss..."  - Douglas Adams      |  University of Amsterdam           |
+ | "flying is a nack... the trick is   |  bram stolk (stolk@fwi.uva.nl)     |
+ |  to throw yourself at the ground,   |  dept. of maths. & computer science|
+ |  and miss..."  - douglas adams      |  university of amsterdam           |
  +-------------------------------------+------------------------------------+
-                                   No, I dont use ms-winDOZE, I prefer Linux!
+                                   no, i dont use ms-windoze, i prefer linux!
  

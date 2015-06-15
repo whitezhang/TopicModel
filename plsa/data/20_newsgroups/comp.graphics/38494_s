@@ -1,23 +1,23 @@
 
- I am trying to convert an m-motion (IBM) video file format YUV to RGB 
+ i am trying to convert an m-motion (ibm) video file format yuv to rgb 
  data...
  
- THE Y portion is a byte from 0-255
- THE V is a byte -127-127
- THe color is U and V
- and the intensity is Y
+ the y portion is a byte from 0-255
+ the v is a byte -127-127
+ the color is u and v
+ and the intensity is y
  
- DOes anyone have any ideas for algorhtyms or programs ?
+ does anyone have any ideas for algorhtyms or programs ?
  
- Can someone tell me where to get info on the U and V of a television signal ?
+ can someone tell me where to get info on the u and v of a television signal ?
  
- IF you need more info reply at the e-mail address...
- Basically what I am doing is converting a digital NTSC format to RGB (VGA)
+ if you need more info reply at the e-mail address...
+ basically what i am doing is converting a digital ntsc format to rgb (vga)
  for displaying captured video pictures.
  
- Thanks.
+ thanks.
  
  
- THE U is a byte -127-127
+ the u is a byte -127-127
  
  

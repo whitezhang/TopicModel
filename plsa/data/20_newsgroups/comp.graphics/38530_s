@@ -1,21 +1,21 @@
 
- I downloaded an image of the earth re-constructed from elevation data taken
- at 1/2 degree increments. The author (not me) wrote some c-code (included)
- that read in the data file and generated b&w and pseudo color images. They
- work very well and are not incumbered by copyright. They are at an aminet
+ i downloaded an image of the earth re-constructed from elevation data taken
+ at 1/2 degree increments. the author (not me) wrote some c-code (included)
+ that read in the data file and generated b&w and pseudo color images. they
+ work very well and are not incumbered by copyright. they are at an aminet
  site near you called earth.lha in the amiga/pix/misc area...
  
- I refer you to the included docs for the details on how the author (sorry, I
- forget his name) created these images. The raw data is not included.
+ i refer you to the included docs for the details on how the author (sorry, i
+ forget his name) created these images. the raw data is not included.
  
  -- 
- 	David
+ 	david
  
- 	David M. Ingebretsen
- 	Evans & Sutherland Computer Corp.
+ 	david m. ingebretsen
+ 	evans & sutherland computer corp.
  	dingebre@thunder.sim.es.com
  
- 	Disclaimer: The content of this message in no way reflects the
+ 	disclaimer: the content of this message in no way reflects the
  	            opinions of my employer, nor are my actions
  		    encouraged, supported, or acknowledged by my
  		    employer.

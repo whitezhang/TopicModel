@@ -1,43 +1,43 @@
 
- While there are too many PS clones to count, some of which are quite poor,
+ while there are too many ps clones to count, some of which are quite poor,
  trying to clone something that goes through regular modifications does require
- some patience. Three questions come to mid real quick for something like
+ some patience. three questions come to mid real quick for something like
  this.
  
- Q:	Which version of Adobe PS will we clone?
- 	Aside from the level 1 and level 2 issues, Adobe has in the past released
+ q:	which version of adobe ps will we clone?
+ 	aside from the level 1 and level 2 issues, adobe has in the past released
  	new code that incorporates modifications/upgrades/fixes just as all other
- 	software vendors do. The level 2 stuff may seem sound now, but I assure
+ 	software vendors do. the level 2 stuff may seem sound now, but i assure
  	you,changes will become more frequent as their customer list begins to
- 	dwindle in the face of competition. This allows them to shift people to
+ 	dwindle in the face of competition. this allows them to shift people to
  	maintenance, as well as design efforts for level 3.
  
- Q:	Do we duplicate the bugs, or do we make it work correctly?
- 	From the LaserWriter to the LaserJet 4 there have been bugs. (If I had
- 	a number to call at HP or Adobe, they'ld have heard from me.) Deciding
+ q:	do we duplicate the bugs, or do we make it work correctly?
+ 	from the laserwriter to the laserjet 4 there have been bugs. (if i had
+ 	a number to call at hp or adobe, they'ld have heard from me.) deciding
  	which approach to take depends on which printer you want to emulate.
  
- Q:	Do we follow the Red Book, or do we follow someone's implementation?
- 	Without a doubt, there are differences between the Red Book and Adobe's
- 	PS. With level 2 many issues have been refined but the Red Book does
- 	leave big, big holes in the implementation specific stuff. It would be
- 	nice it the Red Bood at least pined things down enough so that two
- 	different implementations of Adobe's PS don't do the exact opposite given
+ q:	do we follow the red book, or do we follow someone's implementation?
+ 	without a doubt, there are differences between the red book and adobe's
+ 	ps. with level 2 many issues have been refined but the red book does
+ 	leave big, big holes in the implementation specific stuff. it would be
+ 	nice it the red bood at least pined things down enough so that two
+ 	different implementations of adobe's ps don't do the exact opposite given
  	an identical set of conditions.
  
- Q:	PSCRIPT.DRV?
- 	Having done a lot of PS clone testing myself, the unfortunate side of
- 	testing is the limited number of sources for test files. The primary
- 	source we use is Genoa. And having characterizes their 1992 PS ATS files,
- 	(1300+ of them) over half are taken from PSCRIPT.DRV. It may not ideal,
- 	but the ATS files are what the printer vendors use. I'm sure that Adobe
- 	uses them too, but Adobe's output is by definition correct, even if its
+ q:	pscript.drv?
+ 	having done a lot of ps clone testing myself, the unfortunate side of
+ 	testing is the limited number of sources for test files. the primary
+ 	source we use is genoa. and having characterizes their 1992 ps ats files,
+ 	(1300+ of them) over half are taken from pscript.drv. it may not ideal,
+ 	but the ats files are what the printer vendors use. i'm sure that adobe
+ 	uses them too, but adobe's output is by definition correct, even if its
  	wrong.
  
- Yes, there are some very poor clones. We've seen them here at Rastek (a sub
- of Genicom which has its own clone called GeniScript). Some are poor for lack
- of design, some are poor because they followed the Red Book, and some are poor
- because the vendors don't know what PS is.
+ yes, there are some very poor clones. we've seen them here at rastek (a sub
+ of genicom which has its own clone called geniscript). some are poor for lack
+ of design, some are poor because they followed the red book, and some are poor
+ because the vendors don't know what ps is.
  
- Don Newbold									don@rastek.com
+ don newbold									don@rastek.com
  

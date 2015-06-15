@@ -1,14 +1,14 @@
 
- Kurt Tiedtke (ktiedtke@jarthur.claremont.edu) wrote:
- : Could someone direct me to information on SCSI performance for each Mac?
- : (Max throughput, etc.)
+ kurt tiedtke (ktiedtke@jarthur.claremont.edu) wrote:
+ : could someone direct me to information on scsi performance for each mac?
+ : (max throughput, etc.)
  
- Max thruput on a Centris or Quadra is about 3.3 MB/sec.
- Max thruput on IIci or IIfx or equivalent is about 1.4 MB/Sec
- Max thruput on slower machines is slower.
+ max thruput on a centris or quadra is about 3.3 mb/sec.
+ max thruput on iici or iifx or equivalent is about 1.4 mb/sec
+ max thruput on slower machines is slower.
  -- 
  +-----------------+------------------------------------------------+
- | Peter A. Cohen  |   No, I don't reflect my employer's opinions.  |
- | peterco@eff.org | Heck!  My employer doesn't even know I'm here! |
+ | peter a. cohen  |   no, i don't reflect my employer's opinions.  |
+ | peterco@eff.org | heck!  my employer doesn't even know i'm here! |
  +-----------------+------------------------------------------------+
  

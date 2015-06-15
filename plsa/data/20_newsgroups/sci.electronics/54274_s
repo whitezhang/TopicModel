@@ -1,18 +1,18 @@
 
-     I have a mystery part labeled NEC AC100.  It's from the low voltage
- supply of an NEC Multisync I monitor.  It's a three lead part in a
- square package like a volate regulator or power transistor.  The board
- is labeled CR691 where the part goes.  (Possibly an SCR?)  The pin
- labeled G on the board goes to a zener diode (reference voltage?); the
- pin labeled T1 goes to the negative lead of a capacitor in the power
- supply, and the pin labeled T2 goes to the negative side of the bridge
+     i have a mystery part labeled nec ac100.  it's from the low voltage
+ supply of an nec multisync i monitor.  it's a three lead part in a
+ square package like a volate regulator or power transistor.  the board
+ is labeled cr691 where the part goes.  (possibly an scr?)  the pin
+ labeled g on the board goes to a zener diode (reference voltage?); the
+ pin labeled t1 goes to the negative lead of a capacitor in the power
+ supply, and the pin labeled t2 goes to the negative side of the bridge
  rectifier in the supply.
  
-     If anyone can tell me what this is, or better yet, where I can buy
- one just like it, please email me at ck3i@andrew.cmu.edu.  I've called
- NEC's "monitor repair number" and not only do they not know what the
+     if anyone can tell me what this is, or better yet, where i can buy
+ one just like it, please email me at ck3i@andrew.cmu.edu.  i've called
+ nec's "monitor repair number" and not only do they not know what the
  part is, but they don't think that they can find one to sell to me... 
- It makes no sense to me...
+ it makes no sense to me...
  
- Thanks
+ thanks
  

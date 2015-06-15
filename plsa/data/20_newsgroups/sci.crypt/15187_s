@@ -1,14 +1,14 @@
 
  
- 	I have a bunch of questions about the encryption scheme
- referenced in the Subject of this message.  What is the relative data
- privacy provided by the above sequence as compared with straight DES?
- Does the addition of compression then encrypting make the cyphertext
- significantly harder to crack using current methods than straight DES?
- Would running crypt after DES provide greater data privacy?  Is it
+ 	i have a bunch of questions about the encryption scheme
+ referenced in the subject of this message.  what is the relative data
+ privacy provided by the above sequence as compared with straight des?
+ does the addition of compression then encrypting make the cyphertext
+ significantly harder to crack using current methods than straight des?
+ would running crypt after des provide greater data privacy?  is it
  important to remove the (constant) compress header before encryption?
- Thank you, net, for your wisdom.
+ thank you, net, for your wisdom.
  
  			 --       jad       --
- 		    John A. Dilley <jad@nsa.hp.com>
+ 		    john a. dilley <jad@nsa.hp.com>
  

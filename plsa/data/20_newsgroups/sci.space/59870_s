@@ -1,296 +1,296 @@
 
- Archive-name: space/diff
+ archive-name: space/diff
  
- DIFFS SINCE LAST FAQ POSTING (IN POSTING ORDER)
+ diffs since last faq posting (in posting order)
  
- (These are hand-edited context diffs; do not attempt to use them to patch
- old copies of the FAQ).
+ (these are hand-edited context diffs; do not attempt to use them to patch
+ old copies of the faq).
  
  ===================================================================
- diff -t -c -r1.18 FAQ.intro
- *** /tmp/,RCSt1a06400	Thu Apr  1 14:47:22 1993
- --- FAQ.intro	Thu Apr  1 14:46:55 1993
+ diff -t -c -r1.18 faq.intro
+ *** /tmp/,rcst1a06400	thu apr  1 14:47:22 1993
+ --- faq.intro	thu apr  1 14:46:55 1993
  ***************
  *** 101,107 ****
- 		  NASA Langley (Technical Reports)
- 		  NASA Spacelink
- 		  National Space Science Data Center
- -		  Space And Planetary Image Facility
- 		  Space Telescope Science Institute Electronic Info. Service
- 		  Starcat
- 		  Astronomical Databases
+ 		  nasa langley (technical reports)
+ 		  nasa spacelink
+ 		  national space science data center
+ -		  space and planetary image facility
+ 		  space telescope science institute electronic info. service
+ 		  starcat
+ 		  astronomical databases
  --- 101,106 ----
  ***************
  *** 130,135 ****
  --- 129,135 ----
- 	      LLNL "great exploration"
- 	      Lunar Prospector
- 	      Lunar science and activities
- +	      Orbiting Earth satellite histories
- 	      Spacecraft models
- 	      Rocket propulsion
- 	      Spacecraft design
+ 	      llnl "great exploration"
+ 	      lunar prospector
+ 	      lunar science and activities
+ +	      orbiting earth satellite histories
+ 	      spacecraft models
+ 	      rocket propulsion
+ 	      spacecraft design
  
  ===================================================================
- diff -t -c -r1.18 FAQ.net
- *** /tmp/,RCSt1a06405	Thu Apr  1 14:47:24 1993
- --- FAQ.net	Thu Apr  1 14:46:57 1993
+ diff -t -c -r1.18 faq.net
+ *** /tmp/,rcst1a06405	thu apr  1 14:47:24 1993
+ --- faq.net	thu apr  1 14:46:57 1993
  ***************
  *** 58,63 ****
  --- 58,67 ----
-       elements are sent out on the list from Dr. Kelso, JSC, and other sources
-       as they are released. Email to elements-request@telesoft.com to join.
+       elements are sent out on the list from dr. kelso, jsc, and other sources
+       as they are released. email to elements-request@telesoft.com to join.
  
- +     GPS Digest is a moderated list for discussion of the Global Positioning
- +     System and other satellite navigation positioning systems. Email to
+ +     gps digest is a moderated list for discussion of the global positioning
+ +     system and other satellite navigation positioning systems. email to
  +     gps-request@esseye.si.com to join.
  +
-       Space-investors is a list for information relevant to investing in
-       space-related companies. Email Vincent Cate (vac@cs.cmu.edu) to join.
+       space-investors is a list for information relevant to investing in
+       space-related companies. email vincent cate (vac@cs.cmu.edu) to join.
  
  ***************
  *** 223,227 ****
  --- 227,241 ----
-       1030. If in fact you should should learn of unauthorized access, contact
-       NASA personnel.
+       1030. if in fact you should should learn of unauthorized access, contact
+       nasa personnel.
  
- +     Claims have been made on this news group about fraud and waste. None
- +     have ever been substantiated to any significant degree. Readers
- +     detecting Fraud, Waste, Abuse, or Mismanagement should contact the NASA
- +     Inspector General (24-hours) at 800-424-9183 (can be anonymous) or write
+ +     claims have been made on this news group about fraud and waste. none
+ +     have ever been substantiated to any significant degree. readers
+ +     detecting fraud, waste, abuse, or mismanagement should contact the nasa
+ +     inspector general (24-hours) at 800-424-9183 (can be anonymous) or write
  +
- +	  NASA
- +	  Inspector General
- +	  P.O. Box 23089
- +	  L'enfant Plaza Station
- +	  Washington DC 20024
+ +	  nasa
+ +	  inspector general
+ +	  p.o. box 23089
+ +	  l'enfant plaza station
+ +	  washington dc 20024
  
-   NEXT: FAQ #3/15 - Online (and some offline) sources of images, data, etc.
+   next: faq #3/15 - online (and some offline) sources of images, data, etc.
  
  ===================================================================
- diff -t -c -r1.18 FAQ.data
- *** /tmp/,RCSt1a06410	Thu Apr  1 14:47:26 1993
- --- FAQ.data	Thu Apr  1 14:46:54 1993
+ diff -t -c -r1.18 faq.data
+ *** /tmp/,rcst1a06410	thu apr  1 14:47:26 1993
+ --- faq.data	thu apr  1 14:46:54 1993
  ***************
  *** 216,237 ****
- 	  Telephone: (301) 286-6695
+ 	  telephone: (301) 286-6695
  
- 	  Email address:   request@nssdca.gsfc.nasa.gov
+ 	  email address:   request@nssdca.gsfc.nasa.gov
  -
  -
- -     SPACE AND PLANETARY IMAGE FACILITY
+ -     space and planetary image facility
  -
- -     Available 24 hours a day via anonymous FTP from pioneer.unm.edu. Has
- -     approximately 150 CD-ROM's full of imagery, raw, and tabular data. To
+ -     available 24 hours a day via anonymous ftp from pioneer.unm.edu. has
+ -     approximately 150 cd-rom's full of imagery, raw, and tabular data. to
  -     start, get the file:
  -
  -	  pioneer.unm.edu:pub/info/beginner-info
  -
- -     This will hopefully give you all of the information you need to get data
+ -     this will hopefully give you all of the information you need to get data
  -     from their machine. beginner-info has been translated to other
  -     languages, you should look inside pub/info for the particular language
  -     that meets your needs.
  -
- -     Contact help@pioneer.unm.edu.
+ -     contact help@pioneer.unm.edu.
  
  
-       SPACE TELESCOPE SCIENCE INSTITUTE ELECTRONIC INFORMATION SERVICE
+       space telescope science institute electronic information service
  --- 216,221 ----
  
  ===================================================================
- diff -t -c -r1.18 FAQ.math
- *** /tmp/,RCSt1a06415	Thu Apr  1 14:47:28 1993
- --- FAQ.math	Thu Apr  1 14:46:56 1993
+ diff -t -c -r1.18 faq.math
+ *** /tmp/,rcst1a06415	thu apr  1 14:47:28 1993
+ --- faq.math	thu apr  1 14:46:56 1993
  ***************
  *** 60,65 ****
  --- 60,71 ----
- 	  Gives series to compute positions accurate to 1 arc minute for a
- 	  period + or - 300 years from now. Pluto is included but stated to
+ 	  gives series to compute positions accurate to 1 arc minute for a
+ 	  period + or - 300 years from now. pluto is included but stated to
  	  have an accuracy of only about 15 arc minutes.
  +
- +     _Multiyear Interactive Computer Almanac_ (MICA), produced by the US
- +     Naval Observatory. Valid for years 1990-1999. $55 ($80 outside US).
- +     Available for IBM (order #PB93-500163HDV) or Macintosh (order
- +     #PB93-500155HDV). From the NTIS sales desk, (703)-487-4650. I believe
- +     this is intended to replace the USNO's Interactive Computer Ephemeris.
+ +     _multiyear interactive computer almanac_ (mica), produced by the us
+ +     naval observatory. valid for years 1990-1999. $55 ($80 outside us).
+ +     available for ibm (order #pb93-500163hdv) or macintosh (order
+ +     #pb93-500155hdv). from the ntis sales desk, (703)-487-4650. i believe
+ +     this is intended to replace the usno's interactive computer ephemeris.
  
-       _Interactive Computer Ephemeris_ (from the US Naval Observatory)
-       distributed on IBM-PC floppy disks, $35 (Willmann-Bell). Covers dates
+       _interactive computer ephemeris_ (from the us naval observatory)
+       distributed on ibm-pc floppy disks, $35 (willmann-bell). covers dates
  
  ===================================================================
- diff -t -c -r1.18 FAQ.references
- *** /tmp/,RCSt1a06420	Thu Apr  1 14:47:30 1993
- --- FAQ.references	Thu Apr  1 14:46:59 1993
+ diff -t -c -r1.18 faq.references
+ *** /tmp/,rcst1a06420	thu apr  1 14:47:30 1993
+ --- faq.references	thu apr  1 14:46:59 1993
  ***************
  *** 93,100 ****
-       US Naval Observatory
- 	  202-653-1079 (USNO Bulletin Board via modem)
- 	  202-653-1507 General
- -	  202-653-1545 Nautical Almanac Office (info on the Interactive
- -	      Computer Ephemeris)
+       us naval observatory
+ 	  202-653-1079 (usno bulletin board via modem)
+ 	  202-653-1507 general
+ -	  202-653-1545 nautical almanac office (info on the interactive
+ -	      computer ephemeris)
  
-       Willmann-Bell
-       P.O. Box 35025
+       willmann-bell
+       p.o. box 35025
  --- 93,98 ----
  ***************
  *** 138,151 ****
-       SDI's SSRT (Single Stage Rocket Technology) project has funded a
-       suborbital technology demonstrator called DC-X that should fly in
-       mid-1993. Further development towards an operational single-stage to
+       sdi's ssrt (single stage rocket technology) project has funded a
+       suborbital technology demonstrator called dc-x that should fly in
+       mid-1993. further development towards an operational single-stage to
  !     orbit vehicle is uncertain at present; for considerably more detail on
- !     the SSRT program, get the document
+ !     the ssrt program, get the document
  
- !	  ames.arc.nasa.gov:pub/SPACE/FAQ/DeltaClipper
+ !	  ames.arc.nasa.gov:pub/space/faq/deltaclipper
  
- !     by anonymous FTP or through the email server.
+ !     by anonymous ftp or through the email server.
  
  
-       HOW TO NAME A STAR AFTER A PERSON
+       how to name a star after a person
  
-       Official names are decided by committees of the International
+       official names are decided by committees of the international
  --- 136,151 ----
-       SDI's SSRT (Single Stage Rocket Technology) project has funded a
-       suborbital technology demonstrator called DC-X that should fly in
-       mid-1993. Further development towards an operational single-stage to
- !     orbit vehicle (called Delta Clipper) is uncertain at present.
+       sdi's ssrt (single stage rocket technology) project has funded a
+       suborbital technology demonstrator called dc-x that should fly in
+       mid-1993. further development towards an operational single-stage to
+ !     orbit vehicle (called delta clipper) is uncertain at present.
  
- !     An collection of pictures and files relating to DC-X is available by
- !     anonymous FTP or email server in the directory
+ !     an collection of pictures and files relating to dc-x is available by
+ !     anonymous ftp or email server in the directory
  
  !	  bongo.cc.utexas.edu:pub/delta-clipper
  
- +     Chris W. Johnson (chrisj@emx.cc.utexas.edu) maintains the archive.
+ +     chris w. johnson (chrisj@emx.cc.utexas.edu) maintains the archive.
  
  +
-       HOW TO NAME A STAR AFTER A PERSON
+       how to name a star after a person
  
-       Official names are decided by committees of the International
+       official names are decided by committees of the international
  ***************
  *** 223,228 ****
  --- 223,236 ----
-       University Press, 1970. Information about the Lunar Orbiter missions,
+       university press, 1970. information about the lunar orbiter missions,
        including maps of the coverage of the lunar nearside and farside by
-       various Orbiters.
+       various orbiters.
  +
  +
- +     ORBITING EARTH SATELLITE HISTORIES
+ +     orbiting earth satellite histories
  +
- +     A list of Earth orbiting satellites (that are still in orbit) is
- +     available by anonymous FTP in:
+ +     a list of earth orbiting satellites (that are still in orbit) is
+ +     available by anonymous ftp in:
  +
- +	  ames.arc.nasa.gov:pub/SPACE/FAQ/Satellites
+ +	  ames.arc.nasa.gov:pub/space/faq/satellites
  
  
-       SPACECRAFT MODELS
+       spacecraft models
  
  ===================================================================
- diff -t -c -r1.18 FAQ.addresses
- *** /tmp/,RCSt1a06435	Thu Apr  1 14:47:34 1993
- --- FAQ.addresses	Thu Apr  1 14:46:51 1993
+ diff -t -c -r1.18 faq.addresses
+ *** /tmp/,rcst1a06435	thu apr  1 14:47:34 1993
+ --- faq.addresses	thu apr  1 14:46:51 1993
  ***************
  *** 75,80 ****
  --- 75,85 ----
- 	  the latter, an SF 171 is useless. Employees are Caltech employees,
+ 	  the latter, an sf 171 is useless. employees are caltech employees,
  	  contractors, and for the most part have similar responsibilities.
- 	  They offer an alternative to funding after other NASA Centers.
+ 	  they offer an alternative to funding after other nasa centers.
  +
- +	  A fact sheet and description of JPL is available by anonymous
- +	  FTP in
+ +	  a fact sheet and description of jpl is available by anonymous
+ +	  ftp in
  +
- +	      ames.arc.nasa.gov:pub/SPACE/FAQ/JPLDescription
+ +	      ames.arc.nasa.gov:pub/space/faq/jpldescription
  
-       NASA Johnson Manned Space Center (JSC)
-       Houston, TX 77058
+       nasa johnson manned space center (jsc)
+       houston, tx 77058
  
  ===================================================================
- diff -t -c -r1.18 FAQ.new_probes
- *** /tmp/,RCSt1a06450	Thu Apr  1 14:47:38 1993
- --- FAQ.new_probes	Thu Apr  1 14:46:58 1993
+ diff -t -c -r1.18 faq.new_probes
+ *** /tmp/,rcst1a06450	thu apr  1 14:47:38 1993
+ --- faq.new_probes	thu apr  1 14:46:58 1993
  ***************
  *** 8,13 ****
  --- 8,19 ----
-       team, ISAS/NASDA launch schedules, press kits.
+       team, isas/nasda launch schedules, press kits.
  
  
- +     ASUKA (ASTRO-D) - ISAS (Japan) X-ray astronomy satellite, launched into
- +     Earth orbit on 2/20/93. Equipped with large-area wide-wavelength (1-20
- +     Angstrom) X-ray telescope, X-ray CCD cameras, and imaging gas
+ +     asuka (astro-d) - isas (japan) x-ray astronomy satellite, launched into
+ +     earth orbit on 2/20/93. equipped with large-area wide-wavelength (1-20
+ +     angstrom) x-ray telescope, x-ray ccd cameras, and imaging gas
  +     scintillation proportional counters.
  +
  +
-       CASSINI - Saturn orbiter and Titan atmosphere probe. Cassini is a joint
-       NASA/ESA project designed to accomplish an exploration of the Saturnian
-       system with its Cassini Saturn Orbiter and Huygens Titan Probe. Cassini
+       cassini - saturn orbiter and titan atmosphere probe. cassini is a joint
+       nasa/esa project designed to accomplish an exploration of the saturnian
+       system with its cassini saturn orbiter and huygens titan probe. cassini
  ***************
  *** 98,115 ****
  
  
-       MAGELLAN - Venus radar mapping mission. Has mapped almost the entire
- !     surface at high resolution. Currently (11/92) in mapping cycle 4,
+       magellan - venus radar mapping mission. has mapped almost the entire
+ !     surface at high resolution. currently (11/92) in mapping cycle 4,
  !     collecting a global gravity map.
  
  
-       MARS OBSERVER - Mars orbiter including 1.5 m/pixel resolution camera.
- !     Launched 9/24/92 on a Titan III/TOS booster. MO is currently (3/93) in
-       transit to Mars, arriving on 8/24/93. Operations will start 11/93 for
+       mars observer - mars orbiter including 1.5 m/pixel resolution camera.
+ !     launched 9/24/92 on a titan iii/tos booster. mo is currently (3/93) in
+       transit to mars, arriving on 8/24/93. operations will start 11/93 for
        one martian year (687 days).
  
  
- !     TOPEX/Poseidon - Joint US/French Earth observing satellite, launched in
- !     August 1992 on an Ariane 4 booster. The primary objective of the
-       TOPEX/POSEIDON project is to make precise and accurate global
+ !     topex/poseidon - joint us/french earth observing satellite, launched in
+ !     august 1992 on an ariane 4 booster. the primary objective of the
+       topex/poseidon project is to make precise and accurate global
        observations of the sea level for several years, substantially
-       increasing understanding of global ocean dynamics. The satellite also
+       increasing understanding of global ocean dynamics. the satellite also
  --- 104,121 ----
  
  
-       MAGELLAN - Venus radar mapping mission. Has mapped almost the entire
- !     surface at high resolution. Currently (4/93) collecting a global gravity
+       magellan - venus radar mapping mission. has mapped almost the entire
+ !     surface at high resolution. currently (4/93) collecting a global gravity
  !     map.
  
  
-       MARS OBSERVER - Mars orbiter including 1.5 m/pixel resolution camera.
- !     Launched 9/25/92 on a Titan III/TOS booster. MO is currently (4/93) in
-       transit to Mars, arriving on 8/24/93. Operations will start 11/93 for
+       mars observer - mars orbiter including 1.5 m/pixel resolution camera.
+ !     launched 9/25/92 on a titan iii/tos booster. mo is currently (4/93) in
+       transit to mars, arriving on 8/24/93. operations will start 11/93 for
        one martian year (687 days).
  
  
- !     TOPEX/Poseidon - Joint US/French Earth observing satellite, launched
- !     8/10/92 on an Ariane 4 booster. The primary objective of the
-       TOPEX/POSEIDON project is to make precise and accurate global
+ !     topex/poseidon - joint us/french earth observing satellite, launched
+ !     8/10/92 on an ariane 4 booster. the primary objective of the
+       topex/poseidon project is to make precise and accurate global
        observations of the sea level for several years, substantially
-       increasing understanding of global ocean dynamics. The satellite also
+       increasing understanding of global ocean dynamics. the satellite also
  
  ===================================================================
- diff -t -c -r1.18 FAQ.astronaut
- *** /tmp/,RCSt1a06465	Thu Apr  1 14:47:43 1993
- --- FAQ.astronaut	Thu Apr  1 14:46:52 1993
+ diff -t -c -r1.18 faq.astronaut
+ *** /tmp/,rcst1a06465	thu apr  1 14:47:43 1993
+ --- faq.astronaut	thu apr  1 14:46:52 1993
  ***************
  *** 162,174 ****
        specific standards:
  
- 	   Distant visual acuity:
+ 	   distant visual acuity:
  !		20/100 or better uncorrected,
  		correctable to 20/20, each eye.
  
- 	   Blood pressure:
+ 	   blood pressure:
  		140/90 measured in sitting position.
  
- !     3. Height between 60 and 76 inches.
+ !     3. height between 60 and 76 inches.
  
-       Pilot Astronaut Candidate:
+       pilot astronaut candidate:
  
  --- 162,174 ----
        specific standards:
  
- 	   Distant visual acuity:
+ 	   distant visual acuity:
  !		20/150 or better uncorrected,
  		correctable to 20/20, each eye.
  
- 	   Blood pressure:
+ 	   blood pressure:
  		140/90 measured in sitting position.
  
- !     3. Height between 58.5 and 76 inches.
+ !     3. height between 58.5 and 76 inches.
  
-       Pilot Astronaut Candidate:
+       pilot astronaut candidate:
  

@@ -1,70 +1,70 @@
 
- In article <1993Apr6.081605.12977@fwi.uva.nl> casper@fwi.uva.nl (Casper H.S. Dik) writes:
- >epstein@trwacs.fp.trw.com (Jeremy Epstein) writes:
+ in article <1993apr6.081605.12977@fwi.uva.nl> casper@fwi.uva.nl (casper h.s. dik) writes:
+ >epstein@trwacs.fp.trw.com (jeremy epstein) writes:
  >
- >>dmm@head-cfa.harvard.edu (David Meleedy) writes:
- >>There's a bug in SunOS 4.1.3, which is alluded to in the FAQ (although
- >>there it's talking about X11R4 as being affected).  You need to force
- >>libXmu to be linked statically, rather than dynamically, which works
- >>around the linker error.  The simplest thing to do is edit each of
- >>the Makefiles where there's a failure and change the line which reads:
- >>	XMULIB = -L$(XMUSRC) -lXmu
+ >>dmm@head-cfa.harvard.edu (david meleedy) writes:
+ >>there's a bug in sunos 4.1.3, which is alluded to in the faq (although
+ >>there it's talking about x11r4 as being affected).  you need to force
+ >>libxmu to be linked statically, rather than dynamically, which works
+ >>around the linker error.  the simplest thing to do is edit each of
+ >>the makefiles where there's a failure and change the line which reads:
+ >>	xmulib = -l$(xmusrc) -lxmu
  >>to:
- >>	XMULIB = -L$(XMUSRC) -Bstatic -lXmu -Bdynamic
+ >>	xmulib = -l$(xmusrc) -bstatic -lxmu -bdynamic
  >
- >No. This is only relevant for OpenWindows 3.x as shipped with SunOS.
- >It is not relevant for MIT R5. MIT R5 should compile without problems.
+ >no. this is only relevant for openwindows 3.x as shipped with sunos.
+ >it is not relevant for mit r5. mit r5 should compile without problems.
  >
- >Casper
+ >casper
  
- I don't know how many hours you've spent on this, but the Sun User
- Group makes X11R5 available on CD-ROM to its members. The 1992.1 disk
- has both sources and binaries and it sells for $50.  I've tagged a
+ i don't know how many hours you've spent on this, but the sun user
+ group makes x11r5 available on cd-rom to its members. the 1992.1 disk
+ has both sources and binaries and it sells for $50.  i've tagged a
  table of contents and an orderform on below if anyone's interested.
  
- Alex Newman
+ alex newman
  
  ----------------------------------------------------------------------------
- Alex Newman	(617) 232-0514 voice	My life may be stressful,
+ alex newman	(617) 232-0514 voice	my life may be stressful,
  troll@sug.org	(617) 232-1347 fax	but at least it's not boring
- Sun User Group * 1330 Beacon St., #315 * Brookline, MA 02146
+ sun user group * 1330 beacon st., #315 * brookline, ma 02146
  ----------------------------------------------------------------------------
  
  
  
  
- SUG CD 1992.1 is X11R5 and GNU on a CDROM, priced at $50 to SUG
+ sug cd 1992.1 is x11r5 and gnu on a cdrom, priced at $50 to sug
  members, including a caddy!
  
- SUG's emphasis has always been on supplying the greatest possible
- service and value-added to our members.  Last year, the SUG 1991 disk
- contained plug-and-play X11R4, 20MB of additional essential binaries,
- almost 200MB of Sun patches, fully-indexed archives of Sun-related net
+ sug's emphasis has always been on supplying the greatest possible
+ service and value-added to our members.  last year, the sug 1991 disk
+ contained plug-and-play x11r4, 20mb of additional essential binaries,
+ almost 200mb of sun patches, fully-indexed archives of sun-related net
  postings, priced at only $250.
  
- Our aim this year has been to reduce the price for disks which can be
+ our aim this year has been to reduce the price for disks which can be
  produced inexpensively, but to continue to supply as much value-added
- as possible.  To accomplish this, we will be putting out a two disk
+ as possible.  to accomplish this, we will be putting out a two disk
  set, the first containing what's ready and needed now, the second
- available later in '92, containing more SPARC binaries and other
+ available later in '92, containing more sparc binaries and other
  useful material not found on previous disks.
  
- The SUG 1992.1 disk, which was assembled by Robert A. Bruce, contains
+ the sug 1992.1 disk, which was assembled by robert a. bruce, contains
  a lot of essential source code, and we decided it would be a great
  service to make it available right away to our members (and this
  pricing makes this a good opportunity to become a member!) for $50 per
- disk (including one of those hard-to-find caddies!).  If you are not a
- SUG member, you can become one for an additional $40 if you live
- within the US or $55 outside.
+ disk (including one of those hard-to-find caddies!).  if you are not a
+ sug member, you can become one for an additional $40 if you live
+ within the us or $55 outside.
  
- The SUG 1992.1 CDROM is an ISO 9660 disk (which means it can be used
- by PC, Macintosh, and other workstations as well), and contains a
- total of 543MB of material, including:
+ the sug 1992.1 cdrom is an iso 9660 disk (which means it can be used
+ by pc, macintosh, and other workstations as well), and contains a
+ total of 543mb of material, including:
  
- X11R5 SOURCES AND CORE BINARIES (for SPARC) as of several weeks after
- the initial distribution, thus, four fixes and the the MIT contrib-0
- distribution are included (109MB of material).  Binaries for: X Xsun
- XsunMono appres atobm auto_box bdftopcf beach_ball bitmap bmtoa
+ x11r5 sources and core binaries (for sparc) as of several weeks after
+ the initial distribution, thus, four fixes and the the mit contrib-0
+ distribution are included (109mb of material).  binaries for: x xsun
+ xsunmono appres atobm auto_box bdftopcf beach_ball bitmap bmtoa
  constype editres fs fsinfo fslsfonts fstobdf ico imake kbd_mode
  listres lndir makedepend maze mkdirhier mkfontdir oclock plbpex puzzle
  resize showfont showrgb startx twm viewres x11perf x11perfcomp xauth
@@ -74,16 +74,16 @@
  xmkmf xmodmap xon xpr xprop xrdb xrefresh xset xsetroot xstdcmap xterm
  xwd xwininfo xwud
  
- COPIES OF CONTRIBUTED X SOURCES (from export.lcs.mit.edu/contrib),
- which were then uncompressed/untarred into source directories (212MB).
- These are sources only, and some of them were (after the date of
- production of this disk) included in the MIT contrib-2 and contrib-3
+ copies of contributed x sources (from export.lcs.mit.edu/contrib),
+ which were then uncompressed/untarred into source directories (212mb).
+ these are sources only, and some of them were (after the date of
+ production of this disk) included in the mit contrib-2 and contrib-3
  distributions.
  
- GNU SOURCES WHICH WERE uncompressed/untarred into source directories
- (88MB).
+ gnu sources which were uncompressed/untarred into source directories
+ (88mb).
  
- SPARC BINARIES (and needed libraries) for these GNU programs: a2p ar
+ sparc binaries (and needed libraries) for these gnu programs: a2p ar
  as basename bash bison cat cc1 cc1plus chgrp chmod chown ci cmp co
  comm compress cp cpio cpp ctags cut cvs date dd df diff diff3 dir
  dirname du egrep elvis emacs env etags expand expr fgrep find
@@ -96,64 +96,64 @@
  tail taintperl tar tee test time touch tput tty uname unexpand uniq
  vdir virec whoami xargs xchess yes zmore
  
- AN ARCHIVE OF COMP.SOURCE.X postings, volume 0 through volume14
- (58MB).  Parts are supplied just as posted.  You get to put together
+ an archive of comp.source.x postings, volume 0 through volume14
+ (58mb).  parts are supplied just as posted.  you get to put together
  the pieces, compile, install, etc.
  
- Cost: SUG members: $50; Non-members: additional $40 within the US, $55
+ cost: sug members: $50; non-members: additional $40 within the us, $55
  	elsewhere 
- Shipping & Handling: $10 inside the USA; $25 elsewhere
+ shipping & handling: $10 inside the usa; $25 elsewhere
  
- Mail to: Sun User Group, Inc.
- 	 Suite 315
- 	 1330 Beacon Street
- 	 Brookline, MA  02146
- 	 USA
+ mail to: sun user group, inc.
+ 	 suite 315
+ 	 1330 beacon street
+ 	 brookline, ma  02146
+ 	 usa
  
  	(617) 232-0514	voice
  	(617) 232-1347	fax
  
  
- The Sun User Group also accepts Visa and MasterCard via telephone or
+ the sun user group also accepts visa and mastercard via telephone or
  electronically.
  
  
  --------------------- cut here and return completed form ---------------------
  
-                                  The SUGCD 1992.1
-                                      ORDER FORM
+                                  the sugcd 1992.1
+                                      order form
  
- The price of the CD is $50.
+ the price of the cd is $50.
  
- Shipping and handling: Add $10 (USA) or $25 (Intl.)
+ shipping and handling: add $10 (usa) or $25 (intl.)
  
- If you are not a member of the Sun User Group, add $40 (USA) or $55
- (International) to the above sums for membership.  You must be a SUG
- member to purchase the CD-ROM.  I enclose a US $ check for:
+ if you are not a member of the sun user group, add $40 (usa) or $55
+ (international) to the above sums for membership.  you must be a sug
+ member to purchase the cd-rom.  i enclose a us $ check for:
  
-                     __$ 60 (SUG member in the USA)
-                     __$ 75 (SUG member outside the USA)
-                     __$100 (Includes membership inside the USA)
-                     __$130 (Includes international membership)
+                     __$ 60 (sug member in the usa)
+                     __$ 75 (sug member outside the usa)
+                     __$100 (includes membership inside the usa)
+                     __$130 (includes international membership)
  
  
-  Name__________________________________ Signature___________________________
+  name__________________________________ signature___________________________
  
-  Company Name_______________________________________________________________
+  company name_______________________________________________________________
  
-  SUG Membership #(if known)_________________________________________________
+  sug membership #(if known)_________________________________________________
  
-  Electronic Mail Address____________________________________________________
+  electronic mail address____________________________________________________
  
-  Telephone Number___________________________________________________________
+  telephone number___________________________________________________________
  
-  Check Enclosed_____             Mastercard_____  Visa_____
+  check enclosed_____             mastercard_____  visa_____
  
-  Credit Card #__________________________________  Exp. date.________________
+  credit card #__________________________________  exp. date.________________
  
-  Card Holder:__________________________ Signature:__________________________
+  card holder:__________________________ signature:__________________________
  
-  Ship to:                                Bill to:
+  ship to:                                bill to:
  
   ______________________________________  ___________________________________
  
@@ -165,30 +165,30 @@
  
  -------------------------------------------------------------------------
  
- [   ]  I hereby authorize the Sun User Group to renew my membership
+ [   ]  i hereby authorize the sun user group to renew my membership
          and charge my credit card automatically on an annual basis.
  
- [   ]  I do not wish my name to be included in non-Sun User
-         Group mailings.
+ [   ]  i do not wish my name to be included in non-sun user
+         group mailings.
  
- [   ]  I do not wish my name to be published in the Sun User
-         Group member directory.
+ [   ]  i do not wish my name to be published in the sun user
+         group member directory.
  
- [   ]  I wish to be added to the Sun User Group electronic
+ [   ]  i wish to be added to the sun user group electronic
  	mailing-list (members only)
  
  
-                   OUTSIDE THE U.S. ONLY:
+                   outside the u.s. only:
  
- Individuals outside of the USA may find using their credit cards easier
- than purchasing US$ checks as this eliminates bank charges.
+ individuals outside of the usa may find using their credit cards easier
+ than purchasing us$ checks as this eliminates bank charges.
  
  -------------------------------------------------------------------------
-                    Sun User Group
-                    1330 Beacon Street, Suite 315
-                    Brookline, MA  02146
+                    sun user group
+                    1330 beacon street, suite 315
+                    brookline, ma  02146
  
- 		   Voice: +1 617 232-0514
- 		   Fax:   +1 617 232-1347
- 		   Email: office@sug.org
+ 		   voice: +1 617 232-0514
+ 		   fax:   +1 617 232-1347
+ 		   email: office@sug.org
  

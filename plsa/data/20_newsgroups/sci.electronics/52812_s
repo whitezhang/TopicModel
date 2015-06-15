@@ -1,27 +1,27 @@
 
- nhowland@matt.ksu.ksu.edu (Neal Patrick Howland) writes:
+ nhowland@matt.ksu.ksu.edu (neal patrick howland) writes:
  >
- >From what I understand about radar dectectors all they are is a passive
- >device much like the radio in your car.  They work as an antenna picking
- >up that radar signals that the radar gun sends out.  Therefore there would
+ >from what i understand about radar dectectors all they are is a passive
+ >device much like the radio in your car.  they work as an antenna picking
+ >up that radar signals that the radar gun sends out.  therefore there would
  >be no way of detecting a radar detector any more than there would be of
  >detecting whether some one had a radio in their car.  
  >
  
- Unfortunately, you're wrong on both counts.  The most common method of
- implementing a tunable receiver is to have a local oscillator.  The
+ unfortunately, you're wrong on both counts.  the most common method of
+ implementing a tunable receiver is to have a local oscillator.  the
  local oscillator's frequency can be radiated out of the receiver via
  the antenna unless the circuit is designed and constructed with great
  care.
  
- For a reference on detecting radios, get the paperback book _Spy Catcher_.
- The author discovered how to detect radio receivers from their local
- oscillator emissions back in the *1950s* while he worked for British
- Intelligence.
+ for a reference on detecting radios, get the paperback book _spy catcher_.
+ the author discovered how to detect radio receivers from their local
+ oscillator emissions back in the *1950s* while he worked for british
+ intelligence.
  
-   -Greg
+   -greg
  -- 
- :::::::::::::::::::  Greg Andrews  gerg@netcom.com  :::::::::::::::::::
- Fortune Cookie:  Radioactive cats have 18 half-lives.
+ :::::::::::::::::::  greg andrews  gerg@netcom.com  :::::::::::::::::::
+ fortune cookie:  radioactive cats have 18 half-lives.
  :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
  

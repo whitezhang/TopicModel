@@ -1,23 +1,23 @@
 
- In article <shenoy.737772666@pv025f.vincent.iastate.edu> shenoy@iastate.edu (Shiva Shenoy) writes:
- >In <1993May18.141451.3443@trintex.uucp> charles@tinman.dev.prodigy.com (Charles R. Emmons) writes:
- >>[Description of file manager Info menu option.
- >Edit the winfile.ini file. If there is a section [AddOns] in it, great! Else, 
- >add the following two lines. If the [AddOns] section exists, then just add 
+ in article <shenoy.737772666@pv025f.vincent.iastate.edu> shenoy@iastate.edu (shiva shenoy) writes:
+ >in <1993may18.141451.3443@trintex.uucp> charles@tinman.dev.prodigy.com (charles r. emmons) writes:
+ >>[description of file manager info menu option.
+ >edit the winfile.ini file. if there is a section [addons] in it, great! else, 
+ >add the following two lines. if the [addons] section exists, then just add 
  >the second line. 
- >[Addons]
- >INfo=filesize.dll
+ >[addons]
+ >info=filesize.dll
  
- Note that the filesize .dll is a part of the Windows Resource Kit. If
- you install it (and you can download it from Cica), it will make the
+ note that the filesize .dll is a part of the windows resource kit. if
+ you install it (and you can download it from cica), it will make the
  appropriate changes itself.
  
  kartik
  
  
  -- 
- If you quote my article remember to trim it down to the essentials.
- Anant Kartik Mithal, 				akm@cs.uoregon.edu
- Network Manager, Ph.D. Student			(503)346-3989
- Comp. Science, U of Oregon, Eugene, OR 97403  	(503)346-5373 (fax)
+ if you quote my article remember to trim it down to the essentials.
+ anant kartik mithal, 				akm@cs.uoregon.edu
+ network manager, ph.d. student			(503)346-3989
+ comp. science, u of oregon, eugene, or 97403  	(503)346-5373 (fax)
  

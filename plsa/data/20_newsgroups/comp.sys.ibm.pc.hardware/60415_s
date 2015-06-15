@@ -1,33 +1,33 @@
 
- In article <1qndvd$jhn@usenet.INS.CWRU.Edu> da416@cleveland.Freenet.Edu (Andy Nicola) writes:
+ in article <1qndvd$jhn@usenet.ins.cwru.edu> da416@cleveland.freenet.edu (andy nicola) writes:
  >
- >In a previous article, limagen@hpwala.wal.hp.com () says:
+ >in a previous article, limagen@hpwala.wal.hp.com () says:
  >
- >>OK all you experts!
- >>Need answer quick.386 machine ,1.44 floppy ; unable to write to a formated
- >>720 disk.Machine claims that disk is write protected,but it is not.
+ >>ok all you experts!
+ >>need answer quick.386 machine ,1.44 floppy ; unable to write to a formated
+ >>720 disk.machine claims that disk is write protected,but it is not.
  >>
- >>Note: It 'll read 720's with no problem.
+ >>note: it 'll read 720's with no problem.
  >>
- >>Please e_mail or post.
- >>
- >>
+ >>please e_mail or post.
  >>
  >>
- >If the disk is not an HD-type disk, i.e. with the extra hole in the case
+ >>
+ >>
+ >if the disk is not an hd-type disk, i.e. with the extra hole in the case
  >opposite the normal write protect hole, the drive will not write to the
- >disk. You can punch a similar hole with whatever is handy or buy a small
+ >disk. you can punch a similar hole with whatever is handy or buy a small
  >device, a square hole puncher, for about $19.95...see the back pages of
  >computer shopper magazine for it.
  >
- >To be brief, make the hole any way you can or no writing!
+ >to be brief, make the hole any way you can or no writing!
  >
  >-- 
- >Andy Nicola
+ >andy nicola
  >
  
- Of course you should be able to write a DD 720Kb disk without
+ of course you should be able to write a dd 720kb disk without
  making any holes.
  
- Stig
+ stig
  

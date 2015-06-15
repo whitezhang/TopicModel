@@ -1,19 +1,19 @@
 
  
- Hi,
+ hi,
  
- I've tried to get rid off XDM's ugly Login window by giving it a 'cool'
- backgroundPixmap ressource. As Login is derived from Core, this should be
- possible. Anyway, setting xlogin*backgroundPixmap:/a/b/c.xpm did not
- produce any message of the form 'cannot convert String to Pixmap' and
+ i've tried to get rid off xdm's ugly login window by giving it a 'cool'
+ backgroundpixmap ressource. as login is derived from core, this should be
+ possible. anyway, setting xlogin*backgroundpixmap:/a/b/c.xpm did not
+ produce any message of the form 'cannot convert string to pixmap' and
  explicitely registering such converter lead to nothing, too.
  
- Any way to do it ?
+ any way to do it ?
  
  --
  +-o-+--------------------------------------------------------------+-o-+
- | o |                \\\-  Brain Inside -///                       | o |
+ | o |                \\\-  brain inside -///                       | o |
  | o |                    ^^^^^^^^^^^^^^^                           | o |
- | o | Andre' Beck (ABPSoft) mehl: Andre_Beck@IRS.Inf.TU-Dresden.de | o |
+ | o | andre' beck (abpsoft) mehl: andre_beck@irs.inf.tu-dresden.de | o |
  +-o-+--------------------------------------------------------------+-o-+
  

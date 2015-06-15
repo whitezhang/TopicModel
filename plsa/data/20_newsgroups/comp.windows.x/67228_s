@@ -1,44 +1,44 @@
 
  
- I tried to e-mail you but it bounced so...
+ i tried to e-mail you but it bounced so...
  
- Hi there,
+ hi there,
  
- In article <4263@his.UUCP> you write:
- >From: sp1henhj@edit (Henrik Balthazar Hjort)
- >Subject: PostScript on X-terminal
+ in article <4263@his.uucp> you write:
+ >from: sp1henhj@edit (henrik balthazar hjort)
+ >subject: postscript on x-terminal
  >
  >
- > I have a problem when I'm using PostScript. When I am working local
- >on a SUN SPARCstaton IPC the PostScript works good, but when I connect
- >to the SUN from a X-terminal I just get error messages that the
- >PostScript cannot connect to the news-display.
+ > i have a problem when i'm using postscript. when i am working local
+ >on a sun sparcstaton ipc the postscript works good, but when i connect
+ >to the sun from a x-terminal i just get error messages that the
+ >postscript cannot connect to the news-display.
  >
- > Why doesn't PostScript work on an X-terminal?
+ > why doesn't postscript work on an x-terminal?
  >
- > Is there any way to make it work?
+ > is there any way to make it work?
  >
  
- It might be that the X terminal doesn't support the "Postscript
- Extensions to X" product.  I use the 'dxpsview' program on a 
- DECstation 5000 to view postscript files but when I moved to an
- NCD X terminal, I couldn't use it any more.  So I ftp'd and
- compiled GhostScript (GNU software).  Now we can view postscript
- files on our X terminals.
+ it might be that the x terminal doesn't support the "postscript
+ extensions to x" product.  i use the 'dxpsview' program on a 
+ decstation 5000 to view postscript files but when i moved to an
+ ncd x terminal, i couldn't use it any more.  so i ftp'd and
+ compiled ghostscript (gnu software).  now we can view postscript
+ files on our x terminals.
  
- Hope this helps.
+ hope this helps.
  
- Grant
+ grant
  
  >
- > Henrik "Henrik Hjort" Hjort
+ > henrik "henrik hjort" hjort
  >
  >
  >
  >
  --
- Grant Totten, Programmer/Analyst, Trent University, Peterborough Ontario
- GTotten@TrentU.CA            Phone: (705) 748-1653   FAX: (705) 748-1246
+ grant totten, programmer/analyst, trent university, peterborough ontario
+ gtotten@trentu.ca            phone: (705) 748-1653   fax: (705) 748-1246
  ========================================================================
- Take everything in stride.  Trample anyone who gets in your way.
+ take everything in stride.  trample anyone who gets in your way.
  

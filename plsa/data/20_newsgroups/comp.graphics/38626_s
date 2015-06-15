@@ -1,21 +1,21 @@
 
- buck@HQ.Ileaf.COM (David Buchholz x3252) writes:
+ buck@hq.ileaf.com (david buchholz x3252) writes:
  
- >I'm looking for any leads to the source of a good Windows
- >Meta File converter or interpreter. I need this for use
- >outside the Windows environment. PD sources preferred, but
- >not a requirement. Please reply to the address below.
+ >i'm looking for any leads to the source of a good windows
+ >meta file converter or interpreter. i need this for use
+ >outside the windows environment. pd sources preferred, but
+ >not a requirement. please reply to the address below.
  
- On a related topic, I have been searching (with no success)
- for a specification of the Enhanced Metafile format.  I have
- the original WMF format (Graphics File Formats, Levine et al),
+ on a related topic, i have been searching (with no success)
+ for a specification of the enhanced metafile format.  i have
+ the original wmf format (graphics file formats, levine et al),
  but no info on the 32 bit version.
  
- Any pointers ?
+ any pointers ?
  
  -- 
- Eric W. Sink, Spyglass        | "In all the earth, only humans have the ability
- 1800 Woodfield Drive          |    to be content in bad situations...
- Savoy, IL  61826              |    and vice-versa."
+ eric w. sink, spyglass        | "in all the earth, only humans have the ability
+ 1800 woodfield drive          |    to be content in bad situations...
+ savoy, il  61826              |    and vice-versa."
  ---- e-sink@uiuc.edu ---------|---------- 217-355-6000 -----------------------
  

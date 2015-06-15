@@ -1,634 +1,634 @@
 
- Archive-name: atheism/logic
- Alt-atheism-archive-name: logic
- Last-modified: 5 April 1993
- Version: 1.4
+ archive-name: atheism/logic
+ alt-atheism-archive-name: logic
+ last-modified: 5 april 1993
+ version: 1.4
  
-                        Constructing a Logical Argument
+                        constructing a logical argument
  
- Although there is much argument on Usenet, the general quality of argument
- found is poor.  This article attempts to provide a gentle introduction to
+ although there is much argument on usenet, the general quality of argument
+ found is poor.  this article attempts to provide a gentle introduction to
  logic, in the hope of improving the general level of debate.
  
- Logic is the science of reasoning, proof, thinking, or inference [Concise
- OED].  Logic allows us to analyze a piece of reasoning and determine whether
- it is correct or not (valid or invalid).  Of course, one does not need to
+ logic is the science of reasoning, proof, thinking, or inference [concise
+ oed].  logic allows us to analyze a piece of reasoning and determine whether
+ it is correct or not (valid or invalid).  of course, one does not need to
  study logic in order to reason correctly; nevertheless, a little basic
  knowledge of logic is often helpful when constructing or analyzing an
  argument.
  
- Note that no claim is being made here about whether logic is universally
- applicable.  The matter is very much open for debate.  This document merely
+ note that no claim is being made here about whether logic is universally
+ applicable.  the matter is very much open for debate.  this document merely
  explains how to use logic, given that you have already decided that logic is
  the right tool for the job.
  
- Propositions (or statements) are the building blocks of a logical argument. A
- proposition is a statement which is either true or false; for example, "It is
- raining" or "Today is Tuesday".  Propositions may be either asserted (said to
- be true) or denied (said to be false).  Note that this is a technical meaning
+ propositions (or statements) are the building blocks of a logical argument. a
+ proposition is a statement which is either true or false; for example, "it is
+ raining" or "today is tuesday".  propositions may be either asserted (said to
+ be true) or denied (said to be false).  note that this is a technical meaning
  of "deny", not the everyday meaning.
  
- The proposition is the meaning of the statement, not the particular
- arrangement of words used to express it.  So "God exists" and "There exists a
- God" both express the same proposition.
+ the proposition is the meaning of the statement, not the particular
+ arrangement of words used to express it.  so "god exists" and "there exists a
+ god" both express the same proposition.
  
- An argument is, to quote the Monty Python sketch, "a connected series of
- statements to establish a definite proposition".  An argument consists of
+ an argument is, to quote the monty python sketch, "a connected series of
+ statements to establish a definite proposition".  an argument consists of
  three stages.
  
- First of all, the propositions which are necessary for the argument to
- continue are stated.  These are called the premises of the argument.  They
+ first of all, the propositions which are necessary for the argument to
+ continue are stated.  these are called the premises of the argument.  they
  are the evidence or reasons for accepting the argument and its conclusions. 
  
- Premises (or assertions) are often indicated by phrases such as "because",
- "since", "obviously" and so on.  (The phrase "obviously" is often viewed with
+ premises (or assertions) are often indicated by phrases such as "because",
+ "since", "obviously" and so on.  (the phrase "obviously" is often viewed with
  suspicion, as it can be used to intimidate others into accepting suspicious
- premises.  If something doesn't seem obvious to you, don't be afraid to
- question it.  You can always say "Oh, yes, you're right, it is obvious" when
+ premises.  if something doesn't seem obvious to you, don't be afraid to
+ question it.  you can always say "oh, yes, you're right, it is obvious" when
  you've heard the explanation.)
  
- Next, the premises are used to derive further propositions by a process known
- as inference.  In inference, one proposition is arrived at on the basis of
- one or more other propositions already accepted.  There are various forms of
+ next, the premises are used to derive further propositions by a process known
+ as inference.  in inference, one proposition is arrived at on the basis of
+ one or more other propositions already accepted.  there are various forms of
  valid inference.
  
- The propositions arrived at by inference may then be used in further
- inference.  Inference is often denoted by phrases such as "implies that" or
+ the propositions arrived at by inference may then be used in further
+ inference.  inference is often denoted by phrases such as "implies that" or
  "therefore".
  
- Finally, we arrive at the conclusion of the argument -- the proposition which
- is affirmed on the basis of the premises and inference.  Conclusions are often
+ finally, we arrive at the conclusion of the argument -- the proposition which
+ is affirmed on the basis of the premises and inference.  conclusions are often
  indicated by phrases such as "therefore", "it follows that", "we conclude"
- and so on.  The conclusion is often stated as the final stage of inference.
+ and so on.  the conclusion is often stated as the final stage of inference.
  
- For example:
+ for example:
  
- Every event has a cause (premise)
- The universe has a beginning (premise)
- All beginnings involve an event (premise)
- This implies that the beginning of the universe involved an event (inference)
- Therefore the universe has a cause (inference and conclusion)
+ every event has a cause (premise)
+ the universe has a beginning (premise)
+ all beginnings involve an event (premise)
+ this implies that the beginning of the universe involved an event (inference)
+ therefore the universe has a cause (inference and conclusion)
  
- Note that the conclusion of one argument might be a premise in another
- argument.  A proposition can only be called a premise or a conclusion with
+ note that the conclusion of one argument might be a premise in another
+ argument.  a proposition can only be called a premise or a conclusion with
  respect to a particular argument; the terms do not make sense in isolation.
  
- Sometimes an argument will not follow the order given above; for example,
+ sometimes an argument will not follow the order given above; for example,
  the conclusions might be stated first and the premises stated 
- afterwards in support of the conclusion.  This is perfectly valid, if 
+ afterwards in support of the conclusion.  this is perfectly valid, if 
  sometimes a little confusing.
  
- Recognizing an argument is much harder than recognizing premises or
- conclusions.  Many people shower their writing with assertions without ever
- producing anything which one might reasonably describe as an argument.  Some
- statements look like arguments, but are not.  For example:
+ recognizing an argument is much harder than recognizing premises or
+ conclusions.  many people shower their writing with assertions without ever
+ producing anything which one might reasonably describe as an argument.  some
+ statements look like arguments, but are not.  for example:
  
- "If the Bible is accurate, Jesus must either have been insane, an evil liar,
-  or the Son of God."
+ "if the bible is accurate, jesus must either have been insane, an evil liar,
+  or the son of god."
  
- This is not an argument, it is a conditional statement.  It does not assert
+ this is not an argument, it is a conditional statement.  it does not assert
  the premises which are necessary to support what appears to be its 
- conclusion.  (It also suffers from a number of other logical flaws, but we'll
+ conclusion.  (it also suffers from a number of other logical flaws, but we'll
  come to those later.)
  
- Another example:
+ another example:
  
- "God created you; therefore do your duty to God."
+ "god created you; therefore do your duty to god."
  
- The phrase "do your duty to God" is not a proposition, since it is neither
- true nor false.  Therefore it is not a conclusion, and the sentence is not an
+ the phrase "do your duty to god" is not a proposition, since it is neither
+ true nor false.  therefore it is not a conclusion, and the sentence is not an
  argument.
  
- Finally, causality is important.  Consider a statement of the form "A because
- B".  If we're interested in establishing A and B is offered as evidence, the
- statement is an argument.  If we're trying to establish the truth of B, then
+ finally, causality is important.  consider a statement of the form "a because
+ b".  if we're interested in establishing a and b is offered as evidence, the
+ statement is an argument.  if we're trying to establish the truth of b, then
  it is not an argument, it is an explanation.
  
- For example:
+ for example:
  
- "There must be something wrong with the engine of my car, because it will not
-  start." -- This is an argument.
+ "there must be something wrong with the engine of my car, because it will not
+  start." -- this is an argument.
  
- "My car will not start because there is something wrong with the engine."
-  -- This is an explanation.
+ "my car will not start because there is something wrong with the engine."
+  -- this is an explanation.
  
- There are two traditional types of argument, deductive and inductive.  A
+ there are two traditional types of argument, deductive and inductive.  a
  deductive argument is one which provides conclusive proof of its conclusions
  -- that is, an argument where if the premises are true, the conclusion must
- also be true.  A deductive argument is either valid or invalid.  A valid
+ also be true.  a deductive argument is either valid or invalid.  a valid
  argument is defined as one where if the premises are true, then the
  conclusion is true.
  
- An inductive argument is one where the premises provide some evidence for the
- truth of the conclusion.  Inductive arguments are not valid or invalid;
+ an inductive argument is one where the premises provide some evidence for the
+ truth of the conclusion.  inductive arguments are not valid or invalid;
  however, we can talk about whether they are better or worse than other
  arguments, and about how probable their premises are.
  
- There are forms of argument in ordinary language which are neither deductive
- nor inductive.  However, we will concentrate for the moment on deductive
+ there are forms of argument in ordinary language which are neither deductive
+ nor inductive.  however, we will concentrate for the moment on deductive
  arguments, as they are often viewed as the most rigorous and convincing.
  
- It is important to note that the fact that a deductive argument is valid does
- not imply that its conclusion holds.  This is because of the slightly 
+ it is important to note that the fact that a deductive argument is valid does
+ not imply that its conclusion holds.  this is because of the slightly 
  counter-intuitive nature of implication, which we must now consider more
  carefully.
  
- Obviously a valid argument can consist of true propositions.  However, an
+ obviously a valid argument can consist of true propositions.  however, an
  argument may be entirely valid even if it contains only false propositions. 
- For example:
+ for example:
  
-    All insects have wings (premise)
-    Woodlice are insects (premise)
-    Therefore woodlice have wings (conclusion)
+    all insects have wings (premise)
+    woodlice are insects (premise)
+    therefore woodlice have wings (conclusion)
  
- Here, the conclusion is not true because the argument's premises are false. 
- If the argument's premises were true, however, the conclusion would be true. 
- The argument is thus entirely valid.
+ here, the conclusion is not true because the argument's premises are false. 
+ if the argument's premises were true, however, the conclusion would be true. 
+ the argument is thus entirely valid.
  
- More subtly, we can reach a true conclusion from one or more false premises,
+ more subtly, we can reach a true conclusion from one or more false premises,
  as in:
  
-    All fish live in the sea (premise)
-    Dolphins are fish (premise)
-    Therefore dolphins live in the sea (conclusion)
+    all fish live in the sea (premise)
+    dolphins are fish (premise)
+    therefore dolphins live in the sea (conclusion)
  
- However, the one thing we cannot do is reach a false conclusion through valid
- inference from true premises.  We can therefore draw up a "truth table" for
+ however, the one thing we cannot do is reach a false conclusion through valid
+ inference from true premises.  we can therefore draw up a "truth table" for
  implication.
  
- The symbol "=>" denotes implication; "A" is the premise, "B" the conclusion. 
- "T" and "F" represent true and false respectively.
+ the symbol "=>" denotes implication; "a" is the premise, "b" the conclusion. 
+ "t" and "f" represent true and false respectively.
  
- Premise Conclusion Inference
-    A        B        A=>B
+ premise conclusion inference
+    a        b        a=>b
  ----------------------------
-    F        F         T      If the premises are false and the inference
-    F        T         T      valid, the conclusion can be true or false.
+    f        f         t      if the premises are false and the inference
+    f        t         t      valid, the conclusion can be true or false.
  
-    T        F         F      If the premises are true and the conclusion
+    t        f         f      if the premises are true and the conclusion
                               false, the inference must be invalid.
  
-    T        T         T      If the premises are true and the inference valid,
+    t        t         t      if the premises are true and the inference valid,
                               the conclusion must be true.
  
- A sound argument is a valid argument whose premises are true.  A sound 
- argument therefore arrives at a true conclusion.  Be careful not to confuse
+ a sound argument is a valid argument whose premises are true.  a sound 
+ argument therefore arrives at a true conclusion.  be careful not to confuse
  valid arguments with sound arguments.
  
- To delve further into the structure of logical arguments would require
- lengthy discussion of linguistics and philosophy.  It is simpler and probably
+ to delve further into the structure of logical arguments would require
+ lengthy discussion of linguistics and philosophy.  it is simpler and probably
  more useful to summarize the major pitfalls to be avoided when constructing
- an argument.  These pitfalls are known as fallacies.
+ an argument.  these pitfalls are known as fallacies.
  
- In everyday English the term "fallacy" is used to refer to mistaken beliefs
- as well as to the faulty reasoning that leads to those beliefs.  This is fair
+ in everyday english the term "fallacy" is used to refer to mistaken beliefs
+ as well as to the faulty reasoning that leads to those beliefs.  this is fair
  enough, but in logic the term is generally used to refer to a form of
  technically incorrect argument, especially if the argument appears valid or
  convincing.
  
- So for the purposes of this discussion, we define a fallacy as a logical
+ so for the purposes of this discussion, we define a fallacy as a logical
  argument which appears to be correct, but which can be seen to be incorrect
- when examined more closely.  By studying fallacies we aim to avoid being
- misled by them.  The following list of fallacies is not intended to be
+ when examined more closely.  by studying fallacies we aim to avoid being
+ misled by them.  the following list of fallacies is not intended to be
  exhaustive.
  
- ARGUMENTUM AD BACULUM (APPEAL TO FORCE)
+ argumentum ad baculum (appeal to force)
  
- The Appeal to Force is committed when the arguer resorts to force or the
- threat of force in order to try and push the acceptance of a conclusion.  It
+ the appeal to force is committed when the arguer resorts to force or the
+ threat of force in order to try and push the acceptance of a conclusion.  it
  is often used by politicians, and can be summarized as "might makes right". 
- The force threatened need not be a direct threat from the arguer.
+ the force threatened need not be a direct threat from the arguer.
  
- For example:
- "... Thus there is ample proof of the truth of the Bible.  All those who
- refuse to accept that truth will burn in Hell."
+ for example:
+ "... thus there is ample proof of the truth of the bible.  all those who
+ refuse to accept that truth will burn in hell."
  
- ARGUMENTUM AD HOMINEM
+ argumentum ad hominem
  
- Argumentum ad hominem is literally "argument directed at the man".
+ argumentum ad hominem is literally "argument directed at the man".
  
- The Abusive variety of Argumentum ad Hominem occurs when, instead of trying
+ the abusive variety of argumentum ad hominem occurs when, instead of trying
  to disprove the truth of an assertion, the arguer attacks the person or
- people making the assertion.  This is invalid because the truth of an
+ people making the assertion.  this is invalid because the truth of an
  assertion does not depend upon the goodness of those asserting it.
  
- For example:
- "Atheism is an evil philosophy.  It is practised by Communists and murderers."
+ for example:
+ "atheism is an evil philosophy.  it is practised by communists and murderers."
  
- Sometimes in a court of law doubt is cast upon the testimony of a witness by 
- showing, for example, that he is a known perjurer.  This is a valid way of
+ sometimes in a court of law doubt is cast upon the testimony of a witness by 
+ showing, for example, that he is a known perjurer.  this is a valid way of
  reducing the credibility of the testimony given by the witness, and not
  argumentum ad hominem; however, it does not demonstrate that the witness's
- testimony is false.  To conclude otherwise is to fall victim of the
- Argumentum ad Ignorantiam (see elsewhere in this list).
+ testimony is false.  to conclude otherwise is to fall victim of the
+ argumentum ad ignorantiam (see elsewhere in this list).
  
- The circumstantial form of Argumentum ad Hominem is committed when a person
+ the circumstantial form of argumentum ad hominem is committed when a person
  argues that his opponent ought to accept the truth of an assertion because of
  the opponent's particular circumstances.
  
- For example:
- "It is perfectly acceptable to kill animals for food.  How can you argue
+ for example:
+ "it is perfectly acceptable to kill animals for food.  how can you argue
  otherwise when you're quite happy to wear leather shoes?"
  
- This is an abusive charge of inconsistency, used as an excuse for dismissing
+ this is an abusive charge of inconsistency, used as an excuse for dismissing
  the opponent's argument.
  
- This fallacy can also be used as a means of rejecting a conclusion.  For 
+ this fallacy can also be used as a means of rejecting a conclusion.  for 
  example:
  
- "Of course you would argue that positive discrimination is a bad thing. 
- You're white."
+ "of course you would argue that positive discrimination is a bad thing. 
+ you're white."
  
- This particular form of Argumentum ad Hominem, when one alleges that one's
+ this particular form of argumentum ad hominem, when one alleges that one's
  adversary is rationalizing a conclusion formed from selfish interests, is
  also known as "poisoning the well".
  
- ARGUMENTUM AD IGNORANTIUM
+ argumentum ad ignorantium
  
- Argumentum ad ignorantium means "argument from ignorance".  This fallacy
+ argumentum ad ignorantium means "argument from ignorance".  this fallacy
  occurs whenever it is argued that something must be true simply because it
- has not been proved false.  Or, equivalently, when it is argued that
- something must be false because it has not been proved true.  (Note that this
+ has not been proved false.  or, equivalently, when it is argued that
+ something must be false because it has not been proved true.  (note that this
  is not the same as assuming that something is false until it has been proved
  true, a basic scientific principle.)
  
- Examples:
- "Of course the Bible is true.  Nobody can prove otherwise."
+ examples:
+ "of course the bible is true.  nobody can prove otherwise."
  
- "Of course telepathy and other psychic phenomena do not exist.  Nobody has
+ "of course telepathy and other psychic phenomena do not exist.  nobody has
  shown any proof that they are real."
  
- Note that this fallacy does not apply in a court of law, where one is
+ note that this fallacy does not apply in a court of law, where one is
  generally assumed innocent until proven guilty.
  
- Also, in scientific investigation if it is known that an event would produce
+ also, in scientific investigation if it is known that an event would produce
  certain evidence of its having occurred, the absence of such evidence can 
- validly be used to infer that the event did not occur.  For example:
+ validly be used to infer that the event did not occur.  for example:
  
- "A flood as described in the Bible would require an enormous volume of water
- to be present on the earth.  The earth does not have a tenth as much water,
- even if we count that which is frozen into ice at the poles.  Therefore no
+ "a flood as described in the bible would require an enormous volume of water
+ to be present on the earth.  the earth does not have a tenth as much water,
+ even if we count that which is frozen into ice at the poles.  therefore no
  such flood occurred."
  
- In science, we can validly assume from lack of evidence that something has
- not occurred.  We cannot conclude with certainty that it has not occurred,
+ in science, we can validly assume from lack of evidence that something has
+ not occurred.  we cannot conclude with certainty that it has not occurred,
  however.
  
- ARGUMENTUM AD MISERICORDIAM
+ argumentum ad misericordiam
  
- This is the Appeal to Pity, also known as Special Pleading.  The fallacy is 
+ this is the appeal to pity, also known as special pleading.  the fallacy is 
  committed when the arguer appeals to pity for the sake of getting a 
- conclusion accepted.  For example:
+ conclusion accepted.  for example:
  
- "I did not murder my mother and father with an axe.  Please don't find me
- guilty; I'm suffering enough through being an orphan."
+ "i did not murder my mother and father with an axe.  please don't find me
+ guilty; i'm suffering enough through being an orphan."
  
- ARGUMENTUM AD POPULUM
+ argumentum ad populum
  
- This is known as Appealing to the Gallery, or Appealing to the People.  To
+ this is known as appealing to the gallery, or appealing to the people.  to
  commit this fallacy is to attempt to win acceptance of an assertion by
- appealing to a large group of people.  This form of fallacy is often
- characterized by emotive language.  For example:
+ appealing to a large group of people.  this form of fallacy is often
+ characterized by emotive language.  for example:
  
- "Pornography must be banned.  It is violence against women."
+ "pornography must be banned.  it is violence against women."
  
- "The Bible must be true.  Millions of people know that it is.  Are you trying
+ "the bible must be true.  millions of people know that it is.  are you trying
  to tell them that they are all mistaken fools?"
  
- ARGUMENTUM AD NUMERAM
+ argumentum ad numeram
  
- This fallacy is closely related to the argumentum ad populum.  It consists of
+ this fallacy is closely related to the argumentum ad populum.  it consists of
  asserting that the more people who support or believe a proposition, the more
  likely it is that that proposition is correct.
  
- ARGUMENTUM AD VERECUNDIAM
+ argumentum ad verecundiam
  
- The Appeal to Authority uses the admiration of the famous to try and win
- support for an assertion.  For example:
+ the appeal to authority uses the admiration of the famous to try and win
+ support for an assertion.  for example:
  
- "Isaac Newton was a genius and he believed in God."
+ "isaac newton was a genius and he believed in god."
  
- This line of argument is not always completely bogus; for example, reference
+ this line of argument is not always completely bogus; for example, reference
  to an admitted authority in a particular field may be relevant to a
- discussion of that subject.  For example, we can distinguish quite clearly
+ discussion of that subject.  for example, we can distinguish quite clearly
  between:
  
- "Stephen Hawking has concluded that black holes give off radiation"
+ "stephen hawking has concluded that black holes give off radiation"
  and
- "John Searle has concluded that it is impossible to build an intelligent
+ "john searle has concluded that it is impossible to build an intelligent
   computer"
  
- Hawking is a physicist, and so we can reasonably expect his opinions on black
- hole radiation to be informed.  Searle is a linguist, so it is questionable 
+ hawking is a physicist, and so we can reasonably expect his opinions on black
+ hole radiation to be informed.  searle is a linguist, so it is questionable 
  whether he is well-qualified to speak on the subject of machine intelligence.
  
- THE FALLACY OF ACCIDENT
+ the fallacy of accident
  
- The Fallacy of Accident is committed when a general rule is applied to a
+ the fallacy of accident is committed when a general rule is applied to a
  particular case whose "accidental" circumstances mean that the rule is
- inapplicable.  It is the error made when one goes from the general to the
- specific.  For example:
+ inapplicable.  it is the error made when one goes from the general to the
+ specific.  for example:
  
- "Christians generally dislike atheists.  You are a Christian, so you must
+ "christians generally dislike atheists.  you are a christian, so you must
  dislike atheists."
  
- This fallacy is often committed by moralists and legalists who try to decide
+ this fallacy is often committed by moralists and legalists who try to decide
  every moral and legal question by mechanically applying general rules.
  
- CONVERSE ACCIDENT / HASTY GENERALIZATION
+ converse accident / hasty generalization
  
- This fallacy is the reverse of the fallacy of accident.  It occurs when one
+ this fallacy is the reverse of the fallacy of accident.  it occurs when one
  forms a general rule by examining only a few specific cases which are not
  representative of all possible cases.
  
- For example:
- "Jim Bakker was an insincere Christian.  Therefore all Christians are
+ for example:
+ "jim bakker was an insincere christian.  therefore all christians are
  insincere."
  
- SWEEPING GENERALIZATION / DICTO SIMPLICITER
+ sweeping generalization / dicto simpliciter
  
- A sweeping generalization occurs when a general rule is applied to a
+ a sweeping generalization occurs when a general rule is applied to a
  particular situation in which the features of that particular situation
- render the rule inapplicable.  A sweeping generalization is the opposite of a
+ render the rule inapplicable.  a sweeping generalization is the opposite of a
  hasty generalization.
  
- NON CAUSA PRO CAUSA / POST HOC ERGO PROPTER HOC
+ non causa pro causa / post hoc ergo propter hoc
  
- These are known as False Cause fallacies.
+ these are known as false cause fallacies.
  
- The fallacy of Non Causa Pro Causa occurs when one identifies something as the
- cause of an event but it has not actually been shown to be the cause.  For 
+ the fallacy of non causa pro causa occurs when one identifies something as the
+ cause of an event but it has not actually been shown to be the cause.  for 
  example:
  
- "I took an aspirin and prayed to God, and my headache disappeared.  So God
+ "i took an aspirin and prayed to god, and my headache disappeared.  so god
  cured me of the headache."
  
- The fallacy of Post Hoc Ergo Propter Hoc occurs when something is assumed to
- be the cause of an event merely because it happened before the event.  For 
+ the fallacy of post hoc ergo propter hoc occurs when something is assumed to
+ be the cause of an event merely because it happened before the event.  for 
  example:
  
- "The Soviet Union collapsed after taking up atheism.  Therefore we must avoid
+ "the soviet union collapsed after taking up atheism.  therefore we must avoid
  atheism for the same reasons."
  
- CUM HOC ERGO PROPTER HOC
+ cum hoc ergo propter hoc
  
- This fallacy is similar to post hoc ergo propter hoc.  It asserts that
+ this fallacy is similar to post hoc ergo propter hoc.  it asserts that
  because two events occur together, they must be causally related, and leaves
  no room for other factors that may be the cause(s) of the events.
  
- PETITIO PRINCIPII
+ petitio principii
  
- This fallacy occurs when the premises are at least as questionable as the
+ this fallacy occurs when the premises are at least as questionable as the
  conclusion reached.
  
- CIRCULUS IN DEMONSTRANDO
+ circulus in demonstrando
  
- This fallacy occurs when one assumes as a premise the conclusion which one
- wishes to reach.  Often, the proposition will be rephrased so that the
- fallacy appears to be a valid argument.  For example:
+ this fallacy occurs when one assumes as a premise the conclusion which one
+ wishes to reach.  often, the proposition will be rephrased so that the
+ fallacy appears to be a valid argument.  for example:
  
- "Homosexuals must not be allowed to hold government office.  Hence any
+ "homosexuals must not be allowed to hold government office.  hence any
  government official who is revealed to be a homosexual will lose his job. 
- Therefore homosexuals will do anything to hide their secret, and will be open
- to blackmail.  Therefore homosexuals cannot be allowed to hold government
+ therefore homosexuals will do anything to hide their secret, and will be open
+ to blackmail.  therefore homosexuals cannot be allowed to hold government
  office."
  
- Note that the argument is entirely circular; the premise is the same as the 
- conclusion.  An argument like the above has actually been cited as the reason
- for the British Secret Services' official ban on homosexual employees. 
- Another example is the classic:
+ note that the argument is entirely circular; the premise is the same as the 
+ conclusion.  an argument like the above has actually been cited as the reason
+ for the british secret services' official ban on homosexual employees. 
+ another example is the classic:
  
- "We know that God exists because the Bible tells us so.  And we know that the
- Bible is true because it is the word of God."
+ "we know that god exists because the bible tells us so.  and we know that the
+ bible is true because it is the word of god."
  
- COMPLEX QUESTION / FALLACY OF INTERROGATION
+ complex question / fallacy of interrogation
  
- This is the Fallacy of Presupposition.  One example is the classic loaded 
+ this is the fallacy of presupposition.  one example is the classic loaded 
  question:
  
- "Have you stopped beating your wife?"
+ "have you stopped beating your wife?"
  
- The question presupposes a definite answer to another question which has not
- even been asked.  This trick is often used by lawyers in cross-examination,
+ the question presupposes a definite answer to another question which has not
+ even been asked.  this trick is often used by lawyers in cross-examination,
  when they ask questions like:
  
- "Where did you hide the money you stole?"
+ "where did you hide the money you stole?"
  
- Similarly, politicians often ask loaded questions such as:
+ similarly, politicians often ask loaded questions such as:
  
- "How long will this EC interference in our affairs be allowed to continue?"
+ "how long will this ec interference in our affairs be allowed to continue?"
  or
- "Does the Chancellor plan two more years of ruinous privatization?"
+ "does the chancellor plan two more years of ruinous privatization?"
  
- IGNORATIO ELENCHI
+ ignoratio elenchi
  
- The fallacy of Irrelevant Conclusion consists of claiming that an argument 
+ the fallacy of irrelevant conclusion consists of claiming that an argument 
  supports a particular conclusion when it is actually logically nothing to do
  with that conclusion.
  
- For example, a Christian may begin by saying that he will argue that the
- teachings of Christianity are undoubtably true.  If he then argues at length
- that Christianity is of great help to many people, no matter how well he
- argues he will not have shown that Christian teachings are true.
+ for example, a christian may begin by saying that he will argue that the
+ teachings of christianity are undoubtably true.  if he then argues at length
+ that christianity is of great help to many people, no matter how well he
+ argues he will not have shown that christian teachings are true.
  
- Sadly, such fallacious arguments are often successful because they arouse
+ sadly, such fallacious arguments are often successful because they arouse
  emotions which cause others to view the supposed conclusion in a more
  favourable light.
  
- EQUIVOCATION
+ equivocation
  
- Equivocation occurs when a key word is used with two or more different
- meanings in the same argument.  For example:
+ equivocation occurs when a key word is used with two or more different
+ meanings in the same argument.  for example:
  
- "What could be more affordable than free software?  But to make sure that it
+ "what could be more affordable than free software?  but to make sure that it
  remains free, that users can do what they like with it, we must place a
  license on it to make sure that will always be freely redistributable."
  
- AMPHIBOLY
+ amphiboly
  
- Amphiboly occurs when the premises used in an argument are ambiguous because
+ amphiboly occurs when the premises used in an argument are ambiguous because
  of careless or ungrammatical phrasing.
  
- ACCENT
+ accent
  
- Accent is another form of fallacy through shifting meaning.  In this case,
+ accent is another form of fallacy through shifting meaning.  in this case,
  the meaning is changed by altering which parts of a statement are
- emphasized.  For example, consider:
+ emphasized.  for example, consider:
  
- "We should not speak ILL of our friends"
+ "we should not speak ill of our friends"
  and
- "We should not speak ill of our FRIENDS"
+ "we should not speak ill of our friends"
  
- FALLACIES OF COMPOSITION
+ fallacies of composition
  
- One fallacy of composition is to conclude that a property shared by the parts
- of something must apply to the whole.  For example:
+ one fallacy of composition is to conclude that a property shared by the parts
+ of something must apply to the whole.  for example:
  
- "The bicycle is made entirely of low mass components, and is therefore very 
+ "the bicycle is made entirely of low mass components, and is therefore very 
  lightweight."
  
- The other fallacy of composition is to conclude that a property of a number
- of individual items is shared by a collection of those items.  For example:
+ the other fallacy of composition is to conclude that a property of a number
+ of individual items is shared by a collection of those items.  for example:
  
- "A car uses less petrol and causes less pollution than a bus.  Therefore cars
+ "a car uses less petrol and causes less pollution than a bus.  therefore cars
  are less environmentally damaging than buses."
  
- FALLACY OF DIVISION
+ fallacy of division
  
- The fallacy of division is the opposite of the fallacy of composition.  Like
- its opposite, it exists in two varieties.  The first is to assume that a
- property of some thing must apply to its parts.  For example:
+ the fallacy of division is the opposite of the fallacy of composition.  like
+ its opposite, it exists in two varieties.  the first is to assume that a
+ property of some thing must apply to its parts.  for example:
  
- "You are studying at a rich college.  Therefore you must be rich."
+ "you are studying at a rich college.  therefore you must be rich."
  
- The other is to assume that a property of a collection of items is shared by
- each item.  For example:
+ the other is to assume that a property of a collection of items is shared by
+ each item.  for example:
  
- "Ants can destroy a tree.  Therefore this ant can destroy a tree."
+ "ants can destroy a tree.  therefore this ant can destroy a tree."
  
- THE SLIPPERY SLOPE ARGUMENT
+ the slippery slope argument
  
- This argument states that should one event occur, so will other harmful
- events.  There is no proof made that the harmful events are caused by the
+ this argument states that should one event occur, so will other harmful
+ events.  there is no proof made that the harmful events are caused by the
  first event.
  
- For example:
- "If we legalize marijuana, then we would have to legalize crack and heroin
- and we'll have a nation full of drug-addicts on welfare.  Therefore we cannot
+ for example:
+ "if we legalize marijuana, then we would have to legalize crack and heroin
+ and we'll have a nation full of drug-addicts on welfare.  therefore we cannot
  legalize marijuana."
  
- "A IS BASED ON B" FALLACIES / "IS A TYPE OF" FALLACIES
+ "a is based on b" fallacies / "is a type of" fallacies
  
- These fallacies occur when one attempts to argue that things are in some way
+ these fallacies occur when one attempts to argue that things are in some way
  similar without actually specifying in what way they are similar.
  
- Examples:
- "Isn't history based upon faith?  If so, then isn't the Bible also a form of
+ examples:
+ "isn't history based upon faith?  if so, then isn't the bible also a form of
  history?"
  
- "Islam is based on faith, Christianity is based on faith, so isn't Islam a
- form of Christianity?"
+ "islam is based on faith, christianity is based on faith, so isn't islam a
+ form of christianity?"
  
- "Cats are a form of animal based on carbon chemistry, dogs are a form of
+ "cats are a form of animal based on carbon chemistry, dogs are a form of
  animal based on carbon chemistry, so aren't dogs a form of cat?"
  
- AFFIRMATION OF THE CONSEQUENT
+ affirmation of the consequent
  
- This fallacy is an argument of the form "A implies B, B is true, therefore A
- is true".  To understand why it is a fallacy, examine the truth table for
+ this fallacy is an argument of the form "a implies b, b is true, therefore a
+ is true".  to understand why it is a fallacy, examine the truth table for
  implication given earlier.
  
- DENIAL OF THE ANTECEDENT
+ denial of the antecedent
  
- This fallacy is an argument of the form "A implies B, A is false, therefore B
- is false".  Again, the truth table for implication makes it clear why this is
+ this fallacy is an argument of the form "a implies b, a is false, therefore b
+ is false".  again, the truth table for implication makes it clear why this is
  a fallacy.
  
- Note that this fallacy is different from Non Causa Pro Causa; the latter has
- the form "A implies B, A is false, therefore B is false", where A does NOT in
- fact imply B at all.  Here, the problem is not that the implication is
- invalid; rather it is that the falseness of A does not allow us to deduce
- anything about B.
+ note that this fallacy is different from non causa pro causa; the latter has
+ the form "a implies b, a is false, therefore b is false", where a does not in
+ fact imply b at all.  here, the problem is not that the implication is
+ invalid; rather it is that the falseness of a does not allow us to deduce
+ anything about b.
  
- CONVERTING A CONDITIONAL
+ converting a conditional
  
- This fallacy is an argument of the form "If A then B, therefore if B then A".
+ this fallacy is an argument of the form "if a then b, therefore if b then a".
  
- ARGUMENTUM AD ANTIQUITAM
+ argumentum ad antiquitam
  
- This is the fallacy of asserting that something is right or good simply
+ this is the fallacy of asserting that something is right or good simply
  because it is old, or because "that's the way it's always been."
  
- ARGUMENTUM AD NOVITAM
+ argumentum ad novitam
  
- This is the opposite of the argumentum ad antiquitam; it is the fallacy of
+ this is the opposite of the argumentum ad antiquitam; it is the fallacy of
  asserting that something is more correct simply because it is new or newer
  than something else.
  
- ARGUMENTUM AD CRUMENAM
+ argumentum ad crumenam
  
- The fallacy of believing that money is a criterion of correctness; that those
+ the fallacy of believing that money is a criterion of correctness; that those
  with more money are more likely to be right.
  
- ARGUMENTUM AD LAZARUM
+ argumentum ad lazarum
  
- The fallacy of assuming that because someone is poor he or she is sounder or
- more virtuous than one who is wealthier.  This fallacy is the opposite of the
+ the fallacy of assuming that because someone is poor he or she is sounder or
+ more virtuous than one who is wealthier.  this fallacy is the opposite of the
  argumentum ad crumenam.
  
- ARGUMENTUM AD NAUSEAM
+ argumentum ad nauseam
  
- This is the incorrect belief that an assertion is more likely to be true the
- more often it is heard.  An "argumentum ad nauseum" is one that employs
+ this is the incorrect belief that an assertion is more likely to be true the
+ more often it is heard.  an "argumentum ad nauseum" is one that employs
  constant repetition in asserting something.
  
- BIFURCATION
+ bifurcation
  
- Also referred to as the "black and white" fallacy, bifurcation occurs when
+ also referred to as the "black and white" fallacy, bifurcation occurs when
  one presents a situation as having only two alternatives, where in fact other
  alternatives exist or can exist.
  
- PLURIUM INTERROGATIONUM / MANY QUESTIONS
+ plurium interrogationum / many questions
  
- This fallacy occurs when a questioner demands a simple answer to a complex
+ this fallacy occurs when a questioner demands a simple answer to a complex
  question.
  
- NON SEQUITUR
+ non sequitur
  
- A non-sequitur is an argument where the conclusion is drawn from premises
+ a non-sequitur is an argument where the conclusion is drawn from premises
  which are not logically connected with it.
  
- RED HERRING
+ red herring
  
- This fallacy is committed when irrelevant material is introduced to the issue
+ this fallacy is committed when irrelevant material is introduced to the issue
  being discussed, so that everyone's attention is diverted away from the
  points being made, towards a different conclusion.
  
- REIFICATION / HYPOSTATIZATION
+ reification / hypostatization
  
- Reification occurs when an abstract concept is treated as a concrete thing.
+ reification occurs when an abstract concept is treated as a concrete thing.
  
- SHIFTING THE BURDEN OF PROOF
+ shifting the burden of proof
  
- The burden of proof is always on the person making an assertion or
- proposition.  Shifting the burden of proof, a special case of argumentum ad
+ the burden of proof is always on the person making an assertion or
+ proposition.  shifting the burden of proof, a special case of argumentum ad
  ignorantium, is the fallacy of putting the burden of proof on the person who
- denies or questions the assertion being made.  The source of the fallacy is
+ denies or questions the assertion being made.  the source of the fallacy is
  the assumption that something is true unless proven otherwise.
  
- STRAW MAN
+ straw man
  
- The straw man fallacy is to misrepresent someone else's position so that it
+ the straw man fallacy is to misrepresent someone else's position so that it
  can be attacked more easily, then to knock down that misrepresented position,
- then to conclude that the original position has been demolished.  It is a
+ then to conclude that the original position has been demolished.  it is a
  fallacy because it fails to deal with the actual arguments that have been
  made.
  
- THE EXTENDED ANALOGY
+ the extended analogy
  
- The fallacy of the Extended Analogy often occurs when some suggested general
- rule is being argued over.  The fallacy is to assume that mentioning two 
+ the fallacy of the extended analogy often occurs when some suggested general
+ rule is being argued over.  the fallacy is to assume that mentioning two 
  different situations, in an argument about a general rule, constitutes a 
  claim that those situations are analogous to each other.
  
- This fallacy is best explained using a real example from a debate about 
+ this fallacy is best explained using a real example from a debate about 
  anti-cryptography legislation:
  
- "I believe it is always wrong to oppose the law by breaking it."
+ "i believe it is always wrong to oppose the law by breaking it."
  
- "Such a position is odious: it implies that you would not have supported
-  Martin Luther King."
+ "such a position is odious: it implies that you would not have supported
+  martin luther king."
  
- "Are you saying that cryptography legislation is as important as the
-  struggle for Black liberation?  How dare you!"
+ "are you saying that cryptography legislation is as important as the
+  struggle for black liberation?  how dare you!"
  
- TU QUOQUE
+ tu quoque
  
- This is the famous "you too" fallacy.  It occurs when an action is argued to
- be acceptable because the other party has performed it.  For instance:
+ this is the famous "you too" fallacy.  it occurs when an action is argued to
+ be acceptable because the other party has performed it.  for instance:
  
- "You're just being randomly abusive."
- "So?  You've been abusive too."
+ "you're just being randomly abusive."
+ "so?  you've been abusive too."
  
  ÿ
  

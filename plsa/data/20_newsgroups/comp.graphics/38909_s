@@ -1,22 +1,22 @@
 
  
- In article <27APR93.23959946.0053@music.mus.polymtl.ca> "Gaetan Lord, Ecole Polytechnique de Montreal" <DG03@music.mus.polymtl.ca> writes:
+ in article <27apr93.23959946.0053@music.mus.polymtl.ca> "gaetan lord, ecole polytechnique de montreal" <dg03@music.mus.polymtl.ca> writes:
  
-    Hi
+    hi
  
-    I would like to know if there is any software, PD or not, who
-    could produce X11 output of HPGL file on RS/6000. And same kind of
+    i would like to know if there is any software, pd or not, who
+    could produce x11 output of hpgl file on rs/6000. and same kind of
     software who could produce hardcopy on postscript and lasetjet.
  
- Try export.lcs.mit.edu.  I think that there is a viewer there called
- xviewgl.  Check the README in /contrib.
+ try export.lcs.mit.edu.  i think that there is a viewer there called
+ xviewgl.  check the readme in /contrib.
  
  
  
  --
  <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
- Bill Woodward        | wpwood@austin.ibm.com   <-- Try this first
- AIX Software Support | billw@aixwiz.austin.ibm.com  
- Graphics Group       | 512-838-2834
- I am the terror that flaps in the night.
+ bill woodward        | wpwood@austin.ibm.com   <-- try this first
+ aix software support | billw@aixwiz.austin.ibm.com  
+ graphics group       | 512-838-2834
+ i am the terror that flaps in the night.
  

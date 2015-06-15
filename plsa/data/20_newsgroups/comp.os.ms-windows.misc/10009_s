@@ -1,22 +1,22 @@
 
  
- Using a Windows 3.1 printer driver, I would like to "print to a file", with
- output as a Postscript file.  Later, I would like to take this Postscript file
- to a machine with an attached Hewlett Packard 4M laser printer, and print the
+ using a windows 3.1 printer driver, i would like to "print to a file", with
+ output as a postscript file.  later, i would like to take this postscript file
+ to a machine with an attached hewlett packard 4m laser printer, and print the
  document at 600 dots per inch resolution.
  
- I would like to use this method to print from WordPerfect For Windows, and from
- an image processing program that can output images in Postscript.
+ i would like to use this method to print from wordperfect for windows, and from
+ an image processing program that can output images in postscript.
  
- Here's the problem:  the Windows Postscript printer driver (pscript.drv)
- doesn't allow me to specify 600 dpi.  In fact, the setup dialog for this driver
+ here's the problem:  the windows postscript printer driver (pscript.drv)
+ doesn't allow me to specify 600 dpi.  in fact, the setup dialog for this driver
  does have a pull-down menu for "resolution", but the only choice given in the
- menu is 300!  Not a really useful menu.
+ menu is 300!  not a really useful menu.
  
- Any ideas?
+ any ideas?
  
- David Arnstein
+ david arnstein
  arnstein@iis.sun.com
- International Imaging Systems
- Milpitas, California
+ international imaging systems
+ milpitas, california
  

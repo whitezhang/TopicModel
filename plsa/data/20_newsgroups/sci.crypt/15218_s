@@ -1,19 +1,19 @@
 
- In article <1qna0tINNf5p@rodan.UU.NET>, avg@rodan.UU.NET (Vadim Antonov) writes:
- |> I somehow started to doubt technical competence of the
- |> people who designed the system.  Why on the Earth split the
+ in article <1qna0tinnf5p@rodan.uu.net>, avg@rodan.uu.net (vadim antonov) writes:
+ |> i somehow started to doubt technical competence of the
+ |> people who designed the system.  why on the earth split the
  |> 80-bit key in 40-bit parts to keep them in escrow separately
  |> (having 40 bit and large volumes of data voice links produce
  |> it should be relatively easy to break it) when they simply
- |> could keep 80-bit sequences in N (N>=2) independent places
- |> and then XOR all the partial keys to get the actual key (N-1
- |> sequences should obviously be selected randomly and Nth is the
- |> actual key XOR-ed with the random sequences).
+ |> could keep 80-bit sequences in n (n>=2) independent places
+ |> and then xor all the partial keys to get the actual key (n-1
+ |> sequences should obviously be selected randomly and nth is the
+ |> actual key xor-ed with the random sequences).
  
- Without real technical details, it's hard to answer this question. But
- suppose they already *are* XORing the two 40-bit parts to produce only
- 40 bits of real key material? Maybe they're using the exportable version
- of RC2...? :-)
+ without real technical details, it's hard to answer this question. but
+ suppose they already *are* xoring the two 40-bit parts to produce only
+ 40 bits of real key material? maybe they're using the exportable version
+ of rc2...? :-)
  
- PHil
+ phil
  

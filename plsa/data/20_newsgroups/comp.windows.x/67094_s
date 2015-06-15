@@ -1,33 +1,33 @@
 
- The COSE announcement specifies that Motif will become the common
- GUI. But what does this mean exactly? 
+ the cose announcement specifies that motif will become the common
+ gui. but what does this mean exactly? 
  
- - Do they mean that all "COSE-complient" apps will have the Motif
+ - do they mean that all "cose-complient" apps will have the motif
    look and feel?
  
- - Do they mean that all "COSE-complient" apps will use the Motif
-   toolkit API?
+ - do they mean that all "cose-complient" apps will use the motif
+   toolkit api?
  
- - Do they mean both of the above?
+ - do they mean both of the above?
  
- - Is it possible that there will be a Motif-API complient toolkit with
-   an OpenLook Look & Feel?
+ - is it possible that there will be a motif-api complient toolkit with
+   an openlook look & feel?
  
- - How about an OLIT/XView/OI/Interviews API toolkit with a Motif L & F?
-   (I know OI already does this, but will this be considered COSE-complient?)
+ - how about an olit/xview/oi/interviews api toolkit with a motif l & f?
+   (i know oi already does this, but will this be considered cose-complient?)
  
- - Will there be more than one "standard" toolkit API or L & F supported?
+ - will there be more than one "standard" toolkit api or l & f supported?
  
- - How does using ToolTalk fit in with Motif?
+ - how does using tooltalk fit in with motif?
  
- This is my attempt to start a discussion in order to pull as much 
- knowledge about these questions off the net... Feel free to e-mail
+ this is my attempt to start a discussion in order to pull as much 
+ knowledge about these questions off the net... feel free to e-mail
  or followup.
  
  -- 
  --------------------------------------------------------------------
- -- Gil Tene			"Some days it just doesn't pay     -
- -- devil@imp.HellNet.org	   to go to sleep in the morning." -
- -- devil@diablery.10A.com 					   -
+ -- gil tene			"some days it just doesn't pay     -
+ -- devil@imp.hellnet.org	   to go to sleep in the morning." -
+ -- devil@diablery.10a.com 					   -
  --------------------------------------------------------------------
  

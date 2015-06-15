@@ -1,15 +1,15 @@
 
- On the code I sent, please replace the line:
+ on the code i sent, please replace the line:
  
-    XtAddCallback(PopUpShell, XtNcallback, MyPopUp, (XtPointer)PopUpShell);
+    xtaddcallback(popupshell, xtncallback, mypopup, (xtpointer)popupshell);
  
  by
  
-    XtAddCallback(Button, XtNcallback, MyPopUp, (XtPointer)PopUpShell);
+    xtaddcallback(button, xtncallback, mypopup, (xtpointer)popupshell);
  
  --- 
  
- The rest (and my question) remains the same...
+ the rest (and my question) remains the same...
  
- Dan
+ dan
  

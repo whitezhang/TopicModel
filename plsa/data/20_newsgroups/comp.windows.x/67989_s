@@ -1,35 +1,35 @@
 
  
- Hello everybody out there !
+ hello everybody out there !
  
- I'm trying to compile X11R5pl23 and Motif 1.2.1 on a HP running
- HP-UX 8.05. But it' seems to be not very succesful, because 
- I have only hp.cf config-files for HP-UX 7.0. 
+ i'm trying to compile x11r5pl23 and motif 1.2.1 on a hp running
+ hp-ux 8.05. but it' seems to be not very succesful, because 
+ i have only hp.cf config-files for hp-ux 7.0. 
  
- I tried standard cc and X was compiled with a lot of warnings.
- The motif applications are compiled quite well, but they won't run.
- I receive the XKeysymDB error which is reported in FAQ, but
- I cannot fix it. The XKeysymDB-file is at the right location and it
- works fine under SunOS.
- Probably I have started the compilation Prozess only with a wrong
+ i tried standard cc and x was compiled with a lot of warnings.
+ the motif applications are compiled quite well, but they won't run.
+ i receive the xkeysymdb error which is reported in faq, but
+ i cannot fix it. the xkeysymdb-file is at the right location and it
+ works fine under sunos.
+ probably i have started the compilation prozess only with a wrong
  config-file.
  
- Please help me !
+ please help me !
    
- Thanx in advance 
-   Markus
+ thanx in advance 
+   markus
  
  -----------------------------------------------------------------
-  Markus Koch                           Universitaet-GH Paderborn 
-  Email : raistlin@uni-paderborn.de     Rechnerbetreuung
-  Phone : +49 5251 60 3322              Warburger Str. 100
-          +49 5251 60 3318              W4790 Paderborn, Germany
+  markus koch                           universitaet-gh paderborn 
+  email : raistlin@uni-paderborn.de     rechnerbetreuung
+  phone : +49 5251 60 3322              warburger str. 100
+          +49 5251 60 3318              w4790 paderborn, germany
  ----------------------------------------------------------------- 
  --
  
  -----------------------------------------------------------------
-  Markus Koch                           Universitaet-GH Paderborn 
-  Email : raistlin@uni-paderborn.de     Warburger Str. 100
-  Phone : +49 5251 60 3322              W4790 Paderborn, Germany
+  markus koch                           universitaet-gh paderborn 
+  email : raistlin@uni-paderborn.de     warburger str. 100
+  phone : +49 5251 60 3322              w4790 paderborn, germany
  -----------------------------------------------------------------
  

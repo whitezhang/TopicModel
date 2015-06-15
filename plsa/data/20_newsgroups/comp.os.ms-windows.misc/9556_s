@@ -1,39 +1,39 @@
 
- In article <1qms3c$37t@news.cs.tu-berlin.de>, wong@cs.tu-berlin.de (Wolfgang Jung) writes:
- >After setting up Windows for using my Cirrus Logic 5426 VLB GraphicsCard
- >It moved a normal Window from one place to another...
+ in article <1qms3c$37t@news.cs.tu-berlin.de>, wong@cs.tu-berlin.de (wolfgang jung) writes:
+ >after setting up windows for using my cirrus logic 5426 vlb graphicscard
+ >it moved a normal window from one place to another...
  
- >...What I was wondering why is it not using the BITBLT  Engine which
- >is suuposed to be on the Chip.
+ >...what i was wondering why is it not using the bitblt  engine which
+ >is suuposed to be on the chip.
  
- >How are the experiences here..
- >Have I done something wrong ?
+ >how are the experiences here..
+ >have i done something wrong ?
  
- The 5426 has its own set of drivers. You may be using the
+ the 5426 has its own set of drivers. you may be using the
  drivers intended for the 5420 or 5422 by mistake.
  
- Be sure you have the 5426 driver version 1.2
+ be sure you have the 5426 driver version 1.2
  
- >(I installed the MSWIN 3.1 MultiResolution drivers which where supplied 
- >with the Card ?!)
+ >(i installed the mswin 3.1 multiresolution drivers which where supplied 
+ >with the card ?!)
  
- Don't quote me on this one, but I'd steer clear of the
+ don't quote me on this one, but i'd steer clear of the
  multi resolution driver that allows you to change resolution
- without exiting Windows.  I think it's buggy.
+ without exiting windows.  i think it's buggy.
  
- >Also if there are new(hopefully faster) drrivers around I would love to 
+ >also if there are new(hopefully faster) drrivers around i would love to 
  >how to get hold of them :-) (ftp or whatsoever :-) )
  
- Version 1.3 drivers are due to be release by Cirrus soon.
- Unfortunately, their not available via FTP, you have to dial
- up their BBS in the USA.  I do this from NZ using a 14.4k modem
- to cut down on phone bills.  It took me around 7 minutes to 
+ version 1.3 drivers are due to be release by cirrus soon.
+ unfortunately, their not available via ftp, you have to dial
+ up their bbs in the usa.  i do this from nz using a 14.4k modem
+ to cut down on phone bills.  it took me around 7 minutes to 
  download the v1.2 driver.
  
  
- Good Luck,  
+ good luck,  
  
- Andy Gardner,
- Wellington, New Zealand
- Te Whanga-nui-a-Tara, Aotearoa
+ andy gardner,
+ wellington, new zealand
+ te whanga-nui-a-tara, aotearoa
  

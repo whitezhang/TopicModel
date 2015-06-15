@@ -1,15 +1,15 @@
 
- In article <wstuartj.735273842@lucky.ecn.purdue.edu> 
- wstuartj@lucky.ecn.purdue.edu (W Stuart Jones) writes:
- > I want to go from 512K to 1M VRAM on my Quadra 800.  How many 512K SIMMS 
- > do I
- > need to buy?  Is the current 512K soldered on the board or do I need to take
- > out the current VRAM before I add more?
+ in article <wstuartj.735273842@lucky.ecn.purdue.edu> 
+ wstuartj@lucky.ecn.purdue.edu (w stuart jones) writes:
+ > i want to go from 512k to 1m vram on my quadra 800.  how many 512k simms 
+ > do i
+ > need to buy?  is the current 512k soldered on the board or do i need to take
+ > out the current vram before i add more?
  
- You need to add two 256K VRAM SIMMs;  512K VRAM SIMMs will not work in any 
- of the Quadra or Centris machines.  There is already 512K of VRAM soldered 
- to the logic board.  You add the two 256K SIMMs to this to give you a 
- total of 1 MB.
+ you need to add two 256k vram simms;  512k vram simms will not work in any 
+ of the quadra or centris machines.  there is already 512k of vram soldered 
+ to the logic board.  you add the two 256k simms to this to give you a 
+ total of 1 mb.
  
- - Dale Adams
+ - dale adams
  

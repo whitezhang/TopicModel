@@ -1,26 +1,26 @@
 
- I want to create a single-line Text widget for entering a small amount of text.
+ i want to create a single-line text widget for entering a small amount of text.
  
- I want it to be of fixed width, but have a horizontal scrollbar that scrolls
+ i want it to be of fixed width, but have a horizontal scrollbar that scrolls
  automatically when the user types in order to keep the insertion point
  visible.
  
- In trying to do this I have two problems:
+ in trying to do this i have two problems:
  
-  - The addition of the horizontal scrollbar does not make the text widget
+  - the addition of the horizontal scrollbar does not make the text widget
     taller, but instead it seems to cover part of the text.
  
-  - The scrollbar does not scroll automatically as the user types in text
+  - the scrollbar does not scroll automatically as the user types in text
     in order to keep the insertion point visible.
  
- Any help is appreciated.
+ any help is appreciated.
  
- Mike
+ mike
  
  -----------------------------------------------------------------------
- NAME:   Michael Strawbridge             	TELE: (301) 975-3852
- USMAIL: National Institute of Standards 	ARPA: straw@cam.nist.gov
- 		and Technology            	UUCP: uunet!cme-durer!straw
-         Rm. B-146, Bldg. 225
-         Gaithersburg, MD  20899
+ name:   michael strawbridge             	tele: (301) 975-3852
+ usmail: national institute of standards 	arpa: straw@cam.nist.gov
+ 		and technology            	uucp: uunet!cme-durer!straw
+         rm. b-146, bldg. 225
+         gaithersburg, md  20899
  

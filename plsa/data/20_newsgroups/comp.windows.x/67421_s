@@ -1,23 +1,23 @@
 
- In article <0frolV200awVI3IV4s@andrew.cmu.edu> "Derrick J. Brashear" <db74+@andrew.cmu.edu> writes:
+ in article <0frolv200awvi3iv4s@andrew.cmu.edu> "derrick j. brashear" <db74+@andrew.cmu.edu> writes:
  :
- :I got the following today from Gary Risebrough and it worked fine:
+ :i got the following today from gary risebrough and it worked fine:
  :
- :Excerpts from mail: 29-Apr-93 Re: ol{v}wm 3 virtual keybo..
- :ITO2@aodc.gov.au (554)
+ :excerpts from mail: 29-apr-93 re: ol{v}wm 3 virtual keybo..
+ :ito2@aodc.gov.au (554)
  :
  
- :> I have :
- :> > OpenWindows.KeyboardCommands:   Full
- :> > OpenWindows.VirtualGrabKeys :   False
+ :> i have :
+ :> > openwindows.keyboardcommands:   full
+ :> > openwindows.virtualgrabkeys :   false
  :
  :> which seems to work.
  :
  
- Where can I find man pages about VirtualGrabKeys resource - it doesn't
- show up in my OpenWindows 3.0 man pages...
+ where can i find man pages about virtualgrabkeys resource - it doesn't
+ show up in my openwindows 3.0 man pages...
  -- 
  :s 
- :s Larry W. Virden                 INET: lvirden@cas.org
- :s Personal: 674 Falls Place,   Reynoldsburg, OH 43068-1614
+ :s larry w. virden                 inet: lvirden@cas.org
+ :s personal: 674 falls place,   reynoldsburg, oh 43068-1614
  

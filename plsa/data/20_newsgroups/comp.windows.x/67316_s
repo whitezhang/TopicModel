@@ -1,16 +1,16 @@
 
  
- Yet again,
+ yet again,
  
  the escape sequences you are speaking about here are non standard and
- dangerous. In fact, an ANSI compliant sequence parser HANGS on them.
+ dangerous. in fact, an ansi compliant sequence parser hangs on them.
  
- Why are there such strange ESC sequences instead of compatible DSC ?
+ why are there such strange esc sequences instead of compatible dsc ?
  
  --
  +-o-+--------------------------------------------------------------+-o-+
- | o |                \\\-  Brain Inside -///                       | o |
+ | o |                \\\-  brain inside -///                       | o |
  | o |                    ^^^^^^^^^^^^^^^                           | o |
- | o | Andre' Beck (ABPSoft) mehl: Andre_Beck@IRS.Inf.TU-Dresden.de | o |
+ | o | andre' beck (abpsoft) mehl: andre_beck@irs.inf.tu-dresden.de | o |
  +-o-+--------------------------------------------------------------+-o-+
  

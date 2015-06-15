@@ -1,33 +1,33 @@
 
- The internal HD in my LC disappeared for a day last week, and I'd like to
+ the internal hd in my lc disappeared for a day last week, and i'd like to
  hear any (reasonable) theories folks can suggest for what happened.
  
- It is an LC, with 10MB of RAM and an 80MB internal drive, running system
- 7.1, with a few SCSI devices in a (so far as I know) properly terminated
+ it is an lc, with 10mb of ram and an 80mb internal drive, running system
+ 7.1, with a few scsi devices in a (so far as i know) properly terminated
  chain.
  
- I had shut down the system for a day-- I was out of town and we sometimes
+ i had shut down the system for a day-- i was out of town and we sometimes
  have thunderstorms this time of year-- and upon restarting got a blinking
- question mark.  I booted from a floppy and saw that my external HD seemed
+ question mark.  i booted from a floppy and saw that my external hd seemed
  okay, but there was no sign of the internal.
  
- I installed a system folder on the external and was, indeed, able to boot
- from it.  I tried things like Disk First Aid and Silverlining, to inquire
- about the internal drive.  They either could not find it or got errors in
- trying to talk to it. (Silverlining claimed it was a Connor drive, but it
- is a Quantum... )
+ i installed a system folder on the external and was, indeed, able to boot
+ from it.  i tried things like disk first aid and silverlining, to inquire
+ about the internal drive.  they either could not find it or got errors in
+ trying to talk to it. (silverlining claimed it was a connor drive, but it
+ is a quantum... )
  
- Well, I'd backed things up, so I was able to work.  But, at some point I
- noticed that the internal had reappeared.  Now, Disk First Aid says that
- all's well, etc.  Things seem to be fine.
+ well, i'd backed things up, so i was able to work.  but, at some point i
+ noticed that the internal had reappeared.  now, disk first aid says that
+ all's well, etc.  things seem to be fine.
  
- But, what happened?  Was this a warning that something (the internal HD
- or something else) is about to die?  I'm definitely nervous.
+ but, what happened?  was this a warning that something (the internal hd
+ or something else) is about to die?  i'm definitely nervous.
  
- And, if this is a signal that the internal HD is sick, is it true that I
- can only put up to a 127MB drive inside an LC?  Some folks have claimed
- there's a limitation in the LC (other'n size or power) while others (and
- that includes LaCie, over the phone) say anything that fits is okay.
+ and, if this is a signal that the internal hd is sick, is it true that i
+ can only put up to a 127mb drive inside an lc?  some folks have claimed
+ there's a limitation in the lc (other'n size or power) while others (and
+ that includes lacie, over the phone) say anything that fits is okay.
  
- Thanks for answers.
+ thanks for answers.
  

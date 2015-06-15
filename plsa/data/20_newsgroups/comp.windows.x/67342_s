@@ -1,57 +1,57 @@
 
  
- >> No, it isn't.  It is the "X Window System", or "X11", or "X" or any of
- >> a number of other designations accepted by the X Consortium.  In fact,
- >> doing "man X" on pretty much any X11 machine will tell you:
+ >> no, it isn't.  it is the "x window system", or "x11", or "x" or any of
+ >> a number of other designations accepted by the x consortium.  in fact,
+ >> doing "man x" on pretty much any x11 machine will tell you:
  >> 
- >>      The X Consortium requests that the following names  be  used
+ >>      the x consortium requests that the following names  be  used
  >>      when referring to this software:
  >> 
- >>                                   X
- >>                            X Window System
- >>                              X Version 11
- >>                      X Window System, Version 11
- >>                                  X11
+ >>                                   x
+ >>                            x window system
+ >>                              x version 11
+ >>                      x window system, version 11
+ >>                                  x11
  >> 
- >> There is no such thing as "X Windows" or "X Window", despite the repeated
- >> misuse of the forms by the trade rags.  This probably tells you something >> about how much to trust the trade rags -- if they can't even get the NAME
+ >> there is no such thing as "x windows" or "x window", despite the repeated
+ >> misuse of the forms by the trade rags.  this probably tells you something >> about how much to trust the trade rags -- if they can't even get the name
  >> of the window system right, why should one trust anything else they have 
  >> to say?
  
- I used to think this way, and not just about X. For example, incorrect
- English constructs such as "its raining" or "it's window id" annoy me.
- However, there comes a time when popular usage starts to dictate the way
- things really are in the world. Indeed, the fact that X won out over NeWS
- was really down to popular opinion (I know, we all think it's(!) technically
+ i used to think this way, and not just about x. for example, incorrect
+ english constructs such as "its raining" or "it's window id" annoy me.
+ however, there comes a time when popular usage starts to dictate the way
+ things really are in the world. indeed, the fact that x won out over news
+ was really down to popular opinion (i know, we all think it's(!) technically
  superior as well!).
  
- On a related topic, who is to say that "color" is more or less correct
- than "colour" - being Irish, and hence using English English as opposed
- to American English, I always use the latter except, of course, for API
- terms such as "XAllocColor" and "colormap".
+ on a related topic, who is to say that "color" is more or less correct
+ than "colour" - being irish, and hence using english english as opposed
+ to american english, i always use the latter except, of course, for api
+ terms such as "xalloccolor" and "colormap".
  
- In a world that uses the term "Windows" to refer to Microsoft Windows,
- perhaps the time has come to accept "X Windows" as a valid term for X.
- I think that this is a more concise and uncluttered term than, say,
- "the X Window System" and, let's face it, almost everyone uses it.
- Ultimately, we all need product sales to more than just X-literate
- people. In this respect, product recognition is important and a short,
- snappy, descriptive title ("X" is positively obscure) will help
- when dealing with the average punter (it's sad - I thought I was a
- software engineer!). Indeed it is unfortunate that X did not become
- popularly known as Windows and let MS worry about whether it should
- be called "Microsoft Windows" or "the Microsoft Window System" or
- how about just plain "Microsoft"!
+ in a world that uses the term "windows" to refer to microsoft windows,
+ perhaps the time has come to accept "x windows" as a valid term for x.
+ i think that this is a more concise and uncluttered term than, say,
+ "the x window system" and, let's face it, almost everyone uses it.
+ ultimately, we all need product sales to more than just x-literate
+ people. in this respect, product recognition is important and a short,
+ snappy, descriptive title ("x" is positively obscure) will help
+ when dealing with the average punter (it's sad - i thought i was a
+ software engineer!). indeed it is unfortunate that x did not become
+ popularly known as windows and let ms worry about whether it should
+ be called "microsoft windows" or "the microsoft window system" or
+ how about just plain "microsoft"!
  
- To summarise (or should that be "summarize") the point of this message:
- I think there are far more pressing issues facing the X community than
+ to summarise (or should that be "summarize") the point of this message:
+ i think there are far more pressing issues facing the x community than
  worrying about subtle distinctions in the naming of the window system
- (or should that be "windowing system"). Whatever gets recognised is
- fine by me. I agree that one should be careful in interpreting what
- trade papers say. However, I would be reluctant to come to this
- conclusion purely on the basis of how they name the X Window System.
+ (or should that be "windowing system"). whatever gets recognised is
+ fine by me. i agree that one should be careful in interpreting what
+ trade papers say. however, i would be reluctant to come to this
+ conclusion purely on the basis of how they name the x window system.
  
  
- 			Gerard O'Driscoll (gerard.odriscoll@dps.co.uk)
- 			Du Pont Pixel Systems Ltd.
+ 			gerard o'driscoll (gerard.odriscoll@dps.co.uk)
+ 			du pont pixel systems ltd.
  

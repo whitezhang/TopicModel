@@ -1,26 +1,26 @@
 
  
- In article <5713@seti.inria.fr>, deniaud@cartoon.inria.fr (Gilles Deniaud) writes:
+ in article <5713@seti.inria.fr>, deniaud@cartoon.inria.fr (gilles deniaud) writes:
  
- >I'm looking for a program which is able to display 24 bits
- >images. We are using a Sun Sparc equipped with Parallax
- >graphics board running X11.
+ >i'm looking for a program which is able to display 24 bits
+ >images. we are using a sun sparc equipped with parallax
+ >graphics board running x11.
  
- Utah raster toolkit using getx11. Convert your sun raster files (presumably) to 
+ utah raster toolkit using getx11. convert your sun raster files (presumably) to 
  ppm with the pbm+ toolkit then convert ppm to utah rle format with ppmtorle which
  is provided in the toolkit.
  
- I seem to remember that Xloadimage can do 24 bit servers too.
+ i seem to remember that xloadimage can do 24 bit servers too.
  
- Possibly xwud the x window un-dump program can display 24 bit images; certainly
+ possibly xwud the x window un-dump program can display 24 bit images; certainly
  xwd can grab them.
  
  --
- Chris Lilley
+ chris lilley
  ----------------------------------------------------------------------------
- Technical Author, ITTI Computer Graphics and Visualisation Training Project
- Computer Graphics Unit, Manchester Computing Centre, Oxford Road, 
- Manchester, UK.  M13 9PL                        Internet: C.C.Lilley@mcc.ac.uk  
- Voice: +44 (0)61 275 6045  Fax: +44 (0)61 275 6040 Janet: C.C.Lilley@uk.ac.mcc
+ technical author, itti computer graphics and visualisation training project
+ computer graphics unit, manchester computing centre, oxford road, 
+ manchester, uk.  m13 9pl                        internet: c.c.lilley@mcc.ac.uk  
+ voice: +44 (0)61 275 6045  fax: +44 (0)61 275 6040 janet: c.c.lilley@uk.ac.mcc
  ------------------------------------------------------------------------------
  

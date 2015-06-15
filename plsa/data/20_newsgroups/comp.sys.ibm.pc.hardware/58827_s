@@ -1,42 +1,42 @@
 
- In <C4zwC0.6LK@acsu.buffalo.edu> v063kcbp@ubvmsd.cc.buffalo.edu (MITCH) writes:
+ in <c4zwc0.6lk@acsu.buffalo.edu> v063kcbp@ubvmsd.cc.buffalo.edu (mitch) writes:
  
- >Now, does anyone know a way to back up the masters of Word-Perfect 5.1 for
- >Windows, Windows 3.1, and Norton 6.0 so I can send another copy to my
- >permanent (non-college) address for safe-keeping?  Students keep borrowing
- >my masters, and I'm worried they'll get screwed up!  (Please don't tell me
+ >now, does anyone know a way to back up the masters of word-perfect 5.1 for
+ >windows, windows 3.1, and norton 6.0 so i can send another copy to my
+ >permanent (non-college) address for safe-keeping?  students keep borrowing
+ >my masters, and i'm worried they'll get screwed up!  (please don't tell me
  
- You realize, of course, that inevitably some anal retentive moron is
+ you realize, of course, that inevitably some anal retentive moron is
  going to come along and wag his fingers and his jowls in outrage that
- personal politics are more important than [SMCAP][BOLD][Font:God
- 999pt.]The Law[smcap][bold][font].
+ personal politics are more important than [smcap][bold][font:god
+ 999pt.]the law[smcap][bold][font].
  
- But that's irrelevant to the problem here.  Windows came with my
- system, but on 5.25" disks.  I hate using 5.25" disks, so I copied
- them over to high density 3.5"'s using xcopy.  It worked fine.  In
- fact, for a while I was changing configurations and whatnot so much
- that I decided to try putting them on the hard disk.  Not only can you
+ but that's irrelevant to the problem here.  windows came with my
+ system, but on 5.25" disks.  i hate using 5.25" disks, so i copied
+ them over to high density 3.5"'s using xcopy.  it worked fine.  in
+ fact, for a while i was changing configurations and whatnot so much
+ that i decided to try putting them on the hard disk.  not only can you
  copy them over with one disk per directory, but if you want to, you
- can simply copy them all into one directory.  Makes it a lot nicer
+ can simply copy them all into one directory.  makes it a lot nicer
  when you're switching printer emulations around.
  
- Norton 6.0 I don't have much experience with, but when a friend's
+ norton 6.0 i don't have much experience with, but when a friend's
  system crashed, we restored from a backup rather than from the
- originals, and it worked fine.  This would imply that arj a -r norton
+ originals, and it worked fine.  this would imply that arj a -r norton
  c:\nu would create a workable backup, and if you did a full install
  the first time, you've got the whole thing.
  
- Never played with WP for Windows; I'm not too big of a fan of anything
- from Utah.
+ never played with wp for windows; i'm not too big of a fan of anything
+ from utah.
  
- Good luck....
+ good luck....
  
- Disclaimer: Don't Copy That Floppy! (tm) Just Say No! (r) Respect Your Elders!
- For The Wages Of Sin Is (sic) Death And A Hefty Legal Bill!  DO YOU OFFEND?
+ disclaimer: don't copy that floppy! (tm) just say no! (r) respect your elders!
+ for the wages of sin is (sic) death and a hefty legal bill!  do you offend?
  
- Rob
+ rob
  --
- Rob kudla@acm.rpi.edu Keywords - Oldfield Jane's Leather Yes Win3.1 Phish
- light blue right Bondage r.e.m. DTP Steely Dan DS9 FNM OWL Genesis In the
+ rob kudla@acm.rpi.edu keywords - oldfield jane's leather yes win3.1 phish
+ light blue right bondage r.e.m. dtp steely dan ds9 fnm owl genesis in the
  spaceship, the silver spaceship, the lion takes control..... 
  

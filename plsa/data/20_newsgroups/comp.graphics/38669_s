@@ -1,45 +1,45 @@
 
- Pascal Perret, in article <1993Apr21.125750.263@eicn.etna.ch>, wrote
+ pascal perret, in article <1993apr21.125750.263@eicn.etna.ch>, wrote
  > 
- > 	Site	: omnigate.clarkson.edu
- > 	Aliases	: grape.ecs.clarkson.edu
- > 	Number	: 128.153.4.2
+ > 	site	: omnigate.clarkson.edu
+ > 	aliases	: grape.ecs.clarkson.edu
+ > 	number	: 128.153.4.2
  > 
  > 	/pub/msdos/djgpp/pub
  > 
- > 	it's xv221.zip (?) I think...
- > Certainly you read the other answer from Kevin Martin... He write about DV/X 
+ > 	it's xv221.zip (?) i think...
+ > certainly you read the other answer from kevin martin... he write about dv/x 
  > (?). 
  > 
- >     What is it ?????? Could Someone answer ????
+ >     what is it ?????? could someone answer ????
  
- Funny thing, the InterNet: I have no idea what xv221 might be - except that it
- might be something to do with X-windows on PCs (? If you know, and have used
+ funny thing, the internet: i have no idea what xv221 might be - except that it
+ might be something to do with x-windows on pcs (? if you know, and have used
  it, and think that it is good, email me. [ryanph@mrl.dsto.gov.au]).
  
- DV/X is a common abbreviation for QuarterDeck corporation's Desqview/X
+ dv/x is a common abbreviation for quarterdeck corporation's desqview/x
  software.
  
- I have not used DV/X yet, but reading the blurbs that Quarterdeck sent me, it
+ i have not used dv/x yet, but reading the blurbs that quarterdeck sent me, it
  sounds pretty great:
- 	* allows multiple DOS machines - the way that OS/2 does, but without
- requiring 10 MB of RAM to get OS/2 going
+ 	* allows multiple dos machines - the way that os/2 does, but without
+ requiring 10 mb of ram to get os/2 going
  	* pre-emptive multi-tasking
- 	* network computing - a proper X-windows client/server application -
- this means that DOS program can be used on other X-windows computers on your
- network, and that X-windows programs can be used on your DV/X computer
- 	* although it is NOT a version of Unix, it effectively has many of
- Unix's features, and mostly you will be able to compile unix-type programs
+ 	* network computing - a proper x-windows client/server application -
+ this means that dos program can be used on other x-windows computers on your
+ network, and that x-windows programs can be used on your dv/x computer
+ 	* although it is not a version of unix, it effectively has many of
+ unix's features, and mostly you will be able to compile unix-type programs
  using the djgpp or gnu c compilers
  
- They advertise regularly in all of the major computing and programming
- magazines. They also have InterNet support online (support@qdeck.com).
+ they advertise regularly in all of the major computing and programming
+ magazines. they also have internet support online (support@qdeck.com).
  
- > *  Pascal PERRET     		|	perret@eicn.etna.ch         *
+ > *  pascal perret     		|	perret@eicn.etna.ch         *
  
- Hope that this helps anyone wanting to know.
+ hope that this helps anyone wanting to know.
  
- Phil Ryan
- Melbourne, australia
+ phil ryan
+ melbourne, australia
  
  

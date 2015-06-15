@@ -1,28 +1,28 @@
 
- In article <C61rDq.5v5@chinet.chi.il.us> schneier@chinet.chi.il.us (Bruce Schneier) writes:
- >In article <1raeir$be1@access.digex.net> steve-b@access.digex.com (Steve Brinich) writes:
- >>  Ah, but developing cryptosystems which are specificially designed to
+ in article <c61rdq.5v5@chinet.chi.il.us> schneier@chinet.chi.il.us (bruce schneier) writes:
+ >in article <1raeir$be1@access.digex.net> steve-b@access.digex.com (steve brinich) writes:
+ >>  ah, but developing cryptosystems which are specificially designed to
  >>protect the government's domestic spying capabilities takes them beyond
  >>that mandate, into the forbidden field of domestic wiretapping.
  >>
  >
- >Unlike the CIA, the NSA has no prohibition against domestic spying.  Read
- >Bamford's THE PUZZLE PALACE.
+ >unlike the cia, the nsa has no prohibition against domestic spying.  read
+ >bamford's the puzzle palace.
  
- I did.  You're mistaken.  NSA's communications intelligence mission is
- strictly against foreign governments.  Here's an excerpt from the enabling
- charter (24 Oct 52, Truman) that should clarify this.  The charter was
- declassified in about Feb 1990 when an FOIA request made it public.  Mind
- you, I don't know that they never collect anything they're not supposed
- to... but spying on US citizens isn't in their charter.
+ i did.  you're mistaken.  nsa's communications intelligence mission is
+ strictly against foreign governments.  here's an excerpt from the enabling
+ charter (24 oct 52, truman) that should clarify this.  the charter was
+ declassified in about feb 1990 when an foia request made it public.  mind
+ you, i don't know that they never collect anything they're not supposed
+ to... but spying on us citizens isn't in their charter.
  
-     b. The COMINT  mission of the National  Security Agency
- 	(NSA) shall be to provide an effective,  unified organization
+     b. the comint  mission of the national  security agency
+ 	(nsa) shall be to provide an effective,  unified organization
  	and control of the communications  intelligence activities of
- 	the United States  conducted against foreign  governments, to
+ 	the united states  conducted against foreign  governments, to
  	provide for  integrated operational  policies and  procedures
- 	pertaining thereto.   As  used in  this directive,  the terms
- 	"communications intelligence"  or "COMINT" shall be construed
+ 	pertaining thereto.   as  used in  this directive,  the terms
+ 	"communications intelligence"  or "comint" shall be construed
  	to mean all  procedures and methods used in  the interception
  	of communications  other  than foreign  press and  propaganda
  	broadcasts  and  the  obtaining  of   information  from  such
@@ -30,15 +30,15 @@
  	exclude censorship  and the  production and dissemination  of
  	finished intelligence.
  
- They're also tasked with protecting the US's communications, but I haven't
- seen the specific enabling memo on that.  I assume that's the role under
- which Skipjack was developed.
+ they're also tasked with protecting the us's communications, but i haven't
+ seen the specific enabling memo on that.  i assume that's the role under
+ which skipjack was developed.
  
- NSA is not in the standard-setting business, though -- that's why this
- Clipper stuff came from NIST, which I believe is tasked with coming up
+ nsa is not in the standard-setting business, though -- that's why this
+ clipper stuff came from nist, which i believe is tasked with coming up
  with standards based on their best inputs from other government agencies,
- which would include NSA.
+ which would include nsa.
  -- 
- 	Jim Gillogly
- 	Mersday, 4 Thrimidge S.R. 1993, 21:59
+ 	jim gillogly
+ 	mersday, 4 thrimidge s.r. 1993, 21:59
  

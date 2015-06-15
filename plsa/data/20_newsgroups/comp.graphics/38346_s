@@ -1,19 +1,19 @@
 
- Hello,
- I purchased my new 486 with a NoName graphics card installed which is obviously 
- Speedstar 24 compatible. Its name is "VGA 4000 TrueColor".
- It is accompanied with some drivers and the utilities VMODE, XMODE and
- at least one more MODE, as well as some drivers for Lotus, Windows, etc.
- Only one of the drivers is told to provide the TrueColor mode, namely
- the Windows 3.1 driver.
- Nowhere else, except in the ad, is any pointer to the TrueColor mode.
- Some articles in this group about the Speedstar 24 and some other facts
+ hello,
+ i purchased my new 486 with a noname graphics card installed which is obviously 
+ speedstar 24 compatible. its name is "vga 4000 truecolor".
+ it is accompanied with some drivers and the utilities vmode, xmode and
+ at least one more mode, as well as some drivers for lotus, windows, etc.
+ only one of the drivers is told to provide the truecolor mode, namely
+ the windows 3.1 driver.
+ nowhere else, except in the ad, is any pointer to the truecolor mode.
+ some articles in this group about the speedstar 24 and some other facts
  made me believe that my card is compatible to that one.
  
- Does anybody out there know how this mode can be adjusted? How can I write
+ does anybody out there know how this mode can be adjusted? how can i write
  a driver which allows me to have 16.7 millions of colors with a resolution
- of 640 x 480 with 45 Hz interlaced ?
+ of 640 x 480 with 45 hz interlaced ?
  
- Greetings,
-     Wolfgang
+ greetings,
+     wolfgang
  

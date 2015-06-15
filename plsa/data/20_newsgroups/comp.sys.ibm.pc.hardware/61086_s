@@ -3,28 +3,28 @@
  
  
  
- Article #61175 (61302 is last):
- >Newsgroups: comp.sys.ibm.pc.hardware
- From: qwerty@tunisia.ssc.gov (Kris Schludermann)
- Subject: HELP:IDE Drive installation problems
- Date: Thu Apr 22 12:11:58 1993
+ article #61175 (61302 is last):
+ >newsgroups: comp.sys.ibm.pc.hardware
+ from: qwerty@tunisia.ssc.gov (kris schludermann)
+ subject: help:ide drive installation problems
+ date: thu apr 22 12:11:58 1993
  
- I'm having trouble with installing a second IDE drive on a Promise IDE caching
- controller. The first drive is a conner 3204 and works fine. The second drive
- is a conner 30174, it is currently unjumpered  to be the slave drive. The
+ i'm having trouble with installing a second ide drive on a promise ide caching
+ controller. the first drive is a conner 3204 and works fine. the second drive
+ is a conner 30174, it is currently unjumpered  to be the slave drive. the
  problem is the slave drive is recognized but is reported back as having no
- free space. Disabling cache has made no effect. What else should I check for?
+ free space. disabling cache has made no effect. what else should i check for?
  
  krispy
- End of File, Press RETURN to quit
+ end of file, press return to quit
  
- Krispy,
- Lets start with what Promise controller that you have. Ther are only
- about 4 or 6 of them made. The one that I have the DC-99m needs
- nothing done but install it as stated. As to the 2th. hd you do know
- about running FDISK on it and partisitions and then formatting it
- after your finished with the fdisk operation right!....Sam
+ krispy,
+ lets start with what promise controller that you have. ther are only
+ about 4 or 6 of them made. the one that i have the dc-99m needs
+ nothing done but install it as stated. as to the 2th. hd you do know
+ about running fdisk on it and partisitions and then formatting it
+ after your finished with the fdisk operation right!....sam
  -- 
- Gosh..I think I just installed a virus..It was called MS DOS6...
- Don't copy that floppy..BURN IT...I just love Windows...CRASH...
+ gosh..i think i just installed a virus..it was called ms dos6...
+ don't copy that floppy..burn it...i just love windows...crash...
  

@@ -1,17 +1,17 @@
 
- I have some color gifs which I would like to archive in a much smaller
- size using a grayscale palette of 16 shades. The quantization to 16 grays
+ i have some color gifs which i would like to archive in a much smaller
+ size using a grayscale palette of 16 shades. the quantization to 16 grays
  introduces some ugly bands in the pictures, which can be nicely eliminated
- by dithering. Up to now I have used XV to process the images, but now I
+ by dithering. up to now i have used xv to process the images, but now i
  would like to automate the procedure.
  
- The problem is that XV can't (I think) convert images automatically, and the
- obvious alternative PNMPLUS (PPMQUANT and PNMDITHER) don't even get close to
- XV's quality. PNMDITHER apparently dithers in RGB, even though the images
- are in grayscale. The dithering routine in XV seems to use the natural image
- colors for the dither. Is this or any similar routine available in the
- public domain? If so, where?  
+ the problem is that xv can't (i think) convert images automatically, and the
+ obvious alternative pnmplus (ppmquant and pnmdither) don't even get close to
+ xv's quality. pnmdither apparently dithers in rgb, even though the images
+ are in grayscale. the dithering routine in xv seems to use the natural image
+ colors for the dither. is this or any similar routine available in the
+ public domain? if so, where?  
  -- 
- Niclas Mattsson
+ niclas mattsson
  exjob-17@math.chalmers.se
  

@@ -1,20 +1,20 @@
 
- We have a Gateway 486DX50 with a SMC Elite16 Series Ethercard Plus.
+ we have a gateway 486dx50 with a smc elite16 series ethercard plus.
  
- When we use NCSA FTP to send from the Gateway with hash turned on, we see
- 4 hash marks immediately.  Then the computer  r e a l l y  drags.  If we turn 
+ when we use ncsa ftp to send from the gateway with hash turned on, we see
+ 4 hash marks immediately.  then the computer  r e a l l y  drags.  if we turn 
  off the internal cache of the 486, the speed is better, but doesn't match
- the speed when we receive to the Gateway.
+ the speed when we receive to the gateway.
  
- It doesn't matter if we send from the Gateway or get to it: 4 hash marks and 
+ it doesn't matter if we send from the gateway or get to it: 4 hash marks and 
  then extreme slowness if the cache is not disabled.
  
- Does anyone know any more about this?  Is there a fix?
+ does anyone know any more about this?  is there a fix?
  
- The Gateway was purchased in June, 1992.
+ the gateway was purchased in june, 1992.
  
- Please respond directly.  You wouldn't believe how slow the news is on this 
+ please respond directly.  you wouldn't believe how slow the news is on this 
  system.   
  
- Thanks. 
+ thanks. 
  

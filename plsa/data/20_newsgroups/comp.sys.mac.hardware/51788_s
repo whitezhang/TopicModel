@@ -1,99 +1,99 @@
 
- In article <1993Apr16.214300.12920@ac.dal.ca>,
+ in article <1993apr16.214300.12920@ac.dal.ca>,
  seanmcd@ac.dal.ca writes:
- >In article <186177@pyramid.pyramid.com>, andrem@pyrtech.mis.pyramid.com (Andre Molyneux) writes:
- >> In article <1qksuq$1tt8@hal.gnu.ai.mit.edu>, mirsky@hal.gnu.ai.mit.edu
- >> (David Joshua Mirsky) writes:
- >> |> Hi. I own an LCIII and I recently heard an interesting rumor.
- >> |> I heard that the LCIII has a built in slot for a PowerPC chip.
- >> |> Is this true? I heard that the slot is not the same as the PDS
- >> |> slot.  Is that true?
+ >in article <186177@pyramid.pyramid.com>, andrem@pyrtech.mis.pyramid.com (andre molyneux) writes:
+ >> in article <1qksuq$1tt8@hal.gnu.ai.mit.edu>, mirsky@hal.gnu.ai.mit.edu
+ >> (david joshua mirsky) writes:
+ >> |> hi. i own an lciii and i recently heard an interesting rumor.
+ >> |> i heard that the lciii has a built in slot for a powerpc chip.
+ >> |> is this true? i heard that the slot is not the same as the pds
+ >> |> slot.  is that true?
  >> |>
- >> |> Thanks
- >> |> David Mirsky
+ >> |> thanks
+ >> |> david mirsky
  >> |> mirsky@gnu.ai.mit.edu
  >>
- >> Well, I also have an LC III.  Popping the top revealed:
+ >> well, i also have an lc iii.  popping the top revealed:
  >>
- >>       One "socket" for an additional VRAM SIMM
+ >>       one "socket" for an additional vram simm
  >>
- >>       One "socket" for a 72-pin RAM SIMM
+ >>       one "socket" for a 72-pin ram simm
  >>
- >>       One socket for a flat-pack FPU
+ >>       one socket for a flat-pack fpu
  >>
- >>       A processor-direct slot (PDS) identical to the LC/LC II, but with
+ >>       a processor-direct slot (pds) identical to the lc/lc ii, but with
  >>       an additional set of connetions to one side (for the full 32-bit
- >>       data path that the LC/LC II lacked
+ >>       data path that the lc/lc ii lacked
  >>
- >> That's it.  I guess a board with a PowerPC chip could be made that would fit
- >> in the PDS, but that's the only place.
+ >> that's it.  i guess a board with a powerpc chip could be made that would fit
+ >> in the pds, but that's the only place.
  >>
- >So, will it be possible to have a NuBus or PDS PowerPC upgrade, or will it
- >require a logic board swap? It would be interesting for Apple to come out with
- >a NuBus PowerPC that allowed use of the CPU's 680x0, like RocketShare. But I
+ >so, will it be possible to have a nubus or pds powerpc upgrade, or will it
+ >require a logic board swap? it would be interesting for apple to come out with
+ >a nubus powerpc that allowed use of the cpu's 680x0, like rocketshare. but i
  >guess that's getting a bit fantastic!
  >
- >I was wondering, since MacWeek reported that developers were 'seeded' with
- >PowerPCs on a NuBus card.
+ >i was wondering, since macweek reported that developers were 'seeded' with
+ >powerpcs on a nubus card.
  >
- >Also, any word on machine arrivals or estimated speed? Last I heard, the
- >estimates were around 3-4 times the speed of a Quadra in native RISC mode. I
- >heard an Apple employee mumble something about the arrival of PowerPC machines
- >at a much earlier date that Q1 94, but I doubt it's true.
+ >also, any word on machine arrivals or estimated speed? last i heard, the
+ >estimates were around 3-4 times the speed of a quadra in native risc mode. i
+ >heard an apple employee mumble something about the arrival of powerpc machines
+ >at a much earlier date that q1 94, but i doubt it's true.
  >
- >Finally, is the PowerPC developer's CD 'mini-course' available? I saw it
- >advertised in the developer's university calendar, and I'd like to know if it's
+ >finally, is the powerpc developer's cd 'mini-course' available? i saw it
+ >advertised in the developer's university calendar, and i'd like to know if it's
  >at all *interesting*.
  >
- >Sean
+ >sean
  >--------------
  >seanmcd@ac.dal.ca
  
- Radius speculated, publicly, that they could provide a PowerPC-based
- Rocket for existing Macs. It would have the plus of RocketShare and
- the minus of NuBus accelerators - no true boot off the accelerator,
- NuBus bottleneck to video and other I/O.
+ radius speculated, publicly, that they could provide a powerpc-based
+ rocket for existing macs. it would have the plus of rocketshare and
+ the minus of nubus accelerators - no true boot off the accelerator,
+ nubus bottleneck to video and other i/o.
  
- Apple, it seems, will not compete with third parties here -- except
- perhaps for not-yet-available Macs like Cyclone, where a PowerPC
- slot might be advertised. Look for Daystar and such to make PowerPC
+ apple, it seems, will not compete with third parties here -- except
+ perhaps for not-yet-available macs like cyclone, where a powerpc
+ slot might be advertised. look for daystar and such to make powerpc
  accelerators.
  
- One potential problem with any accelerator, though, is that it will
- need a ROM companion and Apple has licensed only Radius, with
- Rocketshare, to use any of its proprietary code.
+ one potential problem with any accelerator, though, is that it will
+ need a rom companion and apple has licensed only radius, with
+ rocketshare, to use any of its proprietary code.
  
- Apple is, between the lines, trying to let us know that PowerPC Macs
- will have simplified logic boards due to the magical nature of RISC
+ apple is, between the lines, trying to let us know that powerpc macs
+ will have simplified logic boards due to the magical nature of risc
  and that these boards should be much cheaper to build than those in
- existing 68040 Macs. Perhaps, then, we'll see groundbreaking
- prices in Mac-logic board upgrades, much the same way we've seen
- much cheaper high-performance CPUs this year.
+ existing 68040 macs. perhaps, then, we'll see groundbreaking
+ prices in mac-logic board upgrades, much the same way we've seen
+ much cheaper high-performance cpus this year.
  
- First generation PowerPCs, 98601s, will also hopefully have socketed
- CPUs so that they'll be chip upgradeable to 98604s a year later.
- This should be possible in much the same way that 486s can be pulled
- for clock doublers. If there is too much technical   baggage (which
- I doubt since the external busses are the same size/width) to do
- this, perhaps we can have CPU daughterboard, a la Powerbook, as
- standard to facilitate better CPU upgrades. This is an area where
- Apple has fallen far behing the Intel-based world. Perhaps catchup
+ first generation powerpcs, 98601s, will also hopefully have socketed
+ cpus so that they'll be chip upgradeable to 98604s a year later.
+ this should be possible in much the same way that 486s can be pulled
+ for clock doublers. if there is too much technical   baggage (which
+ i doubt since the external busses are the same size/width) to do
+ this, perhaps we can have cpu daughterboard, a la powerbook, as
+ standard to facilitate better cpu upgrades. this is an area where
+ apple has fallen far behing the intel-based world. perhaps catchup
  is in order.
  
- By the way, last week's PC week had an excellent story on PowerPC,
- Pentium, MIPS R4000, DEC Alpha (the big four on the microprocessor
- front for the forseeable future). Worth reading for technojunkies.
- Also, the latest PC has a cover story on Pentium. Read it, and all
- the other stories about how Intel is unstoppable and preeminent
+ by the way, last week's pc week had an excellent story on powerpc,
+ pentium, mips r4000, dec alpha (the big four on the microprocessor
+ front for the forseeable future). worth reading for technojunkies.
+ also, the latest pc has a cover story on pentium. read it, and all
+ the other stories about how intel is unstoppable and preeminent
  right now.
  
- Once anyone is this secure, they are due to fall. Intel's market
+ once anyone is this secure, they are due to fall. intel's market
  position will never again be as dominant as it is today (especially
- if AMD gets the go ahead to sell its 486s this week as it appears it
- might). The competition from all fronts is gearing up for an awesome
- battle. Apple users should be excited that PowerPC, while not
+ if amd gets the go ahead to sell its 486s this week as it appears it
+ might). the competition from all fronts is gearing up for an awesome
+ battle. apple users should be excited that powerpc, while not
  guaranteed dominance, is a guaranteed winner, even if its one of
  several.
  
- Mark
+ mark
  

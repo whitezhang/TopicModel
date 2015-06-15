@@ -1,45 +1,45 @@
 
- myers@hpfcso.FC.HP.COM (Bob Myers) writes:
+ myers@hpfcso.fc.hp.com (bob myers) writes:
  
- > > I am looking for any info I can get on the NEC 3D monitor.
- > > I know that it is a multisync but that is about all.
- > > I plan on buying one second-hand in a while depending on its specs.
+ > > i am looking for any info i can get on the nec 3d monitor.
+ > > i know that it is a multisync but that is about all.
+ > > i plan on buying one second-hand in a while depending on its specs.
  > > 
- > > Does anyone know the min/max frequencies, whether it is interlaced, 
+ > > does anyone know the min/max frequencies, whether it is interlaced, 
  > > non-interlaced, or both, video compatability, etc?
- > > I have seen a reference to it being .28 pitch with 1024 X 720 resolution 
- > > and that it supports SVGA from one source and that it doesn't support 
- > > SVGA from another source.  (Neither source seemed to have much reliable 
- > > info so I don't want to take a guess.)
+ > > i have seen a reference to it being .28 pitch with 1024 x 720 resolution 
+ > > and that it supports svga from one source and that it doesn't support 
+ > > svga from another source.  (neither source seemed to have much reliable 
+ > > info so i don't want to take a guess.)
  > 
- > I'm at home right now, and so am away from my monitor files; the following
+ > i'm at home right now, and so am away from my monitor files; the following
  > is off the top of my head, subject to revision, worth-what-ya-pay-for-it
- > sort of info.  If you don't hear from anyone who has spec sheet in hand,
- > e-mail me and I'll look it up.
+ > sort of info.  if you don't hear from anyone who has spec sheet in hand,
+ > e-mail me and i'll look it up.
  > 
- > If I'm remembering correctly, the 3D is a 14" 0.28 mm pitch multisync that
- > covers at least VGA (31.5 kHz horizontal, 60 Hz vertical) to 1024 x 768 
- > 60 Hz (which is going to be about 48 kHz horizontal).  It may go somewhat
+ > if i'm remembering correctly, the 3d is a 14" 0.28 mm pitch multisync that
+ > covers at least vga (31.5 khz horizontal, 60 hz vertical) to 1024 x 768 
+ > 60 hz (which is going to be about 48 khz horizontal).  it may go somewhat
  > higher than that on the horizontal, but you won't be happy with anything
  > beyond 1024 x 768 on a 14" 0.28 tube; you probably won't be too thrilled
  > with the 1024 x 768 on this tube, but it *will* sync up and display it.
- > (I prefer at least a 16" 0.28 for this resolution.)  Since SVGA is 800x600,
- > it'll do that too.  The horizontal range probably goes lower than 31.5, but
- > I don't know if it goes all the way down to straight NTSC-rate TV (which need
- > about 15.75 kHz sweep).  As far as "video compatibility" (if I'm reading
- > the question right: it won't take anything but analog RGB inputs.  In other
- > words, it has no way to decode NTSC or Y/C video inputs.  You would need
+ > (i prefer at least a 16" 0.28 for this resolution.)  since svga is 800x600,
+ > it'll do that too.  the horizontal range probably goes lower than 31.5, but
+ > i don't know if it goes all the way down to straight ntsc-rate tv (which need
+ > about 15.75 khz sweep).  as far as "video compatibility" (if i'm reading
+ > the question right: it won't take anything but analog rgb inputs.  in other
+ > words, it has no way to decode ntsc or y/c video inputs.  you would need
  > some sort of board to to this conversion - like the sorts of things that 
- > let you display NTSC on a VGA display.
+ > let you display ntsc on a vga display.
  > 
- > Hopefully, now, I'll see this response of mine, and it'll remind me to
- > look this stuff up and confirm it.  (Or force me to post a hasty retraction!)
+ > hopefully, now, i'll see this response of mine, and it'll remind me to
+ > look this stuff up and confirm it.  (or force me to post a hasty retraction!)
  
- Ok, I was under the impression that it accepted digital input.
+ ok, i was under the impression that it accepted digital input.
  
- I still don't know for sure if it accepts BOTH interlaced and 
- non-interlaced as I have gotten conflicting info.
+ i still don't know for sure if it accepts both interlaced and 
+ non-interlaced as i have gotten conflicting info.
  
  victor@inqmind.bison.mb.ca
- The Inquiring Mind BBS, Winnipeg, Manitoba  204 488-1607
+ the inquiring mind bbs, winnipeg, manitoba  204 488-1607
  

@@ -1,18 +1,18 @@
 
- Dear netters,
+ dear netters,
  
- I have noticed something rather weared (I think) about creating a dialog shell
- widget while running HP Vue's vuewm.
+ i have noticed something rather weared (i think) about creating a dialog shell
+ widget while running hp vue's vuewm.
  
- For some reason, every time I create a dialog shell the foreground and backgroun
+ for some reason, every time i create a dialog shell the foreground and backgroun
  d colors are different compared to my toplevel shell.
- I am not doing anything special/different.
+ i am not doing anything special/different.
  
- Does any body know anything about this problem?? How to fix it without hardcodin
+ does any body know anything about this problem?? how to fix it without hardcodin
  g the colors ?
  
- Please respond to kamlesh@salzo.cary.nc.usa ....
+ please respond to kamlesh@salzo.cary.nc.usa ....
  
- Thanks !
- -Kamlesh
+ thanks !
+ -kamlesh
  

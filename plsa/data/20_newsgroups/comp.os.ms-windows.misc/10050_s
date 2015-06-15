@@ -1,35 +1,35 @@
 
- Hi everybody out there,
- I just got the third beta release disk (march 93) of WindowsNT
- and still am not able to boot up that system. The final step
- achieved is the display of IO-error 0x0069. But, since this is
- the beta release of the SDK for NT and not of NT, Microsoft does
- not include a manual on the OS itself, explaining what this
- error means of what I can do to get rid of. My configuration
+ hi everybody out there,
+ i just got the third beta release disk (march 93) of windowsnt
+ and still am not able to boot up that system. the final step
+ achieved is the display of io-error 0x0069. but, since this is
+ the beta release of the sdk for nt and not of nt, microsoft does
+ not include a manual on the os itself, explaining what this
+ error means of what i can do to get rid of. my configuration
  is: 
- Mainboard     Hauppauge 4860-25, rev. A7 (a 486 with socket for i860)
-               28megs of memory (512k*36,1M*36,2M*36)
- AMI EISA SCSI controller (15series), latest bios, 16MB cache 
-               ST41200N hard disk
-               Syquest 555 removable disk
-               Toshiba 3301 CD ROM drive
- ProAudio Spectrum Plus 16
- Longshine Ethernet card LCS8634 (NE2000 comp.)
- ET4000 graphics card, 1Meg (ColorImage5)
- The system is running fine under DOS and Windows 3.1 etc, but
- trying to do the setup for NT,
- - automatic setup does not recognize controller (AHA1542-compat.)
-   when adding manually, NT complains not finging any CD-ROM drive
- - the manual setup (WINNT) does not copy everything from CD to HD,
+ mainboard     hauppauge 4860-25, rev. a7 (a 486 with socket for i860)
+               28megs of memory (512k*36,1m*36,2m*36)
+ ami eisa scsi controller (15series), latest bios, 16mb cache 
+               st41200n hard disk
+               syquest 555 removable disk
+               toshiba 3301 cd rom drive
+ proaudio spectrum plus 16
+ longshine ethernet card lcs8634 (ne2000 comp.)
+ et4000 graphics card, 1meg (colorimage5)
+ the system is running fine under dos and windows 3.1 etc, but
+ trying to do the setup for nt,
+ - automatic setup does not recognize controller (aha1542-compat.)
+   when adding manually, nt complains not finging any cd-rom drive
+ - the manual setup (winnt) does not copy everything from cd to hd,
    does not recognize controller, but takes it manually.
-   Setup continues until it tries to boot. Then it starts loading
-   several stuff from disk (seems to fing the HD), but messing up
-   with that damned IO-Error 69.
- I took away all IO cards not essential, but that did not make any
+   setup continues until it tries to boot. then it starts loading
+   several stuff from disk (seems to fing the hd), but messing up
+   with that damned io-error 69.
+ i took away all io cards not essential, but that did not make any
  effect.
- Anybody got any ideas? Help would be greatly appreciated.
+ anybody got any ideas? help would be greatly appreciated.
  
- Michael Linder              mlinder@tonet1.physik.tu-berlin.de
- Institute of Optics
- Tech. Univ. Berlin, Germany
+ michael linder              mlinder@tonet1.physik.tu-berlin.de
+ institute of optics
+ tech. univ. berlin, germany
  

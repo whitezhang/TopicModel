@@ -1,19 +1,19 @@
 
- After I have produced a schematic with PADS-LOGIC, how do I import it into 
- PADS-PCB to create a PCB pattern?  The only way I've gotten it to work is
- to output a FutureNet netlist, and then import this into PADS-PCB.  Is there
- another way of doing this?  I didn't see any information in the instructions
- provided, but I might have missed something.  Any suggestions would be 
- greatly appreciated.  Thanks!
+ after i have produced a schematic with pads-logic, how do i import it into 
+ pads-pcb to create a pcb pattern?  the only way i've gotten it to work is
+ to output a futurenet netlist, and then import this into pads-pcb.  is there
+ another way of doing this?  i didn't see any information in the instructions
+ provided, but i might have missed something.  any suggestions would be 
+ greatly appreciated.  thanks!
  
  
-  _I_______________________________________________________________________I_
+  _i_______________________________________________________________________i_
  (_@_)                                                                   (_@_)
- |   |   Raymond Yeung               Internet: Nimbus@uiuc.edu           |   |
+ |   |   raymond yeung               internet: nimbus@uiuc.edu           |   |
  |   |                                         rky57514@uxa.cso.uiuc.edu |   |
- |   |   EE student at the                                               |   |
- |   |   University of Illinois    CompuServe: 70700,1011                |   |
- |   |   at Urbana-Champaign                                             |   |
+ |   |   ee student at the                                               |   |
+ |   |   university of illinois    compuserve: 70700,1011                |   |
+ |   |   at urbana-champaign                                             |   |
  (___)-------------------------------------------------------------------(___)
-   I                                                                       I
+   i                                                                       i
  

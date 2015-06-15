@@ -1,66 +1,66 @@
-	<C5oL74.3B1@aeon.in-berlin.de> <1993Apr22.173546.5198@gecko.uucp>
- Date: Fri, 23 Apr 1993 20:52:36 GMT
+	<c5ol74.3b1@aeon.in-berlin.de> <1993apr22.173546.5198@gecko.uucp>
+ date: fri, 23 apr 1993 20:52:36 gmt
  
- In article <1993Apr22.173546.5198@gecko.uucp> lanzo@tekelec.com (Mark Lanzo) writes:
+ in article <1993apr22.173546.5198@gecko.uucp> lanzo@tekelec.com (mark lanzo) writes:
  
-        [Hint for Sun OS users:  use /usr/5bin/echo instead of
-        /bin/echo or Csh's built-in echo.  Otherwise you'll have
-        to embed literal ESC and BEL characters in the string
+        [hint for sun os users:  use /usr/5bin/echo instead of
+        /bin/echo or csh's built-in echo.  otherwise you'll have
+        to embed literal esc and bel characters in the string
         instead of using convenient octal sequences.]
  
- Bad idea. using /usr/5bin/echo is slower than the built-in echo.
- This is what I do. It does execute `hostname` once per shell window,
- and does read in one extra file. But manipluating the titles does not
+ bad idea. using /usr/5bin/echo is slower than the built-in echo.
+ this is what i do. it does execute `hostname` once per shell window,
+ and does read in one extra file. but manipluating the titles does not
  require executing extra programs.
  
- Oh yes, it does execute some programs once per each system. 
- But it stores them in a file for the next time...
+ oh yes, it does execute some programs once per each system. 
+ but it stores them in a file for the next time...
  
  
- if ( ! $?HOSTNAME ) then
- 	setenv  HOSTNAME `hostname`
+ if ( ! $?hostname ) then
+ 	setenv  hostname `hostname`
  endif
  
  # figure how how to generate escape, bell, 
  # and echo commands without a a line terminator
- # I may have done this before. If so, the variable E is set
+ # i may have done this before. if so, the variable e is set
  
- # have I executed this script before on this system?
- if ( $?E ) then
+ # have i executed this script before on this system?
+ if ( $?e ) then
  #	echo "already set the echo variables">/dev/tty
- else if ( -f ~/.echo.${HOSTNAME} ) then
- 	source ~/.echo.${HOSTNAME}
+ else if ( -f ~/.echo.${hostname} ) then
+ 	source ~/.echo.${hostname}
  else if ( `echo -n |wc -l`  == 0 ) then
  #	echo "built in echo is bsd" >/dev/tty
  	# then berkeley style echo
- 	echo 'set ech = "echo -n"' >~/.echo.${HOSTNAME}
- 	echo "set E = `echo a | tr a '\033'`" >> ~/.echo.${HOSTNAME}
- 	echo "set B = `echo a | tr a '\007'`" >> ~/.echo.${HOSTNAME}
- 	echo 'set N = ""' >> ~/.echo.${HOSTNAME}
- 	source ~/.echo.${HOSTNAME}
+ 	echo 'set ech = "echo -n"' >~/.echo.${hostname}
+ 	echo "set e = `echo a | tr a '\033'`" >> ~/.echo.${hostname}
+ 	echo "set b = `echo a | tr a '\007'`" >> ~/.echo.${hostname}
+ 	echo 'set n = ""' >> ~/.echo.${hostname}
+ 	source ~/.echo.${hostname}
  else 
- #	echo "built in echo is sysV" >/dev/tty
- 	echo 'set ech = "echo"' >~/.echo.${HOSTNAME}
- 	echo 'set E = "\033"' >> ~/.echo.${HOSTNAME}
- 	echo 'set B = "\007"' >> ~/.echo.${HOSTNAME}
- 	echo 'set N = "\c"' >> ~/.echo.${HOSTNAME}
- 	source ~/.echo.${HOSTNAME}
+ #	echo "built in echo is sysv" >/dev/tty
+ 	echo 'set ech = "echo"' >~/.echo.${hostname}
+ 	echo 'set e = "\033"' >> ~/.echo.${hostname}
+ 	echo 'set b = "\007"' >> ~/.echo.${hostname}
+ 	echo 'set n = "\c"' >> ~/.echo.${hostname}
+ 	source ~/.echo.${hostname}
  endif	
  
  
- # Are we using shelltool, cmdtool or xterm?
+ # are we using shelltool, cmdtool or xterm?
  # duplicate these aliases here to avoid problems
  if ( $term =~ sun* ) then
- 	# Sun Aliases
- 	alias Header '${ech}  "${E}]l\!:1${E}\${N}"'
- 	alias IHeader '${ech}  "${E}]L\!:1${E}\${N}"'
+ 	# sun aliases
+ 	alias header '${ech}  "${e}]l\!:1${e}\${n}"'
+ 	alias iheader '${ech}  "${e}]l\!:1${e}\${n}"'
  else if ( $term =~ xterm ) then
- 	alias Header '${ech}  "${E}]2;\!:1${B}${N}"'
- 	alias IHeader '${ech}  "${E}]1;\!:1${B}${N}"'
+ 	alias header '${ech}  "${e}]2;\!:1${b}${n}"'
+ 	alias iheader '${ech}  "${e}]1;\!:1${b}${n}"'
  endif
  
  
  
  --
- Bruce Barnett <barnett@crd.ge.com> uunet!crdgw1!barnett
+ bruce barnett <barnett@crd.ge.com> uunet!crdgw1!barnett
  

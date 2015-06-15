@@ -1,22 +1,22 @@
 
  
- In article <1993Apr27.210719.19146@Princeton.EDU> phoenix.Princeton.EDU!carlosn (Carlos G. Niederstrasser) writes:
- >Does anyone have the documentation for the MS Mouse Driver 8.2?  I got it when  
- >I got Windows 3.1, but my Windows manual does not come with the documentation.   
- >In particular I need to know how to turn it off, and how to speed it up  
- >outside windows.  The greater sensitivity is needed so I can play various  
- >games, esp X-wing :)
+ in article <1993apr27.210719.19146@princeton.edu> phoenix.princeton.edu!carlosn (carlos g. niederstrasser) writes:
+ >does anyone have the documentation for the ms mouse driver 8.2?  i got it when  
+ >i got windows 3.1, but my windows manual does not come with the documentation.   
+ >in particular i need to know how to turn it off, and how to speed it up  
+ >outside windows.  the greater sensitivity is needed so i can play various  
+ >games, esp x-wing :)
  >
  
- The sensitivity is changed using the /S, /V, or /H parameter.  
- The commands do the following:
- /V - vertical sensitivity
- /H - horizontal sensitivity
- /S - both 
+ the sensitivity is changed using the /s, /v, or /h parameter.  
+ the commands do the following:
+ /v - vertical sensitivity
+ /h - horizontal sensitivity
+ /s - both 
  
- Follow the parameter with a number from 1 to 100 (1 - slowest, 100-fastest).
- The default is 50.  You can type the command "mouse /S75" right from the
+ follow the parameter with a number from 1 to 100 (1 - slowest, 100-fastest).
+ the default is 50.  you can type the command "mouse /s75" right from the
  keyboard or add it to autoexec.bat.
  
- Hope this helps.
+ hope this helps.
  

@@ -1,26 +1,26 @@
 
  
  
- Well, after massaging the Dec.cf, osf.def, (can't remember the exact names)
- from OSF into my normal X11R5 distribution, everything compiles and links
+ well, after massaging the dec.cf, osf.def, (can't remember the exact names)
+ from osf into my normal x11r5 distribution, everything compiles and links
  fine, but xterm doesn't run.
  
  
- Warning: Representation size 8 must match superclass's to override background
- Warning: translation table syntax error: Modifier or '<' expected
- Warning: ... found while parsing 'p^#j?;'P)=#'
- X Error of failed request:  BadColor (invalid Colormap parameter)
-   Major opcode of failed request:  85 (X_AllocNamedColor)
-   Resource id in failed request:  0x0
-   Serial number of failed request:  18
-   Current serial number in output stream:  18
+ warning: representation size 8 must match superclass's to override background
+ warning: translation table syntax error: modifier or '<' expected
+ warning: ... found while parsing 'p^#j?;'p)=#'
+ x error of failed request:  badcolor (invalid colormap parameter)
+   major opcode of failed request:  85 (x_allocnamedcolor)
+   resource id in failed request:  0x0
+   serial number of failed request:  18
+   current serial number in output stream:  18
  
- Other than this, all the other core X stuff seems to be working OK.  Any
+ other than this, all the other core x stuff seems to be working ok.  any
  hints/tips appreciated, patches would be primo.
  
- Thanks.
+ thanks.
  -- 
-  Jaye Mathisen, COE Systems Manager                (406) 994-4780
-  410 Roberts Hall,Dept. of Computer Science
-  Montana State University,Bozeman MT 59717	osyjm@cs.montana.edu
+  jaye mathisen, coe systems manager                (406) 994-4780
+  410 roberts hall,dept. of computer science
+  montana state university,bozeman mt 59717	osyjm@cs.montana.edu
  

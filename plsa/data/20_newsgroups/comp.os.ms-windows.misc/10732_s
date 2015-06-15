@@ -1,17 +1,17 @@
 
- Alwin Hoogerdijk (alwin@zen.et.tudelft.nl) wrote:
- : julio.botelho@hlbbs.uucp (Julio Botelho) writes:
- : >IS3does anyone know whether or not it is possible to have 2 monitors working
- : >IS3with Microsoft Windows 3.1? I have a Taxan Multi Vision 550 and a NEC
+ alwin hoogerdijk (alwin@zen.et.tudelft.nl) wrote:
+ : julio.botelho@hlbbs.uucp (julio botelho) writes:
+ : >is3does anyone know whether or not it is possible to have 2 monitors working
+ : >is3with microsoft windows 3.1? i have a taxan multi vision 550 and a nec
  
- : This may work when using a VGA and a Hercules card in one system, but
- : using two VGA-cards in one system will never work. 
+ : this may work when using a vga and a hercules card in one system, but
+ : using two vga-cards in one system will never work. 
  
- I believe that two 8514 (8514/A?) may be used in tandem on one system.
- This is the one exception to the VGA+Mono dual monitor combo that I
- have heard about.  Has anybody done this?
+ i believe that two 8514 (8514/a?) may be used in tandem on one system.
+ this is the one exception to the vga+mono dual monitor combo that i
+ have heard about.  has anybody done this?
  
- --Jim Mc.
- ------  James D. McNamara, Member of Technical Staff, TASC  -------
- 55 Walkers Brook Drive | Reading, MA 01867-3238 | 617-942-2000x2948
+ --jim mc.
+ ------  james d. mcnamara, member of technical staff, tasc  -------
+ 55 walkers brook drive | reading, ma 01867-3238 | 617-942-2000x2948
  

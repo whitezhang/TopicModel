@@ -1,42 +1,42 @@
 
  lioness@maple.circa.ufl.edu wrote:
  : 
- : Okay, here is my configuration:
+ : okay, here is my configuration:
  : 
- : 80486-33 Gateway 433C Micronics ISA
- : 12MB RAM 
- : WD212MB IDE HD ( drive C: )
- : ST3144A 125MB IDE HD ( drive D: )
- : Adaptec SCSI 1542B controller, with SCSI BIOS enabled
- : Seagate ST296N 80MB SCSI drive
+ : 80486-33 gateway 433c micronics isa
+ : 12mb ram 
+ : wd212mb ide hd ( drive c: )
+ : st3144a 125mb ide hd ( drive d: )
+ : adaptec scsi 1542b controller, with scsi bios enabled
+ : seagate st296n 80mb scsi drive
  : 
- : Alrighty, when I boot up I get the Adaptec BIOS message, but it says
+ : alrighty, when i boot up i get the adaptec bios message, but it says
  : something like:
  : 
- : "Drive C: installed"
- : "Drive D: installed"
- : "ADaptec SCSI BIOS not installed!"
+ : "drive c: installed"
+ : "drive d: installed"
+ : "adaptec scsi bios not installed!"
  : 
- : And I can't get to the Seagate drive.
+ : and i can't get to the seagate drive.
  : 
- : I go into PhoenixBIOS setup, remove the entry for drive D:, and BOOM, I can
- : access the Seagate.  Is there a way to get two IDE drives and the Seagate
- : at the same time?  I have ASPI4DOS.SYS, but it just hangs the system.
+ : i go into phoenixbios setup, remove the entry for drive d:, and boom, i can
+ : access the seagate.  is there a way to get two ide drives and the seagate
+ : at the same time?  i have aspi4dos.sys, but it just hangs the system.
  : 
- : Brian
+ : brian
  : 
  
- There is a simple answer.  If my memory serves me the scsi bios will only
- work as the first or second drive.  Any "built-in" drives e.g. IDE are
+ there is a simple answer.  if my memory serves me the scsi bios will only
+ work as the first or second drive.  any "built-in" drives e.g. ide are
  installed first and then when the scsi bios runs it will try to install
- as the next drive.  But if there are already two drives, then no can do.
+ as the next drive.  but if there are already two drives, then no can do.
  
- The solution is simple: use the aspi4dos device driver and disable the
- scsi bios (as it is useless in your case).  It works like a champ!  I
+ the solution is simple: use the aspi4dos device driver and disable the
+ scsi bios (as it is useless in your case).  it works like a champ!  i
  have seen a similar situation before.
  
- Good Luck
+ good luck
  
- Gordon Lang
+ gordon lang
  
  

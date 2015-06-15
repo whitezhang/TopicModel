@@ -1,10 +1,10 @@
 
- In article <1ps6pjINNdua@rave.larc.nasa.gov> jka@air77.larc.nasa.gov writes:
- )  The documentation says that Wordperfect for windows, requires 4 M of ram, but
- )when I try to install it on my laptop I get a not enough memory error message.
- )I've unloaded everything that I possibly could but still, NOT ENOUGH MEMORY.
- )Anyone have any ideas as to why this might be happening. 
+ in article <1ps6pjinndua@rave.larc.nasa.gov> jka@air77.larc.nasa.gov writes:
+ )  the documentation says that wordperfect for windows, requires 4 m of ram, but
+ )when i try to install it on my laptop i get a not enough memory error message.
+ )i've unloaded everything that i possibly could but still, not enough memory.
+ )anyone have any ideas as to why this might be happening. 
  
- 	Are you sure you're not running Windows in real mode ? Is it Windows
- 3.1 ? Do you have a permanent swapfile built ?
+ 	are you sure you're not running windows in real mode ? is it windows
+ 3.1 ? do you have a permanent swapfile built ?
  

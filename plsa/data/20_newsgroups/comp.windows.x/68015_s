@@ -1,41 +1,41 @@
 
- mark@taylor.uucp (Mark A. Davis) writes:
+ mark@taylor.uucp (mark a. davis) writes:
  
- >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 3443) writes:
+ >markw@pspmf3.gpsemi.com (mark wilkinson - ext 3443) writes:
  
  [...]
  
- >*BUT*  your performance WILL suck lemons running an Xserver on a clone.
- >(From experience).  You would be much better off with an Xterminal if this
- >is a new install.  The performance will be at least four times better.
- >In addition it would be MUCH easier to install and use.  On top of that
- >they will cost about the same (price a clone with 4MB RAM, ethernet card,
- >very high performance graphics card, GOOD monitor, server software, TCP/IP
+ >*but*  your performance will suck lemons running an xserver on a clone.
+ >(from experience).  you would be much better off with an xterminal if this
+ >is a new install.  the performance will be at least four times better.
+ >in addition it would be much easier to install and use.  on top of that
+ >they will cost about the same (price a clone with 4mb ram, ethernet card,
+ >very high performance graphics card, good monitor, server software, tcp/ip
  >for clone software, mouse, keyboard, etc, etc, etc.... you spend a whole
  >lot of $$$$).
  
- >I can get 15" Tektronix XP11 terminals for under $900, and the performance
- >is over 80000 Xstones.....
+ >i can get 15" tektronix xp11 terminals for under $900, and the performance
+ >is over 80000 xstones.....
  >-- 
  >  /--------------------------------------------------------------------------\
- >  | Mark A. Davis    | Lake Taylor Hospital | Norfolk, VA (804)-461-5001x431 |
- >  | Sys.Administrator|  Computer Services   | mark@taylor / mark@taylor.UUCP |
+ >  | mark a. davis    | lake taylor hospital | norfolk, va (804)-461-5001x431 |
+ >  | sys.administrator|  computer services   | mark@taylor / mark@taylor.uucp |
  >  \--------------------------------------------------------------------------/
  
- I think your performance will depend upon the X server. 
+ i think your performance will depend upon the x server. 
  
- I'm running Linux and XFree86 on a 33Mhz 486DX with 4MB of RAM (8MB swap) and
- it runs just fine.  Its a lot better than some of the crappy old Xterminals
+ i'm running linux and xfree86 on a 33mhz 486dx with 4mb of ram (8mb swap) and
+ it runs just fine.  its a lot better than some of the crappy old xterminals
  in the labs at school anyway.
  
- You could probably outfit a 386SX with a minimal Linux/X setup for $900
- and be better off than with an Xterminal. IMHO.
+ you could probably outfit a 386sx with a minimal linux/x setup for $900
+ and be better off than with an xterminal. imho.
  
  
- Scott
+ scott
  --
  -------------------------------------------------------------------------
- J. Scott Farrow	- Student SysAdmin/Programmer, University of Colorado
- Computing & Network Services, Boulder, Colorado, USA, phone:(303)492-4428
- Internet: farrow@spot.colorado.edu           "Linux Users Do It For Free"
+ j. scott farrow	- student sysadmin/programmer, university of colorado
+ computing & network services, boulder, colorado, usa, phone:(303)492-4428
+ internet: farrow@spot.colorado.edu           "linux users do it for free"
  

@@ -1,30 +1,30 @@
 
- I'm a mac user who wants to use some of the rayshade models I've built
- using macrayshade (rayshade-M) with Stratavision 3d.  Since Stratavision
- can import many different model files I thought this would be a cinch...
- but I haven't been able to find a simple translator that will work on the
- mac.  Any ideas?
+ i'm a mac user who wants to use some of the rayshade models i've built
+ using macrayshade (rayshade-m) with stratavision 3d.  since stratavision
+ can import many different model files i thought this would be a cinch...
+ but i haven't been able to find a simple translator that will work on the
+ mac.  any ideas?
  
- Stratavision 3d should be able to import:
+ stratavision 3d should be able to import:
  
- DXF
- MiniCAD
- Super 3d
- Swivel 3d professional
+ dxf
+ minicad
+ super 3d
+ swivel 3d professional
  
  out of the box and:
  
- RIB
- IGS
+ rib
+ igs
  
  with externals.
  
- Also, if anyone knows of any other translator externals available for
- Stratavision 3d (esp. Rayshade!) please e-mail me!
+ also, if anyone knows of any other translator externals available for
+ stratavision 3d (esp. rayshade!) please e-mail me!
  
- BTW, I'm going to send mail to the rayshade usrs mailing list tomorrow (I
+ btw, i'm going to send mail to the rayshade usrs mailing list tomorrow (i
  misplaced the address) but since most users of rayshade do not seem to
- operate with macs, I'm not getting my hopes up...
+ operate with macs, i'm not getting my hopes up...
  
  thanks in advance,
  

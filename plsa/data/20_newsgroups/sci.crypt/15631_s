@@ -1,34 +1,34 @@
-	<1993Apr20.150531.2059@magnus.acs.ohio-state.edu>
- 	<1993Apr20.192105.11751@ulysses.att.com> <C5sy1z.4tD@demon.co.uk>
- 	<1993Apr21.132318.16981@ulysses.att.com>
- NNTP-Posting-Host: amber.ssd.csd.harris.com
- In-reply-to: smb@research.att.com's message of Wed, 21 Apr 1993 13:23:18 GMT
+	<1993apr20.150531.2059@magnus.acs.ohio-state.edu>
+ 	<1993apr20.192105.11751@ulysses.att.com> <c5sy1z.4td@demon.co.uk>
+ 	<1993apr21.132318.16981@ulysses.att.com>
+ nntp-posting-host: amber.ssd.csd.harris.com
+ in-reply-to: smb@research.att.com's message of wed, 21 apr 1993 13:23:18 gmt
  
- >I don't like the unit key generation process any better than you do.
- >However -- S1 and S2 are supposed to be under control of the same
- >escrow agents.  If they can't be trusted to keep the seed values secure,
+ >i don't like the unit key generation process any better than you do.
+ >however -- s1 and s2 are supposed to be under control of the same
+ >escrow agents.  if they can't be trusted to keep the seed values secure,
  >they can't be trusted to keep the half-keys secure.
  
- I hope there is something I don't understand about this system, but can
+ i hope there is something i don't understand about this system, but can
  someone tell me how these chips are going to be manufactured while maintaining
- each half key under total control of the separate escrow agencies? Don't
+ each half key under total control of the separate escrow agencies? don't
  both halfs of the key have to come together (in some form) at the time
  the chip is constructed?
  
- Or is it built like a fusable prom, with the chip being sent to the 1st
+ or is it built like a fusable prom, with the chip being sent to the 1st
  escrow agency to program its 1/2 key, then the 2nd agency to program its
  1/2 key (but who invents the safeguards that prevent the 2nd agency from
  reading the information already programmed by the 1st)?
  
- This isn't intended to be a flame or anything, I am just really curious
+ this isn't intended to be a flame or anything, i am just really curious
  how to manufacture these things while still maintaining the key escrow
  security without simply saying "trust the manufacturer, they won't look".
  --
  ======================================================================
- domain: tahorsley@csd.harris.com       USMail: Tom Horsley
-   uucp: ...!uunet!hcx1!tahorsley               511 Kingbird Circle
-                                                Delray Beach, FL  33444
- +==== Censorship is the only form of Obscenity ======================+
- |     (Wait, I forgot government tobacco subsidies...)               |
+ domain: tahorsley@csd.harris.com       usmail: tom horsley
+   uucp: ...!uunet!hcx1!tahorsley               511 kingbird circle
+                                                delray beach, fl  33444
+ +==== censorship is the only form of obscenity ======================+
+ |     (wait, i forgot government tobacco subsidies...)               |
  +====================================================================+
  

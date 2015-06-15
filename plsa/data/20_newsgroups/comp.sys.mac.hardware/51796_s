@@ -1,22 +1,22 @@
 
- Hi everyone. I recently posted about how I received a bad vram chip for my
- new LCIII, and someone responded that it may not actually be bad, but it may
- be a 512K LC vram chip, and thus doesn't work properly with my computer. So
- I'm wondering if anyone can interpret these codes for me, so I can figure
- out what type of chip MacConnection sent me.
+ hi everyone. i recently posted about how i received a bad vram chip for my
+ new lciii, and someone responded that it may not actually be bad, but it may
+ be a 512k lc vram chip, and thus doesn't work properly with my computer. so
+ i'm wondering if anyone can interpret these codes for me, so i can figure
+ out what type of chip macconnection sent me.
  
- Each chip says: M518121A-80J
+ each chip says: m518121a-80j
  		 2515251
  
- On the back of the card, it says 0593
+ on the back of the card, it says 0593
  
- I believe from the numbers that means it is an 80ns chip, but I can't figure
- out what the size is supposed to be. If anyone can help, I'd be grateful.
- Please email me your response. Thanks a lot!
+ i believe from the numbers that means it is an 80ns chip, but i can't figure
+ out what the size is supposed to be. if anyone can help, i'd be grateful.
+ please email me your response. thanks a lot!
  
  -- 
- Hillel Sims  -----  simsh@rpi.edu  -----  Rensselaer Polytechnic Institute
+ hillel sims  -----  simsh@rpi.edu  -----  rensselaer polytechnic institute
  
- "Is rot13 rotated 13 forward or backward?"
- 	--Anonymous
+ "is rot13 rotated 13 forward or backward?"
+ 	--anonymous
  

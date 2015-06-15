@@ -1,24 +1,24 @@
 
- In article <C5y121.Kz3@liverpool.ac.uk> qq43@liverpool.ac.uk (Chris Wooff) writes:
- >A while ago I installed SPSS for Windows as part of an evaluation. Once
- >the evaluation was complete I duly deleted the software from my PC.
+ in article <c5y121.kz3@liverpool.ac.uk> qq43@liverpool.ac.uk (chris wooff) writes:
+ >a while ago i installed spss for windows as part of an evaluation. once
+ >the evaluation was complete i duly deleted the software from my pc.
  >
- >Unfortunately there is still a "ghost" of SPSS left: when I run
- >something like "Write" and go to embed an object then "SPSS Chart"
- >appears on the list of objects I'm offered. I looked around all
- >the obvious "INI" files without success. The next thing I tried
- >was looking for the string "SPSS Chart" in every file in the 
- >Windows directory. It turned up in a file called REQ.DAT (or
- >REG.DAT). Unfortunately the file was binary and so I didn't feel
+ >unfortunately there is still a "ghost" of spss left: when i run
+ >something like "write" and go to embed an object then "spss chart"
+ >appears on the list of objects i'm offered. i looked around all
+ >the obvious "ini" files without success. the next thing i tried
+ >was looking for the string "spss chart" in every file in the 
+ >windows directory. it turned up in a file called req.dat (or
+ >reg.dat). unfortunately the file was binary and so i didn't feel
  >inclined to edit it.
  >
- >I'd welcome a solution for removing SPSS from the list of OLE servers.
-  I think you can do this with REGEDIT, which can make changes
- to the OLE registration database.  From Program Manager (or 
- File Manager) choose RUN and type REGEDIT.  You do have it-
- its included with Windows, but not well documented.
+ >i'd welcome a solution for removing spss from the list of ole servers.
+  i think you can do this with regedit, which can make changes
+ to the ole registration database.  from program manager (or 
+ file manager) choose run and type regedit.  you do have it-
+ its included with windows, but not well documented.
  
- Tom
+ tom
  paladin@world.std.com
  
  

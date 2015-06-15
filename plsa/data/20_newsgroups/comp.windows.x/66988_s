@@ -1,129 +1,129 @@
 
- Contents:Problems with table widgets in R5
+ contents:problems with table widgets in r5
  
- 	The following part of a program (an user interface for a simulation
- 	system) did work in R4, but refused to in R5. Of cause, the R4-version
- 	did not know about the xpTableWidgetClass (we used tableWidgetClass 			instead - caught from the net in times of R3) and XpTableChildPosition 			(formerly XtTblPosition).
- 	Since compiling with R5, the program causes a zero width or height error
- 	(on sparc-stations). The trouble-shooter is the (re)computation of the
- 	model_init_table - table widget: though its childs (label and asciiText 
- 	widgets) exist, XtQueryGeometry returns a prefered width and height of 			zero. 
- 	Thus the following asignment cannot perform anything else but set the 			width and height of the newly created widget to zero. No wonder XtPopup 		or XtManage- Child create zero width or height errors (dependent on 			whether width and height of the shell widget are set in the resource 			file or not).
+ 	the following part of a program (an user interface for a simulation
+ 	system) did work in r4, but refused to in r5. of cause, the r4-version
+ 	did not know about the xptablewidgetclass (we used tablewidgetclass 			instead - caught from the net in times of r3) and xptablechildposition 			(formerly xttblposition).
+ 	since compiling with r5, the program causes a zero width or height error
+ 	(on sparc-stations). the trouble-shooter is the (re)computation of the
+ 	model_init_table - table widget: though its childs (label and asciitext 
+ 	widgets) exist, xtquerygeometry returns a prefered width and height of 			zero. 
+ 	thus the following asignment cannot perform anything else but set the 			width and height of the newly created widget to zero. no wonder xtpopup 		or xtmanage- child create zero width or height errors (dependent on 			whether width and height of the shell widget are set in the resource 			file or not).
  	
- 	Question: Does anyone know, why XtQueryGeometry returns so low prefered
+ 	question: does anyone know, why xtquerygeometry returns so low prefered
  			values when working on table widgets or perhaps what
  			to do about?
  
- 	I'll be happy, if someone is able to help me. 
- 	Germans are requested to answer in german.
+ 	i'll be happy, if someone is able to help me. 
+ 	germans are requested to answer in german.
  	
- 	Siegfried Kaiser
+ 	siegfried kaiser
  	email: kaiser@uniko.uni-koblenz.de
  
  	
- 	The part of interest:
+ 	the part of interest:
  
  
- 	/* Graphischer Neuaufbau des Model-Init-Formulars */
- 		/* Storing the old width and height of the viewport-	*/
+ 	/* graphischer neuaufbau des model-init-formulars */
+ 		/* storing the old width and height of the viewport-	*/
  		/* widget, which is the parent of the troubling table	*/
  		/* widget, before the viewport widget is destroyed	*/
- 		/* The destroying of widgets before resizing them is a	*/
- 		/* relict from R3-age					*/
+ 		/* the destroying of widgets before resizing them is a	*/
+ 		/* relict from r3-age					*/
  	
  	if (model_init_popped_up) 
- 		XtUnmapWidget(model_init_form_view);
- 	XtDestroyWidget(model_init_form_view);
+ 		xtunmapwidget(model_init_form_view);
+ 	xtdestroywidget(model_init_form_view);
  	
- 		/* Creating the subtree within the shell, of which the	*/
+ 		/* creating the subtree within the shell, of which the	*/
  		/* root is the viewport widget				*/
  	
  	n = 0;
- 	XtSetArg(args[n],XtNfromVert,model_init_title); n++;
- 	XtSetArg(args[n],XtNfromHoriz,model_init_button_view); n++;
- 	XtSetArg(args[n],XtNallowVert,True); n++;
- 	XtSetArg(args[n],XtNforceBars,True); n++;
- 	model_init_form_view = XtCreateWidget("form_view",viewportWidgetClass,
+ 	xtsetarg(args[n],xtnfromvert,model_init_title); n++;
+ 	xtsetarg(args[n],xtnfromhoriz,model_init_button_view); n++;
+ 	xtsetarg(args[n],xtnallowvert,true); n++;
+ 	xtsetarg(args[n],xtnforcebars,true); n++;
+ 	model_init_form_view = xtcreatewidget("form_view",viewportwidgetclass,
  					      model_init_form,args,n);
  
  	n = 0;
- 	model_init_table = XtCreateWidget("table",xpTableWidgetClass,
+ 	model_init_table = xtcreatewidget("table",xptablewidgetclass,
  					  model_init_form_view,args,n);
  
  		/* create_form_widget does create and position table	*/
- 		/* widget's childs. To position them it uses XpTable-	*/
- 		/* ChildPosition in R5 and XtTblPosition in R4		*/
+ 		/* widget's childs. to position them it uses xptable-	*/
+ 		/* childposition in r5 and xttblposition in r4		*/
  					 
  	create_form_widget(ptr_model_init_obj,model_init_table);
  
  		/* 							*/
- 		/* The crucial function call:				*/
+ 		/* the crucial function call:				*/
  		/* intended to return the maximum height possible: if	*/
  		/* there isn't sufficient space to show the whole table	*/
  		/* widget, then the viewport shall grow as large as 	*/
  		/* possible, but not beyond the border of screen.	*/
- 		/* If there is enough space, the window is intended to	*/
+ 		/* if there is enough space, the window is intended to	*/
  		/* shrienk to the smallest possible height.		*/
  		/*							*/
  
- 	XtQueryGeometry(model_init_table,NULL,&pref);
+ 	xtquerygeometry(model_init_table,null,&pref);
  
- 		/* According to the algorithms idea, the new value of	*/
- 		/* viewport widget's height is selected. Unfortunately	*/
+ 		/* according to the algorithms idea, the new value of	*/
+ 		/* viewport widget's height is selected. unfortunately	*/
  		/* pref.height = 0 leads to new_height = 0.		*/
  		
  	if (form_view_height > pref.height) new_height = pref.height;
  	else new_height = form_view_height;
  
- 		/* Setting the new values to viewport widgets ancestors	*/
+ 		/* setting the new values to viewport widgets ancestors	*/
  
- 	w = XtNameToWidget(model_init_form,"form_view");
- 	XtResizeWidget(w,width,new_height,pref.border_width);
- 	XtResizeWidget(model_init_form_view,width,new_height,
+ 	w = xtnametowidget(model_init_form,"form_view");
+ 	xtresizewidget(w,width,new_height,pref.border_width);
+ 	xtresizewidget(model_init_form_view,width,new_height,
  		       pref.border_width);
  
  	if (model_init_popped_up)
  	{
- 		/* In case the shell, which contains model_init_form_-	*/
+ 		/* in case the shell, which contains model_init_form_-	*/
  		/* view and model_init_table, allready exists, is has	*/
  		/* to be resized, too.					*/
  		
  	 n = 0;
- 	 XtSetArg(args[n],XtNwidth,&shell_width); n++;
- 	 XtSetArg(args[n],XtNheight,&shell_height); n++;
- 	 XtSetArg(args[n],XtNborderWidth,&shell_bw); n++;
- 	 XtGetValues(model_init_shell,args,n);
- 	 XtResizeWidget(model_init_shell,shell_width,
+ 	 xtsetarg(args[n],xtnwidth,&shell_width); n++;
+ 	 xtsetarg(args[n],xtnheight,&shell_height); n++;
+ 	 xtsetarg(args[n],xtnborderwidth,&shell_bw); n++;
+ 	 xtgetvalues(model_init_shell,args,n);
+ 	 xtresizewidget(model_init_shell,shell_width,
  			shell_height - height + new_height,shell_bw);
  	}; /* end of if */
  
  	n = 0;
- 	XtSetArg(args[n],XtNwidth,&width); n++;
- 	XtSetArg(args[n],XtNborderWidth,&bw); n++;
- 	XtGetValues(model_init_button_view,args,n);
- 	XtResizeWidget(model_init_button_view,width,new_height,bw);
+ 	xtsetarg(args[n],xtnwidth,&width); n++;
+ 	xtsetarg(args[n],xtnborderwidth,&bw); n++;
+ 	xtgetvalues(model_init_button_view,args,n);
+ 	xtresizewidget(model_init_button_view,width,new_height,bw);
  
- 	XtResizeWidget(vert_bar,sbar_width,1,sbar_bw);
+ 	xtresizewidget(vert_bar,sbar_width,1,sbar_bw);
  	
  	resize_inits();
  
- 		/* If there is the shell's height set within the 	*/
+ 		/* if there is the shell's height set within the 	*/
  		/* resource file, the program terminates within the	*/
- 		/* first XtManageChild on its second pass through the	*/
- 		/* observed function. The first pass succeeds.		*/
+ 		/* first xtmanagechild on its second pass through the	*/
+ 		/* observed function. the first pass succeeds.		*/
  
- 	XtManageChild(model_init_form_view);
- 	XtManageChild(model_init_table);
+ 	xtmanagechild(model_init_form_view);
+ 	xtmanagechild(model_init_table);
  
  
  	if (!model_init_popped_up)
  	{
- 		/* In case the shell isn't popped up it has to be done.	*/
- 		/* If there is no value set to the shell's height within*/
+ 		/* in case the shell isn't popped up it has to be done.	*/
+ 		/* if there is no value set to the shell's height within*/
  		/* the resource file, the program terminates here.	*/
  		
- 	 XtPopup(model_init_shell,XtGrabNone);
- 	 model_init_pop_flag = True;
+ 	 xtpopup(model_init_shell,xtgrabnone);
+ 	 model_init_pop_flag = true;
  	 set_model_init_attributes();
  	}; /* end of if */
  
@@ -133,85 +133,85 @@
  	
  	
  	/*								*/
- 	/* If someone suspects the creation of table widget's contents	*/
+ 	/* if someone suspects the creation of table widget's contents	*/
  	/* causes all the trouble, there are the sources of create_form */
  	/*								*/
  	
  		
  	create_form_widget(ptr,table)
  	t_obj              *ptr;
- 	Widget             table;
+ 	widget             table;
  		
  		/* ptr is a linear list containing attributes and para-	*/
  		/* meters of the model and additionally the correspon-	*/
  		/* ding widgets						*/
  		
  	{
- 	 Arg               args[10];
+ 	 arg               args[10];
  	 int               n,
  			   row,
  			   col;
  	 t_obj             *ptr_obj;
  	 t_ident           *ptr_ident;
  
- 		/* Initialization of the local variables		*/
+ 		/* initialization of the local variables		*/
  		
  	 ptr_obj = ptr;
  	 col = 0;
  	 row = 0;
   
- 	 /* Schleife ueber die Objekte bzw. das Pseudo-Objekt (fuer die 				Parameter) */
+ 	 /* schleife ueber die objekte bzw. das pseudo-objekt (fuer die 				parameter) */
  		/* loop through the list of objects and pseudo-objects:	*/
  		/* every object occuring in the model has zero or more	*/
  		/* attributes and some parameters, which can be shared	*/
  		/* by several objects. 					*/
- 		/* Because of locality the attributes of one object are	*/
+ 		/* because of locality the attributes of one object are	*/
  		/* listed in a second linear list (of type t_ident),	*/
  		/* whereas the parameters, which can belong to any ob-	*/
  		/* ject are put together in a pseudo-object 		*/
- 		/* Thus the program loops through the list of objects	*/
+ 		/* thus the program loops through the list of objects	*/
  		/* and pseudo-objects and for each object through the	*/
  		/* list of its attributes resp. parameters.		*/
  		
- 	 while (ptr_obj != (t_obj*)NULL)
+ 	 while (ptr_obj != (t_obj*)null)
  	 {
- 	 	/* Each object and pseudo-object is represented in a	*/
+ 	 	/* each object and pseudo-object is represented in a	*/
  	 	/* label widget						*/
  	  
  	  n = 0;
- 	  XtSetArg(args[n],XtNlabel,ptr_obj->name); n++;
- 	  ptr_obj->label_w = XtCreateManagedWidget("object",labelWidgetClass,
+ 	  xtsetarg(args[n],xtnlabel,ptr_obj->name); n++;
+ 	  ptr_obj->label_w = xtcreatemanagedwidget("object",labelwidgetclass,
  					   table,args,n);
- 	  XpTableChildPosition(ptr_obj->label_w,col,row);
+ 	  xptablechildposition(ptr_obj->label_w,col,row);
  	  col++;
  	  row++;
  	  ptr_ident = ptr_obj->ident;
  
- 	  /* Schleife ueber die Objekt-Attribute bzw. Parameter */
- 	  while (ptr_ident != (t_ident*)NULL)
+ 	  /* schleife ueber die objekt-attribute bzw. parameter */
+ 	  while (ptr_ident != (t_ident*)null)
  	  {
- 	  	/* Each attribute and parameter is represented in a	*/
- 	  	/* label and has a corresponding asciiText widget, in 	*/
+ 	  	/* each attribute and parameter is represented in a	*/
+ 	  	/* label and has a corresponding asciitext widget, in 	*/
  	  	/* which it is to be initialized.			*/
  	  	
  	   n = 0;
- 	   XtSetArg(args[n],XtNlabel,ptr_ident->name); n++;
- 	   ptr_ident->label_w = XtCreateManagedWidget("ident",labelWidgetClass,
+ 	   xtsetarg(args[n],xtnlabel,ptr_ident->name); n++;
+ 	   ptr_ident->label_w = xtcreatemanagedwidget("ident",labelwidgetclass,
  					      table,args,n);
- 	   XpTableChildPosition(ptr_ident->label_w,col,row);
+ 	   xptablechildposition(ptr_ident->label_w,col,row);
  	   col++;
      
  	   n = 0;
- 	   XtSetArg(args[n],XtNlength,ROW_LENGTH); n++;
- 	   XtSetArg(args[n],XtNstring,ptr_ident->text); n++;
- 	   XtSetArg(args[n],XtNeditType,XawtextEdit); n++;
- 	   XtSetArg(args[n],XtNwrap,XawtextWrapWord); n++;
- 	   XtSetArg(args[n],XtNresize,XawtextResizeHeight); n++;
- 	   XtSetArg(args[n],XtNuseStringInPlace,True); n++;
- 	   ptr_ident->text_w = XtCreateManagedWidget("text",
- 					asciiTextWidgetClass,
+ 	   xtsetarg(args[n],xtnlength,row_length); n++;
+ 	   xtsetarg(args[n],xtnstring,ptr_ident->text); n++;
+ 	   xtsetarg(args[n],xtnedittype,xawtextedit); n++;
+ 	   xtsetarg(args[n],xtnwrap,xawtextwrapword); n++;
+ 	   xtsetarg(args[n],xtnresize,xawtextresizeheight); n++;
+ 	   xtsetarg(args[n],xtnusestringinplace,true); n++;
+ 	   ptr_ident->text_w = xtcreatemanagedwidget("text",
+ 					asciitextwidgetclass,
  					     table,args,n);
- 	   XpTableChildPosition(ptr_ident->text_w,col,row);
+ 	   xptablechildposition(ptr_ident->text_w,col,row);
  	   col--;
  	   row++;
  	   get_next_ident(&ptr_ident);
@@ -224,6 +224,6 @@
  
  	
  
- So far the problem in detail.
+ so far the problem in detail.
  
  

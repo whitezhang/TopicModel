@@ -1,15 +1,15 @@
 
- Tall Cool One (rky57514@uxa.cso.uiuc.edu) wrote:
- : As the subject says - Can I use a 4052 for digital signals?  I don't see
- : why it couldn't handle digital signals, but I could be wrong.  Anyone have
- : any advice?  Thanks.
+ tall cool one (rky57514@uxa.cso.uiuc.edu) wrote:
+ : as the subject says - can i use a 4052 for digital signals?  i don't see
+ : why it couldn't handle digital signals, but i could be wrong.  anyone have
+ : any advice?  thanks.
  
- The switches have a non-negligable on resistance (up to 1k ohm when
- powered by 5 volts) and a maximum current and a Maximum Static
- Voltage Across Switch.  Not a good bet for TTL.  Should work for
- CMOS, but slow things down a bit.  There are 74HC versions that
+ the switches have a non-negligable on resistance (up to 1k ohm when
+ powered by 5 volts) and a maximum current and a maximum static
+ voltage across switch.  not a good bet for ttl.  should work for
+ cmos, but slow things down a bit.  there are 74hc versions that
  have better specs. but lower max voltage.
  
- Mark Zenier  markz@ssc.wa.com  markz@ssc.com  
+ mark zenier  markz@ssc.wa.com  markz@ssc.com  
  
  

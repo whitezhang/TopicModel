@@ -1,421 +1,421 @@
- Recovering Word Perfect passwords. Breaking Vigenerre ciphers. 
-  Encrypting Unix files/email.  Security of Unix `crypt' command.
-  Encryption and compression. Key management. Letter frequency.
-  The German Enigma code. Card shuffling. S/W piracy.
- X-Last-Updated: 1993/04/16
+ recovering word perfect passwords. breaking vigenerre ciphers. 
+  encrypting unix files/email.  security of unix `crypt' command.
+  encryption and compression. key management. letter frequency.
+  the german enigma code. card shuffling. s/w piracy.
+ x-last-updated: 1993/04/16
  
- Archive-name: cryptography-faq/part08
- Last-modified: 1993/4/15
+ archive-name: cryptography-faq/part08
+ last-modified: 1993/4/15
  
  
- FAQ for sci.crypt, part 8: Technical Miscellany
+ faq for sci.crypt, part 8: technical miscellany
  
- This is the eighth of ten parts of the sci.crypt FAQ. The parts are
+ this is the eighth of ten parts of the sci.crypt faq. the parts are
  mostly independent, but you should read the first part before the rest.
- We don't have the time to send out missing parts by mail, so don't ask.
- Notes such as ``[KAH67]'' refer to the reference list in the last part.
+ we don't have the time to send out missing parts by mail, so don't ask.
+ notes such as ``[kah67]'' refer to the reference list in the last part.
  
- The sections of this FAQ are available via anonymous FTP to rtfm.mit.edu 
- as /pub/usenet/news.answers/cryptography-faq/part[xx].  The Cryptography 
- FAQ is posted to the newsgroups sci.crypt, sci.answers, and news.answers
+ the sections of this faq are available via anonymous ftp to rtfm.mit.edu 
+ as /pub/usenet/news.answers/cryptography-faq/part[xx].  the cryptography 
+ faq is posted to the newsgroups sci.crypt, sci.answers, and news.answers
  every 21 days.
  
  
- Contents
+ contents
  
- * How do I recover from lost passwords in WordPerfect?
- * How do I break a Vigenere (repeated-key) cipher?
- * How do I send encrypted mail under UNIX? [PGP, RIPEM, PEM, ...]
- * Is the UNIX crypt command secure?
- * How do I use compression with encryption?
- * Is there an unbreakable cipher?
- * What does ``random'' mean in cryptography?
- * What is the unicity point (a.k.a. unicity distance)?
- * What is key management and why is it important?
- * Can I use pseudo-random or chaotic numbers as a key stream?
- * What is the correct frequency list for English letters?
- * What is the Enigma?
- * How do I shuffle cards?
- * Can I foil S/W pirates by encrypting my CD-ROM?
- * Can you do automatic cryptanalysis of simple ciphers?
- * What is the coding system used by VCR+?
+ * how do i recover from lost passwords in wordperfect?
+ * how do i break a vigenere (repeated-key) cipher?
+ * how do i send encrypted mail under unix? [pgp, ripem, pem, ...]
+ * is the unix crypt command secure?
+ * how do i use compression with encryption?
+ * is there an unbreakable cipher?
+ * what does ``random'' mean in cryptography?
+ * what is the unicity point (a.k.a. unicity distance)?
+ * what is key management and why is it important?
+ * can i use pseudo-random or chaotic numbers as a key stream?
+ * what is the correct frequency list for english letters?
+ * what is the enigma?
+ * how do i shuffle cards?
+ * can i foil s/w pirates by encrypting my cd-rom?
+ * can you do automatic cryptanalysis of simple ciphers?
+ * what is the coding system used by vcr+?
  
  
- * How do I recover from lost passwords in WordPerfect?
+ * how do i recover from lost passwords in wordperfect?
  
-   WordPerfect encryption has been shown to be very easy to break.
-   The method uses XOR with two repeating key streams: a typed password
-   and a byte-wide counter initialized to 1+<the password length>. Full
-   descriptions are given in Bennett [BEN87] and Bergen and Caelli
-   [BER91].
+   wordperfect encryption has been shown to be very easy to break.
+   the method uses xor with two repeating key streams: a typed password
+   and a byte-wide counter initialized to 1+<the password length>. full
+   descriptions are given in bennett [ben87] and bergen and caelli
+   [ber91].
  
-   Chris Galas writes: ``Someone awhile back was looking for a way to
-   decrypt WordPerfect document files and I think I have a solution. 
-   There is a software company named: Accessdata (87 East 600 South,
-   Orem, UT 84058), 1-800-658-5199 that has a software package that will
-   decrypt any WordPerfect, Lotus 1-2-3, Quatro-Pro, MS Excel and Paradox
-   files. The cost of the package is $185. Steep prices, but if you
+   chris galas writes: ``someone awhile back was looking for a way to
+   decrypt wordperfect document files and i think i have a solution. 
+   there is a software company named: accessdata (87 east 600 south,
+   orem, ut 84058), 1-800-658-5199 that has a software package that will
+   decrypt any wordperfect, lotus 1-2-3, quatro-pro, ms excel and paradox
+   files. the cost of the package is $185. steep prices, but if you
    think your pw key is less than 10 characters, (or 10 char) give them a
-   call and ask for the free demo disk. The demo disk will decrypt files
+   call and ask for the free demo disk. the demo disk will decrypt files
    that have a 10 char or less pw key.''
  
- * How do I break a Vigenere (repeated-key) cipher?
+ * how do i break a vigenere (repeated-key) cipher?
  
-   A repeated-key cipher, where the ciphertext is something like the
-   plaintext xor KEYKEYKEYKEY (and so on), is called a Vigenere cipher.
-   If the key is not too long and the plaintext is in English, do the
+   a repeated-key cipher, where the ciphertext is something like the
+   plaintext xor keykeykeykey (and so on), is called a vigenere cipher.
+   if the key is not too long and the plaintext is in english, do the
    following: 
  
-   1. Discover the length of the key by counting coincidences.
-   (See Gaines [GAI44], Sinkov [SIN66].) Trying each displacement of
+   1. discover the length of the key by counting coincidences.
+   (see gaines [gai44], sinkov [sin66].) trying each displacement of
    the ciphertext against itself, count those bytes which are equal. 
-   If the two ciphertext portions have used the same key, something
-   over 6% of the bytes will be equal. If they have used different
+   if the two ciphertext portions have used the same key, something
+   over 6% of the bytes will be equal. if they have used different
    key, then less than 0.4% will be equal (assuming random 8-bit bytes
-   of key covering normal ASCII text). The smallest displacement which
+   of key covering normal ascii text). the smallest displacement which
    indicates an equal key is the length of the repeated key.
  
-   2. Shift the text by that length and XOR it with itself. This
-   removes the key and leaves you with text XORed with itself. Since
-   English has about 1 bit of real information per byte, 2 streams of
-   text XORed together has 2 bits of info per 8-bit byte, providing
-   plenty of redundancy for choosing a unique decryption. (And in fact
-   one stream of text XORed with itself has just 1 bit per byte.)
+   2. shift the text by that length and xor it with itself. this
+   removes the key and leaves you with text xored with itself. since
+   english has about 1 bit of real information per byte, 2 streams of
+   text xored together has 2 bits of info per 8-bit byte, providing
+   plenty of redundancy for choosing a unique decryption. (and in fact
+   one stream of text xored with itself has just 1 bit per byte.)
  
-   If the key is short, it might be even easier to treat this as a
-   standard polyalphabetic substitution. All the old cryptanalysis
-   texts show how to break those. It's possible with those methods, in
+   if the key is short, it might be even easier to treat this as a
+   standard polyalphabetic substitution. all the old cryptanalysis
+   texts show how to break those. it's possible with those methods, in
    the hands of an expert, if there's only ten times as much text as key.
-   See, for example, Gaines [GAI44], Sinkov [SIN66].
+   see, for example, gaines [gai44], sinkov [sin66].
  
- * How do I send encrypted mail under UNIX? [PGP, RIPEM, PEM, ...]
+ * how do i send encrypted mail under unix? [pgp, ripem, pem, ...]
  
-   Here's one popular method, using the des command:
+   here's one popular method, using the des command:
  
      cat file | compress | des private_key | uuencode | mail
  
-   Meanwhile, there is a de jure Internet standard in the works called
-   PEM (Privacy Enhanced Mail). It is described in RFCs 1421 through
-   1424. To join the PEM mailing list, contact pem-dev-request@tis.com.
-   There is a beta version of PEM being tested at the time of this
+   meanwhile, there is a de jure internet standard in the works called
+   pem (privacy enhanced mail). it is described in rfcs 1421 through
+   1424. to join the pem mailing list, contact pem-dev-request@tis.com.
+   there is a beta version of pem being tested at the time of this
    writing.
  
-   There are also two programs available in the public domain for encrypting
-   mail: PGP and RIPEM.  Both are available by FTP.  Each has its own
-   newsgroup: alt.security.pgp and alt.security.ripem.  Each has its own FAQ
+   there are also two programs available in the public domain for encrypting
+   mail: pgp and ripem.  both are available by ftp.  each has its own
+   newsgroup: alt.security.pgp and alt.security.ripem.  each has its own faq
    as well.
  
-   PGP is most commonly used outside the USA since it uses the RSA algorithm
-   without a license and RSA's patent is valid only (or at least primarily)
-   in the USA.
+   pgp is most commonly used outside the usa since it uses the rsa algorithm
+   without a license and rsa's patent is valid only (or at least primarily)
+   in the usa.
  
-   RIPEM is most commonly used inside the USA since it uses the RSAREF which
-   is freely available within the USA but not available for shipment outside
-   the USA.
+   ripem is most commonly used inside the usa since it uses the rsaref which
+   is freely available within the usa but not available for shipment outside
+   the usa.
  
-   Since both programs use a secret key algorithm for encrypting the body of
-   the message (PGP used IDEA; RIPEM uses DES) and RSA for encrypting the
-   message key, they should be able to interoperate freely.  Although there
+   since both programs use a secret key algorithm for encrypting the body of
+   the message (pgp used idea; ripem uses des) and rsa for encrypting the
+   message key, they should be able to interoperate freely.  although there
    have been repeated calls for each to understand the other's formats and
    algorithm choices, no interoperation is available at this time (as far as
    we know).
  
- * Is the UNIX crypt command secure?
+ * is the unix crypt command secure?
  
-   No. See [REE84]. There is a program available called cbw (crypt
+   no. see [ree84]. there is a program available called cbw (crypt
    breaker's workbench) which can be used to do ciphertext-only attacks
-   on files encrypted with crypt. One source for CBW is [FTPCB].
+   on files encrypted with crypt. one source for cbw is [ftpcb].
  
- * How do I use compression with encryption?
+ * how do i use compression with encryption?
  
-   A number of people have proposed doing perfect compression followed by
-   some simple encryption method (e.g., XOR with a repeated key).
+   a number of people have proposed doing perfect compression followed by
+   some simple encryption method (e.g., xor with a repeated key).
  
-   Unfortunately, you can only compress perfectly if you know the exact
-   distribution of possible inputs. For all practical purposes it's
-   impossible to describe ``the typical English text'' beyond coarse
-   characteristics such as single-letter frequencies. You can build up
+   unfortunately, you can only compress perfectly if you know the exact
+   distribution of possible inputs. for all practical purposes it's
+   impossible to describe ``the typical english text'' beyond coarse
+   characteristics such as single-letter frequencies. you can build up
    more and more sophisticated models of your inputs, but if the enemy
    has a slightly more accurate model, he'll be able to find some
    redundancy in your compressed output.
  
-   Note that nearly all practical compression schemes, unless they
+   note that nearly all practical compression schemes, unless they
    have been designed with cryptography in mind, produce output that
-   actually starts off with high redundancy. For example, the output of
-   UNIX compress begins with a well-known three-byte ``magic number''
+   actually starts off with high redundancy. for example, the output of
+   unix compress begins with a well-known three-byte ``magic number''
    that can serve as an entering wedge for cryptanalysis.
    
-   This is not to say that compression before encryption is inherently a
+   this is not to say that compression before encryption is inherently a
    bad idea; it just has to be done very, very carefully, and by no means
    removes the need for strong encryption.
  
-   Compression after encryption is silly.
+   compression after encryption is silly.
  
- * Is there an unbreakable cipher?
+ * is there an unbreakable cipher?
  
-   Yes. The one-time pad is unbreakable; see part 4. Unfortunately the
+   yes. the one-time pad is unbreakable; see part 4. unfortunately the
    one-time pad requires secure distribution of as much key material as
    plaintext.
  
-   Of course, a cryptosystem need not be utterly unbreakable to be
-   useful. Rather, it needs to be strong enough to resist attacks by
+   of course, a cryptosystem need not be utterly unbreakable to be
+   useful. rather, it needs to be strong enough to resist attacks by
    likely enemies for whatever length of time the data it protects is
    expected to remain valid.
  
- * What does ``random'' mean in cryptography?
+ * what does ``random'' mean in cryptography?
  
-   Cryptographic applications demand much more out of a pseudorandom
-   number generator than most applications. For a source of bits to be
+   cryptographic applications demand much more out of a pseudorandom
+   number generator than most applications. for a source of bits to be
    cryptographically random, it must be computationally impossible to
-   predict what the Nth random bit will be given complete knowledge of
+   predict what the nth random bit will be given complete knowledge of
    the algorithm or hardware generating the stream and the sequence of
-   0th through N-1st bits, for all N up to the lifetime of the source.
+   0th through n-1st bits, for all n up to the lifetime of the source.
  
-   A software generator (also known as pseudo-random) has the function
+   a software generator (also known as pseudo-random) has the function
    of expanding a truly random seed to a longer string of apparently
-   random bits.  This seed must be large enough not to be guessed by
-   the opponent.  Ideally, it should also be truly random (perhaps
+   random bits.  this seed must be large enough not to be guessed by
+   the opponent.  ideally, it should also be truly random (perhaps
    generated by a hardware random number source).
  
-   Those who have Sparcstation 1 workstations could, for example,
+   those who have sparcstation 1 workstations could, for example,
    generate random numbers using the audio input device as a source of
-   entropy, by not connecting anything to it.  For example,
+   entropy, by not connecting anything to it.  for example,
  
  	cat /dev/audio | compress - >foo
  
    gives a file of high entropy (not random but with much randomness in
-   it).  One can then encrypt that file using part of itself as a key,
+   it).  one can then encrypt that file using part of itself as a key,
    for example, to convert that seed entropy into a pseudo-random
    string.
  
-   When looking for hardware devices to provide this entropy, it is
+   when looking for hardware devices to provide this entropy, it is
    important really to measure the entropy rather than just assume that
-   because it looks complicated to a human, it must be "random".  For
+   because it looks complicated to a human, it must be "random".  for
    example, disk operation completion times sound like they might be
    unpredictable (to many people) but a spinning disk is much like a
    clock and its output completion times are relatively low in entropy.
  
- * What is the unicity point (a.k.a. unicity distance)?
+ * what is the unicity point (a.k.a. unicity distance)?
  
-   See [SHA49]. The unicity distance is an approximation to that amount
+   see [sha49]. the unicity distance is an approximation to that amount
    of ciphertext such that the sum of the real information (entropy) in
    the corresponding source text and encryption key equals the number
-   of ciphertext bits used. Ciphertexts significantly longer than this
-   can be shown probably to have a unique decipherment. This is used to
+   of ciphertext bits used. ciphertexts significantly longer than this
+   can be shown probably to have a unique decipherment. this is used to
    back up a claim of the validity of a ciphertext-only cryptanalysis. 
-   Ciphertexts significantly shorter than this are likely to have
+   ciphertexts significantly shorter than this are likely to have
    multiple, equally valid decryptions and therefore to gain security
    from the opponent's difficulty choosing the correct one.
  
-   Unicity distance, like all statistical or information-theoretic
+   unicity distance, like all statistical or information-theoretic
    measures, does not make deterministic predictions but rather gives
    probabilistic results: namely, the minimum amount of ciphertext
    for which it is likely that there is only a single intelligible
    plaintext corresponding to the ciphertext, when all possible keys
-   are tried for the decryption. Working cryptologists don't normally
-   deal with unicity distance as such. Instead they directly determine
+   are tried for the decryption. working cryptologists don't normally
+   deal with unicity distance as such. instead they directly determine
    the likelihood of events of interest.
  
-   Let the unicity distance of a cipher be D characters. If fewer than
-   D ciphertext characters have been intercepted, then there is not
+   let the unicity distance of a cipher be d characters. if fewer than
+   d ciphertext characters have been intercepted, then there is not
    enough information to distinguish the real key from a set of
-   possible keys. DES has a unicity distance of 17.5 characters,
+   possible keys. des has a unicity distance of 17.5 characters,
    which is less than 3 ciphertext blocks (each block corresponds to
-   8 ASCII characters). This may seem alarmingly low at first, but
+   8 ascii characters). this may seem alarmingly low at first, but
    the unicity distance gives no indication of the computational work
-   required to find the key after approximately D characters have been
+   required to find the key after approximately d characters have been
    intercepted.
  
-   In fact, actual cryptanalysis seldom proceeds along the lines used
-   in discussing unicity distance. (Like other measures such as key
+   in fact, actual cryptanalysis seldom proceeds along the lines used
+   in discussing unicity distance. (like other measures such as key
    size, unicity distance is something that guarantees insecurity if
-   it's too small, but doesn't guarantee security if it's high.) Few
+   it's too small, but doesn't guarantee security if it's high.) few
    practical cryptosystems are absolutely impervious to analysis; all
    manner of characteristics might serve as entering ``wedges'' to crack
-   some cipher messages. However, similar information-theoretic
+   some cipher messages. however, similar information-theoretic
    considerations are occasionally useful, for example, to determine a
    recommended key change interval for a particular cryptosystem.
-   Cryptanalysts also employ a variety of statistical and
+   cryptanalysts also employ a variety of statistical and
    information-theoretic tests to help guide the analysis in the most
    promising directions.
  
-   Unfortunately, most literature on the application of information
+   unfortunately, most literature on the application of information
    statistics to cryptanalysis remains classified, even the seminal
-   1940 work of Alan Turing (see [KOZ84]). For some insight into the
-   possibilities, see [KUL68] and [GOO83].
+   1940 work of alan turing (see [koz84]). for some insight into the
+   possibilities, see [kul68] and [goo83].
  
- * What is key management and why is it important?
+ * what is key management and why is it important?
  
-   One of the fundamental axioms of cryptography is that the enemy is in
+   one of the fundamental axioms of cryptography is that the enemy is in
    full possession of the details of the general cryptographic system,
-   and lacks only the specific key data employed in the encryption. (Of
-   course, one would assume that the CIA does not make a habit of telling
-   Mossad about its cryptosystems, but Mossad probably finds out anyway.)
-   Repeated use of a finite amount of key provides redundancy that can
-   eventually facilitate cryptanalytic progress. Thus, especially in
+   and lacks only the specific key data employed in the encryption. (of
+   course, one would assume that the cia does not make a habit of telling
+   mossad about its cryptosystems, but mossad probably finds out anyway.)
+   repeated use of a finite amount of key provides redundancy that can
+   eventually facilitate cryptanalytic progress. thus, especially in
    modern communication systems where vast amounts of information are
    transferred, both parties must have not only a sound cryptosystem but
    also enough key material to cover the traffic.
  
-   Key management refers to the distribution, authentication, and
+   key management refers to the distribution, authentication, and
    handling of keys.
  
-   A publicly accessible example of modern key management technology
-   is the STU III secure telephone unit, which for classified use
-   employs individual coded ``Crypto Ignition Keys'' and a central Key
-   Management Center operated by NSA. There is a hierarchy in that
-   certain CIKs are used by authorized cryptographic control
+   a publicly accessible example of modern key management technology
+   is the stu iii secure telephone unit, which for classified use
+   employs individual coded ``crypto ignition keys'' and a central key
+   management center operated by nsa. there is a hierarchy in that
+   certain ciks are used by authorized cryptographic control
    personnel to validate the issuance of individual traffic keys and
    to perform installation/maintenance functions, such as the
-   reporting of lost CIKs.
+   reporting of lost ciks.
  
-   This should give an inkling of the extent of the key management
-   problem. For public-key systems, there are several related issues,
+   this should give an inkling of the extent of the key management
+   problem. for public-key systems, there are several related issues,
    many having to do with ``whom do you trust?''
  
- * Can I use pseudo-random or chaotic numbers as a key stream?
+ * can i use pseudo-random or chaotic numbers as a key stream?
  
-   Chaotic equations and fractals produce an apparent randomness from
-   relatively compact generators. Perhaps the simplest example is a
+   chaotic equations and fractals produce an apparent randomness from
+   relatively compact generators. perhaps the simplest example is a
    linear congruential sequence, one of the most popular types of random
    number generators, where there is no obvious dependence between seeds
-   and outputs. Unfortunately the graph of any such sequence will, in a
-   high enough dimension, show up as a regular lattice. Mathematically
+   and outputs. unfortunately the graph of any such sequence will, in a
+   high enough dimension, show up as a regular lattice. mathematically
    this lattice corresponds to structure which is notoriously easy for
-   cryptanalysts to exploit. More complicated generators have more
+   cryptanalysts to exploit. more complicated generators have more
    complicated structure, which is why they make interesting pictures---
    but a cryptographically strong sequence will have no computable
    structure at all.
  
-   See [KNU81], exercise 3.5-7; [REE77]; and [BOY89].
+   see [knu81], exercise 3.5-7; [ree77]; and [boy89].
  
- * What is the correct frequency list for English letters?
+ * what is the correct frequency list for english letters?
  
-   There are three answers to this question, each slightly deeper than
-   the one before. You can find the first answer in various books:
+   there are three answers to this question, each slightly deeper than
+   the one before. you can find the first answer in various books:
    namely, a frequency list computed directly from a certain sample of
-   English text. Of course any such list will be ``correctly'' computed,
+   english text. of course any such list will be ``correctly'' computed,
    but exactly which list you get depends on which sample was taken.
  
-   The second answer is that the question doesn't make sense. What do
-   you mean by ``English letters''? The ``English language'' is not a
-   fixed, finite, closed object that can be exactly characterized. It
+   the second answer is that the question doesn't make sense. what do
+   you mean by ``english letters''? the ``english language'' is not a
+   fixed, finite, closed object that can be exactly characterized. it
    has changed over time; it is different between different authors.
-   Any particular message will have different statistics from those of
+   any particular message will have different statistics from those of
    the language as a whole.
  
-   The third answer is that yes, no particular message is going to have
-   exactly the same characteristics as English in general, but for all
+   the third answer is that yes, no particular message is going to have
+   exactly the same characteristics as english in general, but for all
    reasonable statistical uses these slight discrepancies won't matter.
-   In fact there's an entire field called ``Bayesian statistics'' (other
+   in fact there's an entire field called ``bayesian statistics'' (other
    buzzwords are ``maximum entropy methods'' and ``maximum likelihood
-   estimation'') which studies questions like ``What's the chance that a
-   text with these letter frequencies is in English?'' and comes up with
+   estimation'') which studies questions like ``what's the chance that a
+   text with these letter frequencies is in english?'' and comes up with
    reasonably robust answers.
  
-   So make your own list from your own samples of English text. It will
+   so make your own list from your own samples of english text. it will
    be good enough for practical work, if you use it properly.
  
- * What is the Enigma?
+ * what is the enigma?
  
-   ``For a project in data security we are looking for sources of
-   information about the German Enigma code and how it was broken by
-   the British during WWII.''
+   ``for a project in data security we are looking for sources of
+   information about the german enigma code and how it was broken by
+   the british during wwii.''
  
-   See [WEL82], [DEA85], [KOZ84], [HOD83], [KAH91].
+   see [wel82], [dea85], [koz84], [hod83], [kah91].
  
- * How do I shuffle cards?
+ * how do i shuffle cards?
  
-   Card shuffling is a special case of the permutation of an array of
-   values, using a random or pseudo-random function.  All possible output
-   permutations of this process should be equally likely.  To do this, you
+   card shuffling is a special case of the permutation of an array of
+   values, using a random or pseudo-random function.  all possible output
+   permutations of this process should be equally likely.  to do this, you
    need a random function (modran(x)) which will produce a uniformly
-   distributed random integer in the interval [0..x-1].  Given that
-   function, you can shuffle with the following [C] code: (assuming ARRLTH
+   distributed random integer in the interval [0..x-1].  given that
+   function, you can shuffle with the following [c] code: (assuming arrlth
    is the length of array arr[] and swap() interchanges values at the two
    addresses given)
  
-   for ( n = ARRLTH-1; n > 0 ; n-- ) swap( &arr[modran( n+1 )], &arr[n] ) ;
+   for ( n = arrlth-1; n > 0 ; n-- ) swap( &arr[modran( n+1 )], &arr[n] ) ;
  
    modran(x) can not be achieved exactly with a simple (ranno() % x) since
    ranno()'s interval may not be divisible by x, although in most cases the
-   error will be very small.  To cover this case, one can take ranno()'s
+   error will be very small.  to cover this case, one can take ranno()'s
    modulus mod x, call that number y, and if ranno() returns a value less
    than y, go back and get another ranno() value.
  
  
- * Can I foil S/W pirates by encrypting my CD-ROM?
+ * can i foil s/w pirates by encrypting my cd-rom?
  
-   Someone will frequently express the desire to publish a CD-ROM with
+   someone will frequently express the desire to publish a cd-rom with
    possibly multiple pieces of software, perhaps with each encrypted
    separately, and will want to use different keys for each user (perhaps
    even good for only a limited period of time) in order to avoid piracy.
  
-   As far as we know, this is impossible, since there is nothing in standard
-   PC or workstation hardware which uniquely identifies the user at the
-   keyboard.  If there were such an identification, then the CD-ROM could be
+   as far as we know, this is impossible, since there is nothing in standard
+   pc or workstation hardware which uniquely identifies the user at the
+   keyboard.  if there were such an identification, then the cd-rom could be
    encrypted with a key based in part on the one sold to the user and in
-   part on the unique identifier.  However, in this case the CD-ROM is one
+   part on the unique identifier.  however, in this case the cd-rom is one
    of a kind and that defeats the intended purpose.
  
-   If the CD-ROM is to be encrypted once and then mass produced, there must
+   if the cd-rom is to be encrypted once and then mass produced, there must
    be a key (or set of keys) for that encryption produced at some stage in
-   the process.  That key is useable with any copy of the CD-ROM's data.
-   The pirate needs only to isolate that key and sell it along with the
+   the process.  that key is useable with any copy of the cd-rom's data.
+   the pirate needs only to isolate that key and sell it along with the
    illegal copy.
  
  
- * Can you do automatic cryptanalysis of simple ciphers?
+ * can you do automatic cryptanalysis of simple ciphers?
  
-   schneier@chinet.chi.il.us (Bruce Schneier) says: AccessData of Orem,
-   Utah sells products that break the password scheme of a number of
-   popular Macintosh and PC software packages.  Their telephone number
+   schneier@chinet.chi.il.us (bruce schneier) says: accessdata of orem,
+   utah sells products that break the password scheme of a number of
+   popular macintosh and pc software packages.  their telephone number
    is (801) 224-6970
  
-   No PD software has been cited but there are many papers on the
+   no pd software has been cited but there are many papers on the
    subject....
  
-   Peleg, S. and Rosenfeld, A.  "Breaking Substitution Ciphers Using a
-   Relaxation Algorithm" Comm. ACM Vol. 22(11) pp 598-605 (Nov. 1979)
+   peleg, s. and rosenfeld, a.  "breaking substitution ciphers using a
+   relaxation algorithm" comm. acm vol. 22(11) pp 598-605 (nov. 1979)
    
-   Lucks, Michael, "A Constraint Satisfaction Algorithm for the
-   Automated Decryption of Simple Substitution Ciphers", Advances in
-   Cryptology -- CRYPTO '88, Springer Lecture Notes in Computer
-   Science, vol. 403 (The paper also contains references to earlier
+   lucks, michael, "a constraint satisfaction algorithm for the
+   automated decryption of simple substitution ciphers", advances in
+   cryptology -- crypto '88, springer lecture notes in computer
+   science, vol. 403 (the paper also contains references to earlier
    work on the subject.)
    
-   John Carrol and Steve Martin, "The Automated Cryptanalysis of
-   Substitution Ciphers", Cryptologia, vol X number 4, Oct 86 p193-209.
+   john carrol and steve martin, "the automated cryptanalysis of
+   substitution ciphers", cryptologia, vol x number 4, oct 86 p193-209.
    
-   John Carrol and Lynda Robbins, "Automated Cryptanalysis of
-   Polyalphabetic Ciphers", Cryptologia, vol XI number 4, Oct 87
+   john carrol and lynda robbins, "automated cryptanalysis of
+   polyalphabetic ciphers", cryptologia, vol xi number 4, oct 87
    p193-205
    
-   Martin Kochanski, "A Survey of Data Insecurity Packages",
-   Cryptologia, vol XI number 1, Jan 87 p1-15
+   martin kochanski, "a survey of data insecurity packages",
+   cryptologia, vol xi number 1, jan 87 p1-15
    
-   Martin Kochanski, "Another Data Insecurity Package", Cryptologia,
-   vol XII number 3, July 88, p165-177.
+   martin kochanski, "another data insecurity package", cryptologia,
+   vol xii number 3, july 88, p165-177.
    
-   Cryptologia Vol XIII Number 4  1989 pp 303-326.
+   cryptologia vol xiii number 4  1989 pp 303-326.
    
-   King and Bahler, "Probabilistic Relaxation in the Cryptanalysis of
-   Simple Substitution Ciphers" Cryptologia 16(3):215-225.
+   king and bahler, "probabilistic relaxation in the cryptanalysis of
+   simple substitution ciphers" cryptologia 16(3):215-225.
    
-   King and Bahler, "An Algorithmic Solution of Sequential Homophonic
-   Ciphers".  Cryptologia, April 93 (in press).
+   king and bahler, "an algorithmic solution of sequential homophonic
+   ciphers".  cryptologia, april 93 (in press).
    
-   R. Spillman et.al., "Use of Genetic Algorithms in Cryptanalysis of
-   Simple Substitution Ciphers", Cryptologia, vol XVII Number 1, Jan 93
+   r. spillman et.al., "use of genetic algorithms in cryptanalysis of
+   simple substitution ciphers", cryptologia, vol xvii number 1, jan 93
    p31-44.
  
  
- * What is the coding system used by VCR+?
+ * what is the coding system used by vcr+?
  
-   One very frequently asked question in sci.crypt is about how the VCR+ codes
-   work.  The following article attempts to describe it.
+   one very frequently asked question in sci.crypt is about how the vcr+ codes
+   work.  the following article attempts to describe it.
  
-     K. Shirriff, C. Welch, A. Kinsman, "Decoding a VCR Controller Code,"
-     Cryptologia, 16(3), July 1992, pp 227-234.
+     k. shirriff, c. welch, a. kinsman, "decoding a vcr controller code,"
+     cryptologia, 16(3), july 1992, pp 227-234.
  
  

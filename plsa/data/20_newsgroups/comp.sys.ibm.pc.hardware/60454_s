@@ -1,31 +1,31 @@
 
- I have had a Gateway Telepath modem for about a month or so now.
- Actually, I had one that wouldn't connect to ANYTHING no matter
- what software I used, so I got a new one sent to me.  This allows
- me to connect to my favorite News system with ZERO problems.  So
- I'm somewhat happier ....
+ i have had a gateway telepath modem for about a month or so now.
+ actually, i had one that wouldn't connect to anything no matter
+ what software i used, so i got a new one sent to me.  this allows
+ me to connect to my favorite news system with zero problems.  so
+ i'm somewhat happier ....
  
- But I still cannot connect to my favorite DOS bbs with any kind
- of reliability.  I have success about 1/10 calls.  Not good!  I
+ but i still cannot connect to my favorite dos bbs with any kind
+ of reliability.  i have success about 1/10 calls.  not good!  i
  would hope that the fact that this one can connect to at least
- ONE of my fave places means I just need to adjust it.
+ one of my fave places means i just need to adjust it.
  
- What I usually get is a fast stream of garbage, in the modem response
- line on the dial window. Sometimes it will drop to full screen mode
- first, then I get about 2-3 screens of garbage.  In both cases the
+ what i usually get is a fast stream of garbage, in the modem response
+ line on the dial window. sometimes it will drop to full screen mode
+ first, then i get about 2-3 screens of garbage.  in both cases the
  modem seems to time out before connecting and drops carrier.
  
- I am using DEFAULT settings (AT&F) and getting this problem.  I
- am using the AUTOCONFIGURE settings that Gateway has supplied with
- my copy of Qmodem (ATW1&C1&D2S95=44&W0) and getting this problem.
- (They have refused to help me beyond this, claiming "it must be
- the BBS" or something like that.  Not so -- my work modem connects
- to this same place just fine, using factory settings -- a Microcom.)
+ i am using default settings (at&f) and getting this problem.  i
+ am using the autoconfigure settings that gateway has supplied with
+ my copy of qmodem (atw1&c1&d2s95=44&w0) and getting this problem.
+ (they have refused to help me beyond this, claiming "it must be
+ the bbs" or something like that.  not so -- my work modem connects
+ to this same place just fine, using factory settings -- a microcom.)
  
- Anyone have any ideas?!
+ anyone have any ideas?!
  -- 
-  | Next: a Waco update ... an Ohio prison update ... a Bosnia update ... a  |
-  | Russian update ... an abortion update ... and a Congressional update ... |
-  | here on SNN: The Standoff News Network.  All news, all standoff, all day |
-  Daniel A. Hartung  --  dhartung@chinet.chinet.com  --  Ask me about Rotaract
+  | next: a waco update ... an ohio prison update ... a bosnia update ... a  |
+  | russian update ... an abortion update ... and a congressional update ... |
+  | here on snn: the standoff news network.  all news, all standoff, all day |
+  daniel a. hartung  --  dhartung@chinet.chinet.com  --  ask me about rotaract
  

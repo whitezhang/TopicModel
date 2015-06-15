@@ -1,53 +1,53 @@
 
- Has anyone observed this?  If I copy a large, say 800K+ file (a large PKZIP
- file for instance) to my floppy drive (3.5") under MS Windows 3.1 via either
- Program Manager or a DOS Shell, the file copied under the DOS shell 
- has errors whereas the file copied from within Program Manager does not.
+ has anyone observed this?  if i copy a large, say 800k+ file (a large pkzip
+ file for instance) to my floppy drive (3.5") under ms windows 3.1 via either
+ program manager or a dos shell, the file copied under the dos shell 
+ has errors whereas the file copied from within program manager does not.
  
- The corruption is detected by executing "pkunzip -t b:\file.zip" after 
- both copies.  The file copied via the DOS shell always shows corruption.
- 
- 
- Now here's the kicker:
+ the corruption is detected by executing "pkunzip -t b:\file.zip" after 
+ both copies.  the file copied via the dos shell always shows corruption.
  
  
- I have many windows open while doing this; both DOS and WINDOWs apps.
- Supposedly all WINDOWs' apps share the same time slice, whereas the 
- DOS apps get their own equal time slice (unless overriden).
+ now here's the kicker:
  
  
- So, as an example, I have 5 WINDOWs' apps open, 2 multitasking DOS sessions running,
- and one execution-execlusive DOS shell iconized (inactive).  Under this 
- scenario, CPU time is divided into two major slices:  one for all the Windows
- apps and one slice for the running DOS app.  
- 
- When copying under Windows PGM MGR, I'll assume the other Windows and DOS tasks
- are essentially inactive.  Thus PGM MGR gets, say, 80% of the Windows slice and
- 95% of the execution-background DOS shell's slices.  Thus it gets (.8)(.95)^2 = 
- .72 or 72% of the total available CPU time. 
- 
- When copying in a DOS shell, I activate the execute-exclusive mode DOS shell
- (no other DOS background tasks allowed), full screen, under the Windows task
- manager.  The CPU time available to this shell would be 80% of the Windows slice
- (assumming inactive Windows applications) and 100% of the DOS slice: 
- (1.0)(.8) = .8 or 80% of the total available CPU time.
- 
- So why do I get copy errors under DOS if it has the greater amount of CPU
- time?  Is program manager working in a pre-emptive mode during the floppy 
- copy?  It must be!
+ i have many windows open while doing this; both dos and windows apps.
+ supposedly all windows' apps share the same time slice, whereas the 
+ dos apps get their own equal time slice (unless overriden).
  
  
+ so, as an example, i have 5 windows' apps open, 2 multitasking dos sessions running,
+ and one execution-execlusive dos shell iconized (inactive).  under this 
+ scenario, cpu time is divided into two major slices:  one for all the windows
+ apps and one slice for the running dos app.  
  
- Miscellaneous data:  Running Windows on top of DOS 5.0, qemm 5.x, rapidbios.sys,
+ when copying under windows pgm mgr, i'll assume the other windows and dos tasks
+ are essentially inactive.  thus pgm mgr gets, say, 80% of the windows slice and
+ 95% of the execution-background dos shell's slices.  thus it gets (.8)(.95)^2 = 
+ .72 or 72% of the total available cpu time. 
+ 
+ when copying in a dos shell, i activate the execute-exclusive mode dos shell
+ (no other dos background tasks allowed), full screen, under the windows task
+ manager.  the cpu time available to this shell would be 80% of the windows slice
+ (assumming inactive windows applications) and 100% of the dos slice: 
+ (1.0)(.8) = .8 or 80% of the total available cpu time.
+ 
+ so why do i get copy errors under dos if it has the greater amount of cpu
+ time?  is program manager working in a pre-emptive mode during the floppy 
+ copy?  it must be!
+ 
+ 
+ 
+ miscellaneous data:  running windows on top of dos 5.0, qemm 5.x, rapidbios.sys,
                       2.0 mbyte smartdrive (no delayed writes), two ramdrives, 
-                      logitech mouse driver 6.2, full 16mbytes motherboard RAM,
-                      64Kbyte motherboard cache, 386 DX 33 Mhz.
+                      logitech mouse driver 6.2, full 16mbytes motherboard ram,
+                      64kbyte motherboard cache, 386 dx 33 mhz.
                       
-                      Running dos-edit.com TSR in the DOS shell.
+                      running dos-edit.com tsr in the dos shell.
                       
  -- 
  -------------------------------------------------------------------
- Wayne Long - OE215              Internet: wcl@risc.sps.mot.com
- 6501 William Cannon Drive West  UUCP: cs.texas.edu!oakhill!risc!wcl
- Austin, Texas 78735-8598        Phone (512) 891-4649  FAX: 891-3818
+ wayne long - oe215              internet: wcl@risc.sps.mot.com
+ 6501 william cannon drive west  uucp: cs.texas.edu!oakhill!risc!wcl
+ austin, texas 78735-8598        phone (512) 891-4649  fax: 891-3818
  

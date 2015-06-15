@@ -1,19 +1,19 @@
 
  
- Hi,
+ hi,
  
- I have a 486/66MHz SYS based PC with 8M RAM and a problem.
+ i have a 486/66mhz sys based pc with 8m ram and a problem.
  
- What is the best way to configure high memory with QEMM/386MAX ??
- I have a SPEEDSTAR 24X video card and use Hyperdisk disk cache
- software. The problem is running Windows 3.1 in Enhanced mode and
+ what is the best way to configure high memory with qemm/386max ??
+ i have a speedstar 24x video card and use hyperdisk disk cache
+ software. the problem is running windows 3.1 in enhanced mode and
  having any high memory to load stuff high?
  
- Note :
- I tried, as recommended to exclude the region A000-C7FF but Windows
- insists on starting in Standard mode.
+ note :
+ i tried, as recommended to exclude the region a000-c7ff but windows
+ insists on starting in standard mode.
  
- Any suggestions?
+ any suggestions?
  
- Dan
+ dan
  

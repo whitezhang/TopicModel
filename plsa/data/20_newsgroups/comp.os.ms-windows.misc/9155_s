@@ -1,19 +1,19 @@
 
  
- Has anyone else experienced problems with windows hanging
- after the installation of DOS 6?  I have narrowed the
- problem down to EMM386.
+ has anyone else experienced problems with windows hanging
+ after the installation of dos 6?  i have narrowed the
+ problem down to emm386.
  
- If if remove (or disable) EMM386, windows is ok.  If EMM386
- is active, with NOEMS, windows hangs.  If I use AUTO with
- EMM386, the system hangs on bootup.
+ if if remove (or disable) emm386, windows is ok.  if emm386
+ is active, with noems, windows hangs.  if i use auto with
+ emm386, the system hangs on bootup.
  
- Dave.
+ dave.
  
  
  -- 
  -------------------------------------------------------------------
- David Clarke   ...the well is deep...wish me well...
- ac151@Freenet.carleton.ca  David_Clarke@mtsa.ubc.ca  clarkec@sfu.ca
+ david clarke   ...the well is deep...wish me well...
+ ac151@freenet.carleton.ca  david_clarke@mtsa.ubc.ca  clarkec@sfu.ca
  -------------------------------------------------------------------
  

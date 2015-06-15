@@ -1,15 +1,15 @@
 
- In comp.windows.x, doug@happy.vf.ge.com (Doug Hughes) writes:
+ in comp.windows.x, doug@happy.vf.ge.com (doug hughes) writes:
  
  > 
- > I've found an hpgl viewer for X. and a converter from HPGL
- > to postscript.. Does anybody have anything that allows you
- > to convert from anything into HPGL? I'm desperately in need
+ > i've found an hpgl viewer for x. and a converter from hpgl
+ > to postscript.. does anybody have anything that allows you
+ > to convert from anything into hpgl? i'm desperately in need
  > of something like this.
  
- HPGL does not support raster primitives, so a formatter would have to 
- punt on most popular image formats.  This probably explains the lack of
- translators out there.  What do you need to plot ?
+ hpgl does not support raster primitives, so a formatter would have to 
+ punt on most popular image formats.  this probably explains the lack of
+ translators out there.  what do you need to plot ?
  
- Greg Hughes	gmh@fc.hp.com	(303) 229-7162
+ greg hughes	gmh@fc.hp.com	(303) 229-7162
  

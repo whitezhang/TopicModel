@@ -1,9 +1,9 @@
 
- The 68070 _does_ exist. It's number was licensed to Philips to make their
- own variant. This chip includes extra featurfes such as more I/O ports, 
- I2C bus... making it more microcontroller like.
+ the 68070 _does_ exist. it's number was licensed to philips to make their
+ own variant. this chip includes extra featurfes such as more i/o ports, 
+ i2c bus... making it more microcontroller like.
  
- Because of the confusion with numbering (!), Philips other products in the
- [range with the 68??? core have been given differend numbers like PCF...
- or PCD7.. or something.
+ because of the confusion with numbering (!), philips other products in the
+ [range with the 68??? core have been given differend numbers like pcf...
+ or pcd7.. or something.
  

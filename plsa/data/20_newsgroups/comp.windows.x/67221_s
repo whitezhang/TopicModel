@@ -1,16 +1,16 @@
 
- In article <1993Apr22.215913.23501@nrao.edu> rgooch@rp.CSIRO.AU (Richard Gooch) writes:
+ in article <1993apr22.215913.23501@nrao.edu> rgooch@rp.csiro.au (richard gooch) writes:
  >  ... remove the shared memory segment...
- >  Terrible, but it works.
+ >  terrible, but it works.
  
- Why is that terrible ? That's exactly the way our code has been doing
- it for two years now and is the way that temporary files in UNIX systems
+ why is that terrible ? that's exactly the way our code has been doing
+ it for two years now and is the way that temporary files in unix systems
  are managed most of the time (open, unlink).
  
- 		Burkhard Neidecker-Lutz
+ 		burkhard neidecker-lutz
  
- Distributed Multimedia Group, CEC Karlsruhe          EERP Portfolio Manager
- Software Motion Pictures & BERKOM II Project         Multimedia Base Technology
- Digital Equipment Corporation
+ distributed multimedia group, cec karlsruhe          eerp portfolio manager
+ software motion pictures & berkom ii project         multimedia base technology
+ digital equipment corporation
  neidecker@nestvx.enet.dec.com
  

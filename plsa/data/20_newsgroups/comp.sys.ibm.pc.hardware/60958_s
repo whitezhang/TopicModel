@@ -1,14 +1,14 @@
 
- Hi,
-     Can somebody tell me step by step how to add a 40Mb IDE Kalok?
- HD to an existing 120Mb IDE Maxtor HD with Stacker 3.0 and DOS 5?
- I know how to set the jumpers on the 40M to be slave and the settings
- for heads, wpcom, sectors, etc. I also know that I have to do some
- CMOS settings and fdisk. The problem is: what letter will the CMOS
- give the new drive? If it's D:, what will happen when Stacker creates
- D: and swap? Can I tell CMOS to make it E:? So that if I Stack it, I
- will have C, D, E and F?
-     I know this could be an FAQ or in a readme somewhere, but I want
- to hear from somebody who've actually done it. Thanks!
- 							     Romy
+ hi,
+     can somebody tell me step by step how to add a 40mb ide kalok?
+ hd to an existing 120mb ide maxtor hd with stacker 3.0 and dos 5?
+ i know how to set the jumpers on the 40m to be slave and the settings
+ for heads, wpcom, sectors, etc. i also know that i have to do some
+ cmos settings and fdisk. the problem is: what letter will the cmos
+ give the new drive? if it's d:, what will happen when stacker creates
+ d: and swap? can i tell cmos to make it e:? so that if i stack it, i
+ will have c, d, e and f?
+     i know this could be an faq or in a readme somewhere, but i want
+ to hear from somebody who've actually done it. thanks!
+ 							     romy
  

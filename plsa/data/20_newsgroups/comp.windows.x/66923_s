@@ -1,10 +1,10 @@
 
- I want to compile Xdvi and later perhaps Emacs 19 on a DEC Ultrix machine with
- X installed. Unfortunately, Xt and Xaw libs and headers are missing. How can I
- get them without having to compile the whole MIT distribution ? 
+ i want to compile xdvi and later perhaps emacs 19 on a dec ultrix machine with
+ x installed. unfortunately, xt and xaw libs and headers are missing. how can i
+ get them without having to compile the whole mit distribution ? 
  
- Pleasy reply by email to: viola@yukawa.uni-muenster.de
+ pleasy reply by email to: viola@yukawa.uni-muenster.de
  
- Thanks in advance.
+ thanks in advance.
     
  

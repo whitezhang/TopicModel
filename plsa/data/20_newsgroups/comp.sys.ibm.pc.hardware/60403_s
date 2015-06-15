@@ -1,36 +1,36 @@
 
- glang@slee01.srl.ford.com (Gordon Lang) writes:
+ glang@slee01.srl.ford.com (gordon lang) writes:
  
- >David Weisberger (djweisbe@unix.amherst.edu) wrote:
- >: I have a 5 1/4" drive as drive A.  How can I make the system boot from
- >: my 3 1/2" B drive?  (Optimally, the computer would be able to boot
- >: from either A or B, checking them in order for a bootable disk.  But
- >: if I have to switch cables around and simply switch the drives so that
- >: it can't boot 5 1/4" disks, that's OK.  Also, boot_b won't do the trick
+ >david weisberger (djweisbe@unix.amherst.edu) wrote:
+ >: i have a 5 1/4" drive as drive a.  how can i make the system boot from
+ >: my 3 1/2" b drive?  (optimally, the computer would be able to boot
+ >: from either a or b, checking them in order for a bootable disk.  but
+ >: if i have to switch cables around and simply switch the drives so that
+ >: it can't boot 5 1/4" disks, that's ok.  also, boot_b won't do the trick
  >: for me.)
  >: 
- >: Thanks,
- >:   Davebo
- >We had the same issue plague us for months on our Gateway.  I finally
- >got tired of it so I permanently interchanged the drives.  The only
- >reason I didn't do it in the first place was because I had several
+ >: thanks,
+ >:   davebo
+ >we had the same issue plague us for months on our gateway.  i finally
+ >got tired of it so i permanently interchanged the drives.  the only
+ >reason i didn't do it in the first place was because i had several
  >bootable 5-1/4's and some 5-1/4 based install disks which expected
- >the A drive.  I order all new software (and upgrades) to be 3-1/2 and
+ >the a drive.  i order all new software (and upgrades) to be 3-1/2 and
  >the number of "stupid" install programs that can't handle an alternate
- >drive are declining with time - the ones I had are now upgraded.  And
- >as for the bootable 5-1/4's I just cut 3-1/2 replacements.
+ >drive are declining with time - the ones i had are now upgraded.  and
+ >as for the bootable 5-1/4's i just cut 3-1/2 replacements.
  
- >If switching the drives is not an option, you might be able to wire up
- >a drive switch to your computer chasis.  I haven't tried it but I think
+ >if switching the drives is not an option, you might be able to wire up
+ >a drive switch to your computer chasis.  i haven't tried it but i think
  >it would work as long as it is wired carefully.
  
- I did this.  I use a relay (Radio Shack 4PDT) instead of a huge
- switch.  This way, if the relay breaks, my drives will still work.
+ i did this.  i use a relay (radio shack 4pdt) instead of a huge
+ switch.  this way, if the relay breaks, my drives will still work.
  
- It works fine, but you may still need to change the CMOS before the
+ it works fine, but you may still need to change the cmos before the
  drive switch will work correctly for some programs.
  
  rp93
  -- 
- Roger C. Pao  {gordius,bagdad}!mts!rpao, rpao@mts.mivj.ca.us
+ roger c. pao  {gordius,bagdad}!mts!rpao, rpao@mts.mivj.ca.us
  

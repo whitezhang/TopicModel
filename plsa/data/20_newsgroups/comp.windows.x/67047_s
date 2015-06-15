@@ -1,26 +1,26 @@
 
  # 
  # 
- # Is there an Xt call to give me my application context?
- # I am fixing up an X/Motif program, and am trying to use XtAppAddTimeOut,
- # whose first argument is the app_context.  What call can I use
+ # is there an xt call to give me my application context?
+ # i am fixing up an x/motif program, and am trying to use xtappaddtimeout,
+ # whose first argument is the app_context.  what call can i use
  # to give me this value?
  # 
  
- Use XtDisplayToApplicationContext() to retreive the application context.
+ use xtdisplaytoapplicationcontext() to retreive the application context.
  
- Patrick L. Mahan
+ patrick l. mahan
  
- --- TGV Window Washer ------------------------------- Mahan@TGV.COM ---------
+ --- tgv window washer ------------------------------- mahan@tgv.com ---------
  
- Waking a person unnecessarily should not be considered  - Lazarus Long
- a capital crime.  For a first offense, that is            From the Notebooks of
- 							  Lazarus Long
- Patrick L. Mahan
+ waking a person unnecessarily should not be considered  - lazarus long
+ a capital crime.  for a first offense, that is            from the notebooks of
+ 							  lazarus long
+ patrick l. mahan
  
- --- TGV Window Washer ------------------------------- Mahan@TGV.COM ---------
+ --- tgv window washer ------------------------------- mahan@tgv.com ---------
  
- Waking a person unnecessarily should not be considered  - Lazarus Long
- a capital crime.  For a first offense, that is            From the Notebooks of
- 							  Lazarus Long
+ waking a person unnecessarily should not be considered  - lazarus long
+ a capital crime.  for a first offense, that is            from the notebooks of
+ 							  lazarus long
  

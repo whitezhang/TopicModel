@@ -1,21 +1,21 @@
 
- On 15 Apr 1993 20:14:20 GMT Divya Sundaram (sundaram@egr.msu.edu) wrote:
+ on 15 apr 1993 20:14:20 gmt divya sundaram (sundaram@egr.msu.edu) wrote:
  
- | I would like to hear the net.wisdom and net.opinions on IDE Controllers.
- | I would liek to get a IDE controller card for my VLB DX2 66 Motherboard.
- | What are good options for this (preferably under $200). It MUST also work
- | under OS/2 and be compatible with Stacker (and other Disk Compression S/W).
+ | i would like to hear the net.wisdom and net.opinions on ide controllers.
+ | i would liek to get a ide controller card for my vlb dx2 66 motherboard.
+ | what are good options for this (preferably under $200). it must also work
+ | under os/2 and be compatible with stacker (and other disk compression s/w).
  
- I have a Maxtor 212MB on an ISA IDE controller, although my machine is
- DX2/66 VLB. I has the save transfer rate of 0.647 MB/s regardless of
- the variations of the ISA bus speed. I tested it with speed between
- 5.5MHz and 8.33MHz. Not _any_ difference. The problem is not the
+ i have a maxtor 212mb on an isa ide controller, although my machine is
+ dx2/66 vlb. i has the save transfer rate of 0.647 mb/s regardless of
+ the variations of the isa bus speed. i tested it with speed between
+ 5.5mhz and 8.33mhz. not _any_ difference. the problem is not the
  interface between the controller and the memory.
  
- My advice: Buy 4Megs of RAM, save $70 and enjoy performance.
+ my advice: buy 4megs of ram, save $70 and enjoy performance.
  
  --
- Penio Penev  x7423 (212)327-7423 (w) Internet: penev@venezia.rockefeller.edu
+ penio penev  x7423 (212)327-7423 (w) internet: penev@venezia.rockefeller.edu
  
- Disclaimer: All oppinions are mine.
+ disclaimer: all oppinions are mine.
  

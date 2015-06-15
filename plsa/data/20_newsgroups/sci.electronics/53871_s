@@ -1,29 +1,29 @@
 
- In article <1r1996INNijp@hp-col.col.hp.com> johnr@col.hp.com (John T. Rasper) writes:
- >Does anyone know the details of the interface (5 wire din) for the
- >IR remote sensor & (2 wire IR repeater) for the ADCOM GTP-500II
- >preamp?  The ADCOM part numbers are the XR-500II, SPM-500II, and 
- >IRA-500II.
+ in article <1r1996innijp@hp-col.col.hp.com> johnr@col.hp.com (john t. rasper) writes:
+ >does anyone know the details of the interface (5 wire din) for the
+ >ir remote sensor & (2 wire ir repeater) for the adcom gtp-500ii
+ >preamp?  the adcom part numbers are the xr-500ii, spm-500ii, and 
+ >ira-500ii.
  >
- >A cursory physical examination of the pre-amp connector indicates
- >that the connector (5 pin din) may provide: (Viewed from connector front)
+ >a cursory physical examination of the pre-amp connector indicates
+ >that the connector (5 pin din) may provide: (viewed from connector front)
  >
  >      |
- >   5     1     (pin ?) +?v @ ???mA
- >    4   2      (pin ?) +/-?v @ ???mA
- >      3        (pin 3) Signal Ground
- >               (pin ?) Demodulated signal ?V-pp, ? polarity, ? mA drive
- >               (pin ?) Signal to drive repeater LED (drives through 150ohm
- >                       resistor) ?V-pp
+ >   5     1     (pin ?) +?v @ ???ma
+ >    4   2      (pin ?) +/-?v @ ???ma
+ >      3        (pin 3) signal ground
+ >               (pin ?) demodulated signal ?v-pp, ? polarity, ? ma drive
+ >               (pin ?) signal to drive repeater led (drives through 150ohm
+ >                       resistor) ?v-pp
  >
- >I assume that the repeater connectors (mini-plugs) drive the IR repeater
- >LED's directly.  True?
+ >i assume that the repeater connectors (mini-plugs) drive the ir repeater
+ >led's directly.  true?
  >
- >Can anyone fill in the ?'s.  Thanks.
+ >can anyone fill in the ?'s.  thanks.
  >
  
- Here's the scoop.  When you get your home brew receiver working, would
- you be willing to share it with the rest of us?  I always wanted to
+ here's the scoop.  when you get your home brew receiver working, would
+ you be willing to share it with the rest of us?  i always wanted to
  build my own but never have the time to fool around and design it.
  
  pin 1:  signal ground
@@ -32,19 +32,19 @@
  pin 4:  +6 volts, hot only when preamp is turned on
  pin 5:  infrared repeater connectors
  
- The infrared repeater jacks on the back of the preamp are not connected
- to anything inside the preamp except the 5 pin connector pin #5.  There
- is a 150 ohm resistor between the two jacks, with a 1.5K from pin 5 to
+ the infrared repeater jacks on the back of the preamp are not connected
+ to anything inside the preamp except the 5 pin connector pin #5.  there
+ is a 150 ohm resistor between the two jacks, with a 1.5k from pin 5 to
  ground.
  
- The signal pin #2 in the preamp is summed with the built in IR receiver.
- They use a chip called CX20106A and a BJT to amplify the signal.  I would
+ the signal pin #2 in the preamp is summed with the built in ir receiver.
+ they use a chip called cx20106a and a bjt to amplify the signal.  i would
  imagine the logical way would be to duplicate this circuit and use
  it as the external receiver.
  
- If you need more info, let me know.
+ if you need more info, let me know.
  
- Randy      randyd@csd4.csd.uwm.edu
+ randy      randyd@csd4.csd.uwm.edu
  
  
  

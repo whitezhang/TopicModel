@@ -1,20 +1,20 @@
 
- I just bought a new AMIECU EISA motherboard and an Adaptec 1742A fast-SCSI 
- controller. I wanted to install the AHA-1742A and did as written in the
- AMIECU manual. But the CFG-utility told me to get a newer version of the Adaptec 
+ i just bought a new amiecu eisa motherboard and an adaptec 1742a fast-scsi 
+ controller. i wanted to install the aha-1742a and did as written in the
+ amiecu manual. but the cfg-utility told me to get a newer version of the adaptec 
  configuration overlay file named 'adp0000.ovr', because the old one is not 
  compatible to my motherboard.
- The adaptec driver utility is version 3.0.
+ the adaptec driver utility is version 3.0.
  
-        CAN YOU HELP ME ? PLEASE DO SO.
+        can you help me ? please do so.
  
  -- 
  ________________________________________________________________________________
- Name   : Frederic Tschannen            
- Adress : University of Fribourg                /  /  /  /  /--- 
-          IIUF, MISERICORDE                    /  /  /  /  /
-          CH - 1700 FRIBOURG                  /  /  /  /  /--
-          Switzerland                        /  /  /__/  /
- E-Mail : tschannen@cfruni51.bitnet
+ name   : frederic tschannen            
+ adress : university of fribourg                /  /  /  /  /--- 
+          iiuf, misericorde                    /  /  /  /  /
+          ch - 1700 fribourg                  /  /  /  /  /--
+          switzerland                        /  /  /__/  /
+ e-mail : tschannen@cfruni51.bitnet
  ________________________________________________________________________________
  

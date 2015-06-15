@@ -1,73 +1,73 @@
 
- -----BEGIN PGP SIGNED MESSAGE-----
+ -----begin pgp signed message-----
  
- In message <9304190956.AA10390@pizzabox.demon.co.uk> you write:
+ in message <9304190956.aa10390@pizzabox.demon.co.uk> you write:
  
- > : The cops/feds do *not* need to be able to get hold of your private key to
- > : listen in to cellular conversations.  Encryption is not end-to-end, but 
+ > : the cops/feds do *not* need to be able to get hold of your private key to
+ > : listen in to cellular conversations.  encryption is not end-to-end, but 
  > : cellphone to base-station
  [...]
  
- > That was true for the UK Paul, but I'm fairly sure they're talking about
- > building end-to-end encryption phones out of this chip.  It's *not* for
+ > that was true for the uk paul, but i'm fairly sure they're talking about
+ > building end-to-end encryption phones out of this chip.  it's *not* for
  > cellular (though it certainly could be used there in the way you suggest)
  
- I'd lost the White House's deathless prose when I posted (that's what happens
- when you read news at home when you're rat-arsed), but I did have a bunch
- of follow-ups going on about cellular/cordless comms.  The original article
+ i'd lost the white house's deathless prose when i posted (that's what happens
+ when you read news at home when you're rat-arsed), but i did have a bunch
+ of follow-ups going on about cellular/cordless comms.  the original article
  has reappeared, so:
  
-     The President today announced a new initiative that will bring
-     the Federal Government together with industry in a voluntary
+     the president today announced a new initiative that will bring
+     the federal government together with industry in a voluntary
      program to improve the security and privacy of telephone
      communications while meeting the legitimate needs of law
      enforcement.
  
- Hmm, telephone communications could indeed include end-to-end encryption on
+ hmm, telephone communications could indeed include end-to-end encryption on
  ordinary landlines.
  
-     The initiative will involve the creation of new products to
+     the initiative will involve the creation of new products to
      accelerate the development and use of advanced and secure
      telecommunications networks and wireless communications links.
  
- But the next paragraph says telecoms networks and wireless communications
+ but the next paragraph says telecoms networks and wireless communications
  links.
  
- OK, it's far from clear exactly what Cripple (what an apposite anagram) will
- be applied to, but the reason Joe Public wants secure comms is to stop
+ ok, it's far from clear exactly what cripple (what an apposite anagram) will
+ be applied to, but the reason joe public wants secure comms is to stop
  people listening in to his cellular or cordless phones (and he wouldn't
- even be bothered about that were it not for Wingnut and Squidqy's
+ even be bothered about that were it not for wingnut and squidqy's
  misfortunes).
  
- Yes, Cripple *might* be for end-to-end encyption, dropping to clear
- when the other end doesn't have Cripple.  But then a cordless-to-ordinary
+ yes, cripple *might* be for end-to-end encyption, dropping to clear
+ when the other end doesn't have cripple.  but then a cordless-to-ordinary
  conversation would be in clear leaving the cordless end just as vulnerable
- as at present.  Nope, I suspect that Cripple will only be used on radio
+ as at present.  nope, i suspect that cripple will only be used on radio
  links.
  
- OK, it's possible `telecommunications networks' could mean `ordinary phone
- lines', but I'm betting it means the microwave links used by the telcos.
+ ok, it's possible `telecommunications networks' could mean `ordinary phone
+ lines', but i'm betting it means the microwave links used by the telcos.
  
- My apologies if I'm wrong, particularly if the turgid Press Release makes it
- clear that I'm wrong and I missed it, but as far as I can see it was full of
+ my apologies if i'm wrong, particularly if the turgid press release makes it
+ clear that i'm wrong and i missed it, but as far as i can see it was full of
  obfuscation, and anyone expecting end-to-end encryption is in for a surprise
- (IMHO).
+ (imho).
  
  
- BTW, Graham, I've posted questions to alt.security.pgp and not seen any
- replies/followups from outside Europe - how about you?  Have I made it into
+ btw, graham, i've posted questions to alt.security.pgp and not seen any
+ replies/followups from outside europe - how about you?  have i made it into
  everyone's kill file, or is there some problem?
  
- - --Paul
+ - --paul
  
- -----BEGIN PGP SIGNATURE-----
- Version: 2.2
+ -----begin pgp signature-----
+ version: 2.2
  
- iQCVAgUBK9SPBmv14aSAK9PNAQGJBwP/ZoKyrm0gemlyYsNj8bqoH8l8qLJoMRBo
- eOCClpKsTavebtdCLIGqHNzoWC6Ar2K1blIbpUa2tWnqwRGVa15OgOc7XXKJJ093
- yb7P/vWvQbXYiA6zDJ5zkQsDeP7X6ckIDVDRz5CdIS+oNXtiOtHk3s3B3wjQBjCU
- vks8KOV8gfg=
- =gVy0
- -----END PGP SIGNATURE-----
+ iqcvagubk9spbmv14asak9pnaqgjbwp/zokyrm0gemlyysnj8bqoh8l8qljomrbo
+ eocclpkstavebtdcligqhnzowc6ar2k1blibpua2twnqwrgva15ogoc7xxkjj093
+ yb7p/vwvqbxyia6zdj5zkqsdep7x6ckidvdrz5cdis+onxtiothk3s3b3wjqbjcu
+ vks8kov8gfg=
+ =gvy0
+ -----end pgp signature-----
  
  

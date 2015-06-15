@@ -1,16 +1,16 @@
 
- How is the CMOS backed-up? Dry cell batteries or ni-cad cell?
+ how is the cmos backed-up? dry cell batteries or ni-cad cell?
  
- Your batteries may be dead.
+ your batteries may be dead.
  
  mwallack@kean.ucs.mun.ca (mwallack@kean.ucs.mun.ca) wrote:
- : A friend's computer recently failed to recognize its hard drive.
- : On examination it was discovered that the CMOS had lost all data.
- : No other problems were discovered.  When the CMOS was restored, 
- : everything appeared to work as before.  This all happened after
- : a long period of stable operation.  The most recent change had 
- : been the addition of a second hard drive as a slave.  Qemm had
- : been installed along with DeskView for quite a while.  Any ideas?
- : The computer is a 386dx with 8megs of ram, an ATI Wonder xl card, and is
+ : a friend's computer recently failed to recognize its hard drive.
+ : on examination it was discovered that the cmos had lost all data.
+ : no other problems were discovered.  when the cmos was restored, 
+ : everything appeared to work as before.  this all happened after
+ : a long period of stable operation.  the most recent change had 
+ : been the addition of a second hard drive as a slave.  qemm had
+ : been installed along with deskview for quite a while.  any ideas?
+ : the computer is a 386dx with 8megs of ram, an ati wonder xl card, and is
  : about a year and a half old.
  

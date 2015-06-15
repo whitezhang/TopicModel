@@ -1,14 +1,14 @@
 
- In a prior article masc0442@ucsnews.sdsu.edu (Todd Greene) said:
+ in a prior article masc0442@ucsnews.sdsu.edu (todd greene) said:
   
-  > Is there an Xt call to give me my application context?
-  > I am fixing up an X/Motif program, and am trying to use XtAppAddTimeOut,
-  > whose first argument is the app_context.  What call can I use
+  > is there an xt call to give me my application context?
+  > i am fixing up an x/motif program, and am trying to use xtappaddtimeout,
+  > whose first argument is the app_context.  what call can i use
   > to give me this value?
   
- 	XtAppContext XtWidgetToApplicationContext(Widget)
+ 	xtappcontext xtwidgettoapplicationcontext(widget)
  
- Of course, just using the app context returned from 
- XtCreateApplicationContext, XtAppInitialize, etc. is the
+ of course, just using the app context returned from 
+ xtcreateapplicationcontext, xtappinitialize, etc. is the
  best option, unless that path is not available.
  

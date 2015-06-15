@@ -1,42 +1,42 @@
 
- I posted about this a while ago but without code excerpts noone was 
+ i posted about this a while ago but without code excerpts noone was 
  able to help me.
  
- The problem is that main_win.win is doing fine, but when I create 
+ the problem is that main_win.win is doing fine, but when i create 
  detail_win.win, it does not receive it's initial expose events until 
- main_win.win receives an event. Here are the relevent calls:
+ main_win.win receives an event. here are the relevent calls:
  
- main_win.win = XCreateSimpleWindow (mydisplay, DefaultRootWindow(mydisplay),
+ main_win.win = xcreatesimplewindow (mydisplay, defaultrootwindow(mydisplay),
                  myhint.x, myhint.y, myhint.width, myhint.height,
                  main_win.line_thick, fg, bg);
- XSetStandardProperties(mydisplay, main_win.win, main_win.text,
-                 main_win.text, None, argv, argc, &myhint);
- main_win.gc = XCreateGC (mydisplay, main_win.win, 0, 0);
- XMapRaised (mydisplay, detail_win.win);
- XMapSubwindows (mydisplay, main_win.win);
- The event mask for main_win is:
- 	PPosition | PSize | StructureNotifyMask | ExposureMask| KeyPressMask | 
- 	EnterWindowMask | LeaveWindowMask;
- The flags are
- 	PPosition | PSize
+ xsetstandardproperties(mydisplay, main_win.win, main_win.text,
+                 main_win.text, none, argv, argc, &myhint);
+ main_win.gc = xcreategc (mydisplay, main_win.win, 0, 0);
+ xmapraised (mydisplay, detail_win.win);
+ xmapsubwindows (mydisplay, main_win.win);
+ the event mask for main_win is:
+ 	pposition | psize | structurenotifymask | exposuremask| keypressmask | 
+ 	enterwindowmask | leavewindowmask;
+ the flags are
+ 	pposition | psize
  
- I then create detail_win.win with the following calls (hints has new values):
- detail_win.win = XCreateSimpleWindow (mydisplay, DefaultRootWindow(mydisplay),
+ i then create detail_win.win with the following calls (hints has new values):
+ detail_win.win = xcreatesimplewindow (mydisplay, defaultrootwindow(mydisplay),
                  myhint.x, myhint.y, myhint.width, myhint.height,
                  detail_win.line_thick, fg, bg);
- XSetStandardProperties(mydisplay, main_win.win, detail_win.text,
-                 detail_win.text, None, argv, argc, &myhint);
- detail_win.gc = XCreateGC (mydisplay, detail_win.win, 0, 0);
- XMapRaised (mydisplay, detail_win.win);
- Event Mask and flags are identical to main_win's flags and event mask.
+ xsetstandardproperties(mydisplay, main_win.win, detail_win.text,
+                 detail_win.text, none, argv, argc, &myhint);
+ detail_win.gc = xcreategc (mydisplay, detail_win.win, 0, 0);
+ xmapraised (mydisplay, detail_win.win);
+ event mask and flags are identical to main_win's flags and event mask.
  
  
- If anybody has any idea why the initial expose events of detail_win.win 
- are not received until main_win.win receives an event I'd love to hear 
- from them. Other that that everything works great so there must be some 
- detail I'm overseeing.
+ if anybody has any idea why the initial expose events of detail_win.win 
+ are not received until main_win.win receives an event i'd love to hear 
+ from them. other that that everything works great so there must be some 
+ detail i'm overseeing.
  
- Thanks for any tips
- ---> Robert
+ thanks for any tips
+ ---> robert
  rgasch@nl.oracle.com
  

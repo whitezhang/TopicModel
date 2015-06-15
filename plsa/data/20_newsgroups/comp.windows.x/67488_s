@@ -1,18 +1,18 @@
 
- Most graphics systems I have seen have drawing routines that also specify
+ most graphics systems i have seen have drawing routines that also specify
  a color for drawing, like
  
- Drawpoint(x,y,color) or Drawline(x1,y1,x2,y2,color) or
- Fillrectangle(x1,y1,x2,y2,color) 
+ drawpoint(x,y,color) or drawline(x1,y1,x2,y2,color) or
+ fillrectangle(x1,y1,x2,y2,color) 
  
- With X, I have to do something like 
- XSetForeground(current_color)
- XDrawPoint(d,w,x,y)
+ with x, i have to do something like 
+ xsetforeground(current_color)
+ xdrawpoint(d,w,x,y)
  
- Why split this into two functions? Why did X designers decide to not associate
+ why split this into two functions? why did x designers decide to not associate
  the color with the object being drawn, and instead associate it with the
  display it is being drawn on?
  
- Joseph Sirosh
+ joseph sirosh
  
  

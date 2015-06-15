@@ -1,24 +1,24 @@
 
- rgc3679@bcstec.ca.boeing.com (Robert G. Carpenter) writes:
+ rgc3679@bcstec.ca.boeing.com (robert g. carpenter) writes:
  
- > Hi Netters,
+ > hi netters,
  > 
- > I'm building a CAD package and need a 3D graphics library that can handle
+ > i'm building a cad package and need a 3d graphics library that can handle
  > some rudimentry tasks, such as hidden line removal, shading, animation, etc.
  > 
- > Can you please offer some recommendations?
+ > can you please offer some recommendations?
  
- It's really not that hard to do.  There are books out there which explain
- everything, and the basic 3D functions, translation, rotation, shading, and
- hidden line removal are pretty easy.  I wrote a program in a few weeks witht
+ it's really not that hard to do.  there are books out there which explain
+ everything, and the basic 3d functions, translation, rotation, shading, and
+ hidden line removal are pretty easy.  i wrote a program in a few weeks witht
  he help of a book, and would be happy to give you my source.
- 	Also, Quickdraw has a lot of 3D functions built in, and Think pascal
- can access them, and I would expect that THINK C could as well.  If you can
- find out how to use the Quickdraw graphics library, it would be an excellent
- choice, since it has a lot of stuff, and is built into the Mac, so should be
+ 	also, quickdraw has a lot of 3d functions built in, and think pascal
+ can access them, and i would expect that think c could as well.  if you can
+ find out how to use the quickdraw graphics library, it would be an excellent
+ choice, since it has a lot of stuff, and is built into the mac, so should be
  fast.
  
- Libertarian, atheist, semi-anarchal Techno-Rat.
+ libertarian, atheist, semi-anarchal techno-rat.
  
- I define myself--tsa@cellar.org
+ i define myself--tsa@cellar.org
  

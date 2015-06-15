@@ -1,14 +1,14 @@
 
  
- >>In article <1qg98sINNokf@sheoak.ucnv.edu.au> jeff@redgum.ucnv.edu.au (j. pethybridge) writes:
- >>>	Hello again,
- >>> I asked this a year ago, but i am still looking.
- >>> I am getting sick of having to use a HC373 
+ >>in article <1qg98sinnokf@sheoak.ucnv.edu.au> jeff@redgum.ucnv.edu.au (j. pethybridge) writes:
+ >>>	hello again,
+ >>> i asked this a year ago, but i am still looking.
+ >>> i am getting sick of having to use a hc373 
  
- If you are just getting sick of the real estate used by the HCT373, you could
- always use the approach I have seen one designer take - he stuck the chip in
- the middle of the EPROM socket, under the EPROM.  Naturally, you have to use
- an IC socket with the right dimensions, but layout is really easy.
+ if you are just getting sick of the real estate used by the hct373, you could
+ always use the approach i have seen one designer take - he stuck the chip in
+ the middle of the eprom socket, under the eprom.  naturally, you have to use
+ an ic socket with the right dimensions, but layout is really easy.
  
- -Steven Murray
+ -steven murray
  

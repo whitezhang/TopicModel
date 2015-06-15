@@ -1,38 +1,38 @@
 
- ecktons@ucs.byu.edu (Sean Eckton) writes:
+ ecktons@ucs.byu.edu (sean eckton) writes:
  
- >I have a Microsoft Serial Mouse and am using mouse.com 8.00 (was using 8.20 
- >I think, but switched to 8.00 to see if it was any better).  Vertical motion 
- >is nice and smooth, but horizontal motion is so bad I sometimes can't click 
- >on something because my mouse jumps around.  I can be moving the mouse to 
+ >i have a microsoft serial mouse and am using mouse.com 8.00 (was using 8.20 
+ >i think, but switched to 8.00 to see if it was any better).  vertical motion 
+ >is nice and smooth, but horizontal motion is so bad i sometimes can't click 
+ >on something because my mouse jumps around.  i can be moving the mouse to 
  >the right with relatively uniform motion and the mouse will move smoothly 
  >for a bit, then jump to the right, then move smoothly for a bit then jump 
- >again (maybe this time to the left about .5 inch!).  This is crazy!  I have 
- >never had so much trouble with a mouse before.  Anyone have any solutions?  
+ >again (maybe this time to the left about .5 inch!).  this is crazy!  i have 
+ >never had so much trouble with a mouse before.  anyone have any solutions?  
  
- >Does Microsoft think they are what everyone should be? <- just venting steam!
+ >does microsoft think they are what everyone should be? <- just venting steam!
  
-   I had the same problem.  At first, I thought it was the video driver and 
-   made sure I had the most current drivers, because the problem was most
-   evident at SVGA resolution modes.  It didn't help and after a bit of
-   experimentation, determined that the problem existed in standard VGA
-   resolution mode. It was just much less noticeable.
+   i had the same problem.  at first, i thought it was the video driver and 
+   made sure i had the most current drivers, because the problem was most
+   evident at svga resolution modes.  it didn't help and after a bit of
+   experimentation, determined that the problem existed in standard vga
+   resolution mode. it was just much less noticeable.
    
-   My mouse was an older MS serial version I bought second hand in 1990. It
-   worked just fine in DOS and DOS based graphic applications.  On the 
-   guess that the problem was with the resolution of the mouse, I borrowed
-   a new mouse (a MS bus model) and tried it.  That solved the problem.
-   So, if your mouse is old, you may want to try replacing it for a newer
+   my mouse was an older ms serial version i bought second hand in 1990. it
+   worked just fine in dos and dos based graphic applications.  on the 
+   guess that the problem was with the resolution of the mouse, i borrowed
+   a new mouse (a ms bus model) and tried it.  that solved the problem.
+   so, if your mouse is old, you may want to try replacing it for a newer
    one.
    
  >---
- >Sean Eckton
- >Computer Support Representative
- >College of Fine Arts and Communications
+ >sean eckton
+ >computer support representative
+ >college of fine arts and communications
  
- >D-406 HFAC
- >Brigham Young University
- >Provo, UT  84602
+ >d-406 hfac
+ >brigham young university
+ >provo, ut  84602
  >(801)378-3292
  
  >hfac_csr@byu.edu
@@ -40,7 +40,7 @@
  -- 
  signoff
  ------------------------------------------------------------------------------
- Russ Lister  rlister@cti.com  -or-  {well connected systen}!uunet!cti1!rlister 
- Comprehensive Technologies Int'l Inc., Arlington, VA
+ russ lister  rlister@cti.com  -or-  {well connected systen}!uunet!cti1!rlister 
+ comprehensive technologies int'l inc., arlington, va
  ==============================================================================
  

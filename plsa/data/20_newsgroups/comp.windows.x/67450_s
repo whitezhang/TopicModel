@@ -1,30 +1,30 @@
 
- I don't seem to be able to get window positions reliably through
- the XView xv_get() function:
+ i don't seem to be able to get window positions reliably through
+ the xview xv_get() function:
  
-    x = (int) xv_get(my_frame, XV_X);
-    y = (int) xv_get(my_frame, XV_Y);
+    x = (int) xv_get(my_frame, xv_x);
+    y = (int) xv_get(my_frame, xv_y);
  
- For example, if I set XV_X & XV_Y to 50,50 the frame comes up
+ for example, if i set xv_x & xv_y to 50,50 the frame comes up
  in the correct position, with the top left corner (the size
- handle) at 50,50. xv_get() returns 50,50 as well. But later on
+ handle) at 50,50. xv_get() returns 50,50 as well. but later on
  xv_get() returns 5,25 without any intervening xv_set(my_frame,
- XV_?). My frame is fitted around a canvas, and it turns out
+ xv_?). my frame is fitted around a canvas, and it turns out
  (by measuring on the screen) that 5,25 is the position of the
- first pixel in my canvas relative to the frame's origin. What
- gives? Any help most appreciated!
+ first pixel in my canvas relative to the frame's origin. what
+ gives? any help most appreciated!
  
- Derek
+ derek
  
- P.S. On a related subject, is there any way of querying the
+ p.s. on a related subject, is there any way of querying the
  window manager as to the thickness of borders it puts around
  frames, etc.?
  
  -----------------------------------------------------------
- | Derek C. Richardson    | Tel: (0223) 337548 x 37501     |
- | Institute of Astronomy | Fax: (0223) 337523             |
- | Cambridge, U.K.        |                                |
- | CB3 0HA                | E-mail: dcr@mail.ast.cam.ac.uk |
+ | derek c. richardson    | tel: (0223) 337548 x 37501     |
+ | institute of astronomy | fax: (0223) 337523             |
+ | cambridge, u.k.        |                                |
+ | cb3 0ha                | e-mail: dcr@mail.ast.cam.ac.uk |
  -----------------------------------------------------------
  
  

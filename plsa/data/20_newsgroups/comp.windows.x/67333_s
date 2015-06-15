@@ -1,39 +1,39 @@
 
  
- In article <1993Apr26.123918.1@vxcrna.cern.ch>, roeber@vxcrna.cern.ch (Frederick Roeber) writes:
+ in article <1993apr26.123918.1@vxcrna.cern.ch>, roeber@vxcrna.cern.ch (frederick roeber) writes:
  |> 
- |> I'm writing an X server for some video-generation equipment.  The
- |> hardware is "truecolor" in YUV space; in X terms it has a 24-bit
- |> static color visual.  I would really like to have the server just
- |> present this static visual, but I'm not sure if this will be 
- |> acceptable to "most" X clients.  The three problems I see are:
+ |> i'm writing an x server for some video-generation equipment.  the
+ |> hardware is "truecolor" in yuv space; in x terms it has a 24-bit
+ |> static color visual.  i would really like to have the server just
+ |> present this static visual, but i'm not sure if this will be 
+ |> acceptable to "most" x clients.  the three problems i see are:
  |> 
- |>   1) The colormap, though huge, is static.
- |>   2) All pixels would be 3 bytes wide.
- |>   3) Because the hardware actually lives in YUV space, the
- |>      translation RGB->YUV will introduce some rounding error.
+ |>   1) the colormap, though huge, is static.
+ |>   2) all pixels would be 3 bytes wide.
+ |>   3) because the hardware actually lives in yuv space, the
+ |>      translation rgb->yuv will introduce some rounding error.
  |> 
- |> Being more of a server guy than a client guy, I ask: will these
- |> limitations thwart many X clients?  Or will most of the X stuff
- |> floating around blithely accept what they're given?  I could write
+ |> being more of a server guy than a client guy, i ask: will these
+ |> limitations thwart many x clients?  or will most of the x stuff
+ |> floating around blithely accept what they're given?  i could write
  |> the server to also present a pseudocolor visual of, e.g., 8 bits, 
- |> but I'd rather avoid this if not necessary.
+ |> but i'd rather avoid this if not necessary.
  |> 
  
- Even 24Bit TrueColor machines are in most cases running an emulated
- 8 bit PseudoColor visual, only to get standard x clients, motif apps and
- thelike to run. I strongly suppose you to emulate at least:
+ even 24bit truecolor machines are in most cases running an emulated
+ 8 bit pseudocolor visual, only to get standard x clients, motif apps and
+ thelike to run. i strongly suppose you to emulate at least:
  
- > 24 Bit TrueColor. Should be no problem, only some translation. Rounding
+ > 24 bit truecolor. should be no problem, only some translation. rounding
    should not make big misfits
- > 8 bit PseudoColor. More of a problem, you have to emulate a colormap,
-   pixel indices, conversion stuff. Furthermore, you should run your default
+ > 8 bit pseudocolor. more of a problem, you have to emulate a colormap,
+   pixel indices, conversion stuff. furthermore, you should run your default
    screen on this visual.
  
  --
  +-o-+--------------------------------------------------------------+-o-+
- | o |                \\\-  Brain Inside -///                       | o |
+ | o |                \\\-  brain inside -///                       | o |
  | o |                    ^^^^^^^^^^^^^^^                           | o |
- | o | Andre' Beck (ABPSoft) mehl: Andre_Beck@IRS.Inf.TU-Dresden.de | o |
+ | o | andre' beck (abpsoft) mehl: andre_beck@irs.inf.tu-dresden.de | o |
  +-o-+--------------------------------------------------------------+-o-+
  

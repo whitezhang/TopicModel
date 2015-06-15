@@ -1,59 +1,59 @@
 
- In article <montC5qs9A.3wB@netcom.com> mont@netcom.com (Mont Pierce) writes:
+ in article <montc5qs9a.3wb@netcom.com> mont@netcom.com (mont pierce) writes:
  >
- >I bought this chip from Suncoast Technology and tried to build their
- >dtmf decoder circuit.  But it's not working...
+ >i bought this chip from suncoast technology and tried to build their
+ >dtmf decoder circuit.  but it's not working...
  >
- >If anyone has the pinouts and possibly the voltage specs I'd sure
+ >if anyone has the pinouts and possibly the voltage specs i'd sure
  >appreciated it.  
  
- I presume it is the M-8870 from Teltone Corporation.
+ i presume it is the m-8870 from teltone corporation.
  
- Pin	Description
+ pin	description
  
  1	+ input
  2	- input
- 3	GS (gain select through use of feed back resistor)
- 4	Vref (reference voltage OUTPUT, about Vdd/2)
- 5	connect to Vss
- 6	connect to Vss
+ 3	gs (gain select through use of feed back resistor)
+ 4	vref (reference voltage output, about vdd/2)
+ 5	connect to vss
+ 6	connect to vss
  7	osc1 clock input
  8	osc2 clock output (connect crystal across pins 7 and 8)
- 9	Vss
- 10	OE output enable (logic high allows data output)
- 11	Q1 data output
- 12	Q2 data output
- 13	Q3 data output
- 14	Q4 data output
- 15	StD Delayed Steering Output (any other company would call this 'data valid'.)
- 16	ESt Early Steering output, sort of like "I'm starting to hear a tone".
- 17	St/GT Steering input/guard time output
- 18	Vdd
+ 9	vss
+ 10	oe output enable (logic high allows data output)
+ 11	q1 data output
+ 12	q2 data output
+ 13	q3 data output
+ 14	q4 data output
+ 15	std delayed steering output (any other company would call this 'data valid'.)
+ 16	est early steering output, sort of like "i'm starting to hear a tone".
+ 17	st/gt steering input/guard time output
+ 18	vdd
  
- Power Supply	: 4.75V min., 5.25V max.
- Current		: 3.0mA Typ, 7.0mA max.
+ power supply	: 4.75v min., 5.25v max.
+ current		: 3.0ma typ, 7.0ma max.
  
- BUT.......
+ but.......
  
- You really should have bought the Motorola part from me.  :-)
- (I still have them in stock)
+ you really should have bought the motorola part from me.  :-)
+ (i still have them in stock)
  
- John
+ john
  
  
  
- If someone could fax, email, or snail mail a copy
+ if someone could fax, email, or snail mail a copy
  >of the spec sheet for this chip that would be even better. :)
  >
- >Please email me if you can help.  
+ >please email me if you can help.  
  >
- >Thanks in advance,
+ >thanks in advance,
  >-- 
- >Mont Pierce
+ >mont pierce
  >
  >+-------------------------------------------------------------------------+
- >| Ham Call: KM6WT             Internet:  mont@netcom.com                  |
- >|    bands: 80/40/20/15/10/2  IBM vnet:  mont@vnet.ibm.com                |
+ >| ham call: km6wt             internet:  mont@netcom.com                  |
+ >|    bands: 80/40/20/15/10/2  ibm vnet:  mont@vnet.ibm.com                |
  >|    modes: cw,ssb,fm                                                     |
  >+-------------------------------------------------------------------------+
  

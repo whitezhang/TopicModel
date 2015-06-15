@@ -1,30 +1,30 @@
 
- In article <C5L39p.2qz@news.udel.edu>, johnston@me.udel.edu (Bill Johnston) writes:
- |> In article <1993Apr16.144750.1568@mintaka.lcs.mit.edu> nodine@lcs.mit.edu (Mark H. Nodine) writes:
- |> >I don't know about the specific problem mentioned in your
- |> >message, but I definitely had SCSI problems between my
- |> >Q700 and my venerable Jasmine Megadrive 10 cartridge
- |> >drives.  My solution was to get Silverlining.  None of
+ in article <c5l39p.2qz@news.udel.edu>, johnston@me.udel.edu (bill johnston) writes:
+ |> in article <1993apr16.144750.1568@mintaka.lcs.mit.edu> nodine@lcs.mit.edu (mark h. nodine) writes:
+ |> >i don't know about the specific problem mentioned in your
+ |> >message, but i definitely had scsi problems between my
+ |> >q700 and my venerable jasmine megadrive 10 cartridge
+ |> >drives.  my solution was to get silverlining.  none of
  |> >the loops that involved blind writes worked to the drives;
- |> >in fact the only loop that worked was the "Macintosh
- |> >Software" loop (whatever that means).
+ |> >in fact the only loop that worked was the "macintosh
+ |> >software" loop (whatever that means).
  |> 
- |> I doubt this is a Quadra-specific problem.  I had to get
- |> rid of my "venerable" Bernoulli 20 last year (with enough 
+ |> i doubt this is a quadra-specific problem.  i had to get
+ |> rid of my "venerable" bernoulli 20 last year (with enough 
  |> cartridges purchased at ~$90 each to make the whole thing 
- |> worth more than my whole computer ;).  The tech support guys
- |> at Ocean Microsystems suggested that some third-party drivers 
+ |> worth more than my whole computer ;).  the tech support guys
+ |> at ocean microsystems suggested that some third-party drivers 
  |> might fix the problem - in my case the cartridges wouldn't 
- |> format/mount/partition for A/UX.  
+ |> format/mount/partition for a/ux.  
  
- All I know is that the Megadrives worked perfectly on both my
- Mac Plus and my Powerbook 140.  It was for this reason I assumed
- the problem had something to do with the Quadra.  Even with the
- Quadra, they mostly worked OK.  The problem occurred when I ejected
+ all i know is that the megadrives worked perfectly on both my
+ mac plus and my powerbook 140.  it was for this reason i assumed
+ the problem had something to do with the quadra.  even with the
+ quadra, they mostly worked ok.  the problem occurred when i ejected
  a cartridge from a drive: it would start popping up dialog boxes
- saying "This cartridge must be formatted with Jasmine Driveware"
+ saying "this cartridge must be formatted with jasmine driveware"
  even though there was no cartridge in the drive.
  
- 	--Mark
+ 	--mark
  
  

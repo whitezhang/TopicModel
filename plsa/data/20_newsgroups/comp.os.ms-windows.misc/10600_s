@@ -1,25 +1,25 @@
 
- In article <1993May11.141706.5878@iitmax.iit.edu> VAXTOOLS@chico.acc.iit.edu (Falke Bruinsma (WildThing)) writes:
- >Hiya
+ in article <1993may11.141706.5878@iitmax.iit.edu> vaxtools@chico.acc.iit.edu (falke bruinsma (wildthing)) writes:
+ >hiya
  >
- >I'm using Word for Windows and I am quite satisfied with it, except the 
- >Equation Editor screws up all the time. When I try to insert an equation it
- >will give me two errors: Fence Font not Found and Meta Font not found. The
- >real problem is that it will not display or print out the integral sign. Does
- >anyone else have this problem? And how do I solve it?
- >I'm using a Z-sport 486 laptop with a Panasonic 1124p printer, running 
+ >i'm using word for windows and i am quite satisfied with it, except the 
+ >equation editor screws up all the time. when i try to insert an equation it
+ >will give me two errors: fence font not found and meta font not found. the
+ >real problem is that it will not display or print out the integral sign. does
+ >anyone else have this problem? and how do i solve it?
+ >i'm using a z-sport 486 laptop with a panasonic 1124p printer, running 
  >msdos 5.0 and windows 3.1.
  >
- >   Thanks,
- >     Falke
+ >   thanks,
+ >     falke
  >
  
- We all had that problem, you need to expand the fonts manually, the program
+ we all had that problem, you need to expand the fonts manually, the program
  "decomp" is on disk 1 & the equations fonts are on disk 3
  
  
  
- 						Have fun
+ 						have fun
  
- 						Gel
+ 						gel
  

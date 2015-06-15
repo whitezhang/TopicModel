@@ -1,7 +1,7 @@
 
- dla@se05.wg2.waii.com (Doug Acker) writes:
+ dla@se05.wg2.waii.com (doug acker) writes:
  
- |..continuing on my build problems, I got stuck here build xterm...
+ |..continuing on my build problems, i got stuck here build xterm...
  
- |gcc -fpcc-struct-return -o xterm main.o input.o charproc.o cursor.o util.o tabs.o  screen.o scrollbar.o button.o Tekproc.o misc.o  VTPrsTbl.o TekPrsTbl.o data.o menu.o -O2   -R/usr/wgep/X11R5.sos5/lib${LD_RUN_PATH+\:$LD_RUN_PATH} -L../.././lib/Xaw
+ |gcc -fpcc-struct-return -o xterm main.o input.o charproc.o cursor.o util.o tabs.o  screen.o scrollbar.o button.o tekproc.o misc.o  vtprstbl.o tekprstbl.o data.o menu.o -o2   -r/usr/wgep/x11r5.sos5/lib${ld_run_path+\:$ld_run_path} -l../.././lib/xaw
  

@@ -1,13 +1,13 @@
 
- In article <29APR199321594919@kelvin.jpl.nasa.gov>, baalke@kelvin.jpl.nasa.gov (Ron Baalke) writes:
- > 2.  On April 23, a cruise science Memory Readout (MRO) was performed for the
- > Magnetometer (MAG) instrument.  Analysis indicates the data was received
+ in article <29apr199321594919@kelvin.jpl.nasa.gov>, baalke@kelvin.jpl.nasa.gov (ron baalke) writes:
+ > 2.  on april 23, a cruise science memory readout (mro) was performed for the
+ > magnetometer (mag) instrument.  analysis indicates the data was received
  > properly.
  
- Am I correct in assuming that the science instruments buffer their acquired
- data in onboard RAM, which is then downloaded upon receipt of the MRO command?
+ am i correct in assuming that the science instruments buffer their acquired
+ data in onboard ram, which is then downloaded upon receipt of the mro command?
  
- Simon Brady                 You don't need a lot of fancy hardware for
- University of Otago         Virtual Reality - just a walkman and an
- Dunedin, New Zealand        attitude
+ simon brady                 you don't need a lot of fancy hardware for
+ university of otago         virtual reality - just a walkman and an
+ dunedin, new zealand        attitude
  

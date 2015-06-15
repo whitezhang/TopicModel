@@ -1,18 +1,18 @@
 
- I am interested in a 2d/3d graphics library which will allow our design
- team to write graphics software for Unix workstations and be as portable as 
- possible.  Eventually this software will have to be moved to Microsoft
- Windows.  It is my opinion that a good API with hooks to PEX underneath
+ i am interested in a 2d/3d graphics library which will allow our design
+ team to write graphics software for unix workstations and be as portable as 
+ possible.  eventually this software will have to be moved to microsoft
+ windows.  it is my opinion that a good api with hooks to pex underneath
  would prove most portable.
  
- Does anyone out there have any experience with Figaro+ form TGS or
- HOOPS from Ithaca Software?  I would appreciate any comments.
+ does anyone out there have any experience with figaro+ form tgs or
+ hoops from ithaca software?  i would appreciate any comments.
  
- - Claye Hart
+ - claye hart
  
  -- 
- Claye K. Hart 404-894-9729
- Georgia Institute of Technology, Atlanta Georgia, 30332
+ claye k. hart 404-894-9729
+ georgia institute of technology, atlanta georgia, 30332
  uucp:	  ...!{decvax,hplabs,ncar,purdue,rutgers}!gatech!prism!ch41
- Internet: claye.hart@gtri.gatech.edu
+ internet: claye.hart@gtri.gatech.edu
  

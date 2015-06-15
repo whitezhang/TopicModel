@@ -1,36 +1,36 @@
 
- >>>>> On 12 May 93 12:46:17, raistlin@uni-paderborn.de (Markus Koch) said:
- Markus> NNTP-Posting-Host: samos.uni-paderborn.de
+ >>>>> on 12 may 93 12:46:17, raistlin@uni-paderborn.de (markus koch) said:
+ markus> nntp-posting-host: samos.uni-paderborn.de
  
  
- Markus> Hello everybody out there !
+ markus> hello everybody out there !
  
- Markus> I'm trying to compile X11R5pl23 and Motif 1.2.1 on a HP running
- Markus> HP-UX 8.05. But it' seems to be not very succesful, because 
- Markus> I have only hp.cf config-files for HP-UX 7.0. 
+ markus> i'm trying to compile x11r5pl23 and motif 1.2.1 on a hp running
+ markus> hp-ux 8.05. but it' seems to be not very succesful, because 
+ markus> i have only hp.cf config-files for hp-ux 7.0. 
  
- Markus> I tried standard cc and X was compiled with a lot of warnings.
- Markus> The motif applications are compiled quite well, but they won't run.
- Markus> I receive the XKeysymDB error which is reported in FAQ, but
- Markus> I cannot fix it. The XKeysymDB-file is at the right location and it
- Markus> works fine under SunOS.
- Markus> Probably I have started the compilation Prozess only with a wrong
- Markus> config-file.
+ markus> i tried standard cc and x was compiled with a lot of warnings.
+ markus> the motif applications are compiled quite well, but they won't run.
+ markus> i receive the xkeysymdb error which is reported in faq, but
+ markus> i cannot fix it. the xkeysymdb-file is at the right location and it
+ markus> works fine under sunos.
+ markus> probably i have started the compilation prozess only with a wrong
+ markus> config-file.
  
- Markus> Please help me !
- Markus>   
- Markus> Thanx in advance 
- Markus>   Markus
+ markus> please help me !
+ markus>   
+ markus> thanx in advance 
+ markus>   markus
  
- If you installed X lib Xt by redefining ProjectRoot, you will find that
-  during the install it recompiles one of the files in X lib that does the
- search for XKeysmDB and embeds the search path for the file based on whatever
- ProjectRoot was defined. TO confirm this what happened, because I'm 
- guessing, go to mit/lib/X and do
- strings XStrKeySym.o | egrep XKeysymDB
+ if you installed x lib xt by redefining projectroot, you will find that
+  during the install it recompiles one of the files in x lib that does the
+ search for xkeysmdb and embeds the search path for the file based on whatever
+ projectroot was defined. to confirm this what happened, because i'm 
+ guessing, go to mit/lib/x and do
+ strings xstrkeysym.o | egrep xkeysymdb
  --
- -Guy Singh,                 IXI            Internet: guy@x.co.uk
-                             Vision Park    UUCP:     guy@ixi.uucp
-                             Cambridge      Bang:     ...!uunet!ixi!guy
-                             CB4 4ZR, UK    Tel:      +44 223 236 555
+ -guy singh,                 ixi            internet: guy@x.co.uk
+                             vision park    uucp:     guy@ixi.uucp
+                             cambridge      bang:     ...!uunet!ixi!guy
+                             cb4 4zr, uk    tel:      +44 223 236 555
  

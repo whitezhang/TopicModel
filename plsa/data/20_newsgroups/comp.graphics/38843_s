@@ -1,33 +1,33 @@
 
- zlg1409@uxa.cso.uiuc.edu (Zhenhai Li ) writes:
- | Hello, I've raytraced and rendered and the only difference I've found 
- | is that raytracing takes a hell of a lot longer. Am I missing something?
+ zlg1409@uxa.cso.uiuc.edu (zhenhai li ) writes:
+ | hello, i've raytraced and rendered and the only difference i've found 
+ | is that raytracing takes a hell of a lot longer. am i missing something?
  
-     Yes.  There are many methods of rendering, raytracing is one of them.
- You didn't say what you mean by rendering, so I won't guess.  Methods of
+     yes.  there are many methods of rendering, raytracing is one of them.
+ you didn't say what you mean by rendering, so i won't guess.  methods of
  rendering include:
  
-         o  Pencil and graph paper, doing the math by hand
+         o  pencil and graph paper, doing the math by hand
  
-         o  Wireframe rendering of the 2D projection
+         o  wireframe rendering of the 2d projection
  
-         o  Hidden line rendering
+         o  hidden line rendering
  
-         o  Scanline rendering using:
-             - Painter's algorithm.
-             - BSP trees.
-             - Z buffer
-             - Other
+         o  scanline rendering using:
+             - painter's algorithm.
+             - bsp trees.
+             - z buffer
+             - other
  
-         o  Raytracing
+         o  raytracing
  
-         o  Radiosity
+         o  radiosity
  
-         o  Holographic projection to film
+         o  holographic projection to film
  
-         o  Combination of any of the above
+         o  combination of any of the above
  
  ______________________________________________________________________________
- Steve Hollasch                                   Kubota Pacific Computer, Inc.
- hollasch@kpc.com                                 Santa Clara, California
+ steve hollasch                                   kubota pacific computer, inc.
+ hollasch@kpc.com                                 santa clara, california
  

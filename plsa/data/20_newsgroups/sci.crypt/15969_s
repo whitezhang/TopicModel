@@ -1,21 +1,21 @@
 
- In article <1993Apr25.114820.14022@ulysses.att.com> smb@research.att.com (Steven Bellovin) writes:
+ in article <1993apr25.114820.14022@ulysses.att.com> smb@research.att.com (steven bellovin) writes:
  
-    In article <122723@netnews.upenn.edu>, feeley@cattell.psych.upenn.edu (Wm. Michael Feeley) writes:
-    > Just curious, how would the Clipper Chip system handle
+    in article <122723@netnews.upenn.edu>, feeley@cattell.psych.upenn.edu (wm. michael feeley) writes:
+    > just curious, how would the clipper chip system handle
     > conference calls?
  
-    It's not Clipper, it's any encryption system.  I've seen a number of
+    it's not clipper, it's any encryption system.  i've seen a number of
     designs; they generally involve a multi-line cleartext bridge.
  
- Depending on the encryption system, so long as everyone has the same
- key, it can be done.  For example, I was using "vat", which is an
- Internet Audio tool, for a conference call, and we were encrypting the
- session.  (Unfortunately, one site was doing more work, and didn't
- have the CPU for it, so it didn't sound all that good at a different
+ depending on the encryption system, so long as everyone has the same
+ key, it can be done.  for example, i was using "vat", which is an
+ internet audio tool, for a conference call, and we were encrypting the
+ session.  (unfortunately, one site was doing more work, and didn't
+ have the cpu for it, so it didn't sound all that good at a different
  site)
  
- So, you don't neccessarily have to have a clear-text bridge.  But if
+ so, you don't neccessarily have to have a clear-text bridge.  but if
  you do, its totally internal to one of the sites involved in the
  conversation....
  
@@ -23,8 +23,8 @@
  
  
  --
-   Derek Atkins, MIT '93, Electrical Engineering and Computer Science
-      Secretary, MIT Student Information Processing Board (SIPB)
-            MIT Media Laboratory, Speech Research Group
-            warlord@MIT.EDU       PP-ASEL        N1NWH
+   derek atkins, mit '93, electrical engineering and computer science
+      secretary, mit student information processing board (sipb)
+            mit media laboratory, speech research group
+            warlord@mit.edu       pp-asel        n1nwh
  

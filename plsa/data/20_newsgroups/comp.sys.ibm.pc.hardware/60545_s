@@ -1,14 +1,14 @@
 
- I read an article about the benefits of a VLB motherboard. It said that a 
- true VLB board supports bus mastering, otherwise it is just as good as an ISA
+ i read an article about the benefits of a vlb motherboard. it said that a 
+ true vlb board supports bus mastering, otherwise it is just as good as an isa
  motherboard.
  
- Doesn't all VLB motherboard support bus mastering? I just bought a 486-33 VLB
+ doesn't all vlb motherboard support bus mastering? i just bought a 486-33 vlb
  and the tech manual does not explicitly state the words "local bus mastering"
- but it said it "supports bus master and slave modes". Are these terms
+ but it said it "supports bus master and slave modes". are these terms
  synonymous?
  
- Thanks.
+ thanks.
  
- PS. - please reply by e-mail as I don't read this newgroup often.
+ ps. - please reply by e-mail as i don't read this newgroup often.
  

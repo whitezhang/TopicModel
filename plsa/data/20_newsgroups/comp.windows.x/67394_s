@@ -1,27 +1,27 @@
 
- I got the following today from Gary Risebrough and it worked fine:
+ i got the following today from gary risebrough and it worked fine:
  
- Excerpts from mail: 29-Apr-93 Re: ol{v}wm 3 virtual keybo..
- ITO2@aodc.gov.au (554)
+ excerpts from mail: 29-apr-93 re: ol{v}wm 3 virtual keybo..
+ ito2@aodc.gov.au (554)
  
  > hi,
  
- > With regard to :
- > > I have the following lines in my .Xresources:
- > > olwm.KeyboardCommands: Full
- > > olvwm.KeyboardCommands: Full
- > > olwm.GrabVirtualKeys:  true
- > > olvwm.GrabVirtualKeys: true
+ > with regard to :
+ > > i have the following lines in my .xresources:
+ > > olwm.keyboardcommands: full
+ > > olvwm.keyboardcommands: full
+ > > olwm.grabvirtualkeys:  true
+ > > olvwm.grabvirtualkeys: true
  
- > I have :
- > > OpenWindows.KeyboardCommands:   Full
- > > OpenWindows.VirtualGrabKeys :   False
+ > i have :
+ > > openwindows.keyboardcommands:   full
+ > > openwindows.virtualgrabkeys :   false
  
  > which seems to work.
  
- > Cheers!
+ > cheers!
  > ----------
- > Gary Riseborough                         Phone :  +61 2 563  gary@AODC.gov.au
+ > gary riseborough                         phone :  +61 2 563  gary@aodc.gov.au
  
  
  

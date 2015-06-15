@@ -1,26 +1,26 @@
 
- One presumes the system could work as follows:
+ one presumes the system could work as follows:
  
- a) Blank clips are manufactured by Mykotronx and VLSI.  The number
+ a) blank clips are manufactured by mykotronx and vlsi.  the number
  produced is carefully audited and they are shipped to the first
  escrow house.
  
- It programs the chips with its half the key, and prints out a paper slip
- with the key half and non-secret chip serial number.   The reams of paper
+ it programs the chips with its half the key, and prints out a paper slip
+ with the key half and non-secret chip serial number.   the reams of paper
  are filed in locked boxes in the vault, a fuse is burnt in the chip so
  that the key is now unreadable.
  
- The chip then goes to the next escrow house, where the same thing is
- done.  This continues through N escrow houses, perhaps, could be more than
+ the chip then goes to the next escrow house, where the same thing is
+ done.  this continues through n escrow houses, perhaps, could be more than
  2.
  
- The last one provides the chip to the cellular phone maker.
+ the last one provides the chip to the cellular phone maker.
  
- And yes, this has to be a public key system or it would be almost
- impossible to handle.  It might not be RSA, but that does not mean
- that PKP doesn't get paid.  Until 1997, PKP has the patent on the
+ and yes, this has to be a public key system or it would be almost
+ impossible to handle.  it might not be rsa, but that does not mean
+ that pkp doesn't get paid.  until 1997, pkp has the patent on the
  general concept of public key encryption, as well as the particular
- implementation known as RSA.
+ implementation known as rsa.
  -- 
- Brad Templeton, ClariNet Communications Corp. -- Sunnyvale, CA 408/296-0366
+ brad templeton, clarinet communications corp. -- sunnyvale, ca 408/296-0366
  

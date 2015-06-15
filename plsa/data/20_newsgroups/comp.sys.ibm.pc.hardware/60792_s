@@ -1,42 +1,42 @@
 
  
- In article <C5uM7F.35ux@austin.ibm.com> guyd@austin.ibm.com (Guy Dawson) writes:
+ in article <c5um7f.35ux@austin.ibm.com> guyd@austin.ibm.com (guy dawson) writes:
  >
- >In article <1993Apr21.061246.11363@ucc.su.OZ.AU>, montuno@physics.su.OZ.AU (Lino Montuno) writes:
- >> This may be a very naive question but is there any basis for the
- >> claim that a CPU will get hotter when a computationally intensive 
- >> job is running? My friend claims that there will be little difference
- >> in the temperature of an idle CPU and a CPU running a computationally
+ >in article <1993apr21.061246.11363@ucc.su.oz.au>, montuno@physics.su.oz.au (lino montuno) writes:
+ >> this may be a very naive question but is there any basis for the
+ >> claim that a cpu will get hotter when a computationally intensive 
+ >> job is running? my friend claims that there will be little difference
+ >> in the temperature of an idle cpu and a cpu running a computationally
  >> intensive job.
  >
- >It first depends on what an idle cpu is doing!
+ >it first depends on what an idle cpu is doing!
  >
- >I'm not sure about DOS, but many multitasking OSs have an loop like this
+ >i'm not sure about dos, but many multitasking oss have an loop like this
  >
  >
  >loop:
  >	is there anything to do?
- >		YES -> do it; goto loop
- >		NO  -> goto loop
+ >		yes -> do it; goto loop
+ >		no  -> goto loop
  >
  >
- >The CPU is not doing any work but it is still processing instructions...
+ >the cpu is not doing any work but it is still processing instructions...
  
- I've done some ASIC and digital design, but not any CPU design.
- It would seem to me that on a 486, the FPU is not being used, most of
+ i've done some asic and digital design, but not any cpu design.
+ it would seem to me that on a 486, the fpu is not being used, most of
  the cache is not being accessed, the off chip buffers/drivers are idle,
  the multiplier isn't multiplying, the barrel shifters aren't shifting,
- microcode isn't microcoding, etc.  This means transistors aren't
- switching which means less power dissipated (in CMOS), which means
+ microcode isn't microcoding, etc.  this means transistors aren't
+ switching which means less power dissipated (in cmos), which means
  less heat.\
  
- From what I understand, the Pentium shuts down those sections of the
- CPU which aren't being used in order to cut down on heat/power.
+ from what i understand, the pentium shuts down those sections of the
+ cpu which aren't being used in order to cut down on heat/power.
  
  
  -- 
- Dennis Lou             || "But Yossarian, what if everyone thought that way?"
- dlou@ucsd.edu          || "Then I'd be crazy to think any other way!"
+ dennis lou             || "but yossarian, what if everyone thought that way?"
+ dlou@ucsd.edu          || "then i'd be crazy to think any other way!"
  [backbone]!ucsd!dlou   |+====================================================
- dlou@ucsd.BITNET       |Steve Jobs and Steve Wozniak went to my high school.
+ dlou@ucsd.bitnet       |steve jobs and steve wozniak went to my high school.
  

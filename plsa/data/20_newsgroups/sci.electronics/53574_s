@@ -1,38 +1,38 @@
 
- lancer@oconnor.WPI.EDU (Stephe Lewis Foskett) writes:
+ lancer@oconnor.wpi.edu (stephe lewis foskett) writes:
  
  
- >I'm doing sound for a couple of bands around here and we need Direct
- >Input boxes for the keyboards.  These are the little boxes that take a
- >line level out of the keyboard and transform it into low-Z for the run
- >to the mixer.  Sadly they cost like $50 (or more) each and I'm going
+ >i'm doing sound for a couple of bands around here and we need direct
+ >input boxes for the keyboards.  these are the little boxes that take a
+ >line level out of the keyboard and transform it into low-z for the run
+ >to the mixer.  sadly they cost like $50 (or more) each and i'm going
  
- This is indeed one function, but more sophisticated ones do level control
+ this is indeed one function, but more sophisticated ones do level control
  and ground-lift (separating the keyboard and mixer earths) aswell.
  
- >to need like 5 or 10 of them!  I looked inside one (belonging to
- >another band) and it looks like just a transformer.  Does anyone have
+ >to need like 5 or 10 of them!  i looked inside one (belonging to
+ >another band) and it looks like just a transformer.  does anyone have
  
- Simple ones are just that - a transformer. A decent quality audio trans-
- former will cost most of that $50. They are wired thus...
+ simple ones are just that - a transformer. a decent quality audio trans-
+ former will cost most of that $50. they are wired thus...
  
  
-        HOT   --------------|  |----------------- HOT
+        hot   --------------|  |----------------- hot
                             )||(
-      Input from            )||(                Balanced out to mixer
-      Keyboard              )||(
-                            |  |----------------- COLD
+      input from            )||(                balanced out to mixer
+      keyboard              )||(
+                            |  |----------------- cold
                             |
-        GND   --------------|-------------------- GND
+        gnd   --------------|-------------------- gnd
  
- The ground-lift switch disconnects the GND line from the mixer. The
+ the ground-lift switch disconnects the gnd line from the mixer. the
  transformer ratio depends on the precise application, but around 10:1
  turns ratio may be a good place to start.
  
- Christopher
+ christopher
  --
   ==============================================================================
-   Christopher Hicks    |      Paradise is a Linear Gaussian World
+   christopher hicks    |      paradise is a linear gaussian world
    cmh@uk.ac.cam.eng    |    (also reported to taste hot and sweaty)
   ==============================================================================
  

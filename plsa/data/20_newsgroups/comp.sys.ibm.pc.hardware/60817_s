@@ -1,34 +1,34 @@
 
-    I have a 386DX clone, with a DTC ESDI controller and Toshiba 660
+    i have a 386dx clone, with a dtc esdi controller and toshiba 660
  mbyte
- drive. Since installing DOS 6.0, when I tried to re-install software
+ drive. since installing dos 6.0, when i tried to re-install software
  from
- 5 1/4 or 3 1/2 disks, when I mount the second..third..fourth disks, DOS
+ 5 1/4 or 3 1/2 disks, when i mount the second..third..fourth disks, dos
  6
- doesn't recognize that I have changed floppies. If I do a "DIR", I see
+ doesn't recognize that i have changed floppies. if i do a "dir", i see
  the
- contents of the previous diskette. The only way to get DOS to recognize
+ contents of the previous diskette. the only way to get dos to recognize
  that
  diskettes have changed, is to do a "label", and then to not label them.
  
-    Buying DOS 6.0 has been a colossal mistake. DOS 5.0 was stable, and
+    buying dos 6.0 has been a colossal mistake. dos 5.0 was stable, and
  worked
- well with my equipment. I have Superstor Pro, and DESQVIEW/X ( with
- QEMM, 
- Manifest, etc), so there aren't any features of DOS 6 that I am using. I
+ well with my equipment. i have superstor pro, and desqview/x ( with
+ qemm, 
+ manifest, etc), so there aren't any features of dos 6 that i am using. i
  guess
- I should roll back to DOS 5.0 but I am wary of what will happen when I
+ i should roll back to dos 5.0 but i am wary of what will happen when i
  do it.
  
-    Besides, like a fool, I don't have a DOS 5. bootable disk anymore.
- I've
- made the same mistakes I caution my users not to make. Like sheep, I
+    besides, like a fool, i don't have a dos 5. bootable disk anymore.
+ i've
+ made the same mistakes i caution my users not to make. like sheep, i
  joined 
- the crowd flocking to DOS 6. Baaa Baaad system administrator.
+ the crowd flocking to dos 6. baaa baaad system administrator.
  
- Phillip Culver
- Silicon Graphics Inc
- Mtn. View, CA
+ phillip culver
+ silicon graphics inc
+ mtn. view, ca
  
  
  

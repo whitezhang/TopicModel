@@ -1,13 +1,13 @@
 
- I am looking for a package which takes as inputs a set
+ i am looking for a package which takes as inputs a set
  of geometric objects defined by unions of convex polytopes
  specified in some manner, say by inequalities and equalities,
  and determines in some reasonable form things like
  intersections, unions, etc. etc..
  
- Does anyone know where I can find such a thing?
+ does anyone know where i can find such a thing?
  
- Dan Naiman
- Department of Mathematical Sciences
- Johns Hopkins University
+ dan naiman
+ department of mathematical sciences
+ johns hopkins university
  

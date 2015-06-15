@@ -1,23 +1,23 @@
 
- Hello,
+ hello,
  
- I already tried our national news group without success.
+ i already tried our national news group without success.
  
- I tried to replace a friend's original IBM floppy disk in his PS/1-PC
- with a normal TEAC drive.
- I already identified the power supply on pins 3 (5V) and 6 (12V), shorted
- pin 6 (5.25"/3.5" switch) and inserted pullup resistors (2K2) on pins
+ i tried to replace a friend's original ibm floppy disk in his ps/1-pc
+ with a normal teac drive.
+ i already identified the power supply on pins 3 (5v) and 6 (12v), shorted
+ pin 6 (5.25"/3.5" switch) and inserted pullup resistors (2k2) on pins
  8, 26, 28, 30, and 34.
- The computer doesn't complain about a missing FD, but the FD's light
- stays on all the time. The drive spins up o.k. when I insert a disk,
- but I can't access it.
- The TEAC works fine in a normal PC.
+ the computer doesn't complain about a missing fd, but the fd's light
+ stays on all the time. the drive spins up o.k. when i insert a disk,
+ but i can't access it.
+ the teac works fine in a normal pc.
  
- Are there any points I missed?
+ are there any points i missed?
  
- Thank you.
- 	Volkmar
+ thank you.
+ 	volkmar
  
  ---
- Volkmar.Grote@Stollmann.DE
+ volkmar.grote@stollmann.de
  

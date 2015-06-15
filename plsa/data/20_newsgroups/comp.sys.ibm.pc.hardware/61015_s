@@ -1,48 +1,48 @@
 
- In article <C5t53q.6Iq@dove.nist.gov> livigni@bldrdoc.gov (David livigni 303-497-5898) writes:
+ in article <c5t53q.6iq@dove.nist.gov> livigni@bldrdoc.gov (david livigni 303-497-5898) writes:
  >
- >Looking for help in just the right place...
+ >looking for help in just the right place...
  >
- >Does anyone have experience with the Promise Technology Caching
- >IDE Controller DC99M?  I just ordered one, $110 with 512k installed,
+ >does anyone have experience with the promise technology caching
+ >ide controller dc99m?  i just ordered one, $110 with 512k installed,
  >and have a few questions:
  >
- >1.  Is it easy to use?  Does it need any kind of TSR's, or is
- >it completely transparent to the system board, so that I won't
+ >1.  is it easy to use?  does it need any kind of tsr's, or is
+ >it completely transparent to the system board, so that i won't
  >have to change the bios configuration?
  >
- Yes, it's easy to use. It's just like an ordinary controller.
- You don't have to change the bios config.
+ yes, it's easy to use. it's just like an ordinary controller.
+ you don't have to change the bios config.
  
- >2.  Is it transparent to the IDE drive?  Will it work with any drive
+ >2.  is it transparent to the ide drive?  will it work with any drive
  >or does it have to be configured explicity for the type of drive
  >installed?
  >
- It's transparent. It works with any drive. If you change the
+ it's transparent. it works with any drive. if you change the
  drive you only need to change the bios config. as usual.
  
- >3.  Will it work with a dual-drive system (master and slave)?
- Yes, no problem.
+ >3.  will it work with a dual-drive system (master and slave)?
+ yes, no problem.
  
  >
- >4.  With it, will I need smartdrive or DOS buffers?
- That depends. You will get a little better performance
- if you use smartdrive and buffers in addition. That's
- because access to the card through the ISA bus is slower
- than access to system RAM. I don't use smartdrive myself,
- but I have a few buffers.
+ >4.  with it, will i need smartdrive or dos buffers?
+ that depends. you will get a little better performance
+ if you use smartdrive and buffers in addition. that's
+ because access to the card through the isa bus is slower
+ than access to system ram. i don't use smartdrive myself,
+ but i have a few buffers.
  
  >
- >5.  Is the Promise Technology controller a good one?
+ >5.  is the promise technology controller a good one?
  >
- >Any information would be greatly appreciated.  Thanks!
+ >any information would be greatly appreciated.  thanks!
  >
- >David Livigni
+ >david livigni
  >-- 
- >| livigni@bldrdoc.gov - Anything stated here is my opinion only! Y @--D |
- >| Rule of the Great:                                                    |
- >|         When people you greatly admire appear to be thinking deep     |
+ >| livigni@bldrdoc.gov - anything stated here is my opinion only! y @--d |
+ >| rule of the great:                                                    |
+ >|         when people you greatly admire appear to be thinking deep     |
  >|         thoughts, they probably are thinking about lunch.             |
  
- Stig
+ stig
  

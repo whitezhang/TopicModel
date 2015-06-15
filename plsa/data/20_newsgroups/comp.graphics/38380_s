@@ -1,21 +1,21 @@
 
- To everyone who wants fonts in Vivid/POV/Polyray.
- The Borland BGI font converter is VVFONT18.ZIP.
- This program can be found on FTP.INFORMATIK.UNI-OLDENBURG.DE directory
+ to everyone who wants fonts in vivid/pov/polyray.
+ the borland bgi font converter is vvfont18.zip.
+ this program can be found on ftp.informatik.uni-oldenburg.de directory
  pub/dkbtrace/utils.
- Also WUARCHIVE has mirrored this site (directory graphics/graphics/mirrors/
+ also wuarchive has mirrored this site (directory graphics/graphics/mirrors/
  ftp.informatik.uni-oldenburg.de/pub/dkbtrace/utils.
- There are more nice utilities present in this directory.
- A new version of Polyray 1.6 (for those asked for it) can be found on the 
- same sites but in the directory INCOMING instead of UTILS (PLY16386).
- Also in this directory POVSHELL and PV3DV060 could be found.
- Have a nive raytrace time.
- Peter
+ there are more nice utilities present in this directory.
+ a new version of polyray 1.6 (for those asked for it) can be found on the 
+ same sites but in the directory incoming instead of utils (ply16386).
+ also in this directory povshell and pv3dv060 could be found.
+ have a nive raytrace time.
+ peter
  
   /*---------*\*/*-------------------------------------------*\
-  *|  ____/|  *|*    PETER.VANDERVEEN@VISSER.EL.WAU.NL       |*
-  *|  \ o.O|  *|*    Department of Genetics                  |*
-  *|   =(_)=  *|*    Agricultural University                 |*
-  *|     U    *|*    Wageningen, The Netherlands             |*
+  *|  ____/|  *|*    peter.vanderveen@visser.el.wau.nl       |*
+  *|  \ o.o|  *|*    department of genetics                  |*
+  *|   =(_)=  *|*    agricultural university                 |*
+  *|     u    *|*    wageningen, the netherlands             |*
   \*---------*/*\*-------------------------------------------*/
  

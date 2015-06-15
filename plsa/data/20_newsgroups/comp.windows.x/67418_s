@@ -1,53 +1,53 @@
 
- In article <1993Apr28.100545.1217@nbivax.nbi.dk>, spang@nbivax.nbi.dk (Karsten Spang) writes:
- > I have a problem: I am not able to create a window with 24 bit planes.
- > ... gave BadMatch error on the CreateWindow request.
+ in article <1993apr28.100545.1217@nbivax.nbi.dk>, spang@nbivax.nbi.dk (karsten spang) writes:
+ > i have a problem: i am not able to create a window with 24 bit planes.
+ > ... gave badmatch error on the createwindow request.
  > 
- > As far as I can tell from the manual, the only attribute which may give
- > a BadMatch, is the colormap, if it belongs to a wrong visual. But the
+ > as far as i can tell from the manual, the only attribute which may give
+ > a badmatch, is the colormap, if it belongs to a wrong visual. but the
  > visual was correctly matched
  
- I got several answers, the most complete was from Errol Crary 
- (errolc@tv.tv.Tek.com):
- >I have just looked at the R4 server listings (.../mit/server/dix/window.c )
- >and there are several ways in which you can get a BadMatch error, even
- >though my O'Reilly book only says "BorderWidth is nonzero for InputOnly".
+ i got several answers, the most complete was from errol crary 
+ (errolc@tv.tv.tek.com):
+ >i have just looked at the r4 server listings (.../mit/server/dix/window.c )
+ >and there are several ways in which you can get a badmatch error, even
+ >though my o'reilly book only says "borderwidth is nonzero for inputonly".
  >
- >1- if ((class == InputOnly) && ((bw != 0) || (depth != 0)))
- >
- >
- >2- /* Find out if the depth and visual are acceptable for this Screen */
+ >1- if ((class == inputonly) && ((bw != 0) || (depth != 0)))
  >
  >
- >3- if (((vmask & (CWBorderPixmap | CWBorderPixel)) == 0) &&
- >    (class != InputOnly) &&
- >    (depth != pParent->drawable.depth))
+ >2- /* find out if the depth and visual are acceptable for this screen */
  >
  >
- >4- if (((vmask & CWColormap) == 0) &&
- >    (class != InputOnly) &&
- >    ((visual != ancwopt->visual) || (ancwopt->colormap == None)))
+ >3- if (((vmask & (cwborderpixmap | cwborderpixel)) == 0) &&
+ >    (class != inputonly) &&
+ >    (depth != pparent->drawable.depth))
  >
  >
- >So, 
- >case 1 is InputOnly which is not your case;  it seems to be the
- >     O'Reilly case.
- >Case 2 should not be the case since you got the visual for the screen.
- >Case 3 looks suspicious; you are giving no CWBorder... in the attribute
- >     mask, and since the visual is not the parent depth, I would suspect you
+ >4- if (((vmask & cwcolormap) == 0) &&
+ >    (class != inputonly) &&
+ >    ((visual != ancwopt->visual) || (ancwopt->colormap == none)))
+ >
+ >
+ >so, 
+ >case 1 is inputonly which is not your case;  it seems to be the
+ >     o'reilly case.
+ >case 2 should not be the case since you got the visual for the screen.
+ >case 3 looks suspicious; you are giving no cwborder... in the attribute
+ >     mask, and since the visual is not the parent depth, i would suspect you
  >     need to supply a border pixel from the new colormap you are going to use
  >     for this window.
- >Case 4 does not seem to be the problem since you do supply the CWColormap
+ >case 4 does not seem to be the problem since you do supply the cwcolormap
  >     in the attributes.
  
-                              Thanks for your help
+                              thanks for your help
  
-                                    Karsten
+                                    karsten
  -- 
  --------------------------------------------------------------------------------
- InterNet:       krs@kampsax.dk                             Karsten Spang
- Phone:          +45 36 77 22 23                            Kampsax Data
- Fax:            +45 36 77 03 01                            P.O. Box 1142
-                                                            DK-2650 Hvidovre
-                                                            Denmark
+ internet:       krs@kampsax.dk                             karsten spang
+ phone:          +45 36 77 22 23                            kampsax data
+ fax:            +45 36 77 03 01                            p.o. box 1142
+                                                            dk-2650 hvidovre
+                                                            denmark
  

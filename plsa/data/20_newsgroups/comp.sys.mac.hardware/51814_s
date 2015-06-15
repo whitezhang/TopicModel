@@ -1,22 +1,22 @@
 
- In <19930419.060948.343@almaden.ibm.com> petrack@vnet.IBM.COM writes:
+ in <19930419.060948.343@almaden.ibm.com> petrack@vnet.ibm.com writes:
  
- >Some kind soul told me that I could change the serial port buffer size
- >of Zterm via ResEdit. He did not tell me HOW I could change it using
- >ResEdit, and I have lost his e-mail address.
+ >some kind soul told me that i could change the serial port buffer size
+ >of zterm via resedit. he did not tell me how i could change it using
+ >resedit, and i have lost his e-mail address.
  
- >Could he or any one else please tell me what to do?
+ >could he or any one else please tell me what to do?
  
- >I assume that the relevant resource is zSet, but I do not know, and
+ >i assume that the relevant resource is zset, but i do not know, and
  [chop]
  
- Could you please post it to the net too please, as I, and I'm sure many others
- would like to know.  Thanks!
- Kev.
+ could you please post it to the net too please, as i, and i'm sure many others
+ would like to know.  thanks!
+ kev.
  
  -- 
- Kevin Hayes                    |      "My opinions do necessarily 
- Dalhousie University           |       reflect the opinions of
- Halifax, Nova Scotia, Canada   |       myself; so sue me!"
+ kevin hayes                    |      "my opinions do necessarily 
+ dalhousie university           |       reflect the opinions of
+ halifax, nova scotia, canada   |       myself; so sue me!"
  hayes@ug.cs.dal.ca             |
  

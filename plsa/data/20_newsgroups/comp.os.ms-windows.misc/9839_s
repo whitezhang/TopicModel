@@ -1,19 +1,19 @@
 
- In article <1993Apr20.195853.16179@samba.oit.unc.edu> dil.admin@mhs.unc.edu (Dave Laudicina) writes:
- >Has anyone experienced a faint shadow at all resolutions using this
- >card. Is only in Windows. I have replaced card and am waiting on 
- >latest drivers. Also have experienced General Protection Fault Errors
- >in WSPDPSF.DRV on Winword Tools Option menu and in WINFAX setup.
+ in article <1993apr20.195853.16179@samba.oit.unc.edu> dil.admin@mhs.unc.edu (dave laudicina) writes:
+ >has anyone experienced a faint shadow at all resolutions using this
+ >card. is only in windows. i have replaced card and am waiting on 
+ >latest drivers. also have experienced general protection fault errors
+ >in wspdpsf.drv on winword tools option menu and in winfax setup.
  
- I had the exact same failure with the 24X and Word for Windows.
- A quick call to Microsoft indicated it was problem with the
- 24X drivers. You need to call Diamond and get the new drivers,
- I think version 2.03 fixes the above problem, there may be later
- versions that I'm unaware of...
+ i had the exact same failure with the 24x and word for windows.
+ a quick call to microsoft indicated it was problem with the
+ 24x drivers. you need to call diamond and get the new drivers,
+ i think version 2.03 fixes the above problem, there may be later
+ versions that i'm unaware of...
  
   
  -- 
- Dale R. Pischke           dale@odetics.com  or  uunet!odetics!dale
- Senior Software Engineer
- Odetics, Gyyr Division
+ dale r. pischke           dale@odetics.com  or  uunet!odetics!dale
+ senior software engineer
+ odetics, gyyr division
  

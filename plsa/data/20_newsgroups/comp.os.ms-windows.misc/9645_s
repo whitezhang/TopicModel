@@ -1,7 +1,7 @@
 
- Has anyone else been playing with that wincmd utility from PC Magazine?
- If so, I am having trouble concatenating string variables together and
- need your help.  For example:
+ has anyone else been playing with that wincmd utility from pc magazine?
+ if so, i am having trouble concatenating string variables together and
+ need your help.  for example:
  temp = "path"
  temp2 = "file.ext"
  fullpath = temp+"/"
@@ -9,13 +9,13 @@
  fullpath = fullpath+temp2
  say fullpath			// output = 'h/file.ext'
  
- So, it seems to be dropping the first few characters with each
- concatenations.  Is it that I am out of memory -- I only have maybe 20
+ so, it seems to be dropping the first few characters with each
+ concatenations.  is it that i am out of memory -- i only have maybe 20
  variables total -- the article didn't mention memory limits. 
  
  email me if you have an idea or would like to see the actual source and
- output.  Thanks for your help.
- 		-Bo
+ output.  thanks for your help.
+ 		-bo
  -- 
- 	--James "Bo" Begole		begolej@csgrad.cs.vt.edu
+ 	--james "bo" begole		begolej@csgrad.cs.vt.edu
  

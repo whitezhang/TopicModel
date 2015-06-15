@@ -1,31 +1,31 @@
 
-  According to my TI databook, the pinouts for the TIL311 display are as
+  according to my ti databook, the pinouts for the til311 display are as
  follows:
   
-  Pin 1 - LED supply voltage
-  Pin 2 - Latch data input B
-  Pin 3 - Latch data input A
-  Pin 4 - Left decimal point cathode
-  Pin 5 - Latch strobe input
-  Pin 6 - Omitted
-  Pin 7 - Common ground
-  Pin 8 - Blanking input
-  Pin 9 - Omitted 
-  Pin 10 - Right decimal point cathode
-  Pin 11 - Omitted
-  Pin 12 - Latch data input D
-  Pin 13 - Latch data input C
-  Pin 14 - Logic supply voltage, Vcc
+  pin 1 - led supply voltage
+  pin 2 - latch data input b
+  pin 3 - latch data input a
+  pin 4 - left decimal point cathode
+  pin 5 - latch strobe input
+  pin 6 - omitted
+  pin 7 - common ground
+  pin 8 - blanking input
+  pin 9 - omitted 
+  pin 10 - right decimal point cathode
+  pin 11 - omitted
+  pin 12 - latch data input d
+  pin 13 - latch data input c
+  pin 14 - logic supply voltage, vcc
   
- The logic supply voltage is 5V @ 60-90mA. The LED supply is also 5V, but
- it need not be particularly well regulated. The LED drivers on the chip
- use a constant current source, so LED intensity is not affected by the
+ the logic supply voltage is 5v @ 60-90ma. the led supply is also 5v, but
+ it need not be particularly well regulated. the led drivers on the chip
+ use a constant current source, so led intensity is not affected by the
  supply voltage.
   
  
  -- 
  
- <o_o>    Kelly Gray
+ <o_o>    kelly gray
           gray@feline.uucp (preferred)
           gray@admin.humberc.on.ca
  

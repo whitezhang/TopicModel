@@ -1,14 +1,14 @@
 
- This may be a dumb question, but I need to put a hard drive on my father's
- PC/XT, either MFM, RLL, or IDE. I know how to hook it up, but how do I tell
- the computer the geometry of the drive. On my 386, you set it in the BIOS, but
- I doubt that's how it's done on an XT. I thought it might be software with
- the controller card, but the IDE card for XT's that I saw didn't come with
- any. Also, how do I low level format it once it's on the computer? (Assuming
+ this may be a dumb question, but i need to put a hard drive on my father's
+ pc/xt, either mfm, rll, or ide. i know how to hook it up, but how do i tell
+ the computer the geometry of the drive. on my 386, you set it in the bios, but
+ i doubt that's how it's done on an xt. i thought it might be software with
+ the controller card, but the ide card for xt's that i saw didn't come with
+ any. also, how do i low level format it once it's on the computer? (assuming
  a drive which needs formatting)
  
- advTHANKSance,
+ advthanksance,
  
- Rob
+ rob
  rxg3321@ultb.isc.rit.edu
  

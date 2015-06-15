@@ -1,28 +1,28 @@
 
- In article <4615trd@rpi.edu> deweeset@ptolemy2.rdrc.rpi.edu (Thomas E. DeWeese) writes:
- >  Hello, I know that this has been discussed before.  But at the time
- >I didn't need to teselate a sphere.  So if any kind soul has the code
- >or the alg, that was finally decided upon as the best (as I recall it
- >was a nice, iterative subdivision meathod), I would be very 
+ in article <4615trd@rpi.edu> deweeset@ptolemy2.rdrc.rpi.edu (thomas e. deweese) writes:
+ >  hello, i know that this has been discussed before.  but at the time
+ >i didn't need to teselate a sphere.  so if any kind soul has the code
+ >or the alg, that was finally decided upon as the best (as i recall it
+ >was a nice, iterative subdivision meathod), i would be very 
  >appreciative.
  
- Here is one by Andrew "Graphics Gems" Glassner that I got from a
- collegue of mine.  I think I fiddled with it a little bit to make it
- deal with whatever bizarre problem I was working on at the time but it
+ here is one by andrew "graphics gems" glassner that i got from a
+ collegue of mine.  i think i fiddled with it a little bit to make it
+ deal with whatever bizarre problem i was working on at the time but it
  is known to work.
  
  							spl
  			       - - - -
  /* spheres
-     ASG     9 Feb 85
-     spl Thu Mar  8 17:17:40 EST 1990
+     asg     9 feb 85
+     spl thu mar  8 17:17:40 est 1990
  */
  #include <stdio.h>
  #include <math.h>
  
- #define PI 3.141592654
+ #define pi 3.141592654
  
- struct Point_struct {
+ struct point_struct {
          double x, y, z;
  };
  
@@ -45,8 +45,8 @@
      double northy, southy, poley;
      double rtheta, rtheta2, ntheta, ntheta2, magicangle;
      double theta, thetastart, thisy, den, t;
-     struct Point_node *pnp;
-     struct Point_struct p1, p2, p3, p4, n1, n2, n3, n4, pt;
+     struct point_node *pnp;
+     struct point_struct p1, p2, p3, p4, n1, n2, n3, n4, pt;
  
      radius = r;
      xorg = x;
@@ -55,7 +55,7 @@
  
  /* north pole */
  
-     magicangle = 30.0*PI/180.0;
+     magicangle = 30.0*pi/180.0;
      northy = radius*sin(magicangle);
      southy = -radius*sin(magicangle);
      for (pole=0; pole<2; pole++) {
@@ -76,8 +76,8 @@
        }
        for ( theta = thetastart; theta < 360.0; theta += 60.0 ) {
  
-         rtheta = theta*PI/180.0;
-         rtheta2 = (theta+60.0)*PI/180.0;
+         rtheta = theta*pi/180.0;
+         rtheta2 = (theta+60.0)*pi/180.0;
          p1.x = 0.0;  
          p1.y = poley;  
          p1.z = 0.0;  
@@ -150,10 +150,10 @@
  
      for (theta=0.0; theta<360.0; theta += 60.0) {
  
-       rtheta = theta*PI/180.0;  
-       rtheta2 = (theta+60.0)*PI/180.0;
-       ntheta = (theta+36.0)*PI/180.0; 
-       ntheta2 = (theta+96.0)*PI/180.0;
+       rtheta = theta*pi/180.0;  
+       rtheta2 = (theta+60.0)*pi/180.0;
+       ntheta = (theta+36.0)*pi/180.0; 
+       ntheta2 = (theta+96.0)*pi/180.0;
        p1.x = radius*cos(rtheta);   
        p1.y = northy;  
        p1.z = radius*sin(rtheta);
@@ -230,13 +230,13 @@
  
  subdivide_tri(p1,p2,p3,a)
  
-   struct Point_struct *p1, *p2, *p3;
+   struct point_struct *p1, *p2, *p3;
    int a;
  
    {
  
-     struct Point_struct n1, n2, n3;
-     struct Point_struct p12, p13, p23;
+     struct point_struct n1, n2, n3;
+     struct point_struct p12, p13, p23;
      double den, t;
  
      if (a>0) {
@@ -321,8 +321,8 @@
  
    }
  -- 
- Steve Lamont, SciViGuy -- (619) 534-7968 -- spl@szechuan.ucsd.edu
- San Diego Microscopy and Imaging Resource/UC San Diego/La Jolla, CA 92093-0608
- "My other car is a car, too."
-                  - Bumper strip seen on I-805
+ steve lamont, sciviguy -- (619) 534-7968 -- spl@szechuan.ucsd.edu
+ san diego microscopy and imaging resource/uc san diego/la jolla, ca 92093-0608
+ "my other car is a car, too."
+                  - bumper strip seen on i-805
  

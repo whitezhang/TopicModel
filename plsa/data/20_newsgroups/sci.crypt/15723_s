@@ -1,13 +1,13 @@
 
- I am testing IDEA block cipher implementations for correctness
- and needs some golden test vectors.  I've looked through
- the postscript IDEA chapter but the single example gives me
- zero degrees of freedom.  I'll contact the inventor if necessary
- but since we are NOT paying him money for use of his invention,
- I'd like to offload this from him.  Anybody got vectors?
- (No disease vectors, please).
+ i am testing idea block cipher implementations for correctness
+ and needs some golden test vectors.  i've looked through
+ the postscript idea chapter but the single example gives me
+ zero degrees of freedom.  i'll contact the inventor if necessary
+ but since we are not paying him money for use of his invention,
+ i'd like to offload this from him.  anybody got vectors?
+ (no disease vectors, please).
  
  -- 
- grady@netcom.com  2EF221 / 15 E2 AD D3 D1 C6 F3 FC  58 AC F7 3D 4F 01 1E 2F
+ grady@netcom.com  2ef221 / 15 e2 ad d3 d1 c6 f3 fc  58 ac f7 3d 4f 01 1e 2f
  
  

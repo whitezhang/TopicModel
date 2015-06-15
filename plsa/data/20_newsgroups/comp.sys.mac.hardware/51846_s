@@ -1,194 +1,194 @@
 
- In article <1qsfak$skc@network.ucsd.edu> Doug P. Book,
+ in article <1qsfak$skc@network.ucsd.edu> doug p. book,
  dpb@sdchemw2.ucsd.edu writes:
- >Hi.  I think I have a problem with the stereo sound output on my Quadra
- >900, but I am not totally sure because my roomate has the same problem
- >on his PowerBook 170.  Any info or experience anyopne has would be
+ >hi.  i think i have a problem with the stereo sound output on my quadra
+ >900, but i am not totally sure because my roomate has the same problem
+ >on his powerbook 170.  any info or experience anyopne has would be
  >greatly appreciated.
  >
- >When I hook my Quadra up to my home stereo system, the following types
- >of sounds (mono, as far as I can tell) all play fine through BOTH
+ >when i hook my quadra up to my home stereo system, the following types
+ >of sounds (mono, as far as i can tell) all play fine through both
  >speakers:
  >
- >system beeps  (already provided ones such as Indigo and ones I record)
+ >system beeps  (already provided ones such as indigo and ones i record)
  >
- >Armor Alley
- >Spectre
- >Spaceward Ho!
- >
- >
- >But, the following games only play out of the left channel:
- >
- >Lemmings
- >Out of This World  (awesome game, BTW)
- >Glider 4.0
- >OIDS
+ >armor alley
+ >spectre
+ >spaceward ho!
  >
  >
- >But still, STEREO system beeps do play in stereo, through BOTH speakers.
- >(The one I'm specifically referrring to is Apocolyptic Beginning, which
+ >but, the following games only play out of the left channel:
+ >
+ >lemmings
+ >out of this world  (awesome game, btw)
+ >glider 4.0
+ >oids
+ >
+ >
+ >but still, stereo system beeps do play in stereo, through both speakers.
+ >(the one i'm specifically referrring to is apocolyptic beginning, which
  >my roommate downloaded from some ftp site (sumex?))
  >
  >
- >All of the symptoms are the same on my rommates 170 (he can't run
- >OOTW because he doesn't have color).
+ >all of the symptoms are the same on my rommates 170 (he can't run
+ >ootw because he doesn't have color).
  >
- >We're both running system 7.1
+ >we're both running system 7.1
  >
  >
  >
- >Does anyone with Lemmings or the other three games I mentioned above get
- >sound out of both speakers on a Mac II class, Quadra, LC, PowerBook 140
+ >does anyone with lemmings or the other three games i mentioned above get
+ >sound out of both speakers on a mac ii class, quadra, lc, powerbook 140
  or
- >greater, Centris, SE/30, etc... (stereo) machine?
+ >greater, centris, se/30, etc... (stereo) machine?
  >
- >I used to have a Mac II, and I sort of rememeber Lemmings playing in
- >stereo on that machine, not just on the left channel.  (I could be
- >mistaken, though.  If there were a problem with the Quad 900's and PB
- >170's, I am wondering why the system beeps still play in stereo?  If
+ >i used to have a mac ii, and i sort of rememeber lemmings playing in
+ >stereo on that machine, not just on the left channel.  (i could be
+ >mistaken, though.  if there were a problem with the quad 900's and pb
+ >170's, i am wondering why the system beeps still play in stereo?  if
  there
- >isn't a problem with our machines, I wonder why the 4 games above are
+ >isn't a problem with our machines, i wonder why the 4 games above are
  >apparantly written to support only one channel of stereo when they
  >could just use mono sounds so the mono sound would at least come out of
- >both speakers  (like Spectre, etc. do)?
+ >both speakers  (like spectre, etc. do)?
  >
- >Quadra 900's and PowerBook 170's have the same ROMS (to my knowledge),
- >so maybe this is a ROM problem?  (if so, though, why wouldn't System 7.1
+ >quadra 900's and powerbook 170's have the same roms (to my knowledge),
+ >so maybe this is a rom problem?  (if so, though, why wouldn't system 7.1
  >patch over this problem?)
  >
  >
  >
  >
- >Thanks for any help you can provide!
+ >thanks for any help you can provide!
  
- In article <1993Apr18.213827.9974@kth.se> Jon Wtte,
+ in article <1993apr18.213827.9974@kth.se> jon wtte,
  d88-jwa@hemul.nada.kth.se writes:
- >Mac sound hardware is diverse; some macs play in stereo and
- >mix the output (the SE/30 for instance) while others play in
- >stereo but ONLY has the left channel for the speaker, while
- >some are "truly" mono (like the LC)
+ >mac sound hardware is diverse; some macs play in stereo and
+ >mix the output (the se/30 for instance) while others play in
+ >stereo but only has the left channel for the speaker, while
+ >some are "truly" mono (like the lc)
  >
- >Developers know that stuff played in the left channel is
- >guaranteed to be heard, while the right channel isn't. Some
+ >developers know that stuff played in the left channel is
+ >guaranteed to be heard, while the right channel isn't. some
  >send data to both, some only send data to the left channel
  >(the first is preferrable, of course)
  
- Okay, I guess its time for a quick explanation of Mac sound.
+ okay, i guess its time for a quick explanation of mac sound.
  
- The original documentation for the sound hardware (IM-3) documents how to
- make sound by directly accessing hardware.  Basically, you jam values
- into all the even bytes from SoundBase to SoundBase+0x170. This was
+ the original documentation for the sound hardware (im-3) documents how to
+ make sound by directly accessing hardware.  basically, you jam values
+ into all the even bytes from soundbase to soundbase+0x170. this was
  because
- of how the Mac 128 (and some later machines) generated sound was by
+ of how the mac 128 (and some later machines) generated sound was by
  scanning
- this block and D/Aing every even byte (the odd bytes went to the floppy on
+ this block and d/aing every even byte (the odd bytes went to the floppy on
  some machines).
  
- When the Mac II (and Apple Sound Chip) was invented, it was designed to
- generate stereo sound. It was also designed to be compatible with we had
+ when the mac ii (and apple sound chip) was invented, it was designed to
+ generate stereo sound. it was also designed to be compatible with we had
  once
- documented. So storing bytes at the even values at SoundBase meant "I
+ documented. so storing bytes at the even values at soundbase meant "i
  want to
- play a mono sound" and so it was emulated. But Apple had since retracted
+ play a mono sound" and so it was emulated. but apple had since retracted
  the
- documentation on SoundBase and decided not to document the lowest layers
+ documentation on soundbase and decided not to document the lowest layers
  of
- sound generation. So apple never explained where to stuff bytes if you
+ sound generation. so apple never explained where to stuff bytes if you
  want
  to make stereo sound.
  
- Enter game developers. The sound driver and current sound manager are
- inconveniently lame for making games. Furthermore, people who port from
+ enter game developers. the sound driver and current sound manager are
+ inconveniently lame for making games. furthermore, people who port from
  the
- IBM don't want to learn more APIs. So, it has become popular for game
- writers to write to SoundBase to make sound, since it is very easy.
+ ibm don't want to learn more apis. so, it has become popular for game
+ writers to write to soundbase to make sound, since it is very easy.
  
- Since the Mac II, Apple has had many different kind of sound output
+ since the mac ii, apple has had many different kind of sound output
  hardware,
- and the only things they have in common are that writing to SoundBase
+ and the only things they have in common are that writing to soundbase
  works.
- On some hardware, (Mac II, IIx, IIcx, IIci at least), writing to SoundBase
- gets you mono sound through both speakers. On some Macs (Quadra
+ on some hardware, (mac ii, iix, iicx, iici at least), writing to soundbase
+ gets you mono sound through both speakers. on some macs (quadra
  700/900/950
- at least) writing to SoundBase gets you mono sound on the left channel
+ at least) writing to soundbase gets you mono sound on the left channel
  only.
- Both are technically correct interpretations of the original
+ both are technically correct interpretations of the original
  specification,
  but one is obviously preferable for asthetic reasons.
  
- If developers use the Sound Manager (and I think the sound driver), mono
+ if developers use the sound manager (and i think the sound driver), mono
  sounds will (typically) come out through both channels regardless of the
- underlying hardware. It is possible to specify you want to generate left
- channel only, but no one does. If developers write to sound base, their
+ underlying hardware. it is possible to specify you want to generate left
+ channel only, but no one does. if developers write to sound base, their
  games will only come out the left on some games.
  
- The other problem, the original Mac II only producing left channel sound
- on the internal speaker, while the SE/30 mixes both, isn't really related.
- It is due to the post generation amplification used on the motherboards of
- the different machines. It only affects true stereo sounds. Sounds which
+ the other problem, the original mac ii only producing left channel sound
+ on the internal speaker, while the se/30 mixes both, isn't really related.
+ it is due to the post generation amplification used on the motherboards of
+ the different machines. it only affects true stereo sounds. sounds which
  are actually mono, will play on the internal speaker, no matter what
  machine
  you have.
  
- Now, to more directly address the question, the games you list:
- >Lemmings
- >Out of This World  (awesome game, BTW)
- >Glider 4.0
- >OIDS
+ now, to more directly address the question, the games you list:
+ >lemmings
+ >out of this world  (awesome game, btw)
+ >glider 4.0
+ >oids
  and also
- Hellcats,
- Super Tetris
- Oxyd
- (and many more, these are just what I've tested)
+ hellcats,
+ super tetris
+ oxyd
+ (and many more, these are just what i've tested)
  
- Cheat and write to SoundBase and so are only left channel on Quadras.
+ cheat and write to soundbase and so are only left channel on quadras.
  
  
- Other games you list:
- >Armor Alley
- >Spectre
- >Spaceward Ho!
+ other games you list:
+ >armor alley
+ >spectre
+ >spaceward ho!
  and also
- PGA Tour Golf
- Civilization
+ pga tour golf
+ civilization
  (and more, these are again only from personal experience)
  
- Use the sound manager and work fine on all machines.
+ use the sound manager and work fine on all machines.
  
- The more of the story is to developers: DON'T CHEAT!
- Really, I am absolutely, positively not allowed to do what I am about to
+ the more of the story is to developers: don't cheat!
+ really, i am absolutely, positively not allowed to do what i am about to
  do,
- but I'm going say it anyway.
- Stop cheating on sound!
- Really soon, you will be sorry, as even those without external speakers
- will be disappointed with your sound on future hardware. The grace period
+ but i'm going say it anyway.
+ stop cheating on sound!
+ really soon, you will be sorry, as even those without external speakers
+ will be disappointed with your sound on future hardware. the grace period
  is about to end.
- The Sound Manager is understandable now, and works pretty well and will
+ the sound manager is understandable now, and works pretty well and will
  work
  even better soon, so use it.
  
- In conclusion:
- To Doug, it isn't a hardware problem, at least, not a bug.
- To Jon, it isn't a choice to developers as to whether they want to send
+ in conclusion:
+ to doug, it isn't a hardware problem, at least, not a bug.
+ to jon, it isn't a choice to developers as to whether they want to send
  sound
- to both channels. If they do it the right way, it is taken care of
- automatically. If you cheat, there is not way to make it work on all
+ to both channels. if they do it the right way, it is taken care of
+ automatically. if you cheat, there is not way to make it work on all
  hardware.
  
  
- Have fun.
+ have fun.
  
- Disclaimer number 1:
- I don't work on sound here at Apple, I'm just pretty well informed.
- So don't write me with sound questions.
+ disclaimer number 1:
+ i don't work on sound here at apple, i'm just pretty well informed.
+ so don't write me with sound questions.
  
- Disclaimer number 2:
- If it says up above that I wrote anything like "the grace period is about
- to end" then it is a bug in your news feed, since I am catagorically not
- allowed to say anything like that. You know what I mean.
+ disclaimer number 2:
+ if it says up above that i wrote anything like "the grace period is about
+ to end" then it is a bug in your news feed, since i am catagorically not
+ allowed to say anything like that. you know what i mean.
  
- Disclaimer number 3:
- I don't speak for Apple, just me.
+ disclaimer number 3:
+ i don't speak for apple, just me.
  
- -Steve Bollinger
+ -steve bollinger
  

@@ -1,28 +1,28 @@
 
- I posted a message here some time ago asking why my mouse was so jumpy.  
- Well, I think I know why, and it doesn't have anything to do with the 
- mouse.  It seems to be the video driver!  Here's why I think that:
+ i posted a message here some time ago asking why my mouse was so jumpy.  
+ well, i think i know why, and it doesn't have anything to do with the 
+ mouse.  it seems to be the video driver!  here's why i think that:
  
- A few weeks ago I helped a guy install the driver for his S3 video card for 
- windows.  He had been using the normal Windows default VGA driver.  We don't 
+ a few weeks ago i helped a guy install the driver for his s3 video card for 
+ windows.  he had been using the normal windows default vga driver.  we don't 
  have the same kind of mouse (mine is microsoft serial and his is an off-
- brand serial mouse).  His mouse worked fine until I installed the S3 (v1.4) 
+ brand serial mouse).  his mouse worked fine until i installed the s3 (v1.4) 
  driver on his system, then his mouse became really jumpy too!
  
- Is there anything I can do?  I need high resolution since I display LOTS of 
- stuff on my screen (AMI Pro, Pegasus Mail for Windows, WP Office 4.0 -- 
- sorry, nondisclosure!, and alot more).  I noticed there are S3 drivers on 
- ftp.cica, but they are the same version that I already have and they are no 
- help (I already tried!).
+ is there anything i can do?  i need high resolution since i display lots of 
+ stuff on my screen (ami pro, pegasus mail for windows, wp office 4.0 -- 
+ sorry, nondisclosure!, and alot more).  i noticed there are s3 drivers on 
+ ftp.cica, but they are the same version that i already have and they are no 
+ help (i already tried!).
  
  ---
- Sean Eckton
- Computer Support Representative
- College of Fine Arts and Communications
+ sean eckton
+ computer support representative
+ college of fine arts and communications
  
- D-406 HFAC
- Brigham Young University
- Provo, UT  84602
+ d-406 hfac
+ brigham young university
+ provo, ut  84602
  (801)378-3292
  
  hfac_csr@byu.edu

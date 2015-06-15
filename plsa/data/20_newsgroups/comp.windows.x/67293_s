@@ -1,12 +1,12 @@
 
- I'd appreciate any feedback on capture/playback tools for use with X clients.
+ i'd appreciate any feedback on capture/playback tools for use with x clients.
  
- I have pulled XTM from public domain but it appears to be set up to test
- X servers not X clients. 
+ i have pulled xtm from public domain but it appears to be set up to test
+ x servers not x clients. 
  
- Any comparisons/comments on regression testing tools would be great -
- particularly XTM, XRunner, Autotester, and SRI's CAPBAK, SMARTS and EXDIFF.
+ any comparisons/comments on regression testing tools would be great -
+ particularly xtm, xrunner, autotester, and sri's capbak, smarts and exdiff.
  
- Megan Grenenger
+ megan grenenger
  megan@cs.uq.oz.au
  

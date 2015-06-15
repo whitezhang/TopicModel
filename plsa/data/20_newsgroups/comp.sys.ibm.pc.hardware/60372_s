@@ -1,35 +1,35 @@
 
- In article <1993Apr15.235509.29818@julian.uwo.ca> wlsmith@valve.heart.rri.uwo.ca (Wayne Smith) writes:
+ in article <1993apr15.235509.29818@julian.uwo.ca> wlsmith@valve.heart.rri.uwo.ca (wayne smith) writes:
  >
- > I won't argue that the SCSI standard makes for a good, well implimented
- > data highway, but I still want to know why it intrinsically better
- > (than IDE, on an ISA bus) when it comes to multi-tasking OS's when
- > managing data from a single SCSI hard drive.
+ > i won't argue that the scsi standard makes for a good, well implimented
+ > data highway, but i still want to know why it intrinsically better
+ > (than ide, on an isa bus) when it comes to multi-tasking os's when
+ > managing data from a single scsi hard drive.
  
- I have been following this thread and figured I'd throw in my two cents...
+ i have been following this thread and figured i'd throw in my two cents...
  
- The Amiga Zorro II bus is comparable with the ISA bus (7.16 vs 8.33 MHZ).
- The Amiga has had a pre-emptative multi-tasking  OS since '85 and can
- operate with 1 MB RAM!  SCSI is used almost exclusively on these systems.
+ the amiga zorro ii bus is comparable with the isa bus (7.16 vs 8.33 mhz).
+ the amiga has had a pre-emptative multi-tasking  os since '85 and can
+ operate with 1 mb ram!  scsi is used almost exclusively on these systems.
  
- A SCSI controller that transfers data by DMA allows the cpu to request data
+ a scsi controller that transfers data by dma allows the cpu to request data
  from the hard drive and continue working while the controller gets the data
- and moves it to memory.  A controller that allows reselection can operate
- even better with multiple devices.  This is espically true with SCSI tape
- units.  For example, when rewinding or formatting a tape, the command is
+ and moves it to memory.  a controller that allows reselection can operate
+ even better with multiple devices.  this is espically true with scsi tape
+ units.  for example, when rewinding or formatting a tape, the command is
  issued to the controller and the bus is released to allow access to other
- devices on the bus.  This greatly increases productivity or, at least, do
- something else while backing up your hard drive :-).  Which happens to be
- what I am doing while reading this group.
+ devices on the bus.  this greatly increases productivity or, at least, do
+ something else while backing up your hard drive :-).  which happens to be
+ what i am doing while reading this group.
  
- Its a long story, but I still use IDE on my 486 except for the CDROM which,
- thanks to SCSI, I can move between both machines.  If, and when, SCSI is
- better standardized and supported on the ibm-clone machines, I plan to
- completely get rid of IDE.
+ its a long story, but i still use ide on my 486 except for the cdrom which,
+ thanks to scsi, i can move between both machines.  if, and when, scsi is
+ better standardized and supported on the ibm-clone machines, i plan to
+ completely get rid of ide.
  --
-   Wayne Summer        //        AMIGA - Simply the Best.
-   Palm Bay, FL. US  \X/        wayne@amtower.spacecoast.org
+   wayne summer        //        amiga - simply the best.
+   palm bay, fl. us  \x/        wayne@amtower.spacecoast.org
  
- Quote of the week: Don't hate microsoft because because they are microsoft,
- though...hate them because their products are lame - Found in c.s.ibm.pc.misc
+ quote of the week: don't hate microsoft because because they are microsoft,
+ though...hate them because their products are lame - found in c.s.ibm.pc.misc
  

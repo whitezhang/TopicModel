@@ -1,41 +1,41 @@
 
  
- In a previous article, mlipsie@rdm09.std.com (Mike Lipsie MPU) says:
+ in a previous article, mlipsie@rdm09.std.com (mike lipsie mpu) says:
  
- >In article <C54yFD.6LD@sunfish.usd.edu> pwiseman@salmon.usd.edu (Cliff) writes:
+ >in article <c54yfd.6ld@sunfish.usd.edu> pwiseman@salmon.usd.edu (cliff) writes:
  >>
- >>Your swap file is purged every time you exit windows. If you shut off your 
- >>computer without exiting windows your swap file remains. 20 Mb is on the large
+ >>your swap file is purged every time you exit windows. if you shut off your 
+ >>computer without exiting windows your swap file remains. 20 mb is on the large
  >>side, are you running more applications than you really need to at the same time?
  >
- >This is, of course, not true.  The *temporary* swap file is purged
- >every time you exit windows.  The permanent file is permanent and
+ >this is, of course, not true.  the *temporary* swap file is purged
+ >every time you exit windows.  the permanent file is permanent and
  >can only be changed by adjusting the virtual memory.
  >
- >I suspect that either the original poster was "tinkering" and
- >adjusted the swap file to 20MB (and then forgot about it) or 
+ >i suspect that either the original poster was "tinkering" and
+ >adjusted the swap file to 20mb (and then forgot about it) or 
  >somebody "helped" him.
  >
  >-- 
- >Mike Lipsie                                (work) mlipsie@ca.merl.com
- >Mitsubishi Electronic Research Laboratory  (home) mikel@dosbears.UUCP
+ >mike lipsie                                (work) mlipsie@ca.merl.com
+ >mitsubishi electronic research laboratory  (home) mikel@dosbears.uucp
  >
- When I first setup windows using the self load mode It grabbed about
- 20 megs of swap file space, my 120 meg HD was nearly empty at that time.
- I deleted windows for a time and recently reloaded, now my HD is nearly full
+ when i first setup windows using the self load mode it grabbed about
+ 20 megs of swap file space, my 120 meg hd was nearly empty at that time.
+ i deleted windows for a time and recently reloaded, now my hd is nearly full
  and windows just took 4 megs.
- I have read somewhere that the best rule of thumb is have your
- permanent swap file the same size as your regular RAM size.  I have 4 megs
- of RAM and windows took 4 meg perm swap file.  Works very well.
- In fact with my available HD space, about 20 megs it won't let me make
+ i have read somewhere that the best rule of thumb is have your
+ permanent swap file the same size as your regular ram size.  i have 4 megs
+ of ram and windows took 4 meg perm swap file.  works very well.
+ in fact with my available hd space, about 20 megs it won't let me make
  the swap file any bigger.
- You should change your virtual mem swap file to 8 megs I think
- that is what you said your RAM was.
+ you should change your virtual mem swap file to 8 megs i think
+ that is what you said your ram was.
  
- C-ya..... /\/\artin
+ c-ya..... /\/\artin
  -- 
-   This communication is sent by    /\/\artin   University of Arizona Tucson
+   this communication is sent by    /\/\artin   university of arizona tucson
    =========================================================================
    ak333@cleveland.freenet.edu   mlinsenb@ccit.arizona.edu  mlinsenb@arizvms
-   DEATH HAS BEEN DEAD FOR ABOUT 2,000 YEARS ****** FOLLOW THE KING OF KINGS
+   death has been dead for about 2,000 years ****** follow the king of kings
  

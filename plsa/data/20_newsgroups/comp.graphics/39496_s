@@ -2,12 +2,12 @@
  
  
  
-    Hey,
+    hey,
  
-    I am looking for C-algorithm, which decide,whether a 3D-Point is
-    inside a space which was defined by 8 x 3D-points.
-    With a space defined by 8 x 3D-points, I mean a space defined by
-    6 closed 3D meshes defined by 8 points. Like this :
+    i am looking for c-algorithm, which decide,whether a 3d-point is
+    inside a space which was defined by 8 x 3d-points.
+    with a space defined by 8 x 3d-points, i mean a space defined by
+    6 closed 3d meshes defined by 8 points. like this :
  
                _____
               /    /|
@@ -17,17 +17,17 @@
              |____|/
  
  
-    But in this simple example, the sides are parallel, but my problem,
+    but in this simple example, the sides are parallel, but my problem,
     the sides can be non parallel and the opposite sides must not have
-    the same size etc. Please mail me your informations !
+    the same size etc. please mail me your informations !
  
-    Thanks for your great efforts
+    thanks for your great efforts
  
-       Oliver
+       oliver
  
  -- 
-  NAME : O.Kretzschmar                      Inst.IKE / University Stuttgart
-  PHONE: +49 711 685 2130                           Pfaffenwaldring 31
-  FAX  : +49 711 685 2010                            7000 Stuttgart 80
-  EMAIL: wnkretz@ikesg1.energietechnik.uni-stuttgart.de
+  name : o.kretzschmar                      inst.ike / university stuttgart
+  phone: +49 711 685 2130                           pfaffenwaldring 31
+  fax  : +49 711 685 2010                            7000 stuttgart 80
+  email: wnkretz@ikesg1.energietechnik.uni-stuttgart.de
  

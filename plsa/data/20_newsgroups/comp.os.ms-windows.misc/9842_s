@@ -1,13 +1,13 @@
 
- In article <1r8anlINN60g@skeena.ucs.ubc.ca> ewoo@unixg.ubc.ca (Emile Woo) writes:
- >program manager but it seems that everytime I install something new that
- >makes a new group, it promptly disappears after I turn of windows!
+ in article <1r8anlinn60g@skeena.ucs.ubc.ca> ewoo@unixg.ubc.ca (emile woo) writes:
+ >program manager but it seems that everytime i install something new that
+ >makes a new group, it promptly disappears after i turn of windows!
  
- (1) Did you check that a new *.grp file was actually created in your Windows
+ (1) did you check that a new *.grp file was actually created in your windows
      directory?
- (2) Are you _turning off_ your computer when windows is running rather than
-     closing Program Manager?
+ (2) are you _turning off_ your computer when windows is running rather than
+     closing program manager?
  
  
-  -- Ekkehard
+  -- ekkehard
  

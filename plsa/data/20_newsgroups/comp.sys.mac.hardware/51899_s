@@ -1,19 +1,19 @@
 
- In article <1qvs9t$q3f@usenet.INS.CWRU.Edu> Charles P. Cox, Jr. <cox@snowhite.eeap.cwru.edu> writes:
- >Question for those familiar with Quadra VRAM:
+ in article <1qvs9t$q3f@usenet.ins.cwru.edu> charles p. cox, jr. <cox@snowhite.eeap.cwru.edu> writes:
+ >question for those familiar with quadra vram:
  
- >I put 2 256K VRAM SIMMs in my Quadra 700 (in the 2 slots closest to the
- >RAM SIMM slots) and I got no results whatsoever.  I have been told that
+ >i put 2 256k vram simms in my quadra 700 (in the 2 slots closest to the
+ >ram simm slots) and i got no results whatsoever.  i have been told that
  >the built-in video should support at least 16bit and maybe 24bit color on
- >a Macintosh Color Display.  However, the Monitors control panel still
+ >a macintosh color display.  however, the monitors control panel still
  >lists 8bit (256 colors) as the highest possible.
  
- the Q700 will only do 8bit or 24bit color.  if you want the higher
- color depth, it's 2MB's of VRAM altogether for a monitor up to 16".
+ the q700 will only do 8bit or 24bit color.  if you want the higher
+ color depth, it's 2mb's of vram altogether for a monitor up to 16".
  
  for a 21" monitor, you can get 8bit max.
  
  hope this answers your questions.
  
- James Wang.
+ james wang.
  

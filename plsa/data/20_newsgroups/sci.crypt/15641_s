@@ -1,21 +1,21 @@
 
- In article <9304201003.AA05465@pizzabox.demon.co.uk> gtoal@gtoal.com (Graham Toal) writes:
- >Can someone tell me if hardware compression is or is not needed to run
- >digital speech down 14.4K?  I think it is; I've heard it's not.  Lets
- >say 8 bit samples.  Would *raw* data at the corresponding sampling rate
- >be usable?  If not, how fancy does the compression need to be?
+ in article <9304201003.aa05465@pizzabox.demon.co.uk> gtoal@gtoal.com (graham toal) writes:
+ >can someone tell me if hardware compression is or is not needed to run
+ >digital speech down 14.4k?  i think it is; i've heard it's not.  lets
+ >say 8 bit samples.  would *raw* data at the corresponding sampling rate
+ >be usable?  if not, how fancy does the compression need to be?
  
- As far as I know ISDN (call it Swissnet here, and it's being plugged in) it's
- 8 bit 8000Hz (gives you one channel of 64kBit/sec) I guess you should not go
- below a sampling rate of 6000 Hz if you want to have same quality as on an
- analog-line. Anybody knows compression-algorithms & -factors for voice ?
+ as far as i know isdn (call it swissnet here, and it's being plugged in) it's
+ 8 bit 8000hz (gives you one channel of 64kbit/sec) i guess you should not go
+ below a sampling rate of 6000 hz if you want to have same quality as on an
+ analog-line. anybody knows compression-algorithms & -factors for voice ?
  
- Greetings,
+ greetings,
  
- 	Germano Caronni
+ 	germano caronni
  -- 
- Instruments register only through things they're designed to register.
- Space still contains infinite unknowns.
-                                                               PGP-Key-ID:341027
- Germano Caronni caronni@nessie.cs.id.ethz.ch   FD560CCF586F3DA747EA3C94DD01720F
+ instruments register only through things they're designed to register.
+ space still contains infinite unknowns.
+                                                               pgp-key-id:341027
+ germano caronni caronni@nessie.cs.id.ethz.ch   fd560ccf586f3da747ea3c94dd01720f
  

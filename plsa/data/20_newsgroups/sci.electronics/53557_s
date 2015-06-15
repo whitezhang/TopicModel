@@ -1,40 +1,40 @@
 
- In article <1qk4hj$qos@vtserf.cc.vt.edu> prasad@vtaix.cc.vt.edu (Prasad Ramakrishna) writes:
- >I had a GE Emerson 13" color TV for about 3 years and one fine day,
- >while we were watching something (I doubt if the program was the cause),
- >we heard a mild explosion.   Our screen went blank but there was sound,
- >so we thought, 'oh we have special effects on the program'.  But soon
- >the sound stopped and smoke started to appear at the back of the TV.
- >The brilliant EEs we are, we unplugged the TV and called customer service
- >only to be thrown around by please hold, I will transfer u to blah blah..
- >  Finally we abandoned the idea of trying to fix the TV and got a new one
+ in article <1qk4hj$qos@vtserf.cc.vt.edu> prasad@vtaix.cc.vt.edu (prasad ramakrishna) writes:
+ >i had a ge emerson 13" color tv for about 3 years and one fine day,
+ >while we were watching something (i doubt if the program was the cause),
+ >we heard a mild explosion.   our screen went blank but there was sound,
+ >so we thought, 'oh we have special effects on the program'.  but soon
+ >the sound stopped and smoke started to appear at the back of the tv.
+ >the brilliant ees we are, we unplugged the tv and called customer service
+ >only to be thrown around by please hold, i will transfer u to blah blah..
+ >  finally we abandoned the idea of trying to fix the tv and got a new one
  >(we wanted a bigger one too!).
- > After all the story, what I wanted to know is: Is my problem an isolated
- >incident or a common one? (I recall reading about Russian TVs exploding, but
- >not here, in the US). Why would the picture tube explode or even smoke?
- > I still have the left over TV set, I might dig into it this summer. Any
- >idea where I can get parts for these things? (probably will cost more than TV).
+ > after all the story, what i wanted to know is: is my problem an isolated
+ >incident or a common one? (i recall reading about russian tvs exploding, but
+ >not here, in the us). why would the picture tube explode or even smoke?
+ > i still have the left over tv set, i might dig into it this summer. any
+ >idea where i can get parts for these things? (probably will cost more than tv).
  >
  
- Heh, heh, heh, heh....I laugh because I have the same damn TV, and it
- did the same thing!  Actually it is a Goldstar, but it's essentially the
- same TV and electronics--just a different face plate and name.
+ heh, heh, heh, heh....i laugh because i have the same damn tv, and it
+ did the same thing!  actually it is a goldstar, but it's essentially the
+ same tv and electronics--just a different face plate and name.
  
- #1.  Fortunately, TV tubes don't explode.  I'd think the TV mfrs want
- to make this possibility remote as possible.  If at all, they'll 
+ #1.  fortunately, tv tubes don't explode.  i'd think the tv mfrs want
+ to make this possibility remote as possible.  if at all, they'll 
  *implode* and the glass that blows out would be the result of the
- glass boucing off the back of the tube due to the implosion. In any
+ glass boucing off the back of the tube due to the implosion. in any
  case, don't kick it around! :-) 
  
- #2  I fixed the TV after getting a hold of some schematics.  It turned
- out to be a blown 2W resistor feeding the flyback transformer.  I guess
+ #2  i fixed the tv after getting a hold of some schematics.  it turned
+ out to be a blown 2w resistor feeding the flyback transformer.  i guess
  the original resistor was a bit too small to dissipate the heat it
- created, burning itself out.  I checked to make sure the flyback wasn't
- shorted or anything first!  Oh, luckily, I had a resistor handy lying
- around that had just the right value for what I needed.  I can't see it
+ created, burning itself out.  i checked to make sure the flyback wasn't
+ shorted or anything first!  oh, luckily, i had a resistor handy lying
+ around that had just the right value for what i needed.  i can't see it
  being more than 50 cents!.
  
- Well, needless to say, the TV still works today.  So go get a set of
+ well, needless to say, the tv still works today.  so go get a set of
  schematics and have some fun...just don't get shocked poking around
  the flyback.
  

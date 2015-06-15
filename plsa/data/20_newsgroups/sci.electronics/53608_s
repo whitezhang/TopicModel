@@ -1,23 +1,23 @@
 
- My next project is to come up with an IF/detector module for fast -- 112
- to 250 kB/sec -- packet radio use.  No fancy modulation scheme, just
- wide FSK for use at 902 or 1296 MHz.
+ my next project is to come up with an if/detector module for fast -- 112
+ to 250 kb/sec -- packet radio use.  no fancy modulation scheme, just
+ wide fsk for use at 902 or 1296 mhz.
  
- I'm a bit familiar with the Motorola 3362 chip, but I wonder if there
+ i'm a bit familiar with the motorola 3362 chip, but i wonder if there
  are newer designs that might work at higher input frequencies.
  
- My goal is to come up with an inexpensive design for a receiver "back
- end" with IF input on one end and an FSK demondulator on the other.  I'm
- particularly interested in ways to use a higher IF than 10.7 -- do any
- current chips work up to, say 150MHz with internal downconversion so a
- normal IF filter can be used?
+ my goal is to come up with an inexpensive design for a receiver "back
+ end" with if input on one end and an fsk demondulator on the other.  i'm
+ particularly interested in ways to use a higher if than 10.7 -- do any
+ current chips work up to, say 150mhz with internal downconversion so a
+ normal if filter can be used?
  
- Any suggestions?
+ any suggestions?
  
- John
+ john
  
  -- 
- John R. Ackermann, Jr.         Law Department, NCR Corporation, Dayton, Ohio
- (513) 445-2966		       John.Ackermann@daytonoh.ncr.com
- Packet Radio: ag9v@n8acv.oh    tcp/ip: ag9v@ag9v.ampr [44.70.12.232]
+ john r. ackermann, jr.         law department, ncr corporation, dayton, ohio
+ (513) 445-2966		       john.ackermann@daytonoh.ncr.com
+ packet radio: ag9v@n8acv.oh    tcp/ip: ag9v@ag9v.ampr [44.70.12.232]
  

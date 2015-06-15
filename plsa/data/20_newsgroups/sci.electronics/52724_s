@@ -1,27 +1,27 @@
 
- For an upcoming project I want to use 4 Megs of DRAM configured as two 2
- Meg banks of 16 bit data.  I was wondering if anyone out there knows of a
- DRAM controller which will handle refreshing the data.  It's ok if the
+ for an upcoming project i want to use 4 megs of dram configured as two 2
+ meg banks of 16 bit data.  i was wondering if anyone out there knows of a
+ dram controller which will handle refreshing the data.  it's ok if the
  controller doesn't handle bank switching - that part is easy.
  
- The only controllers I know of are the ones out of the National
- Semiconductor DRAM Management Handbook (1988 edition) eg. DP8429.  I would
+ the only controllers i know of are the ones out of the national
+ semiconductor dram management handbook (1988 edition) eg. dp8429.  i would
  like to know if another manufacturer produces one which may be easier to
  implement in my circuit.
  
- BTW, if anyone is wanting to hook up DRAM to a microcontroller, Dallas
- Semiconductor makes a neat chip: the DS1262 Serial DRAM Nonvolatizer
- Chip.  It uses the SPI (I2C) bus and refreshes/controls up to 16Mx1 of DRAM
- memory.  It can use an external battery to refresh the DRAM when the
- power is off.  Price is $11.75 from Dallas (quan 1).  I wish I could use
- this chip but its maximum SPI clock rate is 1 MHz (too slow for me...).
+ btw, if anyone is wanting to hook up dram to a microcontroller, dallas
+ semiconductor makes a neat chip: the ds1262 serial dram nonvolatizer
+ chip.  it uses the spi (i2c) bus and refreshes/controls up to 16mx1 of dram
+ memory.  it can use an external battery to refresh the dram when the
+ power is off.  price is $11.75 from dallas (quan 1).  i wish i could use
+ this chip but its maximum spi clock rate is 1 mhz (too slow for me...).
  
- Thanks in advance,
+ thanks in advance,
  
- Wayne Schellekens
+ wayne schellekens
  <schellew@wu2.wl.aecl.ca>
  -- 
- Wayne Schellekens, VE4WTS          Internet: schellew@wu2.wl.aecl.ca
- AECL Research                         AX.25: VE4WTS@VE4KV.#WPG.MB.CAN 
- Whiteshell Laboratories        Twisted pair: (204)753-2311 x2317
+ wayne schellekens, ve4wts          internet: schellew@wu2.wl.aecl.ca
+ aecl research                         ax.25: ve4wts@ve4kv.#wpg.mb.can 
+ whiteshell laboratories        twisted pair: (204)753-2311 x2317
  

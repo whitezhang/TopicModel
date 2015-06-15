@@ -1,12 +1,12 @@
 
- In article <1993Apr21.170403.22855@yang.earlham.edu>  
+ in article <1993apr21.170403.22855@yang.earlham.edu>  
  joshuaf@yang.earlham.edu writes:
- > Are there any TIFF to anything programs out there for the IBM?
- > Our scanner works into TIFF, and I can view it on CSHOW 8.1, but 
- > all of my other programs read errors.  Are there any basic Tiff to 
- > JPEG, GIF, PCX, BMP, etc...?
-   Try WinJPEG on oak.oakland.edu:pub/msdos/windows3/winjp210.zip
-   It has more TIFF support than graphics workshop.  It also converts to
+ > are there any tiff to anything programs out there for the ibm?
+ > our scanner works into tiff, and i can view it on cshow 8.1, but 
+ > all of my other programs read errors.  are there any basic tiff to 
+ > jpeg, gif, pcx, bmp, etc...?
+   try winjpeg on oak.oakland.edu:pub/msdos/windows3/winjp210.zip
+   it has more tiff support than graphics workshop.  it also converts to
    all the above formats...
  
   ken

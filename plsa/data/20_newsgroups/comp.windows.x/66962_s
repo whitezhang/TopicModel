@@ -1,19 +1,19 @@
 
  
- Hello, 
+ hello, 
  
- 	way back in the mists of time, I had a set of patches written
- by Richard Caley (I believe to the standars distribution, patch level
+ 	way back in the mists of time, i had a set of patches written
+ by richard caley (i believe to the standars distribution, patch level
  6) which added regular expressions in the .tvtwmrc file, multiple icon
- regions, squeezable icons, and f.deleteordestroy function. I still
- have the patches, however, I can no longer find the sources to which
+ regions, squeezable icons, and f.deleteordestroy function. i still
+ have the patches, however, i can no longer find the sources to which
  they applied ;-). 
  
- 	I'd appreciate if some kind soul could send me a pointer to
- where I could find the sources. Has anyone updated the patches for R5?
- (Richard? are you out there? pretty please?)
+ 	i'd appreciate if some kind soul could send me a pointer to
+ where i could find the sources. has anyone updated the patches for r5?
+ (richard? are you out there? pretty please?)
  
- 	Thanks in advance.
+ 	thanks in advance.
  
  		manoj
  

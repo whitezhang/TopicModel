@@ -1,157 +1,157 @@
 
- Xm++/CommonInteract    Another User Interface Development System
+ xm++/commoninteract    another user interface development system
  -------------------
  
- If you would like to implement X-Toolkit applications with C++ in a style
+ if you would like to implement x-toolkit applications with c++ in a style
  like this...
  
  // mini sample application /////////////////////////////////////
  
- class Test : public XmWindow {
+ class test : public xmwindow {
  	void cmd(char*);
  	void quit(void*);
  public:
-     Test() : XmWindow("Xm++ Test Window") {}
+     test() : xmwindow("xm++ test window") {}
  
  	void initialize();
  };
  
- void Test::initialize() {
-     XmDropdownMenu* menu = createDropdownMenu();
+ void test::initialize() {
+     xmdropdownmenu* menu = createdropdownmenu();
  
-     menu->addLabel("&File");
-     menu->addItems( Entry("Menu Item &One", CB(Test::cmd)), 
-                     Entry("Menu Item &Two", CB(Test::cmd)),
-                     NULLENTRY);
-     menu->addSeparator();
-     menu->addItem(	Entry("E&xit", CB(Test::quit)));
+     menu->addlabel("&file");
+     menu->additems( entry("menu item &one", cb(test::cmd)), 
+                     entry("menu item &two", cb(test::cmd)),
+                     nullentry);
+     menu->addseparator();
+     menu->additem(	entry("e&xit", cb(test::quit)));
  
-     addSubpane(Edit, "myEdit");
-     edit("myEdit")->setText("Hello World.");
+     addsubpane(edit, "myedit");
+     edit("myedit")->settext("hello world.");
  }
  
- void Test::cmd(char* n) {
- 	edit("myEdit")->setText(n);
+ void test::cmd(char* n) {
+ 	edit("myedit")->settext(n);
  }
  
- void Test::quit(void*) {
+ void test::quit(void*) {
  	exit(0);
  }
  
- void XmApp::initialize() {
-     (new Test)->initialize();
+ void xmapp::initialize() {
+     (new test)->initialize();
  }
  
  ///////////////////////////////////////////////////////////////
  
- ...then continue reading (contents of the current release's README):
+ ...then continue reading (contents of the current release's readme):
  
- Xm++ is a user interface framework for the C++ language built upon X11
- and the X-Toolkit. It is designed to be a simple and intuitive programming
+ xm++ is a user interface framework for the c++ language built upon x11
+ and the x-toolkit. it is designed to be a simple and intuitive programming
  interface to access the functionality of commonly used widgets.
- Xm++ was initially created for the Motif widget set, now support for the
- Athena widgets was added. Applications created with Xm++ run in both
+ xm++ was initially created for the motif widget set, now support for the
+ athena widgets was added. applications created with xm++ run in both
  environments without changes, although many nice features are only
- available when using Motif.
- In some situations Xm++ extends the underlying toolkit (i.e. providing
- a ComboBox borrowed from MS-Windows), but never tries to replace it -
+ available when using motif.
+ in some situations xm++ extends the underlying toolkit (i.e. providing
+ a combobox borrowed from ms-windows), but never tries to replace it -
  data of user interface objects is left to the widgets and only duplicated
  in rare cases.
  
- Xm++ has nothing common with Motif++ besides the general idea to
- encapsulate Motif widgets in C++ objects and the '++' in it's name. Many
- ideas for the Xm++ architecture came from Digitalk's Smalltalk version,
- which provides an easy to use framework for Windows/PM/Mac applications
- (in the very first time of development I used the Windows dialog editor and
- a simple parser to create similar Smalltalk and Xm++ dialogs :-).
+ xm++ has nothing common with motif++ besides the general idea to
+ encapsulate motif widgets in c++ objects and the '++' in it's name. many
+ ideas for the xm++ architecture came from digitalk's smalltalk version,
+ which provides an easy to use framework for windows/pm/mac applications
+ (in the very first time of development i used the windows dialog editor and
+ a simple parser to create similar smalltalk and xm++ dialogs :-).
  
- Top level objects in Xm++:
- * 'Windows', 'SystemDialogs' and 'ToolBoxes' which use the automatic layout
-   feature of various composite widgets in Motif and Xaw
- * 'UserDialogs' which can be individually laid out with a user interface
+ top level objects in xm++:
+ * 'windows', 'systemdialogs' and 'toolboxes' which use the automatic layout
+   feature of various composite widgets in motif and xaw
+ * 'userdialogs' which can be individually laid out with a user interface
    builder (a first version of such a dialog editor is included in this
    distribution)
  
- Controls (children of top level objects):
- 'staticText', 'staticImage', 'pushButton', 'checkBox', 'radioButton',
- 'edit', 'listBox', 'comboBox', 'groupBox', 'paneArea', 'drawing', 'toolBar'
+ controls (children of top level objects):
+ 'statictext', 'staticimage', 'pushbutton', 'checkbox', 'radiobutton',
+ 'edit', 'listbox', 'combobox', 'groupbox', 'panearea', 'drawing', 'toolbar'
  
- The staticImage and all the button classes can display b/w (X-bitmap
- format) or color (GIF format) pictures as an alternative to a label text.
+ the staticimage and all the button classes can display b/w (x-bitmap
+ format) or color (gif format) pictures as an alternative to a label text.
  
- Event handling is done by a simple but powerful mechanism which redirects
- Xt callbacks to member functions of Xm++ objects.
+ event handling is done by a simple but powerful mechanism which redirects
+ xt callbacks to member functions of xm++ objects.
  
  
- CommonInteract(II) is built upon the Xm++ drawing class and provides
- components for building direct manipulative applications. Is is a very
- simplified implementation of some features from the CommonInteract system
+ commoninteract(ii) is built upon the xm++ drawing class and provides
+ components for building direct manipulative applications. is is a very
+ simplified implementation of some features from the commoninteract system
  (research project of our institute in 1991), an approach to define a
  software achitecture for implementing direct manipulative applications
  with multiple interaction media (i.e. sound, alternative input devices).
- If you are interrested, look into the June 1993 issue of the JOOP (SIGS
- Publications - Journal of Object Oriented Programming) - there should be
- our paper about CommonInteract (but be aware, that it is our 'state of
+ if you are interrested, look into the june 1993 issue of the joop (sigs
+ publications - journal of object oriented programming) - there should be
+ our paper about commoninteract (but be aware, that it is our 'state of
  the art' from 1991).
- CommonInteract(II) is still undocumented and is included because it was
- used to implement the dialog editor. It currently supports only drawing
+ commoninteract(ii) is still undocumented and is included because it was
+ used to implement the dialog editor. it currently supports only drawing
  primitives (lines, rectangles, circles...), but we plan to extend it to
  support bitmaps and some controls also.
- Known problem: the Xm++ drawing class has no redrawing strategy (always
+ known problem: the xm++ drawing class has no redrawing strategy (always
  redraws the whole window, even after minimal changes like selecting an
  object), this looks very ugly on slow displays and should be fixed.
  
  
- About this first release:
+ about this first release:
  
- Xm++ is still incomplete and has a lot of bugs but we are using it here
- for smaller applications which are running without problems. So I think
- I can call it a 'beta release' which can be used to develop applications
+ xm++ is still incomplete and has a lot of bugs but we are using it here
+ for smaller applications which are running without problems. so i think
+ i can call it a 'beta release' which can be used to develop applications
  for any non-critical purposes.
- CommonInteract may be called a 'pre alpha release'. It's development will
+ commoninteract may be called a 'pre alpha release'. it's development will
  be continued this year because we plan to use it for another research
- project here. Besides incompleteness and the redrawing problem it seems
+ project here. besides incompleteness and the redrawing problem it seems
  to be stable and can be used for experimental applications.
  
- Platforms: this release was compiled and tested on:
-   HP9000/720 running HP-UX 8.07
-   SUN SPARC running SunOS Release 4.1.1
-   PC-AT386 running Linux v0.99pl6
+ platforms: this release was compiled and tested on:
+   hp9000/720 running hp-ux 8.07
+   sun sparc running sunos release 4.1.1
+   pc-at386 running linux v0.99pl6
  
- Caution: although the whole stuff was initially developed using an AT&T
- standard C++ compiler - this release is tested only with GNU g++ 2.3.3 or
+ caution: although the whole stuff was initially developed using an at&t
+ standard c++ compiler - this release is tested only with gnu g++ 2.3.3 or
  above (the next release will be tested with both compilers).
  
- Where to get it:
+ where to get it:
  ================
  
- I have uploaded it on: export.lcs.mit.edu as: /contrib/Xm++.0.5.tar.Z
+ i have uploaded it on: export.lcs.mit.edu as: /contrib/xm++.0.5.tar.z
  
  (send a mail, if you cannot find it there, e-mail addr. below)
  
- Where to find more information:
+ where to find more information:
  ===============================
  
  the .../doc directory contains
-    INSTALL - how to build the libraries and examples
-    README.GNU - problems and limitations when using gnu g++ (read!!)
-    usersGuide.txt - a tutorial how to use Xm++
-    reference.txt - a first try of a Xm++ class reference manual
+    install - how to build the libraries and examples
+    readme.gnu - problems and limitations when using gnu g++ (read!!)
+    usersguide.txt - a tutorial how to use xm++
+    reference.txt - a first try of a xm++ class reference manual
  
- the README files in the .../samples gives a brief description of
+ the readme files in the .../samples gives a brief description of
  each of the seven samples.
  
  
- Xm++/CommonInteract is free software for any non-profit purposes,
- see the file .../lib/COPYRIGHT for details.
+ xm++/commoninteract is free software for any non-profit purposes,
+ see the file .../lib/copyright for details.
  
- Send any comments, bug reports and donations :-) to the Author:
+ send any comments, bug reports and donations :-) to the author:
  
-     Bernhard Strassl
-     Vienna User Interface Group
- 	Institute for Applied Computer Science and Information Systems
-     University of Vienna
-     Lenaugasse 2/8, A-1080 Wien, Austria
+     bernhard strassl
+     vienna user interface group
+ 	institute for applied computer science and information systems
+     university of vienna
+     lenaugasse 2/8, a-1080 wien, austria
  
  e-mail: xmplus@ani.univie.ac.at
  

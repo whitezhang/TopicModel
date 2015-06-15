@@ -1,97 +1,97 @@
-              IBM, Federal Systems Co. Software Services
- Disclaimer: This posting represents the poster's views, not those of IBM
- News-Software: UReply 3.1
- Lines: 91
+              ibm, federal systems co. software services
+ disclaimer: this posting represents the poster's views, not those of ibm
+ news-software: ureply 3.1
+ lines: 91
  
- In <C5uBn5.tz@zoo.toronto.edu> Henry Spencer writes:
- >In article <1993Apr21.134436.26140@mksol.dseg.ti.com> mccall@mksol.dseg.ti.com (fred j mccall 575-3539) writes:
- >>>>(given that I've heard the Shuttle software rated as Level 5 ...
- >>>Level 5?  Out of how many? ...
+ in <c5ubn5.tz@zoo.toronto.edu> henry spencer writes:
+ >in article <1993apr21.134436.26140@mksol.dseg.ti.com> mccall@mksol.dseg.ti.com (fred j mccall 575-3539) writes:
+ >>>>(given that i've heard the shuttle software rated as level 5 ...
+ >>>level 5?  out of how many? ...
  >>
- >>... Also keep in mind that it was
+ >>... also keep in mind that it was
  >>*not* achieved through the use of sophisticated tools, but rather
  >>through a 'brute force and ignorance' attack on the problem during the
- >>Challenger standdown - they simply threw hundreds of people at it and
+ >>challenger standdown - they simply threw hundreds of people at it and
  >>did the whole process by hand...
  >
- >I think this is a little inaccurate, based on Feynman's account of the
- >software-development process *before* the standdown.  Fred is basically
+ >i think this is a little inaccurate, based on feynman's account of the
+ >software-development process *before* the standdown.  fred is basically
  >correct:  no sophisticated tools, just a lot of effort and painstaking
- >care.  But they got this one right *before* Challenger; Feynman cited
- >the software people as exemplary compared to the engine people.  (He
+ >care.  but they got this one right *before* challenger; feynman cited
+ >the software people as exemplary compared to the engine people.  (he
  >also noted that the software people were starting to feel management
  >pressure to cut corners, but hadn't had to give in to it much yet.)
  >
- >Among other things, the software people worked very hard to get things
+ >among other things, the software people worked very hard to get things
  >right for the major pre-flight simulations, and considered a failure
  >during those simulations to be nearly as bad as an in-flight failure.
- >As a result, the number of major-simulation failures could be counted
+ >as a result, the number of major-simulation failures could be counted
  >on one hand, and the number of in-flight failures was zero.
  >
- >As Fred mentioned elsewhere, this applies only to the flight software.
- >Software that runs experiments is typically mostly put together by the
- >experimenters, and gets nowhere near the same level of Tender Loving Care.
- >(None of the experimenters could afford it.)
+ >as fred mentioned elsewhere, this applies only to the flight software.
+ >software that runs experiments is typically mostly put together by the
+ >experimenters, and gets nowhere near the same level of tender loving care.
+ >(none of the experimenters could afford it.)
  >--
- >All work is one man's work.             | Henry Spencer @ U of Toronto Zoology
- >                    - Kipling           |  henry@zoo.toronto.edu  utzoo!henry
+ >all work is one man's work.             | henry spencer @ u of toronto zoology
+ >                    - kipling           |  henry@zoo.toronto.edu  utzoo!henry
  >
- News-Software: UReply 3.1
- X-X-From: Wingert@VNET.IBM.com (Bret Wingert)
- References: <C5sy4s.4x2.1@cs.cmu.edu> <1993Apr21.134436.26140@mksol.dseg.ti.com>
-             <C5uBn5.tz@zoo.toronto.edu>
+ news-software: ureply 3.1
+ x-x-from: wingert@vnet.ibm.com (bret wingert)
+ references: <c5sy4s.4x2.1@cs.cmu.edu> <1993apr21.134436.26140@mksol.dseg.ti.com>
+             <c5ubn5.tz@zoo.toronto.edu>
  
- In <C5uBn5.tz@zoo.toronto.edu> Henry Spencer writes:
- >In article <1993Apr21.134436.26140@mksol.dseg.ti.com> mccall@mksol.dseg.ti.com (fred j mccall 575-3539) writes:
- >>>>(given that I've heard the Shuttle software rated as Level 5 ...
- >>>Level 5?  Out of how many? ...
+ in <c5ubn5.tz@zoo.toronto.edu> henry spencer writes:
+ >in article <1993apr21.134436.26140@mksol.dseg.ti.com> mccall@mksol.dseg.ti.com (fred j mccall 575-3539) writes:
+ >>>>(given that i've heard the shuttle software rated as level 5 ...
+ >>>level 5?  out of how many? ...
  >>
- >>... Also keep in mind that it was
+ >>... also keep in mind that it was
  >>*not* achieved through the use of sophisticated tools, but rather
  >>through a 'brute force and ignorance' attack on the problem during the
- >>Challenger standdown - they simply threw hundreds of people at it and
+ >>challenger standdown - they simply threw hundreds of people at it and
  >>did the whole process by hand...
  >
- >I think this is a little inaccurate, based on Feynman's account of the
- >software-development process *before* the standdown.  Fred is basically
+ >i think this is a little inaccurate, based on feynman's account of the
+ >software-development process *before* the standdown.  fred is basically
  >correct:  no sophisticated tools, just a lot of effort and painstaking
- >care.  But they got this one right *before* Challenger; Feynman cited
- >the software people as exemplary compared to the engine people.  (He
+ >care.  but they got this one right *before* challenger; feynman cited
+ >the software people as exemplary compared to the engine people.  (he
  >also noted that the software people were starting to feel management
  >pressure to cut corners, but hadn't had to give in to it much yet.)
  >
- >As Fred mentioned elsewhere, this applies only to the flight software.
- >Software that runs experiments is typically mostly put together by the
- >experimenters, and gets nowhere near the same level of Tender Loving Care.
+ >as fred mentioned elsewhere, this applies only to the flight software.
+ >software that runs experiments is typically mostly put together by the
+ >experimenters, and gets nowhere near the same level of tender loving care.
   ========================================================================
- A couple of points on this thread.
+ a couple of points on this thread.
  
- 1. We have been using our processes since way before Challenger.  Challenger
+ 1. we have been using our processes since way before challenger.  challenger
     in and of it self did not uncover flaws.
  
- 2. What Mr. Spencer says is by and large true.  We have a process that is
-    not dependent on "sophisticated tools"  (CASE tools?).  However, tools
-    cannot fix a bad process.  Also, tool support for HAL/S (the Shuttle
-    Language) is somewhat limited.
+ 2. what mr. spencer says is by and large true.  we have a process that is
+    not dependent on "sophisticated tools"  (case tools?).  however, tools
+    cannot fix a bad process.  also, tool support for hal/s (the shuttle
+    language) is somewhat limited.
  
- 3. The Onboard Flight Software project was rated "Level 5" by a NASA team.
-    This group generates 20-40 KSLOCs of verified code per year for NASA.
+ 3. the onboard flight software project was rated "level 5" by a nasa team.
+    this group generates 20-40 kslocs of verified code per year for nasa.
  
- 4. Feel free to call me if you or your organization is interested in more info
+ 4. feel free to call me if you or your organization is interested in more info
     on our software development process.
  
- Bret Wingert
+ bret wingert
  
  
  (713)-282-7534
- FAX: (713)-282-8077
+ fax: (713)-282-8077
  
  
- Bret Wingert
+ bret wingert
  
  
  (713)-282-7534
- FAX: (713)-282-8077
+ fax: (713)-282-8077
  
  
  

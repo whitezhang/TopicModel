@@ -1,23 +1,23 @@
 
  
- In article <pdb059-210493145738@kilimanjaro.jpl.nasa.gov>, pdb059@ipl.jpl.nasa.gov (Paul Bartholomew) writes:
+ in article <pdb059-210493145738@kilimanjaro.jpl.nasa.gov>, pdb059@ipl.jpl.nasa.gov (paul bartholomew) writes:
  
- |> > When two or more devices in an ISA bus PC share an interrupt, it's
+ |> > when two or more devices in an isa bus pc share an interrupt, it's
  |> > because they're implemented by a single card.
  |> 
- |> Interesting.  Would you care to explain to me then, how my SoundBlaster
- |> Pro card and my printer card are sharing IRQ 7 successfully?  I assure
- |> you that they are both set to IRQ 7 and that I have no problem.  My
- |> computer is a DTK 286-12 IBM clone.
+ |> interesting.  would you care to explain to me then, how my soundblaster
+ |> pro card and my printer card are sharing irq 7 successfully?  i assure
+ |> you that they are both set to irq 7 and that i have no problem.  my
+ |> computer is a dtk 286-12 ibm clone.
  |> 
- |> Paul Bartholomew
+ |> paul bartholomew
  |> pdb059@ipl.jpl.nasa.gov
  |> 
- You can configure devices for the same IRQ as long as you don't use them
- *simultaneously*, under Dos at least. Both LPT1: and SB just sit there until
- you tell them to do something. You can't configure a SoundBlaster for IRQ7
- if you got an Ethernet Card which hits that IRQ a thousand times or so per 
+ you can configure devices for the same irq as long as you don't use them
+ *simultaneously*, under dos at least. both lpt1: and sb just sit there until
+ you tell them to do something. you can't configure a soundblaster for irq7
+ if you got an ethernet card which hits that irq a thousand times or so per 
  second.
  
- Markus
+ markus
  

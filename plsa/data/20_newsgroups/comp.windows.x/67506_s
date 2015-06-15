@@ -1,10 +1,10 @@
 
- The good news is we just got two Sparc10's. The bad news is
- that /dev/cgtwelve0 is apparently not supported in X11R4 or
- X11R5. Does anyone know of a patch (and how I can obtain it)
- to either X version that will enable us to use X11 on our
- Sparc10's? 
+ the good news is we just got two sparc10's. the bad news is
+ that /dev/cgtwelve0 is apparently not supported in x11r4 or
+ x11r5. does anyone know of a patch (and how i can obtain it)
+ to either x version that will enable us to use x11 on our
+ sparc10's? 
  
- adTHANKSvance
- Gina
+ adthanksvance
+ gina
  

@@ -1,18 +1,18 @@
 
- I've started getting a message from Windows 3.1 whenever I try to execute
- a DOS program from Windows, either thru the Program Manager or the File
- Manager. A message box comes up and says "This program or one of its
- components is compressed. Use the MS-DOS expand command to expand the
+ i've started getting a message from windows 3.1 whenever i try to execute
+ a dos program from windows, either thru the program manager or the file
+ manager. a message box comes up and says "this program or one of its
+ components is compressed. use the ms-dos expand command to expand the
  file."
  
- Now, I know this is bogus, because I can always execute the program
- from DOS when not running windows. The program in question is COMMAND.COM
- (yup, the basic DOS command line shell...) And, the expand command tells
+ now, i know this is bogus, because i can always execute the program
+ from dos when not running windows. the program in question is command.com
+ (yup, the basic dos command line shell...) and, the expand command tells
  me that the file is already expanded.
  
- All my windows apps work just fine - I only get this message when trying
- to execute a DOS program from Windows.
+ all my windows apps work just fine - i only get this message when trying
+ to execute a dos program from windows.
  
- Clues anyone?  Thanks!!   Christopher Wroten, cfw@world.std.com
+ clues anyone?  thanks!!   christopher wroten, cfw@world.std.com
  
  

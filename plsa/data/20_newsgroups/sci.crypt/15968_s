@@ -1,28 +1,28 @@
 
- In <16BB91429.C445585@mizzou1.missouri.edu> C445585@mizzou1.missouri.edu (John Kelsey) writes:
+ in <16bb91429.c445585@mizzou1.missouri.edu> c445585@mizzou1.missouri.edu (john kelsey) writes:
  
- >   I've recently been reading a paper of Merkle's (publixhed only on the
- >net, I think) discussing three potential replacements for DES.  Was
- >anyting ever done with these?  Are Khufu, Khafre, and/or Snefru still
- >being discussed anywhere?  (I know Snefru is referenced in the RSA
- >FAQ, and I think it may also be in the sci.crypt FAQ.)
+ >   i've recently been reading a paper of merkle's (publixhed only on the
+ >net, i think) discussing three potential replacements for des.  was
+ >anyting ever done with these?  are khufu, khafre, and/or snefru still
+ >being discussed anywhere?  (i know snefru is referenced in the rsa
+ >faq, and i think it may also be in the sci.crypt faq.)
  
- The paper was distributed (against the wishes of the NSA - I have a copy
+ the paper was distributed (against the wishes of the nsa - i have a copy
  with a few 'illicit distribution' footnotes scribbled on it :-), and eventually
- published at one of the crypto conferences.  Things were looking good.
+ published at one of the crypto conferences.  things were looking good.
  
- Then Xerox patented the algorithms.  <Plonk!>
+ then xerox patented the algorithms.  <plonk!>
  
- I don't know of anything which uses them.  Also, Khafre was broken at a
- later conference and from work on a related algorithm I don't think the
- existing Khufu would hold up too well against a converted differential
+ i don't know of anything which uses them.  also, khafre was broken at a
+ later conference and from work on a related algorithm i don't think the
+ existing khufu would hold up too well against a converted differential
  cryptanalysis attack, although it can probably be changed to resist this
  type of attack....
  
- Peter.
+ peter.
  
- [In case you don't know what the <Plonk> is about, check _The New Hacker's
-  Dictionary_.  It's the sound someone makes when they fall to the bottom
+ [in case you don't know what the <plonk> is about, check _the new hacker's
+  dictionary_.  it's the sound someone makes when they fall to the bottom
   of a killfile]
  
  

@@ -2,49 +2,49 @@
  kazsato@twics.co.jp writes:
  
  
- >Hi,
+ >hi,
  
- >I'd like to know if there is any system (CPU + HD array + framebuffer)
- >which can play and record HDTV quality moving picture in realtime.
+ >i'd like to know if there is any system (cpu + hd array + framebuffer)
+ >which can play and record hdtv quality moving picture in realtime.
  
- >HDTV has about 6MB/frame, so recording/playing moving picture will need
- >about 180MB/sec bandwidth. I'm thinking to treat the raw data.. not
+ >hdtv has about 6mb/frame, so recording/playing moving picture will need
+ >about 180mb/sec bandwidth. i'm thinking to treat the raw data.. not
  >compressed. 
  
- Finding a disk array that can do 180MB/sec. will be difficult. The fastest
- ones I know about are from Maximum Strategy (IBM also sells these). They
- can attach HiPPI at up to 144 MB/sec. (64 bit). For these kinds of data
- rates you need more than SCSI for connections. Their latest model, the
- RAID 5 model Gen 4 only does 90 MB/sec. but I think this may be a
- limitation only of the HiPPI channel and that customer needs have not
- exceeded that speed since their older model was faster. They are also not
+ finding a disk array that can do 180mb/sec. will be difficult. the fastest
+ ones i know about are from maximum strategy (ibm also sells these). they
+ can attach hippi at up to 144 mb/sec. (64 bit). for these kinds of data
+ rates you need more than scsi for connections. their latest model, the
+ raid 5 model gen 4 only does 90 mb/sec. but i think this may be a
+ limitation only of the hippi channel and that customer needs have not
+ exceeded that speed since their older model was faster. they are also not
  idle (must be working on newer products that might be faster) and are a
- small company so you might be able to ask about custom interfaces. They
+ small company so you might be able to ask about custom interfaces. they
  still marketed the older, faster model as of a few mongths ago.
  
- Maximum Strategy, Inc.
- 801 Buckeye Court
- Milpitas, CA 95035-7408
+ maximum strategy, inc.
+ 801 buckeye court
+ milpitas, ca 95035-7408
  sales@maxstrat.com
  
- You might still want to look into compression as it will be very difficult
- to keep the HiPPI bus fully working at all times - sustained throughput
+ you might still want to look into compression as it will be very difficult
+ to keep the hippi bus fully working at all times - sustained throughput
  might come close to maximum burst rate.
  
- Interesting problem. Tell us more if you can?
+ interesting problem. tell us more if you can?
  
- >If anyone can advise me what kind of product I should look into, please
- >e-mail me. I will appriciate it. The vendor's e-mail address, price of
+ >if anyone can advise me what kind of product i should look into, please
+ >e-mail me. i will appriciate it. the vendor's e-mail address, price of
  >the products, actual performance data of the products, any info will 
  >help me.
  
- >Thanks in advance,
+ >thanks in advance,
  
- >Kaz Sato, Tokyo, Japan
+ >kaz sato, tokyo, japan
  >e-mail: kazsato@twics.co.jp
  -- 
-           Dick Wilmot
-           Editor, Independent RAID Report
+           dick wilmot
+           editor, independent raid report
            (510) 938-7425
  
  
