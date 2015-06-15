@@ -94,6 +94,8 @@ class Plsa(object):
 		self.L = 0.0 # log-likelihood
 		self.error_L = 0.0001; # error for each iter
 		self.corpus = corpus		
+
+		print self.n_d, self.n_w
 		# bag of words
 		self.n_w_d = np.zeros([self.n_d, self.n_w], dtype = np.int)
 		for di, doc in enumerate(corpus.documents):
@@ -228,7 +230,7 @@ def main(argv):
 			document_file = root + '/' + name
 			if not "_s" in document_file:
 				continue
-			print document_file
+#			print document_file
 			document = Document(document_file)
 			document.split(STOP_WORDS_DIC)
 			corpus.add_document(document)
