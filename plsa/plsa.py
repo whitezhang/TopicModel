@@ -38,7 +38,7 @@ def load_stop_words(sw_file_path):
 
 # di
 class Document(object):
-	PUNCTUATION = ['(', ')', ':', ';', ',', '-', '!', '.', '?', '/', '"', '*']
+	PUNCTUATION = ['(', ')', ':', ';', ',', '-', '!', '.', '?', '/', '"', '*', '>', '<']
 	CARRIAGE_RETURNS = ['\n', '\r\n']
 	WORD_REGEX = "^[a-z']+$"
 
