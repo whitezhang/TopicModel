@@ -95,6 +95,7 @@ class Plsa(object):
 		self.error_L = 0.0001; # error for each iter
 		self.corpus = corpus
 
+		print corpus.vocabulary
 		print self.n_d, self.n_w
 		# bag of words
 		self.n_w_d = np.zeros([self.n_d, self.n_w], dtype = np.int)
