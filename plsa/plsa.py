@@ -88,7 +88,6 @@ class Plsa(object):
 	def __init__(self, corpus, number_of_topics, max_iter, model_path):
 		self.n_d = len(corpus.documents)
 		self.n_w = len(corpus.vocabulary)
-		print corpus.vocabulary
 		self.n_t = number_of_topics
 		self.max_iter = max_iter
 		self.model_path = model_path
