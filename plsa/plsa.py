@@ -224,7 +224,7 @@ def main(argv):
 
 	corpus = Corpus()
 	# document_paths = ['./data/20_newsgroups/']
-	document_path = './data/20_newsgroups/alt.atheism/'
+	document_path = './data/research_data/s_alt.atheism/'
 
 	for root, dirs, files in os.walk(document_path):
 		for name in files:
