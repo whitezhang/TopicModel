@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text=" livesey@solntze.wpd.sgi.com (jon livesey) writes: &gt; not, of course, the greatest salesman in the world.   that was &gt; jesus, wasn't it?  no, j.r. &quot;bob&quot; dobbs.   mathew " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/Roger_Livesey" support="85" types="DBpedia:Person,Schema:Person,Freebase:/film/actor,Freebase:/film,Freebase:/people/deceased_person,Freebase:/people,Freebase:/people/person" surfaceForm="livesey" offset="1" similarityScore="0.07756011933088303" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/Roger_Livesey" support="85" types="DBpedia:Person,Schema:Person,Freebase:/film/actor,Freebase:/film,Freebase:/people/deceased_person,Freebase:/people,Freebase:/people/person" surfaceForm="livesey" offset="34" similarityScore="0.07756011933088303" percentageOfSecondRank="-1.0"/>
+</Resources>
+</Annotation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text=" [stuff about hard to find atheist books deleted]  perhaps the infiltration of fundies onto school boards, city councils, etc. has something to do with why you can't find alternative media? " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/Stuff_%28magazine%29" support="118" types="DBpedia:Magazine,DBpedia:PeriodicalLiterature,DBpedia:WrittenWork,DBpedia:Work,Schema:CreativeWork,Freebase:/book/periodical,Freebase:/book,Freebase:/business/employer,Freebase:/business,Freebase:/book/magazine" surfaceForm="stuff" offset="2" similarityScore="0.11961010843515396" percentageOfSecondRank="0.3618718985919655"/>
+<Resource URI="http://dbpedia.org/resource/Hardness" support="205" types="" surfaceForm="hard" offset="14" similarityScore="0.0683443695306778" percentageOfSecondRank="0.6189263499307643"/>
+<Resource URI="http://dbpedia.org/resource/Atheism" support="1541" types="Freebase:/media_common/quotation_subject,Freebase:/media_common,Freebase:/broadcast/genre,Freebase:/broadcast,Freebase:/book/book_subject,Freebase:/book,Freebase:/religion/religion,Freebase:/religion,DBpedia:TopicalConcept" surfaceForm="atheist" offset="27" similarityScore="0.10164956003427505" percentageOfSecondRank="0.7405015680736439"/>
+<Resource URI="http://dbpedia.org/resource/Book" support="1802" types="DBpedia:TopicalConcept" surfaceForm="books" offset="35" similarityScore="0.12601099908351898" percentageOfSecondRank="0.5265439241384244"/>
+<Resource URI="http://dbpedia.org/resource/Infiltration_tactics" support="87" types="" surfaceForm="infiltration" offset="63" similarityScore="0.12660399079322815" percentageOfSecondRank="0.7682632926291011"/>
+<Resource URI="http://dbpedia.org/resource/Board_of_education" support="182" types="" surfaceForm="school boards" offset="92" similarityScore="0.18697476387023926" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/City_council" support="852" types="Freebase:/government/government_office_or_title,Freebase:/government,Freebase:/people/profession,Freebase:/people" surfaceForm="city councils" offset="107" similarityScore="0.18685856461524963" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/Alternative_media" support="100" types="Freebase:/media_common/media_genre,Freebase:/media_common,DBpedia:TopicalConcept" surfaceForm="alternative media" offset="171" similarityScore="0.17039130628108978" percentageOfSecondRank="-1.0"/>
+</Resources>
+</Annotation>

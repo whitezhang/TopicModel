@@ -1,11 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 '''
------- Output ------
+> Output
 model
--------
-Reference:
-[1]https://github.com/hitalex/PLSA
+
+> Reference
+[1] https://github.com/hitalex/PLSA
 '''
 
 
@@ -223,8 +223,8 @@ def main(argv):
 	load_stop_words("./data/stopwords.txt")
 
 	corpus = Corpus()
-	document_paths = ['./data/20_newsgroups/']
-	document_path = './data/20_newsgroups/'
+	# document_paths = ['./data/20_newsgroups/']
+	document_path = './data/20_newsgroups/alt.atheism/'
 
 	for root, dirs, files in os.walk(document_path):
 		for name in files:
@@ -238,7 +238,7 @@ def main(argv):
 	corpus.build_vocabulary()
 
 	number_of_topics = 40 #int(argv[1])
-	max_iterations = 1000 #int(argv[2])
+	max_iterations = 100 #int(argv[2])
 	plsa = Plsa(corpus, number_of_topics, max_iterations, "./model/")
 	plsa.train()   
 

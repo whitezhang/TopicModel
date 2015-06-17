@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text="        it took someone this long to figure that out? " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/Long_%28finance%29" support="60" types="" surfaceForm="long" offset="29" similarityScore="0.30275771021842957" percentageOfSecondRank="-1.0"/>
+</Resources>
+</Annotation>

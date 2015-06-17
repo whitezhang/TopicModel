@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text=" jsn104 is jeremy scott noonan " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/Tom_Noonan" support="69" types="DBpedia:Person,Schema:Person,Freebase:/award/award_winner,Freebase:/award,Freebase:/film/producer,Freebase:/film,Freebase:/film/actor,Freebase:/award/award_nominee,Freebase:/tv/tv_director,Freebase:/tv,Freebase:/people/person,Freebase:/people,Freebase:/book/author,Freebase:/book,Freebase:/tv/tv_actor,Freebase:/film/director,Freebase:/film/writer" surfaceForm="noonan" offset="24" similarityScore="0.21542584896087646" percentageOfSecondRank="0.5037514740280545"/>
+</Resources>
+</Annotation>

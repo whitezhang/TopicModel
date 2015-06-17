@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text="   this is hell.  hasn't anyone noticed?   &lt;&lt; consensual reality is a special case &gt;&gt;    " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/This_Is_Hell_%28band%29" support="50" types="DBpedia:Band,DBpedia:Organisation,Schema:Organization,Schema:MusicGroup,Freebase:/internet/social_network_user,Freebase:/internet,Freebase:/music/musical_group,Freebase:/music,Freebase:/music/artist" surfaceForm="this is hell" offset="3" similarityScore="0.1701100468635559" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/Consensus_reality" support="50" types="" surfaceForm="consensual reality" offset="46" similarityScore="0.19579331576824188" percentageOfSecondRank="-1.0"/>
+</Resources>
+</Annotation>

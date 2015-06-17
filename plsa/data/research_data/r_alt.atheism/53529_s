@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text=" you blashephemers!!! you will all go to hell for not believing in god!!!!  be prepared for your eternal damnation!!! " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/God_in_Christianity" support="132" types="" surfaceForm="god" offset="67" similarityScore="0.18821419775485992" percentageOfSecondRank="0.8161348084422883"/>
+</Resources>
+</Annotation>

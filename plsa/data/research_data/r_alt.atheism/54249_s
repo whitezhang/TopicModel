@@ -1,0 +1,11 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>414 Request-URI Too Large</title>
+</head><body>
+<h1>Request-URI Too Large</h1>
+<p>The requested URL's length exceeds the capacity
+limit for this server.<br />
+</p>
+<hr>
+<address>Apache/2.2.16 (Debian) Server at wifo5-02.informatik.uni-mannheim.de Port 80</address>
+</body></html>
