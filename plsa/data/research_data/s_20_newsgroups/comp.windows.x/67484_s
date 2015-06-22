@@ -1,0 +1,18 @@
+
+ how do you solve the problem when the message "cannot perform malloc"
+ shows for xtcreatemanagedwidget call?
+ 
+ i have the application written in x11r5 running on decstation using
+ athena widgets.  as soon as i added codes to do remote procedure call,
+ the program refused to work.  i also have my program working using
+ just xlib calls with rpc.  my executable code is about 1.4m and i don't
+ have any idea how much memory is the decstation 3100/5100.
+ 
+ any help will be appreciated.  thanks.
+ 
+ -- 
+ ----------------------------------------------------------------------
+ man l. li (manli@cs.uh.edu)
+ dept. of computer science
+ univ. of houston, houston,tx 77204-3475
+ 

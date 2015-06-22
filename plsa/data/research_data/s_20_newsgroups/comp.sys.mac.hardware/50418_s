@@ -1,0 +1,30 @@
+
+ in article <davea-120493231310@129.228.20.182> davea@xetron.com (david p. alverson) writes:
+ >i believe apple has a patent on the region features of quickdraw.  a mac
+ >clone would have to implement regions.  this is why apple's comment was
+ >that
+ >they believe it is not possible to make a mac clone without infringing
+ >on their patents.  they may have other patents like this.
+ 
+ apple has patented their implementation of regions, which presumably
+ includes the internal data structure (which has never been officially
+ documented by apple).  apple cannot patent the concept of a region.
+ 
+ i'm guessing that either nutek reverse-engineered apple's internal data
+ structure for regions (i dunno if this would hold up in court), or they
+ came up with their own data structure.  if it's the latter, then they
+ won't be able to draw pict files containing regions.  besides pict files,
+ there aren't many places where regions are stored on disk.  (quicktime
+ movies, perhaps?)  as long as the region isn't being stored on disk and
+ transferred from a mac to a nutek clone (or vice versa), it doesn't
+ matter if nutek uses a completely different internal data structure.
+ 
+ i remember reading that apple also has a patent on their adb hardware,
+ and that the nutek clones would therefore be lacking an adb port.  what
+ other patents does apple have on the mac?
+ -- 
+ joe schwartz       e-mail: xor@acm.rpi.edu  or  xor@clotho.acm.rpi.edu
+ mapinfo corp.
+ 200 broadway       these are my own opinions.  any similarity to the
+ troy, ny 12180     opinions of mapinfo corporation is purely coincidental.
+ 

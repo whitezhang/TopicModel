@@ -1,0 +1,13 @@
+
+ >clipper also allows an extraordinary opportunity for the criminal to
+ >conceal use of super-encryption.  an automated full-system surveillance
+ >mechanism (quite feasible across radio bandwidth) which knows family key f,
+ >can validate clipper wrappers and n:esn associations, but it cannot reveal
+ >in realtime the use of super-encryption, unless it knows all unit keys,
+ >which we are being assured are only to be made available in two separate
+ >pieces, upon specific wiretap-like order.
+ 
+ the serial number will be in a 64 bit block, with a 34 bit filler.  doesn't
+ take a lot to check to see if that is correct.
+ 
+ 

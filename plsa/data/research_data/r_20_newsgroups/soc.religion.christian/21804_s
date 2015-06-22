@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text=" you forgot one thing all have sinned and fallen short of the glory of god mark " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/Sin" support="840" types="Freebase:/media_common/quotation_subject,Freebase:/media_common,Freebase:/event/speech_topic,Freebase:/event" surfaceForm="sinned" offset="31" similarityScore="0.14040923118591309" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/Fallen_angel" support="175" types="Freebase:/fictional_universe/ethnicity_in_fiction,Freebase:/fictional_universe,Freebase:/fictional_universe/fictional_organization" surfaceForm="fallen" offset="42" similarityScore="0.1874060332775116" percentageOfSecondRank="0.6590933595279999"/>
+<Resource URI="http://dbpedia.org/resource/Short_film" support="3050" types="Freebase:/award/competition_type,Freebase:/award,Freebase:/film/film_story_contributor,Freebase:/film,Freebase:/book/book_subject,Freebase:/book,Freebase:/media_common/media_genre,Freebase:/media_common,Freebase:/award/award_discipline,Freebase:/film/film_festival_focus,Freebase:/film/film_subject,Freebase:/tv/tv_genre,Freebase:/tv,Freebase:/film/film_genre" surfaceForm="short" offset="49" similarityScore="0.0815090760588646" percentageOfSecondRank="0.6196209712957895"/>
+<Resource URI="http://dbpedia.org/resource/Gospel_of_Mark" support="636" types="Freebase:/book/written_work,Freebase:/book,Freebase:/media_common/adapted_work,Freebase:/media_common,Freebase:/book/book,Freebase:/religion/religious_text,Freebase:/religion" surfaceForm="mark" offset="75" similarityScore="0.07969988137483597" percentageOfSecondRank="0.9378284114712189"/>
+</Resources>
+</Annotation>

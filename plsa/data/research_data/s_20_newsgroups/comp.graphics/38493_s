@@ -1,0 +1,24 @@
+
+ 
+ i wrote...
+ > 
+ > g'day all,
+ > 
+ > can anybody point me at a utility which will read/convert/crop/whatnot/
+ > display hdf image files ? i've had a look at the hdf stuff under ncsa 
+ > and it must take an award for odd directory structure, strange storage
+ > approaches and minimalist documentation :-)
+ 
+ and it has since turned out that all the mirror sites i looked at were 
+ fooled by a restructuring at the original site - zaphod.ncsa.uiuc.edu - 
+ and hence were in a mess. that and a pointer to 'imconv' should get
+ me started. ta muchly.
+ 
+ cheers
+ 	markus
+ -- 
+ markus buchhorn, parallel computing research facility
+ email = markus@octavia.anu.edu.au
+ australian national university, canberra, 0200 , australia.
+ [international = +61 6, australia = 06] [phone = 2492930, fax = 2490747]
+ 

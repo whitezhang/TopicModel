@@ -1,0 +1,30 @@
+
+ 
+ in article <1p5e0tinnojp@minerva.cis.yale.edu> bell-peter@yale.edu (peter bell) writes:
+ >my advisor has decided to get a mac for the lab now that we are funded again.
+ >
+ >the consensus in the lab was that all we really needed was an lciii, but 
+ >he decided he wanted a centris 610.  the lack of an fpu on that machine,
+ >and the price, struck me as making it worth less than an lciii, so i have 
+ >suggested we get a iivx instead.  it seems heavily expandable, and for 
+ >
+ >what do people with iivx's think of them?  they seem like good machines to
+ >me, and i like the nubus slots in case we ultimately decide we want to do
+ >work with video on it....
+ 
+ the iivx...lciii performance at a centris 610 price. the only reason
+ to get an iivx is if you really need the full-size nubus slots. keep 
+ in mind that the 610 supports all apple monitors and has optional ethernet.
+ this lessens (but doesn't eliminate) the need for nubus cards. and unless
+ you're running fpu-intensive software, the 610 will blow the doors off the
+ lciii and the iivx. the lciii, on the other hand, is sufficient for most
+ people and has a great price.
+ 
+ if you haven't guessed, i find halving the bus clock (the iivx 32mhz up vs.
+ 16mhz bus) a throughly bad thing and i hope apple never does it again.
+ -- 
+ ______________________________________________________________________________
+ |joe finete                                                                   |
+ |jfinete@cats.ucsc.edu                                                        |
+ -------------------------------------------------------------------------------
+ 

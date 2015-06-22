@@ -1,0 +1,30 @@
+
+ in article <im14u2c.735176900@camelot> im14u2c@camelot.bradley.edu (joe zbiciak) writes:
+ >what's the word on the chipset?  is this a rom bug specific 
+ >to a specific brand using the rockwell, or is it the rockwell
+ >chipset itself?
+ 
+ there were an assortment of firmware problems, but that is pretty much
+ expected with any fax/modem talking with a different fax or modem
+ which may have also been revised or is new.  i'm pretty much
+ oblivious to any current firmware problems, so you'll have to get it
+ from someone else.
+ 
+ however, i can tell you to stay clear of any board which uses the
+ rockwell mpu (as opposed to the dpu) for an internal implementation.
+ this is because the mpu used "speed buffering" instead of having a
+ 16550 interface.  without the 550 interface, the number of interrupts
+ are still the same and thus may get dropped under multitasking
+ conditions (like in windows).  as far as i know, the "speed buffering"
+ works ok for external modems if a 550 is used on the internal serial
+ port board.
+ 
+ hope this helps...
+ tom
+ 
+ -- 
+ |tom barrett (tdbear), sr. engineer|tom.barrett@amd.com|v:512-462-6856 |
+ |amd pcd ms-520 | 5900 e. ben white|austin, tx  78741  |f:512-462-5155 |
+ |...don't take no/take hold/don't leave it to chance ---tasmin archer  |
+ |my views are my own and may not be the same as the company of origin  |
+ 

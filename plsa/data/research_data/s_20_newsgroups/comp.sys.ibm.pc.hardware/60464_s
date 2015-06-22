@@ -1,0 +1,40 @@
+
+ from article <1993apr15.205654.20845@news.cs.indiana.edu>, by "mohammad al-ansari" <alansari@mango.ucs.indiana.edu>:
+ > 
+ > (clip) i am in
+ > the process of purchasing an eisa/vl bus 486 dx2-66 computer 
+ > (clip)
+ > the first is ares and they use a cache motherboard (that's
+ > the brand of the motherboard) with opti chip set, the other is micron
+ > (formerly edge technology) and they use the micronics eisa/vlb
+ > motherboard.
+ > (clip)
+ > i would really appreciate any input on this. is the micron machine the
+ > clear choice?  does anyone know anything positive or negative about
+ > either company? has anyone ever heard of cache motherboards? should i
+ > go with micron just because it has the micronics motherboard? etc.
+ > 
+ > thanks very much in advance for any information.
+ > 
+ > --
+ > mohammad al-ansari
+ get back to your vendors, or better yet the board manufactures and get
+ some more info:
+    where made.
+    norton indexes (yeah i know bms suck but whats a mother to do?)
+    number of slots, and types, # esia and # 32 bit?
+    any ide or scsi on board?
+    how easy to upgrade ram, location and # of pins.
+    overdrive?
+    oscilator kits?
+    does it have a 16550 uart?
+    who's bios?
+ 
+ these might make you feel better about either system, but i must 
+ agree that ares with 7 days of 24 hr tech and 2 year warranty is
+ encouraging.
+ ________________________________________________________________
+   terry clark                           tclark@umaxc.uiowa.edu 
+   you want an opinion - you don't pay me enough for an opinion
+ 
+ 

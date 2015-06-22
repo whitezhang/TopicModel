@@ -1,0 +1,53 @@
+
+ i am pleased to announce that a *revised version* of _the easy-to-read book
+ of mormon_ (former title: _mormon's book_) by lynn matthews anderson is now
+ available through anonymous ftp (see information below). in addition to the
+ change in title, the revised etr bom has been shortened by several pages
+ (eliminating many extraneous "that's" and "of's"), and many (minor) errors
+ have been corrected. this release includes a simplified joseph smith story,
+ testimonies of the three and eight witnesses, and a "words-to-know"
+ glossary.
+ 
+ as with the previous announcement, readers are reminded that this is a
+ not-for-profit endeavor. this is a copyrighted work, but people are welcome
+ to make *verbatim* copies for personal use. people can recuperate the
+ actual costs of printing (paper, copy center charges), but may not charge
+ anything for their time in making copies, or in any way realize a profit
+ from the use of this book. see the permissions notice in the book itself
+ for the precise terms.
+ 
+ negotiations are currently underway with a mormon publisher vis-a-vis the
+ printing and distribution of bound books. (sorry, i'm out of the wire-bound
+ "first editions.") i will make another announcement about the availability
+ of printed copies once everything has been worked out.
+ 
+ ftp information: connect via anonymous ftp to carnot.itc.cmu.edu, then "cd
+ pub" (you won't see anything at all until you do).
+ 
+ "the easy-to-read book of mormon" is currently available in postscript and
+ rtf (rich text format). (ascii, latex, and other versions can be made
+ available; contact dba@andrew.cmu.edu for details.) you should be able to
+ print the postscript file on any postscript printer (such as an apple
+ laserwriter); let dba know if you have any difficulties. (the postscript in
+ the last release had problems on some printers; this time it should work
+ better.) rtf is a standard document interchange format that can be read in
+ by a number of word processors, including microsoft word for both the
+ macintosh and windows. if you don't have a postscript printer, you may be
+ able to use the rtf file to print out a copy of the book.
+ 
+ -r--r--r--  1 dba                   1984742 apr 27 13:12 etrbom.ps
+ -r--r--r--  1 dba                   1209071 apr 27 13:13 etrbom.rtf
+ 
+ for more information about how this project came about, please refer to my
+ article in the current issue of _sunstone_, entitled "delighting in
+ plainness: issues surrounding a simple modern english book of mormon."
+ 
+ send all inquiries and comments to:
+ 
+     lynn matthews anderson
+     5806 hampton street
+     pittsburgh, pa 15206
+ 
+     dba+lynn@cs.cmu.edu
+ 
+ 

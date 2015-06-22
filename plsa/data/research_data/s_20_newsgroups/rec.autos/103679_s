@@ -1,0 +1,61 @@
+
+ in article <1r6omsinnnbk@ctron-news.ctron.com> smith@ctron.com writes:
+ >in article <gfpftjw00iv3q3vwyv@andrew.cmu.edu>, "daniel u. holbrook" <dh3q+@andrew.cmu.edu> writes:
+ >>>these are the extensions i know of
+ >>>ch   switzerland
+ >>>se   sweden
+ >>>fi   finland
+ >>>uk   uk
+ >>>com  us?
+ >>>edu  us?     (are both com and edu us?) 
+ >>>fr   france
+ >>dk    denmark
+ >>no    norway
+ >
+ >.com and .edu are both united states, one refers to commercial institutions,
+ >the other to mental - i mean, "educational" - institutions.  .gov is also
+ >pretty much us, it refers to government institutions.  internet was built on
+ >the aarp backbone, a us defense contractor network that used the extension
+ 
+ i think you mean arpa; aarp is the american association of retired persons,
+ and i seriously doubt that they'd want young whippersnappers building
+ anything on their backbones, what with de-calcification and all :-)
+ 
+ >to identify the type of organisation.  internet extended the convention for
+ >other countries, but the us retained the old conventions.
+ 
+ the general convention is that if it doesn't have a country tag on it, it's
+ a us site. that includes:
+ 	.com	commercial 
+ 	.edu	educational 
+ 	.mil	us military sites 
+ 	.gov	us gov't non-military sites (eg nasa sites)
+ 	.org	anyone who is "none of the above"
+ there are sites with such tags that are non-us sites, but they will have
+ the country extension (eg xxxx.edu.au is an extension i saw today).
+ us sites can also use the .us extension, but, as mr. smith pointed 
+ out, the internet was built on the arpanet backbone, and they default
+ to us sites if there's no country code.
+ 
+ i would suggest that anyone who didn't know this (or wants to know
+ more about it on a non-system-administrative level) check out
+ the book _the_whole_internet_user's_guide_and_catalog_ by ed krol.
+ (or is it catalog and user's guide? i can never remember, and my copy
+ is my desk at home...). it's a very good not-necessarily-technical
+ guide to the internet and the various utilities that lurk on it (including
+ usenet). i don't think it's part of the nutshell series, but it is
+ published by o'reilly and associates.
+ 
+ this should go to one of the news.* newsgroups, but damned if i
+ can figure out which one.... :-)
+ 
+ 				james
+ 
+ james p. callison    microcomputer coordinator, u of oklahoma law center 
+ callison@uokmax.ecn.uoknor.edu   /\    callison@aardvark.ucs.uoknor.edu   
+ disclaimer: i'm not an engineer, but i play one at work...
+ 		the forecast calls for thunder...'89 t-bird sc
+    "it's a hell of a thing, killing a man. you take away all he has 
+ 	and all he's ever gonna have." 
+ 			--will munny, "unforgiven"
+ 

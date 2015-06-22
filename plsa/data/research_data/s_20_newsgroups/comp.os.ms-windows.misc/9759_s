@@ -1,0 +1,39 @@
+
+ 
+ in a previous article, rudim@cs.kuleuven.ac.be (rudi maelbrancke) says:
+ 
+ >in windows i created a permanent swap-file of 7771kb as win3.1
+ >recommended me to do that (32bit access).
+ >if i use emm386.exe, after win3.1 startup i have 6689k of memory
+ >free, if i leave emm386.exe out of my config.sys i have 9935k
+ >of memory free, and windows recommends me a swap file of 11769k.
+ >
+ 
+ i think you need the emm386.exe noems
+ this will let the expanded mem be active but not use any, therefore
+ this will give you more extended mem for windows yet have all the
+ bases covered.
+ 
+ 
+ >i use dos6, with memmaker, have 4mb of internal memory and a 486dx,
+ >
+ 
+ i do not use dos6 so i am not familiar with this.
+ 
+ >does anybody knows why this is happening (possibly win needs
+ >some umb's to manage virtual memory?, if true, which umb's, those
+ >that emm386 can find without including suspicious parts?)
+ >
+ >i need an optimized dos-environment, because i develop applications for
+ >dos using a windows programming environment.
+ >
+ >
+ >rudi
+ >
+ c-ya.....  /\/\artin
+ -- 
+   this communication is sent by    /\/\artin   university of arizona tucson
+   =========================================================================
+   ak333@cleveland.freenet.edu   mlinsenb@ccit.arizona.edu  mlinsenb@arizvms
+   death has been dead for about 2,000 years ****** follow the king of kings
+ 

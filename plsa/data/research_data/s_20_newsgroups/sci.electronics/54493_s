@@ -1,0 +1,24 @@
+
+ i was a bit surprised that the manual for my fluke-87 multimeter
+ suggests applying wd-40 to the test lead sockets, especially the
+ current range socket.  the intention is to prevent the
+ test-lead-is-in-the-wrong-scocket beeper from going off when there
+ is no test lead in that socket.
+ 
+ the manual is a bit vague, but i think i'd apply the wd-40 to a
+ swab, then wipe the socket instead of spaying the stuff directly
+ from the can.
+ 
+ speaking of said meters:  i compared the 87 against the 8060a that
+ i've had on my bench for almost 11 years.  it has been five years
+ since the 8060a has been calibrated.  on the dc scale, they agree
+ within .01 mv.  ac scale is within about .1 mv.  the 87 would be
+ just about the perfect portable meter if it had the db scale; i
+ didn't feel it was worth the extra $100 for a second 8060 since i
+ don't use db all that much in my work.
+ 
+ -- 
+ bill mayhew      neoucom computer services department
+ rootstown, oh  44272-9995  usa    phone: 216-325-2511
+ wtm@uhura.neoucom.edu (140.220.1.1)    146.580: n8wed
+ 

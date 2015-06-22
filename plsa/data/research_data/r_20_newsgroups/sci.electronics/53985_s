@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text="    i have an eprom blower made by logical devices and the  model name is prompro8 but i have lost the manual does anyone  have a spare manual that they would like to sell      declan hughes    hughes@ralrpiedu " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/EPROM" support="140" types="" surfaceForm="eprom" offset="14" similarityScore="0.11998635530471802" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/Logic" support="1586" types="" surfaceForm="logical" offset="35" similarityScore="0.06430128961801529" percentageOfSecondRank="0.8083798927346477"/>
+<Resource URI="http://dbpedia.org/resource/Model_organism" support="293" types="" surfaceForm="model" offset="60" similarityScore="0.06603538244962692" percentageOfSecondRank="0.8256309093897983"/>
+<Resource URI="http://dbpedia.org/resource/Manual_transmission" support="1060" types="Freebase:/automotive/transmission_type,Freebase:/automotive" surfaceForm="manual" offset="103" similarityScore="0.07063619047403336" percentageOfSecondRank="0.9326576327372371"/>
+<Resource URI="http://dbpedia.org/resource/Spare_part" support="58" types="" surfaceForm="spare" offset="130" similarityScore="0.08841292560100555" percentageOfSecondRank="0.343366543963544"/>
+<Resource URI="http://dbpedia.org/resource/Manual_transmission" support="1060" types="Freebase:/automotive/transmission_type,Freebase:/automotive" surfaceForm="manual" offset="136" similarityScore="0.07063619047403336" percentageOfSecondRank="0.9326576327372371"/>
+<Resource URI="http://dbpedia.org/resource/Hughes_Aircraft" support="217" types="DBpedia:Company,DBpedia:Organisation,Schema:Organization,Freebase:/organization/organization,Freebase:/organization,Freebase:/aviation/aircraft_manufacturer,Freebase:/aviation,Freebase:/business/employer,Freebase:/business,Freebase:/business/defunct_company,Freebase:/book/book_subject,Freebase:/book,Freebase:/business/business_operation" surfaceForm="hughes" offset="184" similarityScore="0.060457952320575714" percentageOfSecondRank="0.507167883681234"/>
+<Resource URI="http://dbpedia.org/resource/Hughes_Aircraft" support="217" types="DBpedia:Company,DBpedia:Organisation,Schema:Organization,Freebase:/organization/organization,Freebase:/organization,Freebase:/aviation/aircraft_manufacturer,Freebase:/aviation,Freebase:/business/employer,Freebase:/business,Freebase:/business/defunct_company,Freebase:/book/book_subject,Freebase:/book,Freebase:/business/business_operation" surfaceForm="hughes" offset="194" similarityScore="0.060457952320575714" percentageOfSecondRank="0.507167883681234"/>
+</Resources>
+</Annotation>

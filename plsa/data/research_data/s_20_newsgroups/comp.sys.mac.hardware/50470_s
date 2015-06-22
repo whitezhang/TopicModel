@@ -1,0 +1,43 @@
+
+ in article <c50cmd.1zz@newcastle.ac.uk>, tor-olav.berntzen@newcastle.ac.uk (tor-olav berntzen) 
+ writes:
+ 
+ >another thing, why a scsi interface ? [for mds]
+ >
+ >by giving the 2.5"mo a floppy interface it could reduce the price of it and
+ >make it easily installed in existing devices.
+ 
+ this question is, to me, like asking "why use scsi at all?"
+ 
+ - due to the rather primitive standard dma solution (which is used by almost all
+   floppy interfaces) of pcs, the speed is limited to approx 500 kbytes/s. 
+   i want a standard allowing higher performance.
+ 
+ - with scsi, the os can issue a request to the disk and then go ahead with other
+   things. later, when the controller has performed the search and physical read,
+   data can be transferred to main memory at "ram speeds". not very relevant with
+   ms-dos, but ms-dos is not made for the future.
+ 
+ - i've *got* a scsi interface. i've got a 5.25" and a 3.5" floppy, too, and i am
+   not going to throw them out. with scsi i may add, for all practical purposes,
+   an "unlimited" number of disk units without sacrificing any of my old disks. 
+ 
+ - for my pc, i've got a 300 mbyte scsi disk adopted from a sun machine, and i
+   can carry it over to a mac, a sparcstation, an alpha machine... whatever i like
+   to, if i decide to turn my back to the pc. (i *do* know that i cannot expect
+   to move the data without reformatting!)
+ 
+ there are probably numerous other reasons for scsi as well.
+ 
+ >after all it is a floppy replacement we are taking about. 128mb isnt all that
+ >much, so it isnt going to replace the need of a fast fixed disk.
+ 
+ no, not replace, but supplement. and contrary to a floppy, a md may be fast enough
+ to run programs (or access data) directly off the md. so we'll have much higher
+ expectations/demands, which is much better supported by scsi than the old floppy
+ interface. and the price of scsi controllers is not that high any more - isn't it
+ something like a dozen large pizzas, nowadays? :-)
+ 
+ ka.
+ 
+ 

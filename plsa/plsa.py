@@ -1,11 +1,21 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 '''
+> Input Setting
+document_path # collection
+stopwords # stopwords
+
 > Output
-model
+./model/
+file-path.txt
+corpus.txt
+
+> Done flag
+flag_file
 
 > Reference
 [1] https://github.com/hitalex/PLSA
+
 '''
 
 
@@ -72,16 +82,29 @@ class Document(object):
 class Corpus(object):
 	def __init__(self):
 		self.documents = []
+		self.words_frequency = {}
 
 	def add_document(self, document):
 		self.documents.append(document)
 
+	# def build_vocabulary(self):
+	# 	discrete_set = set()
+	# 	for document in self.documents:
+	# 		for word in document.words:
+	# 			discrete_set.add(word)
+	# 	self.vocabulary = list(discrete_set)
+
 	def build_vocabulary(self):
-		discrete_set = set()
 		for document in self.documents:
 			for word in document.words:
-				discrete_set.add(word)
-		self.vocabulary = list(discrete_set)
+				if word in self.words_frequency:
+					self.words_frequency[word] += 1
+				else:
+					self.words_frequency[word] = 1
+		# Remove less frequency words. The threshold here is 1
+		frequent_words_set = [key for key, value in self.words_frequency.items() if value > 3]
+		self.vocabulary = frequent_words_set
+
 
 
 class Plsa(object):
@@ -95,7 +118,8 @@ class Plsa(object):
 		self.error_L = 0.0001; # error for each iter
 		self.corpus = corpus
 
-		print corpus.vocabulary
+		print 'Plsa'
+		# print corpus.vocabulary
 		print self.n_d, self.n_w
 		# bag of words
 		self.n_w_d = np.zeros([self.n_d, self.n_w], dtype = np.int)
@@ -122,7 +146,7 @@ class Plsa(object):
 		L = 0
 		for di in range(self.n_d):
 			for wi in range(self.n_w):
-				sum1 = 0
+				sum1 = 1
 				for zi in range(self.n_t):
 					sum1 = sum1 + self.p_z_d[di, zi] * self.p_w_z[zi, wi]
 				L = L + self.n_w_d[di, wi] * np.log(sum1)
@@ -170,12 +194,7 @@ class Plsa(object):
 		for i_iter in range(self.max_iter):
 
 			# likelihood
-			self.L = self.log_likelihood()
-
-			# Write into the file
-			# self.print_p_z_d()
-			# self.print_p_w_z()
-			self.print_top_words(10)
+			self.L = self.log_likelihood()		
 
 			print "Iter " + str(i_iter) + ", L=" + str(self.L)
 
@@ -215,6 +234,10 @@ class Plsa(object):
 					sum1 = 1
 				for wi in range(self.n_w):
 					self.p_w_z[zi, wi] = sum2[wi] / sum1
+		# Write into the file
+		self.print_p_z_d()
+		self.print_p_w_z()
+		self.print_top_words(10)
 
 def main(argv):
 	print "Usage: python ./plsa.py <number_of_topics> <maxiteration>"
@@ -223,22 +246,32 @@ def main(argv):
 	load_stop_words("./data/stopwords.txt")
 
 	corpus = Corpus()
-	# document_paths = ['./data/20_newsgroups/']
-	document_path = './data/research_data/s_alt.atheism/'
 
+	document_path = './data/research_data/s_20_newsgroups/'
+
+	file_path_set = open("file-path.txt", "w")
 	for root, dirs, files in os.walk(document_path):
 		for name in files:
 			document_file = root + '/' + name
-			if not "_s" in document_file:
+			if 'DS_Store' in document_file:
 				continue
-#			print document_file
+			# Record the order of file path
+			file_path_set.write(document_file+"\n")
+
 			document = Document(document_file)
 			document.split(STOP_WORDS_DIC)
 			corpus.add_document(document)
+	file_path_set.close()
+
 	corpus.build_vocabulary()
 
-	number_of_topics = 40 #int(argv[1])
-	max_iterations = 100 #int(argv[2])
+	corpus_file = open("corpus.txt", "w")
+	for word in corpus.vocabulary:
+		corpus_file.write(word+" ")
+	corpus_file.close()
+
+	number_of_topics = 20 #int(argv[1])
+	max_iterations = 30 #int(argv[2])
 	plsa = Plsa(corpus, number_of_topics, max_iterations, "./model/")
 	plsa.train()   
 

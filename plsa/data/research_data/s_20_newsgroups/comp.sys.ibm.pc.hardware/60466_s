@@ -1,0 +1,37 @@
+
+ in article <richk.93apr15075248@gozer.grebyn.com> richk@grebyn.com (richard krehbiel) writes:
+ >>     can anyone explain in fairly simple terms why, if i get os/2, i might 
+ >>   need an scsi controler rather than an ide.  will performance suffer that
+ >>   much?  for a 200mb or so drive?  if i don't have a tape drive or cd-rom?
+ >>   any help would be appreciated.
+ 
+ >so, when you've got multi-tasking, you want to increase performance by
+ >increasing the amount of overlapping you do.
+ >
+ >one way is with dma or bus mastering.  either of these make it
+ >possible for i/o devices to move their data into and out of memory
+ >without interrupting the cpu.  the alternative is for the cpu to move
+ >the data.  there are several scsi interface cards that allow dma and
+ >bus mastering.
+  ^^^^^^^^^^^^
+ how do you do bus-mastering on the isa bus?
+ 
+ >ide, however, is defined by the standard at interface
+ >created for the ibm pc at, which requires the cpu to move all the data
+ >bytes, with no dma.
+ 
+ if we're talking isa (at) bus here, then you can only have 1 dma channel
+ active at any one time, presumably transferring data from a single device.
+ so even though you can have at least 7 devices on a scsi bus, explain how
+ all 7 of those devices can to dma transfers through a single scsi card
+ to the isa-at bus at the same time.
+ 
+ also, i'm still trying to track down a copy of ibm's at reference book,
+ but from their pc technical manual (page 2-93):
+ 
+ "the (fdd) adapter is buffered on the i.o bus and uses the system board
+ direct memory access (dma) for record data transfers."
+ i expect to see something similar for the pc-at hdd adapter.  
+ so the lowly low-density original pc fdd card used dma and the pc-at
+ hdd controller doesn't!?!?  that makes real sense.
+ 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text="  v16 anyone anyone heard of a cizata v16t  its mainly sold in the middle  east where they dont have as strict a legislation as in the usa and ec " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/V16_engine" support="67" types="Freebase:/engineering/piston_configuration,Freebase:/engineering" surfaceForm="v16" offset="2" similarityScore="0.08572176843881607" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/Legislation" support="923" types="Freebase:/book/book_subject,Freebase:/book" surfaceForm="legislation" offset="113" similarityScore="0.12301454693078995" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/Miss_USA" support="891" types="Freebase:/time/recurring_event,Freebase:/time,Freebase:/award/recurring_competition,Freebase:/award,DBpedia:TopicalConcept" surfaceForm="usa" offset="135" similarityScore="0.04865501821041107" percentageOfSecondRank="0.8131482982730217"/>
+</Resources>
+</Annotation>

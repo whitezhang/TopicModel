@@ -1,0 +1,13 @@
+
+ i read about the development of eisa-2 some time ago but dismissed it
+ in light of the intense interest in vesa and pci.  however, i recently
+ was disheartened to hear that isa cannot address more than 16mb of ram,
+ a limit that too many of us will hit all too soon.
+ 
+ i recall that eisa-2 will support 64-bit transfer among other enhancements.
+ is there such a standard being developed?
+ 
+ -- 
+ bing ho
+ bing@zinc.cchem.berkeley.edu   university of california at berkeley   
+ 

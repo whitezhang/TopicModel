@@ -1,0 +1,53 @@
+
+ 
+ hello,
+ 
+ 
+ our application requires us to capture keypad presses for all windows
+ in a number of applications.  we are trying to use action translation
+ tables to implement this.  we have only succeeded by assigning the
+ translation table to every individual widget in all windows in a single
+ application.  the xt calls we make are included below.
+ 
+ it would be much more convenient if we could assign the translation
+ table to a class of widgets rather than individual widget instantiations,
+ and also accomplish it for multiple applications.  if someone could
+ describe how do this it would be greatly appreciated.
+ 
+ platform: sun sparc w/ x11r4 & motif 1.1.4
+ 
+ ***********************************************************************
+ 
+ static xtactionsrec actionstable[] = {
+         {"up", do_up},
+         {"right", do_right},
+         {"middle", do_middle},
+         {"left", do_left},
+         {"down", do_down},
+ 	{"bye", quit},
+ };
+ 
+ static char defaulttranslations[] = 
+ 		"<key>kp_8: up() \n\
+ 		 <key>kp_6: right() \n\
+ 		 <key>kp_5: middle() \n\
+ 		 <key>kp_4: left() \n\
+ 		 <key>kp_2: down() \n\
+ 		 <key>kp_1: bye()"; 
+ 
+ xttranslations	trans_table, trans_table2;
+ 
+ (. . .)
+ 
+     xtaddactions(actionstable, xtnumber(actionstable));
+     trans_table = xtparsetranslationtable(defaulttranslations);
+ 
+     widget = xtcreatemanagedwidget("msg", xmpushbuttonwidgetclass,
+ 		form, wargs, n);
+ 
+     xtoverridetranslations(widget, trans_table);
+ 
+ ***********************************************************************
+ 
+ 
+ 

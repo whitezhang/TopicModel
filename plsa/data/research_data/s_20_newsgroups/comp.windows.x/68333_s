@@ -1,0 +1,17 @@
+
+ in article h1m@vtserf.cc.vt.edu, stellr@smyrna.cc.vt.edu (ray stell) writes:
+ |>
+ |>if i install x11r5 with backward compatibility for motif, will motif
+ |>1.2 clients work on the x11r5 servers?
+ 
+ it works for me.  i've run motif 1.1.3,1.1.4,1.1.5,1.2,1.2.1, and 1.2.2 on
+ an x11r5 server with motifbc defined.
+ 
+ 
+ ---
+ daniel j. mccoy           |=> space  <=|                   i-net, inc.
+ nasa mail code pt4        |=>   is   <=|             tel: 713-483-0950
+ nasa/johnson space center |=>  our   <=|             fax: 713-244-5698
+ houston, texas 77058      |=> future <=| mccoy@gothamcity.jsc.nasa.gov
+ 
+ 

@@ -1,0 +1,29 @@
+
+ in article 28858@cas.org, lwv26@cas.org (larry w. virden) writes:
+ >in article <0frolv200awvi3iv4s@andrew.cmu.edu> "derrick j. brashear" <db74+@andrew.cmu.edu> writes:
+ >:
+ >:i got the following today from gary risebrough and it worked fine:
+ >:
+ >:excerpts from mail: 29-apr-93 re: ol{v}wm 3 virtual keybo..
+ >:ito2@aodc.gov.au (554)
+ >:
+ >
+ >:> i have :
+ >:> > openwindows.keyboardcommands:   full
+ >:> > openwindows.virtualgrabkeys :   false
+ >:
+ >:> which seems to work.
+ >:
+ >
+ >where can i find man pages about virtualgrabkeys resource - it doesn't
+ >show up in my openwindows 3.0 man pages...
+ 
+ virtualgrabkeys is not an ow resource. it belongs to
+ olvwm(1).
+ 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ mats larsson                   | email: mats.larsson@eua.ericsson.se
+ ellemtel telecom systems labs  | phone: +46 8 727 3658
+ s-125 25 alvsjo, sweden        | fax:   +46 8 727 4168
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 

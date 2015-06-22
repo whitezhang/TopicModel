@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text="                test lines 6 nntppostinghost phaktuscedu              " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/River_Test" support="100" types="DBpedia:River,DBpedia:Stream,DBpedia:BodyOfWater,DBpedia:NaturalPlace,DBpedia:Place,Schema:Place,Schema:BodyOfWater,Schema:RiverBodyOfWater,Freebase:/location/location,Freebase:/location,Freebase:/geography/river,Freebase:/geography,Freebase:/geography/body_of_water,Freebase:/geography/geographical_feature" surfaceForm="test" offset="16" similarityScore="0.12461307644844055" percentageOfSecondRank="0.9316177232027869"/>
+</Resources>
+</Annotation>

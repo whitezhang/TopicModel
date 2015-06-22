@@ -1,0 +1,21 @@
+
+ >     there's one thing about windows that really frosts me.
+ >i have 20mb of ram installed in my system. i use a 5mb (2.5mb
+ >under windows) disk-cache, and a 4mb permanent swap file.
+ >
+ >     while i can never fill the memory up, i still have problems
+ >sometimes because i run out of gdi resources. what gives?
+ >i think windows could manage these resources a little better.
+ >
+ are you using windows 3.0 or 3.1? if you're still on 3.0, 3.1 devotes about
+ twice as much memory to these and runs out much less frequently. if 3.1,
+ you might use one of the resource monitors (such as the one that comes with
+ the windows 3.1 resource kit or one of the many shareware ones available)
+ to see which programs are hogging the resources (every icon, internal
+ graphics brush, etc. in every program running uses a certain amount of
+ this limited memory area. also, some don't give it back when they're
+ finished).
+ 
+ lamont downs
+ downs@nevada.edu
+ 

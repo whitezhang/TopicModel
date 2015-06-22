@@ -1,0 +1,19 @@
+
+ in article <1993apr27.190648.26436@walter.bellcore.com> deaddio@ski.bellcore.com (michael deaddio) writes:
+ >
+ >basically, i am looking for something to operate in the
+ >ranges of accelerations found in an automobile environment.
+ >i would like the device to operate as a trigger for other
+ >systems when the car's deceleration reaches a threshold value
+ >(which is how i assume some seat belt lock mechanisms and air
+ >bag deployment systems work?).
+ 
+ open up one of the airbag control boxes.  they have inexpensive piezoelectric
+ accelerometers in them.  i know that the gm cars use the setra units.  the
+ cheapest way to get such an accelerometer is to cannibalize an existing
+ automotive unit.
+ 
+ incidentally, these things aren't very linear, but for the application they
+ would do a fine job.
+ --scott
+ 

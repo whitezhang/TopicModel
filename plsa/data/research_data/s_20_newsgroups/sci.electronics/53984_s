@@ -1,0 +1,20 @@
+
+ in sci.electronics, wayne@uva386.schools.virginia.edu (tony wayne) writes:
+ >what is pink noise and how is it used in sound experiments?
+ 
+     pink noise has constant power per geometric frequency increment
+ (octave, 1/3 octave, etc).  thus the 10khz-20khz octave has the same
+ amount of noise power as the 10hz-20hz octave.
+     white noise has constant power per arithmetic frequency increment
+ (hz, khz, etc).  thus the 10khz-10.1khz band has the same amount of
+ noise power as the 10hz-110hz band (both bands are 100hz wide).
+     pink noise can be made by passing white noise thru a -3db/octave
+ filter (usually approximated by a network of several rc pairs).
+ note: you can't get -3db/octave by using half a -6db/octave network 
+ :-(
+     pink noise is commonly used in audio power response measurements.
+ it shows up on audio spectrum analyzers (with octave-related bands)
+ as a flat line across the bands.
+ 
+ davep
+ 

@@ -1,0 +1,27 @@
+
+ 
+ 
+ in article <c4zogd.c56@news.udel.edu> swyatt@bach.udel.edu (stephen l wyatt) writes:
+ >i have a question about winbench (pc labs thing) 3.11..
+ >
+ >i have a 386/33 and a ahead b (512k) card and got these results-
+ >
+ >windows vga driver - 2.44 million
+ >ahead b (640-480-256) driver - 455,000 winmarks
+ >windows svga (800-600-16) driver - 1.68 million winmarks...
+ >
+ >i was thinking about upgrading to a diamond 24x card.. i read it had about
+ >8 million winmark..
+ >
+ >obviously this is much much greater... but is this in 256-color mode or what?
+ >is this a good card...street price is about $170...
+ 
+ on my 386dx 33mhz 4mb ram
+ winbench 2.5
+  24x v2.02 16.7m        1,668,274
+      v2.03 16.7m        1,668,985
+      v2.03 16           4,602,428
+      v2.03 256          7,635,278
+ richard mayston
+ maystonr@grace.cri.nz
+ 

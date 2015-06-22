@@ -1,0 +1,36 @@
+
+ in article <1993apr3.183303.6442@usl.edu> jna8182@ucs.usl.edu (armstrong jay n) writes:
+ >can someone please tell me where i can ftp dta or dmorph?
+ 
+ dmorf (dave's morph, i think is what it means) and dtax (dave's 
+ tga assembler) are available in the msdos_uploads directory
+ on the wuarchive.
+ 
+ they are arjed and bundled with their respective xmemory versions,
+ dmorfx.exe and dtax.exe, you can also find a version of aaplay.exe
+ there, with which you can view files you create with dta.exe or
+ dtax.exe.
+ 
+ i downloaded the whole bunch last week and have been morphing 
+ away the afternoons since.  the programmes are all a bit buggy and
+ definitely not-ready-to-spread-to-the-masses, but they are very
+ well written. 
+ 
+ the interface is frustrating at first, but it gets easy once you
+ figure out the tricks.
+ 
+ i have noticed that dmorfx will crash horribly if you try to morph
+ without using the splines option.  not sure why, since i don't have
+ the source.  i think it was written for tp 6.0.
+ 
+ if anyone else comes up with any other hints on getting the thing 
+ to work right, tell me; it took me several hours the first time
+ just to figure out that if i just used the durned splines then 
+ it would work...
+ 
+ >jna
+ >jna8182@usl.edu
+ 
+ -ryan
+ rap@cis.ufl.edu
+ 

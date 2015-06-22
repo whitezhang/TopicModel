@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Annotation text="  could you explain what any of this pertains to? is this a position statement on something or typing practice? and why are you using my name, do you think this relates to anything i've said and if so, what.  bill " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
-<Resources>
-<Resource URI="http://dbpedia.org/resource/Explanation" support="63" types="" surfaceForm="explain" offset="12" similarityScore="0.14926446974277496" percentageOfSecondRank="-1.0"/>
-<Resource URI="http://dbpedia.org/resource/Balance_sheet" support="226" types="" surfaceForm="position statement" offset="60" similarityScore="0.17298462986946106" percentageOfSecondRank="-1.0"/>
-<Resource URI="http://dbpedia.org/resource/Typing" support="63" types="DBpedia:TopicalConcept" surfaceForm="typing" offset="95" similarityScore="0.12319937348365784" percentageOfSecondRank="-1.0"/>
-<Resource URI="http://dbpedia.org/resource/The_Practice" support="551" types="DBpedia:TelevisionShow,DBpedia:Work,Schema:CreativeWork,Freebase:/tv/tv_program,Freebase:/tv,Freebase:/award/award_nominated_work,Freebase:/award,Freebase:/tv/tv_series_episode,Freebase:/award/award_winning_work,Freebase:/media_common/netflix_title,Freebase:/media_common" surfaceForm="practice" offset="102" similarityScore="0.1413729339838028" percentageOfSecondRank="0.6108543488890554"/>
-</Resources>
-</Annotation>

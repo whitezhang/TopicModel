@@ -1,0 +1,11 @@
+
+  i just removed an ide drive and reformated two scsi disk to use as boot disk 
+ in a system that did run windows fine in 386 enhanced mode. its a dx50 with 8 
+ meg ram, and an adaptec 1542b with bios enabled. system runs fine and runs 
+ windows in standard mode fine, but it returns to the dos prompt when trying 
+ to run 386 mode. i've tried emmexclude and sysrombreakpoint. what gives??????
+ 
+ thanks in advance, hal
+ 
+ my views are my own!
+ 

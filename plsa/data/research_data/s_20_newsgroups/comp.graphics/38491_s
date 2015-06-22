@@ -1,0 +1,13 @@
+
+ 
+ the idea is to clip one polygon using another polygon (not
+ necessarily rectangular) as a window.  my problem then is in
+ finding out all the new vertices of the resulting "subpolygons"
+ from the first one.  is this simply a matter of extending the
+ usual algorithm whereby each of the edges of one polygon is checked
+ against another polygon???  is there a simpler way??
+ 
+ comments welcome.
+ 
+ noel.
+ 

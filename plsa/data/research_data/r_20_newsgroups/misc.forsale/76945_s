@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text=" radius 24x accelerated graphics adaptor supports multiple resolutions and allows onthefly changing of resolution or bit depth msrp $1999 street price $1700 your price best offer over $800  scott 3039629473 x9779 " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/Radius" support="487" types="" surfaceForm="radius" offset="1" similarityScore="0.07802926748991013" percentageOfSecondRank="0.3511438223813799"/>
+<Resource URI="http://dbpedia.org/resource/Acceleration" support="417" types="Freebase:/measurement_unit/dimension,Freebase:/measurement_unit,Freebase:/measurement_unit/common_dimension" surfaceForm="accelerated" offset="12" similarityScore="0.06855817884206772" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/Graphics_processing_unit" support="387" types="" surfaceForm="graphics adaptor" offset="24" similarityScore="0.10346674919128418" percentageOfSecondRank="0.9172780266423333"/>
+<Resource URI="http://dbpedia.org/resource/Display_resolution" support="241" types="" surfaceForm="resolution" offset="103" similarityScore="0.13183589279651642" percentageOfSecondRank="0.5119846525917288"/>
+<Resource URI="http://dbpedia.org/resource/Price" support="282" types="Freebase:/media_common/quotation_subject,Freebase:/media_common,Freebase:/book/book_subject,Freebase:/book" surfaceForm="price" offset="145" similarityScore="0.07730650901794434" percentageOfSecondRank="0.38588403959789913"/>
+<Resource URI="http://dbpedia.org/resource/Price" support="282" types="Freebase:/media_common/quotation_subject,Freebase:/media_common,Freebase:/book/book_subject,Freebase:/book" surfaceForm="price" offset="162" similarityScore="0.07730650901794434" percentageOfSecondRank="0.38588403959789913"/>
+<Resource URI="http://dbpedia.org/resource/Offer_Nissim" support="52" types="Freebase:/internet/social_network_user,Freebase:/internet,Freebase:/people/person,Freebase:/people,Freebase:/music/group_member,Freebase:/music,Freebase:/music/artist" surfaceForm="offer" offset="173" similarityScore="0.07738649100065231" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/Robert_Falcon_Scott" support="408" types="DBpedia:Person,Schema:Person,Freebase:/royalty/chivalric_order_member,Freebase:/royalty,Freebase:/people/person,Freebase:/people,Freebase:/book/author,Freebase:/book,Freebase:/film/person_or_entity_appearing_in_film,Freebase:/film,Freebase:/people/deceased_person,Freebase:/book/book_subject" surfaceForm="scott" offset="190" similarityScore="0.050624996423721313" percentageOfSecondRank="0.9012838105531723"/>
+</Resources>
+</Annotation>

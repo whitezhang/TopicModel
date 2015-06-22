@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text=" lake statemaine in finalswho won   please post " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/National_Post" support="483" types="DBpedia:Newspaper,DBpedia:PeriodicalLiterature,DBpedia:WrittenWork,DBpedia:Work,Schema:CreativeWork,Freebase:/business/employer,Freebase:/business,Freebase:/book/newspaper,Freebase:/book,Freebase:/book/periodical" surfaceForm="post" offset="43" similarityScore="0.14507676661014557" percentageOfSecondRank="0.9236380638042337"/>
+</Resources>
+</Annotation>

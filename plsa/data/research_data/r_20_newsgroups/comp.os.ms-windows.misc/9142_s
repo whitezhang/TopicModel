@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text=" in article c51h9m46p@newscsouiucedu rhc52134@uxacsouiucedu richard writes | geoffrey s elbo writes |  | yes and it is the fastest defrag i've ever watched  it did a 170mb  | hard disk in 20 minutes |  | &#9;i found the ms defrag looks very much like norton speedisk | is it just a stripdown version of the later |  | &#9;i have both norton speedisk and backup so i was wondering  | if i need to install ms backup |  | richard |   yes defragger is come from norton if you have norton utility don't bother " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/Defragmentation" support="64" types="" surfaceForm="defrag" offset="131" similarityScore="0.09152162075042725" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/Hard_disk_drive" support="407" types="DBpedia:TopicalConcept" surfaceForm="hard disk" offset="175" similarityScore="0.09485866874456406" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/Defragmentation" support="64" types="" surfaceForm="defrag" offset="220" similarityScore="0.09152162075042725" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/Norton_Commander" support="58" types="DBpedia:Software,DBpedia:Work,Schema:CreativeWork,Freebase:/computer/software,Freebase:/computer" surfaceForm="norton" offset="248" similarityScore="0.09727689623832703" percentageOfSecondRank="0.4238175272535432"/>
+<Resource URI="http://dbpedia.org/resource/Norton_Commander" support="58" types="DBpedia:Software,DBpedia:Work,Schema:CreativeWork,Freebase:/computer/software,Freebase:/computer" surfaceForm="norton" offset="328" similarityScore="0.09727689623832703" percentageOfSecondRank="0.4238175272535432"/>
+<Resource URI="http://dbpedia.org/resource/Defragmentation" support="64" types="" surfaceForm="defragger" offset="429" similarityScore="0.09152162075042725" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/Norton_Commander" support="58" types="DBpedia:Software,DBpedia:Work,Schema:CreativeWork,Freebase:/computer/software,Freebase:/computer" surfaceForm="norton" offset="452" similarityScore="0.09727689623832703" percentageOfSecondRank="0.4238175272535432"/>
+<Resource URI="http://dbpedia.org/resource/Norton_Commander" support="58" types="DBpedia:Software,DBpedia:Work,Schema:CreativeWork,Freebase:/computer/software,Freebase:/computer" surfaceForm="norton" offset="471" similarityScore="0.09727689623832703" percentageOfSecondRank="0.4238175272535432"/>
+<Resource URI="http://dbpedia.org/resource/Utility_software" support="79" types="Freebase:/award/award_discipline,Freebase:/award,Freebase:/computer/software_genre,Freebase:/computer,DBpedia:TopicalConcept" surfaceForm="utility" offset="478" similarityScore="0.09649698436260223" percentageOfSecondRank="0.3467615908019438"/>
+</Resources>
+</Annotation>

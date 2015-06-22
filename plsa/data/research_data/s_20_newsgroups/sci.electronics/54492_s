@@ -1,0 +1,28 @@
+
+ in article <1993apr27.010612.17126@chpc.utexas.edu> michael@chpc.utexas.edu writes:
+ 
+ >
+ >does this imply the german tone dialing is compatible with the american
+ >one?  i know at least the british system is not -- it is supposedly close
+ >enough though that an american phone will work.  but my modem (american)
+ >has a special setting for british standards...
+ >
+ 
+ bzzzzzt! wrong answer.  the uk tone dialling is identical to the us system. 
+ the different settings on your modem are so that it uses ccitt v21 & v22 
+ tones for data transmission, rather than bell 103 & bell 121 tones, which are 
+ used only in the usa and canada afaik.  as most people now use at least 
+ v22bis, this is largely irrelevant.
+ 
+ tony
+ 
+ 
+ 
+ +---------------+------------------------------+-------------------------+
+ |tony kidson    | ** pgp 2.2 key by request ** |voice +44 81 466 5127    |
+ |morgan towers, |  the cat has had to move now |e-mail(in order)         |
+ |morgan road,   |  as i've had to take the top |tony@morgan.demon.co.uk  |
+ |bromley,       |  off of the machine.         |tny@cix.compulink.co.uk  |
+ |england br1 3qe|honda st1100 -=<*>=- dod# 0801|100024.301@compuserve.com|
+ +---------------+------------------------------+-------------------------+
+ 

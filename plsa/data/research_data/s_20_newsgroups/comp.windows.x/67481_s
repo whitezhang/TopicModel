@@ -1,0 +1,53 @@
+
+ in article <1roouu$gdj@tuegate.tue.nl> lennart@blade.stack.urc.tue.nl (lennart benschop) writes:
+ >
+ >i am looking for a  program to draw various kinds of diagrams on my linux
+ >system.
+ >
+ >- it must be free.
+ >- it must run on standard (monochrome) x with a small screen size (800x600)
+ >  no motif/openlook etc.
+ >- it must compile under linux with gcc/g++. most generic unix software
+ >  works ok.
+ >- it must produce postscript files that i can include into latex documents
+ >  with dvips. or just tell me another free program that converts one
+ >  of the supported formats to ps.
+ >- it must produce drawings that are larger than the window size (scrollable).
+ >
+ >i know of several such programs, idraw, xfig. tgif. i have
+ >no experience with any of them. features i would like in the programs are.
+ >
+ >- ability to draw circles, arcs, straight lines, boxes and arrows.
+ >- support for both dashed and solid line styles for all of these objects.
+ >- support for texts in any size.
+ >- ability to move/copy/resize/rotate any part of the drawing.
+ >- ability to turn any part of the drawing into a library component
+ >  (e.g. a transistor symbol composed of three lines, an arrow and a circle)
+ >- any aid (numeric coordinates, screen grid) to align parts of the drawing.
+ >- less essential, but in fact very handy: preservation of connection.
+ >  if i move one part of the drawing, the lines that connect that part to the
+ >  rest of the drawing, stay connected.
+ >
+ >ideally i want the tool so general and flexible that it is comfortable to
+ >draw electronic schematics, flow charts, logic diagrams, data flow diagrams
+ >and block diagrams with it. 
+ >
+ >i just want to know which of the programs offer which of the features on my
+ >whishlist and are there any other programs? how demanding are the programs
+ >with respect to disk space, memory and cpu usage? are any of the programs
+ >known to work on linux with monochrome x?
+ 
+ in the list you mentioned, tgif handles everything except rotation and
+ any size text.  it only supports 90 degrees rotation.  currently, it
+ supports 11 (x11r4 standard) font sizes.  however, it allows arbitrary
+ scaling of the entire drawing.  effectively, it allows any font sizes, but
+ you can only have 11 different sizes per drawing.
+ 
+ tgif takes up 850k (compiled with -o option) on a sparcstation.  i was told
+ that it compiles under linux, but i haven't tried it yet.  it works with
+ both color and monochrome x.
+ -- 
+ bill cheng // ucla computer science department // (310) 645-8328
+ 3564-c boelter hall // los angeles, california 90024 // usa
+ william@cs.ucla.edu      ...!{uunet|ucbvax}!cs.ucla.edu!william
+ 

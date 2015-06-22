@@ -1,0 +1,63 @@
+
+ 
+ in article <1993apr1.024850.20111@sradzy.uucp>, radzy@sradzy.uucp
+ (t.o. radzykewycz) writes:
+ 
+ > >>swaim@owlnet.rice.edu (michael parks swaim) writes:
+ > >>>  666, the file permission of the beast.
+ > 
+ > >radzy@sradzy.uucp (t.o. radzykewycz) writes:
+ > >> sorry, but the file permission of the beast is 600.
+ > >> 
+ > >> and the file permission of the home directory of the
+ > >> beast is 700.
+ > 
+ > boylan@sltg04.ljo.dec.com (steve boylan) writes:
+ > >hey, radzy, it must depend on your system's access policy.
+ > >i get:
+ > >	$ ls -lg /usr/users
+ > >	total 3
+ > >	drwxrwxrwx 22 beast    system       1536 jan 01  1970 beast
+ > >	drwxr-x--x 32 boylan   users        2048 mar 31 09:08 boylan
+ > >	drwxr-xr-x  2 guest    users         512 sep 18  1992 guest
+ > >	$ su
+ > >	password:
+ > >	root $ su beast
+ > >	beast $ umask
+ > >	111
+ > >	beast $ ^d
+ > >	root $ ^d
+ > >	$ 
+ > 
+ > just a minute....
+ > 
+ > 	$ grep beast /etc/passwd
+ > 	beast:k5tuk76rauogq:497:0:not walt disney!:/usr/users/beast:
+ > 	$ mv /usr/users/beast/.profile /usr/users/beast/.profile,
+ > 	$ echo umask 077 >> /usr/users/beast/.profile
+ > 	$ cat > /usr/users/beast/.profile
+ > 	chmod 700 /usr/users/beast
+ > 	mv .mailrc .mailrc,
+ > 	echo beast logged in | mail radzy%sradzy@jack.sns.com
+ > 	mv .mailrc, .mailrc
+ > 	mv /usr/users/beast/.profile, /usr/users/beast/.profile
+ > 	^d
+ > 	$ chmod 777 /usr/users/beast/.profile
+ > 	$ cat /usr/users/beast/.profile, >> /usr/users/beast/.profile
+ > 
+ > <waits a while, finally gets mail.>
+ > 
+ > i think you made a mistake.  check it again.
+ > 
+ 
+ i see . . . you're not running ultrix!
+ 
+ 	:-)
+ 
+ 				- - steve
+ 
+ 
+ --
+ don't miss the 49th new england folk festival,
+ april 23-25, 1993 in natick, massachusetts!
+ 

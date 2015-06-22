@@ -1,0 +1,33 @@
+
+ in article <sehari.735962071@du139-201.cc.iastate.edu> sehari@iastate.edu (babak sehari) writes:
+ >from: sehari@iastate.edu (babak sehari)
+ >subject: how to make the disks copy protected (continued)
+ >date: wed, 28 apr 1993 01:54:31 gmt
+ >---
+ >
+ >the discussion under the old topic went in the wrong direction.  some people,
+ >instead of discussing the issue itself, they decided to discuss the
+ >non-technical part of the issue.  so, here i go with my limited knowledge
+ >about this issue.  hoping you guys cut the crap and talk about the real
+ >technical ways to do this.  the methods that i am aware that are effective
+ >are:
+ >
+ >1- laser hole burning.  this would leave the disk damaged, so if you format
+ >   that particular sector of the disk you can not write to it.  it is very 
+                                            ^^^^^^^^^^^^^^^^^^^
+ laser holes are (or were) used to prevent someone from making exact copies 
+ of a disk. you do not want to write to the damaged disk, only read and use 
+ the programs.
+ 
+ >   hard for crackers to damage the disk exactly the same way.
+ >
+ 
+ i remember a program called copywrite that could copy a disk with a laser 
+ hole in it. i think it simulates the laser hole. after copying the disk the 
+ program is, if necessary, used in conjunction with a program called nokey or 
+ something. (the program tells you which program to use)
+ 
+ no solution.
+ 
+ - gerrit
+ 

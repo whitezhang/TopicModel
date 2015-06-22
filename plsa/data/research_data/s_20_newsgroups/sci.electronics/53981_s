@@ -1,0 +1,23 @@
+
+ andy collins (acollins@uclink.berkeley.edu) wrote:
+ : one not-so-quick question to throw out there for you guys...
+ 
+ : for our class project, we need to design and build a power supply
+ : to the following specs:
+ 
+ : voltatge:  adjustable from 1-12v
+ : current:   *limited* at 1a
+ 
+ : voltage must stay within 2% of designated value for i from 0-1a
+ : ac ripple less than 5 mv (rms)
+ 
+ to decide which kind of circuit you must know the initialprecission of
+ the limiter-current and the allowed temp-drift.
+ 
+ in the first case, you can use a ube of a transistor as a voltage-reference
+ of about 0.7 vdc with a temp-drift of 2mv/k. in the second case its better
+ you use a bandgap-ref and a opamp-circuit to detect the maximum-current.
+ the output of this opamp controlls the outputstage to limit the current.
+ 
+ bye thomas
+ 

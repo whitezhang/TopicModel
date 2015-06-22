@@ -1,0 +1,86 @@
+
+ well, here are the results of the mathematica test which i posted to
+ this newsgroup.  the "test" was the following command:
+ 
+ >plot3d[((-2*9000)/(2*3.1416*((x-5000)^2+(y-8000)^2+
+ >81000000)^1.5))+((-3*9000)/(2*3.1416*((x-10000)^2+
+ >(y-1000)^2+81000000)^1.5))+((4*2000)/(2*3.1416*
+ >((x-7000)^2+(y-10000)^2+4000000)^1.5)),
+ >{x,-5500,19500},{y,-5500,19500},plotpoints->50]
+ 
+ 
+ i was just curious how fast the plot command would be executed on
+ various macintosh machines as well as other personal computers and
+ workstations.  the results are posted below:
+ 
+ machine		system		math vers.	# of trials	time, min
+ 
+ pb 170		7.0.0 with	2.1		2		2:08
+ 		tuneup/8mb
+ 		ram/5mb for
+ 		mathematica
+ 
+ dec 5000	ultrix v4.2a	2.1 for		1		0:25
+ 		dec risc	
+ 					
+ iisi		7.1/cache@96mb	1.2f33enh.	1		4:30
+ 		25mhz/5mb ram/
+ 		3mb for math./
+ 		w/ 68882
+ 
+ c650		7.1/8mb ram			2		0:32
+ 
+ q800		8mb/cache@384/	1.2				1:01
+ 		4mb for math.	
+ 
+ sparc		sunos4.1.3					0:14
+ station		40mb ram
+ 
+ sgi iris/4d	r3000 risc					<0:01
+ 		processor
+ 		version
+ 
+ sparc		sunos4.1.2	2.1 				0:26
+ station2
+ 
+ iisi		7.1						3:15
+ 
+ next		nextstep 2.1	1.2				2:38
+ cube		68030 based/
+ 		w/ coprocessor	
+ 
+ next		nextstep 3.0	1.2		5(ave)		0:52
+ cube		68040/25mhz/
+ 		20 mb ram
+ 
+ iisi		17mb/8mb for	2.102 enha			3:15
+ 		math.			
+ 		w/ 68882
+ 
+ next		16mb ram/			1 		0:37
+ 		25 mhz 040/
+ 		workspace
+ 		manager 2.1
+ 
+ funny how the iisi running at 25 mhz is slower than other equivalent
+ machines, lots slower in fact.  perhaps the version of mathematica
+ makes a difference or the fact that not much ram was allocated.
+ another interesting thing is how fast the sgi did it.  wow. 
+ 
+ basically, though, i wouldn't draw any conclusions from this data.  it
+ seems that mathematica's speed is dependant on a lot of variables.  i
+ was just curious how different machines would measure up.  
+ 
+ well, if you have any questions or if i forgot something, just drop me
+ a line at "cmmiller@iastate.edu".  
+ 
+ chad
+ 
+ ps  if the spacing of the above table doesn't come out right on your
+ machine, tell me and i'll mail you a copy of this in a binhexed word
+ 5.1 document.  
+ 
+ 
+ 
+ 
+ 

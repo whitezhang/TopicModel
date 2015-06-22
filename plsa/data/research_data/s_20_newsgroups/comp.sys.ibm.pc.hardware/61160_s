@@ -1,0 +1,13 @@
+
+ arnolm2@aix.rpi.edu (matthew richard arnold) writes:
+ >chip in the future.  i must be missing something, since everyone is 
+ >buying the dx2 66...  many adds don't even mention the dx 50.
+ 
+ the 50 mhz external bus speed provides a hell for cache designs. most
+ of the dx-50 boards have too slow caches that make them effectively
+ dx2-50:s. also as someone else pointed out, local bus boards are
+ better off at 33 mhz bus speed. the 8k internal cache allows the
+ dx2-66 to be generally faster anyway.
+ --
+ segmented memory helps structure software
+ 

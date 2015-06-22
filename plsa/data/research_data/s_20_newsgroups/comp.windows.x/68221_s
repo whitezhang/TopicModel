@@ -1,0 +1,26 @@
+
+ i've built xcoral on my system (sunos 4.1.3, x11r5, motif 1.2, ow 3.0)
+ and it builds fine, but when i run it, any child windows that xcoral
+ opens,
+ 1) locks the mouse into the window area
+ 2) doesn't accept any input from the mouse.
+ 
+ needless to say, this is a pain in the ass, as i have to go find an
+ empty terminal to login and kill xcoral.
+ 
+ is this a problem with openwindows or motif?  is there a patch?
+ ---
+ #######################################################################
+ # bob campbell                 #  "crayons can take you where no      #
+ # system manager               #   starship can go."                  #
+ # hao, ncar                    #                    -guinan           #
+ # rsc@hao.ucar.edu             #                     sttng            # 
+ #######################################################################
+ disclaimer: my views are in no way connected to my employer.
+ 
+ "a closed mouth gathers no feet."      - unknown
+ "it only requires a little thought and a little work."     - don hicks
+                                                        managing editor
+                                                      amazing computing
+ 
+ 

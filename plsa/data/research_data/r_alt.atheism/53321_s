@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Annotation text=" in article &lt;16bb6b6fe.i3150101@dbstu1.rz.tu-bs.de&gt; i3150101@dbstu1.rz.tu-bs.de (benedikt rosenau) writes:  ssauyet@eagle.wesleyan.edu (scott d. sauyet) writes:  &gt;okay, how about &gt;                  scott &quot;can anybody hear me?&quot; sauyet &gt;                       ssauyet@eagel.wesleyan.edu   &#9;could you speak up? i can't hear you....    -------------------------------------------------------------------------------- &#9;&#9; &#9;&#9;&quot;my sole intention was learning to fly.&quot; " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
-<Resources>
-<Resource URI="http://dbpedia.org/resource/Hearing_%28sense%29" support="286" types="Freebase:/visual_art/art_subject,Freebase:/visual_art,Freebase:/book/book_subject,Freebase:/book,DBpedia:TopicalConcept" surfaceForm="hear" offset="217" similarityScore="0.06258713454008102" percentageOfSecondRank="-1.0"/>
-<Resource URI="http://dbpedia.org/resource/Sole_%28artist%29" support="80" types="DBpedia:MusicalArtist,DBpedia:Artist,DBpedia:Person,Schema:Person,Schema:MusicGroup,Freebase:/music/artist,Freebase:/music,Freebase:/people/person,Freebase:/people,Freebase:/music/group_member" surfaceForm="sole" offset="422" similarityScore="0.0550457164645195" percentageOfSecondRank="0.3322963407019737"/>
-<Resource URI="http://dbpedia.org/resource/Intention" support="68" types="Freebase:/media_common/quotation_subject,Freebase:/media_common,DBpedia:TopicalConcept" surfaceForm="intention" offset="427" similarityScore="0.07693684101104736" percentageOfSecondRank="-1.0"/>
-</Resources>
-</Annotation>

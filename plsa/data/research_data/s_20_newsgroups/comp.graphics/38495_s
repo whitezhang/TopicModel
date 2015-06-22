@@ -1,0 +1,21 @@
+
+ i would like to program tseng et4000 to nonstandard 1024x768 mode by
+ switching to standard 1024x768 mode using bios and than changing some
+ timing details (0x3d4 registers 0x00-0x1f) but i don't know how to
+ select 36 mhz pixel clock i need. the bios function selects 40 mhz.
+ 
+ is there anybody who knows where to obtain technical info about this.
+ i am also interested in any other technical information about tseng et4000
+ and trident 8900 and 9000 chipsets.
+ 
+ 			thanks very much
+ 
+ 						pavel zemcik
+ 						dept. of comp. sci. & eng.
+ 						technical university of brno
+ 						bozetechova 2
+ 				      cs-612 66 brno
+ 						czech republic
+ 						e-mail: zemcik@dcse.fee.vutbr.cs
+ 
+ 

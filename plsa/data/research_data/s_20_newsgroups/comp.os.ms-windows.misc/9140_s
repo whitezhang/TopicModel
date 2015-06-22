@@ -1,0 +1,20 @@
+
+ jorge@erex.east.sun.com (jorge lach - sun bos hardware) writes:
+ > is there any ftp site that carries winbench results for different graphics
+ > cards? in excel (xls) format? what is the latest version of winbench and
+ > how do they differ? is the source available, and has anybody try to port it to
+ > x-window, at least in a way that will make comparisons possible?
+ > 
+ on ftp.cica.indiana.edu in pub/pc/win3/misc/winadv.zip is a writeup by
+ steve gibson of infoworld with winbench 3.11 and a number of other 
+ benchmark results for nine isa and four vlb video cards.  this is a 
+ very current upload and is likely to have any card you're currently 
+ giving serious consideration.  not in xls format.  latest version of
+ winbench that i know of is ver 3.11.  i believe they try to maintain
+ the same rating scale between versions, and new versions are released
+ to defeat the lastest coding tricks put in by driver programmers to
+ beat the benchmarks.  don't know on the last one.
+ -- 
+ al devilbiss
+ al@col.hp.com
+ 

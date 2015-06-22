@@ -1,0 +1,42 @@
+
+ ---
+ hello!
+ 
+ we want to configure our x11r5 sytem (i486 33mhz running bsd-like unix)
+ comming up with a chooser menu with different machines on it (works) an then
+ connect to them. but the only connection works is localhost!
+ an 'x -indirect <machine>' works very well!
+ the configuration:
+ 
+ 		- starting the 'xdm' at boot time with no servers specified
+ 		   in xservers
+ 		- starting the x-server at boot time with x -indirect localhost
+ 
+ 	     ---> the chooser menu appears with the machines named in
+ 		  xacces bye
+ 			'*	chooser <machine1> <machine2> ... broadcast	
+ 		- the number of users on this machines and the load is 
+ 		    displayed correct
+ 
+ 		- selecting an other machine than my own host the x-server
+ 		   starts and nothing happens, after a time out the chooser menu
+ 		   appears again.
+ 
+ i know the xdm bug in x11r4, but all machines running x11r5
+ 
+ please help
+ 			lars
+ 
+ 
+ -------------------------------------------------------------------------------
+ 
+ lars koeller			    e-mail: uphya001@odie.uni-bielefeld.de
+ universitaet bielefeld (germany)	    uphya001@dave.hrz.uni-bielefeld.de
+ fakultaet fuer physik / d0-231	    phone:  +49 521-106-5375
+ universitaetsstr. 25		    fax:    +49 521-106-5244
+ 4800 bielefeld 1		    telex:  932 362
+ 
+ 
+ 
+ 
+ 

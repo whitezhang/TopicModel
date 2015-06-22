@@ -1,0 +1,60 @@
+
+ in <sehari.734022369@vincent2.iastate.edu> sehari@iastate.edu (babak sehari) writes:
+ 
+ >---
+ 
+ >with my limited knowladge about the pc geos, i came out with following 
+ >comparison:
+ 
+ >                 pc geos      windows       os/2    unix/x11
+ >                ________      _______       ____    _______
+ 
+ >2. can run win
+ >   programs        nop           yap         yap     nop
+                                                        ^
+                                                       novell is at least
+                                                       demoing windows apps
+                                                       running under unixware.
+ 
+ 
+ >5. can run unix    nop        i have not     nop     yap
+ >                              heard of it
+                                    ^           ^
+                                 try mks.     mks &
+                                            others, esp.
+                                               emx
+ 
+ note here: the mks toolkit (for dos/windows & os/2) gives you a good
+ suite of standard unix utilities.  there are other similar systems from
+ other vendors as well.  the emx system for os/2 gives you most of the
+ standard unix system calls for recompiling your unix programs under
+ os/2.  not quite the same thing as actually running unix programs
+ directly in either case, but emx makes os/2 almost as compatible with
+ unix systems as many unix systems are with each other.  and, best of
+ all, emx is free.  :-)
+ 
+ there is a similar system (go32) for dos, but it doesn't work with
+ windows, as far as i know.
+ 
+ >7. price          $120          $70         $120     free-$1000s
+ >                                                     a good one
+ >                                                     costs $400-$700 
+ >                                                     avaliable on ext.
+ >                                                     card too.
+ 
+ should add in the cost for dos with both geos and windows, neither of
+ which is a standalone os at this point.  neither os/2 nor unix requires
+ dos.
+ 
+ btw, two of the best unices i've seen for the pee cee are unixware ($300
+ for the personal edition) and linux (free).  so i don't agree that "a
+ good one costs $400-$700."  :-)
+ 
+ and, if you really want to check out the various options available to
+ you, you should also look into desqview and desqview/x.
+ 
+ cheers
+ -- 
+ chris waters    | the insane don't |"judy's in the bedroom,
+ xtifr@netcom.com| need disclaimers | inventing situations."  -d. byrne
+ 
