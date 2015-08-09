@@ -1,7 +1,0 @@
-
- the 486 at the same clock is not as fast as the 040 at the same
- clock speed.  the '040 also has much better floating point unit.
- now the dx2-66 is faster than the '040 at 33mhz.  but for your
- reference the 486 at 33 mhz gets ~14mips while the '040 at
- 33mhz gets ~20mips.
- 

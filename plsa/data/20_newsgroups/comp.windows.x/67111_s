@@ -1,9 +1,0 @@
-
- i have a question regarding the processing of program arguments
- such as the -geometry option. since this is a standard x option, 
- i'm wondering wether i have to parse it manually or whether there
- is some predefined function that will do this for me?
- 
- thanks for any info
- --> robret
- 

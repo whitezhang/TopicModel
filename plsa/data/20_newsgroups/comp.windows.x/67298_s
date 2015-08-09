@@ -1,7 +1,0 @@
-  <1993apr21.111919.5281@alf.uib.no> <drand.93apr21114830@spinner.osf.org>
- lines: 3
- 
- you can also set the foreground to the xor of the foreground and background
- colors:  xsetforeground(..., fg ^ bg);    this works great for me (at least
- with truecolor visuals).
- 

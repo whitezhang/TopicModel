@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text="Xref cantaloupesrvcscmuedu complangc68061 complangc++40738 compgraphics37928Newsgroups complangccomplangc++compgraphicsPath cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomemoryswrindesddhpcomux1csouiucedunewscsouiucedueehp22hl7204From hl7204@eehp22 H LSubject Re Graphics Library PackageDate Tue 6 Apr 1993 070517 GMTMessageID C51votC5D@newscsouiuceduReferences 1993Apr60512019535@ncsueduSender usenet@newscsouiucedu Net Noise ownerOrganization University of Illinois at UrbanaLines 2  " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/University_of_Illinois_at_Chicago" support="537" types="DBpedia:University,DBpedia:EducationalInstitution,DBpedia:Organisation,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,Freebase:/organization/endowed_organization,Freebase:/organization,Freebase:/education/educational_institution,Freebase:/education,Freebase:/organization/organization,Freebase:/education/university,Freebase:/location/location,Freebase:/location,Freebase:/business/employer,Freebase:/business" surfaceForm="University of Illinois" offset="469" similarityScore="0.058639369904994965" percentageOfSecondRank="0.9492881785688556"/>
+</Resources>
+</Annotation>

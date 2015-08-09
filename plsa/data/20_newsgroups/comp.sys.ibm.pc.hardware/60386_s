@@ -1,7 +1,0 @@
-
- in evolution of 80-x86 data path width has been doubled from 
- 8 to 16 t0 32 bits but the speed of data processing has not increased at
- same rate.the question is why? what is relationship bettween data path width and data processing speed?
- thanks in advance for the input.
- robert. 
- 

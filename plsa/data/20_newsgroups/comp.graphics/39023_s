@@ -1,8 +1,0 @@
-
- krzysztof muchorowski was asking about gif-to-tga conversion so that he
- could use dta 1.5 to convert the tga files to fli animation files.
- 
- krzysztof, update your copy of dta to a more recent release (the current
- is 1.8g).  later versions of dta can read gif files.
- --dkm
- 

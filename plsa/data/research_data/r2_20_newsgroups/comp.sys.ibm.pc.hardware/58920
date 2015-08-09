@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text="Path cantaloupesrvcscmuedudasnewsharvardeduogicseuwmedulinacuchinewsfpmmac1uchicagoeduuserFrom aaron_bratcher@fpmuchicagoedu Aaron L BratcherNewsgroups compsysibmpchardwareSubject Appletalk hookupMessageID aaron_bratcher060493075518@fpmmac1uchicagoeduDate 6 Apr 93 125656 GMTArticleID fpmmacaaron_bratcher060493075518Sender news@uchinewsuchicagoedu News SystemFollowupTo compsysibmpchardwareOrganization University of ChicagoLines 3What ways are there to hook up to an appletalk network to use an AppleLaserWriter  Is there a way I can use an AppleShare File Server also  Theless memory used the better Thanks Any help greatly appreciated" confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/Path_%28computing%29" support="69" types="" surfaceForm="Path" offset="0" similarityScore="0.05481142923235893" percentageOfSecondRank="0.37331679005930063"/>
+<Resource URI="http://dbpedia.org/resource/AppleTalk" support="110" types="Freebase:/internet/protocol,Freebase:/internet" surfaceForm="Appletalk" offset="180" similarityScore="0.06324948370456696" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/AppleTalk" support="110" types="Freebase:/internet/protocol,Freebase:/internet" surfaceForm="appletalk" offset="469" similarityScore="0.06324948370456696" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/File_server" support="92" types="" surfaceForm="File Server" offset="554" similarityScore="0.07605233043432236" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/Computer_memory" support="207" types="DBpedia:TopicalConcept" surfaceForm="memory" offset="580" similarityScore="0.04836064577102661" percentageOfSecondRank="0.6203123286050407"/>
+</Resources>
+</Annotation>

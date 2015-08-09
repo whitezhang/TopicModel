@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text="Path cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomhowlandrestonansnetuscelroyjplnasagovdecwrlcsuseduniccsunetkokocsustanedumrosalesNewsgroups recsportbaseballSubject Giants Win The PennantMessageID 1993Apr518030014320@kokocsustaneduFrom mrosales@kokocsustanedu Maria RosalesDate Mon 5 Apr 93 180300 GMTDistribution usaOrganization CSU StanislausLines 4Giants Win the Pennant  Giants Win the Pennant  Gi OOOPSI guess I'm a little early hereSee you in October" confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/Pennant_%28sports%29" support="296" types="" surfaceForm="Pennant" offset="393" similarityScore="0.09489206224679947" percentageOfSecondRank="0.3808946265513952"/>
+<Resource URI="http://dbpedia.org/resource/Early_Wynn" support="109" types="DBpedia:BaseballPlayer,DBpedia:Athlete,DBpedia:Person,Schema:Person,Freebase:/people/measured_person,Freebase:/people,Freebase:/people/deceased_person,Freebase:/people/person,Freebase:/award/hall_of_fame_inductee,Freebase:/award,Freebase:/baseball/baseball_player,Freebase:/baseball,Freebase:/sports/pro_athlete,Freebase:/sports" surfaceForm="early" offset="455" similarityScore="0.074805349111557" percentageOfSecondRank="0.2136537763575322"/>
+</Resources>
+</Annotation>

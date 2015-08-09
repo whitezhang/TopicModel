@@ -1,6 +1,0 @@
-
- 
- i had a similar problem - try changing the netmask to 0.0.0.0 or 255.255.254.0
- 
- tommy.
- 

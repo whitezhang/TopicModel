@@ -1,9 +1,0 @@
-
- in the past, i have used named pipes to communicate between processes using
- the xtaddinput function to set up the event handling in motif. does anybody
- know of a way to do this with message passing ( ipc ) ? i tried it here and
- no luck so far.
- 
- thanks
- 
- 

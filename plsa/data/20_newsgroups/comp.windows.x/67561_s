@@ -1,8 +1,0 @@
-
- i've installed many x apps, and have that many of them imakefiles that have
- lines startingwith xcomm in them. when i do a xmkmf to create the makefile,
- the makefile also has the xcomm (comment?) lines in them. i always have
- to edit out these lines because the make command barfs on them. i was
- wondering what these lines were for, and what i might be doing wrong that
- causes the make command to dislike them. thanks!
- 

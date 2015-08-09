@@ -13,6 +13,7 @@ import sys
 import os
 import operator
 import math
+import urllib
 
 '''
 Common Section
@@ -22,7 +23,7 @@ def readFiles(document_path, mode):
 	for root, dirs, files in os.walk(document_path):
 		for name in files:
 			# This is for break point
-			# if name == '82766_s':
+			# if name == '82777':
 			# 	flag = 1
 			# if 0 == flag:
 			# 	continue
@@ -40,7 +41,7 @@ def readFiles(document_path, mode):
 				curlDBPedia(root.replace("s_", "r_"), name, text_content)
 			# Parse the xml
 			elif 2 == mode:
-				XMLParser(file_name)
+				XMLParserEG(file_name)
 
 def write_response(file_path, file_name, text):
 	if not os.path.exists(file_path):
@@ -48,6 +49,7 @@ def write_response(file_path, file_name, text):
 	file_name = file_path+"/"+file_name
 	print "Writing...", file_name
 	output = open(file_name, "w")
+	# output.write(text.encode("utf-8"))
 	output.write(text)
 	output.close()
 
@@ -67,8 +69,12 @@ def curlDBPedia(file_path, file_name, text_content):
 	text_content = process_text(text_content)
 	
 	payload = {"text": text_content, "confidence": "0.2", "support": "20"}
-	r = requests.get(DB_url, payload)
-	write_response(file_path, file_name, r.text)
+	params = urllib.urlencode(payload)
+	res = urllib.urlopen(DB_url, params).read()
+	write_response(file_path, file_name, res)
+
+	# r = requests.get(DB_url, payload)
+	# write_response(file_path, file_name, r.text)
 
 '''
 Section 2
@@ -88,7 +94,7 @@ def getProbE(entityURI):
 			if entityURI in info[0]:
 				prob1 += 1
 				if info[2] in probDict2:
-					probDict2[info[2]] += 1	
+					probDict2[info[2]] += 1
 				else:
 					probDict2[info[2]] = 1
 	f.close()
@@ -176,6 +182,75 @@ def XMLParser(xml_file_name):
 		output_file.write("\n")
 	output_file.close()
 
+# EG approach
+def XMLParserEG(xml_file_name):
+# xml_file_name = '../data/research_data/r_20_newsgroups/xxx/name' This is xml_Resource file
+	eg_file_path = "entity_prob.txt"
+	resource_file_path = '../data/research_data/r_20_newsgroups/'
+# Data Setting
+	eg_prob_list = open(eg_file_path).readlines()
+	eg_prob_dict = {}
+	# Processing
+	for line in eg_prob_list:
+		info = line.split("-->")
+		if len(info[0]) == 0 or len(info[1]) == 0 or len(info) < 2:
+			continue
+		eg_prob_dict[info[0]] = int(info[1])
+
+	file_path_list = open("../file-path.txt", "r").readlines()
+	p_z_d_list = open("../model/p_z_d.txt", "r").readlines()
+	output_file = open("new_topic.txt", "a")
+	output_file.write(xml_file_name+" ")
+	p_d_e_dict = {}
+	# Main Setcion
+	print "Now xml file is", xml_file_name
+	tree = ET.parse(xml_file_name)
+	root = tree.getroot()
+	for resource in root:
+		for child_resource in resource:
+			attrib = child_resource.attrib
+			entityURI = attrib['URI']
+			# Get p(ej|e), (1) or (2)
+			# prob = getProbE(entityURI)
+			# prob = getProbE2(entityURI)
+			# p_Ej_E = prob[1] if prob[1] != -1 else 1
+			# Compute p(di|ej)
+			if not entityURI in p_d_e_dict:
+				p_d_e_dict[entityURI] = getProbD_E(resource_file_path, entityURI)
+		# Convergent procedure
+		file_index = file_path_list.index(xml_file_name[1:].replace("r_", "s_")+"\n")
+		# file_index = file_path_list.index(xml_file_name[1:].replace("r_20_newsgroups", "s_20_newsgroups")+"\n")
+
+# Doc #2: 0.0394462383593 0.152423279112 0.0281086723938 0.0732624674083 0.0638212706
+#  0.120287585089 0.00898699441055 0.0056926216879 0.00658182367856 0.0197639962998 
+#  0.0737626612581 0.00718354943866 0.0964698172343 0.00248216013013 0.0383827150555 
+#  0.0679034859763 0.0521520271707 0.0429636119073 0.0392873982509 0.0610376245382
+
+		lamb = 0.8
+		p_z_d = p_z_d_list[file_index].split(" ")
+		# each topic
+		for i in range(2,len(p_z_d)):
+			sum_prob = 0
+			# Use log
+			if float(p_z_d[i]) == 0:
+				continue
+			print p_z_d[i]
+			p_z_d[i] = math.log(float(p_z_d[i]))
+			# iteration
+			for iteration in range(100):
+				# each entity
+				for key in p_d_e_dict:
+					if p_d_e_dict[key] == 0:
+						continue
+					sum_prob += p_z_d[i] - math.log(float(p_d_e_dict[key]))
+					if key in eg_prob_dict:
+						p_ej_e = eg_prob_dict[key]
+						sum_prob -= math.log(p_ej_e)
+				p_z_d[i] = lamb*p_z_d[i]+(1-lamb)*sum_prob
+			output_file.write(str(p_z_d[i])+" ")
+		output_file.write("\n")
+	output_file.close()
+
 
 def main(argv):
 	if len(argv) < 2:
@@ -184,7 +259,10 @@ def main(argv):
 		print "\t2. parse the xml"
 		return
 	if argv[1] == '1':
-		document_path = "../data/research_data/s_20_newsgroups/"
+		# document_path = "../data/research_data/s1_20_newsgroups/"
+		# document_path = "/Users/wyatt/Documents/Code/Gla/Final/DB/gms/s_month-4/"
+		document_path = "/Users/wyatt/Documents/Code/Gla/Final/Sources/plsa/data/s_exp20/"
+		# document_path = "../data/s_Test/"
 		readFiles(document_path, 1)
 	elif argv[1] == '2':
 		document_path = "../data/research_data/r_20_newsgroups/"

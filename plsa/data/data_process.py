@@ -29,11 +29,11 @@ def extract_content(file_name):
 		output_file.close()
 
 def del_file_s(file_name):
-	if not "_s" in file_name:
+	if "_s" in file_name:
 		os.remove(file_name)
 
 def traverse_folder():
-	for root, dirs, files in os.walk("/Users/wyatt/Documents/Code/Gla/Final/Sources/plsa/data/research_data/s_20_newsgroups/"):
+	for root, dirs, files in os.walk("/Users/wyatt/Documents/Code/Gla/Final/Sources/plsa/data/20_newsgroups/"):
 		for name in files:
 			file_name = root + "/" + name
 			# Extract content and write into "*_s" file

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text="Newsgroups scispacePath cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomnewsansnetmalgudioarnetzaphodmpsohiostateeduwupostuhogmiteduxnllmitedullmitedushreadFrom shread@llmitedu  Peter ShreadSubject El SetsMessageID 1993Apr514543010828@llmiteduSender news@llmiteduOrganization MIT Lincoln LaboratoryDistribution usDate Mon 5 Apr 93 145430 GMTLines 5I am looking for a source of orbital element setsother than UAFSpace Command  I believe there isone on CompuServe  Please let me know what otherpossible sources there are and how I can reach them  Thanks much" confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/Orbital_elements" support="92" types="" surfaceForm="orbital element" offset="400" similarityScore="0.05787942558526993" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/CompuServe" support="188" types="DBpedia:Company,DBpedia:Organisation,Schema:Organization,Freebase:/computer/software_developer,Freebase:/computer,Freebase:/business/employer,Freebase:/business,Freebase:/business/business_operation,Freebase:/organization/organization,Freebase:/organization,DBpedia:TopicalConcept" surfaceForm="CompuServe" offset="474" similarityScore="0.04704326391220093" percentageOfSecondRank="-1.0"/>
+</Resources>
+</Annotation>

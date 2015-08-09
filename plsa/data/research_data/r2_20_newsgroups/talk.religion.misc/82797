@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text="Path cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomhowlandrestonansnetnewsserverjvncnetnetnewsupennedudsincubacsubuffaloeduubvmsbccbuffaloedupsyrobtwFrom psyrobtw@ubvmsbccbuffaloedu Robert WeissNewsgroups talkreligionmiscSubject 6 Apr 93   God's Promise in John 1624MessageID C51rwJA6K@acsubuffaloeduDate 6 Apr 93 054500 GMTSender nntp@acsubuffaloeduOrganization University at BuffaloLines 8NewsSoftware VAXVMS VNEWS 141NntpPostingHost ubvmsbccbuffaloedu&#9;Hitherto have ye asked nothing&#9;in my name&#9;ask and ye shall receive&#9;that your joy may be full&#9;John 1624" confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/God" support="5592" types="Freebase:/film/film_character,Freebase:/film,Freebase:/tv/tv_character,Freebase:/tv,Freebase:/fictional_universe/fictional_character,Freebase:/fictional_universe,Freebase:/fictional_universe/character_species,Freebase:/fictional_universe/person_in_fiction,Freebase:/religion/deity,Freebase:/religion,Freebase:/book/book_subject,Freebase:/book,Freebase:/book/book_character" surfaceForm="God's" offset="265" similarityScore="0.057559188455343246" percentageOfSecondRank="-1.0"/>
+<Resource URI="http://dbpedia.org/resource/The_Promise_%28Girls_Aloud_song%29" support="71" types="DBpedia:Single,Freebase:/music/composition,Freebase:/music" surfaceForm="Promise" offset="271" similarityScore="0.06988462805747986" percentageOfSecondRank="-1.0"/>
+</Resources>
+</Annotation>

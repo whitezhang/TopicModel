@@ -1,8 +1,0 @@
-
- build 59 causes 2 exceptions when i exit windows. in fact, i have had
- this happen on all builds after 44, which shipped with my gateway
- system.  am i doing something wrong, or is this problem commonly
- overlooked?
- 
- bob hofkin
- 

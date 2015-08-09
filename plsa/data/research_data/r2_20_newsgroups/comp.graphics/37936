@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Annotation text="Newsgroups compgraphicsPath cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomhowlandrestonansnetwupostuunetthinkcomcassma02bullcomplutouk03bullcoukscroweFrom scrowe@hemelbullcouk Simon CroweSubject BGI Drivers for SVGAMessageID 1993Apr611302912001@uk03bullcoukSummary Ftp site for SVGA DriverKeywords BGI SVGASender @uk03bullcoukNntpPostingHost bogartOrganization Bull HN UKDate Tue 6 Apr 93 113029 GMTLines 11I require BGI drivers for Super VGA Displays and Super XVGA Displays Does anyone know where I could obtain the relevant drivers  FTP sites &#9;Regards&#9;&#9;Simon Crowe" confidence="0.2" support="20" types="" sparql="" policy="whitelist">
+<Resources>
+<Resource URI="http://dbpedia.org/resource/Video_Graphics_Array" support="186" types="" surfaceForm="VGA" offset="464" similarityScore="0.05112997442483902" percentageOfSecondRank="0.2016506366657637"/>
+</Resources>
+</Annotation>

@@ -74,8 +74,8 @@ class Document(object):
 		for punc in Document.PUNCTUATION + Document.CARRIAGE_RETURNS:
 			word = word.replace(punc, '').strip("'")
 			# stemmer: dogs -> dog ; created -> creat
-			ps = stemmer.PorterStemmer()
-			word = ps.stem(word, 0, len(word)-1)
+			# ps = stemmer.PorterStemmer()
+			# word = ps.stem(word, 0, len(word)-1)
 		return word if re.match(Document.WORD_REGEX, word) else None
 
 #D
@@ -158,8 +158,12 @@ class Plsa(object):
 		f = open(filename, "w")
 		for di in range(self.n_d):
 			f.write("Doc #" + str(di) +":")
+			# sum_zi = sum(self.p_z_d[di])
+			# print sum_zi
 			for zi in range(self.n_t):
+				# print self.p_z_d[di, zi]
 				f.write(" "+str(self.p_z_d[di, zi]))
+				# f.write(" "+str(self.p_z_d[di, zi]/sum_zi))
 			f.write("\n")
 		f.close()
 
@@ -234,10 +238,11 @@ class Plsa(object):
 					sum1 = 1
 				for wi in range(self.n_w):
 					self.p_w_z[zi, wi] = sum2[wi] / sum1
-		# Write into the file
-		self.print_p_z_d()
-		self.print_p_w_z()
-		self.print_top_words(10)
+			print "Write into the file"
+			self.print_p_z_d()
+			self.print_p_w_z()
+			self.print_top_words(10)
+			print "Have Written..."
 
 def main(argv):
 	print "Usage: python ./plsa.py <number_of_topics> <maxiteration>"
@@ -247,12 +252,15 @@ def main(argv):
 
 	corpus = Corpus()
 
-	document_path = './data/research_data/s_20_newsgroups/'
+	# document_path = './data/research_data/s1_20_newsgroups/'
+	# document_path = '../../DB/gms/s_month-5/'
+	# document_path = 'data/gap7_ori/1/'
+	document_path = '../../DB/gms/group_twitter-15-4/'
 
 	file_path_set = open("file-path.txt", "w")
 	for root, dirs, files in os.walk(document_path):
 		for name in files:
-			document_file = root + '/' + name
+			document_file = root + name
 			if 'DS_Store' in document_file:
 				continue
 			# Record the order of file path
@@ -271,7 +279,7 @@ def main(argv):
 	corpus_file.close()
 
 	number_of_topics = 20 #int(argv[1])
-	max_iterations = 30 #int(argv[2])
+	max_iterations = 100 #int(argv[2])
 	plsa = Plsa(corpus, number_of_topics, max_iterations, "./model/")
 	plsa.train()   
 

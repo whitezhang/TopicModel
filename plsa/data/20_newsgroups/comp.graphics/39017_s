@@ -1,9 +1,0 @@
-
- 
- does anyone know how to access and/or display multiple pages in mode 13h
- while still maintaining the 1 byte per pixel memory organization?
- examples in c or assembly would be appreciated...
- thanks
- scott
- 
- 

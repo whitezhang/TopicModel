@@ -1,7 +1,0 @@
-
- i know nothing about sun's but replacing pieces of libraries, shared
- or not, is straight forward on rs/6000's (all releases).  extract the
- appropriate pierce with ar; rebind the .o; and replace with ar.
- see info for details.
- 
- 
