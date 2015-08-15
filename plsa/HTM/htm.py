@@ -6,6 +6,9 @@
 # (c)2010-2011 Nakatani Shuyo / Cybozu Labs Inc.
 
 import numpy as np
+import os
+
+model = "./model/"
 
 class LDA:
 	def __init__(self, K, alpha, beta, docs, V, smartinit=True):
@@ -62,9 +65,19 @@ class LDA:
 		return self.n_z_t / self.n_z[:, np.newaxis]
 
 	def docdist(self):
+		"""get document-topic distribution"""
+		os.remove(model + "news_pzd.txt")
+		pzdout = open(model + "news_pzd.txt", "a")
 		n_m = np.zeros(len(self.docs))
 		for i in range(len(self.n_m_z)):
 			n_m[i] += sum(self.n_m_z[i])
+
+		probs = self.n_m_z/n_m[:, np.newaxis]
+		for doc in probs:
+			for prob in doc:
+				pzdout.write(str(prob)+" ")
+			pzdout.write("\n")
+		pzdout.close()
 		return self.n_m_z / n_m[:, np.newaxis]
 
 	def perplexity(self, docs=None):
@@ -146,6 +159,7 @@ class ATM(object):
 
 	def sampling_topics(self, max_iter):
 		for iter in xrange(0, max_iter):
+			print "Iteration", iter
 			for di in xrange(0, len(self._docList)):
 				doc = self._docList[di]
 				authors = self._authorList[di]
@@ -182,10 +196,12 @@ class ATM(object):
 					self.author_assigned[di][wi] = new_a
 		self.wt_sum = np.sum(self.c_wt, axis=0)
 		self.at_sum = np.sum(self.c_at, axis=1)
-		self.theta = self.c_at/self.at_sum[:, np.newaxis]
-		self.phi = self.c_wt/self.wt_sum[:np.newaxis]
-		print self.theta
-		print self.phi
+		self.theta = self.c_at/self.at_sum[:, np.newaxis]	# author-topic
+		self.phi = self.c_wt/self.wt_sum[:np.newaxis]	# word-topic
+		# print self.theta
+		# print self.phi
+		os.remove(model + "tweets_pzd.txt")
+		pzd_out = open(model + "tweets_pzd.txt", "a")
 		self.pzd = np.ones([self._D, self._K])
 		for di, doc in enumerate(self._docList):
 			# Get the author set of document
@@ -196,8 +212,13 @@ class ATM(object):
 				for word in doc:
 					self.pzd[di, k] *= self.phi[word, k]
 			self.pzd[di] /= sum(self.pzd[di])
-		print self.pzd
+			for values in self.pzd[di]:
+				pzd_out.write(str(values) + " ")
+			pzd_out.write("\n")
+		pzd_out.close()
+		# print self.pzd
 		# print self.getLikelihood()return self.n_z_t / self.n_z[:, np.newaxis]
+		return self.phi
 	
 	def getLikelihood(self):
 		likelihood = 1.0
@@ -222,7 +243,7 @@ def htm_learning(lda, atm, iteration, voca):
 
 
 def atm_learning(atm, iteration, voca):
-	atm.sampling_topics(100)
+	atm.sampling_topics(iteration)
 	pre_likelihood = atm.getLikelihood()
 	# print pre_likelihood
 
@@ -238,10 +259,11 @@ def lda_learning(lda, iteration, voca):
 			if pre_perp < perp:
 				# output_word_topic_dist(lda, voca)
 				# pre_perp = None
+				pre_perp = perp
 				break
 			else:
 				pre_perp = perp
-	return prep
+	return pre_perp
 	# output_word_topic_dist(lda, voca)
 
 # Results
@@ -269,7 +291,9 @@ def main():
 	import optparse
 	import vocabulary
 	parser = optparse.OptionParser()
-	parser.add_option("-f", dest="filename", help="corpus filename")
+	parser.add_option("--newsf", dest="newsfile", help="news corpus filename")
+	parser.add_option("--tweetsf", dest="tweetsfile", help="tweets corpus filename")
+	parser.add_option("-a", dest="authorfile", help="author filename")
 	parser.add_option("-c", dest="corpus", help="using range of Brown corpus' files(start:end)")
 	parser.add_option("--alpha", dest="alpha", type="float", help="parameter alpha", default=0.5)
 	parser.add_option("--beta", dest="beta", type="float", help="parameter beta", default=0.5)
@@ -280,29 +304,84 @@ def main():
 	parser.add_option("--seed", dest="seed", type="int", help="random seed")
 	parser.add_option("--df", dest="df", type="int", help="threshold of document freaquency to cut words", default=0)
 	(options, args) = parser.parse_args()
-	if not (options.filename or options.corpus): parser.error("need corpus filename(-f) or corpus range(-c)")
+	if not (options.newsfile or options.corpus): parser.error("need corpus news file(--newsf) or corpus range(-c)")
+	if not options.tweetsfile: parser.error("need corpus tweets file(--tweetsf)")
+	if not options.authorfile: parser.error("need author file(-a)")
 
-	if options.filename:
-		corpus = vocabulary.load_file(options.filename)
+	if options.newsfile:
+		news_corpus = vocabulary.load_file(options.newsfile)
+		news_len = len(news_corpus)
 	else:
-		corpus = vocabulary.load_corpus(options.corpus)
-		if not corpus: parser.error("corpus range(-c) forms 'start:end'")
+		news_corpus = vocabulary.load_corpus(options.corpus)
+		if not news_corpus: parser.error("corpus range(-c) forms 'start:end'")
 	if options.seed != None:
 		np.random.seed(options.seed)
 
+	twitter_corpus = vocabulary.load_file(options.tweetsfile)
+	twitter_len = len(twitter_corpus)
+	corpus = news_corpus + twitter_corpus
+	
 	voca = vocabulary.Vocabulary(options.stopwords)
-	docs = [voca.doc_to_ids(doc) for doc in corpus]
+	docs = [voca.doc_to_ids(doc) for doc in (corpus)]
+
+	num_authors, author_set = vocabulary.load_author(options.authorfile)
+
 	if options.df > 0: docs = voca.cut_low_freq(docs, options.df)
 
+	corpus_collection = list(set([w for doc in docs for w in doc]))
+	# Initialization
+	lda = LDA(options.K, options.alpha, options.beta, docs[:news_len], voca.size(), options.smartinit)
+	atm = ATM(corpus_collection, options.K, num_authors, docs[news_len:], author_set)
+	
 	# LDA
-	# lda = LDA(options.K, options.alpha, options.beta, docs, voca.size(), options.smartinit)
-	# print ("corpus=%d, words=%d, K=%d, a=%f, b=%f" % (len(corpus), len(voca.vocas), options.K, options.alpha, options.beta))
-	# lda_learning(lda, options.iteration, voca)
+	print "LDA training..."
+	print "corpus=%d, words=%d, K=%d, a=%f, b=%f" % (len(corpus), len(voca.vocas), options.K, options.alpha, options.beta)
+	lda_learning(lda, options.iteration, voca)
+	lda_beta = lda.worddist()
+	lda.docdist()
+	
+	# ATM
+	print "Author Topic Model training..."
+	print "words=%d, twitters=%d, authors=%d" % (len(corpus_collection), len(docs[news_len:]), num_authors)
+	atm_beta = atm.sampling_topics(options.iteration)	# word-topic distribution
 
-	atm = ATM([0,1,2,3,4,5], 3, 10, [[0,0,1,0,2,2,3],[1,3,3,4,4],[1,3,3,3,4],[1,3,3,4,2]], [[0,1],[1,8],[1],[2]])
-	atm.sampling_topics(200)
-	# print "="*10
-	# print atm.getLikelihood()
+	atm_beta = atm_beta.T
+
+	# Write corpus into file
+	os.remove(model + "news_corpus.txt")
+	ncout = open(model + "news_corpus.txt", "a")
+	for doc in news_corpus:
+		for word in doc:
+			ncout.write(word + " ")
+	ncout.close()
+
+	os.remove(model + "tweets_corpus.txt")
+	tcout = open(model + "tweets_corpus.txt", "a")
+	for doc in twitter_corpus:
+		for word in doc:
+			tcout.write(word + " ")
+	tcout.close()
+
+	os.remove(model + "news_beta.txt")
+	os.remove(model + "tweets_beta.txt")
+	os.remove(model + "htm_beta.txt")
+	ldaout = open(model + "news_beta.txt", "a")
+	atmout = open(model + "tweets_beta.txt", "a")
+	htmout = open(model + "htm_beta.txt", "a")
+	htm_beta = np.zeros([options.K, len(corpus_collection)])
+	for i in range(options.K):
+		for j in range(len(corpus_collection)):
+			htm_beta[i, j] = lda_beta[i, j] * atm_beta[i, j]
+			ldaout.write(str(lda_beta[i, j]) + " ")
+			atmout.write(str(atm_beta[i, j]) + " ")
+			htmout.write(str(htm_beta[i, j]) + " ")
+		ldaout.write("\n")
+		atmout.write("\n")
+		htmout.write("\n")
+	ldaout.close()
+	atmout.close()
+	htmout.close()
+	
 	# ATM
 	# atm = (voca, options.K, N_AUTHORS, twitter_docs, AU_LIST)
 	#import cProfile
