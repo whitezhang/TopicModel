@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Annotation text=" i've acquired an old logitech series 7 3button mouse and i'm told that this is a bus mouse  does anyone want to unload an old pcclone buscard for this mouse  email replies to  bobmon@csindianaedu  thanks " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
-<Resources>
-<Resource URI="http://dbpedia.org/resource/Logitech" support="187" types="DBpedia:Company,DBpedia:Organisation,Schema:Organization,Freebase:/computer/software_developer,Freebase:/computer,Freebase:/business/brand,Freebase:/business,Freebase:/business/business_operation,Freebase:/organization/organization,Freebase:/organization,Freebase:/business/employer,Freebase:/business/issuer" surfaceForm="logitech" offset="22" similarityScore="0.08654601871967316" percentageOfSecondRank="-1.0"/>
-<Resource URI="http://dbpedia.org/resource/Email" support="856" types="Freebase:/internet/website_category,Freebase:/internet,Freebase:/law/invention,Freebase:/law,Freebase:/book/book_subject,Freebase:/book,Freebase:/computer/software_genre,Freebase:/computer,Freebase:/film/film_subject,Freebase:/film" surfaceForm="email" offset="159" similarityScore="0.06521787494421005" percentageOfSecondRank="-1.0"/>
-</Resources>
-</Annotation>

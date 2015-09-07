@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Annotation text="Xref cantaloupesrvcscmuedu recgamesboard26290 miscforsale74746Path cantaloupesrvcscmuedurochestercornellbatcomputercaenzaphodmpsohiostateedumagnusacsohiostateeduusenetinscwrueduagatebadgerBerkeleyEDUtlinFrom tlin@badgerBerkeleyEDU Tony LinNewsgroups recgamesboardbawantedmiscforsaleSubject WANTED  SPI's War of the RingDate 5 Apr 1993 211529 GMTOrganization Statistics Dept U C BerkeleyLines 9Distribution worldMessageID 1pq7hh$l96@agateberkeleyeduNNTPPostingHost badgerberkeleyeduThe subject line says it all  I'm trying to locate a copy of SPI'sboard game War of the Ring  Anyone have a copy with which they arewilling to partThanks a million  Tonytlin@statberkeleyedu" confidence="0.2" support="20" types="" sparql="" policy="whitelist">
-<Resources>
-<Resource URI="http://dbpedia.org/resource/Game_theory" support="817" types="Freebase:/award/award_winning_work,Freebase:/award,Freebase:/education/field_of_study,Freebase:/education,Freebase:/book/book_subject,Freebase:/book,DBpedia:TopicalConcept" surfaceForm="game" offset="553" similarityScore="0.056416939944028854" percentageOfSecondRank="0.7953182010903503"/>
-<Resource URI="http://dbpedia.org/resource/War_of_the_Ring" support="174" types="Freebase:/book/book,Freebase:/book,Freebase:/book/written_work" surfaceForm="War of the Ring" offset="558" similarityScore="0.07028081268072128" percentageOfSecondRank="-1.0"/>
-</Resources>
-</Annotation>

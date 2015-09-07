@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Annotation text="Newsgroups composmswindowsmiscPath cantaloupesrvcscmuedudasnewsharvardedunocnearnetnewscenterlinecomuunetmathfuberlindenewsbelwuedeifinewsFrom huebner@informatikunistuttgartde Ralf HuebnerSubject 3852 Driver WantedMessageID 1993Apr2809511319483@ifiinformatikunistuttgartdeSender news@informatikunistuttgartdeReplyTo huebner@informatikunistuttgartdeOrganization IPVR University of Stuttgart GermanyDate Wed 28 Apr 1993 095113 GMTLines 19Helloi'm looking for a Driver for an IBM 38522 Color Ink Jet PrinterAny pointers are welcomethanks in advanceRalfhuebner@informatikunistuttgartde" confidence="0.2" support="20" types="" sparql="" policy="whitelist">
-<Resources>
-<Resource URI="http://dbpedia.org/resource/University_of_Stuttgart" support="193" types="DBpedia:University,DBpedia:EducationalInstitution,DBpedia:Organisation,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,Freebase:/business/employer,Freebase:/business,Freebase:/education/university,Freebase:/education,Freebase:/location/location,Freebase:/location,Freebase:/organization/organization,Freebase:/organization,Freebase:/education/educational_institution" surfaceForm="University of Stuttgart" offset="366" similarityScore="0.05718677118420601" percentageOfSecondRank="-1.0"/>
-</Resources>
-</Annotation>

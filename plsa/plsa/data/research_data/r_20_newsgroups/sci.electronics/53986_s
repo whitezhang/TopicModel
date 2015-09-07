@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Annotation text=" there is a file at the simtel archives called adda10zip i think that is for dsp " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
-<Resources>
-<Resource URI="http://dbpedia.org/resource/Computer_file" support="473" types="DBpedia:TopicalConcept" surfaceForm="file" offset="12" similarityScore="0.14811334013938904" percentageOfSecondRank="0.8158863259500924"/>
-<Resource URI="http://dbpedia.org/resource/Archive" support="455" types="Freebase:/fictional_universe/fictional_organization_type,Freebase:/fictional_universe,Freebase:/book/book_subject,Freebase:/book,Freebase:/organization/organization_type,Freebase:/organization,Freebase:/organization/organization_sector,DBpedia:TopicalConcept" surfaceForm="archives" offset="31" similarityScore="0.12802450358867645" percentageOfSecondRank="-1.0"/>
-<Resource URI="http://dbpedia.org/resource/Digital_signal_processing" support="413" types="Freebase:/book/book_subject,Freebase:/book,Freebase:/education/field_of_study,Freebase:/education,Freebase:/business/industry,Freebase:/business,DBpedia:TopicalConcept" surfaceForm="dsp" offset="77" similarityScore="0.11452773213386536" percentageOfSecondRank="0.7283955556631129"/>
-</Resources>
-</Annotation>

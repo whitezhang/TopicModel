@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Annotation text=" 1b career  don mattingly " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
-<Resources>
-<Resource URI="http://dbpedia.org/resource/Career" support="440" types="Freebase:/media_common/quotation_subject,Freebase:/media_common,Freebase:/broadcast/genre,Freebase:/broadcast,Freebase:/book/book_subject,Freebase:/book" surfaceForm="career" offset="4" similarityScore="0.16929888725280762" percentageOfSecondRank="-1.0"/>
-<Resource URI="http://dbpedia.org/resource/Don_Mattingly" support="159" types="DBpedia:BaseballPlayer,DBpedia:Athlete,DBpedia:Person,Schema:Person,Freebase:/sports/pro_athlete,Freebase:/sports,Freebase:/award/award_winner,Freebase:/award,Freebase:/baseball/baseball_coach,Freebase:/baseball,Freebase:/tv/tv_actor,Freebase:/tv,Freebase:/baseball/baseball_player,Freebase:/people/person,Freebase:/people,Freebase:/sports/sports_award_winner,Freebase:/people/measured_person,Freebase:/book/book_subject,Freebase:/book" surfaceForm="don mattingly" offset="12" similarityScore="0.23754838109016418" percentageOfSecondRank="-1.0"/>
-</Resources>
-</Annotation>

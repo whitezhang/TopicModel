@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Annotation text=" title says it all  i'd be particularly interested in the performance difference  just how much faster 50% is the centris 610 over the lciii  tom  uucp humunctams1pnet16tomj arpa humunctams1pnet16tomj@noscmil inet tomj@pnet16ctscom " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
-<Resources>
-<Resource URI="http://dbpedia.org/resource/Title" support="343" types="" surfaceForm="title" offset="1" similarityScore="0.05019447207450867" percentageOfSecondRank="0.7122955391934793"/>
-<Resource URI="http://dbpedia.org/resource/Performance_%28film%29" support="87" types="DBpedia:Film,DBpedia:Work,Schema:CreativeWork,Schema:Movie,Freebase:/film/film,Freebase:/film,Freebase:/award/ranked_item,Freebase:/award,Freebase:/award/award_nominated_work,Freebase:/media_common/netflix_title,Freebase:/media_common" surfaceForm="performance" offset="58" similarityScore="0.08120472729206085" percentageOfSecondRank="0.9033517770343534"/>
-<Resource URI="http://dbpedia.org/resource/UUCP" support="78" types="" surfaceForm="uucp" offset="147" similarityScore="0.07673466950654984" percentageOfSecondRank="-1.0"/>
-<Resource URI="http://dbpedia.org/resource/DARPA" support="562" types="DBpedia:GovernmentAgency,DBpedia:Organisation,Schema:Organization,Schema:GovernmentOrganization,Freebase:/aviation/aircraft_owner,Freebase:/aviation,Freebase:/business/employer,Freebase:/business,Freebase:/government/government_agency,Freebase:/government,Freebase:/venture_capital/venture_investor,Freebase:/venture_capital,Freebase:/organization/organization,Freebase:/organization" surfaceForm="arpa" offset="174" similarityScore="0.05005910247564316" percentageOfSecondRank="-1.0"/>
-</Resources>
-</Annotation>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Annotation text="Path cantaloupesrvcscmuedudasnewsharvardeduogicsedecwrluunetnntp1radiomailnetfernwoodshografjackFrom jack@shografcom Jack RitterNewsgroups compgraphicsSubject HelpMessageID C531E67uo@shografcomDate 6 Apr 93 220606 GMTArticleID shografC531E67uoDistribution usaOrganization SHOgraphics SunnyvaleLines 9I need a complete list of all the polygonsthat there are in orderI'll summarize to the net   If only I had been compiled with the 'g' option" confidence="0.2" support="20" types="" sparql="" policy="whitelist">
-<Resources>
-<Resource URI="http://dbpedia.org/resource/Path_%28computing%29" support="69" types="" surfaceForm="Path" offset="0" similarityScore="0.061476659029722214" percentageOfSecondRank="0.5103485741415779"/>
-<Resource URI="http://dbpedia.org/resource/Annual_percentage_rate" support="50" types="" surfaceForm="Apr" offset="200" similarityScore="0.04929827153682709" percentageOfSecondRank="0.29940833817209844"/>
-<Resource URI="http://dbpedia.org/resource/Compiler" support="1100" types="Freebase:/computer/software_genre,Freebase:/computer,Freebase:/book/book_subject,Freebase:/book" surfaceForm="compiled" offset="412" similarityScore="0.05213341489434242" percentageOfSecondRank="-1.0"/>
-<Resource URI="http://dbpedia.org/resource/Option_%28finance%29" support="345" types="DBpedia:TopicalConcept" surfaceForm="option" offset="434" similarityScore="0.04972732067108154" percentageOfSecondRank="0.7499004388183429"/>
-</Resources>
-</Annotation>

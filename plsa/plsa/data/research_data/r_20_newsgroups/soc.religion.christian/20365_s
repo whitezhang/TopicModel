@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Annotation text=" therefore whoever humbles himself like this child is the greatest in the kingdom of heaven   matthew 184 " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
-<Resources>
-<Resource URI="http://dbpedia.org/resource/Kingdom_of_Heaven_%28film%29" support="145" types="DBpedia:Film,DBpedia:Work,Schema:CreativeWork,Schema:Movie,Freebase:/film/film,Freebase:/film,Freebase:/award/award_nominated_work,Freebase:/award,Freebase:/award/award_winning_work,Freebase:/media_common/netflix_title,Freebase:/media_common" surfaceForm="kingdom of heaven" offset="74" similarityScore="0.241939514875412" percentageOfSecondRank="0.4760785194348018"/>
-</Resources>
-</Annotation>

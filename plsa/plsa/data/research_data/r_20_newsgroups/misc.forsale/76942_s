@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Annotation text="   i'm interested in a center channel for my home theater if yu have one  and would be interested in selling one please let me know thanks prefer ably an infinity or polk audio  " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
-<Resources>
-<Resource URI="http://dbpedia.org/resource/Home_cinema" support="129" types="" surfaceForm="home theater" offset="45" similarityScore="0.14385683834552765" percentageOfSecondRank="0.6009600200702937"/>
-<Resource URI="http://dbpedia.org/resource/Preference" support="71" types="Freebase:/book/book_subject,Freebase:/book" surfaceForm="prefer" offset="139" similarityScore="0.07115345448255539" percentageOfSecondRank="-1.0"/>
-<Resource URI="http://dbpedia.org/resource/Infinity" support="342" types="Freebase:/media_common/quotation_subject,Freebase:/media_common,Freebase:/book/book_subject,Freebase:/book,DBpedia:TopicalConcept" surfaceForm="infinity" offset="154" similarityScore="0.07330534607172012" percentageOfSecondRank="-1.0"/>
-</Resources>
-</Annotation>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Annotation text="Newsgroups recsporthockeyPath cantaloupesrvcscmuedurochestercornellbatcomputercaenuvaarpamaxwellmjr4uFrom mjr4u@VirginiaEDU Matthew J RushSubject Re NCAA finalsWinnerMessageID 1993Apr520550628579@VirginiaEDUOrganization University of VirginiaReferences 1993Apr416565516932@miavx1acsmuohioeduDate Mon 5 Apr 1993 205506 GMTLines 4ktgeiss@miavx1acsmuohioedu writes Lake StateMaine in finalsWHO WON   Please postMaine 54 " confidence="0.2" support="20" types="" sparql="" policy="whitelist">
-<Resources>
-<Resource URI="http://dbpedia.org/resource/National_Collegiate_Athletic_Association" support="4173" types="DBpedia:Organisation,Schema:Organization,Freebase:/sports/sports_league,Freebase:/sports,Freebase:/business/employer,Freebase:/business,Freebase:/business/brand,Freebase:/book/author,Freebase:/book,Freebase:/organization/organization,Freebase:/organization,DBpedia:TopicalConcept" surfaceForm="NCAA" offset="149" similarityScore="0.05013962462544441" percentageOfSecondRank="0.6617937860295813"/>
-</Resources>
-</Annotation>
